@@ -1,0 +1,1103 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on
+deflection of beans
+you know I'll try to cover some problems
+from method of superposition
+followed by the energy method
+my main focus will be on
+discussing how to approach the problem
+the mathematical simplification I leave
+it as an exercise
+that also helps you to ruminate over
+what is discussed in the class
+and please do the mathematical
+simplification yourself
+you know in the last class I asked you
+to do this as a homework
+and you know how students operate so
+it's better that I discuss it again
+we have done by
+momentaria method what is the n
+deflection
+and also the
+slope at the load application point for
+both these cases
+and these two loads are simultaneously
+applied to the beam which you can think
+of as superposition of a end load
+and a bending moment
+and this is a statically determinate
+problem
+fine you have individual Solutions
+available
+and you simply add those Solutions
+whether it is a displacement or a
+deflection or a slope
+our focus is to get
+what is the combined effect and we have
+already derived what is V1 V1 is minus p
+l q by three e a i have said that PL
+cube is a very very important result we
+may be using it repeatedly it is worth
+remembering that
+and you have Theta 1 as minus p l Square
+by 2 e i
+we have also seen for a
+bending moment what is the value of
+V two
+and Theta 2.
+so when I have a combined loading the
+principle of superposition says I can
+add them for illustration purposes these
+deformations or deflections are shown
+very very large in reality they are very
+small
+and you can comfortably add them
+so that I get
+what is the
+tip deflection
+and also the slope at the tip
+simply the
+arithmetic addition of
+the values that we have got for
+individual problems so V becomes minus
+of p l q by three E A Plus M L squared
+by two e a see the idea here is I have
+also mentioned assigning the sign to
+these quantities
+you have a procedure where you plot the
+deflection and then label it that's the
+best way to do it if you do a double
+integration or integration four times if
+you follow the sign convention all the
+quantities are obtained with the desired
+sign in on none of the other methods you
+have that luxury
+okay
+here I have shown this as minus
+but you may not get it from the
+mathematics as such now let us look at a
+statically indeterminate system I
+suppose you recognize that it is
+statically indeterminate
+okay so the question is what is the
+reaction at B
+which you could not have solved in your
+earlier course on Rigid body mechanics
+unless I bring in the deformation
+picture it's not possible to solve using
+equations of Statics
+now I will split this as two problems
+you should also know how to split it as
+two problems
+it is a statically indeterminate problem
+and you know you have been trained when
+I have a support like this when I have a
+fixed support
+you have in the fixed support slope is
+zero
+deflection is also zero so you know how
+to sketch this
+deflected shape anticipated deflections
+shape
+what I do is in the first case I remove
+this load this support
+I make this as a
+statically determinate problem
+and if you look at the table that's what
+I said the moment I go into
+method of superposition you will be
+provided with the table
+and your only exercises to filter out
+which solution you should use it for
+your calculations that exercise you have
+to do
+and our focus is to find out the
+reaction so I have just
+put the deflection and the reflection is
+put us by this what I said people have
+used y as a symbol or v as a symbol
+and instead of Phi they use Theta
+instead of rho they use capital r so all
+of these
+symbols are seen in the books so you
+should be comfortable by
+looking at them repeatedly and you can
+also sketch what is the deflected
+pattern
+when I have a uniformly distributed load
+and I can have the second problem
+so from this it is possible for me to
+find out the deflection
+I call this as V1 I get this as minus WL
+power 4 by 88.
+and here I remove that distributed load
+I
+replace this as a reaction or the
+fine
+and you know this is nothing but a
+cantilever
+and with this load
+what way you anticipate the deflector
+shape
+the deflector shape will be like this
+this you should be very comfortable to
+visualize visualization is very very
+important
+so when I calculate the deflection I
+should put the appropriate sign and get
+the net
+fine
+but here the question is to find out the
+reaction RB so when I have the reaction
+RB
+I anticipate that there is zero
+deflection at this point in the actual
+beam
+so I equate these two deflections
+by magnitude and I can easily calculate
+what is the value of
+the force or the which you could not
+have calculated near rigid body
+mechanics
+even though it is a statically
+indeterminate problem
+method of superposition helps you to do
+that
+I hope I have the value of RB
+yeah three one plus v 2 should go to
+zero
+so I get RB as 3 w l by 8.
+so a very useful application of method
+of superposition
+then we move on to another problem
+you know
+what is this problem can you solve it by
+rigid body mechanics
+he says statically determinate or
+indeterminate
+first you should recognize that
+when a problem is posed to you you
+should recognize whether it is
+statically determinate or indeterminate
+if I don't have a spring it is
+statically determinate if I have a
+spring
+it is statically indeterminate it's not
+possible for you to solve using the
+principle of Statics
+but you know spring will deform so you
+can
+split this as
+sub problems
+and also visualize the deformation
+picture so one problem is just look at
+the end load
+other problem is just look at the spring
+attached spring is going to produce a
+normal force
+the question here is how do you
+visualize the
+deflection there
+I have said that these two points are
+important so I have labeled this as y1
+and this is Y2
+and I have a second problem where I
+replace the spring
+by a force and which way should I put
+the force
+ah all that you should apply your mind
+blindly you should not do you should
+understand the physics of the problem
+when I put the tip load when the beam is
+push downwards
+the spring will try to pull it up
+you know if you do not look at these
+issues and
+don't put the problems properly then you
+are solving a different problem
+so you should apply your sense of
+visualization so I will put the reaction
+like this
+can you attempt to draw the
+deflected pattern for this how many of
+you recollect what are the nuances that
+we have discussed it is very important
+because you know in a hurry to solve
+problem you miss the new answers
+I have load only have applied at B the
+portion BC is unloaded
+and it is uh put out upwards
+and you have this you can sketch it
+what is the way you anticipate the
+deflected pattern here
+straight line that's very good
+so I am also showing it by a different
+line to emphasize
+that this has the rotation of the slope
+at this point B and it remains straight
+suppose I want to do it by energy method
+when it is
+rigid
+it cannot store in energy
+fine that is also you have to use it
+which we have seen it beautifully in the
+experimental this one in the previous
+class that's also shown there
+and I label this deflection as Y3
+label this deflections wife
+so if I find out the deflections Y one y
+two y three y four my job is done
+I am going to discuss how to do this
+rest of the mathematics left you
+fine that simplification which you can
+do
+and the first issue is you know what is
+the solution that I should look from the
+table
+you have a generic solution available
+for the account deliver with a
+tip load not a tip load but it is a at a
+distance B from the tip you have the
+expression for V
+you also have the expression for
+the Theta
+I have that probably it is not coming up
+okay
+you know I have this as the problem
+I have to find out if I have to find out
+what is Y2
+why to can you tell me how what is Y2
+you do not have to even look up that
+expression
+what is the value of I two I have a
+cantilever with the tip load p
+that's all
+fine so you should it's a very useful
+result plq by 3A is a very useful result
+I have not even put this symbol I mean
+sign sign here the idea here is you know
+you will have this and in the in the
+diagram it is put very very U2 Y2
+when I have y two listed in the diagram
+if I give the magnitude that is also
+sufficient
+I should not make a mix up in my
+mathematics okay
+and
+at x equal to l by two
+you can substitute here and you can find
+out what is the value of y one when I
+simplify I will get this
+I get this y one as Phi plq by forty ATA
+so the first exercise is you should look
+at the table
+which gives you generic solution which
+one you need to use it for this given
+problem that is the first exercise
+and learn how to interpret what is
+stated in the expression
+because it says how to handle this
+bracket ok
+that's all very very simple you should
+be alert that's all
+so I have calculated y one and Y 2
+in a very simplistic manner
+and I also need the value of theta at
+least the next step we need this that is
+given as W A Squared by 2 e a
+so you should know how to use this
+information
+that we will see for the
+spring force that is spring Force which
+is acting here
+and can you tell me what is the
+deflection here Y3
+you don't have to see anything RL Cube
+by
+r l by 2 Cube OK that's what you have to
+do it here the length is L by two
+so you have to do that r l by two whole
+Cube by three e i certain things you
+know you have to pick up speed
+if you you are expected to solve as many
+problems as possible before you come for
+the examination and we you have to
+remember PL cube a three EA that's a
+very very useful result
+so I have RL Cube by 24 e i and how do I
+find out the deflection at C
+fine you you need the slope here
+and you also need to know the length
+ok so this will be addition of y 3 plus
+something
+okay
+so I have this as theta 3 is given from
+this expression w a square by 2 e a a is
+here is L by two so r l by two whole
+Square by 2 e a
+so you should know how to
+handle these equations so very very
+simple it's only High School knowledge
+is required
+but you have to be alert and careful
+and you have this as a straight line it
+is emphasized in the diagram also
+so I have y four as y 3 plus theta 3 and
+T L by two see the theta 3 into L by two
+we are doing it because we are handling
+very small deformation that aspect you
+should remember
+fine that aspect you should remember
+so I get this as rlq by 24 e a
+plus R and T L by two whole Square by
+two e a multiplied by L by two
+so I get this as Phi r l Cube by 4080a
+once I determine these deflections
+finding out the spring Force is doable
+and also the end deflection
+so that's what I am going to summarize
+it here
+this is
+looked upon as summation of two problems
+one with the end load
+another with the spring Force I
+cautioned
+that when you look at the spring Force
+you should put the spring force in the
+right direction
+if you don't put it in the right
+direction you are solving a different
+problem
+so you should physically
+respond to what is given in the problem
+statement
+so I have
+y 3 and Y four are available now
+Y3 is RL cube is 24 a y 4 is Phi RL Cube
+by 4080a
+and how do I get the spring Force I know
+y one and Y three
+so your spring force is nothing but K
+times y one minus Y3
+so which you can do the simplification
+and when you do this the
+spring Force comes to be 5p by
+2 multiplied 1 plus 24 e i by k l q
+you may also verify my
+simplification if there are any
+typographical errors please
+alert me and you can also get the
+deflection at the end what is the
+deflection at the end
+what is the deflection at the end
+y two minus y four that's all as simple
+as that Y 2 minus y four
+so
+you can draw the deflected shape
+assign the sign at the end
+that's physically appreciating the
+problem and getting the magnitudes
+that's a better way to handle some
+method of superposition
+and this turns out to be please verify
+my simplification
+plq by 3E a multiplied by 1 minus
+25 divided by 32 multiplied by 24 e a by
+K L Cube Plus 1.
+ok
+so I expect you to do the
+arithmetic simplifications
+then we move on to
+another problem
+what is this beam
+I have support here I have support here
+I have support here
+it is continuously supported
+and it is statically indeterminate I
+have written it in the title itself but
+you should be able to recognize that
+this is statically indeterminate
+and the question is find the reaction
+forces at B and C
+and here I said that you should be
+trained on visualizing what is the
+anticipated deflected shape
+you know the supports fine
+and I have a distributed load what do
+you anticipate as the deflected shape
+here that you can draw
+what is anticipated shape it will come
+down isn't it
+I can draw that
+I can draw this that I can draw
+the idea to remember is here you will
+have a slope
+because this is not a fixed end
+how do you represent F extend
+the slope has to be zero deflection is
+also has to be zero so I can I can
+sketch what is the portion here
+join these two intelligently
+is idea clear see you should also the
+main purpose of getting into principle
+of superposition is
+to train you to visualize what happens
+to the beam even before you start
+solving it
+if you have that anticipation you can
+also verify have you done any mistakes
+in your mathematical development
+so the deflected shape possible
+reflector shape is this so the training
+in method of superposition is to make
+you visualize do not treat this as a
+problem of simple integration
+it has a life there is a physical
+problem you should interpret the physics
+of the problem as well as possible
+so now I can split this as how many
+problems
+three problem that's very good so I have
+a problem number one
+I have problem number that
+two
+I have problem number three
+and you should put those reactions
+appropriately and also
+filter out what is the
+relevant solution that you should take
+it out from this see I need two of that
+I need one for the cantilever and also
+for the in between load now you know
+after solving a few problems you find
+how useful the cantilever solution it
+might as well remember it
+because when you solve several problems
+it automatically gets into your blood
+so for these two we have already seen
+the solution so you know how to get the
+deflected shapes and also the
+value of deflection
+okay
+so I have this as y one C plus y two c
+plus y three C should be zero so that's
+what happens here so that will help me
+to get me what is RC I would expect you
+to simplify
+and solve it yourself and get RC as 12
+WL by 56.
+please correct me if I have made any
+simplification errors and Y B is 0 so I
+will have I one b y two B plus y three B
+should be equal to 0.
+so this gives me RBS 19 WL by 56.
+so you have to
+recognize how many sub problems I should
+have for a given
+loading
+and recognize what is whether it is
+statically determinate or indeterminate
+for your understanding because when you
+split this they are all statically
+determinate problems
+and you have from the table what
+solution that you have to call out that
+also requires training and you know to
+interpret this you should see what is
+the definitions given so handle that
+very carefully
+fine
+you know one of the most useful methods
+in engineering science development is
+handling Energies
+okay the moment you come to deformable
+solids we say that
+specimen is going to deform that means
+it has capacity to store the energy
+and to make our life simple we said the
+reversible process it gives out the
+energy there are no frictional losses
+even though frictional losses happen in
+actual systems you may try to minimize
+it
+and your mathematics becomes much
+simpler if these are reversible
+processes okay
+and for illustration you take a spring
+but you know very well when I pull a
+spring it has a very complex
+response we will also solve this problem
+later but here what is looked at is
+you have an engineering material
+which deforms similar to a spring so I
+have a axial Rod which is pulled out
+imagine it like this
+OK and to
+make our life simple because we want to
+develop equation in a manner that if I
+differentiate the energy with respect to
+the force I get the deflection that is
+what we are going to prove
+we may live on linear systems but to
+illustrate the important difference why
+I have to work on what is known as
+complementary energy
+we start with a nonlinear spring
+what is the in implication of a
+non-linear spring when I draw the force
+deflection relation it's not going to be
+a straight line it will be of some color
+okay I have the curve like this is a
+non-linear spring
+and what is the energy stored
+and in all these problems so far we have
+discussed whenever we show a load P the
+load P was applied gradually from 0 to p
+it is not that you have an impact load
+of P
+we implicitly understood that these
+loads are gradually applied
+and the deflection is seen as the load
+is increased
+so the area under the curve is going to
+give you the energy stored
+so you have the potential energy I have
+D Delta
+so I can write this as
+energy is given a symbol capital u
+so don't
+mix it up with small use small U is used
+for displacement
+capital u is used for energy
+I have this from integrate integrated
+from 0 to Delta f d Delta that's what
+you will write here
+isn't it
+so when I do this I show it pictorially
+that we are calculating the area under
+the curve if I know what is the forced
+deflection relation I can evaluate this
+quantity numerically
+but this is not convenient for me to
+use it for me to get the deflection
+now I look at not this energy
+by look at the
+energy in this Zone that is labeled as a
+complementary potential energy
+because the spring is
+non-linear
+you will have some other quantity as
+complementary energy is the idea clear
+what I have area under this curve or
+what I have area under this curl will be
+different distinctly different they are
+not same
+here I have taken a small element and I
+have written the integral
+f d Delta if I do the same thing here
+what way you anticipate
+DF will come OK that is what is we are
+interested in that
+when the point of application of
+variable Force F undergoes a
+displacement Delta
+complementary energy which is always
+labeled as U star capital u star is
+defined as
+I have this d f
+so I find out what happens for the
+entire load application
+so I put this as Delta into DF
+and if I show this pictorially I have
+this as the area and these two are
+different you have the complementary
+potential energy area is different
+but this is very nice for me to do it
+suppose I differentiate this expression
+I differentiate d u star by d f I will
+get the deflection in this chapter we
+are finding out what is the deflection
+if I calculate the energy stored in the
+body if I differentiate
+when I have a non-linear system I should
+find out the complement energy can you
+quickly see what is the simplification
+in linear systems think about it I'm
+going to discuss it okay
+so this is a complement energy and you
+know for sure you will have some
+magnitude U star will have some other
+magnitude as long as the system is
+non-linear suppose I have the system is
+linear
+okay what way it will happen
+so you have the acoustic leonos theorem
+okay
+what does the theorem says
+for a small increment in the load Delta
+f i
+this is again a very important statement
+if the inline displacement it's also
+called work absorbing component
+is Delta I then one has so you are not
+understand see when I have the body like
+this
+it will deform
+at the point of load application it can
+move in a generic path
+fine which is the one which causes
+the work or the energy to be stored only
+the work absorbing component that is the
+component of displacement in the
+direction of the force
+this is a very important statement in
+inline displacement ok so I have the
+force F3
+and I say that it has a
+deflection in this fashion
+this deflection can be resolved into one
+along the force F3
+and one perpendicular to that
+and what you have as a displacement here
+this is called inline displacement and
+that would be labeled as Delta a and
+this will be labeled as f i
+fine only this contributes to energy
+storage or worked up
+and what does this theorem says
+this theorem says Delta I
+multiplied by Delta f i equal to Delta U
+star
+and
+when you say you can also write this as
+Delta U star divided by Delta f i equal
+to Delta I
+in the limit
+Delta F A tends to 0 I can write this as
+dou U star by dou f i you get the
+displacement Delta is a very powerful
+theorem which we would
+keep using it even in your higher
+studies
+if the total complement energy used are
+of a loaded system is expressed in terms
+of the loads that is the key point
+I should express my energy stored in the
+system
+as an expression of loads I should get
+that
+the inline deflection at any particular
+loading
+loading point is obtained by
+differentiating U star with respect to
+the load at that point so I have to
+essentially get a mathematical
+expression
+differentiate it then substitute the
+values
+that is how you have to solve the
+problem when you have the energy method
+even if it given as numbers you must
+convert that into symbols so that you
+are in a position to differentiate it
+finally put the numbers
+so what happens in a linear system
+we have developed it deliberately for an
+online system to drive home the point we
+need to work with complementary energy
+you should never forget that
+when I take a linear system it so
+happens whether it is a when I have a
+linear system I have a line like this so
+automatically this will be of equal
+areas
+so I have this as
+U star equal to
+Delta into d f
+that's all also equal to f d Delta
+so I can calculate
+the expression
+in a very comfortable Manner and for a
+linear system what you have as dou U
+star by dou f i equal to Delta I a
+simply reduces to dou U by dou f i equal
+to Delta I it's a very powerful theorem
+it looks very simple it takes a very
+small time to develop but its utility is
+very significant very complex problems
+you can solve I have said in our
+development of moment curvature relation
+we ignore the effect of shear
+isn't it and I said that I am going to
+tell you a method by which you will be
+able to find out what is the sheer
+contribution to the reflection we will
+solve that as a problem
+so many of those seemingly complex
+problems you can easily handle if you
+visualize it from the energy point of
+view but the development is very simple
+now what we need to understand is how to
+calculate the energy
+but before that
+you know you may not have the luxury
+that I want to find out the reflection
+at this point or this point or some
+other point I may not have a load there
+one of the requirement of this is I
+should have a load acting at that point
+fine and I should
+differentiate with respect to that then
+I will get an inline displacement the
+method itself says it says fictitious
+load method that means you
+wherever you want to find out the
+deflection you introduce a load
+okay
+if a deflection Delta is desired at a
+point where there is no load or in a
+direction which is not in line with the
+load introduce a load
+and find out the energy because of that
+q that it can be a point here
+it can be it can be that is not in line
+with this I want to find out what is
+perpendicular to that
+or I can also have in another point
+introduce a fictitious load Queue at the
+desired point in the desired Direction
+ok
+Express the elastic energy in terms of f
+i and Q
+then you have dou U by dou Q
+after you differentiate you make Q equal
+to 0 you will get Delta
+this also we will solve we will try to
+solve the problem then you will
+understand the very powerful technique
+it's a in a jiffy you can solve even
+complex problems you don't have to do
+complex integration or anything like
+that very simply you can do that
+so now the focus is how to calculate the
+energies
+strain energy
+okay we will go and look at that
+now here again though I have shown a
+spring imagine that I have a rod made of
+aluminum or Steel
+which is pulled out
+and I have a gradual load application
+when I have a gradual load application
+it is a triangle so I have this as one
+half of P into Delta
+so what I have Force into displacement
+is work done
+because the load is applied gradually I
+have this as half so you should never
+forget that
+long time back you have done virtual
+work
+there the physics is different
+okay
+here
+I have this load applied gradually
+I have the quantity one half coming into
+the picture
+so similarly you know I can develop the
+set of equations if I have an axial
+stress
+or if I have a shear stress because we
+have already discussed what happens when
+a member is subjected to tension
+when a member is subjected to torsion
+when a member is subjected to bending
+you know what are the stresses developed
+once you know what is the area I can
+convert the stress into Force so what
+this expression says is forced into
+displacement
+multiplied by one half same thing we
+will also do it here so we will do it
+for
+axial stress
+okay I have this as
+Epsilon X
+and I have this as Force Sigma x d y d z
+gives me the force and Epsilon X DX
+gives me the
+deflection okay the elongation inline
+displacement inline displacement it
+gives one half
+so when I do this I get an expression
+one half of Sigma X Epsilon X DB
+so if I go to torsion find out what is
+the stress for torsion you have to go to
+shear stress but if I go to bending I
+know the expression for Sigma X I know
+the expression for Epsilon X so I can
+calculate what is the energy stored
+because of a bending moment
+is idea clear
+so now I go to shear stress when I apply
+the shear stress what happens
+you know gamma X Y is used gamma X Y is
+the way the mathematics got developed
+only when the tensorial transformation
+came people understood that you should
+always use one half of gamma XA for
+transformation
+but you write this like this so I have
+the force as Tau XY d x d z
+and the inline displacement as gamma x y
+d by
+so I get this as one half of Tau XY
+gamma X by DV
+so these are very fundamental
+Expressions now I will go and see what
+happens in an axial load
+what happens in a torsional load what
+happens in a bending load
+I have this as P by a sigma X
+Epsilon X is p by a e so when I do this
+I get this as one half of P Squared by
+a e into DX okay
+because I can write the volume as d a
+into d x so I have the famous expression
+U equal to one half of integral 0 t l
+you are talking about a slender member
+fine P Square by a e to d x now let us
+go to torsion
+so when I go to torsion I have Tau Theta
+Z as m t r by i p gamma Theta Z is MTR
+by g i p we have a recipe how to get the
+energy when I know the strains and
+stresses
+so I get
+the torsional energy as
+integral 0 t l m t Square by 2 g i e p d
+z look at the similarity between the two
+is very very similar the expressions are
+very similar it's easy to remember also
+easier to derive and easier to remember
+also
+can you anticipate what way you will get
+it for bending
+it's very similar it's cyclically it's
+coming okay
+so I have the sigma X and Epsilon X is
+there
+and when I say bending I have we are
+talking about pure bending
+and then away from the
+load application points away from the
+load application points we have this
+so I have Epsilon Sigma X and Epsilon X
+so I can find out what is ah
+the energy stored
+and when you simplify
+this also has identical picture like
+this I have this as integral 0 t l m b
+squared by two e i z z into DX
+all these three expressions are very
+similar okay L you will appreciate the
+utility when you solve the Practical
+problem I have a problem where I have a
+member like this it's like you are
+having a hand like this somebody is
+putting a load
+so you should visualize what happens to
+your shoulder
+fine what happens in this section A B
+section A B is subjected to what section
+b c subjected to what
+only torsion
+ah a b is subjected to torsion as far as
+bending and BC is subjected to only
+bending and we ignore the shear
+deformation we do not want to complicate
+now I will solve Shear deformation this
+is a separate problem
+so you should recognize that I have to
+calculate the energies
+for torsion and bending so first I start
+with the expressions for the bending
+which we have already
+developed instead of d x I have put this
+as d s because I have a member like this
+so it represents length along the member
+and you can find out the expression for
+the bending moment
+as a function
+strain energy due to Shear loading is
+neglected that's what I said earlier to
+start with
+so in section BC there is only energy
+due to bending
+so you can write the bending moment
+is p x so I I had PS squared by two e i
+z z d x
+even the sign doesn't matter okay
+because it gets quiet
+so P Square L Cube by 6 e i z z is what
+I get
+in section A B There is energy due to
+bending as well as due to constant
+torque of PL
+so UAB will have contribution from
+bending energy contribution from torque
+so I get this as
+for the bending energy I do like this
+and for torsional energy I get this PL
+Square by 2 g a p d x
+and you can find out for a circular
+cross section what is I is easy and i i
+p and you know the internal relationship
+I P is twice I is easy OK so you can
+simplify it like this mathematically
+which is done in the next step here I
+have put ueabs P Square L Cube by 6 e i
+z z plus P Square L Cube by 2 g i p
+and
+two i z is equal to i p so you can
+replace it like this
+so I have this as
+I want to find out what is the
+deflection at low at the point p
+dou U by dou P equal to p l q by e a
+multiple array 1 by 3 plus e by two G
+plus 1 by 3
+so I get this as
+finally four plq by 3 e pi r power 4
+multiplied by 5 plus 3 unit
+you try to solve it by other methods
+then you will know the advantage and the
+conceptual appreciation of this it comes
+in a very very
+elegant manner ok
+Now we move on to
+understand what happens when you have a
+Shear it's drawn in a very big picture
+wherein you see that I have Shear
+deformation and you have the expression
+for top X Y which we have derived B by 2
+i z
+multiplied by H by 2 whole Square minus
+y 1 squared y one is some distance at y
+one okay
+and when you visualize it pictorially it
+is like this you have shear stress
+variation it is varying parabolically
+and the interest here is what may this
+Alters the deflection we will take a
+very simple problem we will take a
+simple problem of cantilever
+ok
+if I articulate the problem differently
+you have a very sophisticated
+instrumentation and find out what is the
+deflection at this point
+it will not equate to PL cube a three EA
+whereas all along we have said it is PL
+cube a three EA
+when it is not matching with the
+experiment don't blame the experiment do
+our equipments are very bold that is why
+it is showing a deviation you do have
+very careful experimentation very
+sensitive experimentation you can do
+you will find there is a different but
+difference is very very small now the
+idea is how do I calculate this
+is the energy method you bring in the
+energy due to shear
+that's all you have to do we have all
+the necessary expressions
+okay
+so I have the bending moment
+and I have the shear stress I have the
+expression like this in the context of
+this problem replace it as P by 2i H by
+2 whole Square minus y Square I have
+written it in a generic fashion
+and U bending is straight forward it is
+M squared by two e i d x so this is what
+I said even the sign if I do not put it
+properly in the earlier problem I have
+not put the sign it's getting squared
+okay so it gets absorbed in your
+mathematics
+I get this as P Square L give a 360 a
+that's fine
+now I have to write for the shear
+okay
+Shear is integral
+Tau Square by 2G DV which will have to
+look at we have already derived this
+expression ok
+I have this as 1 by 2 G you have to
+interpret this mathematics properly see
+I have H
+I can see this as minus SP 2 2 plus h by
+2 and I can also visualize that I have a
+small this one d y
+because the shear stress varies as a
+function of the distance from the
+neutral axis
+for this entire length I can have this
+as L into B into d y is your
+volume
+ok
+and that I integrate from minus H by due
+to plus h byte
+so I would expect you to do this
+mathematics
+I am going to show what is the result
+that I am getting it
+so in the first stage of simplification
+I get this I am not substituted for I
+equal to phq by 12.
+when I substitute for that also
+I even here I have not substituted but
+this simplification is done
+when I finally substitute
+I get this U Shear as 3 P Square L by 5
+e g
+so what you can actually do is you can
+take a realistic problem
+Supply the values of P L A and G for the
+material then you will know
+still I have not got the deflection
+deflection is nothing but dou U by dou P
+and energy is bending plus Shear okay so
+I will take the bending plus shear
+and differentiate it with respect to p
+U is given so when I differentiate with
+respect to p
+I get this as plq by 3ei plus 6 p l by
+5he that is the deviation from
+your plq by three e i so you can
+substitute for a given whatever the
+problem that we have solved earlier
+or you give a fictitious as distance of
+L and take a slender cross section you
+will find this contribution is extremely
+small
+so in this class we have solved a
+variety of problems by the method of
+superposition
+and we have also looked at the powerful
+method of
+use of castigrainous theorem
+and solving the deflection by using the
+energy approach an energy approach is
+very very
+interesting and there are many numerical
+methods that are developed based on the
+energy
+and it's a very useful simple from a
+mathematical perspective thank you
+[Music]

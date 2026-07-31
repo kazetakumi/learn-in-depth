@@ -1,0 +1,312 @@
+{
+  "course": {
+    "institution": "MIT",
+    "readable_id": "9.13+spring_2019",
+    "title": "The Human Brain",
+    "url": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/",
+    "slug": "9-13-the-human-brain-spring-2019",
+    "year": 2019,
+    "run_id": 3665,
+    "course_feature": [
+      "Instructor Insights",
+      "Lecture Notes",
+      "Lecture Videos",
+      "Podcasts",
+      "Written Assignments"
+    ],
+    "likely_has_video": true
+  },
+  "counts": {
+    "transcripts": 20,
+    "lecture-notes": 17
+  },
+  "transcripts_available": true,
+  "downloaded": [
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Sketching_a_Picture_of_the_Mind_with_Prof._Nancy_Kanwisher_transcript.pdf",
+      "title": "Sketching a Picture of the Mind with Prof. Nancy Kanwisher",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/fEFMn64t76c_transcript.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_9_Navigation_II_transcript.pdf",
+      "title": "Lecture 9: Navigation II",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/882ba285e16f19f3f1bdcb117d04c502_ppxK4R8XWfU.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_8_Navigation_I_transcript.pdf",
+      "title": "Lecture 8: Navigation I",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/f2aa0f31a6a121dea419788a8d7c26a0_MuRVOQY8KoY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_7_Category_Selectivity_Controversies_and_MVPA_transcript.pdf",
+      "title": "Lecture 7: Category Selectivity, Controversies, and MVPA",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/3c19ff61df1badb72c67409563058aff_otriwYhNtm0.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_6_Experimental_Design_transcript.pdf",
+      "title": "Lecture 6: Experimental Design",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/45e0f279265148915ba3b880112150d2_Nk0H3o-hRMA.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_5_Cognitive_Neuroscience_Methods_II_transcript.pdf",
+      "title": "Lecture 5: Cognitive Neuroscience Methods II",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/de3bbf89e8fc0153b6873491f5186a82_YD7QG4G7WVg.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_4_Cognitive_Neuroscience_Methods_I_transcript.pdf",
+      "title": "Lecture 4: Cognitive Neuroscience Methods I",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/2074ec5346ad29c4bb1bc93031eb637b_vFZY--lgmHs.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_24_Attention_and_Awareness_transcript.pdf",
+      "title": "Lecture 24: Attention and Awareness",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/5aad709cacf529f11cb09c7e4706ec70_B4a0WdGp52g.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_21_Brain_Networks_transcript.pdf",
+      "title": "Lecture 21: Brain Networks",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/3542a711111b2ab16b2b709a954b7649_SchmVoc5NzY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_20_Mentalizing_and_Theory_of_Mind_transcript.pdf",
+      "title": "Lecture 20: Mentalizing and Theory of Mind",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/22a2367337cb60b5ab2244965afd58de_pfZY5aDJazA.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_2_Neuroanatomy_transcript.pdf",
+      "title": "Lecture 2: Neuroanatomy",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/2e0ce075c0db01906a42a477ea5c85a9_bAkuNXtgrLA.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_18_Language_I_transcript.pdf",
+      "title": "Lecture 18: Language I",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/6eda0de6cc9a130c1317ed0a9ce86e29_XRdJ5mXBo8A.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_16_Music_transcript.pdf",
+      "title": "Lecture 16: Music",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/f90a5f7930fdf792c64db1f67086d60b_YVHM8dSkimo.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_15_Hearing_and_Speech_transcript.pdf",
+      "title": "Lecture 15: Hearing and Speech",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/5a9ded359713eb45eeee71053b69ee50_9Bz-5-RC690.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_13_Number_transcript.pdf",
+      "title": "Lecture 13: Number",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/c360823cca05102386db1752b905cbfa_W2PY6z1Wddg.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_11_Development_Nature_Nurture_II_2018_transcript.pdf",
+      "title": "Lecture 11: Development, Nature & Nurture II (2018)",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/c7330746e1ff27f7feaa696c429de83c_xA00vkxG3lE.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_10_Development_Nature_Nurture_I_transcript.pdf",
+      "title": "Lecture 10: Development, Nature & Nurture I",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/5ffc57384bb9d8381d158d74de03812c_kAX_PRnliMo.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/Lecture_1_Introduction_transcript.pdf",
+      "title": "Lecture 1: Introduction",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/a26005a901edd09a35419b80a46e9227_ba-HMvDn_vU.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/fEFMn64t76c_transcript.pdf",
+      "title": "Sketching a Picture of the Mind with Prof. Nancy Kanwisher transcript",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/fEFMn64t76c_transcript.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-13-the-human-brain-spring-2019/transcripts/fEFMn64t76c_captions.webvtt",
+      "title": "Sketching a Picture of the Mind with Prof. Nancy Kanwisher captions",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/fEFMn64t76c_captions.webvtt",
+      "plain_text": "courses/9-13-the-human-brain-spring-2019/transcripts/fEFMn64t76c_captions.txt"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/a3d1e9d5046c5702cdaba6833c057c6e_MIT9_13S19_L24.pdf",
+      "title": "Lecture 24: Attention and Awareness - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/a3d1e9d5046c5702cdaba6833c057c6e_MIT9_13S19_L24.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/2834298deaafc9665b8c969d956bdca6_MIT9_13S19_L21.pdf",
+      "title": "Lecture 21: Brain Networks - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/2834298deaafc9665b8c969d956bdca6_MIT9_13S19_L21.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/bed63fc4cf086aec2a5ae470d0c5bc2a_MIT9_13S19_L20.pdf",
+      "title": "Lecture 20: Mentalizing & Theory of Mind - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/bed63fc4cf086aec2a5ae470d0c5bc2a_MIT9_13S19_L20.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/90228cf6282f382123f3b8630ae8cbd9_MIT9_13S19_L18.pdf",
+      "title": "Lecture 18: Language I - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/90228cf6282f382123f3b8630ae8cbd9_MIT9_13S19_L18.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/db922669c2e70e76b35c87dbaa04c038_MIT9_13S19_L16.pdf",
+      "title": "Lecture 16: Music - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/db922669c2e70e76b35c87dbaa04c038_MIT9_13S19_L16.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/dd0fcfb411abb3ba88d268795756c48f_MIT9_13S19_L15.pdf",
+      "title": "Lecture 15: Hearing and Speech - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/dd0fcfb411abb3ba88d268795756c48f_MIT9_13S19_L15.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/b83a5ecc71b34bb449eebdc200e341a4_MIT9_13S19_L13.pdf",
+      "title": "Lecture 13: Number - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/b83a5ecc71b34bb449eebdc200e341a4_MIT9_13S19_L13.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/0422d3866eb96e33f31853bab5f1a450_MIT9_13S19_L11.pdf",
+      "title": "Lecture 11: Development, Nature & Nurture II (2018) - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/0422d3866eb96e33f31853bab5f1a450_MIT9_13S19_L11.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/8eed6fa04db8250adc8957b7a46585f5_MIT9_13S19_L10.pdf",
+      "title": "Lecture 10: Development, Nature & Nurture I - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/8eed6fa04db8250adc8957b7a46585f5_MIT9_13S19_L10.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/840c5b78661ec03ee274ec5002e3939e_MIT9_13S19_L09.pdf",
+      "title": "Lecture 9: Navigation II - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/840c5b78661ec03ee274ec5002e3939e_MIT9_13S19_L09.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/da516b2adbdb11251717761407836435_MIT9_13S19_L08.pdf",
+      "title": "Lecture 8: Navigation I - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/da516b2adbdb11251717761407836435_MIT9_13S19_L08.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/6341a55ee446e3497c15810bdd0c9b2a_MIT9_13S19_L07.pdf",
+      "title": "Lecture 7: Category Selectivity, Controversies, and MVPA - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/6341a55ee446e3497c15810bdd0c9b2a_MIT9_13S19_L07.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/a05ce76bc9464712a19358a59aeb8a1b_MIT9_13S19_L06.pdf",
+      "title": "Lecture 6: Experimental Design - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/a05ce76bc9464712a19358a59aeb8a1b_MIT9_13S19_L06.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/c440153efdea2dd167752d2b5bc34220_MIT9_13S19_L05.pdf",
+      "title": "Lecture 5: Cognitive Neuroscience Methods II - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/c440153efdea2dd167752d2b5bc34220_MIT9_13S19_L05.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/c4f7bc46ae05745216dad52128626331_MIT9_13S19_L04.pdf",
+      "title": "Lecture 4: Cognitive Neuroscience Methods I - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/c4f7bc46ae05745216dad52128626331_MIT9_13S19_L04.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/6d88ebb643b7b460f08ed5382a0b9898_MIT9_13S19_L02.pdf",
+      "title": "Lecture 2: Neuroanatamy - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/6d88ebb643b7b460f08ed5382a0b9898_MIT9_13S19_L02.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-13-the-human-brain-spring-2019/lecture-notes/c447d31cc422fc345b94dbe626d2545e_MIT9_13S19_L01.pdf",
+      "title": "Lecture 1: Introduction - 9.13 Spring 2019",
+      "source": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/c447d31cc422fc345b94dbe626d2545e_MIT9_13S19_L01.pdf"
+    }
+  ],
+  "skipped_video": 18,
+  "errors": [
+    {
+      "title": "Readings",
+      "reason": "no_raw_url",
+      "page": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/pages/readings/"
+    },
+    {
+      "title": "Lecture Notes",
+      "reason": "no_raw_url",
+      "page": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/pages/lecture-notes/"
+    },
+    {
+      "title": "Experimental Design Assignment",
+      "reason": "no_raw_url",
+      "page": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/pages/assignments/experimental-design-assignment/"
+    },
+    {
+      "title": "Assignments",
+      "reason": "no_raw_url",
+      "page": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/pages/assignments/"
+    },
+    {
+      "title": "Assignment 8",
+      "reason": "no_raw_url",
+      "page": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/pages/assignments/assignment-8/"
+    },
+    {
+      "title": "Assignment 7",
+      "reason": "no_raw_url",
+      "page": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/pages/assignments/assignment-7/"
+    },
+    {
+      "title": "Assignment 6",
+      "reason": "no_raw_url",
+      "page": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/pages/assignments/assignment-6/"
+    },
+    {
+      "title": "Assignment 5",
+      "reason": "no_raw_url",
+      "page": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/pages/assignments/assignment-5/"
+    },
+    {
+      "title": "Assignment 4",
+      "reason": "no_raw_url",
+      "page": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/pages/assignments/assignment-4/"
+    },
+    {
+      "title": "Assignment 3",
+      "reason": "no_raw_url",
+      "page": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/pages/assignments/assignment-3/"
+    },
+    {
+      "title": "Assignment 2",
+      "reason": "no_raw_url",
+      "page": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/pages/assignments/assignment-2/"
+    },
+    {
+      "title": "Assignment 1",
+      "reason": "no_raw_url",
+      "page": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/pages/assignments/assignment-1/"
+    }
+  ]
+}

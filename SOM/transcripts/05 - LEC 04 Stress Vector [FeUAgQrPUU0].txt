@@ -1,0 +1,933 @@
+[Music]
+digital India educated India
+[Music]
+let us develop concepts related to
+stress
+these will be used in this course as
+well as in your future courses
+and also in advanced studies
+even though in this course we will
+confine our analysis to slender members
+in the development of concepts of stress
+we will start with a three-dimensional
+body
+and it is also not restricted to
+isotropic materials
+in fact we will not bring in the
+material aspect at all while developing
+the concept only one aspect what we will
+say is we consider this as an elastic
+continuum
+that some only thing that we require for
+a mathematical development and what you
+will have to appreciate is
+when they were graduating from rigid
+body mechanics
+even documenting
+there is deformation and this
+deformation
+is linear in the restricted range is a
+knowledge by itself
+that was credited to hook
+while compiling these graphs
+people found rather than simply plotting
+Force versus displacement
+if you replot
+change in length divided by original
+length
+versus Force divided by area you have an
+advantage that I get only a
+single straight line for three different
+specimen
+cross-sectional areas
+this gives an impression
+that we are talking about a number as
+stress
+fine when you say a number you will say
+that it is a scalar quantity
+but it is not so it is much more deeper
+than that
+and we have also seen a simple
+understanding that P by a
+which simplified
+the graph and also gives the hope that I
+can do a simple test and understand the
+material
+was not a casual development this was
+developed by Burnley as his last paper
+you know we utilize this information of
+P divided by a in a very meaningful
+manner to solve the very simple useful
+problem
+that was for a thin ring subjected to
+internal pressure
+and what we said was you rip open the
+hope
+for the complete length Okay it's not
+just the semicircular one that was one
+of the question student raised it's a
+complete
+length of the hoop you have this as 2 pi
+into R plus T by two
+and we have found that Force transmitted
+by this is trb
+and there is also a very famous
+expression for
+extension in simple tension Delta equal
+to p l by a e
+so if you use that you are in a position
+to find out the
+elongation of this strip
+and you can also find out what is the
+radial elongation as delta T by two Pi
+we have got this expression
+and what is more important from stress
+analysis point of view is you find out
+what is the
+trust developed
+you also say that this has a hoop and
+you have this value as PR by T you
+simply call this as a hoop stress
+so we were able to solve a simple
+problem
+but you know
+when you look at the experiment on chalk
+we found that
+when you put an axial tension
+I get a
+failure like this which is very natural
+to expect that's also coinciding with
+the cross section on the other hand when
+you apply torsion what you find is you
+have this happening at
+45 degrees
+so you cannot live on your concept of P
+by a
+saying that you have a constant cross
+section you have to go deeper and look
+at what happens in all the possible
+infinite planes this is one aspect of it
+other one is see we have also looked at
+simple tension and bending we have
+utilized
+whatever the information that was
+available from photoelasticity
+and we have seen that in the case of
+beam
+whatever we call it as a resistance
+varies from point to point
+even though the cross section remained
+constant for the length of the beam
+the resistance was varying from point to
+point
+and you have the spanner in which
+the stresses vary from point to point
+and also the cross section is also
+varying it's not constant
+and let me also show one more example
+can you see what is this
+have you seen this kind of an element in
+your day to day life
+see engineering you learned by
+observation you look at your cycle you
+have a cycle chain
+if you look at one of the elements there
+you have it like this
+and when you apply the axial pull it
+develops beautiful patterns
+even though you will not be able to
+solve it completely in this course or
+even the next level of course
+photolasticity being an optical method
+thankfully it solves the differential
+equations optically and presents you
+with beautiful patterns
+here again you find
+I have to find out something Point by
+point
+it varies from point to point
+and you also have a plate with a hole
+where the fringes are developing like
+this
+and when you travel
+home you should you should watch the
+bridges built you will find a number of
+riveted joints
+so you have a panel with several riveted
+joint that means you have a pin inserted
+there
+and this figure the courtesy goes to my
+student JB Philip from vssc
+so there is a need to graduate
+from what happens in a cross section to
+what happens at a point is the idea
+clear
+okay and I said that you know
+we can take up a three-dimensional body
+the body is in a state of equilibrium
+this is subjected to
+both body and surface forces
+body force act on each volume element of
+the body please make a neat sketch
+please make any neat sketch
+and what I am going to do is I am going
+to take a generic point
+and cut an imaginary plane passing
+through it that's what I am going to do
+and what I am going to look at is I am
+going to look at what happens at a point
+we label that point as p
+you should not confuse when I separate
+these two
+I am trying to find out what the
+reaction developed in this complete
+surface no we are not talking about that
+we will confine our attention only to
+the point so we will take a small area
+surrounding that point
+and when I take this point as P I can
+have
+a reflection of it in this and I have
+this and what you have this is N1 and N1
+Prime are depicting the planes plane is
+denoted by the outward normal fine
+so I have taken a generic plane passing
+through the point of Interest
+and I am also going to develop new
+mathematical entities for me to
+develop the concepts further
+so I will take a small area surrounding
+that point
+I will have some kind of a force
+distribution
+I can find out its resultant
+let the resultant be labeled as Delta T1
+there is a new symbolism we put because
+I am looking at the plane one
+I have also put this one on top of it we
+are developing a new symbolism
+the moment I come and say a force
+Force has magnitude as well as Direction
+it is a vector
+fine and in the limit we want this area
+to go to zero
+so I have the quantity T1
+where I show distinctly the vectorial
+symbol
+but for writing convenience we will
+simply have t cap one
+whenever I have t cap 1 I will say that
+this is
+denoting a vectorial quantity
+and we say in the limit Delta a tends to
+0 Delta T1 divided by Delta a is a
+finite quantity is the idea clear we are
+defining a new quantity
+and we say that this is a vector
+and this Vector is known as truss vector
+and we also understand the new symbolism
+I will simply have this as T1 you
+understand immediately that this is a
+vectorial quantity
+it's for writing convenience when I put
+the components with a suffix you can
+find out that these are
+scalar quantities always the component
+is only a number
+fine
+I can also depict this on the
+free body diagram that we have written
+so on a plane
+one I will have a normal depicting the
+plane
+and also I have this stress factor T1 in
+general
+the orientation of the stress factor
+need not lie along the normal
+in specific cases it can coincide with
+the normal
+now I have taken plane one
+and I have defined this quantity I call
+this as T1 as respect
+now what I do is
+I go to
+another plane passing through the same
+point
+which is totally different
+here again I can confine my attention to
+the point of Interest
+take a small area
+and Shrink that area to zero
+for us to illustrate let us call this as
+plain to
+so I can Define the quantity
+T2
+find T2 is a vector
+we simply write T2 as like this for our
+convenience we understand that is limit
+Delta a tends to 0 delta T 2 divided by
+Delta I
+so I have this
+by Newton's third law they are
+equivalent opposite and the body is in a
+state of equilibrium under the action of
+both body and surface forces
+you know to avoid clumsiness in the
+drawing the body forces are not
+explicitly shown
+fine
+now we have to say what is a
+concept of state of such a point see our
+goal is
+after you understand all this you should
+be able to explain why the chalk when it
+is fisted
+fails at 45 degrees
+fine
+so we
+want to find out stress factor
+on all the planes passing through the
+point of interest when you say a point
+how many planes can pass through
+infinite number of planes so I can have
+a
+Point P I can have a plane one please
+make a sketch I can have a outward
+normal plane is denoted by an outward
+normal
+I can have a stress factor T1
+I can have another plane
+arbitrary
+and in all these cases
+we shrink the area surrounding that
+point to zero
+and in the limit
+by borrowing the idea Force divided by
+area we Define the resultant Force
+divided by the area in the limit the
+area tends to zero so what we actually
+want is a mind-boggling quantity
+I want stress factors passing through
+infinite number of planes through the
+point of Interest
+so I can have n ten thousand I can have
+n
+maybe this fifty thousand
+and ninety thousand
+I can have a hundred thousand
+and then I have simply Infinity
+so will your notebook be sufficient to
+represent the quantity
+it is not possible so it is not
+convenient at this stage
+for us to understand what is state of
+stress at a point unless there is a
+simplification possible
+so what we call as state of stress at a
+point is the totality of all the stress
+vectors for all the infinite planes
+passing through the point
+so we want to have that
+only then we can graduate and then
+analyze what happens in an
+arbitrary plane in a material how the
+failure is precipitated so on and so
+forth
+so what you'll not appreciate is
+from a cross section we have graduated
+to what happens at a point
+at a point we have a challenge that we
+have to look at all the infinite planes
+so this can also be depicted in a
+different sense
+where I have
+the stress factors T1 T2 T3 depicted
+like this and I have all these infinite
+quantities
+so the idea is to appreciate that we are
+looking at a problem which looks
+unsurmountable at this stage
+but Engineers don't leave it like that
+you know you have a via media that is
+why we have developed the concept of
+state of stress at a point
+now what we will do is we will select
+orthogonal planes that are
+three mutually orthogonal planes and
+look at what are the quantities
+even before that we will also understand
+when I have an arbitrary plane I can
+also look at what way
+the stress factor can be resolved
+now we have we know whenever I take a
+plane if I say plane is n denoting it is
+an arbitrary plane
+and when I have a stress factor acting
+on that plane
+as t n I can resolve it along the normal
+and tangential surface this is one way
+of resolution
+if I do that I have a special symbol I
+call this as Sigma n
+for the normal stress we use the symbol
+Sigma
+and then for a tangential stress we use
+the
+symbol Tau
+and when you look at these quantities
+these are the components are always
+numbers you understand the point
+components are always numbers they are
+scalar quantities only we know what is
+the direction along which you are
+writing it the direction is inherently
+embedded in a different manner
+so I have this as
+quantities usually denoted by Newton per
+millimeter square
+you call it as Mega Pascal and so on
+I can also resolve the vector T and in
+space into components along the x axis y
+axis and Z axis
+so what you need to understand is the
+moment I put the suffix as X Y or Z
+understand you are not talking about a
+vector we are talking about the
+component of the vector if you
+understand the symbolism writing is
+easier for you
+so when I have the magnitude of the
+stress Vector I can either understand
+this as
+consisting of the normal stress as well
+as the shear stress or
+the components along the X Y and Z
+directions of the stress vector
+fine
+now what we will do is we will try to
+find out
+what way we will understand what happens
+on three mutually perpendicular planes
+we have a choice
+and we will have the simple Cartesian
+coordinate system
+and then
+have it is easier for for you to have
+the first plane as along the X Direction
+I call this as explain
+fine
+I have a point
+and then I denote it by an outward
+normal
+and we have already developed on this
+plane you can have a stress factor t x
+which is a vector
+I can resolve this
+in a manner along the normal and
+tangential to the surface
+you all know how t x is defined t x is
+defined in the limit Delta a tends to 0
+Delta TX divided by Delta I a borrowing
+the same idea
+fine there is nothing new here
+so I get this as
+a component along the X Direction
+a component along the Y Direction
+a component along the Z directions
+and we have a way of naming that also we
+have two subscripts how these two
+subscripts are
+named I have Sigma x x
+the first subscript denotes the plane on
+which the component is acting
+so it is acting on the explain
+and along the Direction X so I call this
+as Sigma x x
+so that is how he would interpret the
+symbol
+we are talking about a component the
+component will always be a number
+and usual units is Mega Pascal
+and we have the
+component Tau X Y we denote this as Tau
+indicating that this is acting
+tangential to the surface
+so when I have the first subscript it
+denotes the plane X
+and second sub step denotes
+Direction y
+see I am deliberately going slow because
+later
+you don't need to remember but you
+should be able to write on a particular
+plane what are the components
+and we have also utilized a sign
+convention on a positive surface
+positive direction is positive
+that is how these quantities are written
+now I have Tau x z
+the first subscript denotes
+the plane
+and the second subscript denotes the
+direction
+fine
+now the Saving Grace is
+trust factors are evaluated on any of
+the three mutually perpendicular planes
+you can find out stress factor on any
+arbitrary plane you have to wait for the
+proof
+fine so that means when we saw that we
+have to get infinite number of
+quantities of stress factor the problem
+was unsurmountable but now by this
+statement
+what I need to find out is what is t x t
+y and t z for the plane X we have seen
+these components
+fine we will write it for one more plane
+and for the third plane you try to write
+it yourself so now I take the Y plane
+again I take the same point the point
+Remains the Same only thing is the plane
+which I am
+passing through is different
+these are mutually perpendicular
+here again I have because it is a y
+plane I put this as t y and once I have
+this t y I can resolve this into
+components normal to the plane and
+tangential to the plane
+so these are depicted as
+the stress magnitudes I call this a
+sigma YY now you can understand why I
+call this a sigma y by why I call this
+Tau y x
+why I call this as Tau y z
+so if you look at I have Sigma YY
+it shows the plane and the direction
+similarly I can write it for the Tau y x
+first subscript denotes the plane
+second subscript denotes the direction
+similarly I have Tau y z
+first
+subscript denotes the plane and second
+substrate denotesy Direction
+so
+on similar lines if you take a plane
+passing through the
+Z plane you can write the quantities
+what happens on the Z plane fine
+so now what I am going to do is I have
+taken a cube
+of size 0 this is for representation
+purpose
+because when I look at a point I can
+have a plane
+positive plane along the X Direction
+negative plane on the X Direction
+similarly I can have a positive plane on
+the y direction negative plane on the y
+direction similarly for the Z Direction
+now please write down what are all the
+stress quantities on the positive plane
+of X please write down please write down
+on the positive plane then check it from
+my
+slide
+you should get it
+by looking at the reference access you
+should write it on your own write it
+make an attempt if you make a mistake
+don't worry
+only by making mistakes you will
+remember the concepts better
+because it's there is no charm in just
+copying down what I am popping up in the
+slide you your mind should be involved
+in the development of the concept
+fine
+so what I have on the explain positive
+is
+I have Sigma x x
+Tau of x y and Tau x z Now we move on to
+the negative plane write down the
+quantities you should write out the
+quantities in the positive direction
+that is a training for you
+and we have said on the negative plane
+negative direction is positive you
+should absorb that idea and then write
+down the quantities
+so when I do that Sigma x x
+pointing towards the negative Direction
+Tau X Y is pointing towards an active
+Direction
+Tau x z is pointing towards the negative
+direction is ideal clear
+and this you should be able to do at any
+point in time without any difficulty
+you should not remember this but you
+should understand the symbolism how do
+we denote the subscripts
+first subscript denotes the
+plane on which it is acting and second
+subscript denotes the
+Direction
+OK and similarly you can write it for
+the Y plane
+and you can also do it for the Z plane
+this you should be able to do it without
+any difficulty
+and you should keep in mind
+it is not a cube taken from the model
+only for a representation purpose this
+is put
+the length of each side is zero it
+summarizes what happens at a point of
+Interest
+and the credit goes to koshy
+and it is also very interesting he
+developed this in 1822 so we are
+celebrating the bicentennial this is
+2022 so what happened 200 years back we
+are learning it today fine okay now
+what we have to do is
+our goal is to find out if I know
+the stress factors on three mutually
+perpendicular planes
+how do I get this trust Factor on
+arbitrary plane that is the problem
+posed before us
+so what you do is you consider a
+infinite decimal tetrahedron taken out
+of the model I have just drawn a cube I
+will show that a trihedral phase
+now I take it out from the
+model when I take it out from your
+understanding of free body whatever the
+surface interaction I should replace it
+by the Force interaction there now we
+have learned when I have a plane how to
+write the stress components
+these stress components become forces
+when you multiply by the area
+is idea clear
+so now we take out this tetrahedron
+and drawn very big and mind you in the
+limit this shrinks to your point P that
+is why we want to say that is an elastic
+Continuum when I shrink it to zero I
+have the material Point still present
+you have a finite quantity so on and so
+forth
+so now what you have to do is when I
+have the tetrahedron I have all these
+are negative sites negative explain
+negative y plane and negative Z plane
+when I have the reference axis denoted
+like this
+can you write the stress components in
+those cases please write it down and
+then check it with my diagram you know
+the three dimensional object is in a
+state of equilibrium
+under the action of both body and
+surface forces
+when I write the final expression I will
+bring in the body Force also to have the
+diagram simple and clear we are not
+indicating the body Force explicitly
+even at this stage if you have returned
+on what happens on the negative explain
+first denote that this plane ABC is
+denoted by a
+outward normal n
+and we write the stress Vector acting on
+this t n our goal is to find out what is
+TM that is the goal what we know from
+our earlier definition is
+we will have normal stress component
+Sigma XX Sigma Y and sigma is easy
+acting in these fashion and the
+respective Shear components will act in
+these directions
+you should be able to write it on your
+own
+you don't have to see my picture and
+write it write it on your notebook and
+verify it with my picture so what
+happens on y plane I have Tau y z like
+this Tau y x like this you should
+recognize that you are writing it on a
+negative plane you should see whether it
+is a positive plane or a negative plane
+and I have this for the
+is that plane so this is what is
+happening on the
+tetrahedron in addition you also have a
+body Force
+now what we will do is we will try to
+find out what are the components T and
+next T and Y and T and z if I find out
+the component based on the equilibrium
+of this
+what are the concepts that you learned
+in rigid body mechanics same thing you
+are going to do now you know you have to
+find out the area and the multiple it
+appropriately to get the force that's
+what we are going to do so I have to do
+f x equal to 0
+and I let me represent the area of the
+triangle a b c as simply a
+okay
+and then in order to denote that I am
+looking at that area
+I also color it differently so I am
+looking at this area
+and if I have to find out what is the
+force
+I have the
+component I have to find out the
+component t n x it is not a vector I
+multiply by the area of the triangle a b
+and c so when I multiplied the stress
+with the area I get the force I get the
+force in the X Direction
+and what are the other quantities that
+you'll have to find out you have to find
+out what is the force acting on this
+surface
+okay and can you write this area is a
+into NX
+please note that this is a simple
+multiplication sign it is not a cross
+product
+a is used as a scalar a into n x will
+give you n x is the number the component
+of the direction cosines these are all
+numbers
+so I have the force when I write the
+equilibrium equation
+I must recognize that this is pointing
+in the negative Direction
+the same thing you have learned in the
+earlier course also
+engineering is one subject where
+conventions are very important
+and we have followed assign convention
+while writing the quantities on the
+negative phase
+negative direction is taken as positive
+when you write but when you sum it up as
+f x equal to 0 you must look at a global
+picture and put the sign appropriately
+don't make a mistake
+once you have written for one quantity
+rest of the quantities are very simple
+because we know whichever is ending with
+the
+symbol X is what we are going to write
+so I have Tau y x and this is related to
+the area
+of this
+plane that is nothing but projection of
+the plane a b c which can be easily
+written as a into n by
+and you have this as
+a into n z
+and you also have now I bring in the
+body Force because you have to
+understand that we have written down the
+equilibrium equation under the action of
+both body and surface forces
+fine
+so I have the volume Delta V that tends
+to zero
+and this is again a multiplication sign
+and I put the body Force as capital X
+it is force per unit volume so Force per
+unit volume by volume will give you the
+force
+you can divide by a and when you do a
+simplification
+I get a very nice expression
+t n x the component of the stress Vector
+in the X direction is simply
+Sigma x x n x
+Tau y x n y plus Tau z x n z
+it's as simple and as straightforward
+from this
+the moment I write for
+X Direction
+I can follow the same thing for
+directions Y and Z I can do that
+so I go to f i i do the same thing
+now I have to find out
+what is the force in the y direction
+I have this as the component t n y
+multiplied by a
+then whatever the quantities that has
+the second subscript as y
+so I have look at looked at the negative
+explain
+then negative y plane
+then
+negative Z plane so if I accommodate all
+these quantities
+in addition I also write the body Force
+that is depicted as a capital Y
+and I get this equal to 0. is idea clear
+so you are training on how to write the
+components on the faces should come
+naturally to you
+we have understood and explained the
+symbolism if you have understood that
+then it is easy to write first symbol
+denotes the
+plane and second symbol denotes the
+direction
+and when I simplify
+I get T and Y
+equal to Tau x y and x plus Sigma y y n
+y
+plus Tau z y and z
+now I repeat the same thing for the Z
+plane
+you can also make an attempt and then
+verify what I have written on the screen
+fine write it down I should see people
+writing it only then I'll get convinced
+that you are making an attempt
+so it's a similar process I get T and z
+and then multiply it by the area a
+and I have this
+whatever the quantities which has the
+direction Z look at the negative explain
+look at the negative y plane
+write the force look at the negative Z
+plane
+write down the force
+and also bring in the
+body Force
+that is POTUS capital z
+and when I simplify this in the limit
+the tetrahedron reduces to zero
+I get an expression for T and z
+T and Z equal to Tau x z and X
+plus Tau y z and y
+plus Sigma z z n z
+so what is it that we have achieved
+by looking at
+three mutually perpendicular planes
+we have been able to get
+what is t n x
+we have been able to get what is T and Y
+and what is T and z
+is idea clear
+we said we should graduate from a cross
+section to a point
+we borrowed the idea
+while looking at the experiments
+involving three different cross sections
+people coin a new
+terminology stress which is nothing but
+Force divided by the cross sectional
+area
+from that we graduated to how to handle
+a point
+when we wanted to handle the point we
+felt that there are infinite planes that
+can pass through it and if I want to say
+what is status at a point totality of
+all these stress factors on all the
+infinite planes is what I need because
+my idea is which way the specimen is
+going to fail a prairie we do not know
+we have to investigate we have to
+investigate depending on the material
+there will be a criteria and we'll have
+to find out whether those quantities
+exceed in a particular plane so I need
+to have all the infinite planes the
+problem was looking unsurmountable
+then we also made a statement if I know
+the stress factors acting on any three
+mutually perpendicular planes
+passing through the point of Interest I
+can find out the stress factor on any
+arbitrary plane so that is what we have
+achieved now
+I can also rewrite it in a different
+fashion
+I can put this as a
+notation like this I have to get the
+vector t n x t n y and T and C
+and you have a quantity which we have
+determined in all the three mutually
+perpendicular planes they are put as a
+matrix
+I have Sigma x x Tau of X Y Tau of x z
+Tau y x Sigma YY Tau y z Sig Tau z x Tau
+z y Sigma is easy this quantity is a
+mathematical representation and it is a
+tensor of Rank 2 mathematically
+it is much more than a simple vector
+so initially we saw P by a was looking
+like a scalar I said it is no longer a
+scalar when we develop the concepts we
+initially thought that it is as a vector
+we call this as a stress Vector but we
+asked I not satisfied unless I know what
+happens on all the possible infinite
+planes
+for that we found a via media if I know
+the stress factor on any three
+mutually perpendicular planes I can find
+out the stress factor on any arbitrary
+plane mainly because I have the
+Direction cosine so if I specify the
+plane of my interest and if I know what
+is this for a given point I can find out
+stress Vector on any of the arbitrary
+planes
+1 to Infinity no problem
+is idea clear
+so in this lecture we have developed the
+concept of state of stress at a point we
+started with a simple understanding of P
+by a
+then we said
+by looking at the experience on breaking
+a chalk
+we have to find out what happens on
+arbitrary planes
+then we also found
+in a generic situation stress varies
+from point to point
+you can't hold on to
+the cross section only as a basis to do
+it we have to graduate to what happens
+at a point of Interest
+then we developed a new mathematical
+entity where we defined
+in a region very close to the point of
+Interest delta T by Delta a in the limit
+Delta a tends to 0 remains finite
+you are able to do that because it is an
+elastic continuum
+and we Define that quantity this is also
+known as Traction in advanced studies
+fine
+and from the concept of stress Vector we
+graduated to how to find out
+stress factor on any of the arbitrary
+planes
+if you know stress factor on any three
+mutually perpendicular planes
+that quantity resulted in a matrix
+we said that is nothing but a tensor of
+rank 2. thank you
+[Music]
+foreign

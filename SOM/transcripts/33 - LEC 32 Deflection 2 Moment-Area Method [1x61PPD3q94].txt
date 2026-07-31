@@ -1,0 +1,1150 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on
+deflection of beams
+in fact we have looked at the Double
+integration method
+to find out the deflection
+you can find out the deflection curve
+you can also find out the slope
+and you know if you have the equation
+written if I have multiple nodes it
+becomes difficult to do by double
+integration people also have developed
+Singularity integrals which we are not
+going to look into it because it becomes
+a mathematical exercise
+if you are able to write one single
+equation for the entire length of the
+beam
+the equation is valid and we have
+followed a sign convention you get the
+slope and deflection as per the same
+convention without any difficulty
+the same thing applies also for using
+the load deflection
+and then do the integration
+and I said that low deflection equation
+which I have given is also valid for
+statically indeterminate beams
+okay
+and in deflection what you need to
+understand is how the beam can deflect
+depending on the support conditions when
+I have a simply supported beam
+you can have free rotation at the
+supports
+so it will flux like this
+when I go and
+clamp it
+you have this slope as 0
+whereas this is allowed to have its own
+rotation so rotation will exist here
+which is also pictorially shown here I
+have a simply supported beam
+and you know we have also solved this by
+double integration I have taken an
+equation in this segment so whatever the
+result I get is valid for this segment
+for this segment I have to take another
+equation and then do it because of
+symmetry we have simply used the result
+fine
+so you should understand the difference
+so when I go to a cantilever beam which
+is fixed
+see you should be sufficiently
+comfortable in drawing this deflection
+curve
+for known loadings like what we have
+seen in the class but also for unknown
+loadings the issue here is how do you
+handle the support
+what happens in a support if I have a
+fixed support
+I can have displacement that is the
+deflection is zero as well as the slope
+is zero and we also seen slope is
+nothing but the rotation at that point
+in the beam
+and you know you also have the boundary
+condition which you can use VA equal to
+0 and Theta a equal to zero
+and VB equal to 0 and you should
+understand that Theta B need not be zero
+because that support will allow the
+rotation
+and when we go for the cantilever I have
+a beautiful fluxing like this
+and I am also showing a cantilever
+loaded in between
+so what is shown here is up to that load
+the deflection is similar to the other
+curve
+after that the entire length of the beam
+has only one rotation whatever is the
+slope at the load application point the
+same same slope is carried out there is
+no further rotation of the beam which is
+beautifully captured in this experiment
+which I am also going to show in the
+diagram
+so when I put the end load I have a
+deflection like this
+and at this point you also have a
+slope
+both of these need to be determined
+because I have an interest later on I
+want to do principle of superposition
+where I am going to have problem 1 and 2
+so keeping that in mind it's put as V 1
+and Theta 1.
+and the boundary condition is V equal to
+0 and theta equals zero now I don't have
+the load applied here
+but I apply the load
+at some other point so the idea here is
+when I apply the load this load is not
+necessarily the same load as p
+but some other load P1
+and what you have is I have the
+reflection curve which is in green
+and what you have as a continuation as a
+red line is that like you have a slope
+here here also you have a deflection
+plus a slope the same slope is indicated
+in the rest of the beam the rest of the
+beam rotates with that slope there is no
+further rotation on it
+this log rotates like a rigid body
+and when I consider this as a rigid body
+later on when we use the energy method
+when you say rigid it cannot store
+energy
+only when you say deformable it can
+store energy
+so you can have very interesting
+problems
+when you go to the energy where you
+should recognize whether this segment
+where it is not loaded
+it has a rigid body rotation
+ok
+and that is what is indicated here
+and here again you have the
+clamped in condition v a equal to zero
+Theta equal to zero so what is the
+purpose of all these experimental
+demonstration is to
+help you to visualize and it depends
+only on the support if you know what
+where you have to handle the support
+identify what way it has to be then rest
+of them join by a smooth curve
+okay
+and I said for statically indeterminate
+system if I have the load deflection
+curve which is much easier for us to do
+I have this as e a d squared V by d x
+squared equal to M I have DM by d x
+equal to minus d d v by d x l to minus w
+so when I substitute this that is when I
+differentiate this and when I use this
+identity
+I get this as Eid q v by D X Cube equal
+to minus V
+and when I substitute this
+you know I would essentially get this as
+W without a minus sign but in this
+problem W is a negative Direction so I
+have this as EAD power for V by DX power
+4 equal to minus w
+that applies to this problem when w is
+in the negative Direction
+this expression is derived with W as
+positive there is a sign convention that
+we have used
+see this is
+a statically indeterminate problem
+because you don't know how to find out
+this reaction
+from the principle of stat X you will
+not be in a position to do it
+if you are not in a position to do it
+then you cannot write what is the
+bending moment so I cannot use this
+equation directly
+you can still do that by some other if
+you find out the reaction and then do it
+you can always employ that
+right now you do not have this
+but with this
+I can directly do the integration and
+find out by substituting the appropriate
+boundary condition it ends A and B I can
+find out the deflection curve
+as well as the slope
+it's simple and straightforward there is
+no great mathematics involved
+so when I integrate I get the other
+equation
+okay
+and this is written for this problem the
+final expression is applicable for this
+problem
+but the generic expression is Eid power
+4 V by D X power 4 equal to W you have
+to investigate whether it is positive or
+negative and put the appropriate sign
+so when I integrate it once I get this
+as minus W X plus c 1
+and you know what are the boundary
+condition at a at what is the boundary
+condition at B
+so I have e a d squared V by DX squared
+when I integrate again I get this as
+bending moment
+that is equal to minus w x squared by 2
+plus c 1 X plus C two
+and if I integrate it further I get this
+as
+Theta see we have been using the
+rotation as Phi in our
+derivation basic derivation
+books also use multiple symbols it's
+better that you get exposed to those
+symbolism
+and instead of using fee they have used
+Theta so you can also recognize the
+slope as Theta
+I get this as minus w x Cube by six plus
+c 1 x squared by two plus C two X plus c
+three
+and I have e i v equal to minus w x
+power 4 divided by 24. plus c 1 x Cube
+by 6 plus c 2 x squared by 2 plus c
+three X plus C four
+so how many constants do I have to find
+out
+I have to find out four constants
+so I should have four boundary
+conditions for me to determine that
+fine let us see what are the boundary
+conditions that we can apply
+have you been able to write this
+I have the same Expressions given here
+and then we have a convenient boundary
+condition V A equals 0 and Theta a equal
+to 0
+at this extent
+that you should be able to recognize
+that is why we have done the experiment
+to show that slope is indeed zero
+deflection 0 you will be able to
+visualize but slope being 0 you have to
+specially understand when you have a
+fixed end slope is also zero
+so this gives me C4 equal to 0
+and C 3 equal to 0 these two boundary
+attention helped me to
+knock off C4 and C3
+and at this end at the end B
+b equal to 0 that is very clear and
+Theta B is not equal to 0.
+you can have rotation because the
+support allows the rotation
+so now you go to the force
+you have a pin joint cannot support a
+moment
+so the moment has to be 0 at that point
+so I have four boundary conditions with
+that can be used Theta not to be equal
+to Theta B not equal to 0 is not a
+useful boundary condition
+okay
+so I have the enough conditions and
+which you have to do the simplification
+please take your time at home and then
+evaluate c one equal to Phi WL by 8
+and C 2 is determined as minus w l
+Square by eight see I have also given
+you a homework where you have a
+uniformly distributed load and this end
+was
+simply supported
+fine
+I have the same basic expression by
+changing the boundary condition you can
+solve all of those problems all those
+problems are solved in one shot
+is idea clear suppose I I do not have a
+support here
+that problem also can be solved from
+this by applying the boundary conditions
+so this is a lot more useful
+and I have this see this
+change of symbolism is used repeatedly
+because some books use
+this deflection as simply as y
+ok so I have written this as e a y equal
+to minus w x power 4 divided by 24 plus
+5 w l x Cube divided by 48 minus WL
+squared x square divided by 16.
+and you can also find out
+you know it's better that we when we
+want to go and do the
+principle of superposition
+by direct integration
+double integration or quartable
+integration I can find out for a variety
+of cases and usually this is available
+in a table okay that's how Engineers
+operate
+in the field they don't have time to do
+the integration or derivation
+they simply use the available
+Expressions so in this it is put only as
+deflection as put as by
+it is used as y as well as V
+so you understand that symbolism
+and you may take a photograph of this
+slide once it is complete okay
+and I have this Expressions given for
+deflection and you have for Theta so
+instead of Phi it is all put as Theta Y
+and Theta is put in this table
+so I can have a bending moment applied
+is what you are getting the and Theta
+Max is ml by e a
+and I have a part of the beam is having
+a uniformly distributed load
+and you have the interpretation so you
+should know how to interpret this
+equation that is also given here when I
+put a bracket like this this is how
+single art integrals are used
+so this is defined as equal to 0 for X
+less than a
+so that is easy for you to interpret
+so I can find out use this for you to
+construct principle of superposition
+fine you can take a snapshot of this
+and this table would be provided in your
+examination in your have to useful
+position you don't have to remember
+Focus your energy on understanding the
+subject
+okay so I have this
+three point Bend beam where the bin
+where the load is applied at an offset
+point
+and you have the uniformly distributed
+this is what you should have got
+you have this
+and anyone has calculated what is the
+deflection maximum deflection
+that's again a very famous expression
+normally we remember
+it will be 5 by 384.
+it's again a very famous relationship
+okay
+so you have
+this table also you can take a
+photograph
+Now we move on to graphical integration
+I said that graphical methods are
+very widely used in the early
+development of engineering and physical
+sciences
+and it is one of the most effective
+methods for obtaining the bending
+displacement in beams and frames at
+selected points
+that's a key
+information
+in this method the area of the bending
+mount diagram is utilized for computing
+the slow
+and or deflections at particular points
+along the axis of the beam or frame
+so you have to find out the name itself
+says momentaria
+area is nothing but integration
+OK that's why it means of doing a
+physical integration mathematical
+integration we do it in a graphical
+sense and when I go in a graphical sense
+only if I'm in a position to find out
+the area
+which becomes simpler the bending mode
+diagram becomes simpler when I have
+concentrated load when I have
+distributed load I am going to have
+secondary curve or third degree curve
+depending on what kind of load variation
+I have so we would also solve while
+developing the theory we will take a
+distributed load but while solving we'll
+apply it for concentrated load you have
+to know that this is also another method
+that would be the focus in our
+development
+and you have two theorems
+they are known as momentary theorems
+which are utilized for calculation of
+the deflection
+and here again you know people use
+instead of
+row they also use the symbol r as a
+radius of
+curvature ok
+and what you have here is on the
+deflected beam I have a length DX
+that can be expressed as r d Theta
+that's what I am going to use
+and the first theorem is like this
+calculate the change in the slope
+between two points on the elastic curve
+so whenever you have a problem which has
+a zero slope at some point it is very
+easy to solve a moment area method if
+you do not have a zero slope it is
+difficult so we will also take up such
+simple problems to appreciate another
+method for calculating deflection
+and you have the flexure formula I have
+written it in terms of row
+and that same row is used as R in
+several books and in Sophie people use
+Theta so there is mixture of symbols it
+is better that you know that these are
+available
+and what you have is
+I have an elastic curve which is how it
+is deflected
+and I will have because I have a
+distributed load I will have a bending
+moment diagram like this
+okay
+and on this elastic curve I have
+selected point a and draw a tangent to
+that
+so that gives a slope at Point a
+and take another point B
+and draw a tangent
+please draw your diagrams in this
+sequence then you will appreciate the
+method
+what I can at best get from this is I
+can find out
+the change between this I can find out
+Delta Theta a B I can find out
+okay how do I do that
+I take a small distance X and if I want
+to see from point B I measure X and then
+I have a small distance Delta X
+and we know from this diagram
+Delta X or d x equal to D Theta into r
+okay
+and from this you know you know the row
+is nothing but R there so I can write
+this row as M by e i
+and I have said you know to simplify
+your writing and you know you are
+working with
+access X along the length of the beam
+why is this Z is perpendicular to that
+you drop off these two symbols to make
+your life simple in writing
+so I have D Theta equal to M by e a d x
+so when I integrate
+if I want to have Delta Theta a b when I
+integrate from A to B
+I get this as M by e i d x
+so this integration is nothing but the
+area between the two points
+what it gives it can it gives the change
+in the slope between two points on the
+elastic cup it gives one is a change
+so if I choose a point where the slope
+is zero I get the absolute slope at the
+other point
+that is how you use the method
+fine so it can at best give if we find
+out the area between the points of
+interest that area can be interpreted as
+what is the change in the slope between
+the two points
+see when we had the direct integration
+method we had assigned convention and
+you got the final expression and you
+substitute the values you get all the
+quantities as per the original sign
+conversion without any difficulty and
+Mathematics is perfectly correct but
+once you come to a method like this you
+have only suggestives and conventions
+and it is better you draw the elastic
+curve
+calculate the quantities as modulus and
+then finally assign the sign that would
+be a better strategy in handling a
+technique like momentaria method that
+would be my recommendation
+but we will also see what is the sign
+convention that is being talked about
+and you can also calculate the
+tangential deviations a very important
+aspect I cannot find out the
+deflection I can find out only the
+tangential deviation
+between a point on the elastic curve and
+the line tangent to the elastic curve at
+a second point
+so it cannot find out
+deflection directly I can find out only
+a tangential deviation so you should
+understand what is the tangential
+deviation and I have an animation so
+follow the animation and then draw the
+diagram so you'll understand what is
+meant by this tangential deviation
+and you draw this m by EA diagram
+just a scaling up of the your bending on
+diagram
+so you have a bending one diagram like
+this
+and I also plot the elastic curve
+fine
+and
+you know I take a point a
+and I have what is the value of
+M by e i at that point that is noted
+here
+and I draw the tangent
+and I have a point B
+and at point B I know what is m b by e a
+and you know I have also drawn the slope
+but what is bent here is the tangential
+deviation is between a point on the
+elastic curve the point B is on the
+elastic curve
+and a line tangent to the elastic at a
+second point the second point you can
+call it as a
+so this is what you can find out
+and this is known as a tangential
+deviation
+okay
+and what you have is suppose I have two
+points which are taken at a distance of
+Delta X or D X I draw the tangent
+at these two points I will also find out
+what happens in this this is D Theta
+this is at a distance X so I can write
+this distance as
+DT and DT you can write it in terms of X
+and D Theta is idea clear
+so I can write d t as x d Theta
+and you know how to write D Theta D
+Theta we have seen in earlier discussion
+as M by e i d x
+a very circuitous way of finding out
+what it is but application is very
+simple
+application is you in one case you just
+find out the area between the two points
+in another case you find out the first
+moment of area if you find out these
+quantities comfortably if your
+mathematics is simple then this is the
+method for you to use
+suppose I have the bending on diagram is
+a non-linear curve and finding out the
+area under the curve is so difficult
+then this method is not useful
+fine
+and do you appreciate what is the
+meaning of a tangential deviation
+and this is given as DT equal to M by e
+a x d x
+and you know if I want to do it for the
+entire length if I want to find out what
+is this entire length then I have to do
+the
+I have to vary X from point A to point B
+that means I have to integrate over this
+okay
+and this you call it as
+TBA so you should also understand what
+is the symbolism B is the point on the
+elastic curve
+a is the point from which you have drawn
+the tangent
+so TBA only finds out
+only this tangential deviation it is not
+a deflection at that point
+you should use your mathematical skills
+and geometry to find out the deflection
+okay
+and when I want to do this I have to do
+the integration I have to go from B to a
+this is again very important when you
+calculate the area does not matter okay
+whether you do it from A to B or B T A
+it doesn't matter but when you have to
+find out this quantity because I am
+multiplying by the
+quantity X
+from where I do the multiplication is
+very important okay I go from B to a and
+I have already said B is the point on
+the elastic curve
+and from a we have drawn the tangent and
+we have defined the tangential deviation
+as t b a the first symbol denotes the
+point on the elastic curve
+second symbol denotes the point on which
+you have drawn the slope
+and this you know I can take out
+uh outside and then say this is nothing
+but x b into area under the Curve so I
+have shown this as x b is idea clear
+so by looking at the bending moment
+diagram if you calculate the
+area of the bending bond diagram between
+two points of interest I can find out
+the slope
+I can also find out the tangential
+deviation
+if I have the first moment of the area
+here I have shown how to do it from B to
+a
+suppose I want to do it from A to B what
+I should do I should extend this slope
+and then I should find out what is the
+deviation from point A to this slope for
+that what will you do
+you will take the distance from this
+side
+for you to do the first amount of area
+we will see that in the next slide
+okay
+so I have the loading diagram I have the
+M by a curve elastic curve I have point
+a
+and then I have drawn the slope there
+at point B I draw the slope
+and I Define
+this as tab
+please draw the sketch
+because the sequence I have followed
+will give you clarify I mean Clarity on
+how to interpret the tangential
+deviation the first symbol shows that
+this is the point on which the elastic
+curve I am looking at and second symbol
+is the one where I have drawn the
+tangent to the elastic curve so I can at
+best find out only this tangential
+deviation I cannot find out the
+deflection
+and then I go to the
+area
+and this is nothing but you calculate
+the area and then have this distance
+as
+forever first moment of areas
+so if I have the Point located either I
+can find out tab or TBA that's all you
+can get from
+your
+bending mom diagram that is I find out
+the area between the two points and find
+out the bending moment I mean first
+moment of area of that either I can
+select from one point or I can select
+from the other point
+there you should interpret what is the
+deviation that you are calculating it
+and I have already said that this is t b
+a
+for that you have to use x Bar B if you
+understand this then the whole method
+application is very simple and
+straightforward
+okay
+you have all the points has come up in
+one shot the science of the slopes
+correspond to coordinate system use x to
+the right and Y to up
+if ordinates of M by ear diagram are
+positive between A and B the change in
+slope is counter clockwise
+thus the slope becomes more positive
+very very difficult to understand when I
+solve a problem I'll show how it is I'll
+also give a via media how you should
+handle it when you solve a problem
+fine
+positive deviation indicates that the
+point B lies above the tangent from the
+point a that's all you can say it cannot
+say whether it is a deflection downwards
+deflection upwards all that it cannot
+say
+OK it only says when there is a positive
+deviation you have the slope is below
+the point B that's all
+and this is a sort of a summary I have
+Theta a b is the area under the Curve
+and I have t a b and t b a is nothing
+but first moment of area from this
+distance x a
+and first moment of area from this
+distance area of or the curve between
+the two lines same
+but the momentum changes and I get
+either t a b or TBE you can understand
+this easily when you solve the
+simple problem will take a problem with
+a concentrated load
+so I will take a
+three point Bend specimen
+ok
+this we know that answer already isn't
+it what is the deflection at the load
+application point
+what is the maximum deflection of the
+load application point we have solved it
+I think last class
+ah w l Cube by
+48 E A okay so I we have to get the same
+thing by this method also
+so I have Theta a here and then Theta B
+here and I have deliberately taken a
+problem which is easy to handle because
+I have a zero slope
+because of symmetry
+which you should appreciate from the way
+we have done the experiments we have
+shown how the beam deflects
+and momentarian method is convenient to
+handle
+when I have a point on which you have
+zero slope
+you have a Bend you have a deflection
+curve which has a zero slope is really
+easy to handle
+and you need to have only the
+M by e a diagram fine
+and I have also labeled ACB the same
+points here
+it is nothing but the bending bond
+diagram
+you scale it up
+scale it down by WL I have this value as
+WL by 4 e a you have the product EA
+coming down
+okay so that's how you do the scaling
+essentially a bending on diagram
+so I know the essential quantities
+fine so I have to find out what is the
+slope here and what is the deflection
+here that is the
+Focus how do I go and find out
+I can find out this slope
+based on my momentarian method because I
+have if I take the point of Interest as
+a and C because the slope at C is 0
+in one shot I can get what is the
+absolute slope at Theta a because the
+area gives only difference in slope it
+doesn't give absolute value
+because I have taken one ah Point as
+having zero slope
+I can so the idea is what points you
+should select for you to start solving
+the problem that is where you have to
+apply your mind
+I have from moment area I have to get
+the area of this triangle so you have
+the base height is given as WL by 4 e a
+and then half b h gives me the area that
+gives me Theta C minus Theta a
+and you have a Theta a is minus WL
+squared by 16 e i
+and so fortunate that you have also got
+the Theta a with the correct sign in the
+first shot itself
+fine
+it's an incidental advantage that's what
+I would say
+since Theta is equal to 0 I get this no
+problem
+similarly I can also find out Theta b w
+l Square by 16 a I put this as positive
+sign
+say if you look at this bending moment
+diagram which is scaled by e i
+this is completely positive with the
+sign convention that you have used
+okay and what is the sign convention
+which we have said if ordinates of M by
+ear diagram are positive between A and B
+the change in slope is counterclockwise
+thus the slope becomes more positive
+that's all that theorem says
+which I can give an interpretation here
+see I have a slope negative
+this negative slope has become positive
+here and this positive slope has become
+more positive here that is how you
+interpret what is the sign of this
+M by e a diagram but it is very
+difficult to handle this way my
+suggestion would be is you just
+calculate the area
+and then you draw the elastic curve
+you get all this because you know area
+has no sign
+so assign the sign based on the physics
+or the problem that's the simplest way
+to do it
+is idea clear
+now let us see how do we go and find out
+the deflection at this point again I
+have to do a circus
+I have already determined Theta a so I
+will use that to Advantage
+I have this diagram here M by a diagram
+I will turn it far away
+ok so that you get the slopes drawn
+decently
+I draw the slope at Point a I also know
+Theta a right now
+and if I use the second theorem
+and C is a very advantageous point
+because I have the slope as 0 I can find
+out only this distance you recognize
+that
+but my interest is to find out this
+distance
+so I have to bring in I have to bring in
+all my approximations I have done
+and I have repeatedly be saying that
+whenever I do this I exaggerate
+so when I write the expression you will
+not get convinced whether the
+expressions are correct okay
+so I can get only t c a from my
+momentaria method for that I need to
+know what is the centroid of this cross
+section which is very simple
+you have this H by 3 is what you have
+from the base
+so I can find out TCA comfortably
+one half of WL by 4 e a
+into L by two into L by six is the idea
+clear
+that I can easily find out that's not at
+all a problem
+and we have already said TCA means
+I the point on the elastical we see I
+draw the tangent at a I get this
+distance TCA so I have to take the
+moment from point C so that is why I
+have this as L by six
+if you do that differently then you are
+in for a surprise okay don't
+do that the other way
+and I have to find out V Max how do I
+find out this
+and you should recognize that we are
+working on small deformation
+don't get duped by the diagram I have
+drawn
+fine imagine that this angle is very
+very small less than 0.5 degrees if it
+is less than 0.5 degrees what is the way
+that I can write this
+can I write
+can I write this Theta a into L by two
+equal to V Max Plus t c a can I write
+that
+that you can write now isn't it
+the diagram is deceptive
+but if you agree that we are discussing
+a small deformation I am permitted to
+write this and I have also shown that I
+am going to only worry about the modulus
+I am going to worry only about the value
+that is the best way to handle
+momentaria method
+so I can find out V Max Plus TCA
+now the problem is solved I know what is
+CCA
+I have to find out V Max I have this so
+when I substitute this quantities
+that Theta a is minus WL Square by 16 e
+i I get V Max as wlq by 48 EA
+I have not got the sign okay
+sign you put it or you label it and then
+put this deviation as this much that's
+the only way to handle
+you have deflection problems it's better
+it is better that other than the rebel
+integration it is better that you
+put on the diagram what is the distance
+so we have used the tangential deviation
+as far as the slope determination in the
+judicious way plus our basic idea of
+small deformation we have been able to
+find the diffraction it's not that
+straight forward okay
+but nevertheless when calculus was not
+developed or something like that I do
+not know what was the reason for them to
+use momentaria method
+there must be some Advantage I don't
+know the advantage as such
+so now let us also solve this problem
+by moment area method because here again
+I have a convenient point a where the
+slope is zero so I have selected points
+which are easy to handle
+and also the area is easy to find out
+first moment of area you can easily do
+that all that you can find out
+I have this
+PL by EA is what you have
+okay
+and I can find out Theta M minus Theta
+be equal to half of p l by e a in real
+so the area is easy to determine and the
+moment also you can find out I get this
+as minus PL Square by 2 e a
+is 0 I put as Theta 1 Theta b s Theta 1
+I have put because we are going to use
+superposition
+later
+so this is the centroid
+and I can find out this
+this is 2L by 3
+ok so I get this as PL Cube
+I have not got the sign
+if you do by direct integration I will
+get this as minus plq by 3A
+so I am sensitizing U
+it is Enough from our
+analysis point of view I get the
+magnitude I know physically how the beam
+is deflected so I can always label and
+say that this V1 is nothing but plq by
+3ea I've already shown what is the
+deflection deflection is shown
+okay
+so this is what it says positive
+deviation indicate that the point B lies
+above the tangent from point A which is
+seen that's what it gives the sign
+convention in moment area method is not
+very
+convenient for you to interpret so it is
+better that you determine the area and
+the first moment of area
+write the elastic curve and Associate
+the sign or label it directly on the
+diagram even if you label it directly on
+the diagram the problem is done
+now we go to another problem where I
+apply a constant bending moment
+can you do that can you do that moment
+area method find out what is the slope
+find out what is the deflection because
+these are all very simple problems I
+have deliberately taken where you can
+find out the area and first amount of
+area and get the deflection and
+as well as slope
+fine
+I have a simple bending moment acting on
+this
+so it is not difficult for you to
+process the information
+first I draw the
+anticipated deflection curve for us to
+have a visualization
+and I put this as deflection V2
+and this as Theta 2
+and you are bending bond diagram and M
+by ear diagram are similar
+you only do the scaling
+here again I remind you that if
+ordinates of M by EA diagram are
+positive between A and B the change in
+slope is counter clockwise thus the
+slope becomes more positive here I have
+this bending one diagram is negative
+okay
+so I get this
+um
+deflection as
+first the area I have Theta 2 as minus
+ml by e a
+and when I go to the deflection I get
+this as minus m l Square by 2 e a
+the positive deviation indicates that
+the point B lies above the tangent from
+point A
+okay
+and here you know the tangent and this
+one lies on the same level
+so it's very difficult to fully get the
+sign from the basic sign convention
+mentioned in the development of the
+method so it's better that you put this
+and you are in a position to get this
+okay
+so you need to
+specialize in drawing the deflected
+shape for any unknown loading also
+because it is modulated by the supports
+so we have looked at all the three kinds
+of supports simply supported free as
+well as fixed
+okay
+so we would focus more on method of
+superposition
+so you have linear elastic materials
+small deformation
+that deflection depends linearly on the
+load that's very important
+it is possible to superimpose solutions
+for different load cases
+okay I have a load case can you draw the
+anticipated deflection curve because I
+have the support this is the roller
+support
+this is the pin joint
+I have
+unsymmetric loadings the loading is not
+symmetric
+have a training you make a mistake no
+problem you draw the deflected curve
+so you also learn how do you
+learn because you know I can have any
+slope here this also permits any slope
+but the deflection is zero or these two
+point that's what I know and another one
+is I have a loading which is not
+symmetric so I will have a deflected
+shape which is also not symmetric
+that much amount of recognition you
+should have
+can I draw the diagram something like
+this
+because I have a load here this is
+pull down here more fine and this
+deflected shape is not symmetric don't
+draw it symmetric
+so when I say principles for position I
+can consider this as contributed by the
+distributed load as one problem
+contributed by concentrated load as
+another problem
+so I have the first problem like this
+can you draw the reflected shape
+draw the deflected shape you draw the
+reflected shape
+draw the difference because you have to
+be trained on visualizing possible
+diffracted shape of the beams that's a
+focus when you learn method of
+superposition
+and even in your momentarian method if
+you draw the deflected shape you are
+better off in assigning the appropriate
+sign to the quantities
+so this will be
+unsymmetric
+and it will have zero deflection it can
+have different angles say I have shown
+deliberately the slope is different from
+what the slope here
+and when I have the other load here
+again you make an attempt on draw the
+deflected shape
+because that is very important training
+as Engineers you should be able to
+visualize
+what way the beam can deflect under the
+given type of loading
+so I have this as an symmetric okay so
+these two
+contribute to this so I can solve this
+as an individual problem solve this as
+an individual problem and then do it
+so we go back and then solve our problem
+now I have a
+and you also have other subtle point the
+reflection of the beam is linearly
+proportional the load only when the
+bending moment and curvatures are
+related linearly
+and we have already said that we have an
+approximate expression for the
+curvature
+valid for linear elastic materials
+and this we have said that this is an
+approximate relation and we have already
+said when the angle Phi is less than 4.7
+degrees
+the error you make is only one person
+one person is very small one percent is
+very small
+deflections are so small that
+approximate curve can be used in place
+of true curvature
+okay
+it is possible to superimpose solutions
+for different load cases so you should
+know what are the limitations
+you can't have large deformation and use
+Peninsula superposition
+small deformation you can do it
+and I would appreciate that you try to
+do this problem as homework we already
+have solution for the end load and
+solution for the bending moment even
+before you start the problem you know
+what the solution is okay it's a linear
+superposition of these two results
+so in this class we have looked at load
+deflection curve integration we have
+integrated it four times and then we
+have been able to find out for a
+statically indeterminate problem what is
+the deflection curve as well as the
+slope
+then we discussed
+area method and in the momentarian
+method you find out the
+area of the bending moment M divided by
+EA diagram between the points of
+interest
+find out the area find out the deviation
+in the slope
+find out the first moment of the area
+you get the tangential deviation it is
+not deflection you have to find out
+deflection appropriately using the
+geometry of the problem and other
+mathematical principle then we have also
+looked at
+how to do method of superposition thank
+you
+[Music]
+thank you
+[Music]

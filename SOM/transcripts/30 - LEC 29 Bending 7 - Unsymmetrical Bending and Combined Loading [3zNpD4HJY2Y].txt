@@ -1,0 +1,1208 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on
+problems related to bending
+we would also see some very subtle
+concepts related to bending
+what are the things that we know from
+our simple bending Theory
+what other aspects that you need to
+learn in advanced courses
+see one of the commonest example of a
+beam under bending is a shaft
+shaft transmits torque
+as well as because the way it is
+supported it is also transmitting
+bending moment
+and shaft is a circular cross section
+and let us look at
+we have got Tau XY equal to V Q by b i z
+z as the expression for the shear stress
+how far is this applicable to a circular
+cross section
+when you have this the understanding is
+shear stress of the same magnitude act
+for a given line
+the magnitude does not change
+so if I take the reference axis like
+this
+and you all know
+the neutral surface carries the maximum
+value of shear stress
+so if I want to calculate the Q for this
+I can get the shear stress acting on
+this line
+and this statement says whatever the
+magnitude that I have this is
+constant for the entire length of the
+line
+and we have discussed at length what are
+free surfaces
+and you know from the loading of the
+beam the complete outer boundary is free
+is the idea clear
+it's a very important aspect
+and when I have shear stress acting in
+this direction
+this also satisfies the boundary
+condition
+there is no issue because this is
+tangential to the surface
+at this point at these points there is
+no contradiction there
+and if you actually do the
+theory of elasticity calculation
+the results show that whatever the
+results we get out of this is accurate
+within five percent
+so that is a good estimate
+suppose I take an arbitrary line AC
+I am going to use the same expression
+and I am going to get similar results
+for this line also
+and you will have to identify
+where we have a catch
+for me to get the Q I have to calculate
+the first moment of area of this
+green portion
+and then when I do this this expression
+gives me only the components like this
+do you find any contradiction at this
+stage
+if you look at what is the tangent that
+you draw here
+it does not
+coincide with the tangent so you can't
+have a stress like this that is the
+contradiction
+the boundary condition is violated at
+points A and C
+so if the boundary condition is violated
+we can only say the formula is
+inconsistent
+and what is the other situation that you
+have come across Shear transmitted by a
+shaft
+you have seen what happens in the case
+of a twisting moment
+in the twisting mod what happens
+you have shear stress varying from
+maximum or doubter boundary to zero at
+the center
+and this happens
+all around the periphery
+see because it is written in an isotope
+isometric view you do not see that this
+length is same as this because of the
+drawing
+um
+you know the requirement this appears
+small
+so you have this tangential and this is
+tangential all around the boundary that
+is why you call this is also tau's Z
+Theta
+fine
+so there whatever the solution that we
+have got
+this is a free surface the free surface
+requirement is completely satisfied in
+our
+torsion development there also you saw
+shear stress being transmitted by the
+shaft
+here the component is different
+okay component is Tau XY here
+and you find that it is violated at
+points A and C so we have to wriggle out
+of the situation or how to wriggle out
+of the situation
+so we are going to look at an
+approximation
+shear stress formula gives true
+component of shear stress in a
+particular direction we can take it that
+way
+but that is not what is possible here
+to satisfy the boundary condition
+it has to be tangential to the surface
+so they intersect at a
+all shearing stressors are given by act
+in the direction towards the point a
+so this is what the approximation that
+you make
+so instead of taking the value like this
+this is what you get from your shear
+stress formula
+you take the value that is tangential to
+that
+and you say that this Tau Prime x y
+equal to Tau XY cos V
+so it is an approximation
+see the way you have to look at is
+if at all we want to find out the shear
+stress importance in bending
+it reaches maximum at the neutral
+surface
+for the circular shaft at the neutral
+surface the result is very close to what
+is predicted by Theory of elasticity
+the distribution is just to satisfy
+ourselves how the force is distributed
+for all our practical calculation we
+will actually find out only at the
+neutral surface
+okay
+or the neutral axis whichever way you do
+it
+so that is inconsistency in the shear
+stress formula we don't have to worry
+too much about it
+and we have also seen another
+aspect if the beam is Slender
+the magnitude of shear stress away from
+the loading points are very very small
+compared to
+bending stresses
+so from that count also even if you make
+a calculation mistake in the estimation
+of shear stress
+we can still carry on with our
+analysis engineering analysis
+from a mathematical perspective there
+are inconsistencies from an engineering
+perspective we can accommodate that
+later either you never factor of safety
+fine
+and we have also looked at several other
+cross sections
+because bending what you require is you
+require only a axis of symmetry
+in in fact only along the plane of
+symmetry we do all the calculations
+we simply extend it to thickness
+so for all these cross sections this
+inconsistency applies
+and in some of them leaving the
+elliptical cross section
+even what you estimate along the neutral
+axis will also be questionable it will
+also have more error ok but nevertheless
+we always say that Shear contribution is
+less when the beam is Slender
+and we carry on with it accommodate it
+in our engineering analysis
+then we also discuss what is an
+unsymmetrical bending see I have take a
+symmetrical cross section even a
+symmetrical cross section can have an
+unsymmetrical bending
+the moment you say ensymmetrical bending
+you may anticipate that I am taking a
+cross section which does not have
+symmetry and applying the bending load
+that is also on symmetrical bending even
+when I have a symmetric cross section
+suppose I have a situation
+when the bending moment is acting on
+you have mbz as well as mby
+first I have shown only mbz and I say
+that it is under symmetrical bending
+because the cross section is symmetrical
+and once you have this you know the
+flexure formula and I can find out what
+are the stresses introduced
+the sigma X1 due to this bending moment
+is given as minus m b z y by i z z
+and suppose I individually consider
+the bending moment m b y
+and you should also recognize when this
+is positive
+what would be the stress in the positive
+Z Direction
+it's going to be tensile
+fine
+so I can also write Sigma x two
+and when I write Sigma x 2 I would be
+careful in simply saying m b y into Z
+divided by I by y because I know we have
+already embedded
+sine of the stress also in the basic
+equation
+and if I have both m b y and m b z are
+acting
+then I say the cross section is
+subjected to unsymmetrical bending
+and if I have to calculate the stresses
+I will calculate the stresses by a
+principle of linear superposition
+Sigma x equal to Sigma x 1 plus Sigma x
+two
+and you know
+to locate the neutral axis find out
+where Sigma X goes to 0.
+it would be something like this it's
+depending on the magnitude it would be
+something like this
+so a symmetrical cross section subjected
+to bending moment in two perpendicular
+directions
+like what I have shown here
+it will have a unsymmetrical bending
+now I have taken a cross section which
+does not have a plane of symmetry
+when I do not have a plane of symmetry
+what is the first thing that you come
+across if I have the reference axis of z
+and y
+I would definitely have a magnitude for
+ok
+it will not go to zero
+or i y z whichever way I y z equal to
+integral y z d a this will not go to
+zero
+and I have a bending moment m z acting
+on this
+even if I have a single bending moment
+acting on this because the cross section
+is unsymmetrical this will have one
+symmetrical bending
+okay
+and you know when I have an symmetrical
+cross section like this I can also find
+from moment of inertia point of view
+principal planes
+and if I have the reference axis as y
+Prime and Z Prime I would have i y Prime
+Z Prime equal to zero these are the
+principal planes
+so if I have a bending moment m z acting
+like this
+I can visualize
+a component of this bending moment
+acting along the
+m
+b z Prime and m b y Prime
+so that means very similar to this I
+have bending moment acting on two
+perpendicular planes
+that will lead to unsymmetrical bending
+and you know I have also shown a nice
+animation here let us look at it very
+closely
+okay I have only taken a unsymmetrical
+section
+and when I apply it like this you can
+prominently see the member twists
+which we have seen what is the need for
+a Shear Center
+and Shear Center for this cross section
+actually coincides with the meeting of
+these two angles but you know while
+applying the load I had difficulty
+because the pen was slipping out of it
+so I put it just next to that for
+convenience
+see this is for illustration so you will
+not understand that this is for
+illustration
+not a very carefully done experiment but
+it illustrates certain
+basic aspects of it
+so following the
+logic what we have done for
+[Music]
+the other case I can also calculate
+Sigma X1
+I can also calculate Sigma x two
+and then
+use principle of superposition and find
+out the
+values of the
+bending stress
+and to and you will also find out what
+is the
+neutral axis when Sigma X goes to 0 you
+call that a central axis
+see we have not looked at how this
+bending moment is create
+suppose I put a load on this
+this will also create a Twist that's
+what we have seen here ok so I should
+not put the load here for me to create
+only bending moment
+I have to shift it to the
+share Center
+if I put it along this I get this twist
+as well as bending
+and I have to put it along the Shear
+Center I said that I had difficulty
+putting the pen
+you know this is made of thin aluminum
+but it was very very stiff it was very
+difficult to apply the load with the pen
+and I want you to make one very subtle
+observation I am also assist you to
+visualize this I have a line here
+look at the pen
+I will align it with this and then when
+I bend see this bends
+Do You observe what happens see this has
+only bending
+is the bending is one plane or there
+something else is happening
+I will repeat the animation the
+animation will first have the twist
+then you will have the bending
+you have a reference line here for you
+to visualize
+see if the beam bends the pen should
+remain in this line
+is it happening
+the central line of the pen is slightly
+shifting so what is happening is the
+beam is
+bending like this as well as bending
+like this
+idea clear it's bending as well as
+bending like this
+so it's a very very subtle point which
+is captured in this animation
+and that is why this is called as
+unsymmetrical bending even though I
+apply a simple
+bending moment
+when I have an insymmetrical cross
+section the bending is complex
+ok
+and you know suppose I have
+unsymmetrical bending
+I can also estimate the stresses
+directly without mathematical steps I am
+going to give you the final expression
+please write down the final expression
+I have
+mbz
+as well as mby is acting if both the
+moments are acting I have a expression
+for Sigma X
+that's given as minus
+within the brackets y i y y minus z i y
+z
+close the bracket and get multiplied by
+m b z Plus
+y i y z minus z i z z multiplied by m b
+by
+divided by i z z i y by minus I squared
+y z
+and once you go to a
+unsymmetrical cross section
+I will have i y z non zero
+and that will figure in the equations
+suppose I have only
+one bending moment like what I have
+shown here for m b y equals 0 I get
+Sigma x equal to minus of
+Y into i y y minus z i y z multiplied by
+m b z
+divided by i z z i y by minus I Square y
+z
+see the one way of verifying whether
+these expressions are all right we must
+also find out if I simplify it for a
+symmetrical cross section what happens
+the moment I say a cross section is
+symmetrical I will have i y z 0.
+it's not meant for this problem
+but for the
+generic case when i y is equal to 0
+cross section has a plane of symmetry we
+have seen multiple cross sections
+so when I substitute this
+I get this as minus y m b z divided by i
+z z in fact this is what we developed as
+Pata for flexor formula
+so this indirectly confirms what I have
+got this as expression
+can be correct fine you please go and
+verify
+and is there any typographical errors
+please alert me
+and you have also seen this animation
+multiple number of times how
+unsymmetrical bending actually takes
+place
+fine it's very interesting to see
+so this is what it says you have this
+expression as same as fracture formula
+and you also
+see the principal planes and the
+neutral axis see this depends on what is
+the values of this individual bending
+moments fine and also the sign so it's
+only a illustration
+and you know
+I have been emphasizing that resolution
+of a force into a force and a couple
+is a very very important concept if you
+get that many problems you can easily
+analyze
+I can move this Force along this line of
+action
+no issue the external effects are not
+changed
+suppose I want to move it from point P1
+to P2
+I cannot simply move it one way of
+conjecturing is
+I imagine that I also add another Force
+so I have not done anything to point P
+two at this stage
+but this system as a whole can be looked
+at from a different perspective that
+this force and this Force forms a couple
+replace it by a couple
+and when I replace it by a couple I have
+achieved the task that I have been able
+to move the force from this point P1 to
+P2
+and I find when I move the force from
+point P1 to P2
+I have the force as well as a couple
+you know this is very very important
+I am going to discuss I have asked you
+to
+look at what happens to a
+cycle carrier I do not know how many of
+you have
+had the inquisitiveness so you should
+have inquisitiveness in learning
+fine if that inquisitiveness is put at
+the back burner then learning is not
+enjoyable
+OK so you see you are not done yourself
+the experiment I am showing the
+experiment you are lifting the
+carrier you see the spring here
+can you tell me
+can I say that this is interacting here
+and this is a very long this one where I
+can replace this by force P one and P2
+is idea clear
+you have a spring like this and it is
+you have a bent like this you have a
+this is the torsional spring
+and you have a long arm so to visualize
+I have a
+long arm shown here I have a force here
+you just find out what is the effect of
+this force on this cross section
+I just now discussed how to move a force
+from one point to another and what is
+the kind of loading can you try can you
+make an attempt you make an attempt
+and then verify with my animation
+because what you'll have to appreciate
+is it's a simple day-to-day torsional
+spring that you come across in your
+cycle
+and with your background please make an
+attempt have you observed what is the
+load that's coming on this
+it's nothing but translate this force
+acting here to this point
+this is located away in a horizontal
+distance like this and there is also a
+depth here
+is that a clear so I will have to move
+it horizontally then from the depthwise
+I have to move so I have to do two
+movements
+what do these two movements introduce
+the couple
+depending on the nature of the couple we
+will labeled as a bending moment or a
+twisting moment if it is along the axis
+of the cross section you call it as
+testing moment
+if it tries to bend then you call it as
+a bending moment is the idea clear
+please please make an attempt
+make an attempt see only if you make an
+attempt and make mistakes
+it is learning
+otherwise it is only cramming up
+whatever that we discuss and then you
+just vomit that in the examination and
+get what is called as a grade which is
+useless
+you will have to get the
+fundamental understanding of what is
+happening
+so I am going to have two moments that I
+have explained it will move horizontally
+and then from the depth it has to come
+to the front and this animation will be
+little faster okay
+so please observe this when I move it
+horizontally what happens
+when I move it horizontally this
+horizontal moment also create a couple
+what sort of a couple is this
+it is trying to bend and you have a very
+long arm
+isn't it
+so your bending moment is
+of a very high value
+and I have to move it through the depth
+okay
+I have to move it to the depth that is a
+very short length
+and I have a twisting moment
+now I can resolve this Force into
+tangential to the surface and
+perpendicular surface is ideally clear
+okay I will do that
+so when I have a force acting here that
+force is felt by this cross section
+as a very large bending moment
+a small testing moment and you have a
+shear stress and an axial stress a very
+nice
+application of basic idea a cross
+section can transmit forces in three
+directions and moments in three
+directions
+and in this case it transmits force in
+two directions and transmits moment in
+two direction
+okay now the other question is
+do you have the background to analyze
+this beam
+see Engineers always look like this I
+have also helped your visualization that
+this has the long largest value so I
+have shown it as a very prominent vector
+for a simplistic analysis we can ignore
+the effect of all of this
+and consider only major load as bending
+momentum see it's very funny you say
+it's a torsional spring
+but it transmits
+bending load
+fine
+and the question is do you have the
+background analyze
+you have to recognize that this is an
+initially curved section
+it is not a straight beam
+and what is other famous example you
+have a crane hook
+and this is beautifully done in
+our lab here
+you have The Fringe pattern for a two
+dimensional model
+and I have sufficiently trained you
+by looking at The Fringe patterns and
+pure bending
+so you have the similar features I have
+the black Fringe depicting the neutral
+axis
+and you say something different in the
+depth
+you find the fringes are of equal
+distance here
+how do you find the fringes along this
+direction
+they are not of equal distance
+fine this is also subjected to bending
+even though the momentum is very small
+because the weight that this has to
+carry is very very large
+fine so you have a significant bending
+moment
+and in reality you will not have a crane
+hook like a two-dimensional object
+it will be a three dimensional object
+will be very heavy
+and in all you have you also have a
+three dimensional model of the
+photoelastic
+Hook is created by rapid tooling you
+have silicon mold the mold is prepared
+based on actual steel crane hook
+then you have the mold cavity generated
+by rapid tooling and you get the
+hook done and there is also a special
+process by which by applying the load
+whatever the effect of the load can be
+frozen into the model this is called
+stress freezing it's all done by my
+students
+and when you have The Fringe part and
+this is the integrated Fringe pattern
+because it is a very thick cross section
+and if you take a cross section here the
+cross section will be like trapezoidal
+okay this is a beam of uniform strength
+where it has the higher number of
+stresses value of stresses you have this
+as tick
+and when you see it in a you take a
+slice out of it you see The Fringe
+pattern
+and you take a sub slice what you see as
+true line is there cut from this and
+this is seen perpendicular to that so
+you see The Fringe pattern as if they
+are dense here they are
+of different distance here this depicts
+that there is bending taking place here
+and if you look at what happens on this
+cross section
+and if you plot the actual stress
+variation this is non-linear so the
+moment you go from a straight beam to
+initially curved beam
+there are two things happen
+one is neutral axis gets shifted see in
+the case of a
+straight beam only if I have multiple
+materials the neutral axis gets shifted
+otherwise it coincides with the
+centroidal axis
+in a initially Cloud beam even though it
+is made of a single material please make
+a note of it it's a very very subtle
+learnings
+the neutral axis gets shifted
+and the second important observation is
+stress variation is non-linear
+in fact it is hyperbolic
+it's a very very important aspect say
+even though you use your cycle daily
+with the second level course first level
+courses rigid body mechanics the second
+level course lifts its sand and says you
+don't have the Expressions to
+analyze fine you are still doing baby
+steps and whatever the expression that
+you have is known as the Winkler back
+formula hopefully you will study in the
+next level course
+okay
+see the future is biomechanics you know
+there are a lot of issues in
+biomechanics it is not solved and it
+requires Engineers to apply their minds
+and then do it
+and another area where this is also
+becoming important is in the area of
+prosthetics
+okay
+see earlier we were not having very high
+speeds permitted in our highways now we
+are also going to International
+standards where you are going to have
+140 kilometers I think 140 or 130 I do
+not know they are going to increase the
+speed from 100 kilometers per hour
+so the moment you are going to have high
+speed you are going to have collisions
+you are going to get injuries out of it
+and you have to rehabilitate the people
+who are caught into the accident
+and you need to understand Prosthetics
+and you should appreciate how God has
+been very clever in designing your
+body
+if you look at when you have action like
+this to your legs
+the femur the longest bone in your body
+is subjected to both bending and
+compression
+and if you look at femur in all its
+Splendor you find it is not a straight
+beam actually it is curved not only
+curved even the cross sections change
+from section to sections very
+complicated
+it's very very complicated
+and you have another movement of your
+own body which can produce torsion of
+the femur shaft
+so the worst case scenery is I may have
+bending and compression
+as well as torsion of the fever
+see you are studying and we have seen a
+beam Theory took 400 years and we
+understood that inner core does not
+transmit load your body was there since
+millionaire
+and God has understood your bending
+he has understood your torsion
+and if you cut the bone open and you see
+inner core is your
+soft marrow which produces the
+hemoglobin
+outer core is your bone
+and we have also discussed what you see
+as a bone which is of porous structure
+here this is functionally graded adding
+another complication to this
+see we have only looked at a steel plate
+attached to a aluminum channel then we
+had the situation of steel rods embedded
+into concrete
+even that mathematics was back breaking
+and if I am going to look at the femur
+which is functionally graded along its
+length
+cross section changes
+and it is not a straight beam initially
+curved
+you will only say let somebody else
+analyze the problem
+that's not the way Engineers operate
+Engineers take it as a challenge and
+then simplify to the extent with the
+available knowledge what you have been
+exposed to will analyze the problem
+and whatever we have not accommodated
+put it in a sector of safety
+this is the basic approach in
+engineering OK you must also have the
+courage to do that
+so the problem says like this research
+shows that femur can support up to 30
+times the body weight
+so God has done all your stress analysis
+and he has found out
+humans are going to create cars and it's
+going to travel at 140 kilometers per
+hour
+I mean there is a collision this fellow
+should say be safe otherwise why you
+need your femur to support 30 times the
+body weight you don't need that
+fine with all that factor of safety
+inbuilt if you get injury
+God only should save you okay
+there is also another thing I don't I'm
+not sure you know these days see we are
+in a tropical country
+in tropical countries people have found
+out that we all have vitamin D
+deficiency
+and you know vitamin D is vital for
+absorption of calcium in your system and
+calcium is necessary for strength of
+your bones
+so if you do not have a sufficient
+Vitamin D it also leads to other
+complications one complication is also
+in the bone and you know particularly
+for women when they become 40 or so they
+are prone to get what is known as
+osteophoresis
+okay see when you design a nuclear power
+plant the irradiation damages and
+deteriorates the material so when I put
+any component into the nuclear power
+plant for it to be constructed
+the designers take into account the
+material deterioration as a function of
+time
+I think God has done that he has done
+that
+osteoporosis is going to affect you that
+is why he had designed the basic femur
+which can support 30 times the body
+weight
+okay so you know you should have outdoor
+activity which helps you to absorb D
+vitamin
+even in tropical countries is the
+problem
+and what it says is you know he has done
+this exercise after the several times
+you know you don't follow rules you know
+you know you don't the body has to be
+aligned in a particular manner if you
+misalign that leg movement it can cause
+a testing momentum so this is a problem
+which is artificially coined to give a
+flavor of how do we handle a real life
+problem which is very challenging
+so the female shaft is subjected to
+compression bending and twisting
+and you have to verify whether it can
+withstand the combined loading so I am
+going to use this problem as a basis to
+illustrate many many Concepts okay
+and you are also given these are all
+real values taken from research papers
+ultimate tensile and compressive
+strength that is tensile strength is 135
+MPA and compressive strength is 2.5 MPA
+this is taken from a research paper
+I hope they have done the measurements
+little more carefully so the first
+approximation what they do is we take a
+convenient access which is more or less
+horizontal and then we ignore the
+initial curvature of the femur
+and we will solve the problem in three
+stages
+the first stage we would take only the
+combined the bending and torsion bending
+and
+axial compression
+I can replace this as addition of two
+sub problems because we are living in
+linear elasticity one is a
+causing bending moment
+other one causing
+only
+axial compression and you also have two
+muscles attached at Point C and D
+they carry some amount of load and you
+are given that this takes 30 percent of
+f
+and you have shown the direction of the
+force
+so if I have this as 270 Newtons
+if I have to find out what happens at C
+and D vertically it is 190.92 this is
+also given at 45 degrees
+horizontally also it will have 90.92 so
+I have one problem which deals with
+bending
+another problem deals with
+compression once it is given the problem
+is very simple for you to solve
+OK first is we have to find out the
+reactions
+so I have Sigma f i equal to 0
+and this gives me re plus RB equal to
+381.84
+see we have also done a simple
+idealization you have this as ball and
+socket joint at the hip
+and the other joint is also some sort of
+a revolute joint okay so we simply
+replace it by a horizontal and vertical
+force and horizontal force is already
+given as part of the problem
+only the vertical Force we have to find
+out as part of the
+solution that we have to do
+and you know by taking the bending
+moment m b equal to zero you can find
+out this is from your rigid body
+mechanics please make a note of it make
+a note of it
+I have this reaction as of 259.78
+and RB has 122.06 so once you have these
+numbers
+you can find out the bending bond
+diagram why do you draw the bending
+bound diagram what is the need for
+drawing the bending bone diagram
+from a design perspective I want to find
+out what is the maximum bending moment
+that is the purpose of it
+you have learned to draw bending on
+diagram not to get grades in your
+previous course
+but to analyze the beam in a later
+course meaningfully fine
+so I go to the bending moment Shear
+force and bending on diagram
+and I have already told you that you
+should attempt to draw this by
+inspection
+from right to left so when I have this
+reaction I have the shear Force go up
+like this it remains constant and comes
+down by 190.92 I will go like this and
+go down come like this and go up fine I
+have shown you how I have I am drawing
+the shear Force that's what I am going
+to show here you must pick up that speed
+okay you have come to the second level
+course
+and you do this from right to left when
+you do this from right to left it
+satisfies the sign convention and it is
+nothing but moving this Force to the
+different locations when I move this
+load the load will also have a couple
+and that is nothing but a bending moment
+that is what is reflected as in your
+bending mount diagram and I have this as
+a hollow section
+outer diameter is 35 millimeter inner
+diameter is 30 which is all given in the
+problem
+since I have circulated the problem
+sheet I have not read the problem here
+and when I do this I get this as 18.31
+newton meters and I find this cross
+section
+has the maximum level of bending moment
+fine
+and you know from your flexure formula
+how to find out the bending stress see
+this also I am repeating it again and
+again see if you keep looking at the
+Expressions it also helps you to
+remember the key
+aspects so I find out the maximum
+bending stress
+and you are given the cross section so I
+need to find out the i z i z depends on
+the cross section
+and this is a hollow tube
+you all have the basic expression for i
+z
+Pi base 64 multiplied by D naught power
+4 minus d i power four
+and this you get a number like this so
+when I substitute
+I get the sigma Max as
+9.45 mph compressive
+see when the femur bends it has a
+tensile stress as well as compressive
+stress
+my idea is to find out what is the
+combination of you have axial
+compression so I have looked at the
+compressive side
+fine you can also calculate for the
+tensile side what happens
+now I have calculated the value and this
+is the reference axis the x axis is
+along the axis of the beam how do I
+write the stress tensor
+is nothing but Sigma x 0 0
+so I can substitute this and say minus
+nine point four five zero zero zero MP
+so I got this test tensor in the case of
+bending
+now let me go to the axial load
+and it's easy for you to draw the axial
+force diagram
+you can take sections and do it but you
+can also do it directly like this and
+here again the point D is the one which
+has the maximum
+axial load from the diagram you can read
+that this is 900 Newtons
+ok
+and you have the cross section so I need
+to find out the area
+and you should also know what is this
+axial stress component when I have the
+reference axis as X along the axis
+this is nothing but
+Sigma X
+so the stress tensor is again Sigma X
+zero zero zero
+so I can also get this as minus 3.53
+zero zero zero MPA so we have determined
+what is the stress tensor caused by
+bending
+what is the stress tensor caused by
+axial compression
+now I said after doing the exercise
+several number of times he changed his
+posture
+the change in posture
+has resulted in
+additional torsional load
+and we will analyze torsion separately
+so that you are given the torsional load
+like this
+and we have also developed torsion
+formula
+using what as a reference access
+our entire discussion in torsion was
+confined to Circular cross section
+whether it is solid or Hollow
+so it was convenient to depict a circle
+by R Theta coordinates and we have taken
+the axis as Z
+okay
+so and you have the torsional formula Mt
+by i p equal to Tau J Theta by r equal
+to g c by L
+so I can calculate from the twisting
+moment what is this shear stress Tau J
+Theta is idea clear
+I have this as Mt D naught by two i t
+because the maximum stress occurs at the
+outer radius that is D naught by two
+so when I have this the number comes to
+be like this tau's Z Theta Max equal to
+0.0774 MP
+I have always emphasized that don't look
+at the components
+you try to express this as a stress
+tensor and I want to do it in two
+dimension
+okay
+I have Tau J Theta so it is
+prudent for me to write it like this
+zero taus a Theta thous I have used
+equator cross shears ok
+and you have this stress tensor
+and I have filled in the
+numbers that I have got
+I got this as 0.0774
+MPA but when I write it in tensorial
+form I have it like this
+see I said that we live in the luxury of
+linear elasticity
+and individually these loads can be
+analyzed you can sum them up because
+they are all linear so now I am going to
+invoke the principle of
+superposition
+what is the catch here
+I have analyzed this beam
+with one reference axis x y
+and I have got the stress tensor we will
+see that we have analyzed torsion with
+another reference axis something is
+common
+something is not common
+I have got in this Sigma X zero zero
+zero I have got in this 0 Tau J Theta
+tau's a Theta 0. one way of doing this
+is apply stress transformation reduce
+them to Cartesian coordinates add them
+up and solve it that is one way of
+solving the problem what is the other
+easy way of solving the problem
+if I make one small change
+I have referred the axis of the femur as
+Z in this
+I have referred the axis of the beam as
+X in this
+suppose I replace whatever the stresses
+I have got in beam
+into Z axis
+okay then my
+assembly becomes much simpler okay I can
+write this as zero zero zero Sigma C
+easy adaptation to the torsional
+coordinate system
+and what is the resulting stress tensor
+I have this is Sigma Theta Sigma Theta
+is 0
+fine
+Tau Theta Z Tau Theta Z and sigma Z is
+idea clear
+is idea clear I have invoked principle
+of superposition I have looked at the
+access and I made a very simple
+adjustment
+by a simple adjustment I have been able
+to get this
+okay
+and I have this as 0 0.0774
+0.0774 minus 12.98 MP
+so I have the stress tensor subjected to
+bending torsion and axial compression
+and I can have the principles success
+I get this as Sigma 1 comma 2 as Sigma
+Theta plus Sigma Z divided by 2 plus or
+minus root of Sigma T Theta minus Sigma
+Z by 2 whole square plus Tau squared Z
+Theta
+what is Sigma 1 here what is Sigma 2
+here
+one of the common mistakes people do
+they simply say Sigma 1 as
+plus sign Sigma 2 as minus 10.
+what is the way we have labeled the
+sigma 1 Sigma 2.
+algebraically maximum is Sigma 1
+algebraically smaller is sigma 2.
+so do you have no clue how to use it may
+be incidental in this problem it is
+incidental so I have to substitute this
+I have no Sigma Theta so I can also have
+a much simpler expression
+I have Sigma 1 comma 2 as Sigma Z by 2
+plus r minus square root of Sigma Z by 2
+whole square plus Tau Square Z Theta
+I have to calculate
+what is happening for the positive sign
+what is happening for the negative sign
+then depending on the numbers I should
+label which is Sigma 1 and which is
+sigma 2.
+so which is Sigma 1 here
+0
+is Sigma 1 because algebraically 0 is
+greater and your Sigma 2 is minus 12.98
+but I have always said when you
+calculate the principal stresses don't
+stop there
+you must also verify whether it satisfy
+the first ingredient
+first invariant is Sigma 1 plus Sigma 2
+which is should be equal to Sigma Theta
+plus Sigma Z this case because the
+torsional effects are so small it is not
+influencing anything so here we have
+verified
+that
+this identity is also satisfied
+and I can also draw the Mohr Circle
+I can draw the Mohr Circle
+and also find out what is the fact of
+safety in some sense
+so you get a factor of safety of 15.79
+so in this class we have looked at
+certain subtle aspects of bending
+the inconsistency of Shear formula
+for analyzing a circular cross section
+we have seen
+then we have also looked at what is
+unsymmetrical bending even a symmetrical
+cross section if you have bending
+moments acting in two different
+directions can be labeled as
+unsymmetrical bending
+and we have also seen if you have an
+unsymmetrical cross section subjected to
+even bending in one axis it has
+unsymmetrical bending
+then we have also looked at the problem
+of a simple torsional spring in your
+cycle
+we have learned that it actually
+transmits a bending load and at this
+level of the course you do not know how
+to handle
+yeah curved beam to start with and we
+have noted that in a curved beam the
+stress variation can be non-linear
+and even for a single material the
+neutral axis can get shifted these are
+two important learnings then we analyze
+the problem of a femur a very crude
+approximation the future is biomechanics
+you can bring in all complexities of
+solid mechanics in solving bringing in
+finite strain bringing in functionally
+graded material bringing in variation of
+cross section along the length so there
+is vast scope and you should be ready to
+capture that
+[Music]
+thank you

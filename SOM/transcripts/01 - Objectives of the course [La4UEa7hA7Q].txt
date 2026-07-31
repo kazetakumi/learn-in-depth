@@ -1,0 +1,108 @@
+[Music]
+digital India educated India
+[Music]
+welcome to the course on strength of
+materials this is the first level course
+on deformable solids many Concepts in
+this course are developed based on a
+simple tension test starting from the
+concepts of stress and strain
+the breakage of chalk at different
+angles to tension or torsion prompting
+the determination of the plane of
+breakage is used to develop the concept
+of suspector and eventually the stress
+tensor
+key idealizations in this course are
+that the material is an elastic
+Continuum homogeneous isotropic and
+experiences small deformations
+modeled as linear for small deformations
+the main focus is to get the variation
+of the resistance to axial
+bending or torsional loads of Slender
+members the Triangular variation of
+stress in bending has taken 400 years to
+get established
+photoelasticity can reveal the stress as
+beautiful fringe patterns in color being
+an experimentalist conscious effort is
+taken to include
+as many experimental results to
+reinforce the concepts better brittle
+coating is an elegant experimental
+method to establish that the principles
+such directions are mutually perpendible
+depending on the strain level one has to
+select appropriate methods for strain
+measurement The Strain gauge technique
+is very useful for many standard
+applications and digital image
+correlation is useful for large
+deformations concepts of principle
+stresses more circle of stress and
+strain thermal strains and number of
+elastic constants required to
+characterize any material form a part of
+this course
+development of Shear in beams is very
+subtle to understand and this is
+systematically developed in this course
+by performing experiments on layered
+beams although shear stress variation or
+the depth of the beam is parabolic near
+load application points this can be
+quite different
+and the strength of material solution is
+inadequate this is well captured by a
+photelastic experiment
+just as an open sections such as i-beams
+concepts of Shear Center and
+ensymmetrical bending are discussed in
+this course engineering analysis of
+beams based on fracture formula and
+superposition methods to find the stress
+tensor in Combined loading of tension
+torsion and bending are well covered
+various methods to determine deflection
+of beams including the energy method of
+castigliano or presented energy method
+is extended to get deflection of
+attention spring and Shear deformation
+in beams development of financial method
+to solve real life problems has also
+been highlighted
+from the Department of a plane mechanics
+item address with 34 years of teaching
+experience I hope you will assimilate
+the concepts of Center materials better
+with extensive experimental and
+multimedia content embedded in this
+course
+failure theories are based on simple
+tension tests and use of principles such
+as come in handy to predict the failure
+behavior of actual structures
+failure of ductile materials is
+predicted either by tresca or one myself
+Theory and brittle materials fail by
+most Theory
+historical perspectives on the
+development of these theories as well as
+failure locusts or very effectively
+brought out through appropriate
+animations
+to investigate stability one has to work
+on deformed coordinate systems although
+mathematical development is restricted
+to column buckling the importance of
+buckling as a failure mode in the
+presence of compression such as in
+bending Shear or torsion is well brought
+out
+the course development is such that the
+students can easily grasp and adopt
+these concepts for application courses
+such as design of machine elements and
+higher level courses on continual
+mechanics thank you

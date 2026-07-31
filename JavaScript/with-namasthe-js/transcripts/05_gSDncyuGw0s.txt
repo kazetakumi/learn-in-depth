@@ -1,0 +1,504 @@
+So let us now explore a little bit more
+about function invocation and variable
+environment. Okay. So for that let us
+take a function okay function a
+and in this function we have a variable
+x okay where x and let us assign 10 to
+it okay and what we'll do is we'll also
+do a console log of the same variable
+okay now what I am trying to showcase
+you over here is that if suppose we have
+one more function B and we use the same
+variable name. Okay, suppose if I use
+the same variable name over here where x
+is equals to this time give it a some
+other value. So let's say 100 and let us
+log this over here also. Okay, what I am
+trying to show how function invocation
+behaves behind the scenes. Okay, let us
+see that for that we'll take these two
+functions and let us in introduce
+something in the global space also.
+Okay.
+So let suppose we had the same variable
+name where where x is equals to uh let's
+give it one. Okay. One at the top of the
+program. Okay. And then after putting
+this one inside x we invoke these two
+functions. Okay. Suppose if I invoke
+these two functions and remember from
+the last video we we can do this like we
+can invoke these functions before even
+initializing them just because of
+hosting. Remember from the last video we
+told now what we are trying to do is
+this where x we are putting one over
+here and then we are invoking these
+functions. Okay that means this code
+will be executed and these lines also
+will run. Okay. So what I'm trying to
+say is that if we have same variable
+name all over there so how our program
+behaves how JavaScript handles this
+scenario. So we'll be talking and seeing
+this in detail what happens behind the
+scenes. Okay. And after invoking these
+two functions let us log this X once
+again and let's see what what output we
+get. Cool. So now we are here with the
+program. So now I let's see the output
+and then we will see how this whole
+program works behind the scenes line by
+line that would be really very
+interesting. So whatever we learn in
+this video will be helpful for learning
+scope for learning closures and
+everything. Okay. So we are go moving
+slowly towards that phase. Okay. So let
+us see first of all what the output will
+be. Okay. So here is our browser. So let
+me just save this program and see. We
+got the output 101.
+So let us go dive deep into that and see
+that how that program was executed and
+this output came up. So behind the
+scenes when we run this program. So
+whenever JavaScript runs any program a
+global execution context is created
+right. So let us create this global
+execution context. So here is our global
+execution context. So as you might
+remember it will have two two components
+again right the memory component
+and the code component right so this
+memory space is also known as variable
+environment remember okay so this is the
+variable environment and now we now even
+before executing a single line of code
+okay memory will be allocated in the
+first phase right so in the first phase
+let us allocate memory and see how this
+works behind behind the scenes. So first
+of all we will be allocating memory to
+these X and this function A and this
+function B. Remember as we told in the
+previous videos. Okay. So let us
+allocate memory. So memory will be
+allocated to X. Memory will be allocated
+to A and memory will be allocated to B
+function. Okay. And what will be stored
+in this variables? Come on quickly tell
+me. Okay. So X will store yes you are
+right. Undefined.
+Okay. in the first phase undefined
+and A and B will point to the function
+code. Okay, these A and B will be
+pointing to the exact function code.
+This function code, right? They will be
+pointing to this exact full function
+code. They don't they won't be storing
+undefined. Okay, so that will happen and
+remember in the in the last video we
+also discussed a little more about call
+stack. Remember call stack? What was it?
+So let us create a call stack for
+ourselves now. So let's create this call
+stack. So this call stack is a stack
+where all these global execution
+contexts are kept right. So what will
+happen as in when we as in when we
+created this whole global execution
+context this will be pushed inside the
+stack. So let us just push it. So here
+is our global execution context right at
+the bottom of our stack. Make sense now?
+So now let us see what will happen. Now
+the actual time comes when the code will
+be executed. So when we run this first
+line where x is equals to 1. Okay. So
+when we run this first line where x is
+equals to 1. So what will happen is this
+one will replace undefined over here.
+Okay. So now let us just remove this
+undefined and put in one over here in
+its place. So let us put one. So here is
+our one over here. Now the x becomes
+one. Now the code moves from this line
+to this line. So now comes the
+interesting part of the video. Okay. A
+function is invoked. A function is
+invoked. Let's see what happens. So
+whenever this function a is invoked,
+this function is invoked. Now a
+execution context is created. This
+execution context is very much limited
+to this function. Okay. This is what I'm
+trying to make you understand. Okay. So
+a execution context is created here. Let
+us create an execution context. So this
+execution context again have two things
+right. What are these two things? Memory
+and the code. Got it? Now it will again
+go through two phases. Remember two
+phases. First is the memory allocation
+phase. So so this fun this execution
+context is limited to this piece of
+code. Right? So memory will be allocated
+to all the variables and functions
+inside this piece of code. Okay, there
+are no parameters. So no issues. There
+are no functions, no issues. But there
+is a variable X, right? And it has the
+same name as this. Okay, but what I'm
+trying to tell you is that this X will
+have a separate new copy inside this
+variable environment. Okay, not a copy.
+I would say it's a separate variable
+altogether. You know this execution
+context is like independent of
+everything else. It's like a mini
+environment sort of mini place
+environment where this small function
+code is executed. That's it. Okay. So
+let us try to allocate memory to X now.
+So inside this small execution context
+of A,
+X will be allocated. Okay. X will be
+allocated memory and undefined will be
+stored over here. remember undefined
+will be stored. One more thing to
+notice. Okay, I I forgot to tell you. As
+soon as this function is invoked, so as
+soon as this execution context is
+created, it is pushed in the call stack.
+Okay, this is the important thing.
+Remember, I'll show you the whole
+complete picture now. So this execution
+context was pushed into the stack. Let
+us push it. Okay, let us push it. And
+now we have a inside this call stack
+again. Okay. And the control is over
+here. Okay. A. And the control is at
+line number seven right now.
+Okay. And when this function was
+invoked, the control in the global
+execution stack was at line number two.
+Remember? So the control was here like
+the the code was running this. So global
+execution context was at two and now we
+are at seven. Line number seven. This
+line. Okay. So once we execute this
+line, let us execute this line where x
+is equals to 10. So this where x is
+equals to 10 is now executed. So once we
+execute this 10 will replace undefined.
+Okay. So let us now replace this.
+So after this line we move to line
+number eight now. Okay. So line number
+eight
+is the console log of x. So what happens
+when you do a console log? Let us create
+a small console for us also. So this is
+our console. Let us see. Let us say this
+is our console. So when you do a console
+log of x over here, console log of x.
+So now JavaScript will look for the
+value of x in the local memory space.
+Okay. So when I say local memory space,
+that means it is very much limited to
+that particular execution context. So
+this is execution context local memory
+is this and this value of x JavaScript
+engine will search for X inside this
+local memory. It finds 10 and it prints
+it on the console. Got it my point? So
+it finds this X value in the local
+memory. Takes that and prints it to
+console. Okay, that's how this code is
+executed and the console will now have
+10 in it. Okay, now 10 will be printed
+in the console, logged in the console.
+Okay, so what happens now? We are done
+with our code of this function.
+Remember, now we have finished
+executing. So what happens if we have
+finished executing? Now important thing,
+right? Remember I told you in the
+previous videos, this whole execution
+context is deleted. It's vanished. The
+memory is gone. This whole execution
+context is gone. And the call stack is
+also gone. like this whole functions
+will be removed from the call stack
+also. Let's pop off now. So let us try
+to pop this out from the call stack.
+Okay, let me remove it. So now this
+function is popped out of the call
+stack. Gone. Finished. Now the control
+goes back to global execution context
+line number two where we left. Okay, we
+left at that point, right? So now this a
+function has been executed. So now the
+control moves to line number three.
+Okay. So let us move the control to line
+number three over here. So now again
+comes an important part. Again a
+function is executed. So let us just
+quickly do it. Bear with me patiently
+but you'll learn things. Okay. U so what
+will happen is now we move to line
+number 3B. Okay. Now we invoke a
+function. Again a brand new execution
+context is created. Right. Let us create
+an execution context. So we created this
+execution context and it will again have
+two components memory and code. It will
+again have two phases. First phase
+remember what was it? X will be X will
+be allotted undefined to it. Let us put
+in undefined.
+Okay. And with this we will now execute
+the code. Okay. So when we execute this
+piece of code so X will X is equals to
+100. So 100 will replace over here.
+Okay. Let us do that. So it will it will
+it will run where x is equals to 100. So
+this 100 will replace undefined over
+here. So let us just replace it quickly.
+So once we replace this 100 with x now
+we will execute another line which is
+the console log of x. Console log of x.
+Okay. So now JavaScript will try to find
+out this value of x inside the local
+memory. It will find x over here as 100.
+So it will print it onto console. Okay.
+So let us log this thing onto console.
+So now 100 will be over here. Okay. So
+this 100 will go over here. Now what
+happens again? We have finished
+executing this whole code. Okay. So once
+we are finished executing and this whole
+execution context will be popped off the
+stack also. Oh we forgot to put it
+in the call stack in first place. Okay.
+But as soon as that as soon as this
+execution context was created right it
+was pushed into the stack. Let us put it
+now. What's there? Right. So this this
+was here, right? This was present here.
+Now what will happen once the code whole
+code is executed? So this will pop off
+the stack. Okay. It will come out of the
+stack and it's gone. It's completely
+deleted. Even this memory space
+everything is deleted. Okay. So let us
+just remove this out of the stack now.
+So let us remove this. Gone. Okay. Now
+the control goes back to global
+execution context line number three.
+Okay, this line has finished executing
+and it will move to line number four. So
+now it will execute line number four
+console log of X over here. Okay, so so
+let me first remove all these things,
+right? These execution context and
+everything is not here, right? So let me
+just remove and erase it quickly to make
+things clear. So now we will remove this
+all thing. And now what will happen is
+this line number four will be executed.
+Okay. So now JavaScript engine will
+execute this line number X. Okay. So
+when it executes this line number four
+over here now it will look for X inside
+the local space. So the local memory of
+this particular execution context. Okay.
+So over here the value of X is 1.
+Okay. this one. So this x1 value will be
+printed in the console when we execute
+this line. So what will happen? The
+javascript will print one in the
+console. Okay. So one will be printed in
+the console now. And we are finished
+executing our line number four also in
+the global execution context. Now now
+JavaScript engine moves to the next
+line. It sees that there is nothing more
+to execute in any of the lines now.
+Okay. So in the remaining program there
+is nothing more to execute isn't it? So
+now once whole code has been executed
+now this whole execution context will
+also be deleted. Everything will be
+deleted. Even the call star global
+execution context will be popped out and
+nothing will be left. So let us just
+remove everything. Right? So this whole
+thing is like removed. Okay. This whole
+thing is gone now. And even from the
+call stack
+and even from the call stack this global
+execution context is gone. So we are now
+left with nothing with us. So that is
+how this whole program is executed. So
+this was all the visual representation
+right with the help of diagrams. Now let
+us just see all these amazing things
+happening inside the browser also. I'm
+telling you this will be real fun. Keep
+on watching it. Okay. So here is our
+program and we got this output right in
+the browser. But let us now see that
+what happens behind the scenes inside
+the code right. So for that let us put
+the debugger again. So remember how this
+whole code executes. So let us put a
+debugger over here. Now what will happen
+once you run the code remember the first
+step global execution context will be
+created and pushed onto the stack. So
+this is the call stack here. Listen to
+this very carefully. This is the call
+stack here. when we run a program, when
+we run our program, uh a global
+execution context will be pushed onto
+the call stack. Okay. So, let us refresh
+the page and see. Yep. See this we got
+right global execution context is now
+created and it is over here. The the
+control is on line number one. Okay.
+Now, what we'll again what we'll again
+see there must be some memory allocated,
+isn't it? What what what should happen
+in the first phase? X A B should be
+allocated memory isn't it? So there must
+be some memory. So here in the scope we
+have this memory right we got all these
+memory allocated. So we have this
+function A C we have this function B and
+what will be there in X remember what
+will be there that special keyword we
+used to see.
+Yes. So X will have undefined in it. So
+here is undefined in it. So now the code
+will start executing. So once we execute
+this line number one and move to line
+number two. Okay, let me remove this
+break point line number two. So let us
+play this. Now the first line is
+executed. Now see the value of x must
+have been replaced with undefined would
+have been replaced by one. So let us go
+in and say so over here x would have
+been where is yes. So x now became one.
+Okay as expected. Now what will happen
+as soon as we run this a a function? Now
+once the function is invoked a execution
+context is created and pushed onto the
+call stack remember. So now watch this
+space carefully. Okay when we create
+this this call stack will push a in it.
+Okay let me put a debugger over here to
+visualize it properly.
+So now I'm running the code. Okay just
+see a new execution context will be
+created and it will be here in the call
+stack. Okay. I am I am pressing the uh
+play button. Okay. Yep. See now we got
+this A here right interesting isn't it?
+So now we have this A here and the
+control moves to line number seven right
+over here. So this was the global
+execution context and this was A. And
+now see an interesting thing also. So it
+has its own memory space and this A has
+its own memory space as expected. And
+see here are two things right?
+We have this global memory also and we
+have this local memory also remember and
+as we said that in the local memory of
+that execution context we have this
+excess undefined also because the code
+hasn't started exe executing right we
+have put a debugger over here so this is
+interesting thing right and you must be
+wondering that what is this this what is
+this thing right don't worry we will be
+having a separate video altogether
+covering this this concept also but for
+now just understand that in the local
+memory. So we have just x is equals to
+undefined in the first phase. Okay. So
+let us go executing the next line again.
+So what will happen now? Let us run. So
+x is now moved and this undefined is
+replaced by 10. Now interesting, isn't
+it? Now what will happen? Now let us
+execute this. So once this console log
+will be executed, the control will go
+back to line number three. Isn't it? So
+let us put a debugger and like run this
+piece of code also. So we ran this piece
+of code and see see this in the console
+we got 10 right. So the 10 was printed
+and interesting thing happened right the
+call stack is now moved to global
+execution context. Now that execution
+context of a was popped off this call
+stack. This also happened right now when
+we now we move to line number three.
+Right? So we will invoke the B function
+again. Let's quickly do that again. Let
+me put a debugger over here also and
+we'll show you what will happen. A new
+execution context will be created and po
+pushed into the stack. See now the B is
+in the call stack. It will again have
+its local memory. X over here is
+undefined. Now when we run this uh one
+run this line. So 100 will replace
+undefined. See let me run that again.
+See now 100 came over here in X. Right?
+and console log of x will print print it
+and move to line number four. So, so now
+carefully watch and think. Okay. So,
+once this console log of X is printed
+and we are done with the function, what
+will happen is this B will be popped off
+the stack. I'll play and you quickly see
+that. Okay. See the B was moved out of
+call stack. Right? And in the console C
+100 is printed. Isn't it?
+So now we will move to line number four.
+And once we execute this line, what will
+happen? Our whole program will be
+finished. And even the global execution
+context moves out of the call stack.
+Okay. So let us just play this. Yep. See
+now the call stack is empty and we are
+done executing everything and console
+log one is printed. Right? This console
+log one is printed. So that's how this
+whole code is run and that is how this
+whole every execution context maintains
+its own separate space. Okay. So even if
+that execution context is created by a
+function or it is the global execution
+context or any other execution context
+they will have their own memory space.
+They will have their own virtual kind of
+an environment where they are running
+separately independent of each other.
+That is what the motive of this whole
+video was to explain you this small
+thing. Okay. So in the next video we'll
+see the shortest JavaScript program. Do
+you know what is the shortest JavaScript
+program? We'll see in the next video. So
+watch that video. But before moving on
+to that video, give this video a thumbs
+up and keep watching. Namaste
+JavaScript.
+[music]
+[music]
+[music]

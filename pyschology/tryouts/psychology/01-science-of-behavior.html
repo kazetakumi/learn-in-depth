@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Psychology as a Science — Rung 1</title>
+<style>
+  :root {
+    --paper: #fbfaf6;
+    --ink: #2b2620;
+    --ink-soft: #5b5347;
+    --accent: #355070;
+    --rule: #ddd6c8;
+    --code-bg: #f3f0e8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 4rem 1.5rem 8rem;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+    line-height: 1.68;
+    font-size: 1.06rem;
+  }
+  .col { max-width: 640px; margin: 0 auto; }
+  .kicker {
+    font-size: 0.82rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 0.6rem;
+  }
+  .kicker a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); }
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0 0.3rem;
+    letter-spacing: -0.01em;
+  }
+  .dek {
+    color: var(--ink-soft);
+    font-style: italic;
+    margin: 0 0 3rem;
+    font-size: 1.05rem;
+  }
+  h2 {
+    font-size: 1.35rem;
+    margin: 3rem 0 1rem;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 1.1rem;
+    margin: 2rem 0 0.7rem;
+    font-weight: 600;
+    color: var(--accent);
+  }
+  p { margin: 0 0 1.1rem; }
+  strong { font-weight: 700; }
+  em { font-style: italic; }
+
+  aside {
+    border-left: 3px solid var(--rule);
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    margin: 1.4rem 0;
+    color: var(--ink-soft);
+    font-size: 0.94rem;
+  }
+  aside p { margin: 0 0 0.6rem; }
+  aside p:last-child { margin-bottom: 0; }
+
+  .quiz {
+    margin: 1.8rem 0;
+    padding: 1.2rem 1.3rem;
+    background: var(--code-bg);
+    border-radius: 6px;
+  }
+  .quiz-item { margin-bottom: 0.9rem; }
+  .quiz-item:last-child { margin-bottom: 0; }
+  .quiz-q { font-weight: 600; margin-bottom: 0.3rem; }
+
+  details {
+    margin: 0.6rem 0 1.4rem;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 0.7rem 1rem;
+    background: rgba(53,80,112,0.03);
+  }
+  details[open] { padding-bottom: 1rem; }
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--accent);
+    outline: none;
+  }
+  summary::marker { color: var(--accent); }
+  details > *:not(summary) { margin-top: 0.8rem; }
+  details p:first-of-type { margin-top: 0.8rem; }
+
+  .story {
+    font-size: 0.98rem;
+    background: var(--code-bg);
+    padding: 0.9rem 1.1rem;
+    border-radius: 6px;
+    margin: 1rem 0;
+  }
+  .story-arrow { color: var(--accent); font-weight: 600; }
+
+  hr.break {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 3rem 0;
+  }
+
+  .turn-box {
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    padding: 1.3rem 1.4rem;
+    margin: 1.6rem 0;
+  }
+  .turn-box h3 { margin-top: 0; }
+
+  .nav-footer {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .nav-footer a { color: var(--ink-soft); text-decoration: none; font-size: 0.92rem; }
+  .nav-footer a:hover { color: var(--accent); }
+  button.done-btn {
+    font-family: inherit;
+    font-size: 0.95rem;
+    background: var(--accent);
+    color: var(--paper);
+    border: none;
+    padding: 0.65rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  button.done-btn:hover { opacity: 0.9; }
+  button.done-btn:disabled { opacity: 0.5; cursor: default; }
+  .done-msg { font-size: 0.9rem; color: var(--accent); margin-top: 0.6rem; display: none; }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #1c1a16;
+      --ink: #ece6d8;
+      --ink-soft: #a89f8d;
+      --accent: #7ea3c4;
+      --rule: #3a352c;
+      --code-bg: #29261f;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #1c1a16; --ink: #ece6d8; --ink-soft: #a89f8d; --accent: #7ea3c4; --rule: #3a352c; --code-bg: #29261f;
+  }
+  :root[data-theme="light"] {
+    --paper: #fbfaf6; --ink: #2b2620; --ink-soft: #5b5347; --accent: #355070; --rule: #ddd6c8; --code-bg: #f3f0e8;
+  }
+</style>
+</head>
+<body>
+<div class="col">
+
+<p class="kicker"><a href="index.html">← the ladder</a> · rung 1 of 15</p>
+<h1>Psychology as a Science</h1>
+<p class="dek">Or: why the thing you're most confident about is exactly the thing you should check.</p>
+
+<p>Let me start with something you already do, all day, without thinking about it: you read people. You know your friend is about to snap before he says a word. You can tell when someone's lying by something in their face you couldn't quite name. You have a theory — a real, working theory — of why your sister always dates the wrong guy. Nobody taught you this. You built it from thousands of hours of watching people and quietly checking your guesses against what happened next.</p>
+
+<p>So you already have a science of the mind running in your head. The question this whole course turns on is simple: <strong>is it any good?</strong></p>
+
+<h2>A short quiz, no cheating</h2>
+
+<p>Before I tell you anything, answer these the way you'd answer them at a dinner party — gut reaction, yes or no. Then open each one to see what the data actually say.</p>
+
+<div class="quiz">
+  <div class="quiz-item">
+    <div class="quiz-q">1. Opposites attract, on average.</div>
+    <details><summary>Reveal</summary>
+      <p><strong>No.</strong> The researched pattern runs the other way: similarity, not difference, predicts who ends up together.</p>
+    </details>
+  </div>
+  <div class="quiz-item">
+    <div class="quiz-q">2. The more people who witness an emergency, the more likely someone steps in to help.</div>
+    <details><summary>Reveal</summary>
+      <p><strong>No — the opposite.</strong> A person alone with someone in trouble helps more often than a person who's one of a crowd witnessing the same emergency.</p>
+    </details>
+  </div>
+  <div class="quiz-item">
+    <div class="quiz-q">3. The Rorschach inkblot test reveals a great deal about someone's personality.</div>
+    <details><summary>Reveal</summary>
+      <p><strong>No.</strong> After roughly 10,000 published papers examining it, the validity evidence for the inkblots still isn't there — despite it remaining one of the most recognizable tools in pop culture's idea of psychology.</p>
+    </details>
+  </div>
+  <div class="quiz-item">
+    <div class="quiz-q">4. A personal interview helps identify who will succeed — say, in medical school.</div>
+    <details><summary>Reveal</summary>
+      <p><strong>No.</strong> One school compared applicants accepted versus rejected on interview who then attended other medical schools anyway — no performance difference. Another, forced by an unplanned enrollment expansion to admit 50 students from far down its list — students who'd ranked outside its top 350 choices — found those students performed no differently from everyone else. The interview wasn't tracking anything the rest of the file hadn't already told them.</p>
+    </details>
+  </div>
+  <div class="quiz-item">
+    <div class="quiz-q">5. High self-esteem is a major cause of success and good behavior.</div>
+    <details><summary>Reveal</summary>
+      <p><strong>No</strong> — or at least, not shown. A 2003 review spanning roughly 15,000 studies found self-esteem correlates with good outcomes but found little evidence it <em>causes</em> them. It looks at least as much like a product of doing well as a cause of it.</p>
+    </details>
+  </div>
+</div>
+
+<p>If you got most of those "wrong" by your gut, you're not unusual — you're exactly the point. Notice something stranger, too: your gut felt <em>just as confident</em> going in as it does now that you've seen the answer. Confidence was never tracking truth. That's the actual problem we need to solve, and it's the whole reason "psychology" needs the word "science" bolted onto it.</p>
+
+<h2>How do you know what's true?</h2>
+
+<p>Before there was a scientific method, people had exactly three ways of settling a question like this, and all three are still how most people settle things most of the time:</p>
+
+<p><strong>Authority</strong> — someone credentialed said so. In 1989, <em>Time</em> ran a piece quoting a well-known psychologist: "Almost half of children of divorce enter adulthood as worried, under-achieving, self-deprecating, and sometimes angry young men and women." That's an expert, in print, making a confident claim. It also turned out to rest on a small, non-representative sample with no comparison group of kids whose parents stayed together unhappily — and better-designed studies since have found the picture is far less dire. Being an authority doesn't exempt a claim from being wrong.</p>
+
+<p><strong>Repetition</strong> — I've believed it for years and it's never let me down. But "never let me down" usually means "I never checked the cases where it would have."</p>
+
+<p><strong>A priori reasoning</strong> — it just stands to reason. Of course praising a kid's intelligence builds confidence. Of course more helpers on the scene means more help. These <em>feel</em> like they don't even need testing — which is precisely the problem, because on both counts you just saw the data say the opposite.</p>
+
+<p>All three failure modes share one root cause. They let a claim rest on how it <em>feels</em> rather than on what happens when you go looking for the way it could be wrong. Which brings us to why your gut about people is so consistently, confidently off.</p>
+
+<h3>The bug is confirmation bias</h3>
+
+<p>Try this, the way you'd hit it cold. Four cards lie on a table, one side up: <strong>E</strong>, <strong>K</strong>, <strong>6</strong>, <strong>7</strong>. Every card has a letter on one side and a number on the other. Here's the rule to test: <em>if a card has a vowel on one side, it has an even number on the other side.</em> Which cards must you turn over to check whether the rule is true?</p>
+
+<details><summary>Reveal</summary>
+<p>The correct answer is <strong>E and 7</strong>. Only about 10% of people get it — the common answers are E alone, or E and 6.</p>
+<p>Turning over E can only <em>confirm</em> or break the rule — fine, that one's needed. But turning over 6 can only ever confirm it too (whatever's on the back, the rule survives either way), so it tells you nothing new. The card that could actually catch the rule in a lie is <strong>7</strong>: if it has a vowel on the back, the rule is false. Almost nobody reaches for it, because we reach for evidence that could agree with us, not evidence that could destroy us.</p>
+</details>
+
+<p>That's the exact mechanism behind the quiz above. Folk psychology isn't randomly wrong — it's wrong in one specific, predictable direction: it's built entirely out of E's and 4's. You remember the couple that proves opposites attract and never tally the far larger set that doesn't. You remember praising your kid and watching them light up in the moment, and never run the counterfactual — the version where you praised effort instead and they persisted through the exact difficulty that shows up two weeks later.</p>
+
+<p>So the fix has a name, and it's the single hinge the entire scientific method turns on:</p>
+
+<aside>
+<p><strong>Falsifiability.</strong> A real claim has to specify, in advance, what result would prove it wrong — and then you go hunting for exactly that result, the 7, not the 4. A claim that can't be stated this way ("everything happens for a reason," "she just has bad energy") isn't wrong, exactly — it's not even in the game. There's no card you could turn over that would touch it.</p>
+</aside>
+
+<p>Notice this already reframes what "science" is. It's not a pile of confirming examples — that's the failure mode, not the fix. Science is the discipline of stating your hunch in a form that <em>could</em> die, and then actively trying to kill it. What survives repeated, sincere attempts at murder is what you're allowed to provisionally believe. Not proven — just <em>not yet shown wrong, despite trying hard</em>. That distinction is going to matter more than it sounds like it should.</p>
+
+<hr class="break">
+
+<h2>Okay — I have a testable claim. Now what?</h2>
+
+<p>Say you've got a properly falsifiable hunch: fathers who have children later in life are more likely to have children who develop schizophrenia. This one's real — here's the actual pattern researchers found, tracking paternal age against a child's risk of a schizophrenia diagnosis by age 34. Risk rises with the father's age at conception. You have your falsifiable claim, and you went and got real numbers instead of trusting your gut. Job done?</p>
+
+<div class="turn-box">
+<h3>Your turn, before I say anything</h3>
+<p>The data show a real relationship between "father's age" and "child's risk of schizophrenia." Before you read on: can you think of an explanation for that relationship that has <em>nothing to do with</em> aging sperm cells damaging the father's DNA?</p>
+<details><summary>Reveal</summary>
+<p>Here's the honest rival story, and notice it's a question, not an answer: is it the aging sperm itself — or is it a matter of <em>who becomes an older father in the first place</em>? Whatever kind of man, on average, has children later in life could differ from one who has them younger in all sorts of ways that have nothing to do with sperm and everything to do with genetics, circumstance, or family history. The correlation alone cannot tell you which of these is happening. That's not a gap in this particular dataset — it's a limit built into what a correlation can ever tell you.</p>
+</details>
+</div>
+
+<p>This is the trap waiting behind almost every "researchers found a link between X and Y" headline you will ever read, for the rest of your life. A measured relationship between two variables — a <strong>correlation</strong> — is honestly compatible with at least three different causal stories, and the data alone cannot tell you which one you're looking at:</p>
+
+<div class="story"><span class="story-arrow">1. X → Y</span> — the story you wanted. Paternal age damages sperm, which raises risk.</div>
+<div class="story"><span class="story-arrow">2. Y → X (reverse)</span> — the arrow runs backward. Something about being a certain kind of person (which happens to raise psychiatric risk in offspring through genetics, not age) also makes you marry and father children later.</div>
+<div class="story"><span class="story-arrow">3. Z → X and Z → Y (a third variable)</span> — some hidden factor causes both. Underlying family psychiatric vulnerability could push both "delayed fatherhood" and "risk in offspring" upward independently, so age and risk move together without either one touching the other.</div>
+
+<p>Same shape of trap, completely different content: researchers once found that fourth-graders who watched more violent TV also played more aggressively at school. Tempting story: TV causes aggression. Just as available: aggressive kids <em>seek out</em> violent TV (reverse causation). Or: parents with a harsh disciplinary style produce both TV-watching and aggression in their kids, and the two never touch each other causally at all (third variable). The correlation is real and identical in all three stories. The data alone can't pick a winner.</p>
+
+<p>This is why "correlation isn't causation" is a phrase everyone can recite and almost nobody actually uses — reciting it doesn't tell you what to do differently. Naming the specific rival story does.</p>
+
+<h3>When even the numbers are lying to you</h3>
+
+<p>It gets worse before it gets better. In a 1970s trial of a heart drug called Clofibrate, researchers tracked who actually took their pills. Patients who took the drug faithfully (80%+ of doses) had a much lower five-year mortality rate than patients who barely took it. Clean, large, real effect. Except —</p>
+
+<div class="turn-box">
+<h3>Your turn</h3>
+<p>The exact same pattern — faithful pill-takers surviving longer than sporadic pill-takers — showed up <em>in the placebo group</em>, people taking a sugar pill with zero active ingredient. What does that tell you the real cause was?</p>
+<details><summary>Reveal</summary>
+<p>It was never the drug. The kind of person disciplined enough to take a pill every day for years — whatever that pill is — is also the kind of person who takes better care of themselves in a dozen other ways. That whole cluster of habits is the real common cause, sitting behind both "adherence" and "survival," fully invisible in the adherence number itself. This is <strong>self-selection bias</strong>: the "faithful pill-taker" group wasn't created by the researchers, it was self-assembled by the patients, and whatever made them self-assemble that way came along for the ride.</p>
+</details>
+</div>
+
+<p>Sit with how bad this is for a second. It isn't just that folk intuition can mislead you — a <em>real, measured, statistically solid pattern in real data</em> can also point at the wrong cause, if you don't ask what generated the groups you're comparing. You need something correlational data structurally cannot give you: a guarantee that the only difference between your groups, before anything happened, was the one thing you meant to test.</p>
+
+<h2>The fix that was waiting the whole time</h2>
+
+<p>Look back at what broke both examples. In each case, the groups you were comparing (older fathers vs. younger, faithful pill-takers vs. sporadic) were groups that <em>already existed</em>, shaped by whatever forces made real people fall into them. Any of those shaping forces could be the real cause, hiding behind the one you're looking at.</p>
+
+<p>So don't compare groups the world handed you. <strong>Build the groups yourself</strong> — and build them so that, before your manipulation touches them, they're equivalent on everything: age, personality, genes, family history, discipline, all of it, known and unknown alike. There's exactly one procedure that pulls this off without you having to know in advance which hidden variables matter: assign people to groups <em>at random</em>. Flip a coin. Draw a number. With enough people, randomization scrambles every possible confound — including ones nobody has thought to name yet — evenly across both groups, so the only systematic difference left standing is the one you deliberately created.</p>
+
+<p>That's what turns a study into an <strong>experiment</strong>, and it's why the two words on the whiteboard — <strong>independent variable</strong> (the thing you deliberately vary) and <strong>dependent variable</strong> (the thing you measure afterward) — aren't just vocabulary. They're the whole trick, compressed into two words: you built the difference, so when the outcome differs too, there's nowhere else for the explanation to hide.</p>
+
+<p>Here's the same logic, run for real. A researcher wanted to know whether praising a child's <em>intelligence</em> ("you're so smart") backfires compared to praising their <em>effort</em> ("you worked really hard"). Fifth graders solved an easy set of problems, then were assigned to one of three conditions: praised for intelligence, praised for effort, or no praise at all. Then everyone tackled a much harder set.</p>
+
+<div class="turn-box">
+<h3>Your turn</h3>
+<p>Before the reveal — given everything so far, predict the ranking. Which group do you think handled the harder problems best, and which handled it worst?</p>
+<details><summary>Reveal</summary>
+<p>The intelligence-praised kids did <em>worse</em> on the harder set than either other group — they'd been taught that struggling meant they weren't smart after all, so they avoided challenge and gave up faster. The effort-praised kids improved. Structure the study this way — assign the condition yourself, before anything else differs — and the three groups start equivalent on everything: same average intelligence, same personalities, same home lives. So when the only thing that differed going in was the sentence an adult said to them, the sentence is what did it. That's a claim about <em>cause</em>, and it's one no amount of correlational data — even beautifully collected correlational data — could have earned you.</p>
+</details>
+</div>
+
+<h3>Even the fix can be gamed</h3>
+
+<p>One more twist, because it's the one that will keep you honest for the rest of this course. Researchers once told a group of students they'd be running two kinds of rats through a maze: "maze-bright" rats and "maze-dull" rats. In reality, every rat was ordinary — the labels were assigned at random, with no basis at all. And yet: the rats labeled "bright" ran the maze significantly faster.</p>
+
+<p>Nothing about the rats had changed. What changed was the humans running the experiment — subtly handling the "bright" rats more confidently, more gently, more consistently, without ever noticing they were doing it. The experimenter's own belief leaked into the results through pure behavior. This is why the best experiments are run <strong>blind</strong>: the person measuring the outcome doesn't know which group is which, so their expectations have no channel to leak through.</p>
+
+<p>Put together, you can now see why the scientific method has exactly the shape it does. It isn't a checklist someone made up to sound rigorous. Every piece of it is a patch for a specific, demonstrated way that a confident human gets fooled: falsifiability patches confirmation bias, random assignment patches self-selection and hidden third variables, and blinding patches the fact that even trained scientists leak their expectations into what they measure.</p>
+
+<hr class="break">
+
+<h2>A claim never becomes "proven" — only "not yet killed"</h2>
+
+<p>This is the part that trips people up, so say it plainly: even a randomized, blinded, beautifully falsifiable experiment doesn't <em>prove</em> a theory true. It fails to prove it false, this time, under these conditions, with this sample. That's why researchers work in probabilities and speak of "failing to reject the null hypothesis" instead of "proving the hypothesis" — the honest claim on offer is always weaker than certainty, and deliberately so.</p>
+
+<p>You've almost certainly met this logic somewhere before, just wearing different clothes:</p>
+
+<aside>
+<p>A criminal trial doesn't ask a jury to certify "innocent" as a proven fact — it asks whether the prosecution failed to disprove innocence beyond reasonable doubt. "Not guilty" is a falsification attempt that didn't succeed, not a positive proof of purity.</p>
+<p>A programmer doesn't trust code because it ran correctly once. They go looking for the input that breaks it — the empty list, the negative number, the file that doesn't exist — and only start trusting the function once their best attempts to break it keep failing. That's the 7 card again, just wearing a debugger.</p>
+</aside>
+
+<p>Same move, every time: stop looking for confirmation, and go hunting for your own failure instead. What's left after you've tried hard and failed is the only kind of "true" science ever actually offers you.</p>
+
+<hr class="break">
+
+<div class="turn-box">
+<h3>Cold test — no help this time</h3>
+<p>Here's a finding you haven't seen discussed above: <em>there is a negative correlation between which row a student sits in (counting from the front) and their final grade in the class</em> — students in front rows tend to have higher grades.</p>
+<p>Before opening this: (1) name the reverse-causation story, (2) name a plausible third-variable story, and (3) describe, in one sentence, the experiment that would actually settle which one is real.</p>
+<details><summary>Reveal — check yourself against this, don't just read it</summary>
+<p><strong>Reverse causation:</strong> maybe it isn't seat → grade at all. Maybe doing well pulls you toward the front (confident, engaged students choose to sit up close), so grade is quietly causing seat choice, not the other way around.</p>
+<p><strong>Third variable:</strong> motivation or conscientiousness could cause both — a more engaged student both chooses a front seat <em>and</em> studies harder, with the seat itself doing nothing.</p>
+<p><strong>The experiment:</strong> randomly assign students to seats (not letting them choose) at the start of the term, holding everything else constant, and compare grades at the end. If front-assigned students still outperform back-assigned students despite not choosing their seats, you've isolated something the seat itself is doing — proximity to the board, fewer distractions, more eye contact with the instructor. If the effect vanishes, it was never about the seat.</p>
+</details>
+</div>
+
+<h2>Where this leaves you</h2>
+
+<p>You didn't just learn a vocabulary list — falsifiable, correlation, confound, random assignment, blind. You now own a single move: <strong>when you meet a claim about the mind, ask what would have to be true for it to be false, and whether anyone actually went looking for that.</strong> Every lecture from here forward — brains, perception, memory, personality, therapy — is going to hand you a finding. Your job, every single time, is to run it through what you just built: is this correlational or experimental, what's the confound if it's the former, and what would the falsifying case look like?</p>
+
+<p>One honest warning before you go: reading this page smoothly, nodding along, is not the same thing as owning this. The real test isn't whether this made sense just now — it's whether, a week from now, you read a headline claiming some food or app or parenting style "is linked to" some outcome, and your first thought is <em>linked how, and what's the third variable</em>, without this page open in front of you.</p>
+
+<div class="nav-footer">
+  <a href="index.html">← back to the ladder</a>
+  <div>
+    <button class="done-btn" id="doneBtn" onclick="markDone()">I've worked the cold test — mark this rung done</button>
+    <p class="done-msg" id="doneMsg">Marked done. Next time we meet, I'll build rung 2: The Biological Machine.</p>
+  </div>
+</div>
+
+</div>
+
+<script>
+function markDone() {
+  const stored = JSON.parse(localStorage.getItem('psych-ladder-status') || '{}');
+  stored['01-science-of-behavior'] = 'done';
+  localStorage.setItem('psych-ladder-status', JSON.stringify(stored));
+  document.getElementById('doneBtn').disabled = true;
+  document.getElementById('doneMsg').style.display = 'block';
+}
+</script>
+
+</body>
+</html>

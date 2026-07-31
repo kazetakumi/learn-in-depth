@@ -1,0 +1,1073 @@
+[Music]
+digital India educated India
+[Music]
+so welcome to the course on strength of
+materials
+in fact you graduate from rigid body
+mechanics to
+deformable solids
+so the moment you go to deformable
+solids we do not make a step change
+we say we will have small deformation
+we will consider deformation we have
+always been considering bodies as rigid
+we will definitely accommodate
+deformation but the deformations are
+small
+how small that is another question to be
+answered
+and if you look at you need to have a
+test that is what is shown here
+and if I have a look at the
+curve what you had seen mathematically
+how will you state that
+is it linear or non-linear
+it is non-linear fine
+but cleverly if I say it is small
+I can make it linear and make my life is
+very simple
+and this also summarizes some of the
+results
+you had spectacular failures
+and you can also see the stress
+colorfully
+okay
+you know there have been very simple
+failures which you don't want to have in
+your day-to-day life and particularly
+this plastic chairs they are known for
+that notoriety many times they buckle
+the fall appears simple but it can be
+crippling you because if there is a
+tendon here you had it
+fine
+and you are sitting in a nice room with
+a false ceiling imagine if the fall
+ceiling Falls like this
+doesn't in fact happened fine
+you don't want that to happen
+that means you need to find out
+have I made the selection of the cross
+section appropriate
+and you go to the garden and you want to
+sit you don't want to have a surprise
+like this
+see if you look at all of this you find
+its choice of material
+poor quality design
+and also Duty aging because if you see a
+garden chair that is exposed to natural
+elements over time the strength degrades
+fine so after learning this course
+you should be able to sit comfortably in
+a chair
+and you should also have your room
+well protected
+and you also had spectacular failures
+this is a bridge made of concrete
+and if you look at the history this was
+exposed to wind loads
+of the order of 42 miles per hour
+and you can see that it is actually
+twisting like this
+fine
+and if you look at when was this
+constructed and when the
+failure occurred within a span of six
+months
+so that means something grossly missed
+in the design of the bridge
+so that led to development of cross
+bracings too
+sustain the wind loads
+okay
+so what you had was
+it started vibrating at 10 o'clock
+vibrated for about 40 minutes
+and it failed by torsional mode of
+vibration
+fortunately there was no major casualty
+except
+one car was falling into this
+and there have also been failures
+precipitated by temperature change
+imagine people have built ships this is
+during World War II
+and you find thousands of them having
+failures not one or two if there is one
+or two you can say that there is some
+kind of a manufacturing defect that has
+led to the failure people also switched
+over from riveting to welding and
+Welding was in the nascent stage in
+those days
+and when you had thousands of failures
+without your enemy bombing your ship
+that is the cause for cancer
+then you also had in the 1920s you had
+this famous molasses failure in Boston
+if you look at this there was a
+temperature change
+it was made of 15 millimeter thick steel
+and you all know it's not made of glass
+you can understand glass is brittle and
+that steel is ductile
+if that breaks like a brittle material
+it's a cause for concern
+and you also have in your Material
+Science you will probably go and learn
+there is a ductile typical transition
+it happens at low temperatures
+and there was commonality between the
+two when the temperature was about 4.5
+degrees
+the steel gave way and behave like a
+brittle material
+and this is accommodated with the
+development of a new set of mechanics
+called fracture mechanics
+fortunately Beyond this course
+and we also had another
+very devastating failure
+Aloha Airline failure the plane was
+flying at thirty thousand feet
+all of a sudden a portion of the roof
+blew off
+and the pile Knight landed the plane
+safely
+you have to congratulate the pilot there
+was only one casualty
+but people understood
+that you have to design the aircraft so
+that it drains the water
+otherwise it leads to corrosion
+and you also have
+fatigue that has precipitated this kind
+of a failure
+and there can be no engineering without
+idealizations
+why we do the idealization we would like
+to make the problem simple enough for us
+to analyze
+because all natural systems are
+non-linear
+and complex
+and when you want to mathematically
+analyze it's difficult for you to
+accommodate all aspects those aspects
+that are primarily important for the
+phenomena under study you would like to
+capture
+and what is the way that you can be
+satisfied that the mathematical model is
+sufficiently represented the physical
+phenomena the only way is it should
+satisfy the observations or experimental
+measurements
+without experimental verification you
+cannot rely on the mathematical model so
+you have to always understand if dgca
+has to permit the
+aircraft to fly it should satisfy the
+safety norms
+not just your design is sufficient
+so that is taking safety into
+consideration so always you need to have
+an experimental information
+and when you look at engineering
+mechanics you know you had done the
+first course mechanics of rigid bodies
+and that was divided into Statics and
+Dynamics
+that was subdivided into kinematics and
+kinetics
+so you could do one full course
+considering the body as rigid no longer
+you can live in that domain you have to
+graduate so now you go for mechanics of
+deformable bodies
+and here you start with strength of
+materials
+where you cleverly conjecture the
+deformation select cross sections make
+ideally sessions so you avoid solving
+differential equations
+then you graduate to the next level of
+course where you solve the differential
+equation and solve little more complex
+problems in theory of elasticity
+and much complex problems in theory of
+plasticity
+in contrast to that in mechanics of
+fluids even when you analyze the ideal
+fluid you solve differential equations
+so there is a fundamental difference
+and in this course we would do
+thought experiment we will try to get it
+from inference we will also develop the
+equations mathematically
+rigorous mathematical approach will also
+be there
+and you know in the previous course you
+consider the body as reject
+when do you say the body is rigid what
+is the way you idealize the body as
+rigid
+what does a rigid body
+no deformation otherwise the distance
+between the particles remains same
+is it really so
+it's an abstraction
+fine you are not only
+talked about the physical abstraction
+but also the physical action
+see in the previous course you have left
+and right use concentrated load
+the concentrated load concept goes hand
+in hand with rigid body
+so what is shown in this insert is you
+have a distribution
+from the distribution you find out using
+your composition and resolution of
+forces as a concentrated load so you
+keep your eyes half closed
+reality is always deformation
+however small there is deformation
+at suitable magnification you will be
+able to perceive
+but we have ignored it we could solve a
+variety of simple problems we could find
+out what are the forces happening on the
+system under consideration so it was
+useful it is not that it was absolutely
+useless
+so this is what is summarized here I
+said it in Statics as well as Dynamics
+you cannot use it indiscriminately
+physical actions that is concentrated
+load is an abstraction goes hand in hand
+with rigid body idealization
+say in engineering you will find you
+have the support transfers load
+you have studied trusses in your
+previous course
+can you recall
+what is the kind of forces that was
+resisted by the trust members
+it is resisting the transverse load
+acting on it
+but what was the resistance developed in
+the members
+you have determined that by method of
+sections and method of joints can you
+recall what is it that you found out
+you will also have to find out the sign
+and then say whether it is
+so essentially axially loaded you
+understand
+see I have a transverse loading
+happening on the structure
+but by the way you have constructed the
+Truss
+and you also have restriction the load
+should be applied only at the joints and
+Joints have to be constructed in a
+particular manner
+all that you do
+because you get an advantage the members
+transmit only axial load
+but to do that you also had Rafters
+these Rafters support bending
+see tension or compression is easy to
+comprehend bending is not so it has
+taken close to 400 years to understand
+we are going to complete it in a few
+lectures fine
+and you also have
+Bridges so many of these Bridges you
+have truss Construction
+and you have the floor beams
+the floor beams take the transfer slope
+they resist it by bending
+fine
+but in your previous course you have
+analyzed only trusses
+and you have been able to find out that
+it transmits only axial loading
+and this again has
+you know transverse loading like this
+and another important assumption also
+you had made
+we will confine our attention to slender
+members what is the definition of a
+Slender member
+the length of the member is much larger
+compared to the cross-sectional
+dimensions
+see we make these idealizations
+to analyze structures with deformation
+which can be captured mathematically
+fine
+and you also learned in the previous
+course that I can take an imaginary
+cross section
+and this imaginary cross section in fact
+can
+support a force and a moment this force
+can be
+visualized as components
+three components and moment also can be
+visualized as three components and
+whenever the component is tangential to
+the surface you call it as a Shear Force
+and you have done in the case of beam
+how to find out the shear force diagram
+then you have also learned if there is a
+moment
+how the beam bends it can bend in one
+axis
+if I have the moment in the other
+direction can also Bend in the other
+axis
+and in addition it can also have
+another Shear Force as well as
+axial tension or compression or a twist
+this is what we understand now but if
+you go back to history
+at that time they were really feeling
+that these arbitrary sections can
+support tensions that's the way they
+started and the credit goes to Lebanese
+in 1684 and burn early in 1691.
+look at this bridge
+see from a distance I can simply
+consider this long bridge as a slender
+member I can find out what should be the
+natural frequency of it so it gives you
+a via media to analyze complex problems
+the real
+situations are very complex we
+mathematically model it and we come with
+a result closer to reality
+fine that is the difference between
+engineering and Mathematics
+we bring in correction factors We Begin
+stress concentration factor and somehow
+wiggle out of the situation
+fine we want to provide solution to
+complex problems
+so if I have a closer look I can see the
+Truss
+and I can also see a joint how it is
+constructed
+and you have
+learned that this joint you should have
+a concurrent Force system you have a
+gusset plate you join the members all
+that you do carefully so that none of
+the members forming the stress are
+subjected to bending even if it bends
+even if you have to conserve this self
+weight you simply lump it in the joins
+and then proceed as an approximation
+because now you have software which will
+find out what is actual stresses and
+then it's all very efficiently designed
+okay don't carry the impression that you
+do a crude analysis in your class the
+same thing is practiced in the real life
+it's not so
+and you also find the various cross
+sections see as well as axial load is
+concerned whether I use I cross section
+or Channel or the L angle or a solid Rod
+or a hollow it really doesn't matter it
+is based off convenience
+what matters in the case of axial
+loading is only the cross sectional area
+that knowledge you all have
+the situation is quite different when
+the member has to support bending or
+torsion
+cross-section matters
+okay it's not only the cross-sectional
+area size how the cross section is made
+it matters
+and you have also seen that by
+considering the body as rigid you have
+happily solved problems after problems
+on beams
+and I have two families I have shown the
+first family I am showing the second
+family
+can you recall
+is there
+a distinct classification the First
+Column and the second column
+is any distinct difference do you
+perceive
+very good very good so the First Column
+you say it is statically determinate
+because I can find out all the forces in
+the system with the help of equations
+from Statics
+the second set the equations are not
+sufficient for me to
+evaluate the unknowns and you label it
+as statically indeterminate and you
+close to your eyes
+but in reality you have to find
+solutions for that also unless I bring
+in the deformation
+it is not possible for me to solve these
+problems and bending deflection is very
+complex so we will postpone it so the
+idea is you cannot live on the comfort
+of rigid body mechanics you have to
+graduate to deformable solids
+and you can also write
+and draw axial force diagram Shear force
+diagram bending moment diagram testimon
+diagram why do you do all that so in a
+cross section you find out where these
+are maximum
+so you find out the hope is that you
+will determine the cross section based
+on the maximum of this so that it will
+withstand my requirement
+and you have also done sfd and bmd
+and those who have looked at my engine
+mechanics course in fact I discuss at
+length on what are the possible sign
+conventions I used one sign convention
+followed by Miriam for the purpose of
+the class
+but in this course we will follow a sign
+convention for shear
+on the positive phase positive direction
+is positive
+on the negative phase negative direction
+is positive bending moment there is no
+change
+because engineering is one which
+requires conventions to be followed
+without conventions there is no
+engineering
+so you have the shear force diagram like
+this and you have the bending moment
+diagram like this
+so you may have to brush up these
+fundamentals for you to follow the class
+and you have a downturned example this
+is there in every
+City you have attacheki
+and we would see
+a shaft
+that is transmitting
+talk
+and if you look at this this is also
+supported by bearings
+and there are also things that oscillate
+from this so This shaft is subjected to
+torque
+subjected to bending
+and in some cases you can also have
+axial loading
+and if you look at this when I have to
+mount a pulley or when I have to put it
+in a bearing and so on I can't have a
+uniform remember I can't have a uniform
+member
+I would have steps
+because I need to locate various members
+but in this course
+we would close our eyes we will have a
+slender member even that when you
+consider deformation is bad breaking
+fine
+and you know you all know once I bring
+in deformation there is resistance to
+deformation
+what is the typical variation the
+resistance is termed as a
+terminology stress okay
+and even before we get into the full
+course I thought it is desirable that we
+look at the result that we are going to
+get in this class I will prove this
+result by inference
+we will do a mathematical development in
+the subsequent classes
+now you know I have
+shown it for convenience
+a very large cross section it is only a
+portion of a very long slender member
+imagine it like this because our focus
+is what happens in a cross section
+that should be lot more clearer imagine
+that the axillary loaded member beam or
+Shaft or Slender long members and I have
+taken a particular portion zoomed it
+here
+and when I have an imaginary section if
+I look at this the result is like this
+it is uniform
+suppose I go to beam and then find out
+what way the resistance is
+it is not uniform like this but it is a
+triangular variation
+and you also see a symbol like Sigma XX
+so we need to develop the mathematics
+behind it understand what are the
+symbols that will postpone it for the
+time being the message here is
+the axially loaded member the resistance
+is uniformly developed all across the
+cross section
+what happens to torsion
+torsion and bending shares a similar
+feature
+the variation is triangular that means
+the inner
+core is not actually participating in
+load sharing
+the material used in inner core is not
+participating
+it has an advantage
+and that is well exploited by engineers
+not only by Engineers Nature has already
+adopted that we will see that
+so the message here is
+why you developed Trust
+in such a manner
+you utilize the material very well
+because whatever the material they put
+in every part of the material
+contributes to load sharing and you are
+also very clever a transverse load is
+felt as axial loading
+fine
+now you have
+advantage of this knowledge if you had
+no knowledge of strength of materials
+you have right lines
+several thousands of kilometers across
+the globe you would have made it as a
+block like this it would not have cavity
+on the sides
+because you want that to be solid you
+know it should resist and nothing should
+happen
+and in reality all these are like I
+cross section you don't have material
+here so tons and tons of Steels have
+been saved
+so knowledge of strength of materials is
+essential and we have saved we have seen
+because of that knowledge because the
+rails essentially transmit
+attached to assist bending loads
+okay
+now the idea is you know you and I have
+stress due to various reasons you have
+to write examinations I have to come to
+the class and then
+make the lecture lecture go smoothly
+there's no way that you can take an
+x-ray or some photograph and find out
+what is the level of stress that you
+have
+fortunately nature is so benevolent
+you have a methodology called
+photoelasticity
+that gives you the stress pattern in
+colors
+and as children you would have had
+opportunity to tighten a nut by a
+spanner so that is what is shown here
+and here for me to show you colorful
+Fringe patterns these are not made of
+metal but a suitable plastic amenable
+for photoelastic analysis
+when I view it in the
+polariscope I see as the load is
+increased you see more and more colors
+developed
+do you see that
+so you can infer that the colors are
+directly related to the load transmitted
+by the member
+and you can also see that
+in a nice manner so you observe you have
+the fringes developed here
+and you also see the cross section it is
+not constant it is increasing
+it is increasing in regions where most
+stresses are developed
+and if you look at spanner is a
+well-designed
+machine component
+okay
+even with this course or in the next
+course you would not have solution for
+this it's so complex a problem
+but if you go to an experiment or a
+numerical method it is easy for analysis
+so the first inference is I have
+beautiful colors
+I could visualize
+they are related to the load applied
+fine with this background we'll go and
+see what happens when I apply axial
+tension and bending to the same material
+I have a simple B made out of this
+I get colors like this and what we have
+said
+over the cross section the response is
+uniform what do you see in colors
+you see every point when it is actually
+loaded it's a uniform color
+what happens when I go to bending
+I have all the colors in this spectrum
+available in this when it is bent so the
+response by an axial load and response
+due to bending or different that you can
+clearly see
+now I will also repeat it with a
+smoother variation
+now you
+observe how the bending loads are
+reflected as resistance
+in the colors
+you actually find that the fringes are
+appearing
+and then they move towards the
+Center
+and if you finally go and look at
+I have labeled this as 0 1 2 1 3 if you
+look at these fringes and find out the
+distance
+the distance will be equal
+so that by inference you can say the
+variation is triangular like this
+now let me do see I said that in this
+course I am going to take a member which
+is
+slender without any step without any
+hole but in reality you can't have
+anything
+without a step or without some hole for
+you to join and so on
+I can also
+conjecture I mean I can also get the
+idea what is the way the stress problem
+becomes from the same photoelastic
+approach
+okay I put a hole
+and then see what happens
+for you to make a new design you get a
+flowery pattern
+you can print it on your cloth and then
+sell it
+okay
+but it's too difficult to analyze
+mathematically
+and look at what happens when I have a
+step
+and I already told you when I have a
+shaft
+you will have to have steps for you to
+put the pulley you have to have a step
+for putting a bearing
+you can't avoid that
+but the moment I put any one of these
+aspects the problem becomes very complex
+fortunately Beyond this course and you
+can also make one more interesting
+observation
+see in the case of bending we have seen
+that as parallel lines essentially
+and I have a line drawn here in this
+Zone this is still parallel in this Zone
+it is still parallel some disturbance
+happens in the
+vicinity of a step that is how ingenious
+handle it they will handle it with a
+correction factor or a stress
+concentration factor and wriggle out of
+the complex problem
+so even to understand that a beam will
+resist
+which has a triangular variation that
+was not a simple thing to visualize
+so now let us look at the idealizations
+small deformation
+the reason why we go for small
+deformation is
+you can make the problem much simpler to
+handle
+and the implication is we work on
+undeformed configuration
+but we will also make a violation when
+we want to go and do buckling analysis I
+will have to write the governing
+equation only in the formed coordinates
+fine
+and you also say the material is
+homogeneous
+what is the meaning of homogeneity
+when I consider any point on this the
+properties remain same elastic
+properties remain same and you have a
+counter example you take a concrete
+block if you have seen how concrete
+blocks are made you find they put
+Pebbles they put
+sand and all that and it also has pores
+definitely not homogeneous but you
+analyze it as homogeneous that is a
+different story
+okay
+and you also idealize the material
+behaves in an isotropic fashion
+you take any direction
+the elastic properties remain
+unchanged
+okay these are all idealization that
+make your life simple
+and another important one is it is an
+elastic Continuum no defects
+even if there are defects in this course
+we will simply close our eyes
+you have fracture mechanics which takes
+care of all the defects
+fine
+and as I said
+historical evaluation of stress
+variation in a beam
+it all started with DaVinci
+and he had in his notes diagrams drawn
+like this
+and Galileo conjectured that the
+resistance is uniform
+and you have Marriott
+who has conjectured as a triangular
+variation in one fashion
+he has also
+quoted another
+variation like this
+then you had parent
+he had also conjectured triangular
+variation but the neutral axis what we
+will call later is shifted
+so it was finally coulomb
+who got the same triangular variation
+that I showed us
+the result that we are going to learn in
+this course so if you look at the time
+span it has taken close to 400 years so
+it is not a child's play
+if you don't understand some aspect of
+the course while developed don't feel
+discouraged
+okay
+so we look at some of the historical
+developments
+so DaVinci
+1452-15 19. he was the first person to
+document a theory
+Until then people were not documenting
+he had also written a book
+unfortunately it was lost
+they could not locate it
+they could locate it only in
+1967. so whatever the knowledge that he
+gained it was not others have to
+struggle from scratch
+but historians you go back and then see
+and then reinterpret what he could have
+understood at that point in time that is
+also interesting to see
+and we sit in the Newton's Garden
+he is sitting with the apple tree and
+apples are falling and he's getting
+inspiration so we are also getting
+inspiration by looking at the history in
+the Newton's Garden recently there was a
+storm in the UK and this apple tree got
+uprooted since they are going to replant
+it and so on and so forth okay
+so by digging into these notes people
+have found that he had the essential
+features of the strength distribution in
+a beam
+but he did not have hook slot that time
+there was no mathematical development of
+calculus so he had to wait
+understanding could not be translated
+into mathematical equations but he
+seemed to have understood some of it
+no one says he could get it
+so even though
+he was able to appreciate I mean the
+stress us what they had developed but he
+was not able to give a recommendation
+how to design a beam what should be the
+cross section
+that kind of a solution was provided
+only by Galileo
+even though Galileo was given it he had
+his own limitations okay
+so Galileo was 1564 to 1642.
+first percent of publish a solution to a
+problem
+so you have a very famous picture
+of a cantilever beam
+and you look at this what are the
+violations we have said in this course
+we will have certain idealizations first
+we said it is a slender member
+do you find the beam is Slender
+it is a short beam so that means he's
+going to have problems
+Because unless you simplify the problem
+you will not be able to visualize what
+way to model it
+fine and it is made of wood
+wood is not an isotropic material it's a
+fibers are aligned so it is a complex
+material
+so it was strength was addressed by
+Galileo in 1638
+but he found a very interesting answer
+the answer was if you take a scale and
+then put it in this fashion
+and apply an end load clamp it on one
+end and put an end load
+okay
+I have a cross section which cannot do
+this because the it's not a scale you
+can verify it I get a deflection you can
+take your scale in the room and then try
+holding it in this fashion
+and holding it horizontally
+there is a strong difference between the
+moment of inertia that you have to
+calculate
+he had got that intuitively
+fine so he was able to say you should
+not use the beam in this fashion you
+should use the beam in this fashion the
+ruler offers more resistance lying down
+the edge than when lying flights a very
+important observation valid observation
+he didn't have a mathematical
+explanation for it we can give a
+mathematical explanation of once you
+learn bending
+and you know they've all worked on
+tension you know and a simple tension
+the strength of a bar is proportional to
+its cross-sectional area
+and is independent of its length
+it's a very
+correct observation length does not
+contribute to it but it is only the
+cross-sectional area
+see translating this understanding on a
+tension specimen to bending was not
+simple
+they have all understood what happens
+under tension
+some observation that they could do on
+bending
+and you know he got this distribution
+like this he said that this act like a
+fulcrum and then you had resistance
+developed like this all that is not
+supported by Theory now he could not
+proceed so you should understand the
+difficulty they had at that time
+and the reason I have said certain
+aspects I said earlier even the problem
+is complex because I am having Shear
+force and the bending moment varies
+across the length
+while we develop the beam Theory we are
+very clever we will take a beam under
+pure bending we will avoid shear
+so why Galileo could not succeed he took
+a complex problem
+he took a
+beam that is not Slender
+material is what it is orthotropic
+but they also look at what happens see
+when you want to have something to be
+support low you want that to be solid
+isn't it solid means something
+completely filled but he found in nature
+when you have wheat fully grown you find
+the wheat Stacks are Hollow and they
+carry at the end heavy grains
+so he wondered
+that Hollow beams can be stronger
+Nature has taught us but no explanation
+at that time
+but when you say Hollow beam what you
+have to compare is what is the cross
+sectional area of a hollow beam
+and what is the cross section that you
+make out of the same material as solid
+if you have the hollow beam like this so
+imagine that this is hollow if I compare
+with the same size of the solid shaft
+you can compare that's not a valid
+comparison in Center materials we would
+like to use minimum amount of material
+so he made very interesting observations
+about bending
+but some of them you know could not be
+translated into mathematics because he
+didn't have a access to it and you had
+Robert Hook
+he was considered as the greatest
+experimental scientist in the 17th
+century he was also appointed as a
+curator for the
+Royal Society the idea is that he will
+whenever somebody postulates a new
+theory he will try to make a contrivance
+to prove that theory or disprove so he
+was good at hands so he was able to look
+at what happens
+and he found a very interesting thing he
+found many material when they are loaded
+they behave like a spring in what aspect
+the spring when you elongate
+leave it it comes back to its original
+position
+and he also found that this varies
+linearly
+but let me ask a question you go back
+and then find out you all have a pen
+like this which has a jotter type of an
+edge band you will have a spring
+when you put an axial load on the spring
+with your background it is possible for
+you to find out
+what is the force transmitted at a
+general cross section it is not axial
+load please go back and then see
+So when you say Robert who looked at the
+spring when saying axial load when you
+pull the spring it is a representation
+here I have just for zigzag lines but
+actually spring is coil like this
+okay
+so if you look at what kind of forces
+transmitted into a generic cross section
+it is not axial load
+but this example is good to show that
+there is elastic recovery
+and the force this deformation
+relationship is linear
+the resistance developed in an axial
+pull
+or what happens in a spring subject
+axial pull or different okay because you
+have to understand you have the
+background let me see I want to know in
+the next class what is it that you can
+do it
+and this linear relation
+found the basis of hooke's law see even
+though he determined this in 1660 he
+published in only in 1678. see those
+days though my slides are very poetical
+nicely colorful richly decorated science
+development has not been political
+there were fist fights there were fights
+that people want to say I have done it
+first
+fine and they have also camouflaged
+these results as anagrams and then see
+knowledge is power save they were not
+willing to disclose
+imagine 18 years he has not published
+the result okay
+then you have Marriott 1620 to 1684
+and as we have already seen that he had
+proposed two results of variation in the
+Beam without a reason
+so we will have to say that he had right
+thinking in the direction but not
+completely he could succeed
+he had postulated this variation as well
+as a variation like this though this
+matches with current understanding
+there's no clarity
+then you had Isaac Newton
+made a very significant contributions
+and
+the modern world gives credit for
+calculus to Newton
+we will see some information from India
+in the next class
+he also had Lebanese
+okay
+and I said
+the moment you go from simple tension to
+bending shape of the cross-section
+matters
+the shape of the cross section does not
+matter
+in tension or compression only the cross
+sectional area matters even Galileo
+found it in his experiment
+shape matters
+and this was
+brought out when you do the bending
+people also develop something called a
+section modulus
+okay and that is credited to Lebanese
+he has also been credited for
+development of calculus
+so in this first lecture we had a brief
+overview of
+what is the type of
+mathematical step that we are going to
+make we are not going to live in rigid
+body idealization anymore
+we would take a baby step for
+deformation
+we'll make that a small deformation
+and we have also looked at a prairie
+what is the result how resistance
+develops in simple tension
+how the resistance develops in bending
+how the resistance develops in torsion
+but we could see experimentally
+by photolasticity
+the play of colors in tension and
+bending
+that has given an inference what I said
+that the cross section equally
+participates in axial tension whereas in
+the case of bending the inner core does
+not contribute to load sharing
+and we have also said
+material is elastic Continuum we will
+hang on to it because all our
+mathematical development depends on that
+idealization
+and I said you have a spanner and
+spanner is made by forging
+when you do forging the material is no
+longer
+isotropic you have grains aligned but we
+will still say
+material is isotropic and live in a
+comfortable domain
+thank you
+[Music]
+thank you

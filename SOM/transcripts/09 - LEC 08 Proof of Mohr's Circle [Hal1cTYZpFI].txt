@@ -1,0 +1,840 @@
+Let us continue our discussion on Mohr's circle. 
+See, it is a graphical representation and if you
+look at all branches of science and engineering 
+when they were developing in the initial stages,
+graphical methods played a very significant 
+role. They did not have calculators or
+computers like what you have now. So, many of 
+the key understandings they could get it from
+graphical representation. So, 
+it assumes very high importance
+and in the last class, you know, we have developed 
+some understanding on how to draw a Mohr's circle.
+And in order to make my diagram not 
+cluttered with lines, I have taken a
+values of principle stresses in 
+a manner that both are positive.
+So that you know, I do not have this line coming 
+in between. So, which will obscure some of your
+basic concepts. And I have also removed, we had 
+for an arbitrary plane, all that is removed.
+So, I have the tensorial representation of state 
+of stress, I have a pictorial representation
+of state of stress and I have a graphical 
+representation of state of stress at a point.
+And what you understand is,
+from the Mohr's circle, it is possible for you 
+to get the expressions for the principle stress.
+Note the spelling, say it is not principal, 
+ple, it is pal, principal stress that is
+how you have to do it, remember that. And 
+it is straight forward from the diagram,
+I have sigma 1 is given as sigma 
+x plus sigma y by 2 plus R.
+And you can also find out 
+what is the expression for R.
+And we have an expression for sigma 1 
+and we have an expression for sigma 2.
+Ideally what you do is, depending on 
+the numbers, you will have to find out
+and arrange them in the algebraically largest as 
+sigma 1, algebraically the smallest is sigma 2.
+So, this is the convention that 
+is being used. And I also said,
+you can also find out from the graph, what 
+is the orientation of the principal stress.
+And that you have as tan 2 theta equal to 
+2 tau xy divided by sigma x minus sigma y.
+And what you will have to recognize is, 
+when I evaluate theta from this expression,
+it is an inverse trigonometric function.
+So, theta is multi-valued. Like what you have 
+done for sigma 1 and sigma 2, algebraically
+arrange them, you cannot go and algebraically 
+label the values of theta as theta 1, theta 2,
+theta 3. I have taken a planar problem. If 
+you are taking a three dimensional problem,
+you will have theta 1, theta 2, theta 3. You will 
+have to go to Mohr's circle and then find out,
+what is the orientation of principal 
+stress 1 and what is the orientation
+of principal stress 2 from the x plane or 
+the y plane, whichever is convenient to you.
+Is the idea clear? See, we follow a convention 
+when you label principal stresses. You cannot
+extrapolate the same convention to theta. Theta 
+is a physical quantity. And what you have here is,
+from the Mohr circle, you can find out what is the 
+location of principal plane 1 and principal plane
+2. So, from the multi-valued values of theta, you 
+have to rearrange and then label them correctly.
+Labeling you have to do it correctly.
+And I have the tensorial representation 
+as sigma xx tau xy tau yx sigma yy.
+From the understanding of the Mohr's circle, 
+can I also represent the same state of stress
+at the point of interest in a different manner 
+based on the principal stresses? I am free to
+do that. Idea of Mohr's circle is, it helps you to 
+find out the stress vector on any of the possible
+infinite planes passing through the point 
+of interest. So, if I take any two mutually
+perpendicular planes, I can represent the 
+quantities forming a stress tensor, fine.
+So, I can also write from the understanding of 
+the principal stresses, a very simple matrix. See,
+if you have zeros, my multiplication becomes very 
+simple. If I have to find out the stress vector,
+if I know the principal stresses, if I know the 
+direction cosines, then I do less mathematics when
+I write it in principal stresses. And I have also 
+said, when I am going to have failure theories,
+where I have multiple combination of tension, 
+torsion, bending and so on and so forth,
+principal stresses is an easier approach 
+to assemble all of them and then find out
+what is the net effect. Fine, I can by linear 
+superposition, I can add the stress tensor.
+From the final stress tensor, what I have got, I 
+can find out the principal stresses and I can go
+back to theories of failure. And number of 
+theories of failure people have developed,
+it varies from material to material. And with 
+modern manufacturing, you also have to find out,
+for example, when you have this rapid prototyping, 
+where the models are grown. So, people want to
+find out when you grow the model, you may have 
+some gaps in between, micro gaps. Micro gaps,
+how do you handle it? What is the way the material 
+behaves? So, depending on the manufacturing method
+and also newer materials are being developed, 
+failure theories keep appearing on the literature.
+So, you have to learn the failure theory and apply 
+them. We will also have a detailed discussion on
+it later in the course. See, I said I deliberately 
+took a diagram, which is such that the principal
+stresses are both positive away from this axis, 
+so that the diagrams are much more clearer to you.
+And we have also made a statement that you have 
+maximum shear stress occurring at point d and e.
+See, when you say mathematically 
+something maximum, you should
+also look at whether it is local 
+maximum or global maximum, fine.
+For a configuration like this, this is definitely 
+maximum, but it is not the global maximum. So,
+you have to wait until we develop, how do I draw 
+the Mohr's circle for a true three-dimensional
+situation. The interest while developing this 
+was, I do not want to have this line inside,
+so that it obscures your clarity of the 
+basic concepts. Whatever we have discussed,
+it does not affect the principal stresses or 
+understanding that each point on the Mohr's circle
+represents a plane. And plane is how you designate 
+a plane? It is designated by outward normal, fine.
+All those concepts you can understand, but 
+the moment you come to maximum shear stress,
+you have to look at it carefully and then we 
+will learn it towards the end of the class today,
+where we will look at what happens when 
+I have a three-dimensional situation.
+But the idea when I have the principal planes,
+whether it is a local maximum or a global 
+maximum, the way in which you look at it,
+the relevant principal plane and the maximum shear 
+stress separated by the angle 45 in the physical
+plane and in the Mohr's circle separated 
+by 90 degrees, that there is no change.
+And let us draw the Mohr's circle for simple 
+cases. You know, we have been talking about
+simple tension, fine. And we have looked at a 
+very nice beautiful graphical representation.
+What will occur naturally to you is, you will only 
+draw a polar plot. When it is a function of theta,
+one way of representing it is by a polar 
+plot. And Mohr's circle is a real gift,
+fine. So, I have this as tensorial representation 
+and it is a uniaxial state of stress,
+because I take the model and apply axially, 
+fine. I have a uniaxial state of stress.
+So, I have the pictorial representation. 
+Can you draw the Mohr's circle?
+You know, we will be drawing Mohr's 
+circle for a variety of cases today
+and you do it from first principle. 
+Then verify with my slide whether your
+thought process is correct. While doing so, you 
+have to identify what are the quantities on a
+given plane. So, you have to essentially 
+identify what is a x-plane and y-plane.
+And you are going to plot a graph, essentially a 
+circle. You will have an horizontal axis as sigma
+and vertical axis as tau. And from the 
+given problem, what happens on the x-plane?
+Normal stress is zero, shear stress is also 
+zero. So, where would I mark the x-plane?
+It coincides with the origin, fine. So, next 
+step is I have to find out what is the y-plane.
+You are given some value of normal stress on this 
+y-plane. So, I will go along this direction. There
+is no shear stress. When you do not have shear 
+stress on the x-plane by equality of cross shear,
+there cannot be any stress on the 
+y-plane. The shear stress will not exist.
+So, I have the y-plane mark, that is all my job 
+is done. I have to just draw a circle using this.
+Now, let us have a situation. See 
+normally when you represent a symbol,
+it can be both positive or negative. For 
+the discussion purpose and for illustration,
+I am really showing the next 
+case as minus sigma y y.
+Please understand the context. What is the 
+difference? Instead of that being a normal
+stress acting away from the 
+plane, it is towards the plane.
+Instead of tensile stress, it 
+is a compressive stress now.
+So, how would I identify the x-plane and 
+y-plane? I have the pictorial representation.
+Can you find out what is the x-plane and 
+what is the y-plane? Straight forward.
+What you have done in the previous case, 
+you have to extrapolate. In the x-plane,
+everything is zero. So, it coincides with 
+the origin. So, I have y-plane which is
+determined by the magnitude of the compressive 
+stress and then simply draw a circle
+because you do not have to worry 
+what is the nature of the curve.
+We will prove the nature of the 
+curve will always be a circle.
+Wait for ten more minutes, fine.
+Right now, let us learn through simple problems 
+what we have discussed as the procedure to plot.
+Then we will go to the proof and we will 
+also learn one or two related concepts.
+You know, you have all done an experiment on chalk 
+and when you pulled it, it broke beautifully.
+You have not pre-decided where it should break. 
+Can we investigate that from the Mohr's circle?
+You can draw the Mohr's circle 
+which you have already done.
+And for us to find out whether 
+the chalk will break or not,
+I should know what is the failure 
+criteria for a brittle material,
+fine. For the current discussion, you look at that 
+when the normal stress reaches a critical value,
+failure would occur, fine. And I have the 
+Mohr's circle like this. Mohr's circle
+is nothing but the plane and you have 
+y-plane. So, this the value of sigma y,
+the sigma y is increasing, what will happen? 
+Mohr's circle also will be increasing.
+The y will be plotted away from the origin 
+and at some point when it becomes critical,
+which is the critical plane? We have said 
+wherever you have the maximum normal stress,
+that is the critical plane 
+and for the Mohr's circle,
+it is nothing but the y-plane. So, y-plane 
+is this. So, you are able to explain
+from the Mohr's circle, what is the plane in 
+which you could expect material separation
+for chalk being a brittle material 
+straight forward. Fine. Suppose,
+I have a ductile material, we have also done 
+the tension test, I have shown you the diagram
+and I have also shown this, a ductile 
+material does not fail perpendicular to this.
+So, the failure mechanism and the criteria are 
+definitely different for a ductile material.
+Suppose, I say for the current 
+discussion, it fails by maximum shear.
+It does not fail by the critical value of normal 
+stress, but critical value of the shear stress.
+So, wherever the shear stress, whichever plane 
+orientation the shear stress is maximum, you will
+have material separation along that plane. Is the 
+idea clear? I have this as a cup and cone and I
+have also identified from our earlier knowledge, 
+what are these points? They are the points that
+have the maximum shear and from the Mohr's circle, 
+how much they are separated from the y plane?
+From the y plane, it is at 90 degrees on the 
+Mohr's circle, physically it is at 45 degrees, ok.
+And if I look at the cup and cone 
+fracture and then put it like this,
+you will have the cup like this, you have this 
+at 45 degrees and you can go back and explain,
+this is what has caused from a 
+simple experiment, you are able to
+apply Mohr's circle and identify the plane on 
+which failure can occur. Is the idea clear? In
+one case, it is dictated by the plane on which the 
+normal stress exceeds the limit. In another case,
+it is on a plane where shear exceeds the limit. 
+These planes are different. See, one of the
+difficult concept in stress is, we are also going 
+to have a detailed discussion on a free surface.
+When you take a point, what happens on a 
+plane is what you will have to look at.
+You can have infinite number of planes. If 
+I have a plane like this, which is y plane
+on which I will have the maximum normal 
+stress, but suppose I have this surface,
+that is a free surface, you will have stress 
+vector is zero, but there you are looking at
+a plane which is x plane. So, you should 
+know that will take some time. Once you
+keep discussing these issues, you will be in a 
+position to appreciate how to look at the planes.
+And I said even the photoelastic fringe 
+pattern is also a graphical representation.
+This is also needed because I need to know 
+what happens to the neighboring point.
+It is a beautiful technique where we are able 
+to see what happens in the field as a whole.
+And you find that stress is constant and it is
+all the points in the cross section experience the 
+same value of stress away from the loading point.
+I am only plotting what happens away from the 
+loading point and we have P by A as the stress.
+And now when I go back to this, from your 
+understanding of your principle stresses,
+can you also write it in terms of sigma 
+1 and sigma 2? Can you write it down?
+Because this is a stress state 
+where I have no shear stress
+and you have learnt what are principle 
+stresses. Can you replace this as
+principle stresses sigma 1 and sigma 2? 
+Let me see whether you write it correctly.
+You are learning new symbolism. You agree 
+sigma y y is one of the principle stresses.
+Do you agree? Because its stress is 
+acting completely normal to the y plane.
+What we have discussed as principle 
+stresses on the plane of interest,
+the stress should be only normal. There 
+should not be any tangential component.
+Now the question is, can I 
+write it like this? Is it right?
+Some of you nod your head that this is right. 
+You should never forget the convention.
+We have said sigma y y is a finite quantity 
+and that is also a positive quantity.
+So, I have to write this as
+zero as sigma 2 and sigma y y as sigma 1. You 
+have to understand whenever we use the symbolism
+sigma 1, sigma 2, sigma 3, algebraically the 
+largest value you call it as sigma 1. So, do
+not jump to write and replace it. See when I have 
+this as a constant value, when P is increasing,
+P by A is going to increase, you can intuitively 
+feel that this should be related to sigma 1.
+Am I right? You can say that. Is it not so? 
+This is a graphical representation. What happens
+at a point of interest on all the possible 
+infinite planes? This is again a graphical
+representation. Fortunately, the experiment 
+is so colorful, you get colorful fringes
+and then we have seen at every point, it is 
+having a constant color for a given load.
+So, you understand that the complete material 
+participates in load sharing and the only
+non-zero quantity is sigma 1 and you can say 
+that this is related to sigma 1, but if we go
+to crystal optics and develop systematically what 
+is the way photoelasticity provides this, this
+basically gives contours of sigma 1 minus sigma 2 
+and in this context what happens? Sigma 2 is zero.
+So, it is one and the same as 
+sigma y y. Is the idea clear?
+Now, we will take up other simple cases 
+like we have the normal stress along
+y plane, we have sigma xx. 
+It is child's play for you.
+You should be able to draw it within a minute. 
+Within a minute, you should be able to draw the
+Mohr's circle and this is again 
+a uniaxial state of stress.
+So, the issue is you have to find 
+out how to locate the x plane,
+how to locate the y plane and 
+simply draw that as a circle.
+All that you know because x and y form a diameter, 
+fine. And similarly, when I go for minus sigma xx
+instead of a tensile stress, 
+I have a compressive stress.
+This is again you can easily do and you know 
+whatever the plot that I had done it for
+normal stress sigma y, I have just put 
+it horizontal. When I do a polar plot,
+it will look like this. I have not changed 
+the angle. So, it will start from zero,
+90 like this you can visualize that, 
+but the graph shape is very important.
+So, here again I can easily 
+draw the Mohr's circle.
+I have the point the plane x and then 
+plane y and simply draw the circle.
+Let us now graduate to other set of problems.
+I have sigma xx and sigma yy such that the 
+magnitude of sigma xx and sigma yy are identical.
+What way you expect the circle? Please try, try, 
+try. Are you just try, are you getting a circle?
+When I have these two magnitudes are 
+equal, I simply get that as a point.
+Circle shrinks to a point and 
+this is also a very special case.
+In this, every direction is a principal 
+stress direction. It is a very special case,
+ok. Now, let me also take another simple case 
+where I will go for a pure shear stress state, ok.
+So, I have only tau xy and tau yx. I have 
+done this interchangeably. Some slides I would
+have tau xy and tau yx. Particularly, 
+when I do indicial notation, I cannot
+use the equality of cross shears. 
+I have to write them separately.
+Since we have recently learned equality 
+of cross shears that we have got.
+Can you attempt how you draw 
+the Mohr's circle for this case?
+See, the process is very simple. Look at 
+the x plane and then plot the quantities
+and you have a positive shear acting on 
+the x plane and there is a convention.
+The convention says for a positive 
+shear, I should plot it downwards.
+So, I will have my Mohr's circle like this.
+You have to identify the x 
+plane and y plane correctly.
+Where will x come? Downwards, ok. So, I have 
+this and then I have y plane. So, now, I draw the
+circle. Is the idea clear? You are in a position 
+to find out for simple cases uniaxial stress,
+simple biaxial stress and you have the 
+pure shear stress. And we will also have
+for two different cases, I have a positive 
+shear, I will also have a negative shear.
+Because you all know since chalk is a brittle 
+material, a brittle material will fail when
+the normal stress reaches a critical value. 
+You have looked at from Mohr's circle which
+plane the chalk will break. Now, we will 
+graduate and find out how to reason out
+when I apply a torque, it fails at 
+45. We have seen without a proof that
+torsion introduces pure shear stress state 
+which we have seen it in the very first lecture.
+So, I have this, I have two cases. This 
+is a positive shear, I have the graph,
+Mohr's circle is drawn. I 
+also have the negative shear.
+What will be the difference between 
+the two? x and y will be swapped.
+And what way you have seen in the 
+chalk? It fails at 45 degrees like this.
+It fails at 45 degrees like this. 
+It fails at 45 degrees like this.
+So, I have the plane marked. So, let 
+us take this portion of the chalk.
+I have drawn the chalk and I have also put the 
+plane. Can you locate it on the Mohr's circle?
+Because we have said only a normal stress will 
+precipitate a failure in a brittle material.
+And what I have here, suppose 
+I have this as x-axis,
+I have the x. First of all you should know whether 
+I should use this graph or this graph. Now, I am
+taking the chalk and then applying anticlockwise. 
+I am applying anticlockwise. So, I have an action
+reaction pair. So, this portion of the chalk is 
+acting on this and I am rotating anticlockwise.
+That means, I am applying a shear 
+downwards. Is the idea clear?
+So, I should use this to explain 
+what happens on this chalk.
+And what I find is the normal stress is 
+maximum on this plane which is separated by
+45 degrees. So, I have this. The plane 
+is determined by the outward normal. So,
+I rotate from the x direction clockwise because I 
+rotate clockwise in the Mohr's circle 90 degrees.
+In the physical plane from the x direction, I 
+rotate by 45 degrees. Now, you are convinced that
+we are in a position to explain the behavior of 
+chalk even though we have not completely studied
+what kind of stresses developed in shear 
+from first principle. You have taken the
+knowledge that it introduced pure shear 
+stress state. From the Mohr's circle,
+you are able to investigate this, fine.
+See, the utility of Mohr's circle is, 
+you know, you have to settle in your mind
+that each point on the Mohr's circle
+is representing a plane. And in the state 
+of stress at a point, we have demanded that
+I should get stress vector on all the possible 
+infinite planes passing to the point of interest
+and which is achieved in a Mohr's circle 
+for a planar problem we are discussing, ok.
+So, you have identified that there is 
+a principle stress, principle stress 2
+and maximum shear stress. I said 
+whether it is local maximum or
+global maximum. Let us postpone the 
+discussion and wait for some time.
+And I have the orientation of the principle 
+stress denoted as 2 theta 1. And what you need
+to understand is, I take the plane x, this 
+is the stress tensor that is given to you.
+Stress tensor is given with respect to x y 
+direction, they are mutually perpendicular.
+So, if I take up x plane here, I have a normal 
+stress and the shear stress which can be culled
+out from the Mohr's circle. Suppose, I go to 
+the next point, I can also find out what is
+the shear stress. So, as I go closer to the 
+sigma axis, my shear will keep decreasing.
+That is what is depicted here to visualize.
+And you know, it is a schematic. I have not 
+measured it correctly and then put it this.
+You will get the sense that normal stress is 
+increasing, it reaches a peak. It reaches a
+peak when it reaches the point 1. So, I have only 
+normal stress acting on this plane. Then you know,
+once I go here shear changes its direction, shear 
+keeps increasing and shear reaches a maximum.
+And the knowledge what you have 
+is, when shear reaches a maximum,
+you will invariably have normal 
+stress also in a generic situation.
+In one situation, you will have normal 
+stress is zero. What is that situation?
+We have just now seen. When I have only pure 
+shear, when I have pure shear in the maximum
+shear stress plane also, you will have only 
+shear stress. So, then the values keep changing
+and when I come to plane 2, it 
+again has only a normal stress
+and then shear starts appearing and you 
+reaches the maximum shear and the story goes.
+So, you have to recognize on a circle, 
+I can have infinite points. So,
+it accommodates all the infinite planes. 
+So, that is the beauty of the Mohr's circle.
+And you know, depending on the stress 
+tensor I take it, the location of the
+Mohr circle will keep changing. See the 
+shape is always a circle geometrically,
+but its location and also the location of the x 
+and y planes will differ from problem to problem
+because when you have a state of stress, 
+it is different for different situations.
+So, when I have this, that is 
+what I said. When I represent it,
+I am representing this as positive quantities. 
+So, this is what we have done. This is
+sigma 1 and sigma 2 are both positive in 
+this case. So, that is one possibility.
+I can have another possibility 
+where I have sigma y is compressive.
+When I have sigma y is compressive, I would have a 
+Mohr's circle which occupies something like this,
+fine. I have a Mohr's circle 
+which occupies like this.
+And I can also have another situation where 
+Mohr's circle is completely shifted to the
+left. I have sigma y is compressive 
+as well as sigma x is compressive.
+I can also have a Mohr circle like this.
+So, what you will have to appreciate is the 
+graphical representation remains a circle.
+Its location can get shifted. In a special 
+case, it can become a point. And you will have
+to carefully identify what is the x plane 
+and y plane on the given Mohr's circle.
+Or for a given stress state, you first 
+locate the x and y plane, then plot them. So,
+that is the message in this slide. And I 
+said, you know, people were very good at
+graphical methods earlier and if you look at the 
+history, it all got developed by Karl Kalman.
+And he plotted for the first time, he has not 
+followed the procedure what we have done. Only for
+the problem of a beam, when it has both normal and 
+shear stress, he followed a procedure like this.
+I am going to follow what he has done.
+So, he has plotted on the x axis and y axis. 
+So, he plotted shear stress and labeled that
+as point A. Whatever the shear stress 
+at point A, he had put the shear stress.
+And he had put the normal stress and put it like 
+this. This is actually a compressive stress here.
+And then he identified the point B and located 
+the y axis. Then he mirrored this point A
+to A 1, joined these two and got a circle. 
+No other explanation was given. So,
+the first attempt to get a circle to represent 
+state of stress is credited to Karl Culmann.
+And you know, I said Mohr circle was developed 
+in 1882. So, he is passed away even before that.
+And he also identified that there could be two 
+planes where the stresses are completely normal.
+So, he also had an idea of what is the principal 
+stress. And this was later developed by Otto Mohr,
+not only for the two-dimensional situation, 
+but also for three-dimensional situation.
+It was done by Otto Mohr. He published his work in 
+1882 in Civil Engineer. And there is, I think it
+is a German title of the book. It is a collection 
+of works published in 1914. And now we go back
+to proving why the Mohr's circle is a circle. 
+That stems from your stress transformation law.
+See, stress transformation law, until you 
+graduate, you will have to be with it.
+You will be repeatedly doing it in your higher 
+courses also. So, there is no harm on repeating
+it again and again. And we have seen it from 
+first principles. I have to get the stress
+vector T x prime and stress vector 
+you get it by Cauchy's formula.
+From the Cauchy's formula, you transform 
+T x prime x to T x prime x prime by a
+vectorial transformation. This is a vectorial 
+transformation. So, this takes care of one index,
+this takes care of the, you have two indices. 
+The first index is related to the plane,
+second index is related to the direction, ok. So,
+you cannot simply say sigma x and sigma x prime 
+as sigma x cos theta as sigma x prime x prime.
+No, sigma x prime x prime means,
+what is the normal stress acting on 
+plane x prime in the direction x prime.
+So, that has to be done in two stages. In 
+which we have done in the earlier class and
+I have also asked you to simplify the expression. 
+I do not know how many of you have simplified it.
+Have you simplified the expression? All this we 
+have seen in the earlier class. It is nothing new
+to you. I am also going to reproduce the same 
+result, I am not going to simplify it here.
+Is there a possibility for simplification? 
+The second expression I can simplify. I can
+put this as cos 2 theta, I can put this as sin 2 
+theta, fine. Then I will go and manipulate this,
+this is what I am going to do, ok. So, 
+I have stress tensor sigma x as tau x
+y tau y as sigma y y, which you will have to get 
+it as in the new reference axis x prime y prime.
+It would appear like this. This is 
+basically from your transformation law.
+Now the question is, I am going to use the first 
+two expressions, modify it in a manner, I will
+write them in a parametric form. The moment I 
+write it in a parametric form, I will get an idea
+what the curve it represents. So, from the 
+stress transformation, you do get a proof
+that why you get a circle. So, this is a very 
+intelligent way of recasting the same equation.
+You have to go back to your trigonometric 
+identities and then play with this. This
+is same as the expression for sigma 
+x prime x prime what we have written,
+but written in a convenient manner like this. 
+And I have tau x prime y prime equal to minus
+sigma x minus sigma y by 2 sin 2 theta plus 
+tau x y cos 2 theta. So, now what I do is,
+I square and add and eliminate the parameter. 
+Let me look at what is the equation that I get.
+Squaring both sides of each equation 
+and then adding eliminates the parameter
+that is resulting in sigma x prime minus 
+sigma x plus sigma y by 2 whole square
+plus tau squared x prime y prime equal to sigma x 
+minus sigma y by 2 whole square plus tau squared
+x y, which I can also replace it in terms of 
+the radius and also the origin of the circle.
+Origin of the circle we have 
+said that as sigma average,
+tau x y is zero, is not it. So, I can rewrite 
+the same expression in terms of bringing the new
+notation sigma average is sigma x plus sigma y by 
+2 and then your R is square root of sigma x minus
+sigma y by 2 whole square plus tau squared x y. 
+So, if I do this my equation results in the form,
+I have sigma x prime minus sigma average 
+square plus tau squared x prime y prime equal
+to R square, which is nothing but a circle, 
+fine. We have learnt the procedure, now we
+have proved it will always be a circle, it will 
+not be like a nice butterfly, only for a simple
+tension we got the shear stress appears like a 
+butterfly. If I go for any other populated stress
+tensor, we may have different curves which 
+we have not looked at all, but the beauty of
+Mohr's circle is it is easy to draw and you have 
+to draw the circle with center as sigma average
+and tau x prime y prime equal to zero. And we 
+have seen from the examples that we have looked
+at it can be a circle of various radii depending 
+on the problem, it can be on the positive axis,
+it can be on the positive as well as negative 
+axis, it can be completely on the negative axis,
+it can be equally distributed between positive 
+and negative and it can also be just a point,
+it can also be just a point.
+I have just made the point very big for you 
+to see, do not think it is a filled circle.
+So, I can have point on the positive axis 
+or the negative axis all that is possible.
+Let us go for a three-dimensional 
+case. Now, you are all accustomed to,
+I can always raise I can always write a stress 
+tensor in terms of the principle stresses.
+Now, I have taken sigma 1 sigma 2 
+minus sigma 3, this is what I have
+put it here. So, I have this as 
+the pictorial representation,
+because the principle planes can be oriented at an 
+arbitrary direction that is why it is tilted, ok.
+Now, what Mohr has said is like you have 
+drawn a circle between sigma 1 and sigma 2,
+you repeat the same thing for sigma 2 sigma 
+3 and sigma 1 sigma 3. So, instead of one
+circle for a three-dimensional 
+case, you will get three circles
+that is the, I am going to do this without 
+a proof, we will just use the result,
+we will not attempt to make the proof that you can 
+see in some of the text books readily available.
+So, I have the circle, this is what we have seen 
+and you draw the circle and for points lying on
+the circle, you know what is the value of sigma 
+and tau and you also know how to locate the plane
+that is straight forward. And what Moore 
+has said is the in between zone is the zone
+in which all the points in all the possible 
+infinite planes in a three- dimensional body
+exist, all the points in this zone, what is 
+zone as green bounded by the red circles,
+this is the area if you take any point you can 
+locate the point in the three-dimensional space.
+So, that means, I should know the 
+direction cosines how to find out,
+I will take an arbitrary point and I will 
+tell you how to mark and locate the point
+on the Mohr's plane, because when I locate 
+this I will be able to find out what is the
+normal stress and what is the shear stress, 
+ultimately that is what we want to get.
+So, I take a because once I go to 
+three-dimensional, I should go into a
+three-dimensional representation of the direction 
+cosines, can not restrict to one single plane.
+And the reference axis are the 
+principal planes 1, 2 and 3
+and I have a point Q, when I join it with origin, 
+I will be able to find out from mathematics what
+is the direction cosine alpha, beta and gamma. So, 
+in the when you want to apply the Cauchy's formula
+also you need to know the direction cosines, 
+I get the direction cosines and once I get
+the direction cosines n 1 equal to cos alpha, 
+n 2 equal to cos beta, n 3 equal to cos gamma,
+you have an expression, ok. I have radius R 1 is 
+given, because I know already what is the value
+of sigma 1, sigma 2, sigma 3. From the point of 
+interest I know what is the direction cosine,
+so whatever the quantities that you have 
+on the right side is completely known.
+So, I can estimate what is R 1, and R 1 is a arc 
+of the circle from the first circle, I have sigma
+1 and this is labeled as R 1. And I also have R 
+2 square that is given as sigma 2 minus sigma 3
+multiplied by sigma 2 minus sigma 1 n 2 square 
+plus sigma 1 minus sigma 3 whole square divided
+by 4. So, I do it from the second one, so 
+I can locate the point Q on the most three
+dimensional representation of the stress state. 
+So, this gives you the point Q and you get the
+value of sigma and tau is the idea clear? For 
+all the points on the boundary of the circle,
+whatever we have done for Mohr's circle you will 
+have. So, here you will have in the plane 1 and 2,
+I will have a local maximum shear stress, in the 
+plane 2 and 3 I will have local maximum shear
+stress, but the global maximum is between sigma 
+1 and sigma 3, so this is the global maximum.
+That is very important, see you have a 
+failure criteria called Tresca criteria,
+when they apply people forget this, that 
+is what we are going to look at now,
+whether it is a local maximum or 
+global maximum. I have taken this,
+I have sigma 1 and sigma 2 
+existing and your sigma 3 is zero.
+You know we have plotted for all our discussion, 
+we have taken this because we have a diagram where
+this axis is away, so the diagrams are very clear. 
+And we have also said this is what tau maximum,
+that statement is correct, but in the plane 1 
+2, normally what you will do zero is ignored,
+zero plays a nuisance value, but once you go 
+and want to earn a salary after your course,
+you want to have many zeros after 1. 
+So, zero plays a very important role,
+so the nuisance value of zero plays, so I have to 
+recognize zero and recognize this as sigma 3 and
+draw the circle for the sake of completeness, 
+I can also draw the circle between 2 and 3.
+And what happens to the maximum shear stress,
+maximum shear stress is not this globally, 
+globally this is the maximum shear stress,
+is the idea clear. This is one of the points 
+where people always make a mistake as students,
+when both the principal stresses are positive 
+or both the principal stresses are negative,
+you have to be alert in finding out what is the 
+maximum shear stress. Go back and think what is
+the plane in which it is acting, even the plane is 
+different, see we always want to have live in two
+dimensions, fine. Everything is not two-dimension 
+always, even a two-dimensional problem,
+you may have to look at a plane which is in the 
+three-dimensions for you to worry about the shear
+stress. Suppose, I have sigma 1 and sigma 3 
+which are like one is positive and negative,
+whether I worry about the sigma 
+2 as zero, it is immaterial,
+it is not going to affect me as long as I am 
+finding out what is the maximum shear stress,
+because invariably I will find 
+out what is the global maximum.
+On the other hand, when I have both these 
+stresses are negative, then I have this situation.
+I will again recognize the zero value and sigma 1 
+is zero here. So, you are also indirectly trained,
+when you have multiple quantities, even 
+zero can be a maximum principal stress,
+because algebraically that is the largest. So, you 
+have to look at what is algebraically the largest,
+label that as sigma 1. So, in this class, we 
+have looked at various aspects of Mohr's circle.
+See, we have also proved that when you plot 
+these quantities, you will get only a circle,
+fine, that you have looked at it. And we 
+have also looked at how a Mohr's circle will
+look like in a true three-dimensional situation. 
+Instead of one circle, I will have three circles
+and the in between area is what I have to worry 
+about. For any of the data points, I should know
+how to locate that, based on the direction 
+cosine and the values of sigma 1, sigma 2,
+sigma 3, I can locate them, then I can find 
+out normal as well as shear stress. Thank you.

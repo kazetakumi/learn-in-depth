@@ -1,0 +1,1097 @@
+[Music]
+digital India educated India
+[Music]
+see let us continue our discussion on
+torsion
+in fact we have done the thought
+experiment
+followed by an experiment and we have
+understood certain aspects of torsion
+fine
+and
+see what we did was
+we hypothesize that I have a radial line
+that deforms into a curve so we started
+deliberately with a wrong hypothesis
+and then we looked at the geometry of
+deformation
+and the main point that we had a
+discussion was invoking the symmetry
+I was able to invoke the Symmetry mainly
+because the cross section is circular
+so about this access
+geometries symmetric
+I consider the material as isotropic
+so elastic properties are identical
+along any direction
+and the boundary conditions are also
+symmetric about the axis
+So based on that
+we have
+concluded
+that straight lines will deform into
+straight lines
+and we have also verified by the thought
+experiment when you rotate it by 180
+degrees
+what you have at the bottom surface when
+I rotate it it is identical to the top
+surface
+we are not only done the thought
+experiment
+we have also seen it in the experiment
+so first understanding is
+the radial lines will deform into radial
+lines
+and we also observed from the experiment
+that these radial lines
+lie on the same plane nothing happens to
+that plane that we have not done any
+thought experiment
+but we have done the actual experiment
+and seen that that plane remained
+horizontal but I can also investigate
+that
+by a thought experiment
+the only requirement is I should have
+the deformation
+symmetric about the access any way you
+can take it
+and here I can consider that this
+bulges out and it's symmetric about this
+axis
+this happens on every cross section so
+this cross section also bulges out
+and we know how to test symmetry if I
+rotate the whole system by 180 degrees
+it should come to be the same shape
+which is not going to be the case
+because when I rotate it because it is
+bulged I would have this as a cup
+so this violates symmetry
+so from thought experiment also you can
+say that these planes remain plate
+it's a very very important
+concept it's also taken as an
+idealization but when you perform an
+experiment you see that very clearly in
+the experiments so it's no more thought
+experiment
+we have captured reality in all its
+totality
+for a circular cross section
+which is a slender member and the
+deformations are small all these
+attributes you should look at it
+so when I rotate it you will have the
+same this one that is very clear
+and obvious
+and now I have a circular shaft that is
+Twisted
+and you see the horizontal plane as this
+red line
+and your vertical lines are drawn blue
+see this is a cylindrical object the
+line drawn at the back
+is magnified because this behaves like a
+lens that is why you see that shade of
+blue thick here and you could see very
+clearly that these lines remain
+horizontal
+and then you have these two lines
+sheared
+fine
+and in the case of a square shaft
+this line does not remain horizontal but
+it has a
+shape like this fine you know my hand
+was shaky so when I drawn it with free
+hands some kings are seen you can
+imagine that this is a smooth line
+so this has
+ups and downs and this is labeled as
+warping in the literature
+so we don't go to the analysis of square
+shaft in this course
+and in the case of circular shaft
+one of the important
+understanding is plane sections remain
+plane
+before and after loading for a uniform
+circular shaft it's a very very
+important observation
+in fact when we graduate to bending we
+would use the same idealization and
+choose an appropriate loading which
+satisfies that and develop the bending
+Theory
+whole of Center materials hinges on
+plane sections remain plane before and
+after loading because using this
+assumption we are in a better position
+to appreciate what is the deformation
+possible
+once you have captured the deformation
+you don't require bone sauce you don't
+require to solve this by solving a
+boundary value problem that deformation
+is understood from the deformation right
+The Strain from strain you write the
+stress strain relation so the complete
+solution is obtained so the key Point
+here is how well you have
+picturize the deformation clearly
+so what we do in Santa materials is we
+choose simple loading
+simple cross section that satisfy this
+basic idea plane sections remain plane
+before and after loading which you can
+see for many problems later also
+this would be satisfied so I don't have
+to solve for deformation by solving the
+boundary value problem of the
+differential equations
+and you know I have also asked you to
+exercise you are thinking power to find
+out what happens in a spring because we
+all start teaching deformable solids by
+taking the help of a spring
+see I have said we use the spring only
+to illustrate the force deformation
+relationship is linear
+and the other aspect of spring is also
+you will you can easily visualize that
+spring stores energy so all deformable
+solids will store energy so for these
+two aspects we look at it and when you
+look at the sketch you know
+schematically it's easy to represent the
+spring like a zigzag line and when you
+actually pull it it opens up and then
+when you compress it closes up
+if you want to find out what the spring
+resist Lord it is not tension or
+compression
+is idea clear
+you have to look at how the spring is
+constructed
+I have the spring which is coil like
+this and then you apply the axial pull
+and in this case you know the it is
+coiled in such a manner this forms the
+axis of the spring so now what I'll do
+is I'll cut at one of the coils here
+I have come like this and then
+and then I have taken this and I have
+removed it
+and I have drawn the diagram here
+and this is the load that is applied
+can you find out what is the resistance
+developed at this cross section
+because it is nothing but you have a
+load
+and then if you look at what is the
+way this
+cross section is located
+this is located by the
+radius of the spring you can say
+what kind of force system will exist on
+this cross section
+because you have the load that is
+applied
+which is along the central axis
+so this will try to
+it is relevant to this
+discussion it is trying to
+paste it
+you get the point
+the attention spring races the tensile
+Lord by developing
+torsional moment ok so it is actually
+transmitting only torsion
+in addition to this torsion you will
+also have the axial Force so you will
+have a shear
+introduce on this cross section as well
+as say
+resistant due to
+rque applied so if you have to design a
+spring you should know what happens in
+the case of a torsion it is no longer
+tension and compression in a
+similar manner I've also raised another
+question go and open up your cycle
+carrier find out what is the load that
+is transmitted by the spring fine so you
+should understand this
+make a neat sketch of this so when you
+want to find out how to design a spring
+you should know torsion to design
+attention or compression spring is idea
+clear
+now you need to make neat sketches I
+will show the animation slowly
+and you have to keep in mind
+that
+we are again analyzing only a slender
+shaft
+I take a very small section Delta Z I
+have blown it up for me to have Clarity
+on what is happening in this small
+section
+so don't get carried away by the size
+it looks like a slab
+huge Slab fine so it's actually a very
+slender member
+so I have
+taken arbitrary section you can draw the
+lines and also label them the way that I
+have done it take your time
+and what we are also going to do is we
+are going to find out
+at an arbitrary radius r
+I will also draw a
+arbitrary radius r
+and I would like to find out what
+happens
+on this interior part of the shaft
+because we have already seen even before
+developing torsion we know that shear
+stress varies
+linearly from the center to the outer
+fiber
+so in order to develop that relationship
+it is better that we take a
+arbitrary radius r
+and find out what is the kind of
+dotted lines that you have to start with
+and
+the axis of the
+shaft is taken as Z Direction
+and you have the radial Direction and
+Theta Direction because it is a circular
+geometry it's better to go to your polar
+coordinates
+and this is before twisting
+fine and this is a section somewhere in
+the middle of the
+slender shaft
+now what I do is I apply
+twisting moment
+when I apply the twisting moment
+I have the Twisted shape here that is
+what we have to understand and then
+find out what kind of changes that
+happen
+and you also have a nice animation which
+is continuously running
+which will tell you what way I have to
+draw the deformed lines
+and first thing is you will not
+appreciate I have a section far away
+from this then so this section would
+have
+tested by an angle fee
+and I have another section
+which is a distance Delta Z away that is
+the top surface it would shift by
+Twist by Delta Phi I have Phi and Delta
+Phi is what you will not understand
+so I have this and I have drawn the same
+lines here whatever the lines that I
+have drawn it earlier I have drawn it
+because my idea is because of applying
+the twisting moment
+how do these lines deform
+because once I
+understand that deformed position of
+these lines we already have definition
+of
+the shear strain Shear strain is nothing
+but change in the original rectangle so
+we will not investigate whether it
+remains as original rectangle after
+deformation or is there any change
+so please draw this first you have to
+appreciate I have taken a section
+somewhere in the middle of the section
+because we do not want to
+study anything close to the load
+application point because we all know
+same with none principle
+fine so we want to stay away from the
+end effects
+so when I apply the moment the bottom of
+this section would have had an angle of
+twist of V
+and just the slice away that is Delta Z
+of a it will have which we have not
+drawn now we will draw this okay
+as far as the
+small section is concerned only now I am
+going to put the
+twisting moment because the testing
+moment this lines
+shifts like this that is drawn in red
+and I have this
+line as
+you know I have E1 F1 A1 D1 is what is
+the new position D naught and d one are
+identical and C naught and C one are
+identical
+and what you have is I have this
+original line e naught a naught that is
+the black line
+and the deformed line is the red line
+because we have already seen radial
+lines remain radial so the line remains
+straight and this small angle is Delta
+Phi
+okay and you can find out what is the
+distance e naught even I can find out
+the distance e naught even can you tell
+me what is the distance e naught even
+R Delta Phi very good okay
+and we'll also have to investigate
+and you know very clearly you have this
+you have this shared these blue lines
+are shared and that is what you see here
+here it is drawn as red so that you can
+distinguish between the undeformed and
+deformed opposition
+and also label them we will use this
+drawing subsequently you are going to
+see this drawing again and again in the
+slides so even if you have missed some
+portion of it you can fill it up
+we are going to investigate this
+deformation and find out
+which are the angles remain 90 degrees
+which are the angles do not remain as 90
+degrees that contributes to the
+appropriate Shear strain because we have
+already ruled out existence of normal
+strains you do not have Epsilon Z
+Epsilon R and Epsilon Theta all three
+are zero
+among the three Shear strains which of
+the shear strains are zero is what we
+love to look at
+but before that we will first calculate
+the existing Shear strain due to torsion
+and this is again explain whatever I
+have said is again explained here you
+have to appreciate that why I have shown
+fee here why I have shown Delta Phi here
+you should appreciate that because this
+is taken somewhere in the middle of a
+Slender shaft
+so I have angular distance V and Phi
+plus Delta Phi
+and we will see that e of g h okay
+e f g h
+it has gone into E1 F1 G1 H1
+you know I have followed the same color
+code I have the circles as red
+and then the straight lens as blue so
+that you can easily visualize
+you can easily visualize from this
+diagram
+what has happened I have these blue
+lines sheared which we have seen by the
+experiment
+same thing has happened here
+okay
+so the original right angle e h g
+is sheared into acute angle even H1 G1
+which is also shown in a two dimensional
+sketch here you have already calculated
+what is this that is nothing but e n r t
+one you know that is R Delta Phi
+and you know what is this height what is
+this height
+Delta Z so you have all the quantities
+so you can find out what is the shear
+strain
+fine and you should also be able to say
+how will you label the shear strain I
+have the access R Theta z label like
+this fine think about it
+we have seen that this has shear
+okay and we are in a position to
+identify this angle and also this
+distance
+this is happening between what axis
+Theta and Z okay so I have this as gamma
+Theta Z
+see tensor really we want to have
+Epsilon Theta Z
+if you want to write a transformation
+relation we want to write Epsilon Theta
+Z
+but all the development in the early
+part of central material they have done
+it only with gamma
+and you know
+Epsilon Theta Z is one half of gamma
+Theta Z
+ok now we have to find out what is the
+magnitude of gamma Theta Z
+you have already done half of it we will
+fill in the mathematics and get the
+values okay
+and we'll also have to understand in the
+limit Delta C tends to 0 that is what we
+are going to
+approximate okay and again this is shown
+for you to give appreciation that
+the blue lines have shared
+and we have already looked at the
+geometry and you have already told me
+what is e naught E1
+so I can have gamma Theta Z as limit
+Delta Z tends to zero
+fine because we write tan Theta and then
+Theta is small
+we write the
+ratio okay that the appropriate
+distances so e naught e 1 divided by H
+one e naught will give you an e naught d
+one you already said correctly R Delta
+Phi and then H1 e naught is Delta Z
+so this gives me r d c by d z as your
+Shear strain component gamma Theta Z
+you will not appreciate that this is a
+function of r and how we have looked at
+R this is 0 here and you have The
+General car here and this is R Max so R
+changes from 0 to R Max so your Shear
+strain also will change linearly over
+the
+cross section from the center to the
+outer radius outer radius has the
+maximum value of
+Shear strain
+so that is what is
+documented here the shear strain varies
+in direct proportion to the radius
+from no Shear strain at the center to
+the greatest Shear strain at the outside
+when r equal to R naught or not shows o
+means outside diameter outer diameter
+whichever way you can take it
+and let us look at
+another aspect one can also conclude if
+I have a cylindrical shaft
+DV by DZ is a constant along a uniform
+section of
+shaft subjected to
+twisting moment and again so I can have
+twist berries
+linearly over the length
+okay now let us look at what happens in
+the r and Theta directions
+so R and Theta directions means I have
+to worry about what is H1 D1 and H1 G1
+so we have originally it was a d h g
+now this is D1 H1 G1
+and if you look at
+if I draw the tangent to these lines
+you will find that included angle is 90
+degrees
+there is no Distortion there
+if the original angle is preserved as 90
+degrees after deformation
+you say that component of Shear strain
+is zero so I have gamma R Theta goes to
+zero
+so you see these two lines radial line
+and the circumferential line
+and if you draw the
+tangents to this circumferential line
+and find out what is this angle this
+angle will still
+remain as 90 degrees
+then we move on to
+the shear strain
+gamma r z
+so when I have to look at R and Z I have
+to look at what happens to
+even H1 D1 that is E1
+H1 and D1
+okay
+here again if you draw the line
+it is only sheared like this you can see
+very clearly here shared like this here
+okay
+it is only sheared like this
+the blue line is shown as pink here for
+the purpose of this
+and if you look at what is the angle
+between D1 H1 and H1 E1 here it will be
+90 degrees
+so gamma r z is also zero
+so I have
+The Strain components
+five strain components are zero Epsilon
+are Epsilon Theta Epsilon Z gamma R
+Theta gamma r z they are all zero the
+malicious strain that is existing in
+torsion is gamma Theta Z and that is
+given as r d Phi by DZ
+is idea clear see we have taken a very
+simple problem to illustrate
+understanding developed here can help
+you to solve even complex problems I
+said that if you have a step to shaft
+definitely in the region of a step there
+will be disturbance so you can either
+bring in stress concentration factor or
+bring in a factor of safety or bring in
+some other empirical relation if the
+structure is too complex so wriggle out
+of from that zone but rest of the zone
+you have solution exact solution
+so that is how ingenious operate
+so you whatever we have discussed it's
+repeated as animation here
+so you can ruminate and then see
+stage by stage how we have looked at the
+deformation from the deformation we have
+figured out what is the non-zero strain
+that is present
+we have also written it in terms of the
+geometry of the problem
+so it is
+obtained as gamma Theta Z and then gamma
+R Theta is 0
+and then gamma r z is zero
+so you have the
+strains given
+the only restriction placed on the
+material is it must be isotropic
+only then I can invoke
+symmetry conditions if the material is
+not isotropic all my discussions go for
+a sex fortunately many of the
+engineering materials can be modeled as
+isotropic
+so whatever the relationship that we
+have developed
+can be easily applied to elastic
+conditions plastic condition linear or
+non-linear
+okay as far as the strains are concerned
+so if the material follows hooke's law
+the stress components are given as when
+you have five strain components are zero
+five stress components are also zero if
+you have already seen in the case of
+isotropic material normal stresses
+produce normal strain Shear stresses
+produce Shear strain
+there is no coupling the coupling
+happens in
+other than isotropic materials
+so
+from the knowledge that we have already
+gained in sustained relation I can find
+out tau's Z Zeta equal to G times gamma
+Z Theta
+and you would have noticed I have used
+the idea of equality of
+cross shares or cross strains that is
+what is shown here gamma Theta Z is
+identical gamma Z Theta
+similarly Tau Theta Z equal to Tau Z
+Theta and now you have an expression
+that is g r times D Phi by d z where G
+is the shear modulus you all know
+so now we have the exact solution even
+though we started with an hypothesis
+hypothesis is verified by experiment
+so what you get the relationship now or
+Exact Solutions
+and you know I have always noticed
+whenever you learn the subject because
+you take the shaft and then twist it
+here see initially when I hold the shaft
+there may be some kind of relate emotion
+between my hand and this
+member but once I do it
+I am only applying
+testing there is no relative moment of
+my hand
+and whatever the twisting Mount
+developed is transmitted by the section
+and this complete surface is free
+you have to appreciate that
+okay
+so what I have here is
+you have
+seen how the shear strain is developed
+now we look at the shear stress I take a
+small area Delta a
+and I have this
+share component because you know we have
+the symbolism first symbol should tell
+the plane this is a z plane and the
+direction is Theta so Tau Z Theta
+and when I take out an element like this
+this element is taken out and you put
+the reference axis
+you can make a neat sketch please
+I have Shear sus component developed and
+you have the complementary shear from
+your equal to a cross share you know
+that these two Shear components are
+equal in magnitude
+and I have this labeled as Tau Z Theta
+and this is Tau Theta say
+from your understanding of solid
+mechanics cross shears are equal so this
+is the shear stress that you have
+that is what is summarized here the
+shearing stress on the plane Z and Theta
+or of same magnitude
+and each element is in equilibrium we
+have not verified the equilibrium
+condition we will go and verify the
+equilibrium condition in a short while
+and you know
+shear stress varies linearly we will
+also picturize this okay
+so I will have maximum shear stress and
+then it tapers down to zero at the
+center
+and how do you establish equilibrium
+see whatever the shears does developed
+should balance the applied torque
+isn't it so when I write the equilibrium
+condition
+I have repeated the same figure so that
+if you have missed out you can
+correct your figure
+I am going to write only the equilibrium
+condition
+and the equilibrium condition should
+satisfy
+I have also shown that this is varying
+as a
+triangular variation
+on each section of the shaft the
+resultant of the substitution must be
+equal to the applied retesting moment
+so your integral R Tau Z Theta d a
+this is what is shown see I have the
+shear stress acting on an area
+so I can find out what is the force
+and once I take the moment the momentum
+is r
+and I do it for the complete area a a
+represents the complete area of this
+circular cross section
+that should be equal to twisting moment
+and when I do this
+I also get an interesting expression
+when I substitute the expression for Tau
+J Theta
+you know what I want to emphasize here
+is
+suppose I take the model and apply the
+axial load
+you can easily visualize that each cross
+section transmits the same axial load
+somehow when people
+change the problem to twisting
+they have a doubt that you still have
+because we have shown the shear as
+tangential to this on this cross section
+people have a feeling that you are
+applying something on this surface okay
+we have done a detailed discussion on
+fee surface
+so what way you have to appreciate is
+when I have a section like this taken
+out
+you will have Shear stresses developed
+on this surface that would balance the
+testing moment
+if I look at the lower section this will
+also have the shear stress developed on
+this surface
+and balance the testing moment and the
+entire shaft will be transmitting the
+same twisting moment along its length
+that aspect has to be appreciated
+clearly okay so what you have
+whatever I have told you earlier I have
+also summarized this in the sketch so
+all this portion what you see is a free
+surface
+you know what is the definition of
+resurface if you go and write the
+tensorial nature of stress developed in
+torsion
+find out the stress factor acting on
+this plane stress factor will go to zero
+that is what you call it as a free
+surface
+so now what you would appreciate is when
+I take a slender shaft and put any
+arbitrary cross section you should
+visualize that this cross section what
+you see
+develop the necessary shear stress
+so there is nothing on this surface so
+when you take a point on the surface you
+should look at which plane is free
+surface and which plane you can have
+shear stress acting
+that Clarity has to come okay now let me
+ask one another interesting question see
+I said that twisting of a circle like a
+square shaft is difficult
+from mathematical analysis point of view
+when I have instead of a circular shaft
+the square shaft
+you agree that all of these places is
+again free
+from your knowledge
+of the solid mechanism development so
+far you can find out definitely what is
+a stress tensor on four lines in a
+square shaft do you agree with me or not
+I have given you the clue I am not
+talking about test stress I have said
+stress tensor
+and you have to connect it with we have
+learned that this is a free surface and
+you have to imagine that you have a
+square shaft
+well so what do you have in a square
+shaft
+you have outward coordinates so you know
+from your earlier discussion that if I
+have the outward corner here this is
+Twisted here and it's also Twisted here
+what should be the stress sensor
+ah I'm happy
+okay so the knowledge what we develop
+should help you to answer certain
+questions if not all questions
+is idea clear so even though you have a
+square shaft under torsion you may not
+find out the stresses completely in this
+course from the knowledge you gain you
+can at least say what happens in the
+outward Corners excellent now whatever
+we have discussed a very nice simple
+animation is put here I have radial
+lines remain radial and longitudinal
+lines get shifted like this and this
+summarizes the complete picture of what
+happens in torsion beautifully
+and we will just summarize
+the Expressions so I have Tau Z Theta
+equal to r d c by DZ which we have seen
+as Shear strength by looking at the
+deformation
+from stress trained relations we have
+got what is uh shear stress Tau Z Theta
+from equilibrium I have got this
+now I can substitute for Tau Z Theta in
+terms of g r d c by DZ in this
+expression
+and you get a mathematical entity
+and I have also asked you a class back
+in mathematics what is that it
+recognized the cross section
+I raise the question
+I have asked you to think about it
+fine so when I substitute here I get
+this
+twisting moment as integral R Square D A
+what do you learned from your property
+of cross sections
+this fine so this is also the polar
+moment of inertia
+so moment of inertia understands the
+cross section because if we change the
+nature of the cross section
+moment definition will change
+so if you say how does the mathematics
+recognizes your cross section you can
+say
+that when I look at the moment of
+inertia
+it understands the shape
+if I look at area it doesn't understand
+the shape I can have cross sections of
+various
+geometry having the same area of cross
+section but more definition will change
+so it's another way of looking at it see
+while developing this we have taken the
+axis as Z along the shaft
+and I have also said that this is i z
+but you know when you go to bending you
+may also have a different access where
+the IZ will have a different connotation
+in order to avoid confusion
+it is better that we replace in our
+problem solving i z error as IP
+indicating smaller moment of inertia
+I may not have done that in all my
+expressions
+so for a circular shaft i z or IP is
+given as i z equal to integral R square
+d a
+by 2
+if you write it in terms of diameter it
+comes to be Pi D power 4 by 32.
+which will be repeatedly using it
+fine so you should understand that this
+is also the definition of IP
+because if you write in this chapter the
+testing moment as empty and your moment
+of inertia that is necessary for the
+calculation as I P you will not make a
+mistake when you go to bending there
+should not be a confusion between the
+two
+and we can also establish a relationship
+between
+torque and angular test
+the rate of test in terms of the applied
+twisting moment is given as
+I have this
+expression
+D Phi by DZ equal to m t by g i p
+and Gip also has another
+name this is also known as torsional
+rigidity
+the product Gip is also known as
+torsional rigidity
+suppose I have a shaft of length l
+loaded at the ends by twisting moment
+the total angle of test is given by c
+equal to integral 0 to l m d by GP
+multiplied by DZ equal to m t l by g i p
+so for a cylindrical shaft you can find
+out the angle of this comfortably
+you know we also have one problem which
+we have discussed on the
+variation of testing moment along the
+length we also had one portion where
+twisting moment was varying as a
+function of
+length
+so there you can use the integration
+properly so I can also find out
+in a varying twisting moment how to find
+out the angle of test all that is
+embedded in the expression this
+expression can be used to estimate that
+also but in a simplistic case you can
+simply Say mdl by Gip when I have a
+cylindrical shaft and a
+constant twisting moment
+I said that
+you also have a torsional spring the
+moment you say spring you can also
+visualize what is a spring constant
+in the case of attention spring you talk
+about axial force and axial deformation
+in the case of a torsional spring you
+have a
+corresponding ah for you know you have
+the force generalized force and
+generalized displacement so instead of
+the axial Force you have a twisting
+moment instead of axial deformation you
+have a testing the formation okay angle
+of test and you have to appreciate the
+triangle of this in all our mathematical
+development is only in radians
+so you have to convert it appropriately
+from radians to degrees while solving
+the problem because the definitions what
+we have applied all our discussion till
+now C is always expressed in radians so
+the rati is ratio is analogous to spring
+constant
+and
+so you have g i p by L can be called as
+torsional stiffness
+and I've already said the product GIF is
+known as torsional rigidity
+see this idea of rigidity comes because
+we graduate from rigid body mechanics to
+deformable solids and when you go to
+deformable solids we go for small
+deformation
+so when you looked at the basic solid
+mechanics we felt that when there is a
+Shear it distorts
+so that is why you call that as also
+modulus of rigidity
+so somewhere or the other you want to
+hang on to your rigid body mechanics
+fine so if the shaft was rigid it would
+have been very very stiff you cannot
+test it at all
+so this is also a measure of product Gip
+is also a measure of what is the
+way it can resist torsion if the torsion
+rigidity is higher you will have angle
+of to still be smaller it is higher
+value indicates it's more and more rigid
+okay
+now we should also summarize this as
+Expressions okay so you have radial
+lines remain straight that is what is
+shown here I have a radial Line This
+remains straight
+and longitudinal ah lines remain
+straight but they get
+spiral they get twisted like this
+and this is a famous expression this is
+valid for a
+cross section of circular shaft of
+uniform cross section with only again
+moment Supply which is also constant
+we have already derived that this angle
+of distance Phi by L we have already
+derived okay that is c equal to MTL by
+Gip okay we have already derived that so
+this is known as a torsion formula you
+will have a similar expression appearing
+in bending we call it as fracture
+formula
+and these are valid for uniform cross
+section
+and only constant testing moment is
+transmitted this expression is valid
+instead of twisting moment you will have
+a bending moment and appropriate moment
+of inertia and also you will have
+appropriate normal stress you will have
+an equivalent formula in bending so it
+is better to remember this formula
+fine
+and also understand its limitation
+it is for a uniform circular cross
+section
+and
+constant twisting moment
+and you know I have always told you in
+this course when you look at stress
+component it appears like a scalar don't
+get duped by it
+while developing what are the stresses
+developed in torsion we have also looked
+at the deformation
+component wise we have looked at it and
+we have evaluated the component Tau
+Theta Z it appeared only like a scalar
+fine
+only when you put it in a
+Matrix and call it as a tensor when you
+do a transformation you will recognize
+that it behaves like a tensor and also
+you will add when I have a
+um
+combination of different loads if I have
+to add them
+principle of superposition if you have
+to do that you have to look at the axis
+fine and if you are the correct set of
+access then you will also be in a
+position to
+add them directly or transform it and
+then add
+so it is better that you put it in the
+polar coordinates in one form
+I will have this as Tau
+Z Theta and Tau Theta Z like this
+so I have R Theta and z
+so you should recognize
+the shear stress developed in torsion is
+also a tensorial quantity because we
+developed
+and recent out only for a component it
+appeared like scalar but it is a tensor
+of rank two
+and it is a pure shear stress state
+you know you will also have to recognize
+suppose I take an arbitrary tausi Theta
+and then I change the reference access
+to X and Y
+I should recognize that I have this is
+Tau J Theta this can be split into two
+components along Tau z y and Tau z x ok
+so I have this as Tau Z by and this is
+Tau z x
+so when I look at the same trust state
+in Cartesian coordinates
+it will appear little more populated
+so I have this as Tau z x
+Tau x z I have not shown equality of
+Crosshair property utilized here
+just to drive home the point that you
+have a stress sensor with populated
+numbers Tau z y and Tau y z
+see we know a recipe whether it is a
+pure shear stress state by looking at
+the
+stress tensor what is that you have to
+verify
+we have looked at utility of stress
+invariants
+which invariant you have to worry about
+for
+establishing this as a shear stress
+state
+huh
+I
+i1 what is i1 here in polar coordinates
+and what is i1 here in Cartesian
+coordinates
+so you have done the transformation
+correctly
+so you also understand
+that's whatever the stresses developed
+in torsion can be represented as a
+tensorial notation both in Cartesian and
+polar coordinates
+so in this class we have developed
+graduated from looking at the
+deformation to find out what are the
+strain components we found among all the
+strain components only gamma Theta Z
+exists
+all other strain components are zero
+from sustained relation we could find
+out Tau Theta Z and I said equal to a
+Crosshair says Tau Theta Z equal to Tau
+Z Theta then we also developed
+and verified whether the
+equilibrium is satisfied the
+distribution of shear stress when we
+find out what is the moment about the
+access should balance the twisting
+moment
+and we have also learned that the entire
+surface is free when I twist it
+okay
+and then this sort of complete surface
+is free
+and we have also utilized this knowledge
+when we have a square shaft and test it
+even though we have not found out the
+stress distribution in the case of
+square shaft you can find out on the
+four lines which form the corners
+stress tensor is zero thank you
+[Music]

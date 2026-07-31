@@ -1,0 +1,1201 @@
+[Music]
+digital India educated India
+[Music]
+let us move on to the next topic on
+theories of failure
+in fact this would provide a very good
+recapitalization of many of the concepts
+that we have developed in the early part
+of the course
+so it will also help you to be well
+prepared for the final examination
+see we are going to look at what is that
+we look for in the case of brittle
+materials ductile materials
+and though highly elastic materials
+trust strain curve is drawn we are not
+going to pay attention on
+that in this course so if you look at a
+brittle material you are interested
+because it does not give you any bonding
+before failure
+it exhibits negligible yielding
+and you will only try to get the
+ultimate tensile or compressive strings
+on the other hand when you go to ductile
+materials
+you know yielding is considered
+undecidable feature because when you
+have components that are working
+together with a particular tolerance
+if you have large deflection deformation
+it is going to affect the performance so
+when you handle the ductile material
+yielding is considered as to be avoided
+and you know we have also looked at what
+is the need for
+stress vector
+and how stress factor is evolved into
+stress tensor
+ultimately you have to interpret when I
+apply a tension the chalk breaks in one
+particular fashion
+why it fractures in this plane
+on the other hand when I apply torque it
+fractures at approximately 45 degrees it
+depends on because when you do the
+application of the load with hand you
+may not apply a pure torque
+fine if you put it in a machine it will
+always be exactly 45 degrees
+and you all know that when I apply
+torsion
+you know very well that you have a
+pure shear stress State introduced
+and you know how to draw the Mohr Circle
+for this
+so it's all review
+you know torsion produces pure shear
+stress State then you mark the explain
+and Y plane
+be following the convention that we use
+we need that convention so that any
+rotation in the physical plane I can
+correlate it with
+the most Circle
+and I could visualize this pure shear
+stress State as a combination of
+tension and compression and when you say
+a brittle material it fails by maximum
+normal stress so you have normal stress
+here so that introduces a fracture at 40
+degrees
+chalk piece does not have an
+intelligence but the stress phenomena
+what you see
+introduces a normal stress at 45 degrees
+when you apply torsion
+if if I change the
+sign of torsion
+then you should know how to find out the
+complementary plane you should find out
+what is a plane
+you have to find out what is the state
+of shear
+this two converted into tension and
+compression if you look at here you know
+these two arrows made so it reduces to
+attention tension and this also goes to
+tension and the other two becomes
+compression
+or you draw the Mohr Circle and find out
+how to read it either way you can do it
+and next question is you know in this
+course we have focused on tension test
+and when you have attention test you
+know how to draw the most Circle
+so you have the principal stresses and
+you also have planes of Maximum shear
+stress
+and you are in a position to evaluate
+from the tension test basically Ang's
+modulus and yield strength
+if you want you can also
+find out how to get the poissons ratio
+and you can also do a torsion test
+see the accuracy achievable in attention
+test is much more than in a torsion test
+torsion test is also difficult to do
+and you have a state of Pew shear and
+you know how to draw the most Circle for
+Pure
+Siesta state
+and from a torsion test
+you essentially get the shear modulus
+and the yield strength in torsion
+find shear stress instead of Sigma over
+yes we call the system is
+and you know the slopes will be
+different because you know G is e by 2
+into 1 plus Nu so the slope will be
+smaller than what you have this
+okay
+and you also have interrelationship its
+approximate this about 0.57 of Sigma y s
+and you know we have looked at if I take
+a specimen and then pull it this is
+taken from a bulk material
+so I have a linear region which is very
+small then I have a yield region then I
+have a strain hardening region
+then reaches the peak then you have
+necking starts when necking starts
+finally eventually the specimen
+fractures
+and you know in material modeling we
+never attempt to model the complete
+stress strain curve
+because many of our applications are
+confined to linear region
+only the elastic region which is very
+very small we have seen the maximum
+strain that you allow for it to find out
+yield when yield is not very clear is
+0.2 percent
+so you have visible change in a cross
+sectional area and related to this we
+have also looked at what is a true
+stress and true strain graph
+because near necking you find that this
+there is a drastic reduction in the
+cross section so you have to take that
+reality
+and you also have a very characteristic
+Cup and Cone fracture if you look at
+these angles
+it will be 45 degrees
+that you can explain from your move
+Circle because you have Shear reaches
+the maximum okay
+so yielding was considered to be a
+failure
+and it should be avoided at all cause in
+Practical structures was the initial
+philosophy about design
+now we never go anywhere close to
+yielding stress you will have a factor
+of safety you will have a design stress
+and design stresses determine from
+factor of safety which has multiple ways
+multiple considerations go into how to
+decide the factor of safety
+and as I said suppose I have an alloy
+Steel
+which does not show any sharp change
+to identify what is the yield strength
+you have a
+non-linear curve like this
+the recommended practice from codes is
+you have an offset strain of 0.2 percent
+you draw a line parallel to the initial
+slope
+and whatever that it meets this value is
+taken as eel strength
+and you also have a very marked
+point a and another point which is
+elastic limit
+you have relationship is linear up to
+this
+from a to elastic limit it can be
+non-linear
+fine
+so the offset strain is very important
+so you allow
+a small amount of plastic deformation
+when you are not in a position to find
+out the yield strength by a sharp change
+you take that as a yield strength for
+all practical purposes
+and you know this is a very very
+important statement that you should
+write it
+quantitative criteria for yielding or
+for fracture of materials
+under multi-axial states of stress or
+incomplete even today
+see if you go to a practical structure
+it has a very complex type of loading
+even in your bench the way you come and
+set the load changes you may sits
+smoothly you may jump on the chair all
+that so the loading is a very very
+complex aspect to model and many of the
+Practical structures like you take an
+aircraft
+if you have a gust of wind how the
+airframe is exposed to
+various variable loads one of the
+biggest challenge in engineering
+modeling is how to idealize the load
+acting on the structure
+and you know
+you cannot reproduce all that happens in
+nature which happens in multi-axial
+fashion you can't do it in a laboratory
+and what we have cleverly done is we
+want to make our life simple and cost
+reasonable just do a simple tension test
+extract maximum out of it
+and you know you have seen brittle
+materials and ductile materials you
+can't have one criteria
+for all of these materials even among
+the brittle materials you need multiple
+criteria even among the ductile
+materials you need multiple criteria
+because each material behaves in a
+different fashion
+and from an academic
+perspective we may see all of these
+theories
+and you should also recognize failure
+theory is a substitute for good test
+data if I have a good test data I would
+put more emphasize on the test data
+see you must have heard some of the cars
+that developed in India they go for a
+crash test
+and then you hear these cars have
+survived the crash test and some of the
+models have not served the crash test so
+ultimately for very critical situations
+the manufacturers have dedicated
+highly sophisticated
+expensive Test Facilities you should
+understand all of this
+if you want to do that for every
+component you want to manufacture then
+only Kings can buy anything you and I
+cannot go and buy so you have to look at
+intelligently that I take a simple
+tension test
+evolve your failure Theory which
+substitutes test data for a variety of
+routine situations NSS special
+situations you should do exhaustive
+tests design new test rigs all that
+people do that is how engineering has
+developed
+and once you look at this you know we
+have studied principal stresses and
+strain so people have looked at what
+happens when principles such strain
+reaches a maximum value
+and we have also looked at shear stress
+what happens to the shear stress reaches
+a critical value then we also said when
+we graduate from rigid body mechanics to
+deformable solids they can all store
+energy
+so one way of looking at this what
+happens to maximum strain energy
+then people said no no strain energy is
+not the right choice you should look at
+only the distortional energy
+and somebody said you look at a very
+special plane called octahedral plane on
+which what happens to the shear stress
+you have really looked at what was an
+octahedral plane when we studied kosher
+stress formula to find out the stress
+factor on any plane of Interest
+and you also have more Theory
+which we have discussed brittle
+materials have different tensile and
+compressive strings
+so Morse Theory accommodates various
+strengths and tension and compression so
+what you do is you do a simple tension
+test
+and in a simple tension test note down
+all of these extremum values
+you have Sigma 1 reaches Sigma over yes
+and usually the maximum principle stress
+theory is applied only for a little
+material
+so it's more appropriate to talk this as
+ultimate tensile strength
+so one can also find out what is the
+maximum shear stress in attention test
+what is the maximum elastic energy
+what is the distortional energy and what
+is the octahedral shear stress
+ultimately we will zero down into only
+three theories one for brittle material
+and two for ductile materials out of
+this
+but from an academic perspective you
+must know what the theory is all what
+has been the story
+and you know you should also appreciate
+that material yielding also depends on
+rate of loading
+whether it is static or dynamic I have
+said that in this course we are going to
+look at loads that are gradually applied
+even the test is done
+you take a specimen of as per the
+standards and apply the loads gradually
+at room temperature
+if you want to work at extreme
+temperatures whether it is high
+temperature or low temperature you have
+to go back and see what are the current
+understanding of materials at those
+temperatures
+fine
+and the maximum principle stress Theory
+says
+you know when you have the
+maximum value it reaches regardless of
+the other two principal stresses
+as so long as they are algebraically
+smaller failure happens
+and you know I told you in those days
+people looked at
+whole of science as physics and
+Mathematics there is nothing like the
+divisions that you have right now and
+you know rankine was very famously known
+for Rankin cycle in thermodynamics so
+this Theory and you should also look at
+the time period in which it ought to
+have been developed is one of the
+earliest theories
+when people had started using materials
+people also were intelligent there is
+something happens failure occurs
+something reaches the critical value
+failure occurs so it were baby steps
+that they were doing
+okay
+so the failure occurs on the maximum
+principle stress reaches either the any
+axial tension strength Sigma UT or
+uniaxial compression strength Sigma you
+see
+and ultimately all of these failure
+theories should explain what is observed
+in the experiments
+if it is observed an experiment that
+this is what is happening from the
+theory you accept the theory or use it
+for that material
+okay
+and you know
+it's a very simple Theory
+satisfactory orbital materials
+and
+if all the principles are tensile this
+is the thumb rule that you have for the
+principle stress Theory and people
+thought why not I also look at elastic
+strain
+and all of these theories are done in
+principle stresses
+see when we have looked at combined
+loading we were able to combine the
+loads by looking at the coordinate
+system appropriately
+and get the final suspenser so the
+combined effect you can get it as a
+final substance are from the stress
+tensor find out the principal stresses
+and the principal sources have to be
+organized in the
+way algebraically largest is Sigma one
+intermediate is Sigma 2 and
+algebraically the least is sigma 3. ok
+so here the name itself says elastic
+strain
+so you take Epsilon 1. that is 1 by E
+into Sigma 1 minus Nu times Sigma 2 plus
+Sigma three
+and that is greater than or equal to
+Sigma y s divided by E because you are
+talking about failure you should not
+exceed this value is the proposal by the
+theory
+fine
+and you know maximum elastic strain
+theory is not well supported by
+experiments
+and you also have a
+theory developed or yield material I
+mean ductile materials
+and this is attribute to tresca
+which was developed in 1864. this is one
+of the earliest theories for ductile
+materials
+and it is very simple to use
+because the mathematics is very simple
+observations made during Extrusion tests
+on flow of soft materials through
+orifices
+show that the plastic state of such
+Metals is created when the maximum shear
+stress just reach the value of the
+resistance of the metal against the
+shear so it's a practical observation
+and I said Extrusion is a common metal
+forming operation that people use your
+eye sections are extruded they are
+available at standard dimensions
+and if you translate into mathematics it
+essentially says Tom axis Sigma 1 minus
+Sigma 3 divided by 2. if you understand
+it like this you will never make a
+mistake
+what is shown here is we have discussed
+suppose I have both the principles such
+as positive in a two dimensional
+scenario
+and both the principle stresses negative
+in a two dimensional scenario the third
+principle stress being zero place a
+nuisance value I have caution even your
+simple thin cylinder the Coke can
+experiences biaxial state of stress
+where both the principal sources are
+positive
+so you should not simply say use this as
+Sigma 1 minus Sigma 2 and then say that
+this is Tau Max
+whereas it is Sigma 1 minus Sigma 3 this
+is a total Max so you can make a drastic
+error in your calculation if you do not
+arrange the principal stresses in this
+fashion and interpret it in this manner
+don't have it a sigma 1 minus Sigma 2.
+you can also say Sigma Max minus Sigma
+minimum but it is always better that you
+write it in this fashion Sigma 1 minus
+Sigma 3 by 2 you will never make a
+mistake
+imagine in those days people had only
+access to slide rules
+they didn't have even calculator
+all the computers came much later now
+calculators are very smart they can also
+do some symbolic computation these days
+so in those days if I can predict
+failure by calculating just the
+difference of the principle stressors it
+was a great Boon for all of them
+and you should also look at it was
+developed way back in 1864.
+and you know
+when you want to understand what is the
+distortional energy Theory you'll not
+appreciate that a given stress tensor
+can always be split into
+sum of two quantities that we have seen
+I am going to
+redo that I have put the
+stress state in terms of principles such
+as Sigma 1 Sigma 2 Sigma 3
+I can always write it as
+addition of two Matrix quantities
+when you add them
+you get this value
+can you tell me what this represents
+I have P equal to one by three sigma 1
+plus Sigma 2 plus Sigma three
+I have the stress stunts are given to
+you and I have told you by looking at
+the invarians you can qualify whether it
+is the uniaxial state of stress or a
+pure Shear state of stress
+live louder
+how on what basis you said it is few
+share
+I one equal to zero you should not so it
+is a review of your course fine so I
+have this as hydrostatic state that is
+like immersing it in a fluid
+and this is a previous stress State what
+we'll have to look at is the argument is
+if you want to calculate the total
+energy using this the energy can be
+split as one corresponding to this one
+corresponding to this we will do the all
+these calculations today
+and this you call it as devioteric
+stress
+that is the way the literature
+recommends this
+so one Theory says when this energy
+reaches a maximum failure occurs
+okay
+and you also have what is known as a
+deviatric plane
+or the pipe plane
+and which is listed here can you see
+that you have also seen that in a
+different context earlier
+you are referring this plane with
+respect to Sigma 1 Sigma 2 and sigma 3
+and this is equally inclined
+can you recall what is the other plane
+that you have read earlier
+octahedral
+plane octagonal plane is also like this
+they are both are you call it one
+context as octahedral in another context
+we call that as a pipei
+ok
+since addition or subtraction of an
+isotropic state does not affect yielding
+process see there was lot of development
+on
+plasticity theories
+and people have simplified the
+mathematical modeling
+and one of the important aspect there is
+isotropic plastic theory is what they
+would say and the simplest one
+the you have a hydrostatic state of
+stress if I add any of that it does not
+affect the yielding Behavior so the
+point P can be more parallel to OD so if
+I do that I can also construct a three
+dimensional shape of a failure Locus
+see the idea is I am performing only a
+simple tension test
+but I will interpret it in terms of
+Sigma 1 Sigma 2 and sigma 3 and try to
+plot a
+three-dimensional envelope and if my
+else test state in a given problem lies
+within it no failure will occur if it is
+outside or on the boundary yielding will
+happen that is how people have proposed
+the failure theories so you have this we
+will see the what is the yield surface
+for tresca
+and I have the pipeline
+and if you look at the
+yield surface for tresca
+this is a hexagon
+very nice
+appearance of the failure
+in the left
+so this is called the hydrostatic axis
+and if you have the stress state within
+this envelope you will not have
+yielding to take place okay which can be
+easily understood if I do it on a
+two dimensional representation suppose I
+take a projection of it on Sigma 1 and
+sigma 2 axis
+and when I look at here I plot it only
+on Sigma 1 and sigma 2.
+the projection of this hexagon will be
+elongated like this because it is on an
+equally inclined plane next again
+when I project it I will have it like
+this and this you can easily interpret
+say I do a tension test applying Sigma 1
+when Sigma 1 return Sigma by S you also
+have
+Tau reaching the
+maximum shear stress
+ok so I can find I can locate this point
+similarly I can also locate this point
+because whether I apply Sigma 1 or Sigma
+2 it does not matter if I have both
+Sigma 1 and sigma 2 is equal
+then also I can draw the Mohr Circle
+between
+these two principal stresses and the
+sigma 3 as 0 so I can locate this point
+and when I have another stresses is
+compressive then the curve becomes like
+this the green region shows in any given
+practical problem if the sigma 1 Sigma 2
+Sigma 3 values and sigma 3 value is 0
+that is how it is plotted and sigma 1
+Sigma 2 lies within this region yielding
+will not take place
+it's on the boundary or outside the
+boundary yielding would have taken place
+you make a sketch of this you need to
+have these diagrams you need to have
+this diagrams you should also know how
+to interpret
+and I am going to
+present it in a manner that is useful to
+you for your understanding
+because you know people also plot the
+failures envelope for maximum normal
+stress Theory maximum principles of
+theory in this that becomes irrelevant
+because when we have brittle materials
+they always have
+tension and compression strengths are
+different so we will have a different
+diagram for that we will not mix it up
+with ductile materials for a ductile
+material one of the simplest and oldest
+criteria was by traska it was developed
+in 1864
+it's easy to employ
+and you have a failure envelope in two
+dimensions and failure envelope in three
+dimensions
+and you also have what is known as a
+Shear diagonal
+Shear diagonal is nothing but I have a
+pure Shear State and your tresca yield
+criteria says this value is 0.5 Sigma by
+S
+why do you have multiple criteria
+the material is so complex you are not
+able to grasp what the material is doing
+by one simple criteria
+it's a modeling aspect fine each
+material behaves in a different fashion
+when you do a complicated test when you
+do any testing other than tension test
+it is going to be expensive tension test
+is this
+simple status that you can do even that
+is costly that is not cheap
+because you have to prepare the specimen
+as per ASTM standards you should have a
+calibrated testing machine and follow
+all the procedure and evaluate the
+parameters and what we do is we exploit
+what we have got in tension test
+carefully done in terms of
+hypothesis or proposals that is how
+failure can occur
+where later on will also see
+experimental verification of these
+theories
+and now you know we will also have to
+look at how to calculate the elastic
+energy we have already discussed when we
+were talking about castiglenius theorem
+how to find out the energy stored in a
+spring
+and this is credited to Beltrami and hay
+see look at the time period
+you don't think
+somebody proposes a failure Theory and
+it stays four years together
+somebody proposes certain elements of it
+somebody else comes in the later
+generalizes it and makes it more perfect
+so you can imagine it has taken two
+lifetimes
+fine
+and
+according to this Theory failure at any
+point begins only when the energy
+density at that point is equal to the
+energy absorbed per unit volume by the
+material when subjected to any axle
+state of stress these are all like you
+know when you are proposing a theory you
+feel instead of concentrating on other
+quantities let me concentrate on the
+energy
+that's how they proposed it you know all
+the theories you are going to say what
+happens in attention test that is going
+to be common
+but the quantity that what you look at
+is different
+whichever quantity that I have worked in
+real life that is the final theory that
+people will use it for design
+fine but from an academic perspective
+you should look at all the theories
+and you know how to calculate the
+energy when I have it in terms of
+stresses half of Sigma X Epsilon X DB
+now I want you to work it out suppose I
+express the stress state in terms of
+Sigma 1 Sigma to Sigma 3 you can also
+write Epsilon 1 Epsilon to Epsilon 3 can
+you substitute and then tell me what
+would be the expression for strain
+energy
+please do the computation it's not very
+difficult for you it is also like
+brushing up your
+understanding of substrained relations
+because when you write the strain you
+should write the strain completely
+Epsilon 1 and is influenced by Sigma 1
+Sigma 2 as well as Sigma 3.
+only in a uniaxial tension test if I am
+having Sigma YY only applied then
+Epsilon y y is you have Sigma YY divided
+by E otherwise
+in a generic situation
+strain is influenced by all the three
+stress components so if you do that you
+will also get a very simple expression
+it's not difficult for you to visualize
+once I show
+I have the strain energy labeled as
+capital u
+it can be organized in this manner one
+by two e multiplied by Sigma 1 square
+plus Sigma 2 square plus Sigma 3 Square
+minus Nu by E Sigma 1 Sigma 2 plus Sigma
+2 Sigma 3 plus Sigma 3 Sigma 1 that's
+what you get it as
+total elastic strain energy
+now we will see what is the value if I
+have Sigma 2 and sigma 3 is 0 what is
+the value at uniaxial tension test so
+that tells you what is the criteria
+so the criteria getting is very simple
+right now what we are saying is what
+happens in retention test you say that
+as the limiting criteria
+whether it is valid or not only an
+experiment can say
+fine
+so you are only looking at
+different entities
+so when I have a simple ah tension it is
+reduced to one by two e Sigma y s Square
+hence failure will occur when
+you have this is greater than or equal
+to Sigma squared by S and if you go to
+the test what happens
+see people have observed materials can
+withstand very high levels of
+hydrostatic stress nothing happens to
+them
+even if you take a brittle material like
+glass you take a glass bulb an immerse
+in a liquid
+if you do a careful experiment see
+experiments have to be done carefully
+what people have found is it is able to
+withstand a very very large pressures
+nothing happens to it
+and if you when you release the pressure
+if you are not careful if I lose people
+have observed and we have also looked at
+and made an idealization that we have an
+elastic Continuum in reality nothing is
+an elastic containable you have Micro
+cracks
+so what we have people have found is if
+there are micro cracks and if fluid gets
+into that micro cracks then failure has
+happened much earlier
+so one of the ym media people suggested
+is you cover this material with a thin
+metallic uh
+cover
+metallic sheet so that the liquid does
+not get into the crevices even glass has
+withstood very high hydrostatic stress
+so this is the reason people thought
+your elastic strain energy is not the
+right index for the failure analysis you
+have to look at the
+distortional energy is the idea clear
+you have to move and see distortional
+energy because the experiments do not
+support the predictions
+the theory simply says instead of
+looking at 10 different things look at
+the elastic strain energy see what
+happens in attention test that's how
+people have coined different theories
+what theories have stood the test of
+time if you look at whichever is
+supported by experiments people have
+adopted it and when you want to find out
+distortional energy we have already
+looked at when we developed sustained
+relations when we are talking about bulk
+modulus we have said you can find out
+the volumetric strain as Epsilon X S
+Plus Epsilon y y plus Epsilon z z in the
+context of
+principal stress reference
+it's a invariant i one it can also be
+written in terms of Epsilon 1 plus
+Epsilon true plus Epsilon three it's one
+and the same and invariant does not
+change so I have this pressure applied
+and pressure is one third of Sigma 1
+plus Sigma 2 plus Sigma three
+and if you write
+Epsilon x s Epsilon y Epsilon z z they
+will be identical in terms of P
+so we have evaluated this if you
+remember those
+derivations it is nothing but 3 p
+multiplied by 1 minus two Nu divided by
+e
+so now I have this strain I have the
+load you know how to calculate the
+energy store so what I am really doing
+is what is the energy stored
+for volumetric change
+so it is nothing but three by two e
+because one half of this that is why one
+and a half comes one minus two new P
+Square and I substitute P see p has one
+by three okay so when I put T Square I
+will have one by nine so this simplifies
+to
+U Prime is 1 minus 2 Nu divided by 6E
+multiplied by Sigma 1 plus plus Sigma 2
+plus Sigma 3 whole Square
+so what you have here is
+what is the energy
+because of volumetric change if I have
+to find out the Distortion what what is
+that I have to do I have the total
+energy I have the volumetric change so
+if I do the subtraction I can find out
+the distortional energy because our goal
+is to get the distortional energy which
+is more realistic in capturing the
+material Behavior
+so the Distortion energy density is
+nothing but total energy minus energy
+for volumetric Change and we have
+already seen
+Distortion energy is given in this
+context U star we saw U star in a
+different context we use that as a
+complementary
+same energy so some of these symbols due
+to positive of it you must understand
+that interpretation in the local context
+so I have the total energy which we have
+derived which is very simple to do just
+now we have derived what happens because
+of the volumetric change
+so if I do the arithmetic this
+simplifies in a very nice fashion
+this is the first simplification but the
+second simplification is much
+interesting for us to do which could be
+Rewritten in this fashion 1 plus Nu
+divided by 6E
+multiplied by Sigma 1 minus Sigma 2
+whole Square
+plus Sigma 2 minus Sigma 3 whole square
+plus Sigma 3 minus Sigma 1 whole Square
+please remember this this will be using
+it for all our failure theories that
+form of representation which is much
+more convenient
+and now what you'll have to say you have
+to see what happens in a simple tension
+test
+and then see what is the limiting value
+OK before that you know I am still
+replacing it I do not want to have one
+plus Nu here
+I can write it in terms of one elastic
+constant which is G so I can write U
+star as 1 by 12 G multiplied by Sigma 1
+minus Sigma 2 whole square plus Sigma 2
+minus Sigma 3 whole square plus Sigma 3
+minus Sigma 1 whole Square it's also
+very easy to remember it's not difficult
+to remember mnemonically you can
+understand
+and if you go to the history of
+development many people have contributed
+to this understanding its not just one
+you have Huber
+who proposed it in 1904
+improved by Juan mices in 1913
+a better explanation was given by Henke
+in 1924 imagine we have also seen
+bending Theory took 400 years
+even the failure theory is it is not
+that somebody gets a dream the next day
+morning he says this is a failure Theory
+and everybody follows a dictator can do
+that
+science doesn't operate like that fine
+so people propose the theory somebody
+perfects it somebody provides a rational
+explanation
+fine so that is how the theory has got
+developed
+and so the theory is very simple to
+express also because in all the theories
+we will look at one physical quantity
+and when it reaches the value that is
+happening in attention test we say
+failure occurs
+so the energy absorbed during the
+Distortion of an element is responsible
+for failure rather than the total energy
+so it's a fundamental difference
+the fundamental shift in thinking
+so we have already got the Distortion
+energy
+and one message note add that yielding
+begins when the second invariant of
+deviated stress reaches a critical value
+you know we have looked at utility of
+invariance when you have i1 goes to 0
+what happens to state of stress I do go
+to zero what happens state of stress you
+have found out the invariance in a given
+stress tensor suppose we split the
+stress tensor in terms of deviatric
+component and hydrostatic component now
+for the deviatory component you again
+write I 1 I 2 I 3 instead of labeling
+them as i1 I2 A3 to distinguish you
+label it as J1 J2 j3
+fine one message note add when J2
+reaches a critical value failure occurs
+and J2 is nothing but what we have seen
+as that Sigma 1 minus Sigma to whole
+Square some form of that expression
+so people have also looked at it from
+the point of view of invariance and this
+is also called as J2 material
+OK if the material follows ah J2 the
+Distortion energy you call that as a J2
+material ok
+and physical interpretation further
+development based on physical argument
+was given by Henke so people have got
+convinced that this is the way that the
+failure is precipitated
+so you have distortional energy is now
+given assemble sensible sample UD I have
+this as 1 by 12 G Sigma 1 minus Sigma 2
+whole Square Sigma 2 minus Sigma 3 whole
+square plus Sigma 3 minus Sigma 1 whole
+Square
+for uniaxial test Sigma one equal to
+Sigma by S and sigma 2 and sigma 3 are 0
+when you substitute this
+the critical value becomes 1 by 6 G
+Sigma y s Square
+so I have this as Sigma 1 minus Sigma 2
+whole square plus Sigma 2 minus Sigma 3
+whole square plus Sigma 3 minus Sigma 1
+whole Square greater than or equal to 2
+Sigma y s Square
+say if you look at any theoretical
+development people might start from
+different perspectives
+and if you Converse to one quantity it
+also has an inbuilt verification of our
+mathematical approach
+fine
+you find there is a development in terms
+of octahedral siestas you know what is
+the octahedral plane and it is nicely
+shown since you have eight such planes
+possible I have shown it with different
+colors so it is referred in the
+principal stress reference axis Sigma 1
+Sigma to Sigma 3 and this plane is
+equally inclined
+that means the direction cosine is known
+one by root three one by root three one
+by root three and that is also labeled
+as pipeline they are one and the same ok
+this theory states if the shear stress
+not the normal maximum shear stress that
+the tresca conjecture
+they said monitor what happens to the
+shear stress on the octahedral shear
+stress plane when this shear stress
+reaches a critical value failure
+relocker look at what happens in
+retention test and then find out the
+expression and we'll also see the
+expression how they are okay so the
+plane which is equally inclined to all
+the three principal axis is called
+octahedral plane Direction cosine is one
+by root 3 and well supported by
+experiments is very well supported by
+experiments
+supports observations or hydrostatic
+condition
+and once you see the expression I have
+written the result here but once we see
+expression you will see it after it will
+shift as a zero when I have hydrostatic
+stress so it doesn't predict like we
+have said that the point P can be moved
+along the axis that you have
+justification from this basic Theory
+if you analytically examine what is Its
+Behavior okay so now I have to get the
+octahedral shear stress in fact you have
+developed it as part of your
+assignment but anyway we will go back
+and then do this so I refer the stress
+state in terms of Sigma 1 Sigma 2 Sigma
+3
+and your I 1 I 2 I 3 are simply
+Sigma 1 plus Sigma 2 plus Sigma 3 is I
+one I2 becomes Sigma 1 Sigma 2 plus
+Sigma 2 Sigma 3 plus Sigma 3 Sigma 1.
+and I3 is simply Sigma 1 Sigma to Sigma
+3. so all your mathematics becomes much
+much simpler to handle once you refer it
+in terms of principal stresses and all
+of the failure theories uses principal
+stresses because you can combine the
+load easily okay I forget the final
+substancer and get the principal
+stresses then apply the theories of
+failure
+and if I want to find out the stress
+Vector on any plane I need to have the
+direction cosines if it is n x n y and n
+z
+okay I can have t n x t and Y and T and
+z in a very simple fashion
+and you can also calculate what is the
+suspector
+suspected is nothing but Sigma 1 square
+and x squared plus Sigma 2 squared and Y
+squared plus Sigma 3 squared ends is s
+square and this is the square of this so
+I can take the square root to get this
+vector magnitude
+and you are once you get that you are
+the normal stress is nothing but the dot
+product of this Vector with Direction
+cosine I get this as Sigma 1 and x
+squared plus Sigma 2 n x n y Square
+that's Sigma 3 n z Square
+and your shear stress can be evaluated
+as Tau Square equal to T N Square minus
+Sigma Square
+that reduces to this form
+n x squared n y Square multiplied by
+Sigma 1 minus Sigma 2 whole square plus
+n y squared n z Square Sigma 2 minus
+Sigma 3 whole square plus n z Square n x
+squared multiple by Sigma 3 minus Sigma
+1 whole Square do you see where I am
+going to
+we have looked at distortional energy we
+looked at some similar form of the
+expressions and when you come to
+octahedral shear stress I know what is
+NX
+and n y and NZ they are one by root
+three
+fine so you have the octahedral
+shear stress it's also very nicely
+Illustrated here because when I have a
+reference access as x y and z
+you can have different orientation of
+Sigma one Sigma 2 Sigma 3.
+from there it starts and it goes to the
+reference axis as Sigma 1 Sigma 2 and
+sigma 3. and you have normal stress you
+have the direction cosine one by root
+three I one by root three J One by root
+three k
+and you have the normal stress and you
+have the
+shear stress acting on it normal stress
+is one by three sigma 1 plus Sigma 2
+plus Sigma three is one by three I one
+and you have octahedral shear stress we
+have just now got the expression
+so octagonal stresses reduces to one by
+three sigma 1 minus Sigma 2 whole square
+plus Sigma 2 minus Sigma three whole
+square plus Sigma 3 minus Sigma whole
+Square whole power one by half
+the whole expression can also be
+expressed in terms of i1 and I2 it can
+also be expressed in terms of invariant
+of the deviatric stress component it is
+related to J2 if you say that the J1 J2
+j3 it is related to J2 there are
+multiple ways you know people once they
+develop they do not stop they want to
+see it from multiple perspective so that
+they want to get convinced that we are
+proceeding in the right direction
+OK that is the Crux behind it and if you
+look at the time period of
+arpa not I it is in the last century
+okay
+if you look at Trust car it is very very
+bold and you saw Huber developed this in
+1904 and this is somewhere around middle
+of 19th century okay
+or 20th century if we put it in the
+right fashion
+so I have this shear and
+this one ok so this Theory says what
+happens in any Excel Test
+when you substitute the values of Sigma
+1 Sigma 2 Sigma 3 Sigma 2 and sigma 3
+are 0 and sigma 1 and sigma by yes it
+becomes root 2 by 3
+so he noted in 1937 so we saw Henke gave
+a explanation in 1924
+1937
+he noted that failure occurs when this
+reaches a critical value
+okay
+and this can also be put in terms of
+invariance so there are different ways
+of putting it you know researchers want
+to have nice Publications they want to
+coin new names
+and then make the mathematics look
+different you get a paper out of it
+that's how the research goes there is
+interesting development in that sense
+ok
+can you see that they are one and the
+same
+we will see according to Social energy
+failure occurs when Sigma one Sigma and
+sigma 3 are such that Sigma 1 minus
+Sigma to whole square plus Sigma 2 minus
+Sigma 3 whole square plus Sigma 3 minus
+Sigma 1 whole squared is greater than or
+equal to 2 Sigma y Square
+occurs
+when this happens in this fashion root
+two by three
+if you knock off this three and square
+this are they not one and the same
+so that is a reconfirmation
+that distortional energy Theory and
+octahedral shear stress Theory the final
+implementable criteria is one and the
+same
+see in practically solving problem you
+will worry about this expression
+you will not try to find out unless it
+is ours what is the octahedral shear
+stress
+the final expression can be reduced in
+this form
+is idea clear and this also provides the
+reconfirmation that mathematical
+development is in the right direction so
+in the case of brittle materials we have
+seen only the simple maximum principles
+Theory and for the ductile materials
+traska was the oldest and Distortion and
+octahedral merged into one
+so you have two theories now for
+ductile materials
+fine and we will continue further in the
+next class
+to find out a better theory for brittle
+materials and also solve some problems
+thank you
+[Music]
+foreign
+[Music]

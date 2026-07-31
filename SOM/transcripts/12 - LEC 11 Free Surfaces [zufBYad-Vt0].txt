@@ -1,0 +1,1316 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on
+concepts related to stress
+in fact in this class we will try to
+understand the concept of stress
+little more better
+and also develop certain subtle Concepts
+which are not normally discussed at this
+level of the course
+but you are learning the course in 2022
+so it should also be equipped to handle
+the modern challenges so if you take up
+higher level courses you need to specify
+the boundary condition
+only then you can solve the differential
+equations
+so you need to understand what happens
+on a boundary
+how do you specify the traction on the
+boundary
+so you need to understand certain subtle
+aspects that we will look it up
+so the first concept is understanding a
+free surface in fact when koshy's
+formula was
+discussed in the class
+one of the
+tutorial problem was to find out what is
+the stress factor
+acting on X plane that's what we are
+going to discuss
+and you have the tensorial
+representation of state of stress
+you know after learning concept of state
+of stress at a point
+you must always develop the habit of
+putting this trust component
+in a matrix like this and give it a
+tensorial flavor
+if you look at Sigma YY it is p by a p
+by a appears like a scalar just like a
+temperature
+but it is not a scalar you have to
+recognize that this is a tensor
+and once you have a
+pictorial representation like this you
+can also draw the more Circle you know
+what happens on the explain and Y plane
+you can mark the X
+point and Y point
+and you can draw the circle
+and now let us look at what happens to
+your point which I have shown it very
+big for you to appreciate
+very clearly
+what happens on this surface
+see the moment you take stress
+you will also have to raise a question
+which plane are we talking about
+fine
+and when I take this surface for you to
+visualize very clearly I have shown in
+the surface here
+it is represented by the outward normal
+it is nothing but your explain
+so you can write the direction cosines
+I would like you to draw needs neat
+sketches I will give you sufficient time
+for you to do that
+and you also have the koshy's formula
+and I have
+DNA Sigma Dot N
+and I have this as
+t x equal to zero
+I have this stress tensor like this and
+when I have the direction cosine like
+this this gives me t x equal to 0 by
+definition when the stress factor is 0
+you call that as a free surface
+fine
+now let us look at the same point but we
+look at a plane
+which is the Y plane now
+when you say the Y plane what are the
+direction cosines
+a 0 1 and you can apply the cauchies
+formula you have the stress tensor here
+you can also find out what is t y
+and t y comes out to be your Sigma YY
+fine
+suppose I take a arbitrary plane
+I take a plane oriented at 30 degrees
+you can obviously locate this plane in
+more Circle there is no difficulty at
+all you know more Circle very thoroughly
+and you should also know where will I
+locate This Plane because this plane is
+anti-clockwise from this by 30 degrees I
+have given the direction cosines so that
+tells you this I have not marked the
+angle as such
+so you should also know where I would
+locate this point on the most Circle
+I go to Y from X anti-clockwise like
+this if it is 30 degrees I will have
+that fixed at 60 degrees
+is the idea clear
+so when I take this point
+when I look at
+explain
+when I look at y plane
+or when I look at an arbitrary plane you
+can individually find out the
+stress magnitude on that
+plane
+fine you can find out the suspector
+and you can also find out if there is a
+normal stress if there is a shear stress
+you can find out all those quantities
+because when you have a plane like this
+I have both
+normal and Shear stresses on this plane
+which I have not indicated it here now
+the question is
+you know I have a point and then I have
+stress acting on this plane
+the confusion what people have is
+I have this
+is it a sheer acting on the element
+I have
+a point taken here and you know very
+well what I have shown this as a green
+square it's actually
+no Dimensions it can be strung to a
+point
+just because this appears tangential to
+your surface
+you cannot construe that you have this
+is tangential like this and acts like a
+shear
+suppose I take a point inside you do not
+get that confusion you say that it is
+pulled
+suppose I take a point somewhere here
+interior there again you don't have a
+problem
+you have a problem once you come to this
+so you should understand
+it is not a Shear but it's still a
+normal force acting on this plane
+okay normal stress acting on this plane
+so your Shear will go to zero
+but you can still have
+a normal stress acting on it is the idea
+clear
+so when you understand the concept of
+stress
+you should look at on which plane am I
+asking this question
+and if you look at
+this specimen see all through this
+boundary
+is free it is not loaded
+you know what I do is I take a
+specimen like this I have a hole and
+then I put it in this
+so what I do is I have the
+loads applied only here I don't
+physically touch this boundary
+so they are physically free
+this has a very important connotation
+when it is physically free what we say
+is when I look at the stress factor on
+plane X
+it is zero
+but it can still support a stress
+in a plane perpendicular to it and a
+stress component is
+tangential to the surface never forget
+this this is a very subtle point
+is the idea clear
+we will see some more examples ok
+see one of the
+important learnings in this course is
+how to find out the variation of the
+resistance over the cross section
+and I have said by inference you'll be
+able to see what happens in a beam what
+happens in a actually loaded member now
+I take up a
+problem of it
+three point bending the load is shifted
+to the right
+it's a simple problem where you can
+write the Shear force diagram and bend
+amount diagram do you know why you have
+drawn that
+don't tell me that you have drawn it to
+get grades in that course
+fine
+see the whole idea is when you want to
+design or select what should be the
+cross section of this beam I should find
+out where the bending moment is maximum
+so that I select a cross section which
+withstands the
+maximum load that the member is
+supposed to have
+experience
+when the actual loading takes place okay
+so that is why you are drawn it
+and from The Fringe patterns you know
+that this is uniformly distributed
+because you are now tuned to see that
+you have a constant color
+whereas in the case of a beam the color
+varies which we interpreted this as a
+triangular variation and we have also
+said that the distance between the
+fringes are
+constant
+for a given load okay
+and you also see that this truss goes to
+zero
+see there is a distribution here
+and obviously that distribution
+should satisfy the boundary condition I
+am applying a bending moment
+so this distribution
+when you find out it will also generate
+a bending moment but there is a
+variation over the depth of the cross
+section
+and this goes to 0 at the center that we
+have seen for the
+bending stress and we will also say that
+this solution is applicable even though
+in this beam in addition to bending I
+have a Shear that is transmitted by the
+beam
+definitely once we take up bending we
+will take up a discussion to find out
+what is the distribution of the shear
+stress or a cross section let us take a
+cross section Which is far away from the
+load application points now you know
+very well you have been exposed to what
+is assignment principle
+so if you work far away from it you know
+our visualization is very simple as what
+is the intended load
+is realizing that far away from the load
+application point that also makes our
+life simple
+from the background which we have
+developed so far you can answer at least
+what happens to the shear stress value
+at selected points that you can answer
+if not for the distribution
+I take a magnified view of this
+and I have the cross section shown
+and you can see very well here
+that
+whatever the boundary I have on the top
+and the bottom they are not loaded
+boundaries is idea clear
+and
+we have to know what is the variation of
+shear stress over this cross section
+which is not simple as constant or
+linear as what the bending stress is
+little more complicated
+that will postpone for a later
+discussion
+can I comment what happens on the top
+point and the bottom point
+with your background in
+concepts related to stress can I find
+out what happens just at the top point
+as well as the bottom point we will take
+the top point
+fine
+when I say the top point I show that as
+a
+Square block
+whose dimensions are zero
+and you know very well I have applied a
+shear stress I have applied a Shear
+Force
+fine I have applied Shear on this
+surface of the on this surface of the
+beam
+what happens at the top point is what we
+are going to investigate
+for the purpose of Investigation let us
+have that this has a shear stress like
+this
+in some form I am not looking at my
+mathematics will tell me the sign will
+not worry about the sign and things like
+that I have just taken on a positive
+surface positive direction is positive
+now the question is
+on the top surface
+for the point here
+can I have this shear stress
+I have given you a clue they are not
+loaded boundaries
+I have raised the question whether it's
+a free surface
+do I do anything with the surface on
+this I don't do so I this quantity has
+to go to zero
+so in a generic problem we simply say
+the plane as n you should qualify
+what is the plane in this case it turns
+out to be the Y plane but it can be
+anything because we are going to take
+certain examples where you have the
+boundaries are curved
+so I can't have this
+can you say anything about this shear
+stress
+because you have learned something about
+shear stress interrelationship
+you have learned Tau y x equal to Tau XY
+so if I cannot have a shear stress on
+this surface I cannot have the shear
+stress
+when I cannot have this I cannot have
+these stresses either
+so at this level of course development
+you can confidently say
+yes I am going to have a shear stress
+Distribution on the cross section
+it has to be 0 at the top Point
+extending the same logic it has to be 0
+at the bottom point in between what
+happens let us postpone it at least this
+I can confidently say from whatever we
+have developed or when you develop the
+distribution if this is violated then
+you can say there is something wrong in
+your calculation of the distribution
+either way you can look at it
+okay when I come to this point can I
+have the stress
+in their plane perpendicular to it
+can I have a stress component like this
+can I have or not
+see what is shown here is what is
+blinking is shear cannot cross a free
+boundary it's a very famous
+Axiom which you can use it and find out
+and simplify many of your boundary
+conditions
+okay that is why I put this as blinking
+it is not existing
+and this is like your electronic you
+cannot cross
+you should not cross was the requirement
+in ramayana what happened you know the
+story
+but here it cannot cross
+can I have this component of stress
+perpendicular to it on this point you
+have enough clue in this slide
+I've already said whatever this is
+developed for a
+beam under uniform bending
+there is no shear stress acting on it I
+said this solution is applicable to this
+problem as well which we call that as
+engineering analysis of beams now the
+question is I am looking at a point
+which is sitting on the surface
+it cannot have a shear stress even
+though I am applying a Shear Force
+the distribution has to be such it
+should start at zero but the resultant
+will match with the shear Force
+resultant has to match because the
+equilibrium should exist
+that should not be violated
+fine I am asking a question can I have a
+stress
+in this plane perpendicular to it tell
+me
+no
+why do you say no see this beam is
+transmitting Shear Force the beam is
+also transmitting bending moment
+when I look at this cross section I have
+a Shear Force magnitude I also have a
+bending moment magnitude
+from the shear Force perspective
+I will have Shear Force but the
+distribution should be searched it
+should be 0 at this point and it can
+have some variation later
+is the logic layer I have also drawn up
+this here it is 0 I have a distribution
+of normal stress but it is zero so when
+I say a distribution it can have 0 also
+as a value at a particular point there
+is no harm about that
+so when it has to transmit the bending
+moment we see here on the top surface it
+is actually maximum
+so when I sit on this as a free boundary
+Shear cannot cross a free boundary so
+shear stress cannot exist but I can
+still have a normal stress in a plane
+perpendicular to it
+see this point is same if it is
+temperature you have only one
+temperature whether this plane or that
+plane you have only one temperature it
+is a scalar
+when I come to a tensorial quantity you
+must filter it out and understand
+what can happen in different planes that
+is a subtlest aspect of stress
+whatever the tensor when we graduate
+from stress we will go to strain strain
+is also a tensor of rank two
+so what you can I am showing you
+evidence I have bending stress so it can
+have stress perpendicular to the surface
+you cannot have Shear crossing the
+boundary
+free boundary
+we have also seen for a simple case of
+axial tension is idea clear
+okay
+we will see this for many more examples
+and I am going to take up a problem of a
+plate with a hole see what you will have
+to look at is when I have a plate I am
+not sure whether you are able to see
+this can you see there is a very small
+hole here
+you can't even see that is that is a
+good thing because you know
+mathematically I can idealize this as an
+infinite plate with a very small hole
+for this you have closed form expression
+exist
+on the other hand when I take a problem
+where I have a hole like this the hole
+is perceptible
+what changes I am showing corresponds to
+this hole okay
+see you have a problem when I have
+played Without a hole you have uniform
+color
+every Point has same value of stress P
+by a
+the moment I put a hole
+you have a flowery pattern that gets
+developed not only that you have the
+fringes are also very high
+OK the fringes are also
+very high
+I will just stop this
+animation okay I have this here and you
+can see from the color code this is
+around this color in the region away
+from it but when close to the hole the
+colors are somewhere here okay so you
+have very high stress developed because
+of a hole in fact in earlier development
+of
+stress concentration people had
+celebrities had fist fights in the
+conferences mathematicians would come
+and say infinite plate with a small hole
+is infinite blade without a hole so
+nothing happens you can ignore the whole
+but whereas all the failures start from
+the hole okay and it took sufficient
+discussion to appreciate that presence
+of a whole
+introduces the concentration of stress
+which you can see very clearly I have
+the color code the color code Source
+says that it is very high number okay
+and this turns out to be three times the
+P by a for a infinite plate with a small
+hole if I have to go and solve that
+problem I should know how to
+specify the boundary condition on this
+inner boundary
+now let us see whether we can do that
+from what we have understood from this
+concepts of shear stress cannot cross a
+boundary can be extend it and understand
+and I have already said that you should
+understand Shear cannot cross a free
+boundary
+and I am showing it as an animation so
+you have t n equal to 0
+and
+these shears also go to zero
+so Shear cannot cross a boundary
+that does not imply everything is 0 on
+that surface
+it can support
+if
+stress perpendicular to the surface if
+the situation is like that we will also
+come to a situation where it cannot
+support it will also go to zero we will
+see that counter example also
+fine
+but in general you cannot say everything
+is zero when free surface if you say t x
+or TN equal to zero it's not everything
+is zero there
+substance are still exists
+when you say stress sensor still exist
+you have to look at different planes
+what is the quantity or what is the
+magnitude of
+suspect and all the possible infinite
+planes
+okay now I take the boundary and I have
+shown you this I am going to only pull
+this so what happens to this boundary
+you're not doing anything I'm not
+putting a I am putting a pin here to
+pull it
+but this surfaces not loaded
+okay so that means it's a
+it's a free boundary
+okay not loaded boundary
+so now I take up a small segment from
+this and I take up a point let us
+investigate what kind of stress State
+can exist at this point is idea clear
+I can take up a
+point and then I have shown this as a
+square of zero dimensions
+for argument's sake I take a shear
+stress on this
+can you tell me
+of these quantities
+which shear stress will go to Zero from
+the understanding see earlier we had
+seen straight boundaries now we have
+come to a curved boundary
+fine
+which surface is free I look at this
+surface
+not loaded boundary so this Shear cannot
+exist
+so this is the free boundary
+if this share cannot exist I cannot have
+this component of Shear by equal to a
+Crosshair
+so I cannot have the other two Shear
+stresses
+so Shear cannot cross a boundary
+I show that as a red blinking arrow that
+means it's not there but you have to
+understand the red signal it is not that
+is highlighted okay it's not that I have
+I will have only this shear stress
+component all other shares components
+are zero don't interpret it that way to
+emphasize the point that this is the
+free surface and this is not existing I
+have changed the color
+but in principle you can have this do
+you agree that I can have an axial pull
+now you know coordinate system is your
+choice whether you take a x y reference
+frame system or R Theta coordinate
+system
+if you want to simplify a problem
+depending on the geometry you select the
+coordinate system when I have a circular
+hole it is easier for me to define the
+circular boundary in polar coordinate
+system you agree with me
+so I have uh any generic point is
+specified by the distance R and this is
+your Theta
+can you specify what is the component of
+stress that you can label because now
+you know how to label it if you have a
+infinite assemble element there is
+infinite decimal element is taken from
+this point
+and in this coordinate system of R Theta
+how can I label these two stress
+quantities any guess
+first of all you should recognize that
+you can have a normal stress like this
+now you should label it in the earlier
+cases you labeled it as either Sigma y
+or Sigma X
+in this case how do I label it
+somebody yeah I'm hearing I'm louder
+router please you are right
+Sigma Theta Theta fine I can label it as
+Sigma Theta Theta
+now let me take up a point on this
+portion of the whole
+okay
+I take up a point
+you do the mental exercise make notes
+don't just listen I give you sufficient
+time to write down
+so in this which surface is free
+which surface is free
+okay I have this as free so I have this
+as t n equal to 0
+see the other Shear cannot exist
+so you have all the shear stress or
+extent
+and you have possibility of this normal
+stress because I have taken this as a r
+Theta coordinate system this can again
+be labeled as Sigma Theta Theta so on
+the boundary of the whole I can have
+Sigma Theta Theta
+I cannot have any shear stress in this
+coordinate system you will call the
+shear stresses Tau R Theta so that is
+the boundary condition that you have to
+specify
+to specify the boundary condition you
+have sufficient background but you do
+not have a background once the boundary
+condition is specified how to solve the
+problem
+that can be done only in the next level
+course
+fine because you need to develop
+semi-inverse method to do it
+let us take up another simple problem
+which we have looked at which we
+developed the
+stress magnitudes without even a great
+discussion on the displacements have you
+not done that it is simple P by a you
+just rotate it and then tie it and we
+also seen that this as
+the complete length of the
+hoop and we got the force as f t equal
+to prb and we got the stress as PR by T
+it's a very famous result now let me
+take up a point
+okay I take I take a point on this now
+how you have loaded this boundary
+you have loaded this boundary with the
+internal pressure
+and when you have internal pressure
+it's all radial to the surface there's
+nothing tangential to it suppose I take
+up a point and investigate can there be
+shear
+on this
+okay can there be Shear on this
+there is no Shear it's only axial force
+is supplied there okay radial force is
+applied on the surface
+fine
+but I can still have
+a normal stress
+and that is what you calculated
+you have this as a free boundary I would
+say that Shear is zero we have to
+investigate t n equal to zero we have to
+investigate t n equal to 0 may not be
+strictly correct because in many
+problems we ignore the
+radial stress ok but this there is no
+Shear on this boundary
+and Shear cannot cross that boundary
+because Shear is not there so it's Shear
+cannot cross
+but I can have a
+stress in this direction
+this is nothing but what you learned as
+hoop stress
+okay this is what you have learned it as
+hoop stress
+TN may not be 0 here Shear is not that
+that is a definite answer
+because when I consider even the
+pressure I will have a compressive
+load due to pressure acting on it okay
+you can correct the information in that
+light
+now let us take up
+another problem
+so you have this as PR by T and T R by T
+now I take up a problem where I do not
+have a circular boundary I have a
+generic curve so I can also look at a
+curve with normal and the tangential
+coordinate system
+OK and you have a luxury because you
+know normally when you load a member you
+can see only displacement
+because you have exposure to
+photolasticity which I have been showing
+in from class after class you are now in
+a position to see the stresses in
+beautiful colors
+okay
+and you are able to see that this is a
+trusty member you have an advantage it
+aids your visualization
+now I take up a
+portion here
+okay this is a generic one which shows
+that Shear cannot cross a free boundary
+and but in general it can have a axial
+stress that is the message there
+now I take up a portion from this
+I take up a portion this is a concave
+portion I will take a convex so to
+remove the mental block we graduated
+from straight lines to circles now to
+non-circular Geometry
+even here if I take up a point like this
+you have enough information to specify
+what can happen on that surface
+suppose I take a
+element from here of zero dimensions
+this is your free surface because
+there's nothing no force acting on this
+okay
+so this Shear has to go to zero
+so you have all the other quantities go
+to zero
+but it can support
+a normal stress
+so this will be labeled in the
+coordinate system I can have Sigma n n
+and sigma t t okay so this will be
+tangential to this
+so likewise you can label the stress now
+I take a convex portion
+I take a convex portion here again I can
+repeat the same exercise I take a point
+and then I look at what happens on this
+and which surface is free you have this
+surface is free
+okay
+and the shear cannot exist so other
+shears also cannot exist but it can
+support a
+stress component in a plane
+perpendicular to it
+which is normal to that it can exist in
+principle in this problem also it can
+exist because you see the colors
+okay
+now let us take up a very special point
+I have a simple tension specific but it
+has a projection and what is important
+here is this is a very sharp corner
+it is very it's pointed Edge it's like a
+knife edge
+if it is not a knife edge you cannot
+develop the logic it's not you don't
+have a fillet there
+now let us take up a point there
+now let us look at what kind of trust
+State can exist at this short corner
+so I take up the point as B I look at
+the surface a b and you know very well
+now
+by looking at the physics of the problem
+it is not a loaded boundary
+and if I take an element like this
+which is of zero dimension
+this Shear cannot exist
+so that is T N equal to 0
+so I can't have this shear and all other
+quantities go to zero
+but in principle it can have an axial
+stress like this if I take any point on
+this and then I come to the edge here
+do I have any material Point next to
+this to exercise this
+so this cannot exist so this also cannot
+exist
+now let us investigate what happens to
+point B by looking at surface c b
+here again I take a hypothetical shear
+stress for us to investigate
+this Shear cannot exist
+and in principle it can have a normal
+stress
+and if I extend beyond c b
+I do not have a material point to
+provide this so This goes to 0
+this also goes to 0
+it gives a very interesting result
+that stress tensor on a free corner is
+zero
+we have seen on a free surface trust
+factor is zero when stress Vector is
+zero it is not necessary stress tensor
+is zero I can still have some component
+of
+stresses acting on different planes but
+the moment I come to a free outward
+corner
+from the basis of the argument that I
+have put forth you get a very
+interesting result if stress tensor is
+zero definitely stress factor is zero
+that is a uh they go together however
+vice versa is not always true
+what we have seen is trust and Sir at
+every free outward corner is zero see
+these are also free outward Corners
+which is labeled in the next slide
+we'll go to the next one
+you know I have taken this up because we
+have looked at what is the sign in on
+principle and that concept you should
+understand
+if I have a resultant force is same and
+if I see when this Force application
+becomes
+uniform that takes at different
+distances
+if I make my load application more and
+more equivalent to the distribution I
+want
+the distribution becomes uniform earlier
+than the other case but if you look at
+here I have these Corners are black and
+what do you see black in this color code
+black starts at zero and we have also
+looked at when I say a fringe order it
+only indicates Sigma 1 minus Sigma 2.
+it does not say Sigma 1 or Sigma 2. so
+when I have this
+I will have Sigma 1 minus Sigma t equal
+to 0 it only implies Sigma 1 equal to
+Sigma 2
+and in this specific case when I am
+looking at the free outward corner
+individually these magnitudes are also
+zero this is an indirect check
+for you to verify your experiment
+also when you want to model this problem
+numerically your numerical analysis
+should give these values as zero it's a
+very powerful
+at a very simple concept people ignore
+it
+and what happens near the holes too
+complicated
+see in this course we are worrying about
+what happens away from the point of
+loading
+because I have shown you the experiment
+you also see a very complex play of
+stress magnitudes near the hole you see
+different levels of stress concentration
+unless you go to numerical analysis or
+an experimental analysis you cannot
+handle it fine
+so like I have this see these are also
+three corners these are also free
+Corners all these three corners
+whether you do it by analytical approach
+mathematic mathematical approach
+experimental approach or numerical
+approach you have to get the stress tons
+are as zero this is one of the indirect
+checks
+the same thing you know you can see in a
+cantilever beam I have a cantilever beam
+I have applied the load here can you
+draw the
+Shear force and bending one diagram for
+this this is fixed end here you have a
+cantilever the cantilever is protruding
+up to this I am applying a load in
+between
+because I want to bring it your idea
+if you don't load it you will have
+everything as zero you should also
+understand that you know what is the
+shear force diagram and bendemon diagram
+for this
+can you draw and verify it with what I
+have in my slide
+I suppose you understand the problem I
+have a cantilever beam I have a load
+applied in between not at the free Edge
+so when I draw the bending Mount and
+Shear force diagram I would definitely
+show that this zone is zero there is no
+load at all
+and which is also verified in your
+photoelastic results I get this Zone as
+completely black
+and the corner is merging with the
+background the background light is zero
+the corner is very difficult to see and
+we have seen on a free outward corner
+stress tensor is zero
+and from your understanding of Shear
+force and bending on diagram nothing
+should exist here
+okay that is also you are getting the
+clarity
+see the same concept I am trying to
+illustrate through graded examples so
+that you will appreciate the concept
+better
+now let me take up the another problem I
+do not know how many of you have
+noticed it when I shown we have also
+taken a perceptive beam I said if you
+take a shaft
+you need to have steps but in this
+course we will simply take it as a
+slender member of uniform cross section
+we will make our life simple even that
+is back breaking when I have to find out
+what is the distribution of shear stress
+but you can't avoid you have to have
+steps
+I have a free outward corner now you
+know what should happen in the free
+outward corner
+tensor is zero stress factor is also
+zero
+stress factor is 0 on this surface
+but especially at the corner you have a
+very special situation
+stress tensor is zero
+and we have also noted
+the idea of saying is principle
+away from this disturbance this is
+horizontal this is also horizontal and
+that differs depending on the width okay
+so you are also learning more of
+engineering not just stress analysis not
+just concepts related to stress
+now I take up another very interesting
+problem see this is a very complicated
+element which is available in all your
+load cells the very common spring
+element used in load cells
+and I have so many corners one two three
+four five six seven eight all these
+Corners you have to get that as zero
+this is shown as an experiment are you
+not seeing all those Corners have black
+color the experiment is well conducted
+suppose I analyze the problem
+numerically and plot photonastic Fringe
+pattern I should also get these as
+stress stunts are being zero if
+substance R is not zeroed the corners
+something wrong in your boundary
+conditions
+okay
+okay now I have taken up a problem like
+this suppose I don't have a projection
+like this I have a
+situation where this is
+opposite this is called as a re and
+Trend corner you make a wild guess
+because we have learned concepts related
+to stress we know what happens on a free
+surface
+we know what happens on a outward corner
+and is it a loaded boundary here
+it's not a lot about it so it's still a
+free surface
+we have learned what happens at this
+outward corner
+can you guess what could happen in a
+re-entrant corner can I say it is zero
+you can't say it as zero if you
+recognize that I'm happy
+because when one place you say zero
+other place also should be zero
+I have a material Point here and
+mathematically this goes to singular
+values but physically it reaches a
+plasticity and I don't have a fringe
+patterns for this V group my students
+will work it out and then we will show
+it and
+some class later I have a limiting case
+when it becomes a crack and you know
+very well from photo accessory when I
+see more and more dense fringes what
+happens
+it means stresses are very high
+so don't jump to conclusion this is 0
+here
+I see a free surface I have a corner
+that is also zero you should learn the
+subject thoroughly
+so whenever I have a cutout
+whenever I have a crack they are all
+stress racers
+so stress tense are at every free
+outward corner is zero
+such as a singular in a re-entrant
+corner so you have to be very careful
+when I come to the re-entered corners
+and that is a very important learning
+that you get and you have a whole course
+of fracture mechanics deals with that
+it's a very important concept
+fine
+you know this is a recapitulation so I'm
+going to go quickly we have already seen
+if I take a thin
+section and if you want to find out what
+is the stresses developed we have seen
+that this has a hoop stress
+okay I am not going to spend time on it
+because my interest is to complete this
+problem because we have taken this
+problem which is close dense and you
+know Saint vincible I will not worry
+about how this is close how this is
+closed I'll stay away from the ends okay
+now the interest is what happens
+in the
+longitudinal direction or the axial
+Direction the way that I have drawn
+so I am going to take this and I am
+going to cut this
+separated into two
+and you will have a force interaction I
+on the complete circumference I
+represent it as a arrow I can find out
+the resultant
+fine
+and that resultant can be equated to
+what is the pressure acting on which
+area pressure is acting on the complete
+area okay so if I do the force
+equilibrium
+I have the force FL which is a resultant
+of this that is equal to P Pi R square
+and if I divide it by the
+circumferential area
+2 pi T I will get this longitudinal
+stress as PR by 2T
+it's a very famous problem we have
+already seen what is happening on the
+circumferential Direction
+okay
+because suppose I take the
+axis as Z Direction and the radius as
+radius denoting the circle
+and Theta in the other direction I can
+take the element I put this as Z
+Direction I put this as Theta Direction
+I put the
+hoop stress that is PR by T
+and I have this as PR by 2T
+and I have the stress tensor written
+down like this
+can you investigate what happens to i1
+and I I2
+you can very clearly say i1 and I2 are
+non-zero
+so this is a true case of a biaxial
+stress
+and to develop the stress components
+have we done any circles we are not done
+any circus
+it is so simple the problem taken is
+straightforward with the knowledge of
+your rigid body mechanics we have been
+able to get these quantities can I also
+draw the motorcycle
+can you draw the more Circle for this
+and do you know your Coca-Cola can is
+made of what material
+it's made of aluminum aluminum is a
+ductile material isn't it and we have
+all along seen that ductile material
+fails by shear
+suppose whatever you have learned now
+can I take this as a maximum shear and
+design my
+Coca-Cola can
+yeah I get the answer I want I want
+somebody to say yes
+it's a trap I have put a trap and they
+have got caught into the Trap
+it's a very it's a pure biaxial problem
+and both the principal sensors are
+positive
+when you graduate you want zero now one
+after several zeros that's your salary
+so now the zero is a nuisance value
+I will have to find out this and say
+when I want to design this I have to
+look at what is the role of the sigma 3
+playing
+and I have to find out the maximum shear
+stress it is actually twice this value
+how many of you have traveled in an
+aircraft
+oh very good many of you because now you
+have uh buddhaan scheme so people have
+connected all the cities
+how many of you recognized that is the
+pressure vessel
+do you know that it's a pressure result
+because this pressure is otherwise you
+cannot breathe
+and you have nice windows on the
+aircraft will you sit in an aircraft is
+completely closed from such analysis
+point of view it should be completely
+closed and then only you have to travel
+nobody will step into the aircraft and
+you want to have a nice window fine
+and if you really look at
+the one of the first jet aircraft was
+the comet aircraft that had a huge
+window for people to enjoy even clean
+bacteria have traveled in that aircraft
+because it's a Prestige to travel in the
+aircraft that was a jet airplane
+and it was permitted in UK it was never
+allowed to fly in U.S because the U.S
+dgca said thus openings are not designed
+properly that is the problem for
+that could cause potentially a failure
+in fact the cab the aircraft has to be
+withdrawn because of that issue now you
+have a very small window which is also
+curved so any opening that you have
+either in your buildings or your
+aircraft which is a pressure vessel
+you have to design those openings
+properly and this is a very nice example
+if you simply say maximum shear stress
+Theory and then investigate the failure
+you can burn your fingers
+fine
+so you have to be very cautious okay
+then I'll say because you know I'll take
+few more minutes and then show you a
+very interesting application okay I can
+have pressure vessel generated by
+various ways okay this is all
+interesting problems that you can solve
+this is a nice problem where you have to
+apply concept of stress transformation
+to decide its strength I can also have a
+pressure vessel made of filaments which
+is very light we will look at that ok
+and when you want to have a
+pressure vessel which is of light
+weight I can have the fibers oriented
+one of the questions here is what should
+be the orientation of the fiber
+see you know when I have a stress
+applied I have PR by T in the tangential
+Direction and PR by two t perpended to
+that
+so PR by T is larger or TR by two t is
+larger
+so I should have the fiber oriented
+towards the vertical axis that is what
+is shown here so from that point of view
+it is fine you will also do a tutorial
+problem to find out what is the optimal
+angle so that the fibers take the
+similar load and that angle find I mean
+comes out to be 55 degrees
+okay
+please note all this
+it's very important for our discussion
+and if you go and look at a tile see
+tire is a very complicated design don't
+think just a tire
+fine and we have a tire Technology
+Center in IIT address and people do a
+lot of research and it's all rubber
+material is very difficult to handle
+this also has
+fibers oriented at 55 degrees like this
+cross place that is how the tire is
+constructed okay so you find that this
+is a very useful application
+fine
+and the volume of the cylinder is
+maximum and Alpha is 50 degrees
+see we normally think that humans are
+very smart we have the Sixth Sense
+okay and then we rule all the planet
+but let us look at what happens to a
+worm that is below the sea how it has a
+locomotion
+you see The Locomotion simulated here
+it bulges out stretches it doesn't have
+legs like you it cannot go from one
+place to another place by moving the
+legs
+and you see very clearly here it bulges
+out
+and then moves this is how the
+Locomotion takes place
+very interesting see understanding The
+Locomotion of all these organism is a
+very important research
+and it is so interesting
+the skin of this worm is a cylinder
+comprised of helical fibers wound in two
+sets left and right handed
+much before your composite cylinder is
+developed Nature has created this warm
+it has also taught the worm how to
+navigate in the sea and it is very
+interesting in the relaxed State the
+Helix angle tends to be 55 degrees
+fine see you all have done conic section
+fine let us go and see the relationship
+you can find out the volume of the
+cylinder
+I can make this as an unwrapped one and
+then draw the distances I can find out
+what is the volume of the cylinder in
+terms of the angle Theta and also the
+geometry quantities H equal to l cos
+Theta r equal to l sine Theta by 2 pi
+and the volume of cylinder comes out to
+be pi r squared h
+and if I
+substitute I can also get it in terms of
+theta my interest is to show
+at 55 degrees
+at 55 degrees it has a maximum volume
+see the worm has a fluid in it it is in
+a relaxed State at 50 degrees
+when it has to move only it has to
+accept
+and the fiber angle changes
+so you calculate as part of the tutorial
+you will also calculate that as 50
+degrees fine you think that you are
+doing it in 2022 such a great learning
+you find
+whatever the learning that you find we
+are still training behind what Nature
+has beautifully done
+in a simple form doesn't have the kind
+of brain that you and I have
+isn't it and its Locomotion is dictated
+by this surprisingly it has helical
+fibers which are
+the angles changes depending on what is
+the way it's if when it touches the
+angle reduces and so on
+so in this class we have looked at
+certain subtle concepts related to
+concepts of stress
+these are needed for
+finding out what are the boundary
+conditions on a given problem because
+all the problems you have in such
+analysis are boundary value problems so
+it will also help you to graduate to the
+next level course comfortably with this
+knowledge
+and we have also looked at the problem
+of
+pressurized cylinder which is a very
+common application whether you took a
+look at your
+homemade cooker
+pressure cooker
+that is a pressure muscle if you have
+the cylinder for your gas it is the
+pressure muscle so pressure results are
+very common you have to deal with that
+if you want to have your scent that is
+also pressurized
+so there are many many applications and
+you find in that both the principal
+stresses are positive
+and you have to be very careful about
+Sigma 3 being 0 using that only you
+should find out the maximum stress so
+whether it is a local maximum or Global
+maximum in the shear stress value
+becomes very important in that day to
+day problem
+it is not an exotic problem somewhere in
+your space structure some structure has
+a difficult situation where you will
+have to apply your Ultra Modern Theory
+not like that
+even day to day structures you have to
+understand the concepts clearly and
+apply them thank you
+[Music]

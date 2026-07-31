@@ -1,0 +1,1033 @@
+[Music]
+digital India educated India
+[Music]
+see we have developed the concept of
+stress tensor
+we started with P by a then graduated to
+a stress factor
+then we also said I need to find out
+what is the stress factor acting on all
+the possible infinite blades
+then we came up with the concept of
+stress tensor
+and we essentially looked at the various
+components Sigma x x Sigma YY Sigma is
+easy Tau XY so on and so forth
+now we will also have to develop how to
+check for the equilibrium once we know
+these quantities
+so we move on from our
+basic appreciation of what we have done
+in rigid body mechanics
+so you all know that Newton's law
+provides the basis for equilibrium
+equations
+and when you say rigid body why we took
+in that course was
+it was a simplest one to analyze when
+you want to start any problem solving
+so we have looked at rigid body as
+system of infinitely many particles with
+fixed distances between them no matter
+what load you apply
+there is no deformation
+so we start from
+equilibrium of particle it's all done in
+a rigid body mechanics before we get
+into deformable solids it is better to
+have a re-look at that so that you will
+have a Clarity So when you say a
+particle is an equilibrium
+it's simple and straightforward
+you say
+resultant force acting on it should be
+zero
+and when you develop anything in
+mathematical sense
+you will also have to look at whether it
+is necessary and sufficient
+get the point
+it is not necessary that I have a
+condition the condition should be both
+necessary and sufficient
+so for the particle in equilibrium when
+you say resultant force is zero
+is it
+necessary or sufficient or both
+tell me you have all done that
+it is both necessary and sufficient for
+a particle for a single particle I am
+not looking at collection of particles
+fine
+can moment act on a particle you cannot
+have moment acting on the particle
+so the condition is both necessary and
+sufficient for a particle now we
+graduate to System of particles
+when I go to System of particles
+you have to write the necessary
+condition
+you will also have to write the
+sufficient conditions
+what are the necessary conditions
+here it can also support a moment so I
+will have F equal to 0 and m equal to 0.
+a system of particles can also support a
+moment
+and what becomes sufficient
+every conceivable subsystem if I look at
+if f equals 0 m equal to 0 is satisfied
+then it is sufficient
+fine that means I must take arbitrarily
+different subsystems
+investigate
+in practice Nobody Does that you all do
+it for the overall system and then say
+that equilibrium conditions are
+satisfied
+let us now look at what happens in a
+rigid body
+in a rigid body if I have F equal to 0 m
+equal to 0 that itself is both necessary
+and sufficient
+because we've already noted
+the particles are fixed
+the distance between them are fixed
+nothing happens to them
+but in practice
+you know
+you don't have a single rigid body you
+will always have a collection of rigid
+bodies
+you can't have a gadget even a simple
+cutting player if you have I have two
+elements connected
+and you know in my previous if you look
+at the engineering mechanics you have
+this crimping tool and I also cautioned
+this acts like a double lever don't even
+for play put your finger in the job
+even if a small Force it's a very high
+magnification
+and you know in YouTube you will find
+people Rescue the Animals in the Western
+World it will get caught in the wire
+mesh they'll have a crimping tool and
+won't cut it
+metallic wear they can easily cut that
+and this is a system of
+individual elements connected together
+we analyze it as rigid body
+so F equal to zero m equal to zero
+should work for the complete system as a
+whole it should also satisfy for
+every conceivable subsystem in this you
+know you can dismember them and you can
+easily have a look at it
+now if before we proceed into deformable
+solids
+I want you to have an anticipation
+we are bringing in
+deformation that means distance between
+the particles
+are changing as a function of the load
+in what form do you expect the
+equilibrium conditions
+are they simple algebraic equations or
+trigonometric equations
+or exponential equations or differential
+equations
+think about it we will also see we are
+going to develop them because when we
+develop the conditions we want to look
+at whether they are
+necessary as well as sufficient
+fine
+so now we take the
+three dimensional body
+when we develop all these concept will
+satisfy ourselves that
+the concepts are valid for a
+three-dimensional body
+and what I do here is
+I take a cube out of the
+three-dimensional body this has finite
+Dimensions very small Delta X Delta Y
+and Delta C
+what you have to recognize is when I go
+from negative explain to positive
+explain
+the quantities
+vary as a function of the distance
+is idea clear
+while we develop the concept of stress
+Vector followed by stress factor on any
+arbitrary plane we took out a
+tetrahedron
+but We Shrunk that to zero
+here we are not going to sink it to zero
+because we are going to investigate the
+equilibrium conditions we have
+definitely taken a
+infinitesimal element of size Delta X
+Delta Y and Delta Z
+see many books jump steps and then put
+what happens on this surface what
+happens on this surface but we will
+investigate it little more so that you
+have Clarity on applying the mathematics
+systematically
+fine
+so what I am going to show is
+let us start from a
+negative phase on the negative phase let
+me say that I have
+quantity and this is varying on the X
+Direction
+for Simplicity we will also look at it
+varies in the y direction
+will postpone the Z variation for the
+time B
+fine
+so can I take on this surface
+what is the
+force that is acting
+to get the force we only know what is
+the stress component acting
+if I put the stress component correctly
+multiplied by the area I get the force
+fine
+now what I am saying is on this surface
+let us say that I have the
+stress component as Sigma x x
+that's fair enough because it is next
+negative x axis and the negative
+direction is positive
+so I have put the for the stress
+Direction correctly
+now you have to tell me what happens at
+a distance Delta X
+you all all have studied Taylor's
+approximation can you write
+what is it that you will anticipate at a
+distance Delta X away
+approximation
+you all know you have studied in your
+mathematics course
+and write it in Taylor's approximation
+and check what I have in my slide
+so I can do that as Sigma X Plus dou
+Sigma x x divided by dou X into Delta X
+that's fair enough no problem
+now I move by a distance Delta y see
+what I'm saying is we will consider that
+this remained constant will that
+distance Delta Z
+to illustrate the point
+fine
+what way would I write on this
+it has moved by a distance Delta by
+and we find that these are all functions
+of x y and z
+so I can write
+this as Sigma X Plus dou Sigma x divided
+by dou by Delta y
+see when we normally say the normal
+stress
+many times we may not say Sigma x x
+even Sigma X is sufficient enough so it
+will be
+interchangeably used
+okay
+so this is fair enough
+suppose I come to this
+can you write the Taylor's approximation
+from first principle
+see Engineers will always knock off
+terms that are very small
+write it like a mathematician now
+here itself we have truncated the
+tailored series the first term we have
+not written the tireless approximation
+completely
+can you write what is it that you will
+anticipate in this
+I have this this has varied by distance
+Delta y
+so I can write it as Sigma X Plus dou
+Sigma x s divided by dou X until TI x
+and dou by dou y of Sigma X S Plus
+is the idea clear
+we have already said I have taken an
+infinitesimal element
+Delta X is small
+and if I have product of smaller
+quantities will be much smaller so we
+will use that advantage and simplify
+this expression
+okay
+I can write this simply as Sigma X S
+Plus dou Sigma x s divided by dou X
+Delta X Plus dou Sigma X dou Y Delta Y
+in fact you will not find this kind of a
+discussion in any of the books that you
+have access to
+okay this is normally glossed over
+now what I'll do is on this surface I'll
+replace it by a
+stress component at the center by taking
+the average of this that's an
+approximation that we can always make
+similarly I will do this
+and let us see what we get
+so I have this as average of these two
+so I get this quantity
+Sigma X Plus 1 by 2 dou Sigma X Plus dou
+Y into Delta by
+and this reduces to Sigma X S Plus dou
+Sigma x s Delta
+do is Sigma X by dou X into Delta X plus
+1 by 2 dou Sigma x s dou by Delta by
+see this can be written in a much
+convenient fashion
+which is what is normally represented in
+many of the books even to start with
+I can knock off this one by two term on
+both sides I can simply write when the
+quantity is varying along the X
+Direction
+represent this as a stress component
+acting at the center of the element
+on this face of this element
+as Sigma x x I am looking at variation
+in X Direction put this as Sigma X X
+Plus dou Sigma x dou x into Delta X
+on this basis you can write all the
+other quantities
+when I am going along the X Direction
+what happens going along the y direction
+what happens going along the Z Direction
+what happens
+here I have illustrated by taking Sigma
+X Source varying in X and Y Direction
+fine even if you take x y z Direction
+ultimately you can simplify that
+in a form like this
+so this is the first thing that we need
+to know how do you represent the
+components on the negative and positive
+phases
+because there is a change the value does
+not remain constant in a generic problem
+when you take a a simple tension
+specimen it's going to remain constant
+that's a special case
+we are now discussing a generic
+situation
+so following this
+we would write and then evaluate what is
+Sigma f x equal to zero
+and while I do this I will write only
+components that will contribute to this
+equation on each of the faces
+and you all know if any of the shear
+stress component which has the second
+subscript as X that is what is going to
+cause
+okay
+so now what I am going to do is
+I have written down the force
+and while writing this I have already
+cautioned you we follow the convention
+to write initially
+but when I sum it up I look at the
+coordinate system if it is pointing
+towards the negative Direction I will
+have minus Sigma x s multiplied by the
+area I have Delta Z
+into Delta y that gives me the force
+and on this face I have this as Sigma XX
+plus dou Sigma XX divided by dou X into
+Delta X multiplied by the area Delta Z
+Delta y
+it's very simple what you have done in
+rigid body mechanics same thing you are
+going to do but when you want to find
+out the forces acting on these different
+faces you need to start from the stress
+component multiplied by the appropriate
+area
+now we look at the component that will
+cause
+Force equilibrium in the X Direction so
+I have on the negative phase Tau y x
+which is written using the convention
+this varies in the y direction
+so when it varies in the y direction if
+I use Taylor's approximation
+systematically
+this can be simply reduced to Tau Y X
+Plus dou Tau y x divided by dou Y into
+Delta y
+if you understand this rest of this is
+straight forward no difficulty at all
+now I can also
+find out the
+quantities related to force so I have
+minus Tau y x Delta X Delta Z that is
+the area
+plus Tau Y X Plus dou Tau Y X dou Y
+Delta Y into Delta X Delta C
+so we need to have what is the component
+acting on the
+other phase which will contribute to
+equilibrium along the X Direction
+so I have uh Tau ZX on the negative face
+on the positive phase
+Z is varying so I put this as Tau Z X
+Plus dou Tau z x dou z
+into Delta Z is the idea clear
+is there any difficulty at this stage
+once you have written this you can
+always write the force
+so we will write the force minus Tau z x
+into Delta X Delta y that is the area
+and I have Tau Z X Plus dou Tau z x
+divided by dou Z into Delta Z
+the area is Delta X Delta y
+have we accounted for all the forces
+acting on the system
+yes or no
+ah body Force we have not written it
+down because I said initially in order
+to make the diagram simple we will not
+confuse with more this one so we have to
+take care of the body first
+Let the Body force be written as capital
+X
+this acts on
+volume element so I'll have to multiply
+it by the volume that is Delta X Delta
+by Delta c equal to 0. can you simplify
+this
+can you simplify please simplify and
+verify what I have in my screen
+I get a nice equation
+in which form
+because I raised before we start start
+this what way do you anticipate the
+equilibrium condition because it should
+be both necessary and sufficient
+so I get this as a nice differential
+equation
+fine
+because I have infinitely many systems
+possible when I have collection of
+particles
+when I am looking at a deformable solid
+the differential equations take care of
+that so I get the equilibrium condition
+along the X direction as
+dou Sigma XX by dou X
+plus dou Tau y x by dou y
+plus dou Tau z x by dou Z
+Plus
+the body force x equal to zero
+now I can repeat the same thing for
+CE equals them in the y direction
+Force equilibrium in the Z Direction
+you can even write it cyclically
+fine but we'll go step by step
+at least at a faster pace
+fine so I want to do Sigma f i equal to
+0
+so I put what happens on the Y plane so
+I have Sigma YY
+and sigma YY plus dou Sigma over by dou
+Y into Delta y you should understand how
+we have got this
+we have to look at
+we are varying on which direction
+and write that earlier approximation
+comfortably
+so I can write the relevant forces for
+summation that is given in the screen
+and we will do it on the other faces so
+I have Tau x y and Tau XY plus dou Tau
+of X by dou X into Delta X
+and here the area becomes
+Delta Y into Delta Z
+so I can write the Force equilibrium in
+the y direction
+in fact you can do it yourself keep
+doing it yourself
+and we'll also have to
+take the body Force
+and when I have the body Force
+I get the final expression
+in a simplistic form like this I have
+this as dou Tau XY by dou X
+plus dou Sigma YY by dou y
+plus dou Tau zy by dou Z
+plus the body Force y equal to 0.
+even before writing this if you look at
+the cyclical form of writing you can
+write for the Z Direction
+but nevertheless we will have a look at
+the
+forces individually
+will develop what is FC equal to 0
+we start from the Z Direction
+and we have Sigma z z on the negative
+Z plane
+and I have this as Sigma Z Z Plus dou
+Sigma is Easy by dou Z into Delta C
+I can find out the forces
+multiplied by the area Delta by Delta X
+and similarly account for the
+Shear stresses acting on the relevant
+faces fine
+so I will have
+Tau y z
+is now taken up
+Tau y z varies as Tau y z plus dou Tau y
+z by dou Y into Delta y
+this you should be able to write
+from understanding
+that is why I am going slow I am not
+going in a hurry but for Force summation
+you all know once you write this fourth
+summation is straightforward
+there is no difficulty at all
+and here the area is Delta X into Delta
+Z that's what you have it here
+so similarly I write Tau x z
+on the negative X plane
+and Tau X Z Plus dou Tau x z divided by
+dou X into Delta I positive explained I
+can write the relevant forces
+and as before I'll also have to account
+for the body Force
+okay when I put the body Force as
+capital z
+and
+multiplied by the volume of the element
+Delta X Delta by Delta Z
+when I simplify
+I get this expression as
+dou Tau x z divided by dou X
+plus dou Tau y z divided by dou y
+dou Sigma Z by dou Z
+plus capital Z denoting the body Force
+per unit volume
+equal to zero
+so I can summarize this
+in a single slide
+so I get essentially
+differential equations governing the
+force equilibrium
+from the discussion that every
+conceivable system has to be verified it
+is implicitly accommodated in a
+differential equation so if I satisfy
+these differential equations the force
+equilibrium is
+both necessary and sufficient there is
+nothing more that you need to do if you
+solve a problem if it satisfies the
+equilibrium conditions you are happy
+with it
+say in rigid body mechanics we have
+looked at Force equilibrium we have also
+looked at moment equilibrium
+let us look at what way the moment
+equilibrium equations are
+and here all the components are part and
+what we are going to do is you have to
+take moment about any convenient point
+we will take a point
+which is at the center of the element
+we'll take a point p
+so now what we are going to look at is
+we will first find out what is the
+moment about the Z Direction
+I have to make m z equal to 0
+and
+from your understanding of engineering
+mechanics you can find out which of the
+stress components will contribute to
+moment in the Z Direction
+if there is any component which is
+passing through the point the axis is
+passing through the point
+it's not going to cause a moment
+fine that understanding you have
+so we will only
+flicker those
+components that will contribute a moment
+in the Z Direction you agree with me
+what components are flashed
+I I have Tau XY
+Tau y x
+flashed on the positive and all the
+access okay and now you know how to
+write them on the negative plane and the
+positive plane
+so you have to write the quantities
+correctly so I have Tau XY
+and because it has a finite Dimension
+Delta X
+you will have Tau XY Plus
+dot of X Y by dou X into Delta X this
+chain should never forget
+because I am taking a small element with
+sizes Delta X Delta Y and Delta Z
+so when I look at the negative plane and
+the positive plane the quantities will
+vary as a function of distance
+so on similar lines I can also write
+what is Tau y x
+and
+this is Tau Y X Plus dou Tau y x by dou
+Y into Delta y
+so you should know where to put
+dou by dou y if I have to put dou by dou
+X
+okay so that comes from the appreciation
+of what we have discussed earlier
+so I can write the forces
+I can find out the moment what is the
+moment term this is the force I have the
+stress component multiplied by the area
+what is the momentum
+for Tau of X Y
+it is simply Delta X by 2
+fine
+and I have the other one as top x y
+Delta by Delta Z Delta X by 2
+. so similarly I write it for the
+y x components
+minus Tau y x Delta X Delta Z
+and I have this as Delta y by 2
+and I have this as
+minus Tau Y X Plus dou Tau y x by dou y
+Delta by multiplied by the area and the
+momentum is Delta y by 2 that goes to 0.
+can you simplify this expression
+when you simplify this expression I get
+a very very famous result
+what we find is
+whatever the shear stress acting on this
+surface which we call it as Tau X Y is
+identically equal to Tau y x we call
+this as equality of cross shares
+in fact we use this result
+while we develop the stress factor on an
+arbitrary plane when he wanted to write
+the cauchies formula
+we have
+written it in a matrix notation where
+this was helpful
+the moment you see
+if you find out the moment about the Z
+Direction gives me Tau x y equal to Tau
+y x you can extrapolate if I do it for X
+Direction y direction I will get all the
+other Shear components
+the equality of class shares will exist
+when I reverse this subscripts they
+remain identical so we'll go one by one
+but at a little faster pace
+so I want to write what is Sigma m x
+equal to zero
+and I have taken the point at the center
+what are the components
+of the stress that will
+induce moment in the X Direction
+we will flash that first
+okay so I have this so this is nothing
+but
+Tau
+can you tell me what is this
+can you tell me what is this
+ah Tau y z see that
+appreciation is important you don't have
+to remember
+you don't have to remember but you
+should understand and interpret the
+subscripts appropriately
+so on the negative plane this Tau y z on
+the positive plane
+okay I started from Tau Z why no that
+doesn't matter
+so on the positive plane
+it will be dou Tau z y plus dou Tau z y
+by dou Z into Delta Z
+when I write it for Tau y z
+I go from Tau y z to
+Tau y z plus dou Tau y z by dou Y into
+Delta y
+if you have Clarity writing this is
+Child's Play
+but if you memorize
+you will mess it up no memory is
+required clear understanding is what is
+required
+then we again do the
+evaluation of force then the momentum
+and our job is done the momentum here is
+Delta y by 2
+and I have this as Delta y by 2
+for Tau z y
+it reduces to Delta Z by 2.
+so I get this and I also
+simplify this expression
+this gives me Tau y z equal to Tau z y
+X
+so naturally when I am going to look at
+what is going to happen in y direction
+m y equal to 0 if I want to sum up
+I will have the identity Tau X is equal
+to Tau
+ZX so I have m y equal to 0
+so look at the components that are going
+to
+cause a moment in this x Direction
+y direction we are looking at the Y
+Direction
+and you have this as Tau x z i move
+along the X so it will be Tau X Z Plus
+dou Tau x z by dou X into Delta X
+to drive home this understanding I am
+going slow and also repeating the
+expressions
+if you understand the concept
+you don't have to memorize
+so similarly I write what happens on the
+negative Z plane
+Tau z x
+and the positive Z plane Tau Z X Plus
+dou Tau z x by dou Z into Delta C
+and we can quickly go through this
+summation
+and
+when I do this
+we are going to get the result
+Tau
+x z equal to Tau z x
+or Tau z x equal to X whichever way you
+write it
+fine
+and now we will summarize what are the
+force and moment equilibrium
+for a deformable solid
+so I have the force equation like this
+they are differential equations
+and the moment equilibrium throws me
+that that is equality of cross shears
+exist and this is a very famous result
+because of this equality of crosshairs
+my stress tensor becomes
+symmetric
+okay a large variety of problems in the
+engineering domain stress tensor is
+symmetric only a very small cases
+when I go to plasticity
+or when I have the solid in a very
+strong electric or magnetic fields
+you will find the equality of Crosshair
+does not exist you also have a couple
+stress Vector like stress Vector we have
+looked at we'll also have a couple
+stress vector
+you rarely come across even in your
+Advanced Studies unless you take up
+special research in those areas where
+stress tensor is not symmetric you can
+comfortably live in the drama enough
+just tensor being symmetric
+okay now we will look at some of the
+application of what we have learned to
+simple problems
+okay we have looked at three dimensional
+one and again I say that you have a
+pictorial representation of stress
+and when I take this
+you have to appreciate
+this is not a finite Square it's a
+representing what happens at a point of
+Interest it Dimensions go to zero
+fine it's only a representation it's a
+pictorial representation
+and the tensorial representation is this
+many times you know
+you will have a uniaxial analysis
+that's what we have looked at when you
+have a simple member intention
+we have done a uniaxial stress
+fine
+you know this is a tensorial
+representation and I again ask a
+question can you guess graphical
+representation we'll postpone the
+discussion uh to the next class
+fine
+and what we want to know is
+we also need to know how to
+transform from one difference axis to
+another reference axis you all know how
+does a vector transform
+no difficulty at all
+okay so I have a coordinate system x y
+I have
+another coordinate system X Prime y
+Prime which is atom angle Theta
+suppose I take an arbitrary point on
+this I can relate how X Prime
+is related to X and Y and how y Prime is
+related to X and one can you write that
+just you all know you've done it
+humpteen times
+so you can write these Expressions X
+Prime is nothing but
+X cos theta plus y sine Theta
+and Y Prime is nothing but
+minus X sine theta plus y cos Theta
+I can also write this expression
+as a
+Matrix notation
+I can put this x Prime y Prime as a
+vector
+and I can put these quantities
+appropriately as a matrix so I want to
+go from X Y to X Prime y Prime and what
+I need this here
+is a matrix
+this Matrix is known as a rotation
+Matrix
+cos Theta sine Theta minus sine Theta
+cos Theta
+and you should know how to write this
+not by memory but by making a sketch
+like this and quickly finding out where
+you will put minus this confusion comes
+whether it is minus sine Theta or plus
+sine Theta
+so if you know how to write it
+you can easily transform a vector
+but transformation of stress components
+is little involved I have two subscripts
+I have the account for
+how these subscripts have to be handled
+so we will develop this in stages we
+will first find out the stress vector
+from the stress factor in one reference
+axis we will transform the suspector to
+the another reference axis and in the
+process we would have accommodated both
+the subscripts
+fine okay
+so the idea is
+we have the reference axis x y and I
+have stress tensor refer to x y axis
+we will label that as Sigma X as Tau XY
+Tau of X Y
+Sigma y look at here I have brought in
+the equality across here
+whichever way I write it does not matter
+in this kind of development
+we will also develop transformation law
+from multiple perspectives
+you can do it by many different ways
+and what I want is my demand is
+I want to get the stress tensor referred
+to access X Prime and Y Prime
+what is the meaning of it
+I actually want Sigma X Prime X Prime
+Tau X Prime y Prime
+and sigma y Prime y Prime
+it's not like a vectorial transformation
+fine so I have to look at what is the X
+Prime plane on the X Prime plane the
+normal stress component is Sigma X Prime
+X Prime
+okay
+let us see how we go about doing it so I
+have to find out the stress Vector first
+I have the plane denoted by the outward
+normal
+and we have developed the cauchies
+formula if I know the stress Vector if I
+know the direction cosine of an
+arbitrary plane
+can I find out the suspector
+I can find out the stress factor on
+plane X Prime so I will have the cap as
+X Prime
+okay so I want to get the stress vector
+I have shown the plane for your
+understanding
+I have to get this trust Vector TX Prime
+which is also denoted here
+what is the cautious formula
+I have to multiply the stress tensor by
+the direction cosine the direction is
+very clear here cos Theta and sine Theta
+so I can find out
+the stress
+Vector components that is t x Prime X
+that is X component of it and t x Prime
+y a
+simply as stress tensor multiplied by
+the direction cosines the direction
+concerns for this axis is
+cos Theta and sine Theta
+so I have determined the
+stress vector
+on the plane X Prime
+is the idea clear
+once I have a vector I can go back to my
+vectorial transformation and transform
+it to the
+new coordinate system
+fine
+that is we want to get t x Prime X Prime
+that is what we want to get
+so we want to get this so when I write
+it in expanded form I get t x Prime x
+equal to Sigma X as cos Theta plus Tau
+XY sine Theta and I get this as t x
+Prime y equal to Tau XY cos theta plus
+Sigma YY sine Theta so I have determined
+the
+stress Vector on the plane X Prime
+there is no difficulty we have just
+applied the cauchy swarna which we
+developed in the previous class
+now I have to transform this
+to the reference access explain y Prime
+so you should understand
+what is t x Prime X and what is t x
+Prime X Prime
+is idea clear you should understand how
+we evolve
+now I have a vector
+given in the reference axis x y
+I want to transform this Vector to X
+Prime y Prime axis it is a simple
+vectorial transformation
+how is it achieved you use a rotation
+Matrix either idea clear
+and you already know what is the
+rotation Matrix we have seen it
+so I want to get
+t x Prime X Prime from t x Prime X so
+that I have to put a rotation Matrix
+here I have cos Theta sine Theta minus
+sine Theta cos Theta
+multiplied by t x Prime
+X
+and t x Prime y
+so when I do the actual multiplication
+let us see what happens
+this can be expanded
+and we have the
+t x Prime x t x Prime y we have seen it
+in the last class
+last slide that's what I meant okay
+and I have this when I multiply it I get
+t x Prime X Prime
+is nothing but Sigma X Prime X Prime
+that's what you have to interpret
+so Sigma X Prime X Prime
+I get this as Sigma x s cos Square Theta
+plus Sigma y by sine Square Theta
+plus 2 Tau XY sine Theta cos Theta
+so the
+tensorial transformation is little
+involved
+when I have this you cannot simply
+multiply only cos Theta sine Theta and
+be done with it
+you have to appreciate you have to
+graduate to t x Prime X from t x Prime X
+you have to find out t x Prime X Prime
+that symbolism you should appreciate
+only t x Prime X Prime is Sigma X Prime
+X Prime fine so that subtlety you have
+to keep in mind
+so I can also get t x Prime y Prime
+that is Tau X Prime y Prime
+I get this as Sigma YY sine Theta cos
+Theta
+minus Sigma x x sine Theta cos Theta
+plus Tau XY cos Square Theta minus sine
+Square Theta this can be further
+simplified
+so is the idea clear you are learned
+from a vectorial transformation to
+tensorial transformation
+and all tensors will have the same
+transformation law we are also going to
+develop strain tensor
+well we will not spend time on the
+transformation law we borrow whatever we
+have learned for stress directly to
+strain
+okay
+this can also be written down in a
+different form
+that is how in advanced studies people
+write it
+I want to get from Sigma x x Tau XY of X
+Y Sigma y by
+2 Sigma X Prime X Prime Tau X Prime y
+Prime and sigma y Prime y Prime
+and it's also usually represented the
+complete Matrix is represented as simply
+a Tau Matrix
+okay
+so it is cos Theta sine Theta minus sine
+Theta cos Theta Tau cos Theta minus sine
+Theta sine Theta cos Theta
+so I can write this Tau Prime as a
+transpose Tau a this is a form you will
+see repeatedly in higher studies
+in various forms and you know books do
+not discuss transformation law in this
+perspective
+okay but this is the most convenient way
+of doing it
+also other simpler ways
+that will take it up in the classes to
+come
+so in this lecture we have looked at
+from our understanding of
+equilibrium conditions for a particle
+collection of particles rigid body
+an articulated rigid bodies to
+deformable solids
+and in the deformable solids we got the
+force equilibrium as differential
+equations
+and the moment equilibrium gave a very
+important result it said Tau x y equal
+to Tau y x we also said that it is
+known as equality of cross shears which
+we use it repeatedly in our
+simplifications this makes the stress
+tense of symmetric
+then we also learned
+how to transform a vector
+from X Y coordinates to X Prime y Prime
+coordinate system
+from that we also developed how to
+transform a tensor
+refer to XY coordinate system to X Prime
+y Prime coordinate system
+that was arbitrary so that means once
+you know the transformation law for any
+coordinate system the same
+transformation law can be used thank you
+[Music]
+foreign

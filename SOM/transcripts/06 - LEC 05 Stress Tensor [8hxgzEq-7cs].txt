@@ -1,0 +1,668 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on
+concepts related to stress
+and in the last class we said that we
+want to find out what happens in an
+arbitrary plane so we took out a Tetra
+hidden from the
+three-dimensional model
+in the limit that Tetra hidden was
+shrunk to zero
+you already know how to write
+the forces acting on the sides of the
+tetrahedron you know the stress
+component
+and you can find out what is the force
+and X Direction by simply multiplying by
+the area
+and when we come to the negative
+explain you have the stressor sigma xx
+and the area is written as a n x
+we did this and got the final expression
+in one fashion
+but in the last class I also wrote the
+final expression in a different manner
+not all of you have noticed it
+now let us read this expression we got
+this as t n x equal to Sigma x x n x
+plus Tau y x n y
+plus Tau z x n z
+like this we determine it for all the
+three directions
+but when I summarized it I wrote it in a
+different fashion
+I am happy that at least one student
+noticed it
+what I had written is t n x equal to
+Sigma x x n x plus Tau X Y and Y instead
+of Tau y x
+similarly I have put this Tau x z and Z
+instead of Tau ZX
+writing it in this manner helps me to
+write it as a matrix notation
+I do it on the strength that Tau x y
+equal to Tau y x which we will prove you
+have to wait for a class
+that principle is known as equality of
+cross shears
+fine because you know the concepts
+related to stress or you know you have
+to go back and forth to understand it
+fully
+so using the equality of cross shares
+the equations are Rewritten in this
+fashion
+which is convenient for me to write it
+in a matrix notation
+and what we said was even though my
+interest is to find out stress factor on
+any arbitrary plane
+what is fundamental at the point of
+interest is is a matrix of
+3 by 3 which I also said
+it is representing stress tensor and the
+rank of this tensor is to
+here again to emphasize that I am able
+to write this using the principle
+equality of crochets which we will prove
+in the next class
+and what is important is you know when I
+have this we are always interested in
+looking at the stress factor as a
+composition of abnormal stress and a
+shear stress because later on when you
+go and look at theories of failure some
+theories use the normal stress as a
+criteria to judge
+theories related to duck pale materials
+wants to find out what is a shear stress
+so we need to know how to find out these
+quantities I can find out the normal
+stress as simply a DOT product of t n
+Dot N
+and when I do this I get this as n x t n
+x plus n by T and Y and N is at T and z
+which you can also write it down in long
+hand
+I will also show it because you know
+what is t n x t and Y and T and z
+so when I multiply by this
+I get a very nice expression
+the normal stress is related to Sigma x
+s n x square plus Sigma YY and Y squared
+plus Sigma is easy and Z squared plus 2
+Tau XY and x n y plus 2 Tau y z n y n z
+plus 2 Tau ZX n z n x
+now if I want to find out the shear
+stress
+it's easy for you to write
+the shear stress on the plane n is
+nothing but square root of
+t squared n minus Sigma squared
+and this is the basic expression and you
+can coin a variety of problems at a
+point of interest you will know what is
+the stress tensor
+and for any given arbitrary plane you
+would be in a position to find out the
+stress Vector once you find out the
+stress factor on that plane you can find
+out the normal stress or the shear
+stress
+you can also have class of problems
+wherein
+I want to find out the orientation of
+the plane that means I want to find out
+what is the direction cosines n x n y
+and z
+in a manner that on a plane you have
+only normal stress
+so you can have two
+category of problems
+for a plane find out the stress Vector
+using the stress sensor
+or by dictating what should be the
+stress Vector on the plane determine the
+plane
+you have both these class of problems
+and you should be quite comfortable when
+handling these equations
+you know you can have equally inclined
+plane that's very important from further
+studies that is also part of a tutorial
+problem fine
+and now we will restrict ourselves to
+two dimensions
+and the moment I go to two Dimension I
+have a pictorial representation
+I want to show what is the explain
+I want to show what is the Y plane
+I want to write what are the stress
+components acting on it
+and what you should keep in mind is this
+is only a representation
+of what happens in
+mutually perpendicular planes it is not
+a rectangle or square taken out from the
+model
+it has zero Dimensions so this is a
+pictorial representation of state of
+stress at a point
+and when I write it in two Dimension
+this is a tensorial representation of
+what is the state of stress at the point
+see in those days people were very very
+comfortable with graphical
+representations
+and can you think of
+what kind of a graphical representation
+that we can do
+in fact if you look at the history
+people have tried various kinds of
+graphical representation
+you have koshy stress quadric you have
+Lannister salypsoid later you also have
+what is known as a more Circle
+we will get on the mouse Circle later
+because you will also appreciate
+the Elegance in that
+now let us go back to our simple axial
+tension problem and understand
+what is normal stress
+in little more detail
+fine
+so we have taken a point p and then we
+have also looked at the cross section
+is taken as a
+and we have simply said the stress at
+this point is
+P by a
+but PBA appeared like a scalar and so P
+by a here I have put the force as F so
+it is f by a
+my suggestion is always try to represent
+the stress as a tensorial quantity how
+do I write for this
+I have determined from my mathematics
+from a simple appreciation of what
+happens to a member subjected to tension
+I have
+determine the stress as F by a
+if I go back with the reference access
+actually this corresponds to what
+happens in the Y plane
+there is no stress in the explain so I
+can write this as a tensorial notation
+as Sigma equal to zero zero zero f by a
+is the idea clear
+and we will also look at another
+interesting simple problem
+you know you have a punching operation
+in many of the manufacturing people do
+it by punching
+and this is again a very interesting
+problem
+where I have a punch which pierces and I
+get a
+disc like this
+and I now Define the area as the
+complete perimeter surface of this
+so I have a punch I can find out what is
+the force that I have applied to pierce
+this
+so I can also find out what is the kind
+of stress happening on this surface it
+is actually
+shearing
+fine
+and because the problem is simple
+straightforward we can also determine
+the magnitude of shear stress as
+whatever is the force F and whatever is
+the
+area of the perimeter I can also say
+this as F by a
+but this F by a where would I put it in
+the tensorial notation
+in this case f by a what we have
+calculated is only representing the
+shear
+can you write that we have I already
+looked at how to write a tensorial
+representation we have written it in a
+form
+so I have Tau x y and Tau y x so
+the tensorial representation of state of
+stress at any point on this
+nothing bad what I have this as a matrix
+see
+Shear was difficult people have not had
+that idea to start with so there is a
+scientist a parent
+he introduced it in 1713
+and coulomb developed these ideas
+extensively further
+so right now what we'll do is we'll go
+back to this
+simple tension
+we'll understand it little more
+it looks very simple
+I have the stressed answer now
+you know that you only just pulled
+now I said by stress tensor we have the
+information of totality of suspectives
+acting all the possible infinite planes
+now I have this Matrix populated with
+zero only one element is non-zero
+but for the same problem if I look at
+from a different plane of reference
+if I look at a different plane passing
+through the point of Interest I can have
+a normal stress as well as a shear
+stress
+though visibly you are not applying a
+shear stress on the object
+but when I look at a plane of Interest
+so that is what is neither when you want
+to understand why a chalk fails when I
+apply an axial tension when I apply a
+torque in different manner
+fine
+now we have already looked at the
+Expressions so we have the
+Direction cosine for an arbitrary plane
+when I represent this as Theta I can
+write it as cos Theta I plus sine Theta
+J
+so I can find out the stress factor on
+any plane we have expression for finding
+out the normal stress as well as shear
+stress let us look at the quantities one
+by one
+I have the famous coaches formula
+t n equal to Sigma in t n
+so I get
+t n x
+when I have this multiplied by the
+direction cosine goes to zero
+and T and y equal to F by a sine Theta
+we will also subsequently see
+what is the expression for normal stress
+and what is the expression for shear
+stress
+and we would like to see
+a graphical representation
+there are multiple graphical
+representation
+we would like to see the stress factor
+its sine Theta and I suppose you know
+how the polar plot is done for any value
+of theta put it
+when it is positive in One Direction
+negative in another Direction
+and you have the expression
+and when I plot this I have a beautiful
+plot like this
+is idea clear
+this is one graphical representation
+more than this trust Factor
+from failure point of view we are
+interested in the normal and Shear
+stresses
+so we will go and then see
+what is the expression for the normal
+stress you know you have t n x t and Y
+is determined when you take the dot
+product you get the normal stress can
+you calculate what is the normal Stress
+For This you can check with me later
+please calculate the normal stress
+acting on any arbitrary plane
+straightforward
+so when I get the normal stress
+the dot product gives me normal stresses
+F by a sine squared theta
+and suppose I want to do it as a polar
+plot
+the polar plot will appear like this
+see the problem what we have taken is a
+very simple one
+of simple tension
+but I have a beautiful plot
+the pattern is photogenic isn't it
+and you also get some interesting
+features of it what is the maximum value
+suppose I put this as 1 and this as 0
+it goes from
+when sine Theta is 0 you get this as 0
+When sin Theta is 90 I get this as F by
+a so it goes from
+0 to F by a maximum
+and we can also write the shear stress
+shear stress diagram is much more
+interesting to see
+okay
+can you get the expression for shear
+stress because you have the expression
+for stress vector
+you have the expression for normal
+stress we have seen Tau 1 is nothing but
+square root of
+that T N squared minus Sigma n Square
+so if you do that
+I get an expression which is very simple
+I think by the time I show the slide you
+should have your Expressions they are
+very simple
+trigonometric simplifications
+I get that as
+F by a sine Theta into cos Theta
+and in order to see this variation I am
+not bringing in a scale here
+okay
+we will compare these two in the next
+stage
+let me plot this
+when I plot this this has a beautiful
+expression like this
+so what do you think immediately once
+you see a shape like this does it look
+like a butterfly
+they are very nice to see now see for
+the
+environmental sustainability they say
+butterflies are needed
+fine
+so what I want to tell you is
+when you look at the expression when you
+want to do a polar plot I get beautiful
+plots
+there is definitely Beauty attached to
+this nature loves beautiful patterns
+but from your point of it it's very
+difficult for you to plot and gather the
+information
+now what we'll do is
+we will understand this comprehensively
+in a single diagram
+a simple tension
+here again I have to caution you one
+more thing when I showed you this
+photolastic Fringe pattern I have said
+it is away from the loading points how
+many of you noticed it I do not know
+now I have also shown it pictorially
+here
+so we have to worry about what happens
+near the load application points
+because when somebody gives me an object
+to apply tension I can have only an
+object like this put a hole and then I
+have a provision for me to
+hold it like this
+and then put the pin and then pull it
+this is how I can do it
+fine
+but my intention is across this cross
+section I should have a uniform
+stretching
+but physically when you go you can only
+do like this probably you can improve it
+further by having multiple holes
+instead of one hole you go with a
+two holes
+so that you make it little more uniform
+or you go with three holes you make it
+further uniform or you also have another
+system wherein what I have is I have
+this I suppose you are able to see the
+color maybe I will put this it has a
+different contrast background what I
+have is I have
+multiple holes I have about five holes
+fine so you can try to have your fixers
+designed in such a manner that I can
+go closer to uniform pulling of the
+number
+we would also see the details later
+now our focus is what happens away from
+the
+load application points
+only for the region away from the low
+application points I show you the photo
+elastic fringes this is again a
+graphical representation
+for various nodes that's what you are
+seeing it but what you are plotting here
+is for a given load what is the
+variation of normal and shear stress
+now I am going to put it in the
+same
+graph
+I have the normal stress expression as F
+by a sine Square Theta
+I have the
+normal stress
+plotted like this
+so this goes from 0 to F by a
+and you have various points put here and
+then you also have
+the associated plane that is also
+animated
+and if you want to see again you can
+have a look at it
+because now you can associate this with
+the
+particular plane
+say a simple tension can throw you
+surprises like this so in those planes
+whatever the representation of stress
+sensor what you have written will not
+have zeros in all the places it can be
+populated also
+fine
+and what is the expression for shear
+stress I have this as F by a sin Theta
+cos Theta
+and what is the maximum value this it
+can go
+only sine 45 and cos 45 I get this as F
+by a by
+the maximum will be one half of what is
+seen in the normal stress
+and this is plot a the graph is
+reasonably good but it should be still
+smaller than this
+but it gives an impression that normal
+stresses of larger magnitude and shear
+stress maximum is one half of it
+and this graph also can give you
+additional information
+one information difficult to get see
+only when you see these graphs
+the beauty is very good
+but what I extract from this
+certain ideas are difficult to see
+what only when you appreciate this when
+you go for a simpler representation you
+can fully appreciate the beauty of
+that kind of a graphical representation
+here I can see what happens on a plane
+what is the magnitude of normal as well
+as shear stress
+so from the plot I can find out
+I can have a plane where I will have
+only normal stress where the shear is
+zero
+that is evident from this if you are
+able to recognize fine
+suppose I go to a maximum shear stress
+I have maximum shear stress that plane
+also has a normal stress it is not zero
+you do not have a situation
+where
+I have only shear stress in any one of
+the planes
+but what we find interesting is
+because the way that we have applied the
+load that is one thing but we find you
+have two such planes where
+I have only normal stress there is no
+shear stress at all
+so these two observations you can make
+out of this
+okay
+now what we will do is we will go back
+and then in reinvestigate
+what is it that we have found out when I
+have a single hole
+you are all now well trained to look at
+Fringe patterns
+and what you have here is
+the full specimen is shown here you have
+a single hole you have two holes
+and then you have three holes
+and a blown up of this is shown in this
+and if you look at very carefully
+I have shown what where the loads are
+applied
+the figure is reasonably
+geometrically drawn
+can you find out what is equivalent in
+these three specimens I have shown the
+length of the arrow indicates the
+magnitude of the load
+can you just
+look at that statically is there
+anything that you get out of it
+suppose I find the resultant of this you
+know I have the two holes specimen
+and you have this
+forces shown I have three forces shown
+can you find out this from the geometry
+you are not able to see that
+I am applying the same load
+I am just putting it by one force
+I have divided the force into half I
+apply it at two different points divided
+the force into
+3 and I have applied it the resultant
+remains same
+and what you see here I also have this
+horizontal line spot
+and you find near the holes you have
+beautiful
+Fringe pattern scene
+and they all die down here
+we have always seen when I apply a
+simple tension
+in the region away from the loading
+point uniform color
+and what you see in this is I see the
+uniform color only after this line when
+I apply a single load
+when I apply two loads I see it after
+this
+and as I go nearer nearer that I apply a
+uniform loading
+fine what I find is
+The Fringe pattern Becomes of uniform
+color earlier than the previous case
+and this is embedded in a nice principle
+where goes with the name saint vinant
+okay in fact he developed this concept
+in the context of bending stress
+see bending stress you have to apply a
+triangular variation
+when you have a model you can only go
+and apply a bending moment like this
+you can't apply a triangular variation
+by any other Gadget so the principle is
+as long as the load applied is
+statically equivalent
+after some distance from the load
+application point
+whatever the distribution that you are
+conjecturing is achieved
+this is a very very useful principle we
+will repeatedly use it in
+solid mechanics in fact none other books
+give you a pictorial representation in a
+matter that is represented here
+okay
+see the idea used to have
+a uniform
+pull is what we want
+and what you find is by the way that you
+apply the load
+there are local disturbances and these
+local restaurants has died down after a
+distance
+fine
+and this goes by the principle called
+same minance principle
+what I have is I have a single hole I
+have a double hole and I apply
+statically equivalent for system
+the requirement is apply
+statically equivalent for system
+is a very nice
+mathematical
+Advantage when you want to solve a
+problem from a mathematical perspective
+so as long as you apply a statically
+equivalent system
+you can conjecture the similar
+distribution is achieved at distances
+away and this distance can reduce if I
+make my
+application of the force system closer
+to what is intended for it's a very
+powerful tool none of the books really
+give you any practical demonstration
+like what you have from photoelasticity
+here
+at this stage of development of the
+course so you have the advantage I
+suppose you appreciate the utility of
+staying in responsible many times we'll
+simply say sign we're not principle
+because
+with the development of mathematics at
+this stage is too difficult to
+comprehend what is happening near the
+load application points unless you go to
+your numerical or experimental analysis
+there is no way you can find out the
+forces
+okay one thing you can notice in all
+these problems these Corners always
+remained black that's a very very
+important clue
+notice this I will discuss about it in a
+later class so in this class we have
+looked at further development on the
+concept of state of stress
+and we have particularly focused on the
+simple problem of axial tension
+even a simple axial tension if I look at
+different planes
+some of the planes can have both normal
+and shear stress
+and we had done one type of graphical
+plotting polar plot is what we have
+looked at the polar plant the
+representation was beautiful
+nature really loves beautiful patterns
+but to call out information that we want
+it's little difficult for you to do that
+and what we noticed was you can identify
+two planes in which the normal stress
+alone can exist
+but when I have maximum Shear you always
+have some amount of normal stress thank
+you
+[Music]
+foreign

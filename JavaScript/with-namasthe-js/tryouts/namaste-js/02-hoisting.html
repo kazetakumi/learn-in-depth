@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hoisting</title>
+<style>
+  :root {
+    --paper: #fbfaf6;
+    --ink: #2b2620;
+    --accent: #355070;
+    --rule: #ddd7c8;
+    --code-bg: #f3f0e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #1b1a17; --ink: #e8e3d8; --accent: #8fb4d9; --rule: #3a362d; --code-bg: #242119; }
+  }
+  :root[data-theme="dark"] { --paper: #1b1a17; --ink: #e8e3d8; --accent: #8fb4d9; --rule: #3a362d; --code-bg: #242119; }
+  :root[data-theme="light"] { --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --rule: #ddd7c8; --code-bg: #f3f0e8; }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 8rem;
+    line-height: 1.7;
+    font-size: 1.18rem;
+  }
+  h1 { font-size: 1.85rem; line-height: 1.25; margin-bottom: 0.3rem; }
+  .kicker { color: var(--accent); font-style: italic; margin: 0 0 3rem; }
+  h2 { font-size: 1.35rem; margin-top: 3.2rem; }
+  p { margin: 1.1rem 0; }
+  code { font-family: 'SF Mono', Menlo, Consolas, monospace; font-size: 0.92em; background: var(--code-bg); padding: 0.1em 0.35em; border-radius: 3px; }
+  pre {
+    background: var(--code-bg);
+    padding: 1.1rem 1.3rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    line-height: 1.5;
+    font-size: 0.95rem;
+  }
+  pre code { background: none; padding: 0; }
+  a { color: var(--accent); }
+  .aside {
+    border-left: 3px solid var(--rule);
+    padding-left: 1.1rem;
+    margin: 1.6rem 0;
+    color: var(--ink);
+    opacity: 0.82;
+    font-size: 1.02rem;
+  }
+  .predict { margin: 1.4rem 0; }
+  summary { cursor: pointer; color: var(--accent); font-weight: 600; padding: 0.5rem 0; }
+  details {
+    border-left: 3px solid var(--accent);
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    margin: 1.2rem 0 1.8rem;
+  }
+  details[open] summary { margin-bottom: 0.6rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.95rem; }
+  td, th { border: 1px solid var(--rule); padding: 0.4rem 0.7rem; text-align: left; }
+  th { background: var(--code-bg); }
+  hr { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  .nav { display: flex; justify-content: space-between; margin-top: 3rem; font-size: 1rem; }
+  .signature { text-align: center; color: var(--accent); font-style: italic; margin-top: 4rem; }
+</style>
+</head>
+<body>
+
+<p class="kicker">Namaste JavaScript · Crux 2 of 9</p>
+<h1>Hoisting</h1>
+
+<p>Last time you built the actual mechanism: JS creates every execution context in two passes — a memory-creation phase that reserves a slot for every <code>var</code> and function <em>in that context</em>, then a code-execution phase that runs your lines and fills those slots in for real. You don't need that story re-told. What you need now is its name, and the two traps hiding inside it that catch almost everyone — including, very often, the interviewer's favorite question.</p>
+
+<p>The name first, because you'll want it: this whole phenomenon — being able to touch a variable or function before its line has run — is called <strong>hoisting</strong>. Not because JS physically moves your code to the top of the file, which is the explanation you'll hear most often and the one you should never give in an interview. Nothing moves. The memory was simply reserved before any line ran, full stop — hoisting is just the name for the visible effect of that.</p>
+
+<hr>
+
+<h2>Trap 1 — undefined is not the same as absent</h2>
+
+<p>You already know <code>console.log(x)</code> before <code>var x = 7</code> prints <code>undefined</code>, because phase 1 reserved a slot for <code>x</code>. Now the sharper question:</p>
+
+<pre><code>console.log(y);</code></pre>
+
+<p>— where <code>y</code> was never declared <em>anywhere</em> in the file. Not above, not below. It simply doesn't exist in your program at all.</p>
+
+<div class="predict">
+<details>
+<summary>Same result — undefined? Or something else?</summary>
+<p><code>Uncaught ReferenceError: y is not defined.</code> A hard error, not a graceful placeholder.</p>
+</details>
+</div>
+
+<p>This is the distinction almost everyone blurs, and it falls straight out of what you already know about phase 1. Phase 1 only reserves a slot for names it actually finds while scanning the context — a <code>var</code> statement, a function declaration. <code>y</code> was never declared, so phase 1 never touched it — there's no slot to look up, so JS has nothing to hand back but an error.</p>
+
+<table>
+<tr><th></th><th><code>undefined</code></th><th><code>not defined</code></th></tr>
+<tr><td>meaning</td><td>a slot exists, holding the placeholder</td><td>no slot exists at all</td></tr>
+<tr><td>caused by</td><td>phase 1 reserved it, phase 2 hasn't assigned it yet</td><td>the name was never declared anywhere accessible</td></tr>
+<tr><td>result</td><td>a real value you can check against</td><td>a thrown <code>ReferenceError</code></td></tr>
+</table>
+
+<p><code>undefined</code> is also not "empty" or "nothing" the way you might assume — it's a genuine value, occupying a genuine slot, that you can test for directly:</p>
+
+<pre><code>if (a === undefined) {
+  console.log("a is undefined");
+}</code></pre>
+
+<p>It behaves like this because JS is <strong>loosely typed</strong> — a variable's slot isn't committed to holding any particular kind of value. The same slot can hold <code>undefined</code>, then a number, then a string, one after another, with no complaint. <code>undefined</code> is simply whichever value happens to be sitting there before you've assigned anything else.</p>
+
+<div class="aside">You <em>can</em> write <code>a = undefined</code> yourself — JS won't stop you. But don't. <code>undefined</code> means "JavaScript put this here because nothing else has been assigned yet." If you assign it by hand, you've destroyed that signal — now you can't tell whether a slot is genuinely untouched or whether someone deliberately blanked it. Let JS own that value; you own everything else.</div>
+
+<hr>
+
+<h2>Trap 2 — not all functions hoist the same way</h2>
+
+<p>Back in crux 1 you saw this work with no error at all:</p>
+
+<pre><code>getName();
+
+function getName() {
+  console.log("Namaste JavaScript");
+}</code></pre>
+
+<p>Now change exactly one thing — write the same function as an expression instead:</p>
+
+<pre><code>getName();
+
+var getName = function () {
+  console.log("Namaste JavaScript");
+};</code></pre>
+
+<div class="predict">
+<details>
+<summary>Predict it. It's still "the same function," right?</summary>
+<p><code>Uncaught TypeError: getName is not a function.</code></p>
+<p>Not a <code>ReferenceError</code> — JS clearly found <em>something</em> named <code>getName</code>. It just wasn't a function yet.</p>
+</details>
+</div>
+
+<p>Here's why, and it's a direct replay of the rule you already own: phase 1 doesn't look at what's on the <em>right</em> side of <code>=</code> to decide how to treat a name — it looks at <em>how the name was introduced</em>.</p>
+
+<ul>
+<li><code>function getName() {...}</code> is a <strong>function declaration</strong>. Phase 1 recognizes the whole shape and copies the entire function body into the slot immediately.</li>
+<li><code>var getName = function () {...}</code> is a <strong>variable</strong>, full stop, that happens to be assigned a function value on the right. To phase 1, this is indistinguishable from <code>var getName = 7</code>. It reserves <code>getName</code> and fills it with <code>undefined</code> — same as any other <code>var</code>. The function body only gets attached when phase 2 actually runs that assignment line.</li>
+</ul>
+
+<p>So <code>getName()</code> on line 1, before phase 2 has reached the assignment, is really trying to call <code>undefined()</code> — and calling something that isn't a function is exactly what <code>TypeError</code> means. Arrow functions assigned to a variable hoist identically, for the same reason — <code>var getName = () => {...}</code> is still just a variable assignment to phase 1:</p>
+
+<pre><code>getName(); // TypeError: getName is not a function
+
+var getName = () => {
+  console.log("Namaste JavaScript");
+};</code></pre>
+
+<div class="aside">File this one away rather than resolving it now: <code>let getName = function() {...}</code> hoists the identifier too — but touching it before its line runs doesn't give you <code>undefined</code> at all. It throws a different error, immediately, for a reason that needs its own lesson — it's called the <strong>temporal dead zone</strong>, and it's crux 4.</div>
+
+<hr>
+
+<h2>Your turn</h2>
+
+<p>One snippet, both traps. Predict every line, top to bottom, before opening the reveal — and predict what actually gets printed to the console, not just what each line "would do" in isolation.</p>
+
+<pre><code>console.log(a);
+console.log(sayHi);
+console.log(sayBye);
+sayBye();
+
+var a = 5;
+
+function sayHi() {
+  console.log("hi");
+}
+
+var sayBye = function () {
+  console.log("bye");
+};
+
+console.log(b);</code></pre>
+
+<details>
+<summary>Reveal</summary>
+<p><code>console.log(a)</code> → <code>undefined</code> — <code>a</code> is a <code>var</code>; phase 1 reserved it, phase 2 hasn't reached <code>var a = 5</code> yet.</p>
+<p><code>console.log(sayHi)</code> → the whole function, printed directly. It's a declaration, so phase 1 copied its entire body in — nothing left to wait for.</p>
+<p><code>console.log(sayBye)</code> → <code>undefined</code>. <code>sayBye</code> is a <code>var</code> that happens to be assigned a function expression; phase 1 treats it exactly like <code>var sayBye = 7</code> and reserves only the identifier.</p>
+<p><code>sayBye()</code> → <code>Uncaught TypeError: sayBye is not a function</code>. That slot still holds <code>undefined</code> at this point in the program — you're calling <code>undefined()</code>. This is trap 2, firing exactly where you can watch it.</p>
+<p>And that's it. The <code>TypeError</code> is uncaught, so the script halts right there — <code>console.log(b)</code> on the last line never runs, and it doesn't matter that <code>b</code> was never declared either. You don't even get to find out it would have been a <code>ReferenceError</code>. Once one uncaught error fires anywhere in a script, everything after it — regardless of what it was going to do — is simply never reached. That's worth remembering for its own sake: an interviewer stacking multiple "gotcha" lines after a line that throws is often testing whether you know the later lines are already irrelevant.</p>
+</details>
+
+<hr>
+
+<h2>Where this leaves you</h2>
+
+<p>Hoisting was never a rule to memorize — it's what the two-phase execution context looks like from the outside, for two different kinds of things: variables get a slot and a placeholder, function declarations get a slot and their whole body, and anything written as an assignment (<code>var x = function(){}</code>, <code>var x = () => {}</code>) is a variable first and a function second, with all of a variable's hoisting quirks attached. Next time an interviewer asks "what is hoisting," you now have the real answer instead of the folk one — and you can predict the <code>TypeError</code> trap before you've even run the code.</p>
+
+<p class="signature">Namaste 🙏 JavaScript.</p>
+
+<div class="nav">
+  <a href="index.html">← back to the ladder</a>
+  <span></span>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1251 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on
+deflection
+in fact I have circulated a problem
+sheet the idea is if you have gone
+through what is a problem statement then
+you can easily follow
+the solution procedure that we are going
+to discuss today
+and you know in the previous class
+we have looked at
+how to get the deflection
+including the shear deformation if you
+look at the moment curvature
+relationship derivation
+it was confined only to the bending
+moment
+and a beam you analyze like this you
+call the sir as a Burnley beam and then
+you are happy with it
+the moment we started the energy
+approach
+it provided a via media where I could
+include the effect of Shear deformation
+in fact the last class we got the
+deflection at the
+load application point
+of a cantilever
+as plq by 3ei that you get from
+integrated in the moment curvature
+relation also
+in addition you have an extra term 6pl
+by 5ag
+see when you look at this as an
+expression you don't get the feel what
+is the relative magnitude of these
+displacements so it is worthwhile to
+take up a numbers for this and I have
+also taken a beam which has a length of
+100 centimeters
+and your hatch is
+comparable to the link
+it is 40 millimeters
+fine
+and B is 20 millimeter and Es is 210 GPA
+and GS is when you say 210 GPA you say
+that it is for steel so that is why it
+is put a GS
+suffixes spot and when you substitute
+this let us look at the
+deflection
+it has two components plq by three EA
+that comes out to be
+2.976 millimeters
+and if you look at the shear 6pl by 5 a
+g
+that comes to be a very very small
+number
+0.0037 millimeters so you have a
+relative appreciation
+you have to worry about shear
+under certain circumstances
+you cannot neglect that
+we have developed moment curvature
+relation we have determined the
+deflection for a variety of beams
+neglecting Shear you have a
+justification when you substitute these
+actual values to this expression
+that Shear deformation is very small
+see this is made of steel suppose I make
+the same aluminum Beam Beam made of
+aluminum
+aluminum is 70 GPA
+and then you have these numbers change
+but the cross sectional Dimension the
+length Remains the Same
+what do you anticipate
+the deflection will be small or larger
+you should appreciate from the ends
+modulus the X modulus is one third of it
+so the reflections are going to be
+larger when I have a aluminum so it
+comes out to be
+8.928 millimeters
+and when you look at the shear
+deformation it is
+0.0113 millimeter and if you actually
+evaluate the percentage difference
+it's only 0.12 percent or point one
+three percent these are all very very
+small quantities so you do not make a
+significant error
+see when the problems are very complex
+if you go very close to the actual
+solution Engineers are happy you must
+think like an engineer from a
+mathematical perspective it may not be
+exact that is not the way you can demand
+because the real life problems are so
+complex
+if you are able to go closer to reality
+how closer to reality depends on the
+problem if the problem is too complex
+even twenty percent fifty percent is all
+right if the problem is simple then you
+want to go within five percent
+in unknown situations it can even be 200
+percent at least you know that you are
+the uh in the domain of it fine so that
+is how Engineers handle practical
+situations and we have also developed a
+method called fictitious load method in
+continuation of the energy
+and this was by the
+theorem propounded by castigliano and if
+you look at history you know he lived
+for a very short while only 37 years
+it's too young and age to
+leave the world and the theorem was
+available in his dissertation thesis
+okay it it was so powerful it has really
+helped Engineers to solve very complex
+problems
+and we have discussed that I have a
+force system in the classic Linus method
+I have to differentiate with the force
+then I will get the inline displacement
+suppose I want to find out the
+deflection
+or deformation at different points other
+than the load application points how do
+I go and do it
+the method itself says fictitious load
+so you apply a fictitious load
+and you will be in a position to get the
+deflection so it can be interpreted in
+many ways if I don't have a force at
+that point apply affectations load
+suppose I want to find out deflection
+other than the direction of the force
+apply the force in that direction so
+that's what it says not in line with the
+load so I can have the fictitious load
+like this I want to find out the
+deformation at this point
+I can also find out the horizontal
+component with respect to this Force at
+this point introduce a fictitious load
+but the moment you introduce a
+fictitious load you treat that as a load
+acting on the system resolve the problem
+resolve the problem by finding out the
+reactions on all the aspects of it get
+the energy
+and only in the Final End
+before you calculate the deflection
+after differentiating with respect to
+the load Q
+you make Q equal to zero that's a subtle
+point
+so introduce a fictitious load Q at the
+desired point in the desired Direction
+so that accommodates all aspects of the
+problem
+so I can put it at different points
+Express the elastic energy in terms of
+the force system acting on the
+member as well as the fictitious load
+queue
+see at a time you apply fictitious load
+only at one point
+solve it you get the deflection at that
+point along that direction if you want
+it for another point you apply it afresh
+for illustration I have said it can be
+any point any direction
+so at a time you will apply Q at only at
+a particular point of Interest
+so you differentiate the energy with
+respect to Q
+and finally substitute 2 equal to zero
+that is the procedure
+you have to understand the procedure
+very clearly and we will solve a simple
+problem for which we already know the
+solution from
+so that you can verify
+whether the fictitious load method has
+helped you to get the deflection at that
+point
+so I take a problem of a cantilever
+and the question is you have to find out
+what is the
+deflection at the center of the beam
+so the method says since I do not have a
+load
+I have to apply a load Q at the center
+and evaluate the energy stored in the
+Deep
+you have to solve it affresh
+so I have two sections I have one
+section here I have another section here
+so I have to find out the bending moment
+in these two sections
+you know from now onwards we will not
+worry about the shared information we
+have already seen how to incorporate
+Shear deformation and we have also seen
+Shear deformation leads to small changes
+in the final deflection
+since they are very small from an
+engineering perspective an engineering
+analysis we can live with mountain
+curvature relation
+fine so we will confine ourselves only
+to bending energy
+so you have to write the
+expression for bending moment in this
+section expression for bending moment in
+this section which you have the
+background please please write that
+expression and check it with my slide
+Because unless you write these
+Expressions correctly
+further calculations will not lead you
+anywhere you have to write the bending
+moment
+precisely
+and you measure X from the 16 that's how
+you normally solve the problem like this
+so if I do that
+I have the bending moment
+for the section
+0 to L by 2 I have minus p l minus X
+minus Q multiplied by L by 2 minus X
+and
+you have for the rest of the section c
+to B
+only p is contributing the bending
+energy Q does not contribute the bending
+energy
+so you know
+some of these Expressions you need to
+remember
+I know the bending energy s m b square
+divided by 2 e i z z
+X or d s whichever the way you want to
+label it
+integrated over the length 0 to L so I
+will have to write this for the first
+section as well as the second section
+and you know our mathematics becomes
+simpler if I
+differentiated so I have dou U by dou Q
+and the substitute Q equal to 0
+so I have dou by dou Q of integral 0 t l
+m b squared by 2 e i z z d x
+so I express it for two different
+sections
+and then differentiate it
+so when I differentiate it I'll have
+this as 0 t l by 2 m b divided by e i z
+z dou m b by dou Q D X for the first
+section
+and for the second section L by 2 to l m
+b by e i z z dou m b by dou Q into DX
+you can very well see
+in the second this one m b is not a
+function of Q so this is going to be 0.
+fine
+so I can simplify it in the expression
+itself without getting into the actual
+differentiation so I have to find out
+only for
+this section these expressions and you
+know what is m b so that is you can
+State forward do okay let me ask a
+question suppose I pose a problem that
+as if this load is about 500 Newtons
+the moment you come to
+energy method
+rewrite that number as a symbol
+then solve the problem
+only then you can do all this
+integration and differentiations
+fine so you have to do that as a symbol
+and then do it finally substitute the
+values
+and the caution is do not treat P
+independently and Q independently find
+out the energies because if you do it
+like that the basic procedure is
+violated the basic procedure is you have
+to resolve the problem
+as if Q is acting on the system
+only after differentiation you make Q
+equal to 0 until then you cannot handle
+it separately
+so I have this
+expression Rewritten here and you also
+know what is expression for MB can you
+differentiate this and then do the
+integration and substitute the values
+you can differentiate this MB
+with respect to Q
+so I have this expression reduces to
+minus P multiplied by L minus x minus Q
+multiplied by L by 2 minus X
+whole divided by e i is easy
+and when you do dou m b by dou Q this
+expression reduces to minus L by 2 minus
+X DX
+now you substitute Q equal to 0
+after differentiation
+frame we have differentiated it so I'll
+make Q equal to 0
+so when I do the final integration
+I get P by e i z z multiplied by L
+squared x by 2 minus 3 l x squared by 4
+plus X Cube by 3 0 t l by two when I
+substitute the limits and simplify
+you get the expression as
+y c that is the deflection at the point
+c as Phi PL Cube by 4080
+you can go back and see either by your
+momentaria method or the integrating the
+common curvature relation you will get
+the same result at the center of the
+beam
+and you know I also want to give you
+another the homework
+you know I have the load acting at this
+point but I would like to find out what
+is the
+slope at this point
+by fictitious load method if I have to
+find out the slope what is it that I
+have to do what is the load that I have
+to apply
+so you have to bring in your
+appreciation of what is a generalized
+load and generalized displacement
+if it is a concentrated load it will
+give
+deflection and that direction if I have
+a moment it will give you angle of
+rotation so if I have to find out the
+slope at the point B I have to apply a
+moment
+see it may be desirable to indicate a
+moment by m rather than q q is a symbol
+so you can also treat M as a symbol and
+do the differentiation appropriately
+so if I use a fictitious load as a
+moment I would be in a position to get
+the slope is the idea clear so you know
+how to find out the inline displacement
+and inline generalized displacement when
+I apply a moment when I apply a moment
+inline displacement is the rotation
+so you have to intelligently handle this
+methods a very very versatile method
+it's a very versatile method and you
+will find that it has many applications
+in your future learnings
+now let us go back to the classical
+problem
+you know you take a simple spring
+and if you find out what is the first
+force that is acting follow this
+animation very carefully because I would
+translate this by transmissibility
+nothing happens only when I move it to
+this point when I move to this point I
+also have a twisting moment acting on
+the spring it's very important see one
+of the aspects I find is how to move a
+force from one point to another point
+you have to master it
+if you master it you can write the
+bending bond diagram and Shear force
+diagram easily
+just because you are not mastered it you
+are taking time that is why I am
+repeatedly showing how to move a force
+and if you have followed this animation
+I have got this suppose I want to draw
+the free body of this see this is the
+force acting on it okay suppose I put
+the free body
+I will have just opposite of it okay I
+have a force acting on it so when I cut
+a generic section I have the
+twisting moment and Shear force acting
+on it
+and we have already said Shear
+deformations are very small
+so you can always neglect this
+suppose I want to go and design a spring
+see if you are asked to find out the
+stiffness if a spring is given to you
+you can do your first deflection
+experiment and then find out what is a
+stiffness but if I have to design a
+spring with a particular stiffness I
+need to know the basic expression
+how the stiffness is developed in the
+spring
+for that I have to know what is the
+force that is transmitting so it is
+essentially transmitting torsion
+and it's much easier to find out the
+stiffness by the energy approach
+and here we are going to look at the
+torsional energy and you have seen that
+spring has a coil like this where we
+will have the turns okay and what we
+will do is we will say that there are
+circles we will neglect the small Helix
+angle so we will count the number of
+coils so that will give the length of
+the shaft under torsion
+so you have to appreciate how to attract
+the problem
+so
+the spring cross section transfers a
+twisting moment and a Shear Force
+and we will do it in R Theta Z
+coordinates and you can easily write
+very similar to what we have done for
+bending it will be empty Square by
+you will have instead of e you will have
+G coming into the picture you have to
+remember those expressions when you want
+to come to
+energy method so I have
+m z as Mt and I Z as IP then I want to
+do it in the fracture I mean torsional
+formula
+The Strain is associated with the
+twisting moment is
+UT as integral
+0 t l m t squared divided by two Gip in
+easy so you have to know these
+expressions
+whether it is axial load
+bending load torsional load or Shear
+load you should be able to write this
+expression and there is mnemonic one one
+say remember one expression you have to
+substitute the appropriate quantities
+and I have to get the DZ how do I get
+the DZ from this x diagram okay so I
+have the mtsprs
+and
+all these quantities are given
+and DZ how do I get this is I realize
+that I have to sweep across the coil so
+I take this angle as
+gamma D gamma so I get dzs you have this
+distance RS okay
+so I have this as RSD gamma
+so now I put the length as 0 to 2 pi n
+because I am going to have n number of
+coils
+okay n number of coils I have to do that
+so that
+expression comes to be P Squared RS Cube
+by 2 g i p 2 pi n
+and
+we will neglect the shear loading
+and you get this
+strain energy as this expression
+and differentiate with respect to
+the load P so I get this as p r s cubed
+divided by g i p 2 pi n
+and you know how to define the stiffness
+so KS is p by Delta so that comes out to
+be Gip divided by 2 pi n RSQ
+and if you substitute for the polar
+moment of inertia if the radius of the
+spring is
+given as R the wire is R pi r power 4 by
+2
+so when you substitute this
+I get a very famous expression
+k s equal to g r power 4 divided by 4
+and RSQ
+so if you know what is the radius of the
+wire that you are using
+and the shear modulus
+see we have discussed tension test and
+we have done it for the bulk material am
+I right
+and we have ignored a bulk material will
+have defects
+by continuing assumption we have ignored
+that
+but the moment I come to Spring I get
+this diameter of The Wire by Extrusion
+process
+by processing the material the number of
+defects are reduced a thin wire is much
+stronger than the bulk material so if
+you go to Spring design
+they will not use the bulk material
+properties to get the G
+they will test for this diameter of the
+wire
+you have procedures available
+these values will be higher than the
+bulk material values because it has less
+number of defects
+and in contrast you have a shaft design
+Springs are always made of alloy steels
+whereas shafts are made of mild steel
+because you are looking at the
+stiffness
+you are not designing based on strength
+so you need to have it's a sufficient
+that you use a
+mild steel for routine purposes high end
+application they may change the material
+there are different considerations
+so in contrast to shaft design you use
+alloy steel and you don't use the
+conventional tension test for using the
+properties
+so you utilize the
+Advantage what happens in a small wire
+compatible material you handle it this
+way from an engineering approach
+fine yeah
+and you know
+you know this class is mainly meant to
+open up and then find out you have been
+making certain idealizations certain
+idealization look obvious certain
+ideations do not look obvious and you
+might have
+ideally you should have asked a question
+and resisted why do you make such an
+idealization
+but you know you don't ask such
+questions
+fine so I have to do that see I have a
+frame and usually it is made like this
+you are clamping this end very firmly
+like this with four bolts so you make
+this as a clamped end
+and you have a very heavy beam and you
+also have standard cross sections
+available designers just go to the table
+they don't even calculate the amount of
+energy it's also given in the standard
+table you have the standard dimensions
+these are rolled sections available
+so you have to if the design says
+something whatever that is close to that
+requirement you take it from the rolled
+section because it is cheap it's
+available ready-made so designers do all
+that the moment you come to design you
+don't have one solution you have
+multiple Solutions possible
+and you have this
+holding this by a
+tie rod like this okay
+and you have been taught that I can
+idealize this as a pin joint and you can
+solve it by truss am I right so we will
+first solve it as a truss
+can you get me the member forces
+fine try to get the member forces by the
+time I show you the next slide fine
+remember forces can be obtained by truss
+analysis
+because you have only one pin join
+isolate this pin joint and you have this
+load is given as 25 kilo newtons and you
+have this you can also treat this as by
+symbol length L and this is also l so
+when these two are equal this angle is
+45 degrees
+so you have all the essential
+information for you to find out the
+forces acting on it see you must pick up
+speed how do you pick up speed
+when unless you see how to simplify the
+problem quickly you will not be able to
+do that
+now you can even do this by inspection
+you must also develop that mental
+ability to do that I have this Force as
+25 root 2 and this is intention
+and this is 25 kilo Newton in
+compression can you visualize this
+because I go and pull it okay I pull
+this so This Rod has to be in tension
+because this is intention you have a
+horizontal force that has to be
+supported by this
+and you know I have done this by
+analyzing this as a pin joint I have not
+shown it here but the moment I go and
+look at the deflection I will show that
+explicitly
+so once this is under compression do you
+know how to find out the
+deformation is a famous expression I
+have said that what is that expression
+can you tell me
+if the load is p
+p l by a e the very famous expression
+you should not hunt for it okay so
+instead of P you supply the load that is
+acting and this is under tension
+so if I do that I have f l by AE and if
+I substitute what is f and what is the
+length l
+and then area of cross section and the
+angs modulus I get this as
+0.1707 millimeter so the I beam gets
+compressed by this amount
+and this thyroid gets elongated by this
+amount I have given only the
+absolute value of the deformation
+that's much more convenient when you
+handle problems like this you attach the
+sign later
+calculate the magnitude attach the sign
+later
+it has
+2.7172 millimeters
+so you have this as a pin joint so I
+will visually also make this as a pin
+joint
+see the moment I have this a pin joint
+you know you have to appreciate what
+will happen
+see I have this as a pin joint
+okay
+so this can rotate like this and this
+can also rotate like this
+so what I'm going to do is I'm going to
+make one member shorten another member
+elongated and then find out analytically
+how do I locate the point
+and I'll also make approximations see
+Engineers have to do approximations but
+doing
+do intelligent approximations
+okay now I have this as a pin joint
+I have this as a pin join visually also
+I have shown it
+so now I will visualize
+this compression this member is
+compressed this is by distance Delta c d
+so the member is compressed
+and I have this point moved to a point
+D1
+so I draw this bigger for us to
+visualize comfortably
+so D has more to D1
+and we have seen that this Rod has an
+elongation
+and we have also seen because it's a pin
+join it can move only in an arc of a
+circle is idea clear so this should be
+the probable path
+but you know mathematically this is
+difficult to handle so I'll replace uh
+Arc by its tangent
+I'll have a tangent fine
+now I go and look at this tie rod
+and this tie rod gets elongated
+that is shown and we have also
+calculated this elongation as Delta b d
+so this can have one layer rotation
+about this so the meeting point of these
+two is going to be the final
+deformed position of the joint
+so I draw this as a circle
+I have shown this big here because this
+is too clumsy to see here
+so I have this so this will be the
+actual point
+fine but you know I will replace this
+Arc by its tangent
+so I would be essentially finding out
+this point which is far away from this
+but mathematically it is simpler for me
+to calculate this point rather than this
+because the entire deformation is so
+small the error you introduce is also
+very small
+how do you verify it
+only when you compare it with a more
+realistic analysis
+and more realistic analysis what you can
+do you can imagine that this is clamped
+and this behaves like a beam and go to
+energy method because energy method
+takes care of you are not making any
+approximation you are finding out the
+quantities
+in a very nice fashion fine we'll
+postpone it for the time being
+let us understand how do I calculate the
+horizontal shift as well as the
+vertical deflection of this from this
+diagram I have to process this diagram
+so I can see from the diagram
+your horizontal movement of Point D is
+nothing but Delta c d
+and you know you are given certain
+quantities that this is angle is 45
+degrees
+so that you should use it
+so from this diagram I can find out what
+is this vertical deflection it has a
+component of
+this distance
+plus this distance because it is 45
+degrees this distance is same as Delta c
+d
+okay so I will have some quantity like
+here so this I can put it as
+from the property of the triangle I can
+say this as root 2 Delta b d plus Delta
+Z is ideally clear I can easily
+calculate it is simple geometry there is
+no clumpsiness in mold
+okay
+so if I go and substitute these
+quantities I get Delta vs
+4.0134 millimeters
+Delta H is 0.1707 millimeter
+this approach was quick
+and if you visualize how the pin joint
+behaves you have been able to calculate
+the deflections or deformations very
+comfortably
+suppose I make this as a clamped n what
+is the first hit
+first hit is
+the problem becomes statically
+indeterminate you have to recognize that
+you have to recognize you you'll say
+that I am solving it so holistically I
+want to realize that this is a clamp Den
+but the price you have to pay is it's
+statically in determinate so I have to
+bring in deflection
+for me to solve the problem so even the
+member forces will change
+that was so straightforward
+okay
+so what I'm going to have is I'm going
+to have this
+free body diagram I'm going to draw and
+I'm also going to say that this is not
+going to rotate but it's going to have a
+bending deflection
+and you know I will have a force here
+transmitted by this
+earlier I was able to calculate this
+Force now you know I have to find out
+what is the force transmitted by these
+members I cannot analyze this as a
+simple pin joint
+because the behavior is now different
+so I draw the free body diagram for this
+so I can only say that this is
+having a load X in the vertical
+Direction and extend the horizontal
+Direction
+so this instead of rotation it will bend
+like this and you will have this member
+joined like this is idea clear
+we have
+learned bending in this course so we can
+afford to do this kind of analysis in
+this course in the earlier course if I
+had asked to deflection you had only one
+choice
+you would have simply made this as a pin
+joint and you would have analyzed at the
+bottom of your heart you will be
+thinking why I analyze this as a pin
+joint it's an approximation I'm doing it
+engineering is a waste
+isn't dead it is not confirming to what
+is happening in reality now we will see
+the calculation and c and justify how
+Engineers were very clever in making
+idealizations
+okay
+so I have to solve this even to get my
+deflection
+and I know what is the vertical
+deflection from my beam analysis
+find plq by 3ei here p is p minus X and
+X is an unknown
+X was known very clearly in the previous
+analysis now X itself is an unknown that
+you have to recognize first
+foreign
+go and look at I have the reflection
+Delta C D and Delta BD I can write in
+terms of
+the assumed unknown X
+I know Delta V so I use Delta v as the
+basis for me to calculate the value of x
+is idea clear
+because all statically indeterminate
+problems you have to bring in the
+deflection Behavior to solve for the
+forces
+this we have already seen we will also
+have this expression as
+root 2 Delta b d plus Delta City that
+will not change but these individual
+deflections will change
+and when I use this expression I get an
+one equation it looks very complicated
+you can probably take a photograph
+and ruminate over it in your rooms
+and when I solve for it I am in a
+position to calculate the what is the
+force we will see what is the change
+that it has created in the member forces
+by making this idealization
+it has made our job difficult
+okay but if you really look at the force
+has changed from 25 to 24.3
+for this small change we have to do back
+breaking
+numerical calculations okay
+so now I have got this now I can go back
+and redo the
+complete deflection
+okay let us see what is the change in
+the
+the horizontal one is 0.1659
+it was very close Okay and then the
+vertical one I can do the calculation
+when you substitute these values
+I get this as
+2.6406 millimeter
+let us go back and then
+do the comparisons
+okay and Delta V comes to be 3.90
+millimeters
+and this was done by pin jointed
+analysis
+okay
+and when you have
+when you have this analysis
+I have this as 3.9 what is the
+difference
+2.5 percent
+for 2.2 percent difference you have to
+do back breaking calculations
+so pin jointed idealization is not far
+from reality
+but there is one thing which is
+different
+see if you look at the I-beam what are
+the stresses developed
+the stresses developed are very high you
+know I have bending that is taking place
+and bending was ignored in your previous
+analysis
+so I have this
+stressors 24.85 MPA in the case of
+current idealization has clamped if I
+have this as pinned we would have just
+got the sustained MPA but if you know
+how it is designed it is all designed
+based on stiffness
+this trust magnitudes expected or much
+much smaller
+and you know this is mild steel and you
+know yield strength is around
+255 to 220 to 255 MBA so it's far less
+even when you have the bending load so
+you are justified in making this as a
+pin jointed analysis you get an estimate
+of what is happening in reality
+is idea clear
+you know if you go and do the energy
+method I'm not going to do it completely
+I am going to just illustrate the
+procedure
+the idea is you know I have to get the
+horizontal displacement also since
+horizontal exponent is not given I have
+to introduce a certain queue and I have
+also replaced this 25 kilo Newton SP
+this is what I said if you are not given
+as a symbol
+put it as a symbol and do the energy
+method
+so here again I have to use the
+deflection for me to find out the forces
+I am just showing this
+from this on you try to solve it
+yourself as a homework
+fine
+see all along in this course I have
+emphasized the role of experiments and
+only with the experiments strength of
+materials developed
+and whenever we looked at strengtha
+Material solution
+wherever there is a contradiction we
+also looked at theory of elasticity and
+determined the exact solution without
+assuming displacements
+and we compare and we said whether the
+sanctuary solution is valid or not and
+I've also said if you go to theory of
+elasticity the Practical geometry that
+you can get exact solution are very very
+limited
+if I have to analyze a plate with a
+circular hole I should solve it by polar
+coordinates
+suppose I want to solve for an
+elliptical hole
+you could not solve it with your
+Cartesian or polar coordinates
+so in the early development of Serial
+velasticity people had done their PHD to
+develop coordinate systems
+for solving an elliptical hole they had
+to develop elliptical coordinates and
+elliptical coordinates are solved used
+for solving plate with elliptical hole
+and elliptical hole becomes a crack in
+the limit
+so the problem was to go to practical
+geometry see I've also said a simple
+spring which we have been seeing only
+after learning torsion you could solve
+and I have said you have seen a spanner
+spanner
+even after one complete course on
+sanctum materials you don't have a
+solution for it because the geometry is
+very complex neither I have solution
+from theory of elasticity then how do I
+solve it
+the credit goes to
+the Aerospace
+development it was John Turner head of
+Boeing structural Dynamics unit in the
+early 1950s like you go for the
+internship
+they invited faculty
+and it is Professor klau from Berkeley
+to
+Boeing for faculty internship
+so only when the academicians go and sit
+with practical Engineers they understand
+what is their problem
+what is the kind of mathematics is
+required to attack the problem that gave
+the birth of
+finite element method this was known as
+Matrix structural analysis okay and you
+have Turner
+and is a civil engineer Ray klau and it
+was developed in the early days by
+another professor arjaris
+not much details is available about
+Turner other than that he was associated
+with Boeing
+they were excited because in 1950s when
+they want to develop an aircraft
+they were all testing it before it is
+allowed for flying but even before you
+test it if you have a method by which
+you are able to predict Its Behavior
+the number of tests that you could do
+can be made lesser please understand
+your numerical method will not help you
+to make an aircraft
+it will help you to minimize the number
+of tests that is needed to certify the
+design
+ultimately you have to bank on the
+experimental information
+and if you look at finite element method
+you had three different things that
+happened one is Matrix structural
+analysis that is what John Turner did it
+in Boeing
+and later on you had this
+proposed in terms of variational
+approximation Theory so that you can
+handle any type of differential
+equations
+and particularly the digital computer
+development has driven the development
+of any elements because you need to
+solve
+thousands of equations
+and computers got developed only 1960.
+so only around 1970s you know a club
+called this method as finite element
+method originally it was known as Matrix
+structural analysis essentially solving
+your addresses
+you know you have solved trusses where
+you have 10 elements suppose you go and
+see a tower which is transmitting
+electrical cable high voltage cable you
+have thousands of elements you can't do
+it behind computation
+so initially they had truss elements and
+beam Elements which are straight lines
+and they had
+conjectured how to solve this by a
+matrix analysis it's called Matrix
+structural analysis books have been
+written
+and they have used calculators from
+calculators they went on to computers
+and imagine in those days your simple PC
+will be occupying this entire room with
+20 MB hard disk please understand now
+everything is terabytes
+fine
+and only aerospace companies had the
+resources to have those computers
+academic institutions were not having
+that luxury people have to go that is
+why it all developed in an aerospace
+industry because there they have to do
+extensive analysis and testing before
+they roll out a plane
+and discrete elements approximate
+Continuum models which help to
+approximate real structures
+and a larger generalization came from
+variational calculus
+this is a field of mathematical analysis
+that uses variations
+which are small changes and functions
+and functionals to find Maxima and
+Minima of functionals see we have
+already seen in gastric Learners theorem
+if I take the strain energy and
+differentiate with respect to the
+applied load I get deflection
+from the energy approach
+precisely the same thing is extended for
+finite element analysis
+here I am going to solve and demand my
+differential equation is at least solved
+approximately you are not demanding
+mathematical accuracy okay
+so you have a formulation
+and you know in the case of solid
+mechanics the governing differential
+equation is essentially the differential
+equations of equilibrium which we have
+developed threadbare you know how to
+develop it now what I'm going to show is
+you know to make our life little
+difficult to see the equations this can
+be written in a very concise manner as
+Divergence of Sigma plus b where B is
+the body force and you have the
+symbolism if I have one bar it is a
+vector it is two horizontal bars it's a
+tensor of rank two
+and this is the basic governing equation
+so you have to solve this governing
+equation to satisfy the boundary
+condition the problem was the boundary
+is not well defined
+so you piecewise
+solve this
+system okay in an approximate manner
+so that is what
+important in finite elements weighted
+integral statements provide a means to
+systematically evaluate approximate
+Solutions underline this
+approximate solutions that satisfy the
+governing differential equations with
+some residual error
+you have to live with it if I am able to
+solve a very complex problem
+some amount of error you can tolerate
+but it should be done scientifically it
+should follow certain mathematical
+principles
+so I have a weighted integral statement
+and I have this governing equation is
+your equilibrium conditions and I have
+this weighted function
+and this weight function is also
+evaluated based on displacements if the
+weight function W is chosen certain it
+represents that variation of the
+independent variable
+displacement in this case
+say in the case of strength of materials
+what did what did we do we took cross
+sections and loading in such a manner
+you can visualize what is the
+displacement
+in a complex problem you cannot
+visualize displacement theory of
+elasticity
+helps you to solve the differential
+equations and evaluate the displacement
+by solving that's a boundary value
+problem
+but the problem there was when you talk
+when you take even a simple spanner the
+geometry is complex theory of elasticity
+fails you cannot do it but now I need to
+have a wire media that is provided by
+this approximate weighted residual type
+of approach and when I do this I have
+this and this has a particular meaning
+it is not Delta it is a variational
+symbol
+okay because you know once you get into
+advanced mathematics you have positive
+symbols the same symbol will appear in
+different forms you should understand
+the symbol based on the context
+okay
+for a linear elastic material after
+simplification of that using the
+variational calculus the expression turn
+out to be like this and this variational
+operator so it is understood like this
+if you have variational operator
+integral U is nothing but integral Delta
+U
+Delta for d u by D X is D Delta U by D X
+this is how it is an operator
+and they also use a different symbolism
+this is nothing but it was trust Factor
+instead of putting it as capital T they
+put it as a small T and you know from
+koshy's formula how to find out the
+traction on the boundary
+and I have also said the discussion on
+free surface is very very important
+so that you are in a position to
+write the traction correctly okay so
+even in finite element course you have
+to do this
+so then what you do is
+the unknown displacements are
+approximated using shape functions
+all quantities are expressed in terms of
+these unknown displacements all those
+details you will study in that course
+okay I am only giving you a flavor
+flavor is very important
+so what I do is I apply the minimum
+potential energy the principal states of
+all possible displacement States a body
+can assume
+that satisfy compatibility and given
+boundary conditions
+the state that satisfies the equilibrium
+equations makes the potential energy
+assuming minimum value that's what we
+are doing it
+what we are doing it in a complex
+problem
+we get this
+very close to reality with some small
+amount of error
+so you are doing the minimization
+okay and this is how finite element is
+made you have this as a final expression
+this is known as a stiffness Matrix you
+are accustomed to solving three by three
+four by four there it is ten thousand by
+ten thousand or depending if you have a
+super computer it can be a million by
+million so there are a lot of challenges
+in how to get the inverse it's not a
+simple task so mathematicians have a
+great role to play now let us take the
+simple spanner problem you have seen the
+fringes you have also seen these fringes
+in your laboratory course
+and if I use it by finite element I can
+get the the U displacement V
+displacement and this is how you
+discretize the structure okay I can get
+strain Epsilon XS Epsilon YY Epsilon x y
+I can also get the stresses
+I can get
+Sigma XX
+I get Sigma 1 minus Sigma to see this
+comparison between the experiment and
+the
+I have shown because experiment can
+exploits a physical principle it can
+give you only one type of Contour
+but once I solve it by numerical method
+I can get all the Contours
+and finally you know I'm also showing
+Sigma 1 minus Sigma 2 see the comparison
+even though you have a feeling that
+finite element does some approximation
+if you handle it properly there are many
+many criteria what should be the size of
+the mesh how to have convergence all
+those aspects if you follow very closely
+you can have the Fringe patterns very
+nicely matched with experiment
+and you have standard packages like
+Abacus ansys Ms in Astron and many many
+packages and mine do none other packages
+post process the results of finite
+element to plot Fringe patterns it's
+only our group has done it we have
+published as papers we hope that some of
+the finite element manufacturers take
+the queue from our
+papers and then incorporate this as a
+feature as part of the software
+here you can see the comparison is
+convincing that you have done a
+reasonable analysis so please understand
+you also have a method Center material
+is not the end of it you have to do a
+course in experimental analysis as well
+as a course and finite elements to solve
+day-to-day current problems in
+engineering thank
+[Music]
+you
+foreign

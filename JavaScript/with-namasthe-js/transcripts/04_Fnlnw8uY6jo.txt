@@ -1,0 +1,436 @@
+Let me show you some magic. Okay. So, we
+have a variable x which is equal to 7.
+Okay. And we also have a function which
+is get name.
+Got it? So, this get name does nothing
+but just console logs the name of the
+course. Namaste
+JavaScript.
+Got it? So, this is it. Now what we'll
+do is we'll just try to invoke this
+function. We invoke this function and we
+did a console log of x. What do you
+expect to see here? Now quickly tell me.
+So you would definitely expect to see
+that okay get name will call this method
+and we'll print this on console and this
+will print seven. Okay console log will
+print seven on the console, right? So
+let us run this code. Yep. So as
+expected. So it was namaste JavaScript
+N7. But now I'll show you something
+interesting and it's a magic in
+JavaScript. Okay. So for that let us
+just copy these two like the function
+invocation. Let's just cut and paste
+those two lines really on the top of our
+program. Okay. So we have pasted these
+two on the top of the program. Now
+before I run this code, let let me ask
+you something. What do you expect to see
+here? Okay. What will be the output
+here? So
+right now what what what changed is we
+are trying to access get name even
+before we have initialized it. We are
+trying to access X even before we have
+put some value in it. Right? So what do
+you expect to see here in most of the
+programming languages? Okay, this will
+result out to be error. Okay, this will
+be a complete error and you cannot
+access variables even uh like before you
+have initialized it. Right? But
+JavaScript is very different in this
+case. And here I I'll show you some
+magic. Okay. So if I try to run this
+code now, you see something interesting,
+isn't it? So you see namaste JavaScript
+is printed. Okay. That means get name
+was somehow able to access this get name
+and invoke the function directly. Right?
+And in case of console log X, we got
+some special value undefined. What is
+this undefined? It's weird, right? Let
+us try to play with it more. Uh suppose
+I remove this line completely. Okay,
+suppose I remove this where x is equals
+to 7. Right? Now, what do you expect to
+see? So, let us just run the code. Now,
+we see an error. It says x is not
+defined. Before it was undefined. Now,
+it says not defined. What the heck is
+going on? Isn't undefined and not
+defined same thing? No, it's not. Let's
+cover everything. But let me just get
+back that statement again. Okay. So,
+this whole magic and this whole
+interesting thing is known as hosting in
+JavaScript. Okay. So, hosting is a
+phenomena in JavaScript by which you can
+access these variables and functions
+even before you have initialized it or
+you have put some value in it. You can
+access it without any error. Okay. So
+wherever this where x is there in the
+program it does not matter and you can
+just access it anywhere in the program.
+So let me show you one more interesting
+thing. Okay. So for that let us just
+comment these out and let us try to
+console log our get name function. What
+happens if I just I remember see we are
+not invoking this function. We are just
+trying to log this get name method. So
+what do we expect to see in console? So
+it actually prints the function itself,
+isn't it? So it prints the function
+itself. But what if we try to access
+this even before initializing this
+function just like we did for X.
+Remember for X we got undefined. What
+will we get for get name? What should we
+get? Undefined. Let us run and see. So
+see if I run it once again, it again
+gives us the function. So in case of X
+it was giving us undefined but in case
+of let us just run this. In case of X it
+is giving us undefined when we didn't
+initialize but in case of get name it is
+printing that function. This is very
+weird thing in JavaScript and it is only
+weird because we don't know how things
+work behind the scenes. Let us go deep
+and see how everything happened and why
+the program is behaving the way it is
+behaving. Okay, remember in the last
+video we studied that whenever we run a
+JavaScript program an execution context
+is created and it is created in two
+phases. The first phase is the memory
+creation phase. So yes, so the answer
+lies there only. This whole concept lies
+there only. Okay, if you have seen my
+previous video, you might have got an
+idea also that why these things are
+happening. But let me tell you again by
+running each and every line of this code
+now. Okay, for that let us just quickly
+go back to the previous state of the
+code like how it was and then I'll show
+you something really very interesting.
+Okay, so remember I told you that even
+when this code this whole code in
+JavaScript starts executing the memory
+is allocated to each and every variable
+and function. I repeat once again even
+before the code starts executing memory
+is allocated to this all variables and
+functions. Remember in the last video I
+told you see if you have not seen that
+video. I would recommend highly
+recommend see that video that is really
+very important video. You know it is in
+fact the most important video in this
+whole series. But for now let us see
+that how this memory is allocated. So
+for that let us go deep inside the
+browser. Okay. So when we go to this
+source okay we can see this whole
+program right so even before I I am
+putting a debugger okay even before
+first line is executed okay I am putting
+a debugger right here right here okay
+let us see how this whole program
+behaves so now see it got stopped in
+this line itself so now no code has been
+executed till now we are just at the
+starting point of the first line. Okay,
+starting point of the first line of our
+code. And now let's see something really
+very interesting. This is our memory.
+Okay, this is the global scope and here
+is the memory. We will see something
+really very interesting if we dig down
+deep. Okay, if we go over here and try
+to find X, we will find that X has
+already been allocated memory space even
+before we have started executing. Okay.
+So if in the last video I told that in
+the phase one of the memory creation
+JavaScript just comes through the
+program and it will allocate memory to
+each and every variable and function.
+Isn't it? And it stores a special
+keyword undefined for these variables.
+Okay. So even before this code has
+executed, JavaScript has reserved this
+memory for X and placed a special
+placeholder undefined to it. Right? We
+can see that undefined is present over
+here. Right? And similarly, what happens
+in case of functions, right? You are
+right. That whole code is put in. So,
+let us also see whether the code is put
+in or not. So, if we try to find out get
+name over here.
+Um, yes. So, see in get name we did not
+get undefined but we get a actual copy
+of a function here. Okay. actual copy of
+a function even before we are trying to
+run this code. So now what happens if we
+just run this program then all these
+things are printed on the console. But
+let us see that phenomena if we put on
+the top right. So let us just put these
+three things on the top and I'll show
+you how this works. Right? So
+again let us put a debugger on the first
+line itself. And remember even before
+this first line that is the invocation
+of get name is executed we will already
+have okay let me run it again we will
+already have these variables and
+functions in the memory space right this
+x what will the value of x be this x
+will be undefined and this get name will
+be the function see so you see that that
+is why that is the main reason when you
+try to execute it line by line see if If
+I go to the next line, if I move to the
+next line now, if you see the console,
+you already have these things printed.
+So over here in the first line, it
+printed
+namaste JavaScript and in the
+second line over here console log x it
+printed undefined and in the third line
+it printed the whole function code
+itself. Right? So now just let me tell
+you difference between not defined and
+undefined. Okay. So if I remove this
+whole line. Okay. So now what will
+happen? Try to see how JavaScript works.
+So as soon as it goes to the first line.
+Okay. So let me put put a debugger
+again. Okay. So as soon as it goes to
+the first line now we have not reserved
+the memory for X. We just have reserved
+memory for get name. Right? So in this
+case when the code goes over here so it
+tries to access X and it's this X is not
+present because we have removed that
+right so now X is not present and there
+is no value for X so that means now
+JavaScript will throw an error and it
+will say that reference X is not defined
+that means X was not present in the
+memory so that means X is nowhere
+initialized in the program and you are
+trying to access the value of x. Okay.
+So that is how JavaScript works and that
+is why it behaves the way it behaves. It
+was interesting, isn't it? So let us
+just see one more important thing. Okay.
+Let us see one more interesting thing.
+Suppose instead of this we have get name
+as the
+arrow function. Okay. Suppose we had get
+name as the arrow function.
+Okay. So this is how we write the arrow
+function,
+right?
+So now what do you expect to see in the
+browser console? Give a guess. Let me
+just run it and show it to you.
+It says that get name is not a function.
+Right? So let us try to see why it says
+that. So when you are executing this
+piece of code when the get name is an
+arrow function, so it behaves just like
+another variable. Okay. Now this get
+name does not behave like a function but
+it behaves like a variable. So what it
+will do is even before we execute this
+whole code. So now when in the memory
+allocation phase of the execution
+context it will alloc just like it
+allocates undefined to x it also
+allocates undefined to the get name.
+Okay. So let us see in the global uh
+space now global memory space here if we
+see and try to find out get name see we
+got undefined. So before if when we
+wrote over here function like this like
+function get name let me show you here
+once uh function get name two okay so if
+we use something like this okay so it
+reserves let me save and run for you so
+it will put get name to see the get name
+to will be the function itself if you
+write it in this syntax
+And if you write it as an arrow
+function, it will be undefined.
+Make sense? Now this time get name
+behaves just like another variable.
+Okay. And there is one more interesting
+part. So there is one more way to
+declare a function. Wait, I'll show you.
+So you can also
+create a function like this where get
+name is equals to using this syntax.
+Okay. So what happens in this case? So
+in this case also if you save and run
+and see it behaves just like a variable.
+Okay. So it behaves just like a
+variable. So if you see the space now
+so see get name 2 is undefined again and
+get name is also undefined. So in this
+case and in this case it just behaves
+like another variable and it will
+allocate the memory with a placeholder
+undefined. Okay. And only in case of
+proper function declarations like this
+get name
+it will copy the whole code. Okay. So in
+this case if you run again and see if
+you run again and just refresh the page
+and try to see. So while reserving the
+memory for get name see it gets you the
+whole function. So this is how it works
+and you can even access these variables
+and method even before it is actually
+initialized in your code. So that is all
+about hosting. Okay. So next time in the
+interview if somebody the interviewer
+asks you that what is hosting? So don't
+just say that JavaScript kind of moves
+that code to the top of the file and
+whatnot. So that is not the case. The
+proper answer lies here. Okay. You have
+to explain this thing. This shows that
+you are a you know JavaScript in depth.
+Okay, the execution context creation
+phase properly that there lies the
+answer. Okay, but now when we are
+already there in code, let me show you
+something really very important. Just
+give me two more minutes. Okay, I'll
+just finish it very quickly. It is very
+nice concept. So remember I covered the
+theory of call stack in the last video.
+Now I'll show you the demo. We actually
+are in code so it will be easy for me.
+Okay, just wait for 2 minutes. Okay. So,
+um let me just tweak the code a little.
+Let just get back to where we were.
+Okay. So, over here. So, let me show you
+that how that execution context and call
+stack works. Right? I'll show you the
+demo before. In the next previous video,
+I showed you the theory portion. Right?
+This is interesting part. So, let me
+just do it quickly.
+Oh my god.
+Namaste
+JavaScript. So I'll properly show you
+that how code is executing. Okay. So let
+me just put a debugger on the first line
+again. So remember in the last video I
+told you that whenever JavaScript code
+is run, what happens? A global execution
+context is created, right? So let us see
+where how does that global execution
+context look like? So let us run the
+code. So I have put a debugger over
+here. So the global execution context
+must have created somewhere, right? So
+yes the global execution context was
+created and it has put in this call
+stack. So see this see this anonymous
+written right this is the global
+execution context and the control is on
+the line number three of index.js JS
+right now here there it is now I'll tell
+you something more important remember as
+we move ahead in the code I have put a
+debugger over here so as soon as we run
+this function as soon as we invoke this
+get name function what happens remember
+from the last video a brand new
+execution context is created and what
+happens that execution context is pushed
+inside the call stack remember I told
+you so let us put a debugger and check
+that also now it will go to this
+function and go inside the function
+right I have put a debugger over here so
+let's just run it so see now the exe the
+control went to line number five okay so
+now get see something really very
+interesting happened right so execution
+context of get name was created and it
+was pushed onto the call stack so this
+is the call stack remember this is the
+global execution context which is lying
+in the bottom of the call stack
+Okay. And on top of it, right now we are
+at line number five. I have put a
+debugger over here. So here lies the
+control of the program in the get name
+in line number five. Okay, this is the
+interesting part. So now what happens
+once you finish executing this function?
+Remember what I told you now that
+execution context will be deleted and it
+will be popped off the stack. Right? So
+if I put a debugger over here and the
+control will move to line number nine.
+So now if I'll run so what will happen
+is whoosh the execution context will be
+deleted and it will be removed from the
+call stack. So let us run and see see
+now it vanished right. So now the
+control again went on to line number
+nine okay of this anonymous which is the
+global execution context. So that is how
+the whole small small this call stack
+works. I wanted to show you the demo
+because I covered the theory in the last
+video but I like demo was not covered
+right. So uh and once we finish
+executing everything in the program see
+the call stack is empty now. So this is
+what I was trying to explain a lot in
+the theory in the last video that was
+really very important video. If you have
+not seen that definitely I would suggest
+you to see that and this was the demo of
+that whole thing. So this is how
+everything is working behind the scenes
+inside the JavaScript engine and
+JavaScript manages all that using the
+call stack execution context and all
+this fun stuff and it is created in
+creation phase and then the code
+execution phase thread of execution all
+these fancy things are happening inside
+this browser itself. Interesting isn't
+it? So that's all in this video. So in
+the next video we'll be covering the
+heart of JavaScript which is the
+functions. I'll be talking a lot more
+about the functions because functions
+are very important piece in JavaScript
+itself. They are very different than
+other programming languages. But before
+moving on to that video, you have to do
+two things. First is to like this video.
+It gives me a huge motivation. And
+second is to comment down whether you
+are feeling excited or not. How was the
+video? Comment it down. I would love to
+read your answers. See you in the next
+video. And thank you for watching
+Namaste JavaScript.
+[Music]

@@ -1,0 +1,1203 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on
+torsion
+and we shall solve some interesting
+problems today to get the idea of how to
+use the equations that are developed
+what are their limitations
+fine
+no this is a very interesting
+practical problem you have a lift system
+you have a lift there is also a
+counterweight
+you know periodically they will come and
+maintain the lift at that time it is
+possible for you to see
+what is the counterweight in the lift
+system
+and you know this is in an apartment
+those lifts are much smaller than what
+you have in
+either in our Institute or when you go
+to hospitals they have a huge lift
+see the question here is
+you know if you get on to any one of
+these lifts there will be a board that
+says
+how many persons can enter into the lift
+and you have a system electrical system
+if the persons are more it gives a
+busser and one person has to get out
+only then the lift moves
+so at the design office the person has
+to
+decide how the system stiffness is so
+that it meets all the requirements
+here the requirement is
+when the lift is standing in one floor
+that means everything is static
+you can permit only a downward movement
+of three millimeters so at the design
+office you have to find out what is the
+stiffness
+is there anything that you have to do
+with the shaft design all this you have
+to take care
+and based on this the designer also has
+to give
+how many people can enter into the lift
+so you have to have a pragmatic approach
+and then bring in some kind of factor of
+safety okay
+and you have to do that
+and one of the simple things that you
+can do first is look at the free body
+diagram of the cage
+and you can also have the free body
+diagram of the counterweight
+so what you have is you have a dead
+weight of the cage that is put as W1
+and let us imagine that the lift was
+empty to start with and some people have
+entered into this lift that is Delta w
+or in other words how many people
+it can accommodate is the question
+so you have to put a label inside the
+left so many people can enter enter into
+the lift
+and this
+free body is simple and you get the
+force balance as f one equal to
+W1 plus Delta W you are given the cage
+weight is 18 kilo newtons and you have
+the counter weight as 22.25 kilo newtons
+now the question is
+what all aspects of the system will
+contribute to a downward movement of the
+cage
+you must understand that the motor
+stopped there is no rotation from the
+motor
+so it is standing at a floor and people
+step into it
+and you know very well that we are
+discussing torsions or something with
+torsion is going to happen so that you
+will recognize because many times you
+know when you solve a problem if it is
+given in a particular chapter
+you take advantage of that
+in reality
+if you are given a physical problem you
+should know how to dissect and find out
+what contributes to it is idea clear
+so what is the contribution from torque
+can you imagine
+I have a shaft
+this shaft is supported at two bearings
+on this side and one bearing on the
+other side
+and you have a big pulley which is
+mounted on the shaft
+you have a counter right and you have
+the lift gauge
+so you can imagine you are also given
+the length this is about 1.5 meters
+so you are going to have this
+shaft it is not a rigid body
+it is deformable so it develops a twist
+because of the cage weight there is a
+Twist already and because of
+some people entering into the lift there
+is a change in weight change in torque
+that contributes to angle of twist
+and which will get magnified by this big
+wheel and you will see this as a
+vertical downward movement of the lift
+so that is very clear angular test or
+the shaft is very clear that you can
+employ the equations and then find out
+what it is
+what are the other aspects that can
+contribute to downward movement
+can you can you guess what are the other
+moments that can contribute
+see I have a
+I am holding it on one side what do you
+find is it sagging
+so I put a support I put a One support
+the sagging is very much Limited
+and what is given in the problem
+the problem says that I have three
+bearings one two and three they are
+sufficiently
+close enough so that any deflection due
+to bending
+you can ignore it that is given in the
+problem there are two ways of looking at
+it you don't have a background on
+bending so you cannot calculate what is
+the deflection due to bending
+when I put a support the shaft remains
+horizontal that's fine but if I have
+additional load which is very heavy this
+is going to cause a deflection you don't
+have a background so for the time being
+let us ignore
+as it is also given in the problem
+statement
+the bending of the shaft though it can
+contribute to Vertical deflection let us
+ignore it for the
+purpose of solving this problem is there
+anything else that can contribute to
+downward movement
+huh
+stretching of the wire that's very good
+I have a cable on this so I have a
+stretch of this that you may miss it
+fan
+so you also have extension of the cable
+so we have the accounts in this problem
+only two aspects angular Twist of the
+shaft
+and extension of the cable once you have
+understood what is to be done then
+restart the problem is application of
+what you have learned earlier
+simple and straightforward is idea clear
+say I would like you to use your
+calculators
+and then get me the numbers
+so increase of torque due to weight of
+people
+so I have Delta W into the radius of the
+pulley
+and that's also given you are given
+diameter as 1.8 meters so I get this
+number here
+and what is the increment in the angle
+of trust so I have a delta T L by g i p
+and you know what is the IEP for a
+circular shaft
+so I get this as Pi by 32 into 125
+power 4
+and your G is given in the problem
+statement as 80.77 to 10 power 3.
+and I have Delta W and the 900 is the
+torque additionally developed
+and the length it's also expressed in
+terms of millimeters
+so I am in a position to get what is
+Delta Phi
+when I
+see from this this is a suffix tend and
+then it comes to this portion
+fine
+so I have extension due to torque
+increment
+so I will have to multiply this angle of
+Twist by the radius of the pulley
+so it gets magnified because of the
+diameter of the pulley
+we have taken the radius
+from the diameter get the radius and you
+get the
+extension or downward movement due to
+torque
+is given as
+0.627 into 10 power minus 3 Delta W
+millimeter we still do not know what is
+Delta w
+see a problem becomes a design problem
+when limits are given to you
+this is a design problem because limits
+are given you are given the maximum
+downward moment permitted is only three
+millimeter
+how you arrive attack that is a big
+question
+fine
+it's not like somebody has a dream and
+then says three millimeter there are
+physical considerations so you have to
+look at that is a difficult aspect of it
+how to set limits for you to do the
+design and the steel cable will extend
+as well as due to tension and you know
+for axial load where very famous
+expression we have got do you remember
+in terms of Applied load p
+the extension is given as these are all
+very famous expression you should
+remember p l by a e don't forget that
+now replace what is p what is L what is
+the area of cross section and what is X
+modulus okay
+we are
+talking about Delta W as the additional
+load because of number of people who
+step into the left
+so this is p so p l by a e
+so I have this
+number substituted
+so I have this area of cross section
+the cable the dimensions are given so
+you have to look at that fine area is
+given area is given as 380 millimeter
+square
+you don't have to do the calculation
+your solid is given in the problem
+statement and X modulus is given
+so this gives me when I substitute the
+numbers I get this as
+0.188 into 10 minus 3
+Delta of w
+okay and it is given in the problem
+statement that this extension should be
+limited to three millimeter so you can
+easily find out what is the Delta W
+acceptable
+fine
+the child's place just substitute these
+numbers and equate it
+and when you get the
+Delta W it comes to be something like
+three six seven eight
+point three six Newtons
+see Engineers you know look at things
+from a physical perspective
+fine
+so this amounts to how many people
+suppose you have 70 to 75 is the weight
+of the person you can imagine
+so it can accommodate about five people
+and you are a designer you know you want
+to have
+some kind of factor of safety inbuilt so
+even though I can allow five people to
+step on it
+on a conservative design permit only
+four percent so put a label
+this lift Beyond four persons don't get
+onto it
+fine this is one way of learning
+while you design you take care of
+anything that you have not calculated or
+included any manufacturing defect any
+problem in the cable All That You
+inbuilt by bringing some kind of factor
+of safety
+see the cable what you have here is it's
+not simple Rod of wire
+you will have multiple strands twisted
+and factor of safety for a cable design
+is all together different you will have
+actual safety of the order of 10 because
+any small problem there
+it can be disastrous
+that is what is needed when you have a
+cable car not in the lift but in the
+cable car you have exposed to
+natural elements and also high wind
+you have you must have seen in the
+papers that people got stuck in a cable
+car and in the uh army helicopter goes
+and then rescues all that happens
+fine so factor of safety is a very very
+important concept
+you have to apply depending on the
+context
+see for a car design it was initially
+four now they have brought it down to
+very close to two or less than two but
+when you go for a cable design the
+factor of safety is very high a factor
+of 10. when you are designing a nuclear
+power plant Factor so it will be very
+high
+you don't want to take chances because
+nuclear radiation
+deteriorates the material
+so there are many consideration that go
+into it so a problem becomes a problem
+of design when limits are set
+how to select the limits that is a very
+big job to be done
+fine once you set the limits you would
+know how to use the equations and get
+the calculations
+Now we move on to the next simple but
+interesting problem
+consider a steel shaft I have
+deliberately taken simple problems the
+focus is to learn the use of equations
+and also appreciate what happens when I
+do a design from one perspective
+because here what it is done is
+the shaft can withstand the maximum
+stress of 60 MPA
+there is also another requirement that
+the maximum angular test parameter is
+only 1.5 1.25 degrees
+and the question is evaluate the shaft
+diameter based on strength and based on
+stiffness see what I want to do is while
+you solve this problem let me also
+circulate this
+so that you can have a feel of what
+happens in the case of a
+shaft you test it yourself and then see
+what happens can you correct it and then
+let this be circulated
+yeah
+so the problem is simple straightforward
+there are no steps in the shaft
+it's a simple cylindrical member
+and I have the the testing moment is
+given okay
+and you should also understand see we
+have taken the axis of the shaft as Z
+Direction because it is circular shaft
+we have taken polar coordinates to
+define the circle boundary
+and you should appreciate that the
+twisting moment is nothing but m z
+and then the moment of inertia that we
+want to calculate is actually the polar
+amount of inertia because when you go to
+bending there you you will again see i z
+but that will be a different moment of
+inertia in order to avoid confusion I
+thought that we would adopt this
+symbolism
+so I have this maximum shear stress
+introduced from our torsion formula
+you can have this as MTR divided by i t
+and the stresses are maximum at the
+outer diameters or R Max that is a d by
+2
+and then IP is
+Pi D power 4 divided by 32.
+so the shear stress maximum in a
+cylindrical shaft
+is 16 empty by pi DQ inside this
+expression also is worth to remember
+when you go for design calculation
+design of a circular shaft because when
+you have a shaft it is subjected to
+torsion it is subjected to bending it
+can also have axial Force
+so once you learn bending you must also
+get these stresses because of bending
+and when you look at that the shear
+stress you can easily calculate as 16 Mt
+by pi D Cube like I said PL by AE for
+extension of a
+member subjected to tension
+the maximum shear stress developed in a
+cylindrical shaft is 16 empty by pi D
+cube is a very famous expression
+fine
+certain Expressions you need to remember
+nothing wrong in it it's not mugging it
+up
+that means you should have solved at
+least 20 problems then you will
+automatically know that this is an
+important expression and it is given in
+the maximum shear stress is 60 MPH I
+would like you to appreciate see you
+have looked at uh mild Steel
+the yield is sent to us something like
+240 MPA
+and I said that you will never go to
+yielding in a real life structure you
+will work much below that
+so I work half of it that is 120 MPA
+then I said that you have repeated
+loading see in the case of a problem
+which I have shown there is no torsional
+oscillation on the other hand if you go
+to an IC engine you also have torsional
+oscillation
+so there the torsion is going to change
+as a function of time
+suppose I want to bring in when the
+shaft is rotating because of rotation
+the bending stresses will oscillate
+suppose from that consideration I would
+like to have the maximum stress Limited
+at 60 MPA that is one fourth of the
+yield strength of even the mild steel
+mild steel has very low yield strength
+alloy still is about 550 or so
+so even the cheapest material we don't
+want to load it and when I do the
+calculation what is the diameter that
+you get
+is it a shaft or a rod
+it is no longer Behavior it's like a
+very thin rod
+and naturally you would expect that this
+is going to have a very large value of
+angle of test
+is idea clear
+see I have taken to start with one
+fourth of the yield strength I am not
+applied very close to the yield this
+tank very very small stress I have taken
+even when I take a small stress like
+this I get a number which is very funny
+D is 6.48 millimeter I want you to
+calculate the angle of test for this do
+the calculation
+and in the meanwhile let me also go and
+proceed
+we have also set the angle of test
+should be limited to 1.25 degrees
+isn't it that's given in the problem
+statement
+and I have the expression for this is
+MTL by Gip and I've already said g i p
+is a torsional rigidity so when you
+solve problems in future calculate this
+gipa and keep it at one place so that
+you can repeatedly use it for various
+purposes
+and the angle of test will be maximum
+when L is maximum that is at the free
+end
+so I get this as when I substitute these
+numbers I get this as
+584 Mt Intel Max divided by GD power 4
+degrees I have already told you in the
+development of the equations
+C was in radians never forget that
+it was in radians what you get from this
+basic expression is in radians I convert
+the radians into degrees using this 180
+divided by I do that
+so I get this is in degrees
+so when I
+limit the angle of this to 1.25 degrees
+I get
+a reasonable size of the shaft
+which is 15.35 millimeters
+it's something better than six
+millimeter
+fine so now we have to do two
+calculations
+one calculation is when I take a
+diameter of 15.35 what is the maximum
+stress generated
+even before calculation can you tell me
+which will be more or less
+when I have a shaft
+whose diameter is increased
+we have earlier calculated the diameter
+is only six millimeter if the limiting
+stress is 60 MPA
+now I have increased the diameter
+almost double the size because about six
+millimeter this is about 15 millimeters
+slightly more than doubled
+do we expect the stress developed is
+more or less
+huh
+why do you say it is less
+okay that's good he has coupled see when
+the radius is more and more stress is
+high but energy also changes so here
+coupled and then send its proportional
+to DQ fine
+so you will anticipate that stress
+levels will be very much smaller when I
+go to this fine
+suppose I also put another restriction
+even 1.5 degrees is not acceptable
+say I want to bring home a point see
+whenever we want to understand anything
+we want to have very large deformation
+okay
+I can do this only if I have a very
+large deformation almost like close to
+one Circle I am doing it it's about 360
+Degrees I have given only then I am in a
+position to show that these horizontal
+lines has a warping
+for you to visualize you need large
+deformation but mathematics will not
+work it's not applicable when I have
+large information
+just to drive home this point I have set
+the permissible twist is only 0.3
+degrees in reality you'll have only such
+small angle of twist
+fine
+you know all our discussion in order to
+drive home what kind of deformations
+take place in torsion
+I deliberately show a large deformation
+for you to visualize the
+interrelationship and what happens
+but in reality these angles are very
+very small and our equations are
+applicable our equations are applicable
+only when you have small deformation
+never forget that
+and I find the diameter slightly
+increased 19.3 millimeter fine and
+before we discuss on the problem further
+you know I want to also discuss what
+happens when I have a hollow circular
+shaft
+it's very very important
+the same equations are applicable so you
+make a concentric hole
+and I have only a shaft
+which is like this I have also brought
+this so you have a tube okay you have a
+particular thickness for this you can
+see this
+and it's also very strong when I say
+when I twist it I am finding it very
+difficult to twist it's made of plastic
+only
+whereas the other one which I have
+circulated is made of soft material
+solid
+this is also solid
+this is also plastic ok but when I have
+it in the form of a tube
+it gives an impression that is very
+strong don't you feel so
+let us see what the mathematics say
+okay
+so this is also applicable instead of
+this going to zero it stops at whatever
+the shear stress that this radius can
+develop
+and the difference is coming in the
+moment of inertia
+see I told you among the various
+mathematical quantities
+which one recognize the cross section
+you must appreciate
+when you change the cross section moment
+definition changes
+and you all know when I put if I have
+the axis like this
+suppose I have a smaller tube like this
+I have a bigger tube like this this
+amount of inertia is going to be higher
+because the material is put away from
+the center the farther the away from the
+center axis you get higher and higher
+value is the moment of inertia so the
+moment of inertia calculation will be
+different
+okay there were the equations that you
+have derived are valid and i z or IP is
+now Pi D naught or four divided by 32
+multiplied by 1 minus d a by D naught
+whole powerful
+and also in your design people may
+specify what should be the ratio of d i
+by D naught
+that makes your calculation simple
+and when you take a hollow shaft you try
+to make the diameter little more so that
+you use less material
+and higher inertia
+because you have to satisfy the stress
+levels as far as the twisting
+requirement both are necessary
+so now we will go back to the same
+problem and calculate
+what should be the
+dimensions of an Hollow shaft to support
+the same node
+that will give you a clarity
+whether solid shaft is better or a
+hollow shaft is better is idea clear
+see the area of cross section is given
+right here we will also calculate
+and you have to remember that we have
+limited the angle of distance 0.5
+degrees and we got the diameter as 19.3
+fine
+and you are also given another
+simplification take the value of d a by
+D naught as 0.6 that is given in the
+problem statement
+because I can construct multiple Hollow
+shafts
+even if I want to map the same area of
+cross section
+so what you have is the area of cross
+section of the solid shaft I have again
+calculated it so that you really
+associate
+the results to this problem
+so I have limited the angle of testis
+only 0.5 degrees
+and I have got the result as 19.3 as a
+diameter
+so I calculate the area of cross section
+see the comparison would be valid
+I use the same material to construct a
+hollow shaft
+fine so when I do that when C is also
+given
+you know if you do the calculations it
+is possible for you to find out that D
+naught should be 24.125 millimeter
+and inner diameter is
+14.475 millimeter
+so the wall thickness is something like
+10 millimeters
+you know why I mentioned the wall
+thickness
+because you want to have higher and
+higher value of moment of inertia
+increase the outer diameter and keep
+reducing your wall thickness you can
+also do that
+isn't it
+why I am talking about wall thickness
+can you guess where do you anticipate a
+problem
+where where do you anticipate the
+problem
+I am going to twist it I am going to
+take the shaft and twist it
+when I twist what is the kind of state
+of stress there
+can be viewed as what
+at 45 degrees what do you see is shear
+as
+tension and compression
+so compression is going to give me a
+problem
+when you have a thinner and thinner
+section
+when I have a compressive load it can
+buckle I can have torsion buckling
+so you need to have a trade-off
+if I increase the outer diameter my
+Mount definition is going to increase
+but if I keep reducing the thickness
+I may also reach the Other Extreme
+when the twisting moment is transmitted
+the shaft May develop buckling because
+of testing
+see if people normally forget at the end
+of the course because we develop the
+critical load when you have compression
+on the member columns then people think
+only columns buckle
+I have discussed it even my initial
+lectures
+buckling can happen whenever you have a
+compressive load
+torsion also the
+develops compressive load at some other
+planes
+you should never forget that okay
+so I go and calculate what is the angle
+of twist for this shaft
+and when I substitute all these
+quantities
+only the inertia changes here okay
+so you can take the same expression and
+change inertia
+and substitute these values
+you find for the same cross section of
+the solid shaft
+if I use the hollow shaft with c equal
+to 0.6 that is specified in your problem
+the angle of Christ is just half of it
+that means solid shaft is
+weaker in comparison to a hollow Shaft
+or the same cross section
+so what does this imply
+I can also satisfy my design requirement
+by having
+smaller material than a solid shaft so
+that I can say material
+is idea clear
+okay and we will also do the calculation
+if the limiting angle of test is 0.5
+degrees I do not want to change it
+now I want to find out what should be my
+outer diameter and the diameter
+the outer diameter and inner diameter
+are calculated
+and then you find outer diameter is
+19.98 slightly greater than what was
+there earlier
+and inner diameter is 11.99 millimeter
+and the difference is about eight
+millimeters
+considerably thick okay it's not a very
+thin shaft
+so if I want to maintain my angle of
+distance 0.5 degrees
+it is enough that I use B naught and D I
+like this
+you can also calculate the area you can
+find out what is the change in the cross
+sectional area
+and if you have the length you can also
+say what's the change in weight suppose
+you have a design requirement where the
+weight is a consideration see if you
+look at LCA aircraft there the weight is
+a very important consideration when you
+have a power drive shaft it's all Hollow
+in an aircraft
+because every kilogram you save you save
+enormous amount of fuel in its complete
+life
+but you go to attacheki you go and find
+only a solid shaft am I right
+why people use solid chart when you find
+that Hollow shaft is better it uses less
+material
+you have to look at holistically
+I have to remove material I have to pay
+money to get the material forward you
+understand and it should also be
+concentric
+so if you look at the manufacturing cost
+in many of the design application day to
+day application there is no great
+Advantage by using a hollow shaft and
+also there is no great advantage in
+going for an alloy steel it is enough I
+work with mild Steel
+isn't it because when you see everywhere
+you don't normally come across the
+hollow shaft am I right in many of the
+applications where you have access to
+you find everywhere the solid this shaft
+is solid whereas your mathematics now
+say a hollow shaft is better
+when it uses less material it is better
+that is one way of interpretation
+other way of interpretation is to get
+that as Hollow you have to pick a cost
+so you have to have it laid off and that
+cost Advantage is necessary when I want
+to go for a aircraft design where it's
+going to save enormous amount of fuel
+understand so you are also Learning
+Center materials and also get insights
+on aspects of design that's what you are
+going to do as a next course
+so I have two design approaches we have
+looked at one is a strength based
+approach another is stiffness based
+approach
+so in the strength based approach we say
+what is the shear stress permitted
+and I said we have not taken the 60 mp
+arbitrarily I said it is just one fourth
+of the yield strangles very very small
+you are not permitting a very high level
+of stress
+and when I do this I get the shaft
+diameter as 6.48 which is ridiculous
+okay I have asked you to calculate the
+angle of this anybody has calculated the
+angle of twist for this diameter
+please do the calculation
+and then verify with my table because my
+table also has what is the
+final shear stress developed and what is
+the fee Max I want to do the calculation
+I have use the calculator and do the
+calculations and we have also analyzed
+the same problem based on the stiffness
+and you know the expression for
+stiffness as V Max equal to MTL by Gip I
+said that you have to calculate Gip and
+keep it aside for your calculations it's
+a torsional rigidity
+and in this via I have also said an
+expression for the Tau Max
+16 Mt by what is the value
+we have also I said it's a very
+important exponent that you have to
+remember
+ok so that is also a very important
+expression for you to remember
+so when I limit the angle of distance
+1.25 degrees
+for a solid shaft we got the diameter as
+15.35
+and when we limited it to 0.5 degrees
+it's slightly increased 19.3
+and when you go to a hollow shaft
+it has gone to 19.98 and 11.99
+when I limited that twist and I've also
+asked you to calculate what is the
+weight advantage
+fine if you do the calculation
+I get this is about
+31.42 percent weight reduction about 30
+weight reduction I can easily get by
+switching over to a hollow shaft
+has anybody calculate the angle of test
+for this uh
+shaft of diameter 6.48 anybody has
+number you're not doing the calculation
+you should do the calculation and then
+check because you should also pick up
+speed
+you should pick up speeds only one
+simple expression you have to calculate
+only one simple expression because you
+should also know what happens to the
+angle of trust
+okay in the meanwhile when you calculate
+I let me ask one more question see I
+have shown a circular shaft
+fine
+what I do is
+we find that Hollow shaft is very very
+strong
+radio clear now what I do is I go and
+make a thin cut here
+I made a small slit here
+what do you think it will happen What
+will be its torsional rigidity
+because we have seen compared to a solid
+shaft a hollow shaft is very very strong
+isn't it now what I've done is you know
+I've asked him to make a thinner than
+this but he has he didn't have a cutter
+so he had made this as a slit
+fine what is your
+take on it
+what will happen to the torsional
+rigidity
+huh
+it won't change you know it's like
+mathematician you have an infinite Blade
+with a small he was equivalent to a
+plate without a hole I'm happy
+I'm happy you have to give that answer
+let me test and show you I am not a very
+strong man okay
+let me assistance
+what is happening what is it you are
+seeing in reality
+drastically reduced do you get a feel
+do you get the feel it's drastically
+reduced so technically these are called
+as open sections so write down
+open sections have poor torsional
+rigidity so I am also going to circulate
+this so that you have a feel of it I am
+circulating a
+Hollow shaft
+as well as the shaft where I have
+removed this material
+fine
+so you have hollow shafts
+one has
+select paste both of it and feel it see
+feeling is very important
+if I have an open section even if I have
+a small slit even slits smaller than
+this the width is smaller than this also
+will behave in the same way
+so open sections have very poor
+torsional rigidity
+can I get the number for this table
+I have discussed all this in the
+meanwhile somebody will calculate
+you are not doing it okay
+the value comes to be
+39.41 degrees very very high angle of
+twist unacceptable
+you can't have a shaft supported on
+bearings when you have such large twists
+in the problem of the lift also it will
+not stop at three millimeter it will go
+to the next floor
+okay
+and when I go to a hollow shaft look at
+what are the stresses developed you
+guessed correctly that it is
+proportional to the D Cube so you have
+said that it is going to be smaller
+so it is just 4.51 MPA
+and when I go to 0.5 degrees when I
+increase the diameter for a solid shaft
+it goes to 2.27 MPA for an Hollow shaft
+it goes to 2.35 mph
+let me ask a question
+suppose you have to design a shaft
+out of these two approaches which
+approach would you adopt
+ah stiffness approach that's very very
+important that's that's a learning in
+this class
+so when you want to design a shaft
+shaft designs are usually stiffness
+based it's never strength based
+on the other hand if I go and design a
+spring
+it is always strength based
+you use high alloy steels for the this
+one
+and you also have an understanding that
+Hollow shafts have the advantage of
+saving the material
+fine
+and you found
+if I have a small slit you make the
+hollow shaft as open
+it loses distortional rigidity you have
+methods to calculate for the open
+sections normally it is taken up in the
+second level course so I'm not going to
+discuss that and we have already seen
+more Circle several times for the pure
+siestra state
+and you should recognize that torsion is
+a situation where I have a pure state
+and I have the principles as Direction
+the shaft is at 45 degrees so this is
+shown in a
+different purpose
+okay
+it is kept in a vertical Direction and
+that this is drawn can you draw can you
+draw the element at 45 degrees and show
+tension and compression just below and
+check with my diagram
+see you should also apply your mind
+while learning keep applying your mind
+and then find out what is happening
+so I have the shear stress
+indicated like this tell me where I will
+have tension where I will have
+compression
+just below this draw the element which
+is at 45 degrees
+tell me which is the direction where you
+have tension which is the direction
+where you have compression when you draw
+the more Circle you can easily locate
+but even without the more Circle the
+moment you see the stresses here you
+should be able to do that
+these are all training
+fine you understand the concepts better
+and then you find out how to get this
+so I have this as tension
+and this is compression which you can
+also verify from the Mohr Circle
+fine you can verify this from the more
+Circle
+and we have also seen how to paste
+strain gauges am I right
+how to paste train gauges let me go back
+to that
+because you know these are the things
+that Engineers have to do this
+repeatedly
+you also have an experiment in your
+strength or materials lab where you find
+out the torque
+using strain gauges
+so you have the
+stress State drawn
+for you to visualize very clearly
+and this is what we had seen it when we
+developed
+strain gauges for measurement of strain
+we have looked at the problem like this
+it is twister anti-clockwise
+and then
+when you draw the side view
+The Strain gauges are connected like
+this
+paste it like this it's a 45 degrees why
+45 degrees you have the reason strain
+gauge can measure only the axial strain
+it cannot measure Shear strain
+so you measure the tension and
+compression
+and you should also recognize what is
+the way the
+for this I am drawing for this picture I
+am drawing okay don't confuse this with
+this this is drawn vertical this is
+drawn horizontal for this I am drawing
+the
+shear
+and you also know that Epsilon 1 and
+Epsilon 3 are
+uh positive Epsilon 2 and Epsilon 4 are
+negative
+you should also connect them
+appropriately in the wheatstone bridge
+fine
+so they are connected like this so I
+have one two three four
+so when the adjacent terms because of
+opposite signs they add up
+opposite terms like strings they add up
+so I get four times the signal
+so when you want to use strain gauge as
+a torque sensor you want to maximize the
+signal
+so you use this front bridge all day for
+arms of the bridge
+and you use the
+knowledge of what is the stress State
+introduced in torsion in making the
+measurement also is the idea clear
+so this also review for your strain
+gauges you should take it see I
+consciously repeat Concepts
+the same concept you hear in more than
+one lecture so that I expect that your
+assimilation should be
+better
+now we will also look at the problem
+that we have taken up earlier the
+ability determine what is the
+variation of
+twisting moment
+for the same problem calculate the angle
+of test
+as well as the shear stress we will see
+some of it in the class rest of it I
+want you to solve it as part of your
+home assignment
+and we have already looked at uh
+the testing moment I am just going to
+show this
+so that we need these numbers for us to
+calculate
+if I want to calculate the angle of
+trust I need to know what is the
+twisting moment at that cross section
+so I am going to show one after another
+what is happening this you already have
+in your notes
+for the purpose of solving this problem
+when you want to calculate the angle of
+twist
+I need this numbers
+okay
+between the two angle of twist and
+shear stress shear stress calculations
+are very simple and straightforward
+angle of test you have to keep track
+what is happening along the length
+so we will take up angle of test to
+start with first
+so I have this shaft shown
+and we have the expression see at some
+section of the shaft we need to use the
+integral appropriately
+because I have a situation where the
+torque is varying as a function of
+length
+the problems we have solved we have
+taken a constant cross section
+and constant twisting moment
+I may need to use this if I have a taper
+cross section where I Z will be changing
+I can also have a shaft
+where I have one step okay I can do that
+independently but near the step
+our calculations will not be correct
+so we hang on to say any non principle
+away from the step I know what are the
+values and on either side whether it is
+a smaller Shaft or a bigger shaft
+all that idea you have to make it clear
+and I can also have a shaft constructed
+out of two materials
+like we have seen a composite cylinder
+and we equate The Strain strain will be
+equated but stress will be different
+all these concepts are identical so you
+can construct variety of problems
+so I said that you know while writing
+this expression we have got it like this
+with their access reference and I said
+it is better to put the empty equal to m
+z and I P equal to IZ
+so I will use this for doing the
+calculation
+and I also said you calculate torsion
+rigidity and keep it because in this
+problem
+the entire cross section is same there
+is no change in the cross section only
+the twisting moment changes so once I
+calculate this I can use it for all
+other sections
+okay so if I use for the first section
+it is 0 to 0.4 meters I have the
+twisting moment as minus 670 newton
+meters
+so when I substitute this
+I get this simply as
+Point minus 0.37350
+which is similar to what you have done
+now I have to move from this section to
+the next section
+I'll just indicate what is the
+catch here and
+I will stop at that
+so here I should have
+the angle of twist
+at this end and then bring in what is
+due to the next one so I have these here
+and then I sub I start from this that is
+the 0.4 to 1.8 that's why I have a
+factor Z minus 0.4 coming in here then I
+calculate this
+okay
+and when I go to the next one
+what I allowed to do is I have to do the
+integration of this
+okay
+I'll just show that and stop for this
+class
+so you know the expression for m z
+so I write the initial
+angle of twist
+then this I have to integrate I have to
+do the integration all along you have
+not done any integration
+because the moment is varying you have
+to bring in the integration here
+so in this class we have solved some
+interesting problems
+we have learned if you use the hollow
+shaft it is stronger in comparison to a
+solid shaft
+and when you look at any design of a
+shaft it is always stiffness based never
+strength based
+and we have also discussed suppose I
+have a thin slate cut in my Hollow shaft
+we found the torsional rigidity
+has reduced drastically
+such sections are known as open sections
+so any open section will have poor
+torsional rigidity thank you
+[Music]

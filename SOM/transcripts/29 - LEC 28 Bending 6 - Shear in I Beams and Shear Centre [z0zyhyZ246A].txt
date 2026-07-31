@@ -1,0 +1,1202 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on shear
+stress developed in bending
+you know we are going to discuss certain
+subtle Concepts
+which are quite important for you to
+understand the limitations of the
+equation that we have developed
+and also how to use them in solving
+actual real life problems
+see we started with shear stress
+distribution a rectangular beam
+where we had made a horizontal cut
+and based on that we have been able to
+get an expression for shear stress
+and you should recognize that even when
+the beam transmits a constant Shear
+Force
+we saw a variation in bending moment
+from cross section to cross section
+and you know you have learned that you
+have to find out the
+Q first moment of area
+that helps you to find out what is the
+shear stress acting on this surface
+okay which is located at y1
+and we have also written down a generic
+expression in terms of integrals so that
+when you have a
+non rectangular cross section you can
+find out this Q comfortably
+which you are taught in mathematics
+courses
+so I get this as V by b i z z integral y
+one to H by 2 y b d y
+and when I integrate and substitute the
+limits I get the expression Tau x y
+equal to V by 2 i z z multiplied by H by
+2 whole Square minus y1 Square
+and obviously when this area becomes
+larger and larger
+Q also will become larger and larger
+and hence your topics will be larger and
+you have this maximum when this reaches
+the neutral axis
+and you also have on the top and bottom
+fiber Q is 0 which we have reasoned out
+from free surface discussion
+see whichever way you have the
+discussion you should get one unique
+answer only then your mathematical
+analysis is correct
+that is the reason why I go back and
+forth and we are also going to determine
+the shear stress
+by solving differential equation that
+also we will do all of them will
+converge to the same answer okay
+so what we understand is top and bottom
+fiber should be zero
+and as I told you that at center of the
+cross section Q is maximum and you get
+the
+shear stress variation in like this this
+is the parabola I also emphasize all
+along we have been seeing
+shear stress varies linearly in the case
+of a torsion
+and bending introduces axial stress
+which varies linearly over the depth of
+the beam and the moment you come to
+shear
+you find that it varies parabolically
+so that is a first observation
+and when you make a horizontal cut
+we found when the bending bond is
+varying along the length
+there was an unbalance to keep the
+cut element in equilibrium you need to
+have Shear stresses developed that was
+the idea
+fine
+then I gave you a homework
+why not I make a vertical cut
+instead of horizontal cut let me have a
+vertical cut and separate out the beam
+let us see when I take the free body
+and list out what all quantities that
+act on it you will get an idea how to
+handle it
+fine
+so I have the cut portion taken out is
+the idea clear we are I've asked you to
+cut like this
+and bending moment varies along the
+length of the beam
+so I will have
+bending stress variation like this on
+the surface and bending set variation
+like this on the surface
+and you know very well
+when I substitute the bending moment
+which was smaller in magnitude here I
+will get smaller stresses I will get
+larger stresses on this face when this
+is difficult to draw and I have drawn it
+to the extent possible if you can
+improve the figure further then you are
+welcome to do so
+now the question is will this
+element
+is in a state of equilibrium or not
+do you require any additional stresses
+developed particularly on this surface
+this is surface that is cut
+fine
+what is your first appreciation of your
+understanding
+you'll have to find out what is it that
+you have to calculate
+see what is a net force acting on this
+phase
+what is the net force acting on this
+face
+net force is zero
+because I have taken a vertical cut if I
+had taken a horizontal cut
+net force is not zero
+is idea clear
+so what is the net force and
+because there is equal and opposite from
+the bottom to top
+it is zero so you do not have any
+shear stress developed on this face of
+the element
+is idea clear very subtle point
+then we move on to another cross section
+see I said whatever the bending equation
+that we have developed they can also be
+applied to open sections
+and move on to the open section see you
+will have to find out the shear stresses
+from fundamental understanding it's not
+like you have your eyes blindfolded and
+simply use the equation
+whatever the equation that you remember
+and then get the shear stress it's not
+like that because I am going to take a
+counter example I have always been
+saying shear stress has been parabolic
+in nature
+I am going to show something different
+fine and I'm going to show when I make a
+vertical cut I'm going to have something
+interesting so it this problem dependent
+you'll have to understand how the
+unbalanced force comes into play
+okay
+so before we get on to that we will also
+use an alternate approach to find out
+the shear stresses in the case of
+rectangular cross section
+you know in this course we have not been
+utilizing the differential equations of
+equilibrium we developed it in the first
+few lectures
+isn't it we have determined what is the
+equations of equilibrium
+and then we will not consider the body
+Force here
+and we will use those expressions to
+find out the shear stress
+so you will also also get an idea that
+you can also
+find out by solving differential
+equations it gives a flavor of it
+because there is no great mathematics
+involved it is very simple if I have to
+solve this as a boundary value problem
+then I have to develop lot of
+mathematics before I can solve but this
+I can get a direct solution
+so I have an element taken out it has a
+bending stress Sigma X
+and we all know that you have shear
+stress acting on the surface like this
+the idea is how to get the expression
+for top x y
+and you make an assumption and we have
+also determined it like this
+the shear stresses are distributed
+uniformly
+across the width of the beam
+fine
+and you can get the expression by
+integrating the equilibrium equations
+can you write the equilibrium equation
+when body force is absent and restricted
+only to X and Y components
+do you remember
+because in when we do that in
+rigid body mechanics you write f x equal
+to 0 f i equal to 0 f z equals zero you
+do that and similarly we also saw by
+using those expressions
+a differential equation
+you have that as dou Sigma X by dou X
+Plus dou X by dou y equal to zero
+dou Tau by X by dou X Plus dou Sigma y
+by dou y equal to zero
+in the absence of body Force
+fine
+and our interest is to find out what are
+the shear stresses
+and we know from your
+fracture formula what is the expression
+for Sigma X so I essentially if I handle
+this differential equation I am in a
+position to get mathematically the
+expression for shear stress
+but you have to use all the
+understanding that you have developed as
+part of
+interrelationship between bending moment
+and Shear force all that you have to
+know
+so what we are going to do is I have
+this as minus dot of X Y by dou y equal
+to
+dou by dou X I can replace Sigma X in
+terms of what we have determined from
+fracture formula
+you know I keep repeating this friction
+formula because if you know that you can
+solve variety of problems related to
+bending
+and you have this as MB by i z equal to
+minus Sigma X by y equal to e by rho so
+I can replace expression for Sigma X in
+terms of
+bending moment and the moment of inertia
+I write it here minus m b y by i z z
+and do you see we can make another
+simplification because our idea is
+relate the
+shear stress to the shear force that we
+have written it as a force V
+isn't it
+when you look at this expression do you
+recall how we can handle this
+I can have dou m b by dou X I can go
+back to the interrelationship
+and then write that as
+v y by ICC this you have to know you
+know whatever that we have developed
+fundamentals you have to know apply the
+fundamentals and simplify
+so once you have this is just a question
+of
+integration and then get it that's all
+okay and we have taken an element at a
+distance y one like what we have done in
+the other derivation
+and we have to go from y one to
+y equal to H by two that is top of the
+beam
+and you have to write the limits and
+also substitute very carefully do the
+mathematical step okay
+you will get the required expression
+so minus integral y one to H by 2 dou
+Tau of X Y by dou by d y
+that's equal to
+V by i z z integral y 1 to H by 2 y d y
+we have already seen this y d y is
+nothing but
+assemble Q
+so this is the same expression that we
+have got earlier also V Q by b i z z
+that we have developed it based on
+slicing a portion and then finding out
+whether it is an equilibrium
+so it is a verification that such
+procedure was indeed correct
+and also have a satisfaction having
+developed the differential equations or
+equilibrium
+you should use it at least once in a
+while in the course
+fine
+and this you have to look at it very
+carefully what happens to top x y at H
+by 2
+ah
+so that is what you have to
+be careful so I have this as V by i z z
+y squared by two y one two H by 2 and
+Tau x y equal to V by 2 i z z
+H by 2 whole Square minus y 1 square
+this was the expression that we
+were able to calculate based on V Q by b
+i c c so you have the identical
+expression and you have the satisfaction
+that you have also used the differential
+equations of equilibrium
+and it also gives a confirmation that
+what we have done
+are consistent mathematically
+and we also have a distribution
+pictorially represented in a nice manner
+I have different Elements shown
+and then you have a variation
+this is smaller here
+and you also understand on which
+surfaces you have the shear stress you
+will have a complement this year fine we
+have actually determine only this by our
+mathematics
+and this will be the complementary shear
+and near the neutral axis these
+magnitudes are higher
+and far away from the neutral axis the
+magnitudes are smaller
+see what do you understand in bending is
+when bending stress is maximum shear
+stress is zero when bending stress is 0
+shear stress is maximum
+with one exception when I have a load
+application Point like in a three point
+bending
+Shear stressors are very high near the
+top surface it is not parabolic it is
+non parabolic which needs to be taken
+care of while constructing the beams
+for your analysis you may say I stay
+away from the load application points
+and I solve my basic mathematical
+requirement
+but when you go for construction you
+have to recognize that these are the
+variation so you have this varying
+parabolically
+the same expressions are repeated
+if you have not
+return it down fully you can
+correct it
+okay
+now we shall go and see
+what happens
+how to find out the shear stress in the
+case of a i b
+say I'll have to make a horizontal cut
+I will also have to make a vertical cut
+only then I will be able to find out the
+shear stresses in all parts of the
+I-beam
+even before I go
+and do the calculation
+let me show
+what way I would calculate this Q the
+same Q is going to come in some other
+form fine
+let me see whether you look at and you
+are able to guess what is happening
+these are all the geometrical details
+you know when you write it in isometric
+view the distance is
+appear like this
+and I have a Shear force acting
+I have to find out the shear stress
+variation on the flange this is called a
+flange
+this is called a web
+and this is again called a flange
+and for me to find out what happens if I
+put a horizontal cut
+you can anticipate that horizontal cut
+will give me
+A variation of shear stress or the depth
+of the beam
+fine we have already seen what should be
+the variation
+we have seen that the variation should
+be parabolic
+and which is different from what you
+have looked at in torsion or the bending
+only the axial stress
+we will also have to find out what
+happens on the flange
+suppose I take a vertical cut
+what do you anticipate when I make a
+vertical cut
+will that vertical cut remain in
+equilibrium or will it have
+an equilibrium and some stresses have to
+be developed
+see
+when I make a horizontal cut in this OK
+or when I make a vertical cut at the
+central plane
+the story is different
+when I make a cut here
+do you love stresses increasing suppose
+we assume there will be an unbalance so
+you will have stresses created on this
+kind of a surface
+okay
+and I'll also have to calculate Q
+and then I will be calculating Q like
+this
+I have a MB here and MB plus Delta m b
+here
+and you have the
+bending stress developed
+very nicely drawn sketch
+try to
+take it out as comfortably as possible
+okay
+now I am going to make a cut here
+okay vertical cut
+so do not jump to conclusion when I get
+a vertical cut
+the result is zero that was applicable
+for a rectangular cross section
+or any closed cross section when you
+take a vertical cut you can do that when
+I have an open section you have to
+investigate the problem afresh
+so you have to go back to the
+fundamentals how we have started
+calculating the
+shear stress distribution
+so I am going to make a vertical cut
+I am talking slowly so that you have
+opportunity to write and
+take a record of this
+diagram ok so I have taken a vertical
+cat
+and then you are shown stresses on this
+surface stresses on the surface
+for your benefit the board is not smart
+right now I will make the board
+intelligent okay you make a sketch neat
+sketch of it to the extent possible
+so that you get the idea I have a
+vertical cut here
+and when I make a vertical cut
+on the flange
+this portion of the flange will not
+remain in equilibrium
+and when I make the boat smart
+it understands that it is not an
+equilibrium so it will move and this has
+to be in equilibrium because the whole
+beam under the equilibrium
+so you will have
+stresses developed on this surface
+his idea clear
+so you have to fundamentally investigate
+when I make a cut what happens
+in particularly when you want to
+understand Shear you have to go to the
+fundamentals
+even though me we may use the readily
+available equations for our calculations
+how those equations have been developed
+those steps you need to understand and
+apply carefully otherwise you can really
+make a very complicated problem
+or a simple problem make it complicated
+for you
+okay so you have to understand it's not
+just use of expression how the
+Expressions have been derived is equally
+very important
+and you know we have a sign convention
+so this is a positive or negative
+surface
+it's a positive surface so on a positive
+surface I will put positive direction as
+positive
+so you should recognize in the case of a
+I beam when I make a vertical cut
+I get this
+fzx Delta fzx
+so that is a very important learning
+and once you have done this other steps
+will be very similar
+so using the conditions of equilibrium
+one gets
+Q z x equal to minus V Q by izz I am
+skipping the steps so you can go back
+and redo the steps very similar to what
+we have done for the horizontal cut
+and we have also discussed what is the
+meaning of ah Shear flow this is force
+per unit length when you divide by the
+width you get the stress
+and
+you know you have this
+area
+which are all very nicely drawn sketches
+so you integrate it and then find out
+what is Q
+and now
+you have to tell me I'll also show you
+this
+OK this is the area a one so when I have
+to find out Q I have to actually find
+out for this area is idea clear
+so the basic expression looks very
+similar
+but the Q how it varies when I want to
+do it on the flange
+fine
+I go to the flange
+and when I pictorially represent Q let
+me see how many of you guess what is
+happening
+okay
+okay see if I want to find out what is
+the stress on this surface
+I'll have to take this much area and
+then calculate the queue am I right
+suppose I want to come to
+a portion here I will have to have a
+larger area
+how do you anticipate cutenary
+mathematically is it linear
+parabolic or cubic
+apply or go back to your mathematics see
+I am showing you the area I am showing
+the area
+and then it is increasing like this
+y d a that's all what remains constant
+here
+y remains constant so
+you have to appreciate
+shear stress can also be linear in a
+beam where it is linear you have to look
+at
+everybody thinks that shear stress
+varies parabolically fine it varies
+parabolically in some portion of the
+beam you can also have a CSS component
+Tau x z that varies linearly with
+maximum at the junction
+to zero or the ends
+it's very interesting
+so unless you understand how the
+equations have to be derived you cannot
+use the expressions for shear stress
+blindly
+you have to apply your thinking
+so I will have this Tau x z equal to Tau
+z s equal to cross shares
+that turns out to be minus V Q by T1 i z
+z where T1 is a thickness
+okay
+and even though I have expressions like
+this see normally when you get an
+expression you see that it is applicable
+everywhere and then there are
+inconsistencies
+we will also have to discuss the
+inconsistencies
+particularly this Junction is going to
+be a trouble spot this Junction is also
+going to be a trouble spot
+recognize that these are troubled spots
+but find out a way around to get over it
+that is what Engineers do
+okay
+so you have this
+varying linearly because Q varies
+linearly
+on the other hand if I take the
+um
+horizontal this one
+okay when I do this my y also will
+change
+so the change is parabolic for the shear
+stress of X Y
+so you have Tau XY as well as Tau x z
+exist in the case of a I beam
+you may have to investigate when you
+take a channel
+you you should look at how it is ok how
+it is loaded if you take an L angle
+section you will also have to find out
+what is the
+way that you have to make a cut so the
+moment you come to open sections you
+have to understand the fundamentals how
+the shear stresses are developed
+and you also have a nice
+2D picture okay
+I have this shown this you can easily
+draw this you can easily draw and then
+make your ideas clear so I have Tau x z
+equal to minus V Q by t i z z
+when I want to calculate this I will
+calculate only like this I have a small
+area and have this y
+and then the area increases
+and then I have this y remains constant
+if I do this the Y remains constant area
+keeps increasing
+so the shear stress will be 0 here and
+it will linearly vary
+reach a maximum in the junction
+and die down
+okay since we have put this as negative
+this is what is shown here Tau x is 0 it
+reaches the maximum here and then goes
+to zero
+so shear stress has
+two different distributions if I look at
+Tau x z based on the reference axis that
+we have taken it varies linearly
+this is what happens in the case of the
+flange
+and we also have the expression
+when we have Tau X Y ok
+top X Y is V Cube a b i z z
+see B is the width okay
+and you also have a sudden jump in the
+junction the the width was B1 and
+suddenly it reduces 60.
+is idea clear
+for the same area you will have two
+different points one corresponding to
+the flange and another corresponding to
+the web
+and we know that this varies
+parabolically
+I'll just put the sketch
+so I have this this point I can find out
+that is v a one by one please write down
+B1 i z z because the width is this much
+and when I am making a cut here
+okay
+I will have
+the shear stress on the flange
+will be like this
+but if I consider same point forming
+part of the web
+I will have a value as B A two y two
+divided by t i z z
+it
+goes up
+then again the whole thing gets
+replicated parabolically
+so I will eventually have a curve like
+this
+you will have a maximum value at the
+neutral surface okay neutral axis
+so I have this variation like this so
+once you know how to
+interpret this any cross section given
+suppose I give a t section you can also
+draw schematically
+fine you don't have to go to a computer
+to plot the graph you can get that
+schematically
+so what you find is
+in the
+plane like this OK when you are looking
+at Tau XY it varies parabolically like
+this and you have this varying linearly
+on the flange I have also shown it in
+various different ways
+drive home the point
+and we'll also look at what are the
+inconsistent inconsistencies and shear
+stress formula
+we have the expression Tau of x c as
+minus V Q by T1 i z z
+and I said that why you call it as a
+flow you have this as a flow coming
+fluid flow coming joining together move
+up and then separate out so that is what
+is shown here
+Tau of X Y is given as V Cube a b i z z
+so I have this and it gets separated out
+this kind of pictures you will see in
+the books also
+and the important discussion is you have
+a junction here these Junctions
+where there are inconsistencies in our
+expressions
+okay recognize the inconsistency you do
+it with care and in this you know I have
+shown that these are as sharp corners
+in practice it will not be short corner
+you will have a beautiful fillet there
+because you would like to reduce the
+stress concentration
+and I have the shear stress varies
+parabolically
+I have done it for the
+plane of symmetry fine
+and you have the
+shear stress topic Z varies linearly
+and see Shear formula is based on
+fraction formula hence all limitations
+would equally apply
+whatever the
+limitations that we have discussed on
+reflection formula at apply because I
+have a plane of symmetry here
+fine
+and you have this Junction I have
+Junction one and Junction 2
+and we found these are fussy zones I
+have two different values which I am
+saying
+and if some of you are very alert you
+would have also raised me one more
+question
+see we had done exhaustive discussion on
+free surface
+I have a top surface there's not no
+liquid is applied bottom surface
+similarly I have the top surface of
+launch bottom surface of the flange but
+when I look at my shear stress
+distribution I show this is 0 on the top
+surface satisfies our free surface
+requirement but when I come to the
+bottom surface that means this is not
+seen but this surface is seen
+okay
+if you look at the expression you have a
+value
+I just shown the
+a small portion as red this is
+applicable for the entire length of the
+flange
+okay
+you find Shear has to be zero but Shear
+formula predicts small value
+you have to accept that is that there is
+a contradiction
+fine how do I resolve the contradiction
+from an engineering point of view
+we have already seen the magnitudes of
+shear stress are much much smaller at
+least 20 times in the case of a
+rectangular cross section so if I have a
+slender beam so that is what it says
+you have to apply all this to a slender
+Beam share formula is based on
+fractional formula whatever the
+limitations
+so when I have a slender beam shares
+this determination from these
+expressions are reasonably accurate if
+you violate slenderness of the beam then
+you have to look for other formulations
+you have a t motion Co beam and then
+improve the flexor formula itself as
+well as the shear evaluation those are
+postponed for your higher studies
+you know in order to drive home the
+point the relative magnitudes because
+one focus is to illustrate what is the
+variation
+the variation is also very important
+other aspect is what are the actual
+magnitudes
+normally books stop here you know they
+show the bending stress variation which
+varies linearly shear stress variation
+which goes parabolically and it will be
+a very nice curve and I said these are
+all looking very nice but there are
+inconsistencies fine
+and if you really look at what is the
+magnitudes it's hardly anything here
+so even though I my formula gives me
+some number and it's very close to zero
+so it satisfies what should happen in
+reality
+so that is why we don't worry about it
+when it matters
+we worry about it when shear stress
+magnitude matters like at the load
+application point
+we immediately take corrective action
+fine
+if the plots are drawn to scale which we
+have also discussed in the context of
+rectangular section I am also discussing
+in the context of I section to dry home
+the point
+which is missing in many of the books
+see like we have applied fraction
+formula the only restriction was I
+should have a plane of symmetry
+so I can find out the bending stress
+using this expression
+look at the bending bond diagram and get
+the bending moment and simply apply it
+look at the shear force diagram get the
+value of e get the value of shear stress
+you can do your design course
+comfortably and for you to get the
+ah shear stress you know you also have
+to find out Q and Q is nothing but you
+progressively find out
+what happens
+at each level okay and then plot it it
+will be parabolic plot for all of this
+cause a little parabolic plot
+but the story does not end here there
+are also inconsistencies even if I take
+a simple Circle circular cross section
+we will also discuss what is the way the
+shear stress has to vary
+so what you will not appreciate is as
+long as the beam is Slender from a
+design point of view you will know how
+to calculate
+the axial stress developed due to
+bending and the shear stress developed
+due to transmitting of shear stress or
+variation of bending wound whichever way
+you want to do that
+so I said where we have to worry we have
+to consider shear stress let me ask I
+take a rectangular cross section now you
+are all taught if I have
+it has to transmit essentially bending
+load the inner core is not participating
+and you want to be very optimal engineer
+okay that's why you should not do
+optimization to the hilt God has given
+you two kidneys he has not given you one
+kidney okay he was very careful
+suppose I want to remove the material
+and then make an eye section you all
+know inner core is not participating
+what is the limit can I keep on going
+like this remember all the material
+you should not do that what do you
+anticipate I have given you the clue
+and that this also says Shear stresses
+what happens
+where this happens this happens at the
+Central
+core okay so what would happen when I
+have shear stress how do you visualize
+it from our earlier discussion
+we have been discussing that
+a shear stress pure shear stress can be
+looked at as
+tension and compression okay the moment
+I have compression what will happen
+I can have buckling
+okay I can have one form of buckling
+which is recorded in literature
+you have this buckling and when I put
+this
+45 degrees you see there is a compressor
+is developed so don't handle shear
+stress as innocent it can be very
+damaging to you if you don't recognize
+it's another Avatar because we have seen
+when you look at the Moon circle you
+should recognize the same stress tensor
+can appear in different ways so it can
+precipitate failure in one form
+but you can also have failure in another
+form I I do not know how many of you
+have noticed it see the moment why
+people fear bending
+I'll have tension as well as compression
+even if I take a simple rectangular beam
+okay so before we go into that you also
+have
+honeycomb structures in all space
+structures they use Honeycombs to make
+the web portion lighter okay and then
+have the flanges so that I'll have a
+good inertia that's how it is done
+that's one way of practically handling
+this
+and then even if I take a rectangular
+beam
+because I have tension at the top and
+compression at the bottom
+you have flange also can buckle
+forget about the web here I talked about
+the web extreme condition I showed that
+it's almost like a thin plate
+I can also have flange buckling and the
+flange buckling is you know it can make
+the beam to bend as well as twist
+is area clear
+so you will have to worry about when you
+are designing the cross section
+find out the extreme situations
+don't simply reduce to have maximization
+of one parameter you'll have to
+holistically look at the problem and
+take a decision okay
+you know I have a i section and then we
+have already looked at how to put the
+Shear flow
+and I can construct a channel out of
+this suppose I knock off this and knock
+off this I can construct a channel out
+of this
+do you anticipate something because the
+diagram is drawn with arrows
+suppose I knock off this and or knock
+off this cut this off
+do you anticipate something happening to
+the beam
+on the strength of what is shown as
+arrows here anybody looks at it
+I could see some hand movement that's
+correct the hand movement should they
+translate into words
+huh it will also twist
+okay very funny this twisting is
+different from our buckling earlier I
+said that rectangular cross section can
+have a buckling because of that it can
+have a bending and twisting but here if
+I put this and make my board smart
+it's going to test
+okay it's it's not good it's exaggerated
+see to drive off the point what do I do
+I have to tell you that there is
+unbalance so this has to twist and I've
+always emphasized
+that we should look at the experiment
+and convince ourselves what happens
+is idea clear so we will also look at
+the experiment and
+you have a concept called Shear Center
+please write down you have to write down
+this
+if my applying my
+bending load whatever the load that
+causes bending not along the centroidal
+cross section
+but along a point like the shear Center
+which is away from this
+you can find that these two form a
+couple
+it opposes the couple here so it will
+not test it will only Bend
+I'm telling you Theory I will
+demonstrate by an experiment because you
+have always seen everything by
+verifying with an experiment
+is idea clear
+we have just not taken on the face value
+of simple discussion
+so I have this
+what are the quantities that I am going
+to have this is because it is not having
+an axis of symmetry I will have non-zero
+I by Z
+we have taken a cross section with
+symmetry in all our calculation i y z
+was Zero but you will have a non-zero
+value now
+and that is what is shown here I do not
+know whether you are able to see I have
+also uploaded it with the shear Center
+if I do it with a Shear Center it will
+not
+okay you have this
+can you see that this line is not
+straight it is getting twisted
+I'll also show you a bigger picture
+suppose I apply it outside it will only
+Bend
+that's like putting it here for clarity
+I have shown a large distance but in
+reality it is small
+and we will see that also in a bigger
+diagram so
+so I have Tau XY equal to V Q by b i z z
+and then I have Tau x z also
+and when I take the same channel
+like this
+for this case I was e0
+because this has a vertical plane of
+symmetry
+my loading plane is like this okay and
+it has a plane of symmetry the plane of
+symmetry comes when you look at what
+happens are equal
+see this is also a channel this is also
+a channel
+I can put the channel like this and
+apply my bending Theory and then all the
+other calculations I can do I can also
+do the calculations here
+but if I apply the load along the y axis
+I will have this also getting twisted I
+should apply it slightly away
+we will see this in a bigger
+diagram
+you have to appreciate that twist is
+arrested if loading is along the shear
+center it's a concept it's a conceptual
+development there is something called
+Shear Center
+funny name that's what you have to look
+at I mean you have put that along that
+axis if you apply the load it's not
+going to twist
+some somebody coined it as share Center
+it got stuck
+okay
+so you can still use the
+expression for
+normal stress from bending
+comfortably here and let us see the
+tests again okay you please make an
+observation what is happening
+do you find that this is inclined it's
+very clear in this animation
+it was so difficult for me to press
+because this is made of aluminum not not
+a plastic
+you see a market difference don't you
+see that
+so you are you appreciate there is
+something called a share Center
+I can just make a open section like this
+to only Bend not twist and L angle
+you can see this is this is beautifully
+getting tested because it's not as stiff
+as this
+so I could show that twist better and
+Shear Center is very close to this and
+you find that this is moving straight
+okay
+and now let us take a I want you to do
+it yourself okay because that will give
+you Clarity you have always emphasized
+make a sketch of this I have a t beam I
+have always emphasized that in our
+calculations in our derivation we only
+evaluate the particular component
+but you should also get the practice
+how to recognize the stress tensor at
+the point of Interest I have given you
+the access I have this as G and Y
+and you have the x axis along the
+length of the beam
+I am taking three points point a is on
+the top surface of the beam
+point B is on the centroidal plane
+I mean this is also the
+neutral surface
+and the C is on the outer surface
+and you have a point D on the flange
+so you have to find out what is the
+stress tensor
+and you will also have to tell me what
+is the magnitude of the
+stress quantity whatever the expression
+that we have
+develop it's more of a recapitulation
+and to
+what happens at point a point a is on
+the top surface what is this stress that
+is developed there
+what are the stress components that can
+exist there on the top surface of the
+beam
+only
+I am not getting it I'm not getting the
+answer can you repeat it
+only in normal stresses ok so I have
+this as Sigma x x and all other
+quantities are 0 and do you have an
+expression for normal stress
+you have the fracture formula and can
+you write down the expression for normal
+stress
+okay
+so we have followed a symbolism so that
+I have
+put for a positive bending moment you
+will have a compressor stress on the top
+with that symbolism of this expression
+is written and you all know that this
+varies
+linearly this is made of one material
+it's not made of two material so if a
+centroidal plane coincides with the
+neutral surface ok
+and can you sketch shear stress
+variation
+when I say shear stress the dominant
+shear stress here is that of X Y you put
+the topics by variation
+can you put the topics by variation let
+me know how how many of you make a
+reasonable guess of it because you
+should yeah you're right you're right
+okay so I I have the point B is the
+point B is
+in the centroidal axis ok
+so in the central axis what is the
+stress that you anticipate
+what will be the substance are
+yeah I I get I get good answers because
+you make mistakes the class is the right
+place that you have to make mistakes
+not in exams
+okay
+what is the stress that is going to be
+there see I have changed only the cross
+section we had discussion on what
+happens in bending what happens uh when
+I act like a cantilever I have only a
+constant Shear Force
+so at Point b i x anticipate only
+shear stress there is no normal stress
+fine top x y and you do you have an
+expression for it
+you have an expression for it
+of x y equal to V Q by b i z z
+and I have asked you to draw this and
+some people have got this
+you know this is also hand drawn so you
+will also have to accept me that
+it should reach as a maximum in the
+central plane and the dies down
+parabolically
+okay and if you really look at the
+magnitudes I have drawn it slightly
+smaller it can even be much smaller than
+this okay to drive home the point that
+values are very close to zero in the
+flange
+and point C is again very simple
+what is the stress that you have you
+have only
+normal stress because I have put this as
+tensile I put this as compressive or you
+can say that my mathematics will give me
+either way you can take it now I take a
+special Point d
+you have to tell me what all stresses
+can exist at Point d
+very good so I will have in the case of
+d
+I also recognize that the shear stress
+varies linearly Tau x z
+so this is a very special point this is
+the most populated stress tensor
+do you have an expression for finding
+out the Tau xcc
+minus V Q by t i z z
+so in this class we have looked at
+certain further discussions on shear
+stress in bending we have also been able
+to derive the basic expression by
+differentiating the by integrating the
+differential equations
+by looking at the equilibrium conditions
+for a rectangular cross section we have
+been able to find out the shear stress
+distribution
+then we moved on to
+what kind of shear stress possible in an
+open section like I cross section we
+have seen that that could be a Tau xcc
+component which varies linearly and Tau
+XY varies parabolically
+and we have also looked at certain
+inconsistencies on the
+shear stress equations and we said that
+you have to live with it
+and whatever the limitations in fracture
+formula is equally applies to shear
+stress you have to have slender beams
+that's very important and we have taken
+a cross section of T and we have found
+out for selected points how do you have
+this trust inside it's very very
+important you only have the Expressions
+to calculate the components the
+components look like scalar only when
+you put it in a matrix form you can
+recognize that as a tensor thank you
+[Music]
+thank you
+thank you

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Closures</title>
+<style>
+  :root {
+    --paper: #fbfaf6;
+    --ink: #2b2620;
+    --accent: #355070;
+    --rule: #ddd7c8;
+    --code-bg: #f3f0e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #1b1a17; --ink: #e8e3d8; --accent: #8fb4d9; --rule: #3a362d; --code-bg: #242119; }
+  }
+  :root[data-theme="dark"] { --paper: #1b1a17; --ink: #e8e3d8; --accent: #8fb4d9; --rule: #3a362d; --code-bg: #242119; }
+  :root[data-theme="light"] { --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --rule: #ddd7c8; --code-bg: #f3f0e8; }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 8rem;
+    line-height: 1.7;
+    font-size: 1.18rem;
+  }
+  h1 { font-size: 1.85rem; line-height: 1.25; margin-bottom: 0.3rem; }
+  .kicker { color: var(--accent); font-style: italic; margin: 0 0 3rem; }
+  h2 { font-size: 1.35rem; margin-top: 3.2rem; }
+  p { margin: 1.1rem 0; }
+  code { font-family: 'SF Mono', Menlo, Consolas, monospace; font-size: 0.92em; background: var(--code-bg); padding: 0.1em 0.35em; border-radius: 3px; }
+  pre {
+    background: var(--code-bg);
+    padding: 1.1rem 1.3rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    line-height: 1.5;
+    font-size: 0.95rem;
+  }
+  pre code { background: none; padding: 0; }
+  a { color: var(--accent); }
+  .aside {
+    border-left: 3px solid var(--rule);
+    padding-left: 1.1rem;
+    margin: 1.6rem 0;
+    color: var(--ink);
+    opacity: 0.82;
+    font-size: 1.02rem;
+  }
+  .predict { margin: 1.4rem 0; }
+  summary { cursor: pointer; color: var(--accent); font-weight: 600; padding: 0.5rem 0; }
+  details {
+    border-left: 3px solid var(--accent);
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    margin: 1.2rem 0 1.8rem;
+  }
+  details[open] summary { margin-bottom: 0.6rem; }
+  hr { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  .nav { display: flex; justify-content: space-between; margin-top: 3rem; font-size: 1rem; }
+  .signature { text-align: center; color: var(--accent); font-style: italic; margin-top: 4rem; }
+</style>
+</head>
+<body>
+
+<p class="kicker">Namaste JavaScript · Crux 5 of 9</p>
+<h1>Closures</h1>
+
+<p>Crux 1 gave you a rule you've trusted for four lessons now, and I planted a loose thread in crux 3 that it's time to pull: <strong>once a function returns, its execution context is deleted.</strong> Gone. Not archived, not paused — deleted. So predict this one using only what you already know:</p>
+
+<pre><code>function outer() {
+  var counter = 0;
+
+  function increment() {
+    counter++;
+    console.log(counter);
+  }
+
+  return increment;
+}
+
+var inc = outer();
+inc();
+inc();</code></pre>
+
+<div class="predict">
+<details>
+<summary><code>outer()</code> already returned before either <code>inc()</code> call. Its execution context — and <code>counter</code> along with it — should be gone. What happens?</summary>
+<p>It prints <code>1</code>, then <code>2</code>.</p>
+<p>Not an error. Not <code>undefined</code>. A real number, that keeps incrementing, correctly, across two entirely separate calls made long after <code>outer</code> finished running. Something is holding <code>counter</code> alive that, by crux 1's rule, should not exist anymore.</p>
+</details>
+</div>
+
+<hr>
+
+<h2>The rule needed one more clause</h2>
+
+<p>"Deleted when the function returns" was never wrong — it was incomplete. The real rule: an execution context's memory gets reclaimed <strong>once nothing can reach it anymore.</strong> Usually, the moment a function returns, that's instantly true — nothing outside ever had a way to touch its local memory in the first place, so it's safe to throw away.</p>
+
+<p>But <code>increment</code> is different. Remember crux 3: every execution context is created holding a live reference to its lexical environment — not a copy, a pointer. <code>increment</code> was written physically inside <code>outer</code>, so its lexical environment reference points straight at <code>outer</code>'s local memory. When you <code>return increment</code>, you're not just handing back a function — you're handing back that function <em>together with its live reference to outer's memory</em>. As long as <code>inc</code> exists somewhere holding onto that returned function, <code>outer</code>'s memory is still reachable through it. Not reachable — not deleted.</p>
+
+<p>This bundle — <strong>a function, plus the lexical environment it was born into, kept alive together</strong> — is what a closure actually is. Not a special syntax, not something you opt into. Every single function in JavaScript forms one automatically, the moment it's created. You've been building closures since crux 3 without a name for it; most of them just never outlived the call that made them, so you never noticed the memory surviving.</p>
+
+<div class="aside">This is also the honest answer to a question you might have quietly been sitting with: garbage collection. JavaScript reclaims memory once it's unreachable — and a closure is precisely what makes memory <em>stay</em> reachable past the point crux 1 would otherwise have deleted it. <code>outer</code>'s execution context survives for exactly as long as something, somewhere, still holds a reference to <code>increment</code>. Set <code>inc = null</code>, and once nothing else references it, <code>counter</code>'s memory finally becomes eligible for collection.</div>
+
+<hr>
+
+<h2>Reference, not value — the trap that catches everyone</h2>
+
+<p>Here's the detail that separates "I can define closure" from "I can predict what closures actually do," and it's the single most common closures interview question there is. A closure remembers a <strong>reference</strong> to a variable, not a snapshot of its value at creation time. Watch what that means:</p>
+
+<pre><code>function printNums() {
+  for (var i = 1; i <= 5; i++) {
+    setTimeout(function () {
+      console.log(i);
+    }, i * 1000);
+  }
+}
+printNums();</code></pre>
+
+<div class="predict">
+<details>
+<summary>Prints 1, 2, 3, 4, 5 — one per second? Predict before opening.</summary>
+<p>It prints <code>6</code>, five times, at roughly one-second intervals.</p>
+<p>Not what most people expect on the first pass, and it's worth sitting with why.</p>
+</details>
+</div>
+
+<p>Walk it through with what you actually know, not what feels intuitive. The five callbacks passed to <code>setTimeout</code> each form a closure — but a closure over <em>what</em>? <code>var</code> is function-scoped, not block-scoped (crux 4). There is exactly <strong>one</strong> <code>i</code> for the entire loop, one single memory slot, and all five callbacks close over that same slot — five separate functions, one shared reference.</p>
+
+<p>Second piece: JavaScript does not pause the loop to wait for a timer. <code>setTimeout</code> hands its callback off, attaches a timer, and JS immediately moves to the next iteration — it'll be crux 7 before you see exactly how, but for now just trust that the loop runs to completion essentially instantly, all five callbacks scheduled, long before even the first timer (1000ms) has expired. By the time any of them actually fires, <code>i</code> has already been incremented all the way past the loop's exit condition, landing at <code>6</code>. All five closures share that one slot — so all five print whatever's sitting in it now: <code>6</code>.</p>
+
+<p>Notice the delays themselves — 1000ms, 2000ms, 3000ms, 4000ms, 5000ms — still come out staggered and correct, even though every logged value is <code>6</code>. That's not a contradiction, it's the whole lesson compressed into one line: <code>i * 1000</code> is <em>computed immediately</em>, on each pass through the loop, and handed to <code>setTimeout</code> as a plain number — done, fixed, no reference involved. What runs <em>inside</em> the callback, <code>console.log(i)</code>, is a closure over the variable itself, read fresh at fire time, long after the loop and every value it ever held except the last are gone. Same <code>i</code>, two completely different relationships to it.</p>
+
+<p>You already know the one-line fix, and you can predict why it works before I say it:</p>
+
+<pre><code>function printNums() {
+  for (let i = 1; i <= 5; i++) {
+    setTimeout(function () {
+      console.log(i);
+    }, i * 1000);
+  }
+}
+printNums();</code></pre>
+
+<div class="predict">
+<details>
+<summary>Same code, var swapped for let. Why does this print 1 through 5?</summary>
+<p>Because <code>let</code> is block-scoped, and — a fact from crux 4 worth having ready — the spec makes a <code>for (let ...)</code> loop create a genuinely <strong>fresh binding of <code>i</code> for every iteration</strong>, not one shared slot. Five iterations, five separate memory locations, each holding its own value. Each callback's closure now points at its own private <code>i</code>, untouched by the other four — so each prints exactly the value it captured.</p>
+</details>
+</div>
+
+<p>Worth knowing for an interview that specifically forbids <code>let</code>: you can fix the <code>var</code> version by hand, using nothing but what you already understand about closures — wrap the scheduling in its own function, called fresh each iteration:</p>
+
+<pre><code>function printNums() {
+  for (var i = 1; i <= 5; i++) {
+    function scheduleLog(i) {
+      setTimeout(function () {
+        console.log(i);
+      }, i * 1000);
+    }
+    scheduleLog(i);
+  }
+}
+printNums();</code></pre>
+
+<p>Each call to <code>scheduleLog</code> spins up its own execution context (crux 1) with its own parameter <code>i</code>, a fresh copy each time — and the inner function closes over <em>that</em> private copy instead of the loop's shared one. Same fix as <code>let</code>, hand-built out of function scope instead of block scope.</p>
+
+<hr>
+
+<h2>The other thing closures are good for: hiding data</h2>
+
+<p>A global variable is public property — anything, anywhere in your program, can reach in and change it. If you need a counter that only your own code is allowed to touch, closures give you that for free, no special syntax required:</p>
+
+<pre><code>function makeCounter() {
+  let count = 0;
+
+  return function () {
+    count++;
+    return count;
+  };
+}
+
+const counterA = makeCounter();
+counterA();
+
+console.log(count); // ?</code></pre>
+
+<div class="predict">
+<details>
+<summary>Predict the final line.</summary>
+<p><code>Uncaught ReferenceError: count is not defined.</code> <code>count</code> was never in the global scope chain to begin with — it lives only in <code>makeCounter</code>'s local memory, kept alive by the closure the returned function carries. The only way to touch it, ever, is through <code>counterA()</code>. No other code, anywhere, has a path in.</p>
+</details>
+</div>
+
+<hr>
+
+<h2>Your turn</h2>
+
+<p>Two independent calls to the same factory. Predict all four lines.</p>
+
+<pre><code>function makeCounter() {
+  let count = 0;
+  return function () {
+    count++;
+    return count;
+  };
+}
+
+const counterA = makeCounter();
+const counterB = makeCounter();
+
+console.log(counterA());
+console.log(counterA());
+console.log(counterB());
+console.log(counterA());</code></pre>
+
+<details>
+<summary>Reveal</summary>
+<p><code>1</code>, <code>2</code>, <code>1</code>, <code>3</code>.</p>
+<p>Every call to <code>makeCounter()</code> creates a brand-new execution context, with its own brand-new <code>count</code> — crux 1's rule, completely unaffected by any of this. <code>counterA</code> and <code>counterB</code> are two entirely separate closures, each holding a reference to its own private <code>count</code>, never each other's. <code>counterA</code> climbs 1, 2, pauses while <code>counterB</code> starts fresh at 1, then <code>counterA</code> resumes exactly where it left off, at 3 — because its particular closure's memory was never touched by anything <code>counterB</code> did.</p>
+</details>
+
+<hr>
+
+<h2>Where this leaves you</h2>
+
+<p>A closure was never a feature you turn on — it's what a function <em>is</em>, once you take crux 1's execution context and crux 3's live lexical-environment reference seriously at the same time. Every function carries its birth environment with it, permanently, wherever it goes; that's why it can keep working with variables from a scope that's technically already "returned." The loop-and-<code>setTimeout</code> trap and the private-counter trick are the same fact, aimed in two different directions: one is what happens when several closures accidentally share one slot, the other is what happens when you deliberately make sure nothing else can reach a slot at all.</p>
+
+<p>Put <code>debugger;</code> inside <code>increment</code> from the very first example, run it, and open the Scope panel. You'll see an entry labeled, literally, <strong>Closure (outer)</strong>, with <code>counter</code> sitting inside it — memory that crux 1 said should already be gone, named and made visible by your own devtools, not by me telling you to trust it.</p>
+
+<p class="signature">Namaste 🙏 JavaScript.</p>
+
+<div class="nav">
+  <a href="index.html">← back to the ladder</a>
+  <span></span>
+</div>
+
+</body>
+</html>

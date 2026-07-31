@@ -1,0 +1,1264 @@
+[Music]
+digital India educated India
+[Music]
+see we have learned in the previous
+classes
+how to find out the
+bending stress
+and also
+the shear stress induced in bending when
+you have Shear Force transmitted by the
+beam you have shear stress introduced
+when it transmits only bending moment
+that happens when I have only four point
+bending the transmitting only constant
+bending moment you get bending stress
+and when I have a combination of Shear
+force and bending moment we said look at
+the bending one diagram pick out the
+bending moment and the shear Force use
+these equations to calculate the bending
+stress as well as the shear stress
+now we shall solve a few problems in
+this class
+see the whole idea is
+you know you will have to appreciate
+what is the imbalance comes because of
+variation of bending moment along the
+length of the beam
+and that is what is shown here
+if you don't account for
+the shear stress developed you will have
+the element moving like this
+and to get this what we have done was we
+have sliced the beam horizontally
+in a new situation you should know how
+to look at how does this imbalance cause
+us
+relative motion because you may want to
+solder it in a particular way or weld it
+in a particular way or you may want to
+nail it in a particular way when you
+want to construct anything
+fine so the basic idea here is because
+of variation of bending moment along the
+length of the beam
+when you take an element
+by slicing it horizontally
+you find
+this is not
+in equilibrium unless you consider there
+is sharing action on the bottom of the
+surface
+so that is a conceptual discussion and
+you should be able to visualize it and
+exploit it depending on the problem
+context
+and once you have this you know you have
+a basic expression so you pick out the
+shear force from the shear force diagram
+calculate the shear stress pick out
+bending moment from the bending moment
+diagram calculate the
+the stress that varies linearly over the
+depth
+we call that as a bending stress
+and I have also emphasized if you take a
+rectangular cross section
+and if you consider a simple problem of
+three point bending
+if you plot the normal stress and the
+shear stress
+to scale you find the bending stress is
+of very high magnitude and the shear
+stress is of very very small magnitude
+many books emphasize the variation the
+bending stresses varying linearly
+whereas shear stress varies
+parabolically that is also an important
+knowledge
+it is also pertinent that we realize
+that the shear stress magnitudes are
+very small and for this case we have
+discussed if I have my length this 10
+times the H then I'll have this as 20
+times smaller so you have to recognize
+occasionally we will also say the shear
+stress effects are negligible ignore it
+there are instances where shear stress
+effects are very significant
+you will have to be sensitive to that
+where to use it where to
+neglect it
+and you know you have an interesting
+problem in fact this problem sheet was
+circulated the idea is once you read
+what the problem is and Ponder then you
+get an idea how to approach the problem
+and whatever the discussion that we are
+going to have you are in a better
+position to follow because you have
+already looked at the problems that we
+are going to discuss today
+so it is a very simple problem
+what you have is you have planks
+and then you want to make a box
+I can make a box like this I can also
+make a box like this
+see this is just to give you some food
+for thought
+to realize how the imbalance because of
+the variation of bending moment is going
+to cause the
+shear stress
+from a academic point of view
+is idea clear I have two cross sections
+like this
+we have already discussed what is the
+expression for Russia stress we know
+that this is nothing but V Cube by
+b i z z okay
+and then you know Q is nothing but first
+moment of area of the cross section
+so what happens in this situation and
+what happens in this situation
+because I am nailing it horizontally
+here
+so this is the one
+which would try to have a relative
+motion which needs to be arrested by the
+nails
+you have to be firmly connected you
+cannot simply insert it and then say
+make a beam out of it or even if you
+apply the glue which is very weak it's
+also
+not going to work because we have
+already seen in the glass plate problem
+where you want to support the books if
+you put an extra glass plate
+without any connection between the
+earlier glass plate its strength was
+very very small because we have done the
+experiment when we want to understand
+how Shear stresses are developed in the
+beams
+so the nailing is very important and you
+have to recognize that this is the area
+which is going to contribute to the
+relative motion so whatever the shear
+Force generated
+because of this
+and the idea is
+an academic exercise because you know
+when you construct a beam in one way it
+is much smoother when you've been
+construct the beam in another way it is
+not smooth okay
+and you find area a is smaller than area
+B so obviously I'm going to get smaller
+value of shear stress
+is idea clear
+because I am going to get smaller value
+of shear stress
+from your calculation point of view
+this is the better design
+but if you look at you know workmanship
+whether the carpenter does this
+workmanship whether he smoothens the
+surface or not whether it looks elegant
+for you to look from the top
+you would go for this kind of a design
+but the variation is very very small
+you can use either of the two from
+practical point of view
+from your calculations point of view
+this will have a lower shear stress
+which gives you some food for thought to
+visualize the shear effects
+is idea clear
+find here you are going to experience
+Shear effect on this surface vertical
+surface on this vertical surface whereas
+here you will experience it on this
+horizontal surface
+so there is a difference from what you
+have learned earlier
+and particularly when you have to handle
+the shear effects you should understand
+the concept and invoke your usage of
+those Concepts appropriately
+now let me give you a homework you know
+you have taken the slice horizontally
+fine
+now what I want you to do is I want you
+to slice it vertically
+and go and investigate whether the
+sliced portion is in equilibrium
+or do you need any shear stress
+developed at appropriate places is the
+idea clear instead of slicing it
+horizontally slice it vertically at any
+section
+one third one fourth any section that
+doesn't matter it should be sliced
+vertically
+do that as a homework
+then we move on to a very interesting
+problem you know I have to
+strengthen my I-beam
+and one way of strengthening the I-beam
+was
+simply to put a steel plate on top of it
+and bottom of it
+and firmly connected with reverse that's
+a very important statement it's not just
+placed on the original aluminum I-beam
+the steels extra sheet what is pot it is
+put on the top as well as put at the
+bottom symmetrically
+and this is also made integral with the
+ipin that is a very very important
+statement
+fine
+now this has to support a bending moment
+of eight kilo Newton meter and you are
+given the properties of aluminum and
+steel and your geometric details are
+given you have to find out what are the
+strains developed and what are the
+stresses developed let me ask a question
+because before we solve the problem we
+should also anticipate
+I am going to have a Beam made of two
+different materials
+we have to look at the strain you'll
+also have to look at the stresses
+we have learned in our basic development
+of the theory The Strain variation is
+linear and we have also learned stress
+variation is linear
+how do you expect when I have the
+aluminum and steel which is by material
+here
+how do you anticipate the strain to vary
+how do you anticipate this trust really
+is the question clear
+the concept that you have to learn as
+part of this problem is also that
+we have learned
+from using a Sim single material we have
+learned that strain varies linearly
+stress varies linearly but now I have a
+different beam
+wherein I have put steel plate on top
+steel plate at the bottom I have not
+Disturbed the symmetry
+when I have not Disturbed the symmetry
+first question is
+where do you expect your neutral surface
+will it coincide with centroidal surface
+of the complete cross section
+it will coincide the centroidal surface
+of the complete cross section because it
+is symmetrical suppose I put my steel
+plate only on one side of the aluminum
+beam
+because of accessibility
+I don't have access to the other side
+and this side is weaker I put a plate
+then you will have to find out where the
+neutral surfaces symmetry is Disturbed
+so here we are taking a simpler problem
+where symmetry is not Disturbed but I
+have a Beam made of two different
+material
+and also mind you you are also having ah
+an open section see while discussing
+torsion we have never looked at open
+sections I only said open suctions have
+a very poor torsional rigidity I said
+that usually the evaluation of Shear
+stressors in open section is relegated
+to the second level course
+so whatever we have learned in simple
+beam theories quite applicable for a
+variety of cross sections
+we have only put a restriction that it
+should have an axis of symmetry and the
+loading should be in the axis of
+symmetry
+so first thing you have to calculate is
+moment of inertia of the
+beam as a whole so you develop it for
+aluminum I want you to do the
+calculations
+so you will also have to pick up speed
+and you'll also have to remember all
+those parallel axis theorem you have
+studied all that isn't it all those
+aspects you have to remember
+and I can imagine I section as one
+rectangular cross section like this and
+two rectangular cross section kept away
+so I can find out the moment of an issue
+about the taxes and use the parallel
+axis theorem and I want to find out from
+the centroidal axis okay
+so when I go to aluminum
+I have b d Cube by 12 for this rectangle
+here
+and for this rectangle I have b d Cube
+100 into 10 Q by 12
+so I have two of them so I have a
+multiplication Factor 2 here
+and I also put the parallel axis theorem
+I have to put a r squared and then I
+have the area and I have put the
+distance so this you can calculate what
+is the value of this
+and this turns out to be
+23.9 into 10.6 millimeter per 4. please
+do the calculations on similar lines
+I can also find out the I is easy for
+the steel cross section
+and you are given the dimensions
+so I have b d Cube by 12. and then a r
+Square two of them I have I have iccs
+so now we will have to look at
+how do you find out the curvature
+because that is needed for us to
+calculate the stresses
+fine instead of one material I have two
+different materials
+so we okay I have also got this as
+number 15 into 10 per six millimeter
+power 4
+and basically you look at what is the
+bending moment
+that is related to minus of integral y
+Sigma x d a
+and we have to write in long hand what
+is Sigma X because now I have two
+different materials
+isn't it earlier we had e was constant
+now now e changes when you change a
+material is different means I have One X
+modulus for aluminum another Rings
+modulus for steel
+and let me look at the fracture formula
+so I can express Sigma X
+in terms of e rho and Y
+I can substitute it here
+so I will have one for aluminum another
+Force t
+is idea clear
+so what I do is I basically rewrite this
+expression
+from my basic fructure formula
+in terms of the ends modulus so now I
+have a relationship between the bending
+moment
+and the radius of curvature
+I have bonded the steel plate firmly it
+is integral with it it is done by
+riveted joint if they are separate I
+cannot write like this
+because they are integral I can write
+like this
+I can simply write this in a known
+Expressions which we have already
+calculated e aluminum i z z divided by
+rho plus e steel icg of Steel divided by
+rho
+and we want to find out what is uh
+radius of curvature
+that is simply
+e i of the material one e i for the
+material 2 divided by bending moment
+so very very important relationship
+this is mainly because it is bonded
+firmly
+I have not just put see in this diagram
+we want to calculate only the moment of
+inertia we have not shown the reverted
+connection
+fine
+I should have shown some dotted lines
+that the words are somewhere at the
+behind which is not shown but you should
+not consider that the steel plate is
+just put on top of it
+so once you substitute these expressions
+I also get this rhodius of curvature as
+a number
+602875 millimeters
+so once I have this calculation of
+strain is
+straightforward calculation of stress is
+also straight forward now I want you to
+think and then tell me how do you
+anticipate the strain variation
+how do you anticipate the stress
+variation
+both have to be linear
+you have to visualize what happens at
+this joint
+and at this joint
+what do you anticipate for strain and
+what do you anticipate for stress
+do you expect both of them to be
+identical please be louder
+strains are equal what happens to stress
+discontinuity I am very happy that is
+the purpose of this problem
+fine
+you have got the idea clearly so I have
+Epsilon X as minus y Max by rho
+and you know as you grow
+older and then solve more and more
+problems the moment you come to bending
+even though my basic equation contains
+this symbolism sign convention
+which says that if I have a positive
+bending moment the top surface is
+compressive so I have negative sign
+coming and bottom surface is tensile
+once you are accustomed to solving
+problem we normally look at D Max as
+modulus of Y Max by rho fine I'll not
+worry about the sign I will just get the
+numbers then from the physical
+appreciation of the bending of the beam
+I will say whether it is compressive or
+tensile which is practice normally done
+once you go for design operation
+elements it is better to learn that here
+we have learned it very systematically
+with proper sign convention
+and when you solve problems after
+problem you want to find out what is the
+maximum strain you you want to know what
+is the distance from the neutral axis to
+the fiber which is farthest away here I
+have a symmetrical beam
+if I have a t section one side will be
+nearer another side will be further so
+the further stress can be compressive or
+tensile
+in section like a t section okay but
+here it is symmetric so my focus is on
+the number why I focus only on the
+number
+it can have both tensile and compressive
+depending on the beam is bending in
+asymmetrical section I have equal values
+of tensile equal values of compressive
+strain so the focus is more on getting
+the numbers
+so I am just putting this as modulus the
+same discussion is continued I have not
+put the modulus separately here I am
+only looking at the numbers
+so I have similarly strain on the steel
+is because it is Away by seven
+millimeter extra
+fine
+and it is 177.48 microstrain
+I can also calculate the stresses
+how do I calculate the stresses you have
+the fraction formula simply multiply it
+by the X modulus obviously the X modulus
+of Steel and aluminum are quite
+different
+so you will definitely have a
+discontinuity at the interface from
+stress point of view which is acceptable
+you cannot have a discontinuity from
+strain point of view
+if the beam as a whole has to bend as
+one unit
+The Strain variation has to be identical
+in both the materials
+and when you do the calculation for
+stress
+in aluminum this is coming out to be
+11.61 MPA
+and when you find out for the steel see
+this is the maximum stress 37.27
+okay I must also calculate what happens
+at the interface
+that is shown in a diagram
+okay so I have the expression for strain
+is
+put with the sign convention
+and when I plot The Strain distribution
+strain distribution is linear
+say I have been drawing this triangles
+in various forms
+you know I can label this as depending
+on the problem
+depending on the sign of the bending
+moment I can say whether it is tensile
+or compressive I think this problem just
+the number is given nothing else is
+given fine we have just
+uh put without any
+sign here I have also shown this
+triangle this way I have also shown it
+with arrows
+there are multiple ways it is put in
+books so you should also be comfortable
+with any one of them
+so strain distribution there is no
+problem even when I have a change of
+material The Strain has to be continuous
+you know we have also solved along back
+the problem of a composite cylinder
+we said that strain at the interface
+Epsilon Theta Theta should be identical
+but we are not plotted The Strain
+variation or stress variation
+fine there is a one subtle difference
+that is also a thin hoop
+fine and here also I have if you look at
+this thickness is only 10 millimeter and
+this is only seven millimeter
+isn't it again it is very thin
+but the moment I put the stress
+distribution
+from my basic expression they have to be
+linear they are linear
+but what happens is
+at this interface because of ends
+modulus difference truss value is higher
+even though I have a very small
+thickness of 7 millimeter you find this
+is varying linearly inside the material
+that is the importance of what happens
+in a bending situation
+in the case of a composite hope we had
+similar thicknesses of the Hoops they
+are not very thin compared to this
+but the way hoop is constructed the way
+hoop is resisting the load
+it is going to have a constant stress in
+the outer hope and constant stress in
+the inner hoop
+whereas here even though the thickness
+is only 7 millimeters because this is
+resisting bending
+from our basic expression this stress
+will vary linearly over the small depth
+so you have to recognize these
+subtleities
+is idea clear
+so the focus of this problem is to
+appreciate
+strain variation will be linear
+whereas stress variation can have a jump
+that is natural
+okay
+see I said the shear stresses are very
+very small in many situations we ignore
+the sheer effects in fact when we want
+to develop deflection of beams many
+problems we would solve without even
+worrying about what is the influence of
+shear stress
+maybe in one problem finally we will
+find out how to include the shear
+effects and find out what is the small
+change it introduces on the deflection
+but there are problems where sheer
+effects need attention you cannot ignore
+see if you are smart you would say that
+I would use same mean on principle I
+will not go near the load application
+points I will apply my strength of
+material only in a Zone far away from it
+but what happens is you know we have
+always said the stain mean on principle
+the load is applied at the end when I
+have a three point bending load is also
+coming in between the beam
+many times while applying you know
+people simply say I have got the shear
+stress let me use it for every cross
+section along the beam
+and this is done by Theory of elasticity
+and in theory of elasticity if I have a
+concentrated load it is very difficult
+to solve I need to have Fourier
+components and with 200 Fourier
+components this image is generated by
+the virtual polariscope which we have
+seen
+and let us look at
+what I get from strength of materials
+that means you have learned shear stress
+is
+V Q by b i z z and your normal stress is
+m b by i z equal to minus Sigma X by y
+from this you can calculate the normal
+stress if I use this for the entire
+length of the beam in this Zone
+I find a marked difference between what
+I see in structure materials what I see
+in theory of elasticity
+let us look at what happens in
+experiment
+this is done by an experiment
+which solution matches with experiment
+better
+elasticity
+see we have also taken up a problem
+where there is a udl
+we got a very surprising result from
+theory of elasticity even the bending
+stress variation is not strictly linear
+there was a correction form term
+and this was non-linear
+and we also found that there is a small
+variation of Sigma away over the depth
+of the beam and we also discussed that
+these are second order effects we do not
+have to worry about it but recognize
+that what you have learned in Shankar
+materials is good for engineering
+analysis
+whereas when you come to share effects
+near the load application points
+even though sanctum material does not
+give me good result you will have to
+look at what is the actual value
+and the stressors are comparable to the
+bending stresses
+okay
+and you find this is at least 13 to 14
+times larger than the maximum parabolic
+variation
+near the load application points
+so your Center material solution
+probably you can play between these two
+lines Which is far away from the load
+application Point far away from this
+load application point in this segments
+it is still parabolic
+reaching a maximum at the
+neutral axis okay
+whereas when I go close to the load
+application point
+Shear is still 0 at the top point
+as per your requirement of resurface
+just below the top point it reaches a
+very high value of 13.5 this is 0.4 and
+this is 13.5 so you can calculate the
+ratio how many times it is magnified so
+it is now the magnitude is comparable to
+the bending stress maximum
+so you will definitely have failure
+occurring because of this
+and in construction practice
+in civil construction practice they put
+what are known as stirrups they closely
+spaced extra reinforcement there and if
+you are having a metallic beam you may
+have to put an extra plate and then
+revert it on wherever you have the loads
+so your Center material knowledge
+bending stress varies linearly shear
+stress varies parabolically is useful
+at places where it fails you will have
+to
+accommodate that otherwise your design
+will be a disastrous fine so you should
+know what are the limitations
+fine
+then we move on to a very interesting
+problem
+this is again a composite beam section
+and you have a
+pipeline that needs to be supported
+between the two walls we want the beam
+to be made of concrete
+okay
+and then it says what is the weight of
+pipeline that is 5 kilo Newton per meter
+and for the concrete you are given the
+specific weight
+and you know I can have the beam fitted
+into this cavity so my size of the beam
+is the same as the cavity
+and it also says
+that three numbers of 12 millimeter
+diameter steel rebars reinforcement bars
+are available at the site if at all I
+have to reinforce the concrete
+you should ask a question why you have
+to reinforce the concrete
+what sort of a material concrete is we
+will see all that
+and we'll also have to see how do I
+reinforce
+and the question is figure out how to
+use these rebars
+assuming that no tenses is taken by
+concrete here itself comes even the
+question it is embedded
+check if the stresses are within limits
+for safe usage of this beam
+and you are also given allowable success
+in concrete and steel
+which are respectively 9 MP and 60 mp
+and you find you know people have
+applied their mind to decide why these
+values are limiting values that is what
+you learned in theories of failure how
+to fix those limits
+once you are given the limits
+your problem becomes a design problem
+okay
+and you know I am obviously going to
+have a heterogeneous material you are
+not studying a heterogeneous material
+from our analysis we have just simply
+said a homogeneous material so I will
+simply close our eyes and say concrete
+is homogeneous
+we will say plane sections remain plain
+before and after loading
+and linear strain variation exists
+across the depth this is an assumption
+reasonably good
+but understand that you are doing an
+engineering analysis see this is what
+you have to appreciate
+we are not doing an exact mathematical
+analysis but an engineering analysis
+concrete is strong in compression and
+weak intention so that is why you need
+reinforcement
+and we also assume that concrete and
+steel are linearly elastic
+and a very important statement there is
+no debonding between concrete and steel
+reverse
+see it may so happen when you
+construct the beam it may be like this
+but if you have not taken care of water
+seepage into the system you may find
+that
+you know steel will corrode and it will
+increase in volume and you will have
+debonding occurs between the steel and
+the concrete
+but now since we are designing the beam
+we had in a comfortable situation VA
+ask the contractor to make a good beam
+following all the good manufacturing
+practices
+so that you ensure that the steel rebars
+are integrated with the concrete that's
+a very very important statement
+okay there is no debonding
+and even though this looks like
+some sort of a fixed support
+for the purpose of simplified analysis
+beam is considered to be simply
+supported
+and the clear outer concrete cover is 20
+millimeter on all sides see I have asked
+one of my stas who is exposed to civil
+engineering
+to coin this problem
+so he has put in his experience of some
+importance on the field
+so you have 20 millimeter so that limits
+where you can put the steel rebirth you
+cannot put it
+you know beyond that 20 millimeter
+distance so you can put it only 20
+millimeter below that
+and you all appreciate that the beam is
+transmitting distributed load I have an
+udl
+and this uniformly distributed load
+comes from two sources one is the weight
+of the pipe
+second is the sulfate of the concrete
+see one distinction between mechanical
+Aerospace and severely is
+one of the major loads that come in
+civil construction is sulphate
+in the case of mechanical and Aerospace
+compared to the loads
+the member is experiencing the sulfate
+is very very small you can consider that
+as a second order effect and omit it for
+your engineering analysis okay
+so here I have to take care of pipe load
+as well as sulphate and you are given
+all these calculation these calculations
+are very very simple
+and straight forward
+and you know I get the W total as 5.36
+kilo Newton per meter
+all these information is given in the
+problem so State application of simple
+equations is what you'll have to do
+and we have already said and it's also
+shown in a picture that I have a roller
+support on one end and pin support on
+one another end
+and the idea is what when we have to do
+the design I have to find out what is
+the maximum bending moment is idea clear
+I have to know what is the shear force
+and what is the maximum bending momentum
+and I don't think we have going to worry
+about the shear Force now
+okay
+so you have from
+rigid body mechanics you have to
+calculate the reactions
+because the problem is simple straight
+it comes to 0.75 W total
+and bending moment at any section you
+can take a section and then find out the
+basic expression
+that can be written as W total
+which is Newton per millimeter kilo
+Newton per meter this consisting of pipe
+weight as well as the sulfate of the
+beam
+that comes out to be 3x minus 2 x square
+divided by 4.
+where do you expect the maximum bending
+amount at the beam
+Middle Point it's a middle point
+whenever Shear crosses 0 you will have
+extremum values of bending momentum okay
+and Shear would cross 0 at the middle
+point so I can also find out the maximum
+bending moment at bit span
+I can get that as 9 by 32 W total so
+this comes out to be 1.51 kilo Newton
+meter so we have got the
+maximum bending moment
+and now we'll have to figure out
+how do I use my Steel
+how do I construct the concrete beam
+see if we go to machine drawing
+engineering drawing there is a way that
+you have to depict the concrete so this
+is the where you will depict the
+concrete
+but you know later I would remove all
+these triangles so that I have a clear
+picture for you to see other details
+fine because the idea is to learn the
+subject
+not get enamored with the complicated
+figures okay
+so I have this centroidal surface
+okay if I have a only a concrete beam
+the neutral surface and Central surface
+will coincide
+and if you look at the stress strain
+graph
+of concrete
+you will find
+the values of tensile and compressive
+stresses
+are quite different and it hardly has
+any strength for supporting tension
+okay
+so what you find here is
+your Concrete in compression is
+somewhere here your tension is almost
+close to zero
+so you need to support suppose I imagine
+that I mean in the from the problem
+sequential we know that the bending
+wound is acting like this
+and from the physics of the problem
+which side is supporting compressive
+load and which side is supporting
+tensile load
+the top half is compressive and bottom
+office tensile and once you know from
+the sustained graph it cannot support
+any tension I need to do something
+I need to use the steel rebars so that I
+strengthen the
+bottom portion fine
+okay
+so we need to do some reinforcement I
+have three steel bars
+and I propose to start with because we
+know we need to support the tension side
+I propose
+I have a steel bar put like this
+and then
+reinforce the beep is it a good idea to
+do that
+because we have discussed the top
+portion is compressive bottom portion is
+tension
+and to safeguard from failure I want to
+put three steel bars like this
+you know in isometric view you know it's
+not very easy to show
+and I agree with that he says that you
+should not touch the bottom it should be
+slightly inside that also will take care
+while constructing will take care of
+that while giving the release of
+engineering drawing will take care of
+that is it a good way to do it
+okay I get one nod it's not the right
+way to do it because you know you have
+to use the material properly is idea
+clear
+we have already learned
+when you want to
+have bending strength I should have
+higher bending rigidity higher bending
+rigidity means product of e and I should
+be as high as possible and I'll have a
+better moment of inertia when my
+material is far away from the centroidal
+axis
+and I am given only three bars
+okay so I must use the three bars very
+effectively
+so a better way to do this is don't put
+it in the vertical axis
+put them in the horizontal axis far away
+from the
+centroidal plane okay
+this way I would effectively use my
+rebars
+okay for the purpose of drawing I have
+just shown this as cylindrical we will
+also see how they are in actual practice
+and what this will influence on the
+behavioral of the beam
+I'll have a centroidal surface like this
+because I have introduced the steel bars
+they are integrated while construction
+itself in insert it
+fine and it is firmly bonded to this
+concrete
+because of this I have a material
+variation
+so I will naturally anticipate my
+neutral surface would be shifted I have
+to find out the location of the neutral
+surface that is part of the problem now
+and you will also have to recognize that
+all our
+expressions are referred with respect to
+neutral surface the very important step
+my reference axis also shifted to the
+neutral surface only from there I
+measure what is the
+distance of the outer fiber
+fine
+so I have to find out where the neutral
+surface is
+and to ensure that I have good bonding
+you know you will have the rods they are
+not perfectly cylindrical they have this
+projections like this so that it cannot
+come out easily
+and people also put some kind of a
+polymer coating so that it does not
+corrode the challenge is polymer should
+bond with seal as well as it should bond
+with concrete all these are field
+challenges
+okay
+now how do I
+visualize
+what is happening in the beam
+okay now I would have my beam like this
+imagine like this
+I have this made of one material
+see I have stopped my distance d
+not till the end of the beam where I
+have to insert the steel rebar
+okay because 20 mil the tension side of
+the concrete we say it is not existing
+at all
+it is a very very soft material
+okay
+so I have my neutral axis is shifted to
+slightly above I have to find out I have
+to look at the mathematics
+to simplify the mathematics that this
+distance is taken as k d K multiplied by
+D
+and I have the reference access
+put with the neutral axis
+and we know that it varies linearly from
+the previous problem we have seen no
+matter what we do with the stress strain
+has to be linear okay strain variation
+is linear there's no problem at all
+but the moment I come to
+stresses I need to find out how do I go
+about to solve the problem
+okay
+I have the strain variation like this
+and if I plot the stress variation
+in the case of concrete site no problem
+that's that's going to be linear
+the compressive side it is going to be
+linear
+we will have that as linear there's no
+problem in tension side
+we are treating concrete as such a soft
+material
+it is not capable of transmitting
+anything
+the entire load is supported with the
+steel bars
+okay
+so I will have only steel bars
+transmitting the load
+and whatever the force transmitted by
+steel bar
+will be the force transmitted by the
+compressive side of it okay that is how
+we are going to do the force balance and
+that will also help us to calculate the
+position of the neutral axis
+fine
+and we also visualize it in a different
+manner okay I have the sustained
+variation like this
+so
+in a sense what we are trying to do is
+you know you have this varying linearly
+that's not a problem at all
+to find out what happens at the bottom
+we are picturizing the beam like this it
+is Hollow in between a very thin this
+one is connecting and I have something
+which is happening at the
+reverse
+fine this is how we are visualizing it
+so it's a combination of a complete
+material in this segment and no material
+here and only this okay this is an
+analogy the same analogy we will also
+extend it
+and I have the strain and I would have
+the stresses transmitted by the
+steel rebars and this should go to the
+force balance is idea clear
+okay
+and you have the Minor Details okay so I
+have what is d
+because I have to count for the what is
+the depth and what is the size of the
+steel bar and so on so forth I get this
+as 124 millimeter
+and we have said that the neutral axis
+is we have measured it from the top
+compressive side so this distance is k d
+and three rebars are
+symmetrically placed and your area of
+cross section is also given
+so with this I am in a position to find
+out
+how to locate the neutral surface
+okay
+the neutral surface I have to locate it
+see there are multiple definitions for
+neutral access
+while developing The Strain we consider
+this as a neutral axis
+you can also consider that when I want a
+measure from this we are doing all the
+calculation only on the Symmetry plane
+I can also find the neutral point and
+then go up
+some books also say that you can also
+call this as neutral axis
+whatever the line that is representing
+the neutral surface this way so it's a
+very small
+nomenclature variation
+so from Force equilibrium I get this
+Sigma x d a equal to zero
+now I have to bring in the expression
+properly because I have two different
+materials now
+okay
+so I will I can write for the the
+concrete side easily
+from my basic expression I can replace
+it like this minus B times e of a
+concrete divided by rho multiplied by
+the integral 0 to k d by d y
+and for the steel side I know that the
+cross section is a s I know what is the
+distance it is
+available multiplied by the X modulus
+divided by rho equal to 0.
+so when I substitute this in terms of
+the distance K the factor that we have
+taken
+I get a quadratic expression
+involving k
+so I get this K as 0.456
+so if you have to locate the neutral
+surface
+you go and solve the
+Force equilibrium you have to satisfy
+the force equilibrium to get the results
+once you have calculated that rest of it
+is simple calculation
+okay
+see from here I can also use curvature
+and find out what are the stresses
+I can also use another approach which is
+usually done in civil engineering
+where I said
+we will look at the cross section as
+this is made of steel this is made of
+concrete I would replace this area
+equivalent to concrete and then
+visualize this as a
+B made of one material
+ok
+and this is called a transform section
+in terms of concrete so that means I
+have fully filled section
+I have only material away you can
+imagine there is a very slender line is
+connecting these two that means this
+inner core is Hollow
+what you will have to recognize is we
+still use the
+strain variation in the beam
+directly use it for this section also
+like we have used expressions for the
+torsion from solid shaft to hollow shaft
+on similar lines you also use it for
+me
+okay
+and it would automatically adjust
+because we are doing the force balance
+it will automatically develop the
+appropriate stress levels to satisfy
+okay and to simplify the calculation we
+have the ratio
+put as a symbol m
+and
+you use the fracture formula
+find out the stresses
+and you will get all this in terms of
+transform section
+because now we have replaced this as a
+larger area
+because e s by e c is seven so seven
+times the as area is what you are going
+to use
+and so you can do this calculation
+because the concept is very well
+discussed
+okay
+so you can get the bending stress in
+transformed section you can get
+I get this as minus
+0.09 y
+and then maximum compressive stress in
+concrete I have to find out the what is
+the Y maximum I get this as minus 5.09
+NTA
+and 10 Celsius and transformed Steel
+I would get this as 6.07 MPA
+this is only for the
+fictitious one that we have used now you
+have to convert back to what is the
+force in
+steel so when I do that this will be
+multiplied by seven times
+so I that whatever the ratio that we
+have that was seven I get this as 42.4
+MP
+and if you look at
+your
+basic requirement
+concrete should withstand only 9 MPA and
+this about 60 MPA I have got these
+numbers very close and this two figure
+summarizes what happens in the cross
+section it's a very interesting problem
+fine and the key Point here is the steel
+bars are perfectly embedded
+so all stresses are within the allowable
+limits
+hence the beam can be safely used to
+carry the pipe
+so in this class we have solved the very
+interesting problems
+the focus here is
+how to visualize the imbalance because
+of variation in bending moment causes
+the formation of Shear stresses
+you have to understand the basic area so
+that problems can be coined in many
+different ways
+unless you understand the basic area it
+may be very difficult for you to apply
+what you have learned to solve a given
+specific problem
+and I've also given one interesting
+homework I want you to find out if I
+take a vertical section please do that
+only then I can discuss something very
+interesting tomorrow so please do the
+homework and then come back
+and we have looked at composite sections
+in one case the Symmetry was not
+affected so I don't have to find out the
+neutral surface I could easily start
+from that the important concept was
+strain variation is continuous that can
+be discontinuities and stress variations
+and I also noted even though I have a
+thin section here even within the thin
+section because it is transmitting
+bending the stress vary linearly in
+contrast to what you saw in Hope
+then we have also looked at how to
+reinforce
+a concrete beam see one of the very
+important application is you should know
+the bending moment diagram
+so that you find out which is the
+tension side which is the compressive
+style you should not put the seal bars
+in compressive side and say that you
+have reinforced the beam the whole
+building will collapse
+all that happens and they have also
+narrated one instance somebody made the
+concrete bin without even putting a
+reinforcement
+now you have a alibi
+how do I reinforce suppose somebody has
+done a mistake and you have to do
+retrofitting what can I do
+I can Bond a steel beam in the tension
+side firmly
+that is one way of alleviating in the
+problem
+okay thank you
+[Music]
+foreign

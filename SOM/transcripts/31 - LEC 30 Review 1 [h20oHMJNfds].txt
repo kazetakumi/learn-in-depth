@@ -1,0 +1,1182 @@
+[Music]
+digital India educated India
+[Music]
+you know this is the class on review
+and strength of materials is a subject
+where experimental information forms the
+basis for the development
+you know with the modern multimedia
+facility we are in a position to
+integrate the experimental information
+along with theoretical development so
+you have seen
+thought experiment actual experiment
+all along the course okay
+and even though we discuss several other
+things as part of the course you should
+keep track that we confine our
+mathematical development
+only to slender members
+you should never lose track of it
+and a slender member in general can
+transmit
+three forces and three moments and if
+you have a force like this you call that
+as a Shear Force
+and then if you have a moment like this
+you call this as a bending moment
+now you know what is the kind of
+distribution that you have in the member
+and the values of the
+magnitude of Shear Force bending moment
+and also the bending mount in the other
+plane
+all that you get from your course on
+Rigid body mechanics
+if we want to find out how this cross
+section
+develops a resistance
+for supporting this Shear force or a
+bending moment
+we have to come to deformable solids and
+then find out what the variation is
+and we have also seen that you can have
+a Shear force in this direction
+and you can have an axial force and we
+have also done twisting and you
+essentially
+do in your rigid body mechanics
+yeah Shear force diagram bending mode
+diagram axial force diagram or twisting
+moment diagram all this is to find out
+along the length of the member which
+cross section is transmitting the
+maximum of these values and which cross
+section is the worst affected
+so for that cross section you have to
+find out the stresses and then look at
+the theories of failure and find out
+whether the cross section that you have
+decided or the material that you have
+chosen can bear this
+and you know to recognize that the
+Slender member will transmit um
+force and a moment
+even though they have not considered all
+these six components the basic idea goes
+to the credit of Bernoulli and Lebanese
+they're all around
+1700 okay
+and you know
+we ask the question what is the typical
+variation of stress in these members
+and even before I do the mathematical
+development
+I have shown by inference by looking at
+the photoelastic fringes when I have
+this color is very constant over the
+width
+we said that this is transmitting a
+uniform
+Force
+okay the resistance is uniform
+and the moment you come to bending
+you have hinges which are of
+equidistance
+and we said that it is
+having a linear variation
+and before we looked at bending we saw
+the torsion
+we found that the shear stress is
+varying linearly
+over this section that is very important
+see this surface is free
+and
+the moment you come to bending
+we also find that stress is varying
+linearly
+for all these three problems we are
+looked at uniform cross section
+it is transmitting only one of them if
+it is transmitting axial force it is
+transmitting only axial Force if it is
+transmitting twisting moment it will
+transmit on a shaft of constant cross
+section
+and then for a beam we have also looked
+at among the several rays of beam
+mending we carefully chose the beam
+under pure bending so that it transmits
+only the bending moment
+and we have also developed certain
+important relations
+okay you have this as a torsion formula
+so you have now the knowledge what is MD
+by IP equal to Tau J Theta by r equal to
+G Phi by L this is valid for a
+constant bending moment and a constant
+value of the cross section okay so
+similarly you also know the fracture
+formula in fact you are next course on
+design of machine elements can be done
+only with these two expressions
+fine
+and once you look at the actually loaded
+member the celebrated relationship is
+what is the extension Delta equal to p l
+by E these are all celebrated
+Expressions you need to remember them
+you will not have time to derive this
+from first principles
+and you know we have effectively used
+this when we wanted to analyze the hoop
+so Delta equal to PL bye is a very very
+famous expression
+and we have been able to do this with
+important idealizations we have said it
+is small deformation
+the momenta is a small deformation we
+employ apply the equilibrium
+requirements to the undeformed
+configuration that is very very
+important
+material is homogeneous
+elastic properties same at every point
+that is why I have shown multiple points
+shown it is homogeneous properties are
+same at every point
+and you understand this with a
+contrasting example if I have a concrete
+cylinder it is heterogeneous if you go
+and see how they mix concrete you will
+know they will have Aggregates they will
+have cement they will have sand it's it
+cannot be homogeneous okay
+because we find it difficult to handle
+the heterogeneous material we also
+idealize that as homogeneous and I have
+said with modern developments in
+experimental analysis with rapid
+prototyping and three dimensional
+photoelastic analysis you can analyze
+even a heterogeneous material maybe come
+out with better material models
+and we have also made a very
+interesting and important idealization
+material is isotropic elastic properties
+same along any direction I have
+repeatedly said
+Extrusion a simple
+metal
+processing process it introduces
+alignment of the grains so it disturbs
+whether it is being isotropic or
+to an extent orthotropic okay but we
+close our eyes and then say that is easy
+for me to develop the mathematics if I
+consider this as isotropic and maybe do
+a tension test by taking the specimen
+along the fiber Direction where the
+crane is elongated use that as a
+property for predicting its failure so
+we have founded a way to wriggle out in
+Practical situations
+and another very important aspect is
+we have made a very very fundamental and
+important idealization materialism
+elastic Continuum otherwise you cannot
+say Delta X tends to zero
+you cannot do that mathematical step
+and in reality you have voids you have
+cracks all that is taken care of in
+another development of mechanics called
+fracture mechanics
+okay
+so idealizations are very very important
+without idealization will not be in a
+position to do and in order to do all
+this we started with a very simple
+experiment of taking a material and then
+elongating it with different cross
+sections
+and we plotted the load deflection
+you are getting
+one graph for each of this material ok
+and
+even though this is an observation done
+by Robert Hooke the fundamental
+convenience of this is by looking at a
+spring he was able to visualize that all
+the engineering materials also have
+elongation because you have to graduate
+from rigid body mechanics to deformable
+solids so from ideological point of view
+this thinking was very very crucial
+but plotting this load versus deflection
+and absent this is linear was also very
+important but inadequate
+OK because when I have the
+characteristic material I have to have
+thousands of tests in fact infinite
+number of tests you may have to do which
+is Impractical you will have to have
+minimum number of tests so that you can
+characterize the material
+and we have also looked at that credit
+was given to
+burnally
+and for the same three different cross
+sections if you plot the graphs
+differently by plotting change in length
+divided by original length and plotting
+Force divided by area
+for all these three different cross
+sections you had only one graph
+and you should also understand that this
+is restricted to only 0.1 percent of
+original length
+if you have really taken a material and
+done a tension test you want to
+mathematically express it for the
+complete range
+strength of material would not have
+progressed you have to look at from the
+Practical point of view that our
+operating conditions require we apply
+very small load I cannot live in the
+comfort of rigid body mechanics I have
+to bring in deformation so that's the
+first baby step bring in small
+deformation you could solve a variety of
+simple problems and you should also
+appreciate
+a simple change like this
+it took his entire lifetime
+okay towards this was his final paper
+Bernal he is also credited with the beam
+Theory
+fine so some of these developments look
+very simple now but they are very
+difficult
+and you have to look at people have
+burnt their fingers looked at practical
+situations looked at nature
+and and you need to have mathematics
+also developed so things have happened
+in different points in time okay and
+when they were doing this
+development of central materials
+photographs disease was not available to
+them it was also happening parallely it
+became very prominent only in the 1930s
+okay now you have the advantage I have
+used photolasticity as a vehicle to
+appreciate various concerts through
+inference
+and in order to develop the mathematics
+we also developed new mathematical
+entities
+we developed what is known as a stress
+vector
+that stems from the fact that when I
+break the chalk
+the chalk breaks at different planes as
+if shock is intelligent depending on the
+load applied failure is on different
+planes so what happens on a particular
+plane is very very important and
+fundamental
+and then we took a point
+and a small area surrounding this point
+that is the definition
+okay and we found there could be a
+resultant Force
+and following what we have looked at in
+Robert hooke's experiment and also the
+following Improvement by Burnley we
+defined a quantity
+Force divided by area for the small area
+around it in the limit Delta a tends to
+zero
+so we coined a new symbol
+t cap one when I say one it is referring
+the plane one plane is defined by
+outward normal
+and then it is desirable that you put a
+vectorial symbol but it may be difficult
+to write so we also said that the moment
+I put a cap you understand that this is
+a vector
+if I have any subscripts then you look
+at this as component easy for us to
+handle while writing the equations and
+the definition is
+the structure acting on plane one is
+limit Delta a tends to 0 Delta T1
+divided by Delta a okay and you know you
+have this material because I have
+assumed this is an elastic continuum and
+then you have equal and opposite forces
+happening so this was very fundamental
+for you to develop all the related
+Concepts
+and we said that you have to get
+suspected on
+all the comp infinite planes passing
+through the point of Interest
+only then this is complete
+okay and we have also said
+I will cut a special plane which has
+outward normal as
+coinciding with the X Direction and we
+have defined new
+components Sigma x x when I say Sigma it
+is denoting a normal stress you have two
+subscripts the first subscript refers to
+the plane on which it is acting the
+second substrate refers the direction in
+which it is acting
+and you know in books they may also call
+all of this as Tau
+you have a special symbol when I put
+Sigma it is always denoting a normal
+stress and when I have Tau this denotes
+a shear
+stress acting on the surface so you have
+the plane and the direction
+and at this stage it appears as if it is
+too complicated you need to get infinite
+number of quantities
+and Koshi showed that it is enough that
+you get this trust Factor on any three
+mutually perpendicular planes t x t y
+and t z if you get
+you can get stress factor on any of the
+possible infinite planes passing through
+the point of Interest okay that was the
+very important mathematical development
+and you know you have these components
+represented in a cube and I've also said
+this is for representation purpose the
+cube has zero dimensions
+okay and you should know how to write
+these quantities and we have also
+discussed on a positive plane positive
+direction is positive on a negative
+plane negative direction is positive
+and this goes to the credit of coulomb
+and I've also summarized that
+this has zero dimension okay it's a
+representation what happens at a point
+of Interest
+and
+so formalized substance are in 1822 so
+we are in the 200th year okay we are
+learning this course
+and the cautious formula takes a
+tetrahedron
+and then in the limit shrink it to zero
+and we have developed it by invoking the
+equilibrium conditions
+in fact we have got this says with
+respect to this column but we wrote it
+like this because it is easy formula to
+write it in a matrix form and we have
+neutralized the concept of equality of
+cross she has to write this
+say in strength of materials it's very
+difficult to develop the subject without
+looking at what is the future
+development
+fine because it's not in a sequence
+certain Concepts have to be introduced
+even before we
+derive and prove it okay but we have
+definitely shown by looking at the
+moment equilibrium that you have Tau x y
+equal to over X
+so the idea is
+for any plane of Interest I can find out
+the suspect error to do this you get
+this and this you call this as a test
+sensor
+OK stress tensor
+is a consequence of our requirement to
+find out stress vector
+and stress factor is the one which is
+going to help you why the chalk fails at
+different planes
+fine
+and
+then we also recognize that stress
+tensor is a tensor of Rank 2 and all
+that
+and you know normal stress was something
+easier to perceive so people were able
+to understand what is normal stress
+which we have looked at from a simple
+tension specimen
+and we also defined a force divided by
+area as this value
+and I have always emphasized in the
+mathematical development B's idealize
+the deformation picture and directly
+evaluate the component
+it will appear only like a number
+but you should have the practice how to
+recognize that this is a tensorial
+quantity always write it in a matrix
+like this that's a training because I
+have this as a y axis I have F by a ASD
+component which is Sigma by component
+here
+and you know people found it difficult
+to appreciate what is shear and one
+simple experiment is you punch it so you
+have this outer surface
+okay so I have Force divided by area
+will give you this shear
+and this was introduced by parent in
+1713
+and we have also seen it was extensively
+used by coulomb
+okay
+developed the idea further and when you
+have this basic stress tensor I will
+have this Shear component shown in the
+diagonal elements like I have shown this
+F by a here area definition is different
+this is the area contributing to the
+resistance of axial force and the
+complete area forming the perimeter is
+forming the
+area resisting the shear the idea of
+what is shear
+you can very well comprehend by this
+punching experiment
+and we have also looked at how do I
+represent this graphically because in
+the early days graphical information was
+very very strong people didn't have
+calculators and computers so they were
+making assessment based on graphical
+appreciation
+and one of the simplest way to represent
+them is a polar plot and we have seen
+what is a polar plot for normal and
+shear stress
+you have the expression F A by sin
+Square Theta
+and you have this for each of the planes
+how the normal stress is plotted
+it looks very beautiful
+okay but it's difficult to draw fine
+and the shear stress appears like a
+beautiful butterfly
+and you can also correlate with respect
+to the different planes
+so this is one simple way of doing it
+even for a simple axial load you have
+such beautiful patterns but later on we
+realized that the stress State can be
+beautifully and conveniently represented
+in the form of a circle that we call it
+as a more Circle
+and in the development we have also
+discussed a very important principle
+which is usually
+talked in the sideline in books so you
+had to appreciate what is this
+environmental principle if I apply an
+axial load I can apply it by either a
+single Force
+or two forces or three forces or even
+and uniform loading if I am capable of
+having a grip and pulling it so when I
+go from this to this I am going more and
+more uniform so what happens is this is
+a fertilization pattern so when I apply
+the load
+you find that becomes a uniform color
+only at distances away from the load
+application points and this points get
+shifted when I make the load
+more and more similar to the anticipated
+distribution so what the sign mean on
+principle says is if the applied load is
+statically equivalent away from the
+point of loading you are
+computation will match the theoretical
+conjunction OK and you don't have this
+readily available in books with
+photoelasticity we are in a better
+position to show
+so it takes some distance so it becomes
+finite only
+when it is distributed three times the
+resultant is same as this Force never
+forget that okay
+it's a very very important principle
+that we have utilized it now even in a
+future courses you utilize this same
+Finance principle
+and you know
+I have also emphasized that you should
+have a smooth transition from
+mathematics to engineering
+so when I say that stressors are
+functions of X Y and Z suppose I say for
+discretion purpose it is a function of X
+and Y for me to write simple diagrams
+when I say Sigma X in this phase it will
+vary as Sigma X Plus dou Sigma X by dou
+X Delta X when I move by Delta X
+when I move my Delta y I will have this
+but when I move by Delta X and Delta y I
+will have this kind of variation
+fine
+but you know product of small quantities
+is much smaller fine so when I replace
+this by an average
+that that is acting on this face
+I can represent it like this and I can
+also take this as an average and
+represent it like this
+even though in reality this is what
+happens on this face and this phase
+since our interest is to find out the
+equilibrium along the direction
+it is convenient if you drop off these
+two terms which is not going to affect
+your mathematics in any form
+this is easier to write and this is how
+we
+wrote it for all the other directions
+when we had all the stress components
+acting and we did develop equilibrium
+conditions
+and the equilibrium conditions appeared
+as differential equations mainly because
+this is a deformable solid so I can have
+infinite possibilities of subsystems and
+if I solve that essential equation the
+equilibrium condition is completely
+satisfied
+so I have this as a forced equilibrium
+condition and this is the moment
+equilibrium condition and the moment
+including condition established equality
+of cautious this property we have used
+already while writing the
+koshy's formula for finding out the
+stress Vector ok
+some back and forth is unavoidable
+and you know stress is a tensor it is
+not a vector ok so if I have to find out
+stress tensor with respect to X Prime y
+Prime initially I'll have to get the
+stress factor on plane X Prime and Y
+Prime
+that is easily achieved by your rakoshis
+formula
+okay so by using cauchi's formula you
+get this Vector then transform this
+vector by vectorial transformation so
+you have to do that transformation two
+times
+okay
+and we have this trust Factor TX Prime
+and this is simply your rotation Matrix
+rest of it is mathematically simple you
+should write the rotation Matrix
+properly
+okay
+and this is how you have done the vector
+I mean tensorial transformation the
+second stage is a vector transformation
+OK and when you do this you get long
+expressions
+and I have also said how to get these
+without going through matrix
+multiplication just by integral notation
+how to write this is very very
+convenient you don't have to remember
+provided you write the rotation Matrix
+very carefully the question is whether
+you have to have minus sine Theta here
+or minus sine Theta there that is where
+the confusion will come so if you simply
+take a x y axis and X Prime y Prime axis
+take a point and you find that X Prime
+is longer so it will be positive and Y
+Prime is shorter so it will have
+negative that is one way of remembering
+it okay
+and it is very very important once you
+have seen that stress transformation law
+we have also looked at how this can be
+written in the form of a circle
+and there is a procedure by which we
+adopted we have plotted the graph
+between Sigma and Tau
+and this is the stress State given
+pictorially and I have the positive
+shear stress for the positive shear
+stress on the explain we plot it
+downwards the reason is whatever the
+movement I do in the real plane I should
+do in the same way in the Morse plane
+okay so if I wrote If I rotate clockwise
+I should rotate clockwise in the most of
+the law so if I rotate anti-clockwise I
+should rotate anti-clockwise also that
+is achieved only when I follow the
+convention for plotting the explain once
+you plot This Plane you can join them
+and get the center and with this Center
+you draw the circle and the circle
+contains the
+information of state of stress on all
+the possible infinite planes passing
+through the point of Interest okay at
+least in this plane
+and you can also find out two points
+which have only normal stress there is
+no shear stress that is why they are
+called as principal planes
+and you can also Identify two other
+points where you have
+Shear reaches a maximum and I said in
+general when Shear reaches a maximum you
+will also have normal stress
+if you go to only to Pure shear stress
+State you will only have maximum shear
+stress you will not have any normal
+stress okay
+and I've also said that I have taken a
+stress state so that this axis is not
+coming in between
+and every point
+in the Mohr circle is representing a
+stress factor on a particular plane
+okay
+and I have also shown it pictorially
+how the
+stress components change I can have a
+different values on normal stress and
+shear stress and as I come to the
+principal plane I have only normal
+stress I do not have initial stress and
+likewise this goes and when I go to the
+maximum shear stress State I have Shear
+is maximum but I still have some value
+of normal stress
+and likewise we understood every point
+so graphical representation was much
+more
+informative and convenient for you to
+comprehend the totality of
+what is the meaning of
+stress tensor ok
+so this is very convenient to see that
+then we have also looked at what are
+principal
+stresses and the directions you know you
+can also coin this problem as a problem
+of eigen value and eigen vector and if I
+solve it as eigen value and eigen Vector
+problem
+I have no difficulty in finding out the
+associated directions
+because I have eigen vectors as Sigma 1
+and sigma 2. and the eigen values the
+sigma 1 and sigma 2 and eigen vectors I
+can find out n x and n y for each of
+this value if I substitute for Sigma 1 I
+get the value for n x
+I also get the value for n by
+and my
+principles as direction is given as tan
+inverse n y by n x
+mathematically perfect and no ambiguity
+whether I have Theta 1 is associated to
+Sigma 1 or Sigma into the ambiguity will
+not come on the other hand for hand
+calculation we always
+calculate Sigma 1 and sigma 2 using this
+basic expression
+and once you calculate this you should
+find out and label which is Sigma 1
+which is sigma 2. we have understood
+that Sigma 1 is always algebraically
+greater than Sigma 2 and sigma 2 is
+always
+algebraically greater than Sigma 3. that
+is how we have developed all our
+mathematics and also the failure
+theories failure theory is used
+basically the principal stresses
+and if you want to find out the
+orientation of the principles direction
+from stress transformation Allah you get
+Tau X Prime y Prime by the definition of
+principal planes we say that this is
+zero
+so this gives you ah Theta equal to one
+half of tan inverse two Tau x y b Sigma
+x minus Sigma by this is multi-valued
+problem so what you get as Theta is not
+Theta 1 what you get as Theta the second
+value is not Theta 2. you will have to
+go to more Circle and then find out from
+the more Circle how you locate the Theta
+1 and Theta 2. what is acute angle and
+what is obtuse angle only then you can
+fix on the other hand if you go by the
+eigen value I can
+Vector root you don't have this
+difficulty fine
+yeah
+and we have also looked at there are
+invariants for a two dimensional
+representation of stress tensor I one is
+Sigma X S Plus Sigma y by I2 is nothing
+but the determinant of this Matrix
+and I have this in axial stress
+and if I plot more Circle
+the more circle is like this and I you
+know the same stress State can be
+represented
+in The tensorial Matrix with non-zero
+numbers the question is when some stress
+state is given to you how to investigate
+whether it is uniaxial or
+have a pure Shear these two you can
+identify from the invariance
+and
+I can represent this same
+stress state with non zero values of
+Sigma X Sigma Y and Tau X Y okay I can
+do it like this
+so if I calculate what is i1 and I2 I am
+in a position to do that
+and when you have I2 is 0 you have this
+as uniaxial stress I2 is 0 here
+and I 1 is 0 you say that this is a pure
+shear stress it's a very powerful method
+of doing it okay so you should
+understand how to utilize this
+invariance
+and you know when you do this as
+eigenvalue and eigenvector problem
+eigenvectors are mutually perpendicular
+mathematically
+fine
+but people don't stop that you know you
+have a very interesting experimental
+technique where you
+code the specimen with a brittle
+material so when the stresses increase
+I have all said in the chalk experiment
+also it is a brittle material it fails
+by maximum normal stress so the you
+indirectly get the direction of the
+principle such Direction and a very
+careful experiment was done by
+procedurally and he has shown that you
+have two families
+one is like Circle another is like a
+radial line so that established
+experimentally also that principal
+planes are mutually perpendicular it's
+very very useful information
+and we have also looked at Shear cannot
+cross a free boundary we have taken the
+problem of a plate with a hole okay and
+uh you know this is this has a very high
+stress concentration
+and we have taken a point on the
+boundary and we have said that Shear
+cannot cross a free boundary
+okay and with this knowledge we have
+looked at and investigated what is
+happening at a point
+which I am taking on this we have taken
+two points one is this point and another
+is this point
+and it's not a loaded boundary when the
+boundary is not loaded you say it is a
+free surface
+and on a free surface what can exist
+okay
+and I have taken this small segment I
+have taken a point here and we have
+shown that what component of shear
+stress
+okay cannot exist on that basis
+we have said that
+you cannot have shear stress on that
+boundary
+but you can definitely have a normal
+stress okay
+you can definitely have a normal stress
+and when I have this the circle is
+easily representable by a polar
+coordinate so when I do it in a polar
+coordinate what is this component of
+stress
+this component adjusters will be Sigma
+Theta Theta so Sigma Theta Theta will
+exist and you will not have Sigma R and
+Tau R Theta they go to zero
+and that is what we have seen on this
+point and we have seen it on another
+point
+you can also repeat it for any point on
+the boundary okay this is all very very
+important Concepts you know books do not
+pay attention on all this the concept of
+free surface is very essential when you
+want to write the boundary conditions
+and when you want to solve the problem
+numerically using finite elements
+you need to apply the boundary
+conditions correctly
+and we have also taken a problem of a
+pressure vessel which is very very
+common
+and you could do this from your Center
+materials knowledge itself
+and we have got the expression as
+ft as
+prb and when you divide by the area you
+get the stress and we call this a hoop
+stress PR by T and even by inference I
+have shown I have a thin hoop subjected
+to internal pressure
+and this is a
+specimen subject to axial tension you
+have constant color in this you also
+have constant colors in the hoop so
+even though the pressure vessel looks
+complicated the stress
+transmitted by this is very simple it's
+constant like what we have in any X
+retention which you had seen it by
+inference fine and I said that this is
+the closed pressure vessel when I have a
+closed pressure vessel I should also
+worry about what is the force in the
+other direction and we have taken a
+generic cross section
+and this is f l is equal to P by P by R
+square OK and I get Sigma LS
+PR by two t and we have got the sigma
+hoop as PR by T and if you take any
+generic point it is a true case of
+a two dimensional state of stress okay
+it is if because if you look at i1 and
+I2 they are not zero
+and I have this the very famous stress
+tensor and I have also said
+when you are plotting the more Circle
+you should also be careful if Sigma 3 is
+0 its nuisance value has to be
+appreciated so if you draw the Mohr
+Circle for this and if you say that this
+is Tau Max then you are mistaken you are
+metallic can will fail even when you
+take your Pepsi you don't want that to
+happen OK because this is a ductile
+material it fails by Shear so you have
+to recognize the nuisance value of Sigma
+3 and the Tau Maxes actually twice this
+value
+so you have to be very alert so one of
+the commonest example has both the
+principal stresses in the same direction
+in all those cases whether it is
+positive or negative you should
+recognize the nuisance value of zero
+if you have that area value differently
+it gets automatically taken care of that
+we will see later right now you know
+only maximum shear stress so if you use
+maximum shear stress don't call this as
+maximum the real maximum is double this
+value that's what we have alerted from
+this
+and you know you must also have seen in
+many many
+um when you go in the train you will see
+spherical tanks all over the place have
+you noticed it
+why do they use spherical tank that's
+also you are having a fluid at high
+pressure
+fine
+it's difficult to construct but if you
+do mathematically if you take any
+section see here we have taken a section
+perpendicular to this
+your area is p Pi R square
+area is pi R square and the pressure is
+p so the force is p Pi R square so on a
+sphere what happens
+anywhere you cut
+you will have the because it is a sphere
+it is only Pi R square so everywhere
+here you have p r by T and PR by two t
+there it is PR by 2T and PR by two t
+what is the advantage
+do you see that it measures into a point
+when you want to draw the Mohr Circle
+and you will have to worry only about
+this PR by two t and 0 and your maximum
+shear stress is one half of what is
+there in a cylindrical pressure vessel
+so the sphericals pressure vessel
+difficult to construct but experiences
+less load that is one advantage another
+Advantage is you know they all store
+you know below the normal temperature
+fine and I will live I mean gases which
+are in liquid form
+so then
+fear is one shave which has the least
+surface area for a given volume so heat
+transfer is less when heat transfer is
+less the fluid will not get pressurized
+so from all the Practical consideration
+even though higher cost in construction
+spherical vessels are very widely used
+so you have to look at the application
+and find out whether you want a
+cylindrical pressure vessel cylindrical
+pressure muscle also used spherical
+pressure vessels also used
+okay
+and we have also looked at if you want
+to reduce the
+weight of the
+pressure vessel you can have this fiber
+reinforced
+and one of the important knowledge that
+you have to gain is what should be the
+angle of this fiber
+and we have also noticed that even in
+the tire normally you ignore the tie or
+after all it is a tire cycle Tire may be
+like that but the same tire is also
+supporting a aircraft which is landing
+and takeoff so it's a very very complex
+mechanics involved they also have cross
+place
+and I showed a very interesting whether
+scientists are great or nature is far
+superior than scientists you find a
+simple worm which is living under the
+sea has a body which has fibers which
+are oriented helically and it
+manipulates this for its Locomotion also
+it bulges and then stretches okay
+and if that's so it doesn't have legs
+you and I have legs and we can run so it
+has to move so it utilizes this so it's
+inspired from nature so nature is far
+superior than human intelligence
+okay
+and we moved on to strain
+and the important learning in strain is
+you know if I apply strain in One
+Direction
+if I apply a load strain is there in all
+the three directions okay and we have
+looked at uniform strain and we also
+looked at non-uniform strain
+so you have the circle deforms in the
+circle when there is uniform strain and
+if there is a load is not uniform
+and in order to
+get an appreciation of this kind of
+deformation we need to develop new
+quantities so we set the change in link
+divided by original length is normal
+strain change in the original rectangle
+we call it as Shear strain okay
+and you know we have also seen it in
+Cartesian coordinates we have also seen
+it in polar coordinates and then we have
+looked at
+how by using trailers approximation
+these quantities can be written so we
+have seen parallely Epsilon x x is dou e
+by dou X
+and Epsilon R is dou e by dou r Epsilon
+y y is dou V by dou Y and I said
+whenever you have a Theta you will have
+1 by R but you should know how to
+remember this U by r
+OK and similarly you have gamma X Y the
+opposite differentials whenever you have
+Theta you have 1 by r this you can write
+these two terms you can write that the
+third term minus V by R you have to know
+and you also have what is known as
+rotation see in fact in when we move to
+bending we saw this rotation
+now all comes from the
+displacement quantities gradients of the
+displacements used suitably and we have
+also noted a very interesting
+relationship between the displacement
+gradient strain and rotation when you
+have small deformation this can be put
+as sum that is sum of a strain tensor
+and a rotation tensor okay
+and we have also looked at this is
+called infinitesimal strain because we
+were looking at small deformation and we
+have looked at infinitesimal strain
+okay and you also have similar to more
+circle of stress you have more circular
+strain the principles are same
+only thing is you have to put gamma by
+two I said
+whether you like it or not people have
+developed many Concepts using the shear
+strainers gamma but tensor really only
+Epsilon X Y transforms
+so when you write it as a tensor you
+write it in terms of Epsilon X Y when
+you do certain other discussion we do it
+in terms of gamma the only difference is
+I had to put gamma by 2. here again
+every Point represents what is a strain
+happening along that direction and the
+greatest advantage in the case of
+isotropic material is the principal
+planes of strain and principle planes of
+stress are identical that makes our life
+enormously simple
+and you know we have also looked at ah
+what is the expression for the same
+expression like what you have got for
+the
+um principal stress you also have this
+for principle strain okay and we have
+also looked at finite strain components
+and we have said that the literature say
+that these are the quantities are exact
+these become necessary when we want to
+go for large deformation
+and this has been developed by several
+people Koshi al-bansai and you have
+green tensor and you have this in metal
+forming because we started strain by
+looking at the formation of gut GN pin
+which is what is used in the IC engine
+here you see the deformation so visibly
+that deformation you see visibility is
+large deformation only finite strain can
+help and other applications see the
+future is biomechanics
+okay in rubber like materials
+recoverable elastic strain deformation
+is very large they require in the use of
+finite strains and I have shown use of
+photolasticity for epidural injection
+and you have this needless inserted deep
+into your skin
+so how the stressors are developed if
+you want to mathematically analyze you
+need to go for finite strain quantities
+and we also looked at the use of DIC
+along with
+tensile testing machine for you to
+get the data
+and you can also get two stress and two
+strain
+yeah now when you have the simple
+tension test there are many many things
+we have looked at the elastic Behavior
+we looked at proportional limit we have
+looked at elastic limit and yielding is
+very prominent in the case of mild steel
+you have a peak and then it drops
+immediately and we have looked at the
+usable range is very very small and we
+said that this is about 0.2 percent
+strain all that is very important
+ok so this is how you have the material
+fractures and
+we have also looked at what happens when
+I plot the same graph for ductile
+material with different percentage of
+strain all your material models can be
+seen elastic perfectly plastic and then
+bilinear elastic and then elastic and
+strain hardening all these are captured
+in the data
+when you look at the strain levels that
+we want to work these are applicable and
+in contrast what you find is in the case
+of brittle materials the tensile and
+compressive strengths are largely
+different they are very strong in
+compression very weak intention
+and also the strain levels what they can
+reach maximum are also considerably
+small compared to ductile materials and
+the other important aspect is if I do
+not have a clear depiction of
+you are yield strength the way to do is
+you have at 0.2 percent strain you draw
+a line parallel to the original slope
+and then find out where it hits and you
+take that as the
+yield strength this is a accepted
+practice okay and when you have
+unloading unloading will happen only
+here when you reach this
+plasticity OK so you have elastic limit
+and proportional limit all this is
+Illustrated in this
+and in a ductile material if it yields
+we say that it is yielding and we have
+also looked at the forbital material how
+the failure happens
+and you are in a position to do that
+okay and we have said that this is
+maximum tensile stress Theory and
+ductile material it is at 45 degrees you
+recognize from more Circle so failure
+happens at 45 degrees
+okay that's why you have a coupon cone
+fracture
+and he also said how to label Sigma 1
+and sigma 2.
+and you know we have also learned what
+is a
+elastic constants angs modulus we have
+also looked at what is a poissons ratio
+when I say Parsons ratio it is ratio of
+minus transverse strain divided by
+longitudinal strain
+and
+we have also emphasized that stress is
+uniaxial but strain is triaxial
+OK and we also know the standard values
+of X modulus
+okay in this class you know we have
+looked at what is the basics with which
+we started because some of the topics
+that we have discussed are very recent
+probably you remember them better and
+the concept that we discussed earlier we
+had a bird's eye view of how the subject
+has been developed
+and we work on small deformation and
+slender members never forget that
+[Music]
+foreign

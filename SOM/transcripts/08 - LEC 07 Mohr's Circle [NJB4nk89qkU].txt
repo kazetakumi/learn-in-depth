@@ -1,0 +1,1065 @@
+[Music]
+digital India educated India
+[Music]
+see we have looked at stress in a very
+simplistic manner as P by a
+from then on WE graduated
+that we need to find out what happens at
+a point of Interest
+we developed new mathematical entity
+like a stress vector
+then we said we need to get stress
+factor on all the possible infinite
+planes passing through the point of
+Interest
+then we developed the concept of state
+of stress at a point
+we have looked at what is a pictorial
+representation it was also shown in
+three dimensions then we have also
+written it for a planar situation
+then we have looked at what is a
+tensorial representation
+and I said what are the possible ways of
+graphical representation we had seen one
+in the earlier class we'll continue with
+that
+see the moment you say state of stress
+at a point
+you show this trust Factor like this
+it's only a representation
+I have not modified the size of the
+vector so don't think that every plane
+you have this as
+constant value it's only a
+representation suppose I put all of
+these points together and when I look at
+it I get that as an ellipsoid when you
+look at from a principles trust planes
+we will postpone it for the
+time being so the idea is there could be
+multiple graphical representations
+fine
+and we said that only if I have all the
+possible stress factors passing through
+the point of Interest
+I get what is known as data stress at
+the point
+and we also said that it was looking
+unsubmountable then koshy's formula
+rescued you
+see
+when you look at this you also have
+the stress Vector can be represented as
+a polar plot and if
+quantity is varying as a function of
+theta
+the first step what you would have is
+plot them as a function of theta as
+natural
+and if you look at any of the books they
+don't spend time at all in this but this
+is also very important see if you wanted
+to
+write graphical representation you would
+have started only like this
+fine then we said stress structure is
+not sufficient we need to find out what
+is the
+normal and shear stress acting at the
+plane of Interest
+that also we have looked at we have a
+stress factor
+that could be represented either as
+components along x y z directions
+or component along the normal and
+tangential to the surface
+in fact while we developed Sigma x x Tau
+X Y Tau x z
+whatever the shear stress which is
+acting on the surface we also resolve it
+into two additional components
+fine I I suppose you understand that
+subtleities because we have taken a
+plane
+passing through the explain
+so I could also write the shear stress
+as components Tau
+x y and Tau x z
+here when I am showing this I am having
+only this as
+on the plane what is the shear stress so
+we felt that
+on each and every plane passing through
+the point of Interest it is desirable
+for us to know what is a normal stress
+as well as shear stress because this
+helps in predicting the failure theories
+fan
+so when I have this a natural selection
+we have also looked at that this can be
+represented in these forms ok
+and a natural selection is go for a
+polar plot
+and I said I am also
+plotting this as a graphical
+representation only but this is
+as a function of load I am plotting only
+one quantity photolasticity also plots
+only one quantity
+this is as a function of load you get
+this at every point in the model
+this is one form of representation which
+is also useful
+fine at a given point how do the normal
+stress and shear stress varies on each
+of the possible infinite planes that is
+also important so you have two different
+representations this is obtainable from
+a experiment this is also useful because
+you know what happens in the
+neighborhood point
+you have an advantage of getting a
+wholesale information of the stress
+and this is another representation what
+happens at a point of Interest
+for a given load the load we have taken
+is f and then you have this as F by a
+this also we discuss F by a appears to
+be a scalar
+all components whether it is a vectorial
+components or tensorial components will
+appear only as numbers
+I have also said you should
+have the practice of putting these as
+tensorial quantities
+so in the case of simple uniaxial
+tension like this
+you write the stress tensor in this
+fashion you I have zero zero zero f by a
+so that practice also you should get
+this is a tensorial quantity
+and you know we have also plotted the
+shear stress it was looking very
+beautiful
+and I also made one more statement I do
+not know how many of you really
+appreciated it we have looked at what is
+the range of
+values of normal stress it varies from 0
+to
+F by a
+and in the case of shear stress it
+varies from zeros to F by two a
+fine
+I have said on two planes
+you have only normal stress
+can you identify that from this picture
+what are the two planes
+good your your hand says that but you
+spell it out
+so I have the explain as well as y plane
+in the explain I have this as 0.
+fine in the Y plane I have this is f by
+a
+and that is what is shown here in your
+tensorial representation I have 0 and F
+by a
+and it so happens that these two planes
+are also special planes because on these
+planes I do not have a shear stress I
+have only normal stress
+so they are given a special name called
+principal planes
+and this also I made a statement that
+when you have a graph like this
+pictorial it is very nice difficult to
+draw
+and also difficult the colored
+information that you want
+easily
+we will see another representation
+we have taken simplest state of uniaxial
+tension that itself gives you such
+beautiful pattern suppose I have this
+tensorial this one is populated
+only the mathematics will give you what
+kind of a
+geometric pattern that I am going to get
+it might be very difficult to visualize
+and plot
+fine
+let us see what is the way that we would
+protect
+and this you'll have to give credit to
+the scientists and this sauce also taken
+sufficient time
+see we had seen in 19 1822
+stress tensor was identified by Koshi
+this form of representation see we want
+to know what is a normal stress and what
+is a shear stress and I have already
+said
+in engineering and science what you plot
+on x-axis and y-axis has really
+revolutionized the understanding of data
+and when I go to this graphical
+representation this also comes with an
+adjective that this is more Circle so
+even before you see what is the
+geometric pattern you are going to get
+only a circle
+and circle is easy for you to draw
+and what I do is I have on the x-axis
+the normal stress and on the y axis I
+plot the shear stress
+this came about in 1882 it took about 60
+years
+from the development of what is the
+stress tensor to this representation
+and what we are going to focus in this
+lecture
+is the construction of it
+and if you want a mathematical proof we
+will have to go back to the stress
+transformation
+and we will do that in the next class
+fine
+because
+the more Circle representation is very
+elegant
+and many of the concepts that you want
+to understand in
+stress analysis can be understood very
+easily by looking at the mouse Circle
+and let us look at what is the way that
+we learned how to plot
+see what we are going to plot is we are
+going to plot what is the
+stress factor acting on plane X and what
+is the stress factor acting on plane y
+and what you have on plane X
+I have a normal stress Sigma x x
+and I have a shear stress of X Y and in
+the representation I have also used the
+equality of cross shears I am not
+putting it as Tau X Y Tau y x and so on
+we are we have learned already from
+moment equilibrium that Tau y x equal to
+Tau XY
+in certain mathematical representations
+we need to preserve this Tau y x and Tau
+XY that we will see later
+but equality across share is a useful
+property it makes a stress sensor
+symmetric now I have to plot what is
+happening on plane X
+ok so it has Sigma X and of X Y so Sigma
+is on the x axis and tau is on the y
+axis where will you normally plot
+which quadrant it will be we have
+learned the sign convention
+fine you can at least say which quadrant
+it will be
+if you are given a choice
+it's going to be in which quadrant first
+quadrant we will not follow that
+say I said engineering is one discipline
+where conventions are very very
+important
+why we have conventions it helps us
+later
+fine
+naturally when you are asked to plot you
+will plot it only in the first quadrant
+but I am going to break that
+and I'm going to have a special rule for
+what to do for explain
+for y plane whatever you see whatever
+you have said we will do that but for
+explain alone we will plot it
+differently there is a reason behind it
+I have Sigma X so I have to put Sigma X
+that is easy to
+put you will take some Sigma X somewhere
+so it is lying on this line
+now I have to know Tau XY the convention
+is
+when I have a positive value of Shear on
+the X plane
+I would plot it downwards
+I'll use the same magnitude but I will
+plot it downwards so I will have Tau XY
+Mark like this
+that's what the sign convention said
+positive Shear on explain plot downwards
+so when I use that convention I'll mark
+Tau of X Y like this and I will have the
+point mark and this is the X plane so on
+a more Circle
+if you take a point on the circle
+each point represents a plane passing
+through the point of Interest
+see when you want to plot a circle what
+all you need you need to know what is
+the center
+you need to know what is a radius
+these are determined by the stress state
+that is what you have to appreciate
+from the pictorial representation I have
+the information of what is Sigma x n t
+of X Y I also have what is Sigma by n t
+of X Y
+and what is the
+sign for Sigma by n Tau f of x Tau XY on
+the Y plane both are positive
+ok
+so the next job is I have to locate
+point Y
+and for point Y we use the normal sign
+convention to plot
+I have x axis I have the y axis I simply
+marked the point Y I have Sigma equal to
+Sigma by
+so I have Sigma Y and this is the line
+on which you can identify point Y
+now I have Tau X Y so this horizontal
+line meets and I get the point Y
+and what you will have to know is
+the points X and Y
+or on a diameter so that you do not know
+right now fine so I joined these two
+points
+I joined these two points
+to locate the center
+see in those days you should appreciate
+they were not even having a calculator
+now you have a very powerful computer
+and even the calculator some of them do
+some symbolic computations all that has
+come
+one in the early 1919th Century also
+they had only slide rule
+and most of the development they were
+very comfortable in graphic
+representations so the graphical
+representation has really helped early
+development of Science in all
+disciplines people had graphical
+representations
+so you should give that due credit for
+those graphical representations
+so now I have the center C
+and I have already said that this forms
+a diameter
+what strikes you directly
+see in a physical plane I have X and Y
+are
+separated by what angle
+but in the Mohr Circle how they are
+represented
+I have this angle doubled
+okay so that is one observation keep
+that observation your mind
+now I draw the circle
+with c as the center
+and you can also say what is the
+coordinate one thing you can say because
+it is lying on this axis the shear is
+zero
+and what is the value of this suppose I
+have this as Sigma X and sigma by I can
+call this as average of that
+okay we will see what is average later
+keep it as Sigma average and Tau as 0 so
+we know the coordinates of C
+now I can draw a circle passing through
+the
+points X and Y I know the radius so I
+can
+draw the circle
+see I have taken up a generic problem do
+not confuse that we have discussed the
+polar plot for a uniaxial stress
+whether this circle belongs to any axial
+stress no it is a generic problem
+because I have taken a generic state of
+stress I have some Sigma X sum Tau of X
+Y sum Sigma y so I have both shear and
+normal stress existing
+so you learn for a generic case later on
+as an exercise we can do it for a
+variety of cases we have looked at
+any axial tension we have looked at few
+Shear likewise we can learn how these
+circles appear
+so what you have here
+the graphical representation of the
+state of stress that is what happens in
+infinite
+planes passing through the point of
+interest is simply a circle
+no matter what is the state of stress
+represented
+the circle size may be different the
+origin may be shifted
+and the planes X and Y may be relocated
+but the geometric shape remains a circle
+don't you feel it is an advantage
+it's a real breakthrough
+we will prove that it is a circle from a
+mathematical perspective that we will
+see
+fine at this stage we learn how to do
+the construction because in the
+construction we follow a convention why
+do we follow a convention
+that will become apparent when you see
+what happens in an arbitrary plane
+so this is what is summarized here what
+we discussed in the previous slide
+so what you find here is the planes X
+and Y
+appear along the diameter separated by
+180 degrees on the most Circle
+so whatever the angle that you see in
+more circle is twice the physical angle
+and I go from X to Y 90 clockwise
+Direction I can go from X to y in the
+anti clock Direction in the Mohr Circle
+provided I followed the convention
+that will become apparent when you take
+a arbitrary plane
+okay
+see we have done a stress transformation
+law from
+vectorial transformation to tensorial
+transformation you have those
+expressions
+now what we are going to do is from the
+more Circle we will find out if I have a
+plane oriented at angle Theta from the
+x-axis
+how will I get it
+fine I have to locate the point the
+issue is I have to locate the point on
+this small circle appropriately
+because once I have located the point
+the magnitude of normal and shear stress
+are immediately known
+they are nothing but the coordinates of
+that point
+okay
+so I have the
+stress strengths are given
+and then I want to find out what happens
+at a plane Theta
+and we have labeled
+that axis as X Prime and Y Prime in the
+earlier case also we had labeled it as X
+Prime y Prime what we determined was we
+determine t x Prime X Prime
+you have to interpret that as Sigma x x
+so I was cautioning you it is not like a
+vectorial transformation it is slightly
+more than that because you have two
+subscripts
+okay
+now the X Prime plane is separated by
+angle Theta how do I locate the plane in
+the Mohr circle from whatever the
+discussion we have had
+can you say how do I because I know
+where is the location of explain on the
+more circle now I have to locate X Prime
+plane
+how do I do it
+2 Theta so that is fair enough isn't it
+so I have to move by angle 2 Theta from
+the explain and I would get the
+X Prime Plame on the Mohr Circle so I go
+by 2 Theta so I locate this as X Prime
+is the idea clear
+because I want to preserve how do I move
+in the physical plane to more Circle
+we have a special convention on how to
+plot quantities on an explain
+if I plot positive Shear downwards and
+explain
+it is easy for me to locate the planes
+from the physical plane to the Mohr
+Circle in the same manner the only
+difference is if it is Theta I should
+look at that Phi is the angle two Theta
+so once I know this x Prime I can find
+out what is Sigma X Prime X Prime
+as well as Tau X Prime y Prime that is
+nothing but reading it from the graph
+so your stress transformation becomes
+simple and straightforward
+so that is the greatest Advantage what
+you have to realize is every point on
+the
+Circle
+represents a particular physical plane
+see here we have taken a two dimensional
+represented suppose if I want to go to
+three dimensions there again more circle
+is useful which we'll also see in the
+next class tomorrow
+so what you have here is
+I have to locate the point x locate the
+point Y then find out what is the center
+and what is the radius my job is done
+and if I want to find out for any
+arbitrary point it is easy for me to do
+that
+let us also look at some of the special
+points
+so the coordinates are Sigma X Prime and
+Tau X Prime y Prime I have already said
+we will interchangeably say Sigma X
+prime or Sigma X Prime X Prime because
+it is understood
+when you put the symbol a sigma it is
+normal stress so is automatically
+understood in one fashion so we take the
+Liberty to call it like that
+and how do I look at the Y Prime plane
+we have already seen that X and Y are
+actually separated by 180 degrees on
+similar fashion X Prime and Y Prime are
+separated by 180 degrees or I simply
+extend the radius to the diameter so I
+locate the point Y Prime so I can read
+what is Sigma y Prime and Tau X Prime y
+Prime from this diagram so it is as
+simple as that
+see many times we may not make the
+calculation from
+the more Circle but we may want to find
+out the sense from the Mohr Circle
+okay we will also see what is that how
+it can be used
+sense of rotation from the Mohr Circle
+so point Y Prime gives the stresses on
+the Y phase they are nothing but Sigma y
+Prime y Prime and Tau X Prime y Prime so
+stress transformation is simple and
+straightforward there is no difficulty
+at all
+okay
+and this is emphasize that it is moving
+by the angle 2 Theta
+and by looking at this circle
+can you identify certain interesting
+planes
+which was difficult to find out when I
+had the polar plot
+only when you look at it very intently
+you will be in a position to identify
+I can easily see the circle cuts the x
+axis which is nothing but Sigma axis at
+two points
+what is the implication of that
+on those planes I have only normal
+stress and we have already said
+something very special
+so whenever I look at any stress state
+when I draw a circle with Sigma and Tau
+it will always cut that horizontal axis
+so I am always going to have
+planes on which only normal stress
+exists there is very special they are
+called as principal planes
+so that is one thing
+there is also
+another information you can gather
+I have this as the maximum value of
+fiestas
+when I have maximum value of shear
+stress in general you will always have a
+normal stress that is what we had seen
+in the polar plot also that is very
+clear here
+his idea
+you are able to appreciate
+so I have this
+Direction Theta
+what I have in the physical plane is
+represented as 2 Theta is re-emphasized
+in this slide so I move to this so I
+have this as
+2 Theta
+that's what you have
+on a similar vein we will also go and
+find out what is the principal stress
+okay
+and for me to do this anti-clockwise
+rotation Theta and anti-clockwise
+rotation 2 Theta is Possible only when I
+follow the sign convention if I don't
+follow the same convention I lose that
+advantage
+so if I am going to have an advantage
+better to follow a convention
+see we are in a society where you know
+people if they break the convention they
+think that they are more close to people
+it's not so in science and engineering
+you will have to follow the convention
+because it has its definite role to play
+isn't it now
+you find the celebratories they break
+the convention and the fans are very
+happy
+that doesn't work in engineering you
+have to follow the convention
+now we will find out the principal
+stresses
+so by definition
+principle planes or those planes where
+the
+stress state is such on that plane you
+have only a normal stress
+you do not know
+at what angle with respect to the x-axis
+do you have the principal plane so this
+is one of the quantities that you have
+to find out in a physical problem
+second aspect is what is the magnitude
+of the stress
+fine I need to know what is the
+magnitude and what is the orientation of
+the principal plane all that can be
+easily gathered from
+more Circle
+instead of telling this as an arbitrary
+plane now we have fixed
+find out a plane on which
+you have only normal stress the same
+question I raised when we had the
+koshy's formula where I had t n x t and
+Y multiplied equal to your stress tensor
+multiplied by Direction cosine I said
+two class of problems can be formed in
+one class of problems you are given the
+direction cosines
+find out what is the stress factor in
+another class of problems find out the
+direction cosines if you dictate what
+should be the nature of the stress
+vector
+mathematically that requires little more
+calculations
+but graphically it's a child's play
+because in a point of Interest
+among the infinite planes passing to the
+point of Interest
+the principal planes are always
+important
+you will find when I said we live in
+linear elasticity you have greatest
+Advantage you will see the advantage of
+the concept of principal stresses
+because when I have multiple loads
+acting you have torsion bending and
+axial forces acting on a member I can do
+the principle of superposition very
+easily
+okay
+failure theories are written with the
+help of principal stresses
+so now I have this as two Theta 1 so you
+can find out what is the orientation of
+the
+principles as Direction in the physical
+plane it is Theta one
+fine so when I go to Theta 1 make a neat
+sketch you will have to recognize on the
+principal planes I have only normal
+stress they are very special
+and I have labeled this as one
+and I can also find out when I have this
+the other principle plane is
+perpendicular to that in the physical
+plane on the more Circle it is separated
+by angle 180 so I will have this 2 as
+marked here
+and you know there is also a convention
+how do you label the principal stresses
+suppose in a problem I solve it
+mathematically
+I would always label the algebraically
+larger value as Sigma 1. this is again a
+convention
+in the diagram I have shown this
+compared to this this has algebraically
+larger value
+fine when I say Sigma 1
+at a given point of interest if I have
+multiple normal stresses I can have in a
+three dimensional problem three
+principal planes
+of these the algebraically the largest
+I'll call it a sigma one
+the next algebraically large just as
+Sigma 2 the least value as Sigma 3. so
+this is the convention that's also used
+so the other principle plane you can
+represent it by point two
+and this is separated by angle 180 from
+the
+principal plane one
+and I have this as Sigma 1 and sigma 2.
+I have this angle as 2 Theta 1.
+see from the diagram I can also write
+mathematical expressions
+of what are the magnitudes of this
+stresses
+and what is the orientation I can do
+that
+we'll also do that
+so you have a summary that is I have a
+more Circle I have the
+arbitrary plane is represented and also
+the principal planes are represented
+and I want to find out what is the
+magnitude of this
+from the most Circle
+suppose I want to find out what is the
+value of Sigma 1
+how will you write Sigma 1
+so I have to know what is the distance
+OC and what is the distance C1
+can you find out what is the distance OC
+we have returned at a sigma average
+and that is nothing but
+Sigma X Plus Sigma y by 2. and your c 1
+is your radius r
+see from the Mohr Circle we are also in
+a position to write the expressions
+for you to find out these quantities
+mathematically
+and what is the value of r
+because we know only the stress sensor
+at the point given with respect to the
+reference axis X and Y
+we call that a sigma X Tau x y and sigma
+y
+can if find out what is the expression
+for radius r
+you can easily work it out
+because we know what is the
+what are the coordinates for X and Y
+from these you can easily find out an
+expression for the radius
+please work it out and then check it
+from my slide
+it's not very difficult it's very simple
+simple property of circle is what you
+learn to use
+so I can get the expression for r as
+simply Sigma x minus Sigma y by 2 whole
+Square
+Plus
+Tau of X Y whole Square
+and whenever I have a square root when I
+want to find out Sigma 1 or Sigma 2
+I will have this as plus or minus I have
+Sigma 1 is represented this way
+and
+Sigma 1 is represented this way and
+sigma 2 will be
+I'll have a minus sign here so I can
+find out what is Sigma 1 as well as
+Sigma 2
+from the X more Circle
+now let me ask one more question can I
+find out the angle
+from this I don't have the Expressions
+here can you work it out
+can you work it out and tell me it's
+again a very famous expression which we
+will again determine from mathematics
+later
+from more Circle itself you can get the
+expression
+the clue is you have written R from
+there you have to proceed
+anybody has expression what is
+expression for 2 Theta 1. or in a
+simplistic term find out what is tan 2
+Theta 1.
+what is tan 2 Theta 1
+it's very simple I say
+2 Tau XY divided by
+Sigma x minus Sigma y fine
+okay let me ask one thing see many times
+when you learn
+engineering
+you will have to bring in all aspects of
+your learning from mathematics
+I have only tan 2 Theta 1 equal to 2 Tau
+x square root by Sigma x minus Sigma by
+if I want to find out Theta 1
+what happens to inverse trigonometric
+functions
+is it single valued function or
+multi-valued function
+it's a multi-valued function
+so you will always have a tie
+whether I have to take Theta 1 as the
+given value from what I get from a
+calculator or do I have to add
+additional 90 degrees
+you can resolve that easily if I have
+a circle diagram like this I don't have
+to draw it with geometric perfection
+if I want to find out this I have this 2
+Theta 1 is an acute angle if I want to
+find a 2 Theta 2 it is an obtuse angle
+so you when you get the mathematical
+expression find out the Theta
+if you want to associate that correctly
+to Sigma One Direction because Sigma 1
+Sigma 2 Sigma 3 we have said it is
+dictated by the algebraic value
+when I have the expression tan 2 Theta
+equal to 2 Tau X by Sigma x minus Sigma
+by a
+it is not Theta 1 or Theta 2 or theta 3
+you cannot say algebraically arrange
+them and then call it as like we said
+Sigma 1 Sigma to Sigma 3 Theta 1 Theta
+to three also will do it algebraically
+you cannot do that you have to identify
+the associated Direction
+so to find out the associate Direction
+because these are multi-valued functions
+you can use the more Circle very
+effectively
+you don't have to do a dramatic sketch
+you know the more Circle can directly
+give you whether it is an acute angle or
+obtuse angle so you have an advantage
+so this is what I had discussed okay and
+what I have discussed I have not put the
+Expressions here
+and I can use this as the basis for me
+to find out
+how to get the
+principles as Direction comfortably from
+your move Circle
+even when you solve it mathematically
+you will have to use the multi-valued
+function many times you know when you
+take the square root you don't take plus
+or minus you always assume it as Plus
+you agree with me when you have solve
+many problems because many times you get
+the correct result with Plus so he has
+not even gone and checked like I said
+when you are having multiple rigid
+bodies can interconnected rigid bodies
+if you want to apply the equilibrium
+condition you should ideally apply it to
+the system as a whole
+as far as all the subsystems which I
+have emphasized when I developed the
+engine mechanics course but many times
+people simply assume if you satisfy F
+equal to 0 m equal to 0 for the entire
+system once solution is correct
+and I had a counter example that your
+mathematics should help
+idealizations are very important
+engineering if you don't do the correct
+idealization of the support
+if you do not check F equal to 0 m equal
+to 0 for the subsystem
+it will show up
+so you have to go back and improve the
+idealization
+so do not violate see once you start
+practicing engineering it is not the
+quickness with which you solve the
+problem is going to retain you as an
+engineer
+correctness with which you solve the
+problem is very important so you should
+have checks and balances which we'll
+also see when we want to do such
+transformation there are certain things
+are invariants
+okay we will use that to verify whether
+the result obtained is correct
+that inbuilt checking approach is needed
+for engineering otherwise when you
+bridge when you build a bridge it will
+collapse
+because I was told
+they had built a bridge in Andhra
+Pradesh without putting steel
+what to do you know the contractors who
+fund those projects they want to
+maximize their profits
+and if you build a bridge without
+reinforcement
+how will it withstand it cannot
+withstand at all that came up for
+retrofitting in our civil engineering
+department those professors were
+communicating it if not IAT who which
+institution can salvage this kind of a
+situation so they have to put extra
+supports and make sure that the build
+that bridge at least lasts for the
+minimum service life
+so you have to have inbuilt checks in
+all these aspects of calculation it's
+not speed
+okay so you forget about your je
+training where you are all told speed is
+very important speed is not important in
+practicing Engineers correctness is
+important
+okay so I get Theta 1 from this and
+Theta 2 is theta plus 90 which is very
+clear from more Circle
+I have taken a problem in such a manner
+that I have this as acute angle and
+obtuse angle it could be of any category
+but when I mathematically solve you
+should recognize that I'm handling a
+multi-valuate function it's not a single
+valued function inverse trigonometric
+quantities are multi-valued and you
+should apply all the basics but many
+times people don't apply the basics
+and many times people have not attached
+what is the angle that they have got to
+the relevant principle stress
+that is also very important that you can
+easily do when you have the more Circle
+and we have said that you also have a
+maximum shear stress
+and can you tell me what is the
+orientation of Maximum shear stress in
+the physical plane
+can you tell me
+what is the orientation of the maximum
+shear stress in the physical plane
+45 degrees to principles explain
+fine so you understand
+now can you go back and think
+something happened to chalk
+we were telling 45 degrees
+isn't it
+so 45 degree was not arbitrary there is
+some meaning attached to it so you
+should know what kind of stress state is
+introduced when I apply torsion
+when I apply torsion what happens you
+should know and you should also know
+what causes a chalk to failure
+suppose I say chalk fails by normal
+stress exceeding a limit
+fine then you can explain what happened
+when you pulled what happened when you
+twist it
+so here it is at 45 degrees you have
+correctly identified in the physical
+plane in the more Circle it is at 90
+degrees
+so you have the points D and E
+representing the planes of Maximum shear
+stress
+and you will have to recognize maximum
+shear stress plane always has some
+amount of normal stress
+in general
+I can also have
+in special situation when the center is
+shifted to the origin
+I'll have on the maximum shear stress
+plane only Justice I will not have
+normal stress
+okay but in general
+only when you have normal stress
+you can identify either two planes in
+two Dimensions or three planes in three
+dimensions where the stress
+is wholly normal
+so they are very important okay
+so I have this at 90 degrees
+so on the physical plane you can
+identify
+from the principles as plane they are
+oriented at 45 degrees
+so now you can appreciate instead of
+looking at
+what happens as data says at a point of
+Interest
+if you look at from Principal planes as
+the reference
+your Matrix also becomes very simple to
+write
+and you also find out what is shear even
+before we go into theories of failure
+experiments have revealed brittle
+materials failed by
+maximum normal stress
+and ductile materials fail by shear
+stress so that is the reason why we
+attach more importance to
+finding out at a given plane of Interest
+what is the normal stress as well as the
+shear stress
+okay that is the reason why we pay
+attention so this gives you a very
+important aspect
+that attack given point of Interest
+when I want to draw the Mohr Circle I
+should identify the plane X and plane y
+then draw the circle
+once I draw the circle
+the two important
+aspects are what are the principal
+planes and what are the maximum shear
+stress planes
+whether you want to find out an
+arbitrary plane is secondary
+fine at a given point you always want to
+know what are the principal stresses and
+what are the maximum shear stress
+how they are located the magnitude of
+the maximum shear stress as well as its
+location
+so I have this
+normal stresses nothing but Sigma
+average
+okay
+and this is what you have
+so I have
+shear stress as well as the
+normal stress acting on those planes
+so in this lecture we have looked at a
+very powerful graphical representation
+that goes with the name of more Circle
+the scientists who determined is
+ottomore
+and I said that this was determined in
+1882
+60 years later than
+stress tensor was determined so some of
+these quantities
+takes such a long time to develop we
+study them
+in 15 minutes in a class
+one class to the next class we travel by
+100 years fine so that is the way the
+learning goes thank you very much
+[Music]
+foreign
+[Music]

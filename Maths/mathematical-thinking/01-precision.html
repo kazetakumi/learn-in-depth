@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1 · Why precision isn't fussiness</title>
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [['\\(', '\\)']], displayMath: [['$$', '$$']] },
+    options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+  };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+  :root {
+    --paper: #fbfaf6;
+    --ink:   #2b2620;
+    --accent:#355070;
+    --rule:  #ddd8cc;
+    --faded: #8a8175;
+    --codebg:#f3f0e8;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--paper); }
+  body {
+    margin: 0;
+    padding: 4rem 1.5rem 9rem;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    font-size: 19px;
+    line-height: 1.68;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; }
+
+  a { color: var(--accent); }
+
+  .topbar {
+    font-size: .8rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--faded);
+    margin: 0 0 3.5rem;
+  }
+  .topbar a { color: var(--faded); text-decoration: none; border-bottom: 1px solid var(--rule); }
+  .topbar a:hover { color: var(--accent); }
+
+  .eyebrow {
+    font-size: .78rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 1.1rem;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 2.45rem;
+    line-height: 1.15;
+    margin: 0 0 2.2rem;
+    letter-spacing: -.01em;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 1.45rem;
+    line-height: 1.25;
+    margin: 4rem 0 1.2rem;
+  }
+  h3 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.15rem;
+    margin: 2.6rem 0 .8rem;
+  }
+  p { margin: 0 0 1.35rem; }
+  .lede { font-size: 1.13rem; color: #443c32; }
+
+  em.strong { font-style: normal; border-bottom: 1px solid rgba(53,80,112,.4); }
+
+  hr.div { border: 0; border-top: 1px solid var(--rule); margin: 3.8rem 0; }
+
+  /* asides: inline, indented, light left rule */
+  .aside {
+    margin: 2.2rem 0;
+    padding-left: 1.25rem;
+    border-left: 2px solid var(--rule);
+    font-size: .93rem;
+    color: #5c5348;
+  }
+  .aside p { margin: 0 0 .75rem; }
+  .aside p:last-child { margin-bottom: 0; }
+  .aside .label {
+    display: block;
+    font-size: .7rem;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--faded);
+    margin-bottom: .4rem;
+  }
+
+  /* the chain */
+  .chain { margin: 2.4rem 0; }
+  .chain-row {
+    display: flex;
+    gap: 1rem;
+    padding: .85rem 0;
+    border-bottom: 1px solid var(--rule);
+    align-items: baseline;
+  }
+  .chain-row:first-child { border-top: 1px solid var(--rule); }
+  .chain-n {
+    flex: 0 0 1.6rem;
+    color: var(--faded);
+    font-variant-numeric: oldstyle-nums;
+  }
+  .chain-body { flex: 1; }
+  .chain-why { display: block; font-size: .85rem; color: var(--faded); margin-top: .25rem; }
+
+  /* forms table */
+  .forms { margin: 2.2rem 0; }
+  .form-row {
+    display: flex;
+    gap: 1.1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--rule);
+    align-items: baseline;
+  }
+  .form-row:first-child { border-top: 1px solid var(--rule); }
+  .form-k {
+    flex: 0 0 6.6rem;
+    font-size: .78rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    line-height: 1.5;
+  }
+  .form-b { flex: 1; }
+  .form-b small { display: block; color: var(--faded); font-size: .87rem; margin-top: .2rem; }
+
+  ul, ol { margin: 0 0 1.35rem; padding-left: 1.3rem; }
+  li { margin-bottom: .55rem; }
+
+  code, pre {
+    font-family: 'SF Mono', Menlo, Consolas, monospace;
+    font-size: .85em;
+  }
+  code { background: var(--codebg); padding: .1em .35em; border-radius: 2px; }
+  pre {
+    background: var(--codebg);
+    padding: 1.1rem 1.25rem;
+    border-radius: 3px;
+    overflow-x: auto;
+    line-height: 1.55;
+    margin: 1.6rem 0;
+  }
+  pre code { background: none; padding: 0; }
+
+  details {
+    margin: 1.6rem 0 2.4rem;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: .2rem 0;
+  }
+  summary {
+    cursor: pointer;
+    padding: .95rem 0;
+    color: var(--accent);
+    font-style: italic;
+    list-style: none;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "▸ "; }
+  details[open] > summary::before { content: "▾ "; }
+  details[open] > summary { border-bottom: 1px solid var(--rule); margin-bottom: 1.2rem; }
+  details > *:last-child { margin-bottom: 1rem; }
+
+  .yourturn {
+    margin: 3rem 0;
+    padding: 1.6rem 0 .2rem;
+    border-top: 2px solid var(--ink);
+  }
+  .yourturn .label {
+    font-size: .72rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--ink);
+    display: block;
+    margin-bottom: .9rem;
+  }
+
+  .end {
+    margin-top: 5rem;
+    padding-top: 2.2rem;
+    border-top: 1px solid var(--rule);
+    color: #5c5348;
+    font-size: .96rem;
+  }
+
+  .sentence {
+    display: block;
+    margin: 1.8rem 0;
+    padding-left: 1.2rem;
+    border-left: 3px solid rgba(53,80,112,.35);
+    font-size: 1.16rem;
+    color: #362f26;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="topbar"><a href="index.html">← the ladder</a> &nbsp;·&nbsp; rung one of six</p>
+
+  <p class="eyebrow">Rung 1</p>
+  <h1>Why precision isn&rsquo;t fussiness</h1>
+
+  <p class="lede">I want to start by breaking something in front of you. Watch closely, because you are going to spend the next several weeks learning to see the thing that broke.</p>
+
+  <p>Here is a short argument. Four lines. Everything in it is school mathematics you have known for years. Read it slowly and decide, for each line, whether you accept it.</p>
+
+  <div class="chain">
+    <div class="chain-row">
+      <div class="chain-n">1</div>
+      <div class="chain-body">Every number has a square root.</div>
+    </div>
+    <div class="chain-row">
+      <div class="chain-n">2</div>
+      <div class="chain-body">So \(-1\) has a square root. Call it \(r\). Then \(r^2 = -1\).
+        <span class="chain-why">applying line 1 to the particular number \(-1\)</span></div>
+    </div>
+    <div class="chain-row">
+      <div class="chain-n">3</div>
+      <div class="chain-body">For every number \(r\), \(r^2 \ge 0\).
+        <span class="chain-why">a positive times a positive is positive; a negative times a negative is positive; \(0^2=0\)</span></div>
+    </div>
+    <div class="chain-row">
+      <div class="chain-n">4</div>
+      <div class="chain-body">Therefore \(-1 \ge 0\).
+        <span class="chain-why">lines 2 and 3, applied to that same \(r\)</span></div>
+    </div>
+  </div>
+
+  <p>The conclusion is false. Minus one is not greater than or equal to zero; you have known that since you were seven.</p>
+
+  <p>So one of those four lines is wrong. <strong>Which one?</strong> Don&rsquo;t read on. Actually decide. Point at a line number and be ready to say what is wrong with it.</p>
+
+  <details>
+    <summary>I&rsquo;ve picked a line.</summary>
+    <p>Most people point at line 2 &mdash; something feels slippery about pulling \(r\) out of thin air. But line 2 is impeccable. If <em>every</em> number has a square root, then in particular \(-1\) does, and giving it a name is just bookkeeping.</p>
+    <p>Some point at line 3. But line 3 is a fact you can verify all day and never break.</p>
+    <p>Line 4 is pure substitution. Line 1 is a sentence you nodded at without hesitating.</p>
+    <p>Here is the uncomfortable answer. <em class="strong">There is no meaning of &ldquo;number&rdquo; on which all four lines are true.</em> Take it to mean the positive reals and line 1 is true but line 2 is illegal &mdash; \(-1\) isn&rsquo;t one of them. Take it to mean all the reals and line 2 is fine but line 1 is false. Take it to mean the complex numbers and line 1 is true again, but now line 3 collapses, because the complex numbers cannot be ordered at all, so \(r^2 \ge 0\) isn&rsquo;t even a meaningful thing to assert.</p>
+    <p>So the argument never had a leg to stand on. But that is not what you experienced. What you experienced was reading line 1 with one meaning in your head and line 2 with a different one, <em>and not noticing the switch</em>. Every individual step felt forced. The falsehood walked in through a change of meaning that no line recorded.</p>
+    <p>And while we are here &mdash; look at the small print I wrote under line 3 to justify it. &ldquo;A positive times a positive is positive; a negative times a negative is positive.&rdquo; That reasoning only makes sense if numbers can be compared at all. I made a silent choice of domain inside my own scaffolding, in the very argument I was using to trap you. It is that easy to do.</p>
+  </details>
+
+  <h2>The rot is not in the reasoning</h2>
+
+  <p>Look again at line 1.</p>
+
+  <span class="sentence">Every number has a square root.</span>
+
+  <p>When you read that and nodded, what were you picturing? Almost certainly you were picturing \(9\) and \(3\), or \(2\) and \(1.414\ldots\) &mdash; you were thinking about <em>positive</em> numbers, where the sentence is perfectly true. Then in line 2 I quietly used the sentence as though &ldquo;number&rdquo; meant <em>any real number at all</em>, where it is false.</p>
+
+  <p>I did not cheat. I never changed a word. The sentence itself does not say which numbers it is talking about, and so <em class="strong">it is not one statement</em> &mdash; it is a slot that different readers fill differently, and one filling makes it true while another makes it false.</p>
+
+  <p>Notice what this means. The falsehood did not enter through a bad inference. It was smuggled in through the <em>front door</em>, in a sentence so ordinary that you agreed to it without a flicker. That is the whole lesson of this rung, and I want you to sit with how unsettling it is: <strong>your reasoning can be flawless and your conclusion still false, because a sentence you accepted was not a statement at all.</strong></p>
+
+  <div class="aside">
+    <span class="label">a dead end worth naming</span>
+    <p>The instinct at this point is to say: fine, be careful, everybody knows &ldquo;number&rdquo; means real number here. But that is exactly the reflex that fails, and it fails in two ways at once. There is no &ldquo;here&rdquo; &mdash; that was the room you were standing in, not something the sentence carried. And as we just saw, no choice you could have made would have rescued the argument anyway. The problem was never that you chose badly. It was that the sentence let you choose at all, silently, more than once, and differently each time.</p>
+  </div>
+
+  <h2>Why you have gone your whole life without noticing</h2>
+
+  <p>You have been reading and writing ambiguous sentences since you could speak, and it has essentially never hurt you. Why not?</p>
+
+  <p>Because everyday language does not run on the words alone. It runs on the words plus everything the speaker and the listener already share. I can tell you</p>
+
+  <span class="sentence">July is a summer month.</span>
+
+  <p>and it is true. If a colleague of mine in Sydney says the same sentence, they are saying something false. Neither of us has misused the word &ldquo;summer&rdquo; &mdash; it means the same thing in both mouths, the hottest quarter of the year. The sentence simply does not carry, inside itself, enough information to have a truth value. It borrows the rest from whoever is standing there.</p>
+
+  <p>Or take a sentence with a genuine fork in it:</p>
+
+  <span class="sentence">The man saw the woman with a telescope.</span>
+
+  <p>Who has the telescope? You cannot tell, and you do not care, because in real life you were already in the room and you knew. Newspaper subeditors, writing at speed, produce these by accident constantly &mdash; <em>Sisters reunited after ten years in checkout line</em> is funny for exactly one reason, which is that the phrase &ldquo;in checkout line&rdquo; can attach in two places and one attachment is absurd.</p>
+
+  <p>This is not a defect of English. It is a feature, and an efficient one. Making every English sentence carry its own full context would be an enormous undertaking and would slow all of us down for no gain, because in ordinary life the context is right there.</p>
+
+  <h2>So what changes in mathematics?</h2>
+
+  <p>Two things change, and only the second one is really about mathematics.</p>
+
+  <h3>First: there is no shared room</h3>
+
+  <p>When I write a mathematical claim, I do not know who is reading it. It might be a student in another country, a referee who disagrees with me and is hunting for a hole, a colleague in eighty years, or &mdash; and this will matter enormously to you shortly &mdash; a machine that has no world-knowledge to fall back on whatsoever. None of them can hear my tone. None of them was in the room. Anything the sentence does not say, they do not get.</p>
+
+  <h3>Second, and this is the real reason: a proof is a chain</h3>
+
+  <p>Ordinary sentences stand alone. You say one, I understand it, we move on. If it was slightly ambiguous, no damage is done, because nothing was built on top of it.</p>
+
+  <p>Mathematics is not like that. A proof is a chain of statements where each one is supposed to be forced by the ones before. Real proofs run to dozens, hundreds, sometimes thousands of links, and each link is loaded with the full weight of everything above it.</p>
+
+  <p>Now think about what a chain does to a small crack. In ordinary conversation an ambiguous sentence produces, at worst, a moment of confusion that the next sentence clears up. In a chain, an ambiguous link is a place where you can <em>enter with one meaning and leave with another</em> &mdash; which is precisely what happened to you between line 1 and line 2 above. And the chain does not warn you. It carries the falsehood forward, dressed in the same valid-looking steps as everything else, and hands it to you at the end as a theorem.</p>
+
+  <p>That is why precision here is not fastidiousness or academic manners. <em class="strong">It is the minimum condition under which chaining is safe at all.</em> Everything that follows on this ladder &mdash; the truth tables, the quantifiers, the proof forms &mdash; exists to buy you that safety.</p>
+
+  <div class="aside">
+    <span class="label">why the stakes rose</span>
+    <p>For most of its history mathematics could afford to be somewhat informal, because its statements were about things you could draw or count, and intuition kept you honest. That stopped working in the nineteenth century. Mathematicians began proving results that were flatly against intuition &mdash; you can, in a precise sense, cut a solid sphere into finitely many pieces and reassemble them into two spheres identical to the original. When your intuition and your proof disagree and you have decided to trust the proof, the proof had better be airtight. That decision is what forced the precise style you are about to learn.</p>
+  </div>
+
+  <h2>The demand, stated plainly</h2>
+
+  <p>Here is what the chain argument forces on us. If we are going to build long chains, then every link must be a <strong>statement</strong>: a sentence that is either true or false, with which of the two it is <em>fixed by the sentence itself</em> &mdash; not by who is reading it, not by what they assume, not by which country they are in.</p>
+
+  <p>&ldquo;Every number has a square root&rdquo; fails that test. Watch how little it takes to fix:</p>
+
+  <span class="sentence">Every real number greater than or equal to zero has a real square root.</span>
+
+  <p>Now it is true, and it is true for everybody, and line 2 of my argument becomes illegal, because \(-1\) is not a real number greater than or equal to zero. The chain snaps where it should have snapped in the first place. Notice I did not add rigour by adding <em>symbols</em>. I added it by making the sentence say what it was relying on.</p>
+
+  <div class="yourturn">
+    <span class="label">Your turn</span>
+    <p>Each of these is a sentence people say and nod at. For each: is it a statement &mdash; definitely true or definitely false on its own &mdash; or is it a slot that different readers fill differently? If it&rsquo;s a slot, say what is missing, and repair it.</p>
+    <ol>
+      <li>\(x^2 = 4\) has the solution \(2\).</li>
+      <li>\(\sqrt{x^2} = x\).</li>
+      <li>Doubling a number makes it bigger.</li>
+      <li>There are infinitely many prime numbers.</li>
+      <li>The equation \(x^2 + a = 0\) has a real root.</li>
+    </ol>
+  </div>
+
+  <details>
+    <summary>Compare with what I&rsquo;d say</summary>
+    <p><strong>1.</strong> A slot, and a nasty one, because it hides in the word <em>the</em>. &ldquo;The solution&rdquo; presupposes there is exactly one; there are two, \(2\) and \(-2\). Repair: <em>\(2\) is a solution of \(x^2=4\)</em>, which is true, or <em>the solutions of \(x^2=4\) are \(2\) and \(-2\)</em>, also true. Whole proofs have died on a stray definite article.</p>
+    <p><strong>2.</strong> False as written &mdash; take \(x=-3\) and you get \(3\). But most people read it as true, because they are silently picturing positive \(x\). Same failure mode as line 1 of the chain. Repair: <em>for every real \(x \ge 0\), \(\sqrt{x^2} = x\)</em>. (Or, for all real \(x\), \(\sqrt{x^2} = |x|\).)</p>
+    <p><strong>3.</strong> A slot. True if &ldquo;number&rdquo; means positive; false at \(0\); false for negatives, where doubling makes it smaller. Repair: <em>for every real \(x > 0\), \(2x > x\)</em>.</p>
+    <p><strong>4.</strong> <em>A genuine statement.</em> Nothing is missing. Every reader, everywhere, in any century, is being told the same thing, and it happens to be true &mdash; and it has been known to be true, with proof, for well over two thousand years. This is what we are aiming for.</p>
+    <p><strong>5.</strong> A slot, and this one is instructive, because it looks the most mathematical of the five. It cannot be true or false until you say what \(a\) is. Pin \(a=-1\) and it is true; pin \(a=1\) and it is false. And notice that the repair could go two ways &mdash; <em>for every real \(a\)&hellip;</em> (false) or <em>there is a real \(a\) such that&hellip;</em> (true). Two repairs, opposite truth values, same sentence underneath. Hold on to that. It is rung 3.</p>
+  </details>
+
+  <h2>Now the good news, and it is very good</h2>
+
+  <p>You may be feeling that this has just made your life impossible. If ordinary language is riddled with slots, and mathematics needs statements, are we really proposing to make the whole of English precise? That is not a project, that is a life sentence.</p>
+
+  <p>We are not going to do that, and here is the discovery that rescues us &mdash; noticed by the Greeks, and it is the single most useful piece of compression in this entire course.</p>
+
+  <p>Mathematics does not use all of language. Go and look at the axioms, conjectures and theorems of any branch of mathematics, and you find that essentially every one of them is one of just <strong>four shapes</strong>, or a combination of those shapes:</p>
+
+  <div class="forms">
+    <div class="form-row">
+      <div class="form-k">Property</div>
+      <div class="form-b">Object \(a\) has property \(P\).
+        <small>\(7\) is prime. &nbsp; \(\sqrt2\) is irrational.</small></div>
+    </div>
+    <div class="form-row">
+      <div class="form-k">Universal</div>
+      <div class="form-b">Every object of type \(T\) has property \(P\).
+        <small>Every prime bigger than 2 is odd.</small></div>
+    </div>
+    <div class="form-row">
+      <div class="form-k">Existential</div>
+      <div class="form-b">There is an object of type \(T\) having property \(P\).
+        <small>There is a prime between 20 and 25.</small></div>
+    </div>
+    <div class="form-row">
+      <div class="form-k">Conditional</div>
+      <div class="form-b">If statement \(A\), then statement \(B\).
+        <small>If \(p\) is a prime of the form \(4n+1\), then \(p\) is a sum of two squares.</small></div>
+    </div>
+  </div>
+
+  <p>And when a statement is more complicated than one of those, it is those shapes glued together with three joining words &mdash; <strong>and</strong>, <strong>or</strong>, <strong>not</strong>.</p>
+
+  <p>Stop and appreciate the size of what just happened. The task looked infinite: pin down all of English. It is in fact <em>finite and small</em>. To make mathematics precise you need to nail down the exact behaviour of six words:</p>
+
+  <span class="sentence">and &nbsp;·&nbsp; or &nbsp;·&nbsp; not &nbsp;·&nbsp; implies &nbsp;·&nbsp; for all &nbsp;·&nbsp; there exists</span>
+
+  <p>Six. That is the entire remaining vocabulary problem. Everything else &mdash; &ldquo;prime,&rdquo; &ldquo;continuous,&rdquo; &ldquo;group&rdquo; &mdash; is a definition you can look up, built out of these. And this list is not a syllabus I have invented for you; it is a <em>consequence</em> of what we just discovered about the shapes. That is why the rest of the ladder looks the way it does. Rung 2 is <em>implies</em> and its friends <em>and, or, not</em>. Rung 3 is <em>for all</em> and <em>there exists</em>. There is nothing else to do.</p>
+
+  <div class="aside">
+    <span class="label">a caution about the word &ldquo;type&rdquo;</span>
+    <p>Notice that two of the four shapes say &ldquo;object of type \(T\).&rdquo; That is not decoration. That slot is exactly where &ldquo;every number has a square root&rdquo; went wrong &mdash; the shape demands a type, and the English sentence declined to supply one. Every time you meet a &ldquo;for all&rdquo; or a &ldquo;there exists&rdquo; from here on, your first question is: <em>over what?</em></p>
+  </div>
+
+  <h2>Where this is going: a language that cannot lie to you</h2>
+
+  <p>I said earlier that one of your readers might be a machine with no world-knowledge to fall back on. That reader is a proof assistant, and you are going to meet one. Let me show you why this rung is the foundation of that whole enterprise, because it makes the point better than any argument I can give you.</p>
+
+  <p>Take our repaired sentence and strip it to its shape. &ldquo;Every real number \(\ge 0\) has a real square root&rdquo; is a <em>universal</em> shape, whose property is itself a <em>conditional</em> shape, whose consequent is an <em>existential</em> shape:</p>
+
+  <pre><code>for every real x,  if 0 ≤ x,  then there exists a real r with r² = x</code></pre>
+
+  <p>Written in Lean, that is:</p>
+
+  <pre><code>theorem sqrt_exists : ∀ x : ℝ, 0 ≤ x → ∃ r : ℝ, r ^ 2 = x</code></pre>
+
+  <p>Read it slowly and you will find you already can. <code>∀</code> is &ldquo;for every,&rdquo; <code>∃</code> is &ldquo;there exists,&rdquo; <code>→</code> is &ldquo;if&hellip;then,&rdquo; and <code>x : ℝ</code> is read &ldquo;\(x\), a real number.&rdquo; It is our four shapes, one after another, in the same order as the English.</p>
+
+  <p>Now here is the part I want you to see. Try to write down our original bad sentence &mdash; the one that says &ldquo;number&rdquo; and declines to say which:</p>
+
+  <pre><code>theorem every_number_has_sqrt : ∀ x, ∃ r, r ^ 2 = x</code></pre>
+
+  <p>Ask yourself what this could possibly mean, and you hit the same wall Lean does. <code>∀ x</code> is not a complete thought until \(x\) ranges over something. So one of exactly two things happens, and neither of them is the thing that happened to you:</p>
+
+  <ul>
+    <li>Lean cannot work out what you meant, and stops. You are told, before you prove anything, that you have not yet said something.</li>
+    <li>Or it infers a type from the surrounding symbols and fills the gap itself &mdash; and now you have made a claim about <em>that</em> specific kind of number, whatever it landed on, which may not be the kind you had in mind.</li>
+  </ul>
+
+  <p>What cannot happen is the third option, the one that got you: the domain staying comfortably unfixed, so that line 1 can mean one thing and line 2 another. <em class="strong">In this language every bound variable has a type &mdash; written by you or supplied for you &mdash; and there is no such thing as a &ldquo;for all&rdquo; with no domain.</em> The ambiguity that took you from a sentence you believed to \(-1 \ge 0\) has nowhere to live.</p>
+
+  <p>Which, by the way, is why the second option is not a rescue but a warning. Letting the machine guess your domain is precisely the habit this rung is trying to break. Write the type.</p>
+
+  <p>That is what a proof assistant is: not a calculator, and not a search engine for theorems, but a language in which the failure you experienced ten minutes ago cannot occur. Everything we do on this ladder is you learning, by hand and in English, to write the way that language forces you to write &mdash; so that when you arrive there, it is not a fight.</p>
+
+  <div class="aside">
+    <span class="label">where the missing hypothesis goes</span>
+    <p>You may wonder what happens to the familiar school rule \(\sqrt{a}\sqrt{b} = \sqrt{ab}\), which also hides a condition. In a formal library that condition does not live in a footnote or in the reader&rsquo;s good sense &mdash; it sits in the statement itself as a required input, and you cannot invoke the rule without handing over a proof that the condition holds. The suppressed hypothesis becomes a thing you must physically produce. That is the same idea as this rung, enforced by a machine.</p>
+  </div>
+
+  <h2>What you should now be able to do</h2>
+
+  <p>Not recite. Predict. If this rung has landed, then handed a sentence you have never seen, you should be able to ask the two questions that generate everything above:</p>
+
+  <ol>
+    <li><strong>Is its truth fixed by the sentence, or by the reader?</strong> If a second reader could plausibly assign it the opposite truth value without misunderstanding a single word, it is not a statement yet, and nothing may be built on it.</li>
+    <li><strong>Over what?</strong> Every &ldquo;every&rdquo; and every &ldquo;some&rdquo; ranges over something. If the sentence does not say, that is where the falsehood will get in.</li>
+  </ol>
+
+  <p>And you should be able to answer, in your own words and without looking up: <em>why</em> is mathematics stricter about language than everyday life? Not &ldquo;because mathematicians are precise people.&rdquo; Because <strong>proof is a chain, and a chain converts a small ambiguity into a confident falsehood.</strong> That sentence is this whole rung, compressed. If you can regenerate the \(-1 \ge 0\) argument from it a week from now, you own the rung.</p>
+
+  <div class="yourturn">
+    <span class="label">Before you climb</span>
+    <p>Write down, from memory and without scrolling up, a four-line argument whose steps are all valid and whose conclusion is false. You may not reuse mine. Then say in one sentence which link was not a statement, and repair it.</p>
+    <p>If that takes you twenty minutes and two false starts, that is the correct experience. It is a different activity from anything school mathematics asked of you, and it is slow at first for everyone.</p>
+  </div>
+
+  <div class="end">
+    <p><strong>One honest word before you go.</strong> That read smoothly, and smoothness is a trap. The feeling you have right now &mdash; <em>yes, obviously, ambiguity is bad, got it</em> &mdash; is fluency, and fluency is not understanding. It is the sensation of having watched someone else be clear.</p>
+    <p>You will know you actually have this rung when you catch yourself, unprompted, in the middle of your own argument, stopping at a sentence you wrote and asking <em>over what?</em> &mdash; and finding that you had not said. That will happen to you within the week if you do the exercises, and not at all if you only read.</p>
+    <p>Rung 2 is next, and it is the first place things get genuinely counter-intuitive. We take the word <em>implies</em>, and instead of me telling you how it behaves, you are going to try to build its truth table yourself and discover that you have no choice in the matter.</p>
+    <p style="margin-top:1.8rem"><a href="index.html">← back to the ladder</a></p>
+  </div>
+
+</div>
+</body>
+</html>

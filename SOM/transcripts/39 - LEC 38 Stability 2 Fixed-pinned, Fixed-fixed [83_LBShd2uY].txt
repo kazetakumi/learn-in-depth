@@ -1,0 +1,1070 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on
+stability
+you know the whole idea is
+when the column reaches the critical
+load
+without a warning it buckles that is
+where the stability problem becomes very
+critical and you need to find out the
+critical load
+if you don't know that then you will
+have surprises in your structural
+response
+and how do we handle a problem related
+to stability to start with
+mathematically even though we have said
+we are going to live in small
+deformation
+in order to investigate stability
+you take the B must bent
+okay that is very very important and
+when the load reaches a critical value
+without a warning it buckles
+buckling can happen in a column like
+this it can happen in a beam it can also
+be precipitated by a shear
+and in all these cases what we have done
+is we have deliberately taken this as
+deformed
+and only when it is deformed we are in a
+position to
+take an element you get an extra term
+that I have the compressive load
+separated by a small displacement Delta
+V
+on the other hand
+when we analyze
+a beam for deflection
+we have consciously taken this as
+undeformed configuration you get the
+point that's the fundamental difference
+when we did the deflection analysis
+we did not consider the beam as deformed
+we solved it in undeformed coordinates
+on the other hand when you come for
+buckling we consciously take that as a
+deformed
+then only when a position to write the
+mathematical expression
+and first we have looked at the
+fixed free that is a cantilever then we
+moved on to pin the pin the column
+and actually pin the pin the column
+forms the basis so if you look at the
+critical load I have also put this as P
+star that's equal to pi squared e i
+minimum divided by L Square
+and all the other cases are compared
+with this P star
+and
+you know the boundary conditions are
+very easy to write
+because I have a pinned joint I have x
+equal to 0
+V 0 at x equal to LVS are the V is also
+zero
+and in both the ends your bending moment
+is 0 which in turns out to be D Square V
+by d x squared equal to zero even though
+I have written e a d squared V by d x
+square you should see that as D Squared
+V by d x square as simple as that
+and what we did was we got the
+governing equation and we did not solve
+we directly took the solution from your
+mathematical analysis and then you
+simply take the v as C1 plus C two X
+Plus C3 sine Lambda X plus C 4 cos
+Lambda X
+I have four constants and I have four
+boundary conditions so we had the enough
+data to proceed and we wrote the
+when we substitute the boundary
+conditions you get these Expressions see
+this is not in one order okay so you
+have to figure out that is also a good
+reason why you have to apply your mind
+to unravel this problem to problem is
+slightly different
+intentionally it is done so that you are
+alert
+and in order to have a non-trivial
+solution
+I need to have this determinant go to
+zero
+that gives me
+an expression
+wherein I get the critical load as n
+Square Pi square e a by L Square
+you have multiple equilibrium positions
+possible
+and when I have n equal to 1 I have the
+mode 1 which has a buckling shape like
+this
+Pi square e a by L Square
+and when I have n equal to 2
+I have P2 as 4 Pi square e a by L square
+that means if I increase the load
+you are expected to get that mode shape
+in practice you will have to
+you know do something this is the point
+where it crosses zero so you have to
+make this as 0 externally only then in
+buckling problems you will see that I
+will also show you in an experiment what
+we have done
+so what you find is as n increases you
+have different equilibrium
+configurations the column cannot remain
+straight
+that's a understanding that we get out
+of it
+so the critical load is the least one Pi
+square e a by L Square
+and it is better to recognize I as I
+minimum
+when I have non circular cross section
+in a circle of cross section every
+diagonal is a
+having same value of moment of inertia
+and it can have buckling in all the
+360 degrees
+okay
+and once you solve this
+you get the
+displacement as C3 sine Lambda X and I
+have also mentioned
+you are not in a position to calculate
+the value of C3
+it is indeterminate it mainly because we
+have linearized the governing equation
+the moment curvature relation was
+non-linear
+in deflection we said we are going to
+live with small reflection we can ignore
+the second order effects
+same approach we have followed in
+buckling also inside if you consider the
+non-linear relationship of one curvature
+it is possible for you to evaluate for a
+given load what is the
+coefficient C3
+if you look at the buckling problem what
+is more important is the value of the
+critical load how the buccal shape is of
+secondary importance
+because the functionality of the column
+is Disturbed
+so primary importance is to get the
+critical load and you know we also do
+not have the mathematics
+to investigate what happened
+once the critical load is reached
+because the deflections are very large
+and you know this shows experimentally
+I can get the mode to but I have to do
+something to do for the
+inflection point I have to make that
+only then I'll be in a position to see
+that
+you know sometimes you'll see I have
+such beautiful curves you will wonder
+can a column which looks so strong
+otherwise can have a shape like this in
+order to bring and drive home that point
+you know we have got this experiment
+done and it has come out beautifully
+next we move on to fixed pin the column
+what is the difference
+only in the boundary conditions and you
+know
+you have already seen what way to handle
+a fixed end what way to hand up handle a
+pin the end
+so it's the question of the equations
+having a different form that's all and
+you have to simplify them
+okay I leave that as an exercise but I
+will show you the final results you have
+the boundary conditions like this and
+this is the solution we start with when
+you substitute it as I have told you
+that this is not in an order so you
+figure out whether the equations are
+correct that's also an exercise for you
+to see that you have
+followed what is done in the class
+and as I we have seen earlier for a
+non-trivial solution
+I need to have this determinant go to
+zero
+see what happens is we have handled the
+six to three that's a cantilever the
+equation was simple and straightforward
+when we looked at ah
+pin the pin the equations also very
+simple but once you come to any of fixed
+pinned or fixed fixed the equations are
+little more complex and you will have to
+apply your mind to solve it
+so what I am going to have this is
+I'm going to have this to go to zero
+you have to recognize this should be
+translated into
+tan square root of P by e i l
+should be equal to square root of P by e
+a multiplied by L and this needs to be
+solved okay one can solve it easily in a
+graphical method or analytical also you
+can solve and when you solve it
+this happens to be a value
+4.493
+and it's inconvenient to look at as this
+number will also simplify it
+so the critical load is obtained as
+20.19 e i by L Square
+which is approximated as 2 pi squared e
+a by L Square
+see I have an ultimate
+objective we are going to take pin
+depend column as the basis
+from the length of that column we will
+also visualize the length of other end
+conditions
+see buckling is one problem where the
+critical load drastically changes
+because of the end conditions
+fine and in reality how do we
+have these n conditions realized we will
+also have a discussion on that
+and from that point of view if you want
+to compare rather than looking at this
+as 20.19 it is convenient for us to have
+this as 2 pi Square
+okay
+because Pi Square D A by L squared is
+your basic expression so I can say what
+is the value of
+the equivalent length of the curve and
+once I go to the reflection curve it's a
+very long expression please make a note
+of this
+I have this as V equal to C3 multiplied
+by minus square root of P by e i into X
+plus sine of square root of P by e i
+into X Plus tan square root of P by e i
+into l
+multiplied by 1 minus cos square root of
+P by e a x
+see from your nodes you should have all
+these deflections don't make an attempt
+to remember this
+it's not a learning on memorizing Your
+Capacity okay you have to have a
+physical appreciation in all buckling
+problems what is very important is the
+expression for the critical load
+because deflection you have to also
+apply appreciate that you have a
+deflected shape of this form
+it's of secondary importance because you
+know the column has lost its ability
+that's what we are concerned about it
+and here you see
+when you compare to the pin the pinned
+column
+it's able to take twice the load
+fine
+the critical load means I can increase
+the load two times only then buckling
+happens that is the physical
+appreciation that you should retain in
+your system when you look at a pin fixed
+column you should feel that it is safer
+than up independent column
+okay
+then we move on to fixed fixed column
+and once I have a fixed fixed column
+you'll all recognize that you will also
+have slope 0 at both the ends
+so the boundary condition is like this
+all of this we have looked at even when
+we discussed the principle of
+superposition when we wanted to have a
+deflection
+we have recognized that you have a fixed
+end you have a pin the end you have a
+free end we have learned how to write
+the boundary conditions so the boundary
+conditions still remain the same but the
+governing equation is different
+the governing equation also what way we
+have obtained we have deliberately
+looked at in the deformed configuration
+this is the only problem in this course
+where we write the governing equation by
+looking at the deformed configuration so
+that's a fundamental difference in the
+basic analysis here
+so once I have this boundary conditions
+applied to this expression V
+I have the four equations here again the
+sequence is not in the same way that I
+have given the boundary condition so you
+figure out
+and also alert me if there are any type
+of graphical errors
+fine
+and for a non-trivial solution I should
+have this determinant to go to zero so
+when I do this
+I have an expression like this
+tell me what way I should translate this
+into a condition for me to find out the
+critical load
+see when I have the determinant I get
+the expression this determinant should
+go to a value to
+can you look at what way we can impose
+this condition
+can you just just read the equation you
+all have mathematical ability to
+recognize this
+when will this expression go to 2
+in a simplistic manner
+so this goes to 1 and this should go to
+zero so I should illustrate the
+condition as
+I should have
+sine square root of P by e i l equal to
+0 as well as cos root of P by A L equal
+to 1.
+earlier case we had sine Lambda L equal
+to zero fine that was only one condition
+we solved one problem
+but now I should have both of this go to
+irrespective values as indicated so this
+is possible when I have P by square root
+of P by E A L equal to 2 N pi
+the difference comes only there
+otherwise the mathematics is simple
+straightforward only when you look at
+the determinant final expression how do
+you represent it in a convenient form
+for you to get the critical load the
+focus is to get the critical load
+so from this I can easily find the
+critical load
+so I have a critical load as 4 Pi square
+e a by L Square so look at if I have a
+fixed fixed condition
+the column is
+very very strong four times the load it
+can withstand
+in comparison to your PIN depend column
+that's what is shown as four P star here
+and P star is defined as Pi square e i
+minimum divided by L squared because I
+have taken a rectangular cross section
+and here again you know if you look at
+the equation deflection curve
+very similar to what we saw in fixed pin
+and if you look at closely
+only this term changes you write down
+the complete expression
+I have V equal to c 3 multiplied by
+minus square root of P by E A X Plus
+sine square root of P by E I X Plus tan
+square root of P by e i multiplied by L
+by two
+all of this multiplied by 1 minus cos
+square root of P by e i x
+so there is only a small difference
+between what we saw in fixed pinned and
+fixed fixed
+and what is significant here is the
+critical load is very high that means
+you can be a little relaxed when I have
+good end conditions and you know just
+observe the animation the animation is
+very nicely done
+it will dry home the point you know how
+the columns are relatively
+placed in terms of critical load
+fine you have a visual representation
+and now I'm also going to provide a
+excellent summary
+so in the case of
+clamp to free the basic expression we
+had was when the determinant goes to
+zero cos square root of P by e a l
+equals zero
+so that gave me P critical as Pi Square
+EA by 4 L Square
+and you could also get the reflected
+curve as V equal to c 1 1 minus cos
+Lambda X
+when we went to
+pin depend
+and we had sine square root of P by e a
+l equals zero
+this game EP critical as Pi square e a
+by L Square
+see in all my Expressions I have just
+put IE you must recognize that it should
+be I minimum which is done in the
+diagram but not in these expressions
+so recognize that you should put this as
+I minimum
+so when we moved on to
+fixed hinge I get the governing
+expression as tan square root of P by E
+A L equal to square root of P by El this
+should be satisfied
+from this I get the critical load which
+we rewrite as 2 pi square e a by L
+Square
+and the last case the condition was I
+should have sine square root of P by a l
+equals 0 as well as cos square root of P
+by E A multiplied by L equal to 1 so
+this is satisfied I get the critical
+load as four Pi square a by L Square in
+all these cases you have the deflection
+also it's a very nice summary of what we
+have discussed so far
+at a glance you get what happens and
+Visually you see what is the
+Shaded region if the Shader region is
+the longest one then you have the
+strongest column OK and it's all
+compared with respect to the pin dependy
+and see now the question comes why do we
+have a pin dip in the end as a basis see
+if I have a pin the end it can easily
+rotate
+see if only in your course problems are
+posed that this support is pin depend
+other one is pinned free other one is
+fixed free
+if you are asked to go and look at the
+real structure you will have to idealize
+depending on the constraint in the
+problem as one of these supports
+say now what I will do is I have two
+holes okay I suppose you are able to see
+two holes
+I have put the pin one pin and I am able
+to freely rotate
+what do you say as 16
+it should not rotate
+fine suppose I put another pin
+probably you can see this better I have
+two pins
+and I am trying to rotate see the spin
+is not of the same size as the whole
+suppose I have the pin of the same size
+I am able to have some rotation that is
+because the pin is
+diameter is smaller than the whole
+diameter suppose I have a properly made
+pin even this rotation is not possible
+looking at other words when I have even
+two pins it prevents rotation
+okay
+that means if you want to idealize this
+as fixed end you are also Justified
+even though you make a small error
+so in reality you do not know how the
+constraints are we always do the
+boundary solutions that is I'll have
+upper bound and lower bound I'll do the
+analysis as pinned and then get one
+number I'll also repeat the analysis
+with fixed I get another number so
+between these two I should operate that
+is how Engineers work on
+see even though in this course we have
+seen support conditions we have also
+looked at to what extent this supports
+modify your results in fact while we
+discuss the reflection problem we had a
+truss in fact it was a frame it was
+fixed at one end I beam we calculated
+considering that as a pin joint and then
+calculated what is the deflection
+we calculated
+again the same problem with that as
+fixed the difference was about 2.5 or
+2.7 percent
+fine why that was done
+see in your rigid body mechanics it is
+soccer of sanct you should know when the
+symbol is given that is Spin The Joint
+put the boundary conditions
+appropriately when it's a fixed joint
+put the boundary condition separately
+but all that is indicated by a
+um you know we had a symbols for that
+you will not have symbols attached to
+practical structures
+while learning the course you need to
+have those symbols for you to appreciate
+the different joint conditions when we
+come to field practice
+there is always
+dilemma whether it is a pinned joint or
+a fixed joint
+fine
+and we have also seen in certain
+applications the N conditions are not
+influencing much
+definitely in the case of buckling it
+has a significant importance
+but it is a favorable direction and you
+have this
+let us go back to this Euler buckling
+again because you know when we started
+this
+class you may not have observed certain
+nuances very closely
+so what I have here is
+you look at here as the load is
+increased
+suddenly
+it buckles
+okay without a warning that you should
+recognize that is why buckling is so
+important from analysis point of view
+and what you find is it causes the
+column to loosen its stability that is
+the introduction of the slightest
+lateral force will cause the column to
+fail by buckling
+see I have always been showing
+experiment and also analytical
+justification and also numerical
+justification
+and one of the difficult experiments to
+be conducted
+or buckling experiments because the
+problem is you know the slightest
+lateral force can come from
+imperfections in the material the column
+is made of how the column is made of
+that is very difficult to model and we
+have also said that we have a elastic
+Continuum that is how we have developed
+the mathematics
+so
+among the several experiments costliest
+experiments are buckling experiments
+million dollars have to be spent in
+making the specimen appropriately
+and also the deviation from experimental
+observation and analytical calculation
+or maximum buckling experiments please
+understand that fine when you do your
+experiment you find the deviations are
+there don't get annoyed
+because you cannot make anything perfect
+because the analytical model wants a
+perfect specimen perfect specimen is
+extremely expensive okay it's not in two
+three orders its order of magnitude is
+very very high
+fine and we have also said that this is
+credited to the genius mathematical
+genius Euler and we have also looked at
+he had physical difficulties with all
+that he was able to do it
+so you look at the deflected shape and I
+have already said these are experiments
+indicative of the relative merits of the
+capacity to withstand the critical load
+because you can see the weights put
+see if I have to perform the experiment
+in an idealistic manner to get the
+critical load I should have provision to
+vary the load
+I mean in a manner continuously
+the loading system what I have shown is
+not all right because I have discrete
+loads
+these discrete loads may miss the
+critical load
+fine and what we have also seen is even
+if you go beyond the critical load you
+will see a deflected pattern so
+beautifully in your experiment your
+analysis may be difficult that is
+different
+and I have also used this to show
+another aspect
+you know we have discussed that what you
+have as these positions are neutral
+equilibrium positions
+fine and when I redo this you can
+recognize this as led buckled
+this load is higher than this
+here you can see in a circle fashion
+and you can see that in a definite
+fashion here I have one equilibrium
+position
+I apply load I have another equilibrium
+position
+I apply another load I have another
+inclusion position
+so these are all neutral equivalent
+positions
+but transition from one to another is
+sudden so it loses its stability
+okay
+and I said whether buckling is useful or
+not people have used it in your toys
+people also have used it in electrical
+switches where you have snap buckling is
+used for the making positive contact
+okay I'm now going to discuss the
+concept of equivalent length
+okay so in I I take the pin pin the
+column as the basis I call this as l e
+equal to l
+I can also visualize see if I have a
+longer column it is dangerous a shorter
+column is better
+that's the way you have to look at it
+longer the column
+it is its tendency to buckle is more its
+tendency to buckle is more if I go to
+fixed pinned
+we have already got the expression now
+we are going to
+have a relook
+from a different perspective I call this
+as l e equal to 0.7 l
+ok
+and if I have a fixed fixed
+it behaves like
+half the length of the independent
+column
+okay
+suppose I have a cantilever
+it becomes differently it behaves as if
+it is twice the length of this column
+that means it can have only the least
+load of critical load
+they still have the highest critical
+load possible so another way of looking
+at a column problem is
+look this in comparison to your
+independent column what way you can
+visualize the length of the other
+columns
+so when from the point of view a
+critical load the boundary conditions
+are very significant
+in other problems what we have looked at
+the boundary conditions you can get the
+lower bound and upper bound solution you
+can also do the same thing for buckling
+also because physical problems do not
+have the symbol attached you have to go
+and
+find out from the constraints to
+idealize and
+true fixed conditions are always
+difficult to simulate
+and you also have another concept called
+slenderness ratio in
+column buckling
+and what you do is you write the moment
+of inertia as a r squared where R is a
+radius of gyration
+so instead of looking at that as a
+critical load I can also get that as
+critical stress P by a
+I have pi squared e by
+L by R whole Square so L by R is a
+slenderness ratio and if L is
+larger and larger the column is more
+flexible so that is what is said
+slenderness ratio is a measure of the
+columns flexibility
+you don't want that to be flexible in a
+structural application you don't want
+that to be flexible you want that to be
+strong enough to withstand the load
+fine and are there other applications
+you know I have always gone beyond the
+basics of the course to motivate you to
+see what all you can learn in future
+say use of buckling as energy absorbers
+thin wallet tubes are extensively used
+in Aerospace and automobile Industries
+as energy absorbers
+the most important phenomenon of axial
+crash
+tube is to absorb and convert larger
+amount of kinetic energy into plastic
+strain energy
+during Progressive caching crushing
+lobes form sequentially and it is
+subjected to large strain without any
+material failure because the idea is to
+protect the occupants
+see you also have metallic forms that is
+another way of softening your
+crash with teams okay
+another way is to use thin wallet tubes
+so it's of importance to study this
+phenomenon detail for crash worthy
+design
+and you see this beautiful animation you
+see how this is crushing this is done by
+one of my students who did his Masters
+in iitm address
+is an excellent piece of
+experimental and numerical analysis work
+and you could quickly see what are these
+dots
+don't say the facts
+huh ah DIC see I have said you have to
+be current uh students when Digital
+Image correlation is the rage now once
+finite element was a rage everybody was
+hanging on red in exponential mechanics
+everybody wants to learn Digital Image
+correlation and this is an excellent
+candidate for uh
+doing Digital Image correlation because
+I am going to have
+ultra high strain strains of 30 percent
+and DAC is highly applicable for large
+deformation problems and you should
+guess from this experimental setup I
+have two cameras
+and that is the reason why I brought
+this I want to sensitize you that you
+have this and I also have another way of
+looking at it this is from the numerical
+work
+which shows how the square tube has
+buckled and this is plastic buckling
+see material is not separated and this
+is what this is happening at 10
+millimeter per minute
+now what I'm going to do is I am going
+to
+increase my
+speed of rate of loading and I have said
+rate of loading is different and look at
+how beautifully the patterns develop
+ok
+don't you think this is very very
+interesting
+isn't it so that means the crash tube is
+doing its job very well in absorbing
+more and more energy
+so you can be protected like Engineers
+future Engineers you have to develop all
+of this fine for passenger car
+protection
+I think you can see the animation again
+this is so interesting to see
+see what is peeling off is the pain that
+is put for you know image correlation
+image correlation because you know the
+paint should be adhered to the surface
+very well because there is an aluminum
+tube some places it is too smooth so it
+is not adhered and not only this see my
+students have always compared numerical
+as well as experiment very few Labs
+across the world do these comparisons
+only when you compare you burn your
+fingers and you understand you are
+modeling correctly and look at here this
+is the non-linear finite element
+analysis
+and this is a digital image correlation
+look at visually the patterns are quite
+identical
+and this is a very very complex problem
+it's a non-linear finite terminal it's
+not a simple problem simple problem to
+handle with
+okay so this should give you motivation
+what you have learned as strength of
+materials only is basics
+they are very very important
+fundamentals are very important and you
+have to graduate and solve very
+challenging and complex problems of
+today so that requires your training in
+a numerical technique as well as an
+experimental technique okay
+then in this course you know we have
+also looked at
+extensive use of photolysis is to
+understand the concepts related to
+stress that Advantage even the
+developers did not have they had done
+crude experiments this is a subject
+which developed based on experiential
+knowledge it's not theoretically done
+and wherever possible I have emphasized
+where there is a deviation
+and when you are looking at shear stress
+there are many places where you can
+ignore but you cannot ignore near the
+load application point near the load
+application Point your strength of
+material result of parabolic variation
+is absurd
+the shear variation is very very high
+just below the boundary but on the top
+surface we're still zero because it has
+to satisfy the tree free surface
+requirement
+and these stresses are comparable to
+your bending stress so failure can
+happen unless you
+strengthen this
+when you are doing The Design Center
+material helps you away from the Zone
+okay away from the load application and
+end conditions you have solution from
+Center materials but even that was it
+right
+we have also looked at
+you can you can actually take a
+photograph if you want because you know
+they have very nice beautiful patterns
+you don't get them anywhere you don't
+get them anywhere that is the reason why
+I thought that I should have it here
+I have this
+uniformal distributed door when uniform
+distributed materials
+was it right in all respects I have also
+pointed out where it was deviating
+OK we will see that
+we will see that
+what are the two quantities I showed
+it's again very important
+this is correction to Sigma X it's no
+longer varying linearly it is non-linear
+and you also have in addition
+there is Sigma y
+can you see from the pattern existence
+of Sigma y
+or your eyes are sensitive enough tuned
+to that you look at what happens at the
+bottom you look at what happens at the
+top
+do you find that is asymmetry here
+the fringes are well developed here
+fringes are not fully developed
+okay see you See Beyond this red some
+slight shade of color coming out
+the the width is broader the width is
+shorter okay
+you know you have to be sensitive with
+the experiments reveal truth please
+understand you may make certain
+simplifications for the purpose of your
+analysis you may say curvature is linear
+experiment recognize this as non-linear
+recognizes even that small shear stress
+and throughout the experimental pattern
+in tune to that there are no
+approximations in an experiment so you
+should do a careful experiment
+and interpret every aspect of the
+experimental analysis don't ignore
+don't come out and say the expand is 30
+years old so I see an Symmetry and then
+walk away like you know in your history
+books what each King has done he has
+planted trees on either side of the road
+same answer for every King
+have you not done that in your history
+in the schools
+OK and whenever you find deviation from
+experiment and your mathematical
+analysis one of the blame is on the
+equipment not on the performer the
+performer has to be careful and
+systematic in performing experiment
+these are the usual ways people wriggle
+out of
+real challenges okay and I have said
+only in buckling experiments even when
+you do a cash flow experiment the
+deviations are very high because
+you cannot get a perfect
+material you cannot have a perfect
+cylinder
+you can't have a perfect sphere
+free of defects so they are all very
+very expensive
+we have seen this for simply supported
+beam we have also done it for a
+cantilever
+so when I have a cantilever with a
+distributed load you should anticipate
+with a pinch of salt strength of
+material
+is reasonable for you to accept
+but theory of elasticity will always say
+other quantities okay but they are
+second order effects I have also put not
+to scale
+OK that means this is very very small
+but you should recognize that there are
+deviations okay
+and when I have a
+tip load I have The Fringe pattern like
+this now let me change the conditions
+fine suppose I have this as a propped
+cantilever that means one side is fixed
+look at the change in The Fringe
+patterns
+for all of this what do you use
+you use your fraction formula
+from that point of view fracture formula
+is a success
+okay but look at all the nuances and the
+small changes or capture in the
+experiment and you find
+beautiful patterns okay see if you look
+at this is like a cantilever this is
+like a fixed beam
+okay you see combination of both because
+when I change n conditions it also gives
+you an appreciation of
+why we want to look at for different end
+conditions
+from a mathematical analysis we should
+understand what is happening in a
+physical system if you look at these n
+conditions you have to apply the
+engineering equipment to model it
+only then you become a good engineer if
+you keep solving problems somebody has
+coined it as fixed support somebody has
+coined us finned support is not going to
+make us a good engineer
+you should know what are the limitations
+if you come across the limitation how to
+wriggle out of it so look at and get the
+lower bound result and upper bound
+solution suppose I have this as fixed
+fixed
+in all these cases you will have this
+variation okay
+because when I have a I have a
+distributed load I am compressing a
+deliberator and you will see the
+Symmetry asymmetry is seen here I could
+see orange color here I could I could
+not see that orange color here is is
+idea clear
+so the experiment recognizes the
+presence of Sigma y
+just because analytically you cannot
+handle that we have simplified it
+because the
+error introduced is small we have
+ignored it as a designer what may we
+could accommodate this go and have a
+careful fact of safety
+is idea clear
+so the accommodated as practicing
+engineers at some sort of part of the
+analysis we don't
+ignore it if you ignore it you will have
+surprises like Bridge collapses after
+few days of inauguration
+fine
+so these are all very beautiful patterns
+that you have and the end conditions are
+changed
+and I also emphasized you know I said
+that I can have a fixed end but just
+with two supports
+and you know I also felt that some of
+you have to go and definitely see my
+engine mechanics the discussion on four
+systems equilibrium
+and also move the force from one point
+to another point you have to master it
+if you master that then you have a
+better grip of the subject because I say
+in a simplistic binary a load is applied
+how this load is applied if you look at
+I have to take a pin and then I pull it
+like this if you look at from side view
+it will be like a pin resting on a hole
+and then if you go and look at it we
+make several modeling steps all that is
+thought in your rigid body mechanics if
+some of you have not looked at it
+carefully please go and have a careful
+look at it so when I have a pin you
+always have deformation even though in
+rigid body mechanics we said is
+rigid you have deformation you have
+Force interaction and this Force
+interaction is
+ellipsoid elliptical distribution okay
+this is done by Hertz
+and you model this as by a resultant
+ok
+as a single concentrated force and then
+you replicate this concentrated Force as
+along the line then take an equivalent
+value then use principle of
+transmissibility and move it to that
+point so a simple problem where you have
+a end load which is put like this
+when you physically translate it has
+many many things aspect added to that so
+transmissibility of force you can move
+the force along its line of action
+when you want to move the force from one
+point to another point you have to
+recognize you have a force as well as a
+couple if you understand this your
+bending is simple torsion is simple and
+Engineering analysis is very very simple
+so in this class we have looked at
+stability in a broader perspective we
+have looked at different
+n conditions affecting the critical load
+we have also looked at equivalent column
+length and discussed about slenderness
+ratio
+and also we had threadbare discussion
+how do you physically approach a problem
+the physical systems do not have the end
+conditions marked as an engineer you
+have to go depending on the constraints
+idealize it as a pin joint or a fixed
+joint and fixed joints are very
+difficult to build in reality and if you
+have a dilemma always do two analysis
+get lower bound solution as well as
+upper bone solution then I have also
+said in order to motivate you to take
+interest in solid mechanics there are
+very interesting challenging problems
+that are Beyond this course which really
+makes human life much safer in the new
+emerging challenges thank you
+foreign
+[Music]

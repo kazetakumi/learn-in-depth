@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mathematical Thinking — the ladder</title>
+<style>
+  :root {
+    --paper: #fbfaf6;
+    --ink:   #2b2620;
+    --accent:#355070;
+    --rule:  #ddd8cc;
+    --faded: #8a8175;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--paper); }
+  body {
+    margin: 0;
+    padding: 5rem 1.5rem 8rem;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    font-size: 19px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; }
+
+  .eyebrow {
+    font-size: .78rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 1.6rem;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 1.15;
+    margin: 0 0 1.6rem;
+    letter-spacing: -.01em;
+  }
+  .lede { font-size: 1.12rem; color: #4a4238; margin: 0 0 1rem; }
+  .lede em { font-style: italic; }
+
+  hr.div {
+    border: 0;
+    border-top: 1px solid var(--rule);
+    margin: 3.5rem 0;
+  }
+
+  ol.ladder { list-style: none; margin: 0; padding: 0; counter-reset: rung; }
+  ol.ladder > li {
+    counter-increment: rung;
+    padding: 1.9rem 0 1.9rem 3.4rem;
+    border-bottom: 1px solid var(--rule);
+    position: relative;
+  }
+  ol.ladder > li:first-child { border-top: 1px solid var(--rule); }
+  ol.ladder > li::before {
+    content: counter(rung);
+    position: absolute;
+    left: 0; top: 2.05rem;
+    font-size: 1.4rem;
+    color: var(--faded);
+    font-variant-numeric: oldstyle-nums;
+  }
+  .rung-title { font-size: 1.28rem; margin: 0 0 .5rem; font-weight: 400; }
+  .rung-title a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(53,80,112,.35); }
+  .rung-title a:hover { border-bottom-color: var(--accent); }
+  .rung-hook { margin: 0 0 .85rem; color: #4a4238; }
+  .rung-meta { margin: 0; font-size: .88rem; color: var(--faded); }
+  .rung-meta b { font-weight: 400; color: #6b6257; }
+
+  li[data-status="done"]    .rung-title::after { content: " ✓"; color: var(--accent); }
+  li[data-status="current"] .rung-title::before { content: "▶ "; color: var(--accent); }
+  li[data-status="planned"] { opacity: .5; }
+  li[data-status="planned"] .rung-title { color: var(--faded); }
+
+  .status-tag {
+    display: inline-block;
+    font-size: .7rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border: 1px solid rgba(53,80,112,.3);
+    border-radius: 2px;
+    padding: .1rem .45rem;
+    vertical-align: .18em;
+    margin-left: .5rem;
+  }
+
+  .note {
+    margin: 3.5rem 0 0;
+    padding-left: 1.2rem;
+    border-left: 2px solid var(--rule);
+    color: #5c5348;
+    font-size: .95rem;
+  }
+  .note p { margin: 0 0 .7rem; }
+  .note p:last-child { margin-bottom: 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="eyebrow">Six cruxes</p>
+  <h1>Mathematical&nbsp;Thinking</h1>
+
+  <p class="lede">You spent years learning to recognise which procedure a problem wants. That skill runs out. What replaces it is the ability to read a statement for <em>exactly</em> what it says, and to know what would settle whether it is true.</p>
+
+  <p class="lede">This is that ability, taken apart. Six rungs, each standing on the one below it. By the end you should be able to take a claim in English, write down its formal skeleton, and know from the skeleton alone what a proof of it has to do — which is precisely what Lean will ask of you.</p>
+
+  <hr class="div">
+
+  <ol class="ladder">
+
+    <li data-status="current">
+      <h2 class="rung-title"><a href="01-precision.html">Why precision isn&rsquo;t fussiness</a><span class="status-tag">start here</span></h2>
+      <p class="rung-hook">Five lines of algebra you can check yourself, ending at 1 = &minus;1. Every link looks fine. Find the broken one.</p>
+      <p class="rung-meta"><b>Stands on</b> everyday language and school algebra &nbsp;·&nbsp; <b>pays off as</b> the four forms and three combinators that every mathematical statement is built from</p>
+    </li>
+
+    <li data-status="planned">
+      <h2 class="rung-title">The implication table is forced, not chosen</h2>
+      <p class="rung-hook">Build the truth table for &ldquo;if &phi; then &psi;&rdquo; yourself, and watch every alternative to the standard one die.</p>
+      <p class="rung-meta"><b>Stands on</b> rung 1 &nbsp;·&nbsp; <b>pays off as</b> the table that will later license proof by contradiction</p>
+    </li>
+
+    <li data-status="planned">
+      <h2 class="rung-title">Quantifier order is meaning</h2>
+      <p class="rung-hook">A fact sheet that accidentally condemns one man to die every hour, forever.</p>
+      <p class="rung-meta"><b>Stands on</b> rung 2 &nbsp;·&nbsp; <b>pays off as</b> readable epsilon&ndash;delta, and negation as a crank you turn</p>
+    </li>
+
+    <li data-status="planned">
+      <h2 class="rung-title">The form of a statement is the proof&rsquo;s blueprint</h2>
+      <p class="rung-hook">Two statements you cannot yet prove. Read only their shapes, and write the first three lines of each proof anyway.</p>
+      <p class="rung-meta"><b>Stands on</b> rungs 2 and 3 &nbsp;·&nbsp; <b>pays off as</b> the Lean-shaped skill</p>
+    </li>
+
+    <li data-status="planned">
+      <h2 class="rung-title">The indirect moves, and why they&rsquo;re legal</h2>
+      <p class="rung-hook">Proof by contradiction feels like cheating. Derive your licence to use it from a table you already built.</p>
+      <p class="rung-meta"><b>Stands on</b> rungs 2 and 4 &nbsp;·&nbsp; <b>pays off as</b> &radic;2 irrational, and induction as a move you could have invented</p>
+    </li>
+
+    <li data-status="planned">
+      <h2 class="rung-title">The hole in the rationals</h2>
+      <p class="rung-hook">The fractions look like they fill the number line completely. Prove that they don&rsquo;t.</p>
+      <p class="rung-meta"><b>Stands on</b> everything &nbsp;·&nbsp; <b>pays off as</b> the reason anyone built any of this</p>
+    </li>
+
+  </ol>
+
+  <div class="note">
+    <p>Two things deliberately left out: sets, relations and functions, and the fundamental theorem of arithmetic. Both are real mathematics. Neither is load-bearing for the goal above — nothing on this ladder needs them — and putting them in would buy coverage at the price of depth. They sit downstream of rung 5; you will be able to build them yourself.</p>
+    <p>Go slowly. The measure of progress here is not lessons finished but ideas you can regenerate cold, a week later, without the page in front of you.</p>
+  </div>
+
+</div>
+</body>
+</html>

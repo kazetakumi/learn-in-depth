@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Cut — Strength of Materials, rung 0</title>
+<script>
+  MathJax = { tex: { inlineMath: [['\\(','\\)']], displayMath: [['$$','$$']] },
+              options: { skipHtmlTags: ['script','noscript','style','textarea','pre'] } };
+</script>
+<script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"
+        integrity="sha384-Wuix6BuhrWbjDBs24bXrjf4ZQ5aFeFWBuKkFekO2t8xFU0iNaLQfp2K6/1Nxveei"
+        crossorigin="anonymous"></script>
+<style>
+  :root{
+    --paper:#fbfaf6; --ink:#2b2620; --accent:#355070;
+    --rule:#ddd8cc; --faint:#8b8375; --code:#f3f0e8;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    font-size:19px; line-height:1.68;
+  }
+  .wrap{max-width:640px; margin:0 auto; padding:4rem 1.4rem 8rem}
+  a{color:var(--accent)}
+  .top{font-size:.8rem; color:var(--faint); margin:0 0 2.6rem}
+  .top a{color:var(--faint)}
+  .eyebrow{
+    font-size:.72rem; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--accent); margin:3.6rem 0 .9rem;
+  }
+  .eyebrow:first-of-type{margin-top:0}
+  h1{font-size:2.4rem; line-height:1.12; font-weight:normal; margin:0 0 2.2rem; letter-spacing:-.015em}
+  h2{font-size:1.35rem; font-weight:normal; line-height:1.3; margin:0 0 1.2rem; letter-spacing:-.005em}
+  p{margin:0 0 1.25rem}
+  em{font-style:italic}
+  strong{font-weight:600}
+  hr{border:0; border-top:1px solid var(--rule); margin:3.6rem 0}
+
+  /* inline aside: dead ends, definitions, footnotes */
+  .aside{
+    margin:1.9rem 0 1.9rem 1.1rem; padding:.15rem 0 .15rem 1.35rem;
+    border-left:2px solid var(--rule); font-size:.93rem; color:#544b40;
+  }
+  .aside p{margin:0 0 .8rem}
+  .aside p:last-child{margin-bottom:0}
+  .aside .lbl{
+    display:block; font-size:.66rem; letter-spacing:.15em; text-transform:uppercase;
+    color:var(--faint); margin-bottom:.5rem;
+  }
+
+  /* the big beat — a line that should land alone */
+  .beat{
+    font-size:1.2rem; line-height:1.45; margin:2.6rem 0; text-align:center;
+    color:var(--ink);
+  }
+
+  /* struggle-before-reveal */
+  details{
+    margin:1.7rem 0; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+    padding:.2rem 0;
+  }
+  summary{
+    cursor:pointer; list-style:none; padding:.85rem 0;
+    font-size:.88rem; letter-spacing:.06em; color:var(--accent);
+  }
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"▸  "; color:var(--faint)}
+  details[open] summary::before{content:"▾  "}
+  details[open] summary{border-bottom:1px solid var(--rule); margin-bottom:1.1rem}
+  details > *:last-child{margin-bottom:.9rem}
+
+  .ask{
+    margin:2.4rem 0; padding:1.2rem 0 1.2rem 1.35rem;
+    border-left:2px solid var(--accent); font-size:1rem;
+  }
+  .ask p:last-child{margin-bottom:0}
+  .ask .lbl{
+    display:block; font-size:.66rem; letter-spacing:.15em; text-transform:uppercase;
+    color:var(--accent); margin-bottom:.55rem;
+  }
+
+  figure{margin:2.6rem 0; text-align:center}
+  figure svg{width:100%; height:auto; max-width:100%; display:block; margin:0 auto}
+  figcaption{
+    font-size:.85rem; color:var(--faint); margin-top:.9rem;
+    text-align:left; line-height:1.5;
+  }
+  .scroll{overflow-x:auto; -webkit-overflow-scrolling:touch}
+
+  code{
+    font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+    font-size:.85em; background:var(--code); padding:.1em .35em; border-radius:2px;
+  }
+  pre{
+    background:var(--code); padding:1rem 1.1rem; border-radius:3px;
+    overflow-x:auto; font-size:.83rem; line-height:1.55; margin:1.6rem 0;
+  }
+  pre code{background:none; padding:0; font-size:1em}
+
+  ul,ol{margin:0 0 1.25rem; padding-left:1.4rem}
+  li{margin-bottom:.5rem}
+
+  .sixlist{list-style:none; padding-left:0}
+  .sixlist li{
+    padding:.55rem 0 .55rem 0; border-bottom:1px solid var(--rule);
+    display:flex; gap:.9rem; align-items:baseline; margin-bottom:0;
+  }
+  .sixlist li:first-child{border-top:1px solid var(--rule)}
+  .sixlist .sym{
+    flex:0 0 3.1rem; color:var(--accent); font-size:.95rem;
+  }
+  .sixlist .nm{flex:1; font-size:.95rem}
+
+  .end{
+    margin-top:4rem; padding-top:2rem; border-top:1px solid var(--rule);
+    font-size:.93rem; color:#544b40;
+  }
+  .next{
+    display:inline-block; margin-top:1.4rem; font-size:.9rem;
+    color:var(--accent); text-decoration:none; border-bottom:1px solid var(--accent);
+  }
+  svg text{font-family:'Iowan Old Style',Palatino,Georgia,serif}
+  @media (max-width:520px){
+    body{font-size:17.5px}
+    .wrap{padding:2.6rem 1.1rem 5rem}
+    h1{font-size:1.95rem}
+    .beat{font-size:1.08rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="top"><a href="index.html">← the ladder</a> &nbsp;·&nbsp; rung 0 of 8</p>
+
+<h1>The Cut</h1>
+
+<p>Here is a steel rod hanging from the ceiling with a hundred kilograms on the end of it.</p>
+
+<p>Point at the middle of the rod. <em>What is happening there?</em></p>
+
+<p>Not "what load did you apply" — I know that, I applied it. I mean: what is the material doing, right there, at that particular height, inside the metal, where you cannot see and cannot reach and cannot put an instrument? Because that is where it will break. Not at the ceiling. Not at the hook. Somewhere in the middle, in the dark.</p>
+
+<p>The honest first answer is <em>I don't know, I can't see in there.</em> That is the correct answer, and it is the problem this whole subject exists to solve. The solution is a single move. I'm going to show it to you in the next two minutes, and then we're going to spend the rest of the lesson finding out how much it gives us.</p>
+
+<p>It gives us essentially everything.</p>
+
+<div class="ask">
+  <span class="lbl">Before I show you</span>
+  <p>Give it thirty real seconds. You have a rod, a ceiling, a weight. You want to know what's going on halfway down. You are not allowed to cut it, X-ray it, or attach anything to it.</p>
+  <p>What could you possibly know for certain about a place you cannot reach?</p>
+</div>
+
+<p class="eyebrow">The move</p>
+
+<h2>Cut it. Not really — on paper.</h2>
+
+<p>Draw a line across the rod at the height you care about. Now rub out the top half.</p>
+
+<p>That's it. That's the move. The bottom piece — weight, hook, and the lower half of the rod — is now <em>a body</em>. A thing in its own right, with its own boundary. And I am allowed to ask about a body the one question I have owned since I was four years old:</p>
+
+<p class="beat">It isn't moving. So whatever pushes on it must cancel.</p>
+
+<p>So: what pushes on the bottom piece? Gravity, pulling the weight down — call it 981 newtons. And?</p>
+
+<p>And nothing else can get to it. Nothing reaches across empty space to touch that piece. The <em>only</em> other place anything can come in is across the flat face where I cut — because that is the only place the bottom piece is still in contact with anything at all.</p>
+
+<p>So the material at the cut face must be pulling up with 981 newtons. Not approximately. Exactly. If it were pulling with 980, the bottom half of the rod would be accelerating downward at a centimetre per second squared, and you would have noticed.</p>
+
+<figure>
+<svg viewBox="0 0 460 260" role="img" aria-label="A rod hangs from a ceiling with a weight; an imaginary cut separates it into two pieces, and the free-body diagram of the lower piece shows 981 N up at the cut and 981 N down from the weight.">
+  <!-- ceiling -->
+  <line x1="40" y1="24" x2="150" y2="24" stroke="#2b2620" stroke-width="2"/>
+  <g stroke="#8b8375" stroke-width="1">
+    <line x1="46" y1="24" x2="38" y2="14"/><line x1="62" y1="24" x2="54" y2="14"/>
+    <line x1="78" y1="24" x2="70" y2="14"/><line x1="94" y1="24" x2="86" y2="14"/>
+    <line x1="110" y1="24" x2="102" y2="14"/><line x1="126" y1="24" x2="118" y2="14"/>
+    <line x1="142" y1="24" x2="134" y2="14"/>
+  </g>
+  <!-- rod -->
+  <rect x="88" y="24" width="14" height="160" fill="none" stroke="#2b2620" stroke-width="1.6"/>
+  <!-- weight -->
+  <rect x="70" y="184" width="50" height="34" fill="#f3f0e8" stroke="#2b2620" stroke-width="1.6"/>
+  <text x="95" y="206" font-size="11" text-anchor="middle" fill="#2b2620">100 kg</text>
+  <!-- cut line -->
+  <line x1="66" y1="112" x2="124" y2="112" stroke="#355070" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="132" y="109" font-size="11.5" fill="#355070">imaginary cut</text>
+  <text x="132" y="123" font-size="11.5" fill="#355070">— anywhere you like</text>
+
+  <!-- arrow across -->
+  <path d="M 232 170 L 268 170" stroke="#8b8375" stroke-width="1.2"/>
+  <path d="M 268 170 l -6 -3.5 l 0 7 z" fill="#8b8375"/>
+  <text x="250" y="161" font-size="10" text-anchor="middle" fill="#8b8375">rub out the top</text>
+
+  <!-- FBD -->
+  <rect x="332" y="112" width="14" height="72" fill="none" stroke="#2b2620" stroke-width="1.6"/>
+  <rect x="314" y="184" width="50" height="34" fill="#f3f0e8" stroke="#2b2620" stroke-width="1.6"/>
+  <text x="339" y="206" font-size="11" text-anchor="middle" fill="#2b2620">100 kg</text>
+  <line x1="310" y1="112" x2="368" y2="112" stroke="#355070" stroke-width="1.6"/>
+  <!-- up arrow -->
+  <path d="M 339 108 L 339 66" stroke="#355070" stroke-width="1.8"/>
+  <path d="M 339 62 l -4.5 8 l 9 0 z" fill="#355070"/>
+  <text x="349" y="82" font-size="11.5" fill="#355070">981 N</text>
+  <text x="349" y="96" font-size="10.5" fill="#355070">from the cut face</text>
+  <!-- down arrow -->
+  <path d="M 339 222 L 339 244" stroke="#2b2620" stroke-width="1.8"/>
+  <path d="M 339 248 l -4.5 -8 l 9 0 z" fill="#2b2620"/>
+  <text x="349" y="242" font-size="11.5" fill="#2b2620">981 N</text>
+</svg>
+<figcaption>The cut is imaginary and free. The free-body diagram on the right is a legitimate physical object: it isn't accelerating, so the two arrows are equal. That equality is the measurement.</figcaption>
+</figure>
+
+<p>Read that again, slowly, because it is easy to let it slide past as bookkeeping.</p>
+
+<p>You just found out what is happening at a place you cannot see, cannot reach, and did not measure. You got it exactly, not approximately. And the only thing you used was a fact so obvious you have never once had to think about it: <em>a thing that isn't accelerating has its pushes in balance.</em></p>
+
+<div class="aside">
+  <span class="lbl">Why this feels like cheating, and isn't</span>
+  <p>The suspicion is: "but I invented the cut. Nothing is actually severed. How can imagining a boundary tell me a real fact?"</p>
+  <p>Because the balance law doesn't care where you draw boundaries. It holds for <em>any</em> region of matter you care to name — the bottom half of the rod, the left third of a bridge, one atom, the solar system. Newton's laws apply to whatever you circle. Drawing the circle is your free choice; the consequence is not.</p>
+  <p>That freedom is the entire lever. You get to choose the boundary so that the thing you don't know sits on it, and everything you do know sits inside.</p>
+</div>
+
+<p class="eyebrow">The freedom</p>
+
+<h2>You can cut anywhere. That's a machine, not a trick.</h2>
+
+<p>I cut halfway down. I could have cut a quarter of the way, or three inches from the hook, or at the exact spot where the rod has a scratch in it. Each cut is a new question I get to ask, and each one comes with a guaranteed answer, because equilibrium never fails to hold.</p>
+
+<p>Which is worth pausing on, because in this particular rod every cut gives the same boring answer — 981 N, all the way up. That's an accident of the problem being so simple. Hang a heavy chain instead of a light rod, and each cut carries the weight below it, so the answer grows steadily as you move up. Now the cuts are telling you something you genuinely didn't know: where the chain is working hardest, and therefore where it will snap.</p>
+
+<p>Good. Now let me break the picture.</p>
+
+<div class="ask">
+  <span class="lbl">Your turn</span>
+  <p>Go back to the rod. This time don't cut straight across — cut at a slant, say 30° off horizontal, so the exposed face is an ellipse instead of a circle.</p>
+  <p>Two questions, and take them separately:</p>
+  <p><strong>(a)</strong> How much force does that slanted face have to carry, and in what direction?<br>
+  <strong>(b)</strong> If I then divided that force by the area of the face, would I get the same number as before?</p>
+</div>
+
+<details>
+<summary>Answer</summary>
+<p><strong>(a)</strong> Exactly the same: 981 newtons, straight up. Nothing changed about the bottom piece. It still has one weight hanging on it and one face where material touches material. Equilibrium is completely indifferent to the angle at which I chose to draw my line.</p>
+<p><strong>(b)</strong> No — and this is the interesting one. Two things changed at once. The slanted face is <em>larger</em> than the straight one (an ellipse cut through a cylinder has more area than the circle). And the 981 N is no longer square-on to the face; it now comes in at an angle, so part of it presses <em>into</em> the face and part of it drags <em>along</em> the face.</p>
+<p>So "force divided by area" gives a different number, of a different character, depending on nothing but the angle at which I chose to imagine my cut.</p>
+</details>
+
+<p>Sit with how strange that is. The rod is doing one definite thing. The load is one definite load. And yet the quantity everyone calls "stress" — force over area — came out differently depending on an arbitrary decision I made with a pencil.</p>
+
+<p>That is not a flaw in the reasoning. It is the first real fact about the interior of a solid, and it is the entire content of the next lesson. For now just leave the splinter in: <strong>"force per unit area" is not a well-defined thing until you say which plane you are asking about.</strong></p>
+
+<p class="eyebrow">Completeness</p>
+
+<h2>What can a cut carry — in general?</h2>
+
+<p>The hanging rod was a soft case: one pull, straight along the axis. Real members have loads coming from all directions, off to the side, twisting. So let me ask the general question, and I want you to answer it before I do.</p>
+
+<div class="ask">
+  <span class="lbl">Your turn</span>
+  <p>Take any solid body, loaded any way you like — pulled, pushed, bent, twisted, sat on, all at once. Slice it with an imaginary plane.</p>
+  <p>How many independent quantities can that face transmit? Commit to a number before you scroll.</p>
+</div>
+
+<details>
+<summary>The number, and why it's that number</summary>
+<p><strong>Six.</strong> Always six, in three dimensions, forever, for every material and every load.</p>
+<p>Here is the whole argument. Across that face, the material on one side is holding onto the material on the other side. Whatever that holding-on amounts to in detail, its total effect on the piece I kept is <em>some resultant force plus some resultant couple</em> — because that is all any system of forces can ever add up to.</p>
+<p>A force in three dimensions has three components. A couple in three dimensions has three components. Three plus three.</p>
+<p style="font-size:.93rem;color:#544b40">If that middle step — "any bundle of forces reduces to one force plus one couple" — went past you as something you were told rather than something you saw, good, you're reading properly. Two sections from now you'll derive it yourself in three lines, and it costs nothing to borrow it until then.</p>
+<p>There is no seventh option. A cross-section cannot invent a new way to hold on, any more than a point in space can have a fourth coordinate.</p>
+</details>
+
+<p>Now let me split those six along the face, because the split is where the names of this entire subject come from. Set up an axis \(x\) pointing straight out of the cut face, and \(y, z\) lying in the face.</p>
+
+<figure>
+<svg viewBox="0 0 460 220" role="img" aria-label="Two panels. Left: the three forces a cut face can carry — axial force N out of the face, shear forces Vy and Vz lying in the face. Right: the three couples — torque T about the normal, bending moments My and Mz about axes lying in the face.">
+  <text x="14" y="18" font-size="10" letter-spacing="1.2" fill="#8b8375">THREE FORCES</text>
+  <text x="248" y="18" font-size="10" letter-spacing="1.2" fill="#8b8375">THREE COUPLES</text>
+
+  <!-- ============ PANEL A ============ -->
+  <rect x="24" y="100" width="100" height="40" fill="#f3f0e8" stroke="#2b2620" stroke-width="1.3"/>
+  <ellipse cx="124" cy="120" rx="10" ry="20" fill="#fbfaf6" stroke="#355070" stroke-width="1.6"/>
+  <text x="24" y="204" font-size="9.5" fill="#8b8375">the piece you kept</text>
+
+  <!-- N out of face -->
+  <path d="M 136 120 L 190 120" stroke="#355070" stroke-width="1.9"/>
+  <path d="M 196 120 l -9 -4.5 l 0 9 z" fill="#355070"/>
+  <text x="160" y="111" font-size="12" fill="#355070">N</text>
+  <text x="140" y="136" font-size="9.5" fill="#8b8375">out of the face</text>
+
+  <!-- Vy up -->
+  <path d="M 124 96 L 124 56" stroke="#2b2620" stroke-width="1.7"/>
+  <path d="M 124 50 l -4.5 9 l 9 0 z" fill="#2b2620"/>
+  <text x="131" y="62" font-size="12" fill="#2b2620">V<tspan font-size="8.5" dy="3">y</tspan></text>
+
+  <!-- Vz diagonal (the other in-face direction) -->
+  <path d="M 124 144 L 152 182" stroke="#2b2620" stroke-width="1.7"/>
+  <path d="M 156 188 l -1.5 -10 l -7 5 z" fill="#2b2620"/>
+  <text x="160" y="190" font-size="12" fill="#2b2620">V<tspan font-size="8.5" dy="3">z</tspan></text>
+  <text x="60" y="176" font-size="9.5" fill="#8b8375">lying in the face</text>
+
+  <!-- divider -->
+  <line x1="228" y1="30" x2="228" y2="196" stroke="#ddd8cc" stroke-width="1"/>
+
+  <!-- ============ PANEL B ============ -->
+  <rect x="258" y="100" width="100" height="40" fill="#f3f0e8" stroke="#2b2620" stroke-width="1.3"/>
+  <ellipse cx="358" cy="120" rx="10" ry="20" fill="#fbfaf6" stroke="#355070" stroke-width="1.6"/>
+
+  <!-- T: curls about the normal, drawn concentric with the face -->
+  <path d="M 362 94 A 26 26 0 1 1 336 121" fill="none" stroke="#355070" stroke-width="1.6"/>
+  <path d="M 336 115 l -4.5 9 l 9 0 z" fill="#355070"/>
+  <text x="394" y="112" font-size="12" fill="#355070">T</text>
+  <text x="376" y="146" font-size="9.5" fill="#8b8375">about the</text>
+  <text x="376" y="158" font-size="9.5" fill="#8b8375">normal</text>
+
+  <!-- Mz: curls above, hinges up/down -->
+  <path d="M 272 84 A 38 20 0 0 1 344 84" fill="none" stroke="#2b2620" stroke-width="1.6"/>
+  <path d="M 347 87 l -2.5 -9.5 l -7 5.5 z" fill="#2b2620"/>
+  <text x="298" y="70" font-size="12" fill="#2b2620">M<tspan font-size="8.5" dy="3">z</tspan></text>
+
+  <!-- My: curls below, hinges the other way -->
+  <path d="M 272 156 A 38 20 0 0 0 344 156" fill="none" stroke="#2b2620" stroke-width="1.6"/>
+  <path d="M 347 153 l -2.5 9.5 l -7 -5.5 z" fill="#2b2620"/>
+  <text x="298" y="180" font-size="12" fill="#2b2620">M<tspan font-size="8.5" dy="3">y</tspan></text>
+  <text x="240" y="204" font-size="9.5" fill="#8b8375">about axes in the face</text>
+</svg>
+<figcaption>The six. One force out along the normal, two forces sliding in the plane; one couple twisting about the normal, two couples bending about axes lying in the face. Every load anything has ever carried is some mixture of these.</figcaption>
+</figure>
+
+<ul class="sixlist">
+  <li><span class="sym">\(N\)</span><span class="nm"><strong>Axial force</strong> — perpendicular to the face. Pulls the two pieces apart or shoves them together.</span></li>
+  <li><span class="sym">\(V_y, V_z\)</span><span class="nm"><strong>Shear forces</strong> — lying in the face. Try to slide one piece across the other, like a pair of scissors.</span></li>
+  <li><span class="sym">\(M_y, M_z\)</span><span class="nm"><strong>Bending moments</strong> — about axes lying in the face. Try to hinge one piece relative to the other.</span></li>
+  <li><span class="sym">\(T\)</span><span class="nm"><strong>Twisting moment</strong> (torque) — about the normal. Tries to rotate one piece in its own plane, like unscrewing a lid.</span></li>
+</ul>
+
+<p>Look at that list again and notice what it is. It is a <em>complete catalogue of ways a solid can be loaded internally</em>, derived in one line from "a force has three components and a couple has three." Not a list to memorise. A list you can regenerate on a napkin.</p>
+
+<p>And now look at the ladder for this course: axial load, torsion, bending, shear. Those aren't four unrelated topics somebody bundled into a syllabus. They are the four entries in that catalogue, and the subject works through them one at a time because — thanks to the cut — that catalogue is guaranteed to be exhaustive.</p>
+
+<div class="aside">
+  <span class="lbl">A quiet warning I'll cash in later</span>
+  <p>The material across that face isn't pulling at a single point. It's pulling <em>everywhere on the face at once</em>, in some distribution we know nothing about. What we did was replace that whole distribution with its resultant force and couple.</p>
+  <p>That replacement is exact for the purposes of balancing the piece — and it throws away every scrap of information about <em>where on the face</em> the material is working hardest.</p>
+  <p>Six numbers describe the face. They say nothing about any point of it. Remember that this is a debt, not a solution. It comes due at the end of this lesson.</p>
+</div>
+
+<p class="eyebrow">The one manoeuvre nobody teaches you</p>
+
+<h2>Moving a force sideways costs you a couple</h2>
+
+<p>To use the cut on anything but a straight rod, you need one small piece of machinery, and in my experience it is the single thing students are missing when a problem defeats them. It takes ninety seconds to derive and it will do a great deal of work.</p>
+
+<p>Question: I have a force \(P\) acting at point A. I would rather it acted at point B, a perpendicular distance \(d\) away. Can I just move it?</p>
+
+<p>Watch. At B, add two forces: one \(P\) pointing the same way as the original, and one \(P\) pointing the opposite way. I've added nothing — they cancel exactly, so the physics is untouched.</p>
+
+<p>But now look at how they group. The original \(P\) at A, together with the <em>backwards</em> \(P\) at B, is a pair of equal and opposite forces separated by \(d\): that is a pure couple, of magnitude \(P\!\cdot\!d\), and it has no resultant force at all. What's left over is the forwards \(P\) sitting at B.</p>
+
+<figure>
+<svg viewBox="0 0 460 150" role="img" aria-label="Moving a force from A to B: add a canceling pair at B, then regroup into a force at B plus a couple of magnitude P times d.">
+  <!-- panel 1 -->
+  <circle cx="76" cy="44" r="2.6" fill="#2b2620"/><text x="62" y="40" font-size="10.5" fill="#8b8375">A</text>
+  <circle cx="76" cy="104" r="2.6" fill="#2b2620"/><text x="62" y="108" font-size="10.5" fill="#8b8375">B</text>
+  <line x1="76" y1="44" x2="76" y2="104" stroke="#8b8375" stroke-width=".8" stroke-dasharray="3 3"/>
+  <text x="82" y="78" font-size="10" fill="#8b8375">d</text>
+  <path d="M 76 44 L 128 44" stroke="#2b2620" stroke-width="1.8"/><path d="M 133 44 l -8 -4.5 l 0 9 z" fill="#2b2620"/>
+  <text x="112" y="34" font-size="11.5" fill="#2b2620">P</text>
+  <text x="60" y="134" font-size="10" fill="#8b8375">what you have</text>
+
+  <text x="152" y="78" font-size="15" fill="#8b8375">=</text>
+
+  <!-- panel 2 -->
+  <circle cx="196" cy="44" r="2.6" fill="#2b2620"/>
+  <circle cx="196" cy="104" r="2.6" fill="#2b2620"/>
+  <line x1="196" y1="44" x2="196" y2="104" stroke="#8b8375" stroke-width=".8" stroke-dasharray="3 3"/>
+  <path d="M 196 44 L 244 44" stroke="#2b2620" stroke-width="1.8"/><path d="M 249 44 l -8 -4.5 l 0 9 z" fill="#2b2620"/>
+  <path d="M 196 104 L 244 104" stroke="#355070" stroke-width="1.8"/><path d="M 249 104 l -8 -4.5 l 0 9 z" fill="#355070"/>
+  <path d="M 196 104 L 148 104" stroke="#355070" stroke-width="1.8"/><path d="M 143 104 l 8 -4.5 l 0 9 z" fill="#355070"/>
+  <text x="176" y="132" font-size="10" fill="#355070">add zero</text>
+
+  <text x="272" y="78" font-size="15" fill="#8b8375">=</text>
+
+  <!-- panel 3 -->
+  <circle cx="330" cy="104" r="2.6" fill="#2b2620"/><text x="316" y="108" font-size="10.5" fill="#8b8375">B</text>
+  <path d="M 330 104 L 382 104" stroke="#2b2620" stroke-width="1.8"/><path d="M 387 104 l -8 -4.5 l 0 9 z" fill="#2b2620"/>
+  <text x="366" y="94" font-size="11.5" fill="#2b2620">P</text>
+  <path d="M 322 62 a 22 22 0 1 1 -6 26" fill="none" stroke="#355070" stroke-width="1.5"/>
+  <path d="M 314 92 l 8.5 -3.5 l -1 8.5 z" fill="#355070"/>
+  <text x="342" y="58" font-size="11.5" fill="#355070">P·d</text>
+  <text x="304" y="134" font-size="10" fill="#8b8375">a force AND a couple</text>
+</svg>
+<figcaption>Add zero, regroup. A force shifted a perpendicular distance <em>d</em> becomes the same force at the new point plus a couple <em>P·d</em>. Slide it <em>along</em> its own line and <em>d</em> = 0, so nothing is owed — that special case is the one you already knew.</figcaption>
+</figure>
+
+<p>So: <strong>you may move a force anywhere you like, provided you pay a couple of \(P\!\cdot\!d\) for the trip.</strong> Nothing was assumed here — no material, no small deformations, no elasticity. It is pure bookkeeping, and it is exact.</p>
+
+<p>And I owe you something. Three sections back I borrowed the claim that any bundle of forces whatsoever reduces to <em>one</em> force plus <em>one</em> couple — the claim that gave us six. You now have everything needed to close it yourself.</p>
+
+<div class="ask">
+  <span class="lbl">Collect the debt</span>
+  <p>You can move one force to a point of your choosing, for the price of a couple. So take a body with a hundred forces scattered over it, pick any point you like, and move them <em>all</em> there.</p>
+  <p>What are you holding when you're done?</p>
+</div>
+
+<details>
+<summary>Close it</summary>
+<p>Each of the hundred forces arrives at your chosen point, and each drops a couple on the table as it comes.</p>
+<p>Now you have a hundred forces all acting at one single point — and forces at a common point simply add, head to tail, into <strong>one resultant force</strong>. And you have a hundred couples — and couples are free vectors that likewise just add, into <strong>one resultant couple</strong>.</p>
+<p>One force, one couple. From any starting mess, always. Three components each, so six numbers, so a cut carries six — and now you own that rather than borrowing it.</p>
+<p style="margin-top:1rem;font-size:.93rem;color:#544b40">Notice what shifts if you pick a <em>different</em> point to collect at: the resultant force comes out identical, but the couple changes, because every trip length changed. This is why "the moment at a section" is meaningless until you say <em>which</em> section — and it is exactly why the next section sweeps the point along the beam and watches the couple grow.</p>
+</details>
+
+<p>Now the payoff.</p>
+
+<p class="eyebrow">Your turn — the real thing</p>
+
+<h2>Pull a spring. What is the wire actually carrying?</h2>
+
+<p>Take the little coil spring out of a clicky ballpoint pen. Grab both ends and pull, straight along the axis, with force \(P\).</p>
+
+<p>Everyone's instinct, including mine the first time, is: <em>obviously the wire is in tension. I'm pulling it.</em></p>
+
+<p>Use the cut and check. Slice the wire across at any point on the coil. Look at the piece you kept, work out what the face must carry, and read off which of the six it is.</p>
+
+<div class="ask">
+  <span class="lbl">Work it before you open this</span>
+  <p>Two facts to set you up. The wire runs <em>around</em> the coil, so the cut face you expose is roughly perpendicular to the direction the wire is travelling — the face's normal points along the wire, i.e. sideways, tangent to the circle. And the force \(P\) you're applying acts along the <em>spring's</em> axis, which is a distance \(R\) (the coil radius) away from the wire.</p>
+  <p>You now have a force acting a perpendicular distance from the point you want to talk about. You know what that costs.</p>
+</div>
+
+<details>
+<summary>What the wire is really doing</summary>
+<p>Move \(P\) from the spring axis over to the cut in the wire — a perpendicular trip of \(R\). By the manoeuvre above, that costs a couple of \(P\!\cdot\!R\).</p>
+<p>Now sort both leftovers into the catalogue of six:</p>
+<p><strong>The couple \(P\!R\).</strong> Which way does its axis point? It's the couple that turns the wire <em>about the wire's own centreline</em> — grab the wire and unscrew it. A moment about the face's normal is, by definition, <strong>torsion</strong>.</p>
+<p><strong>The force \(P\) itself,</strong> now sitting at the cut. It points along the spring's axis — which is <em>sideways</em> relative to the wire, i.e. it lies in the plane of the cut face. A force lying in the face is <strong>shear</strong>.</p>
+<p>And the axial force in the wire? <strong>Zero</strong> — you pulled the spring in pure tension and the wire is not in tension at all.</p>
+<p style="font-size:.93rem;color:#544b40">Strictly, zero for a <em>close-coiled</em> spring: one whose turns lie almost flat, so the wire runs very nearly perpendicular to the axis. A pen spring is close-coiled and this is an honest description of it. Tilt the turns by a real pitch angle α and a slice of the pull, \(P\sin\alpha\), does start leaking into genuine tension along the wire, with a little bending alongside it. I'm naming the idealization rather than hiding it — that habit is the difference between a result you can trust and a result you merely have.</p>
+<p style="margin-top:1.1rem"><strong>A tension spring is a torsion device.</strong> It is soft not because the steel stretches — steel barely stretches — but because a long thin wire is very easy to twist, and there are a great many turns of it, and every one of them contributes. That is the whole reason a spring is springy.</p>
+</details>
+
+<figure>
+<svg viewBox="0 0 460 190" role="img" aria-label="A coil spring pulled along its axis; cutting the wire and moving the applied force to the cut reveals a torque P times R about the wire axis plus a shear force P.">
+  <!-- coil -->
+  <g stroke="#2b2620" stroke-width="1.5" fill="none">
+    <ellipse cx="96" cy="52" rx="34" ry="11"/>
+    <ellipse cx="96" cy="76" rx="34" ry="11"/>
+    <ellipse cx="96" cy="100" rx="34" ry="11"/>
+    <ellipse cx="96" cy="124" rx="34" ry="11"/>
+  </g>
+  <line x1="96" y1="30" x2="96" y2="41" stroke="#2b2620" stroke-width="1.5"/>
+  <line x1="96" y1="135" x2="96" y2="150" stroke="#2b2620" stroke-width="1.5"/>
+  <!-- P arrows -->
+  <path d="M 96 30 L 96 12" stroke="#355070" stroke-width="1.9"/><path d="M 96 6 l -4.5 9 l 9 0 z" fill="#355070"/>
+  <text x="105" y="18" font-size="11.5" fill="#355070">P</text>
+  <path d="M 96 150 L 96 172" stroke="#355070" stroke-width="1.9"/><path d="M 96 178 l -4.5 -9 l 9 0 z" fill="#355070"/>
+  <text x="105" y="172" font-size="11.5" fill="#355070">P</text>
+  <!-- axis line + R -->
+  <line x1="96" y1="44" x2="96" y2="132" stroke="#8b8375" stroke-width=".8" stroke-dasharray="3 3"/>
+  <line x1="96" y1="76" x2="130" y2="76" stroke="#8b8375" stroke-width=".9" stroke-dasharray="3 3"/>
+  <text x="110" y="67" font-size="11" fill="#2b2620">R</text>
+  <circle cx="130" cy="76" r="3.2" fill="#355070"/>
+  <text x="138" y="72" font-size="10.5" fill="#355070">cut here</text>
+
+  <!-- zoom of wire cross section -->
+  <line x1="212" y1="96" x2="248" y2="96" stroke="#8b8375" stroke-width="1.2"/>
+  <path d="M 248 96 l -6 -3.5 l 0 7 z" fill="#8b8375"/>
+  <text x="230" y="86" font-size="10" text-anchor="middle" fill="#8b8375">zoom</text>
+
+  <g>
+    <!-- wire piece -->
+    <path d="M 296 78 L 380 78 L 380 118 L 296 118 Z" fill="#f3f0e8" stroke="#2b2620" stroke-width="1.3"/>
+    <ellipse cx="380" cy="98" rx="8" ry="20" fill="#fbfaf6" stroke="#355070" stroke-width="1.5"/>
+    <text x="300" y="134" font-size="10" fill="#8b8375">the wire</text>
+    <!-- torque -->
+    <path d="M 404 74 a 22 22 0 1 1 -4 44" fill="none" stroke="#355070" stroke-width="1.5"/>
+    <path d="M 398 122 l 8 -4 l -1 8.5 z" fill="#355070"/>
+    <text x="418" y="66" font-size="11.5" fill="#355070">P·R</text>
+    <text x="404" y="140" font-size="10" fill="#355070">torsion</text>
+    <!-- shear -->
+    <path d="M 380 92 L 380 46" stroke="#2b2620" stroke-width="1.8"/>
+    <path d="M 380 41 l -4 8 l 8 0 z" fill="#2b2620"/>
+    <text x="386" y="44" font-size="11.5" fill="#2b2620">P</text>
+    <text x="330" y="42" font-size="10" fill="#8b8375">shear</text>
+  </g>
+</svg>
+<figcaption>Move the applied <em>P</em> from the spring's axis onto the wire — a perpendicular trip of <em>R</em> — and it arrives as a shear force plus a torque <em>PR</em> about the wire's own axis. The wire never sees tension.</figcaption>
+</figure>
+
+<p>That result is not a curiosity. It is the test of whether you own the cut. If you can look at a coil spring and see torsion, you can look at almost anything and see what it is really carrying — and the "almost anything" includes the crankshaft, the bicycle pedal, the drill bit, the bracket on your wall.</p>
+
+<div class="aside">
+  <span class="lbl">One to chew on later</span>
+  <p>The other kind of spring — the flat spiral one in a wind-up clock, or the wire spring in a clothes peg — is called a <em>torsion spring</em>, because you load it by twisting.</p>
+  <p>Cut its wire and run the same argument. What do you find? The name is exactly wrong: a torsion spring works mostly in <strong>bending</strong>, and a tension spring works in <strong>torsion</strong>. Both names describe how you grab the thing, not what the material is doing. This is why you cut instead of guessing.</p>
+</div>
+
+<p class="eyebrow">Where the diagrams come from</p>
+
+<h2>Six numbers, at every station along the length</h2>
+
+<p>Put it together. Cut at position \(x\), get six numbers. Cut at \(x + \delta\), get six slightly different numbers. Sweep the cut along the member and each of the six becomes a <em>function of \(x\)</em>.</p>
+
+<p>Let's actually do it, because this is the step that decides <em>which</em> cross-section fails — and knowing which one is half of sizing a real part.</p>
+
+<p>Take a diving board: a beam clamped into a wall at one end, sticking out a length \(L\), with a load \(P\) pressing down on the free tip. A cantilever. It's the oldest problem in this subject — it's the one Galileo drew in 1638 and couldn't finish.</p>
+
+<div class="ask">
+  <span class="lbl">Your turn — and you have every tool you need</span>
+  <p>Cut the board at a distance \(x\) back from the <em>free tip</em>. Keep the tip piece, throw away the wall side (throw away the wall side — it's full of unknown reactions, and you don't need them).</p>
+  <p>Only one thing acts on the piece you kept: the load \(P\), sitting a distance \(x\) from your cut. Move it to the cut and read off the six.</p>
+  <p>Then do the part that matters: <strong>let \(x\) run</strong>. What does each answer do as the cut travels from the tip toward the wall?</p>
+</div>
+
+<details>
+<summary>Sweep it</summary>
+<p>Move \(P\) from the tip to the cut — a perpendicular trip of \(x\). It arrives as:</p>
+<p><strong>A force \(P\)</strong>, still pointing down, now sitting at the cut. Down is across the face, not out of it — so this is <strong>shear</strong>: \(V = P\).</p>
+<p><strong>A couple \(P\!\cdot\!x\)</strong>, the fare for the trip. Its axis lies in the plane of the face, hinging the tip piece relative to the rest — so this is a <strong>bending moment</strong>: \(M = P x\).</p>
+<p>Everything else is zero: no axial force, no torque, no second shear.</p>
+<p style="margin-top:1.1rem">Now let \(x\) run from 0 to \(L\):</p>
+<p>\(V = P\) — <em>constant</em>. Every cross-section, tip to wall, is being sheared exactly as hard as every other. The shear diagram is a flat line.</p>
+<p>\(M = Px\) — <em>a straight ramp</em>. Zero at the tip, climbing steadily, biggest at the wall where \(M_{\max} = PL\).</p>
+</details>
+
+<figure>
+<svg viewBox="0 0 460 250" role="img" aria-label="A cantilever with load P at the free tip; cutting at distance x from the tip gives shear V equal to P everywhere and bending moment M equal to P x, plotted as a constant shear diagram and a linear bending moment diagram peaking at the wall.">
+  <!-- wall -->
+  <rect x="36" y="24" width="12" height="56" fill="#f3f0e8" stroke="#2b2620" stroke-width="1.4"/>
+  <g stroke="#8b8375" stroke-width="1">
+    <line x1="36" y1="30" x2="26" y2="22"/><line x1="36" y1="44" x2="26" y2="36"/>
+    <line x1="36" y1="58" x2="26" y2="50"/><line x1="36" y1="72" x2="26" y2="64"/>
+  </g>
+  <!-- beam -->
+  <rect x="48" y="44" width="336" height="14" fill="#f3f0e8" stroke="#2b2620" stroke-width="1.4"/>
+  <!-- load -->
+  <path d="M 384 14 L 384 40" stroke="#355070" stroke-width="1.9"/>
+  <path d="M 384 46 l -4.5 -9 l 9 0 z" fill="#355070"/>
+  <text x="392" y="26" font-size="12" fill="#355070">P</text>
+  <!-- cut -->
+  <line x1="252" y1="34" x2="252" y2="68" stroke="#355070" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="246" y="30" font-size="10.5" fill="#355070" text-anchor="middle">cut</text>
+  <!-- x dimension -->
+  <line x1="252" y1="78" x2="384" y2="78" stroke="#8b8375" stroke-width=".9"/>
+  <path d="M 252 78 l 7 -3 l 0 6 z" fill="#8b8375"/><path d="M 384 78 l -7 -3 l 0 6 z" fill="#8b8375"/>
+  <text x="318" y="92" font-size="11" text-anchor="middle" fill="#8b8375">x</text>
+  <line x1="48" y1="100" x2="384" y2="100" stroke="#8b8375" stroke-width=".9"/>
+  <path d="M 48 100 l 7 -3 l 0 6 z" fill="#8b8375"/><path d="M 384 100 l -7 -3 l 0 6 z" fill="#8b8375"/>
+  <text x="216" y="114" font-size="11" text-anchor="middle" fill="#8b8375">L</text>
+
+  <!-- shear diagram -->
+  <text x="48" y="140" font-size="10.5" fill="#8b8375">shear  V</text>
+  <line x1="112" y1="152" x2="384" y2="152" stroke="#ddd8cc" stroke-width="1"/>
+  <rect x="112" y="134" width="272" height="18" fill="rgba(53,80,112,.10)"/>
+  <line x1="112" y1="134" x2="384" y2="134" stroke="#355070" stroke-width="1.8"/>
+  <line x1="112" y1="134" x2="112" y2="152" stroke="#355070" stroke-width="1.8"/>
+  <text x="392" y="138" font-size="10.5" fill="#355070">P</text>
+  <text x="248" y="126" font-size="10" text-anchor="middle" fill="#8b8375">flat — same everywhere</text>
+
+  <!-- bending moment diagram -->
+  <text x="48" y="196" font-size="10.5" fill="#8b8375">moment  M</text>
+  <line x1="112" y1="230" x2="384" y2="230" stroke="#ddd8cc" stroke-width="1"/>
+  <path d="M 384 230 L 112 182 L 112 230 Z" fill="rgba(53,80,112,.10)"/>
+  <line x1="384" y1="230" x2="112" y2="182" stroke="#355070" stroke-width="1.8"/>
+  <line x1="112" y1="182" x2="112" y2="230" stroke="#355070" stroke-width="1.8"/>
+  <text x="76" y="180" font-size="10.5" fill="#355070">PL</text>
+  <text x="390" y="234" font-size="10.5" fill="#8b8375">0</text>
+  <text x="306" y="204" font-size="10" text-anchor="middle" fill="#8b8375">ramps up toward the wall</text>
+</svg>
+<figcaption>Nobody drew these from a rulebook. Each point on each curve is one imaginary cut, asked and answered. The peak of the moment curve sits at the wall — so that is the cross-section every later formula in this course will be aimed at.</figcaption>
+</figure>
+
+<p>Those two plots are the shear-force diagram and the bending-moment diagram. If you've met them before as a ritual with sign conventions and rules about jumps, look at what they actually are: <strong>the record of every question the cut can ask, asked at every location along the member.</strong> Not a procedure. A sweep.</p>
+
+<p>And now read the useful thing straight off the picture. The moment is largest at the wall. So a diving board breaks where it enters its mounting — not in the middle, not where you're standing. Look at any cantilever bracket holding a shelf and you'll find it deep where it meets the wall and tapered to nothing at the tip: somebody drew that ramp, and put the material where the ramp is tall.</p>
+
+<div class="aside">
+  <span class="lbl">Try it on a different load</span>
+  <p>Same board, but instead of one load at the tip, spread a load \(w\) per unit length over the whole thing — snow on a balcony, the beam's own weight.</p>
+  <p>Cut at \(x\) from the tip. The piece you kept now carries \(wx\) of total load, and its resultant sits at the piece's midpoint, a distance \(x/2\) from your cut. Same manoeuvre, same fare.</p>
+  <p>You should get \(V = wx\) (a ramp now, not flat) and \(M = wx^2/2\) — a <em>parabola</em>, peaking at \(wL^2/2\) at the wall. Nothing new was needed. That's the sign the machine is real.</p>
+</div>
+
+<p>This is what makes the cut the right rung 0. It reduces "will this part survive?" from a question about a whole three-dimensional object to a question about one identified slice — and it tells you which slice.</p>
+
+<div class="aside">
+  <span class="lbl">An honest limit, stated now so it doesn't ambush you</span>
+  <p>The cut always works. What doesn't always work is being able to <em>solve</em> for the six numbers using equilibrium alone.</p>
+  <p>Prop the hanging rod on a floor as well as hanging it from a ceiling, and now two unknown forces hold it, with only one equation to find them. Statics runs out. Equilibrium is still true; it is simply no longer enough.</p>
+  <p>Such problems are called <em>statically indeterminate</em>, and the only way in is to stop treating the body as rigid and start asking how much it stretches. That is the trapdoor into this entire subject — and it opens in rung 3.</p>
+</div>
+
+<hr>
+
+<p class="eyebrow">The debt comes due</p>
+
+<h2>Six numbers describe the face. They say nothing about any point on it.</h2>
+
+<p>Here is where I leave you, and it should feel unfinished, because it is.</p>
+
+<p>The cut tells me this cross-section carries 10 kN of axial force. Wonderful. But the material doesn't fail "on average across a cross-section" — it fails at <em>a point</em>, the single unluckiest point in the whole object, and then the crack runs from there. So I need to know how those 10 kN are spread across the face.</p>
+
+<p>Evenly? Concentrated in the middle? Piled up at the edges?</p>
+
+<p>Equilibrium cannot tell me. It never could — I threw that information away, deliberately and irrecoverably, the moment I replaced the distribution by its resultant. Any distribution adding up to 10 kN balances the piece equally well.</p>
+
+<p>And we've already seen a second crack in the floor: even if I knew the distribution, "force per unit area" gave me a different answer for the slanted cut than the straight one. So whatever the right quantity is, it is not a single number attached to a point. It is something that depends on the point <em>and</em> on the plane you interrogate it with.</p>
+
+<p>Which brings me to a stick of chalk.</p>
+
+<p>Pull a piece of blackboard chalk apart with your fingers and it snaps flat across, at ninety degrees, every time. Now take a fresh piece and, instead of pulling, twist it. It breaks on a clean spiral at forty-five degrees — and it does that whether you twist it clockwise or anti-clockwise, choosing the other diagonal to suit.</p>
+
+<p>Same chalk. Same material. It somehow selects a different plane to fail on depending on how you load it, as though it knew.</p>
+
+<p class="beat">The chalk is not smart.<br>So "force divided by area" cannot be the whole story.</p>
+
+<p>That's rung 1. Go get a piece of chalk before you start it — I'm serious, this one you should break with your own hands.</p>
+
+<div class="end">
+  <p><strong>Before you feel like you've got this.</strong> That read smoothly, and smoothness is a liar. Reading an argument you can follow feels almost exactly like being able to produce it, and the two are not close to the same thing.</p>
+  <p>Here is the actual test, and it's cheap. Tomorrow, with nothing in front of you, on a blank page:</p>
+  <ul>
+    <li>Say why an imaginary cut is allowed to tell you a real fact.</li>
+    <li>Get to <em>six</em> from scratch, without recalling that the answer was six.</li>
+    <li>Sweep a cantilever and produce \(V\) and \(M\) as functions of \(x\) — then do it again with the load spread out instead of at the tip.</li>
+    <li>Draw the spring and land on torsion — with the \(P\!\cdot\!R\) argument, not the memory of it.</li>
+  </ul>
+  <p>If any of those stalls, that's not failure — that's the lesson telling you precisely which paragraph to come back to. Coming back after it stalls is worth more than reading it twice today.</p>
+  <p><a class="next" href="index.html">← back to the ladder</a></p>
+</div>
+
+</div>
+</body>
+</html>

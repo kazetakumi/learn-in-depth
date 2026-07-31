@@ -1,0 +1,128 @@
+{
+  "total": 20,
+  "downloaded": 13,
+  "skipped_existing": 0,
+  "failed": 7,
+  "videos": [
+    {
+      "video_id": "pN6jk0uUrD8",
+      "status": "downloaded",
+      "path": "transcripts/pN6jk0uUrD8.txt",
+      "error": null
+    },
+    {
+      "video_id": "ZvbzSrg0afE",
+      "status": "downloaded",
+      "path": "transcripts/ZvbzSrg0afE.txt",
+      "error": null
+    },
+    {
+      "video_id": "iLWTnMzWtj4",
+      "status": "downloaded",
+      "path": "transcripts/iLWTnMzWtj4.txt",
+      "error": null
+    },
+    {
+      "video_id": "Fnlnw8uY6jo",
+      "status": "downloaded",
+      "path": "transcripts/Fnlnw8uY6jo.txt",
+      "error": null
+    },
+    {
+      "video_id": "gSDncyuGw0s",
+      "status": "downloaded",
+      "path": "transcripts/gSDncyuGw0s.txt",
+      "error": null
+    },
+    {
+      "video_id": "QCRpVw2KXf8",
+      "status": "downloaded",
+      "path": "transcripts/QCRpVw2KXf8.txt",
+      "error": null
+    },
+    {
+      "video_id": "B7iF6G3EyIk",
+      "status": "downloaded",
+      "path": "transcripts/B7iF6G3EyIk.txt",
+      "error": null
+    },
+    {
+      "video_id": "uH-tVP8MUs8",
+      "status": "downloaded",
+      "path": "transcripts/uH-tVP8MUs8.txt",
+      "error": null
+    },
+    {
+      "video_id": "BNC6slYCj50",
+      "status": "failed",
+      "path": null,
+      "error": "TranscriptUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=BNC6slYCj50! This is most likely caused by:\n\nNo transcripts were found for any of the requested language codes: ['en']\n\nFor this video (BNC6slYCj50) transcripts are available in the following languages:\n\n(MANUALLY CREATED)\nNone\n\n(GENERATED)\n - hi (\"Hindi (auto-generated)\")\n\n(TRANSLATION LANGUAGES)\nNone\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+    },
+    {
+      "video_id": "lW_erSjyMeM",
+      "status": "downloaded",
+      "path": "transcripts/lW_erSjyMeM.txt",
+      "error": null
+    },
+    {
+      "video_id": "qikxEIxsXco",
+      "status": "failed",
+      "path": null,
+      "error": "TranscriptUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=qikxEIxsXco! This is most likely caused by:\n\nNo transcripts were found for any of the requested language codes: ['en']\n\nFor this video (qikxEIxsXco) transcripts are available in the following languages:\n\n(MANUALLY CREATED)\nNone\n\n(GENERATED)\n - hi (\"Hindi (auto-generated)\")\n\n(TRANSLATION LANGUAGES)\nNone\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+    },
+    {
+      "video_id": "eBTBG4nda2A",
+      "status": "downloaded",
+      "path": "transcripts/eBTBG4nda2A.txt",
+      "error": null
+    },
+    {
+      "video_id": "t1nFAMws5FI",
+      "status": "failed",
+      "path": null,
+      "error": "TranscriptUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=t1nFAMws5FI! This is most likely caused by:\n\nNo transcripts were found for any of the requested language codes: ['en']\n\nFor this video (t1nFAMws5FI) transcripts are available in the following languages:\n\n(MANUALLY CREATED)\nNone\n\n(GENERATED)\n - hi (\"Hindi (auto-generated)\")\n\n(TRANSLATION LANGUAGES)\nNone\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+    },
+    {
+      "video_id": "SHINoHxvTso",
+      "status": "downloaded",
+      "path": "transcripts/SHINoHxvTso.txt",
+      "error": null
+    },
+    {
+      "video_id": "btj35dh3_U8",
+      "status": "failed",
+      "path": null,
+      "error": "TranscriptUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=btj35dh3_U8! This is most likely caused by:\n\nNo transcripts were found for any of the requested language codes: ['en']\n\nFor this video (btj35dh3_U8) transcripts are available in the following languages:\n\n(MANUALLY CREATED)\nNone\n\n(GENERATED)\n - hi (\"Hindi (auto-generated)\")\n\n(TRANSLATION LANGUAGES)\nNone\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+    },
+    {
+      "video_id": "8zKuNo4ay8E",
+      "status": "failed",
+      "path": null,
+      "error": "TranscriptUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=8zKuNo4ay8E! This is most likely caused by:\n\nNo transcripts were found for any of the requested language codes: ['en']\n\nFor this video (8zKuNo4ay8E) transcripts are available in the following languages:\n\n(MANUALLY CREATED)\nNone\n\n(GENERATED)\n - hi (\"Hindi (auto-generated)\")\n\n(TRANSLATION LANGUAGES)\nNone\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+    },
+    {
+      "video_id": "2WJL19wDH68",
+      "status": "downloaded",
+      "path": "transcripts/2WJL19wDH68.txt",
+      "error": null
+    },
+    {
+      "video_id": "nqsPmuicJJc",
+      "status": "failed",
+      "path": null,
+      "error": "TranscriptUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=nqsPmuicJJc! This is most likely caused by:\n\nNo transcripts were found for any of the requested language codes: ['en']\n\nFor this video (nqsPmuicJJc) transcripts are available in the following languages:\n\n(MANUALLY CREATED)\nNone\n\n(GENERATED)\n - hi (\"Hindi (auto-generated)\")\n\n(TRANSLATION LANGUAGES)\nNone\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+    },
+    {
+      "video_id": "HkWxvB1RJq0",
+      "status": "failed",
+      "path": null,
+      "error": "TranscriptUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=HkWxvB1RJq0! This is most likely caused by:\n\nNo transcripts were found for any of the requested language codes: ['en']\n\nFor this video (HkWxvB1RJq0) transcripts are available in the following languages:\n\n(MANUALLY CREATED)\nNone\n\n(GENERATED)\n - hi (\"Hindi (auto-generated)\")\n\n(TRANSLATION LANGUAGES)\nNone\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+    },
+    {
+      "video_id": "zdp0zrpKzIE",
+      "status": "downloaded",
+      "path": "transcripts/zdp0zrpKzIE.txt",
+      "error": null
+    }
+  ]
+}

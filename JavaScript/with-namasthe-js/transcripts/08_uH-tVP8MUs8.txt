@@ -1,0 +1,444 @@
+Scope in JavaScript is directly related
+to lexical environment. Okay, lexical
+environment. I know it sounds a little
+complicated but it's a very classic
+concept in JavaScript. Okay, if you
+understand lexical environment, it will
+be very easy for you to understand scope
+the scope chain and it will also help us
+understand closures also. Okay, so just
+pay attention carefully and we'll be
+seeing a lot of examples today. So let's
+take a function and let's call this
+function a okay and along with this
+function let us also take a v b okay let
+us assign it 10 and what should we do is
+let us just invoke this function so what
+I'm trying to tell is that can we access
+this b inside a let us try to check so
+what do you think this will output okay
+if I do a console log inside a what do
+you think will be the output.
+See when JavaScript engine reach this
+line and it tries to execute console log
+B, what will JavaScript do? JavaScript
+will try to find out whether B exists in
+the local memory space or not. Okay,
+when I say local memory space,
+JavaScript engine will try to find this
+B inside the local memory of this A's
+execution context. Okay, this function A
+is local memory. It will try to find out
+B and it won't be there, right? Because
+we never created B inside that function,
+isn't it? So now what will happen? Will
+it print undefined? Remember that
+special placeholder in case of host will
+it print undefined or will it print not
+defined like the B never existed or will
+it directly print the value 10? What
+will happen? Interesting, right? So if
+we run this code let us see it prints up
+10 right. So it prints up 10 that means
+somehow inside this function right this
+B can access the B which was outside
+this function. Okay so this was easy but
+let's make things a little more complex.
+So if I put in another function inside
+this right inside this A and if I try to
+access B inside this function. Okay. If
+I try to access B inside this function
+what will happen now? What will it
+print? Think of it. Will I still get
+access to B or will it be undefined or
+not defined or anything else or null or
+something empty? What it will be? So can
+I access B? Let us just run and see. So
+let us invoke this function also. Okay.
+So if we invoke this function now if I
+run my program. So here it is. So it can
+again access 10. So that means even
+inside the function which is inside
+another function which is inside the
+global scope I can access B. Right? And
+what if vice versa? Suppose if I had
+this B suppose if I take this B and if I
+put this B inside here right? If I put
+this B inside here, can I still access
+it inside C? Let us see. Yes, I can
+still access. But but but can I access
+this B outside this function? What do
+you think the output will be? What will
+happen if I run this? It says B is not
+defined. Interesting, isn't it? It says
+B is not defined. So here comes scope
+into picture. Now I'll tell you the
+easiest definition of scope. Okay, so
+scope means where you can access a
+specific variable or a function in our
+code. Okay, that is scope. See, there
+are two aspects to it. I'll tell you
+both. So, first is what is the scope of
+this variable? Okay, so what is the
+scope of this variable B? That means
+where can I access this variable B?
+Okay, that is scope. And the other way
+of seeing it is is B inside the scope.
+Okay. So when I say is B inside the
+scope of function C. So that means can I
+access this B inside C? So there are two
+ways to look at it. First is what is the
+scope of a variable B and one is is B
+inside a scope of a function. So so so
+people use it in different ways but it's
+like almost the same thing. And as I
+told you in the beginning of the video
+scope is directly dependent on the
+lexical environment. Okay. Now let us
+see what is lexical environment with a
+visual representation. Visual will be
+the best way to fit inside our head that
+lexical environment. Let us see it. Now
+when we run this program a global
+execution context is created and it is
+put onto the call stack. Remember right
+[snorts] and let us make this call
+stack. So here is our call stack. Okay.
+And what happens is a global execution
+context is created and it is pushed
+inside it. So let us make this global
+execution context. Okay, it is pushed
+onto the call stack. So this global
+execution context as you already know it
+is the global execution context. Okay,
+so this global execution context as you
+already know has memory and code section
+in it. Right? So what will happen when
+you run this program? It will try to
+assign
+values to the global variables and
+functions. Right? So it will try to
+assign value to a here. Right? A is in
+the global space. So let us try to
+assign that value. Okay? It will assign
+value to a here. It will point it to the
+function reference. Then what will
+happen? It will invoke this function.
+What will happen? When you invoke a
+function, an execution context is
+created. Right? So let us create the
+execution context for A also now. So
+here we created an execution context for
+A also. It again has two parts the
+memory and the code. Right? And now this
+function A will reserve memory for this
+variable B. Isn't it? So B and this
+function C. Right? So B and C will be
+reserved this memory here. So what will
+happen? So initially B will be set to
+undefined and C will be set to the
+function reference right and once it
+starts executing the code now B will
+become 10 right this is how the code is
+executed remember from the previous
+videos. So what will happen now it will
+go to the next line. Okay it will put in
+10 over here and it will go to the next
+line. This is again a function
+invocation. What happens in a function
+invocation? Again an execution context
+is created. Let us quickly create one.
+Okay. Uh and it is again pushed onto the
+call stack. Now this is the this is the
+execution context of C. Okay. This is
+the C and this is a function A
+invocation. Okay. So and again a memory
+is set up. Right? Again memory and code
+is here. Right? So there is nothing to
+set up in C. So let us keep it right
+here. So now I will tell you what is
+lexical environment. Just pay attention
+very carefully and listen to me. Okay?
+So whenever an execution context is
+created, a lexical environment is also
+created. Okay. So lexical environment is
+the local memory along with the lexical
+environment of its parent. Okay. So let
+me repeat it once again. It's a very
+core concept. Remember this. Lexical
+environment is the local memory along
+with the lexical environment of its
+parent. Okay. What is parent? First of
+all, let me tell you what is lexical.
+Okay. So, lexical as a term means in
+hierarchy or in a sequence or in in this
+code terms. I'll tell you what lexical
+is. So, you can say that C function is
+lexically sitting inside a function.
+Okay, this C function is lexically
+inside a function. Okay, that means
+lexical in order or in hierarchy. Okay,
+which is and in code terms you can
+assume it to be where that specific code
+is present physically inside the code,
+right? So this function C is present
+physically inside A, right? So that
+means C is lexically inside A and A is
+lexically inside the global scope.
+Right? So this is known as lexical. So
+when I say lexical environment that
+means the local memory along with
+lexical environment of the parent. Let
+me show you visually. So whenever this
+execution context is created you also
+get reference to the lexical environment
+of its parent. Okay. So along with the
+memory space along with the variables
+and functions in this memory space you
+also get this orange thing. Okay. this
+orange thing you can assume it to be a
+reference to the lexical environment of
+its parent. Okay. So in this case this
+orange thing is pointing to the lexical
+environment of its parent. What is it?
+So lexical parent of c is a right in the
+code. So lexical lex it is because c is
+lexically inside a right. So that means
+it will get access to lexical
+environment of a also you know
+understand please understand this very
+carefully it will help us in longer run
+this is very important okay so this
+orange is the reference to the lexical
+environment of a and what is the lexical
+environment of a lexical environment of
+a is its memory space plus plus the
+lexical environment of a's parent okay
+so a also has this orange thing which is
+pointing to the lexical environment of
+the its parent. Okay. It is the lexical
+environment of global. Okay. And global
+also has this orange thing which is
+reference to its lexical parent. Right?
+Lexical environment of its parent. At
+global level this reference to the outer
+environment points to null, right?
+Because it has no parent. In case of a,
+it points to global, right? So that
+points to this thing. Okay, this thing
+lexical environment points to this thing
+and in case of C, it points to lexical
+environment of A. Right? So this is how
+lexical environment looks like in the
+memory. Okay? Now this is the lexical
+environment. But let us now see how this
+is used. Okay. So suppose if you try to
+do a console log of okay console log of
+B inside this function C. So I'll tell
+you what happens. Okay. When JavaScript
+engine encounters this line, right? So
+it tries to find out B inside the local
+memory of C. Okay. First of all, it will
+try to find out if there B exist in the
+local memory or not. Okay, it won't find
+because there is no B inside this local
+memory. Okay. So now what happened?
+JavaScript engine goes to this reference
+and goes to the lexical environment of
+its parent. Okay. So lexical means where
+it is lexically or physically present in
+the code. So C is physically present
+inside A. Right? So C is lexical parent
+is A. So it will go to the lexical
+environment of A. Okay. So now it will
+try to search for B inside the lexical
+environment of A. It finds out B over
+here. Okay. it finds out B over here. So
+it just goes back and it prints up B
+inside the console. That is why you see
+the value 10 printed on the console.
+Okay, this is how it works. So suppose
+if B was not there inside A also suppose
+if we don't if we didn't had this line.
+Okay, if we didn't had this line, so
+what would have happened after searching
+over here? It would have again gone to
+the lexical environment of A's parent.
+Okay. So now it will have it would have
+tried to find out B inside this global
+execution context lexical environment.
+Okay. That global lexical environment.
+Okay. And there was no B over here also.
+Suppose we never declared B anywhere in
+our code. Right? So what happens now? It
+goes to the lexical environment of
+global parent also because it was not
+there in global memory of global. Right?
+So it goes and searches for the uh
+lexical environment of global's parent.
+Okay. And it finds null. So that means
+it ended. Right? Now there is no more
+lexical environments to search for.
+Right? Physically we have moved to the
+outer environment. We have moved to
+another outer environment and we have
+exhausted. Right? Now we have reached
+null. Right? So what will happen now?
+The program stops and JS engine says
+that B is not defined. So you get that
+error. B is not defined. Then you will
+say that B is not in the scope. Right?
+Now let me tell you a beautiful thing.
+Okay. So this way and this mechanism of
+finding the variables right like suppose
+B was first searched in the local
+memory. It was not there inside then it
+went to the reference of the outer
+parent right parent lexical environment.
+It was not over here. Suppose this was
+not here. Okay. If it was not here then
+it moves to the parent of that lexical
+environment. Okay. It goes to the parent
+is goes to a parent. Okay. So this way
+of finding is known as scope chain. So a
+scope chain is nothing but this chain of
+all these lexical environment and the
+parent references. This is what is scope
+chain. Nothing else. Okay. So if
+JavaScript engine does not find anything
+in the local memory, it goes one next
+level of the scope chain. Okay. If it
+does not find in the local memory, it
+goes next level of the scope chain. And
+if it does not find, goes to the next
+level of the scope chain. Okay. So this
+whole chain of lexical environment is
+known as the scope chain. Okay, nothing
+else. So what did we whole studied
+right? We studied what is the scope,
+what is lexical environment and what is
+scope chain. So let's just quickly
+revise. Okay, it will fit inside our
+head. Please quickly revise. Okay, so
+what is lexical environment? Lexical
+environment is created whenever an
+execution context is created. Okay. And
+lexical environment is the local memory
+plus reference to the lexical
+environment. Okay. Lexical environment
+of parent. Okay. And when I say parent,
+it is the lexical parent. Lexical parent
+means where actually that function sits
+inside the code. So C is lexically
+inside A. That means C's lexical parent
+is A. A's lexical parent is global.
+Okay. So lexical environment is what?
+local memory plus lexical environment of
+parent. So what is lexical environment
+here? Local memory and lexical
+environment of parent. So this is what
+is lexical environment and this whole
+chain of lexical environments is known
+as the scope chain and it defines
+whether a variable or function is
+present inside the scope or not. If the
+scope chain is exhausted and variable is
+not found that means it is not inside
+the scope chain. So now let us just see
+all these visual representations inside
+the browser and you will be amazed to
+see how beautifully it works inside the
+browser. Okay, let's just see. Okay, so
+let me just put a debugger over here in
+the source in our program. If I put a
+debugger inside this console log
+statement, right, so now let us just run
+this code and we'll see see this call
+stack. This call stack is beautiful,
+right? Just like I showed you in the
+visual representation. This call stack
+has all these three execution context.
+This is the anonymous is the global
+execution context. Right? And on top of
+it, it has the A's execution context and
+on top of it we have C's execution
+context. Right? So let us go to the
+global execution context. Here you see
+the lexical environment. Here you see
+the scope. What you can access inside
+this global execution context. Okay.
+This is the local memory of global
+execution context. Okay. So here you
+will find A also. Okay. So this is it.
+Right. Now we'll see an interesting
+thing. What is the lexical environment
+of A. So what was the lexical
+environment of A? So lexical environment
+of A is local memory of A along with the
+lexical environment of its parent.
+Parent was global. So local memory plus
+lexical environment of parent. C it is
+same right so let's now see C's lexical
+environment okay lexical environment of
+C is the local memory of C along with
+that its parents lexical environment
+what is the lexical environment of A and
+lexical environment of its parent right
+so here it is C so C has access to all
+these variables and functions you know
+you might find that okay Here we have
+here something is written as closure
+right. So we will study in deep inside
+the closure video but you can see that
+this is a little closure. Okay this is a
+closure. This is already a closure if I
+tell you right now. So C has already
+enclosed inside A right enclosed inside
+A. And this is what closure is but we
+will talk a little more deep inside the
+closure video al together. But for now
+you can assume that this is the lexical
+environment of A which C can access to.
+Okay. C has access to the lexical
+environment of its parent. And this is
+only is known as closure to be uh seen
+in the coming videos. But for now just
+understand that C has access to the
+scope of A also. Okay. And this whole
+chain right this whole chain this is the
+local and the lexical environment of its
+parent and its parent. This whole chain
+is known as the scope chain. This is
+what it is. This is how it looks like in
+the browser. This was all the basics of
+JavaScript. In the next video we will
+see how let and const behave differently
+in hosting as well as in scope. Right?
+So let in const which was introduced in
+ES6 behaves very differently in terms of
+scope as well as hosting. Okay, in the
+next videos I will be covering more
+about let and const. Okay, everybody was
+telling in the comments that where is
+let and const. See these are the basics
+of JavaScript when JavaScript was built.
+These were the core fundamentals. Let
+and const have come up recently, right?
+So let us cover that also in depth. I
+will be talking about what happens in
+case of let. What happens in case of
+const and how these behave differently
+than where and how hosting works for
+them, how scope works for them, what is
+a block scope. Everything will be
+covered in the next video. Before moving
+on to that video, like this video, it
+gives me a huge motivation. Tell me
+whether you understood scope or not and
+are you feeling excited or not. Till
+then, thank you for watching Namaste
+JavaScript.
+[music]
+[music]
+[music]
+[music]

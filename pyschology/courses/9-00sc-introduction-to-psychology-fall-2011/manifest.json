@@ -1,0 +1,1304 @@
+{
+  "course": {
+    "institution": "MIT",
+    "readable_id": "9.00SC+fall_2011",
+    "title": "Introduction to Psychology",
+    "url": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/",
+    "slug": "9-00sc-introduction-to-psychology-fall-2011",
+    "year": 2011,
+    "run_id": 4074,
+    "course_feature": [
+      "Exam Solutions",
+      "Exams",
+      "Instructor Insights",
+      "Lecture Notes",
+      "Lecture Videos",
+      "Open Textbooks"
+    ],
+    "likely_has_video": true
+  },
+  "counts": {
+    "transcripts": 155,
+    "lecture-notes": 37,
+    "problem-sets": 1,
+    "exams": 18,
+    "other": 1
+  },
+  "transcripts_available": true,
+  "downloaded": [
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Word_Recognition_and_Alexia_transcript.pdf",
+      "title": "Word Recognition and Alexia",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/fec972a3bb2cf3e017866b23ad07a108_MYMYXhR2Ppw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/What_Makes_Something_an_Experiment_transcript.pdf",
+      "title": "What Makes Something an Experiment?",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/876ff5f76f8717b6e04e4a53c5e32ee9_syXplPKQb_o.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/What_is_Social_Psychology_transcript.pdf",
+      "title": "What is Social Psychology?",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/c3856013f6214519082ef8400ff4f815_lanmHS0JwYI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/What_is_Intelligence_transcript.pdf",
+      "title": "What is Intelligence?",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9b741e7625f86d5f8425d2c6a37e5ad5_bihrpOS0qtY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/What_is_a_Mental_Disorder_transcript.pdf",
+      "title": "What is a Mental Disorder?",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9b91019da663bfd0c8a1f9d1c4ddc4e2_SXzdOK_J-xE.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/What_Information_From_the_Neglected_Field_can_be_Processed_transcript.pdf",
+      "title": "What Information From the Neglected Field can be Processed?",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/6c02420839bb899b73d0de1f97d4daa3_QvK6YdFKMY8.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/What_Do_We_Mean_by_Attention_transcript.pdf",
+      "title": "What Do We Mean by \"Attention\"?",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/ac28d283ebc6b098f4061525a313cba5_lBU64nfe8nM.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/What_and_Where_Systems_transcript.pdf",
+      "title": "What and Where Systems",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/28cbc2ab9726fd19ce4adbc2a07b4bef_v4ur5mna060.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Visual_Search_and_Attentional_Blink_transcript.pdf",
+      "title": "Visual Search and Attentional Blink",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/c8ecc676fe7be39c72926c3e66cb509a_lBU64nfe8nM.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Vision_as_Interpretation_transcript.pdf",
+      "title": "Vision as Interpretation",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/dd4cb05ef3876bb8bb0fdf4078ab5e76_v4ur5mna060.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Universality_of_Emotions_transcript.pdf",
+      "title": "Universality of Emotions",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/c9da53ed284730a0ab9245bc8b724b11_t73rjeOj0eY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Types_of_Memory_and_Q_A_about_Patient_H.M._transcript.pdf",
+      "title": "Types of Memory and Q&A about Patient H.M.",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/dfb143a274278f5c7b89383b58a67cea_kD3CswjYb2E.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Treatment_of_Schizophrenia_transcript.pdf",
+      "title": "Treatment of Schizophrenia",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/554018fd0c034e6b876fa7bc1b06bf9a_SXzdOK_J-xE.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Treatment_Approaches_Behavioral_and_Medical_transcript.pdf",
+      "title": "Treatment Approaches: Behavioral and Medical",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/84e8f8472672a586c950f7b96f5d6886_SFPPw6sDHEI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Thinking_Traps_Functional_Fixedness_Problem_Solving_and_Creativity_transcript.pdf",
+      "title": "Thinking Traps: Functional Fixedness, Problem Solving, and Creativity",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/ffa96f84059643c3b7f7a906ef213d64_gRe7dy2HSTg.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Theory_of_Mind_transcript.pdf",
+      "title": "Theory of Mind",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/59a0422534f5db74a49c649863fd86b1_yBYebcVw8Zk.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/The_Power_and_Peril_of_Automaticity_transcript.pdf",
+      "title": "The Power and Peril of Automaticity",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/d312791ff78942af5585d24d947ef307_2fbrl6WoIyo.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/The_Mind_is_What_the_Brain_Does_transcript.pdf",
+      "title": "The Mind is What the Brain Does",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/201f427bc1f915da341931faf858c77a_SjjGiqf96rI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/The_Mechanics_of_Vision_Visual_Cortex_transcript.pdf",
+      "title": "The Mechanics of Vision: Visual Cortex",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/f263deae4de92345396da3e21e354a05_v4ur5mna060.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/The_Mechanics_of_Vision_Pre-Visual_Cortex_transcript.pdf",
+      "title": "The Mechanics of Vision: Pre-Visual Cortex",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/cae361be97f384123a1533f266e9124d_v4ur5mna060.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/The_Importance_of_Memory_transcript.pdf",
+      "title": "The Importance of Memory",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/97c125c3c33ececdcbff2e444b16076f_kD3CswjYb2E.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/The_Development_of_Facial_Recognition_transcript.pdf",
+      "title": "The Development of Facial Recognition",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/1a67387a4ffc1c3d6b373ca2df5d9c9d_MYMYXhR2Ppw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/The_Creation_of_False_Memories_transcript.pdf",
+      "title": "The Creation of (False) Memories",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9923fcb29e058a2392f374cc11c51810_Qw4SkvZ03cc.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Subliminal_Perception_transcript.pdf",
+      "title": "Subliminal Perception",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/40db50239d32deaa0e117a92f55a6d3a_lBU64nfe8nM.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Studying_Emotion_History_and_Overview_transcript.pdf",
+      "title": "Studying Emotion: History and Overview",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/7dce595681223158fa1766d3beb32fe5_t73rjeOj0eY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Stereotypes_and_Stress_transcript.pdf",
+      "title": "Stereotypes and Stress",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/3a2573edea644a29134293f63c7b24e7_z9XQpjNgeBI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Stages_of_Development_transcript.pdf",
+      "title": "Stages of Development",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/18e26305c4f6e2e0ff94f933cdea8960_Qw4SkvZ03cc.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Social_Influence_Conformity_Compliance_and_Obedience_transcript.pdf",
+      "title": "Social Influence: Conformity, Compliance, and Obedience",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/294fdc8dd08e37cddd93fe055e8165dc_lanmHS0JwYI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Short_Term_Memory_transcript.pdf",
+      "title": "Short Term Memory",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/910719daa0f533bfd9bf47fc72aa0688_76O3rulk844.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Self-serving_Attributional_Bias_transcript.pdf",
+      "title": "Self-serving Attributional Bias",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/27295679985412e8ce5d5faf68560712_zPPsdsAQBx4.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Sample_Studies_Social_Cognition_Empathy_Vegetative_States_transcript.pdf",
+      "title": "Sample Studies: Social Cognition (Empathy) & Vegetative States",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9e2ca115a1e56c4547cd38a8547a5c93_-cK1og4ElKE.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Risk_Assessment_and_Loss_Aversion_transcript.pdf",
+      "title": "Risk Assessment and Loss Aversion",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/fa6184c93b1d2f95971ff346e794f15f_Qw4SkvZ03cc.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Reward_Value_and_Delayed_Gratification_transcript.pdf",
+      "title": "Reward Value and Delayed Gratification",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/2cdd03d3c6566b3d7faeb2ce7f75d2e3_SBrCPDC21f4.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Retrograde_Amnesia_transcript.pdf",
+      "title": "Retrograde Amnesia",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/3e135ba9cd26f828581f3b5d74ce8097_kD3CswjYb2E.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Reinforcement_and_Learned_Helplessness_transcript.pdf",
+      "title": "Reinforcement and Learned Helplessness",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/f16bcf27fcd0ca9eb39c47528b3f270b_SBrCPDC21f4.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Recording_Studies_of_Structure_CT_MR_DTI_transcript.pdf",
+      "title": "Recording Studies of Structure: CT, MR, DTI",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/a60c00cdac240d577db4bbca540cd32b_-cK1og4ElKE.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Recording_Studies_of_Function_Electrical_EEG_MEG_Metabolic_PET_fMRI_transcript.pdf",
+      "title": "Recording Studies of Function: Electrical (EEG, MEG) & Metabolic (PET, fMRI)",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/a5f8c9e6dbe3293ffdf59dc9bbee6326_-cK1og4ElKE.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Recognizing_Fear_transcript.pdf",
+      "title": "Recognizing Fear",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/d54858eadcb3aef1034c466d6a4e7ed2_MYMYXhR2Ppw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Recognizing_Faces_and_Prosopagnosia_transcript.pdf",
+      "title": "Recognizing Faces and Prosopagnosia",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/ea530284b63cc02f6a1cac9ac8d0e61c_MYMYXhR2Ppw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Racism_Acheivement_Gaps_and_the_Stereotype_Threat_transcript.pdf",
+      "title": "Racism, Acheivement Gaps, and the Stereotype Threat",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/b045b84ac3fa2da36c81d9523514a922_bihrpOS0qtY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Race_and_Facial_Recognition_transcript.pdf",
+      "title": "Race and Facial Recognition",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/fb301a7bdeeecf1f85c2fb3855780fb6_MYMYXhR2Ppw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Psychology_Experiments_and_the_Real_World_transcript.pdf",
+      "title": "Psychology Experiments and the Real World",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/1e456ef5039fe225fdac70079e30c02b_syXplPKQb_o.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Psychology_and_Science_transcript.pdf",
+      "title": "Psychology and Science",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/e1a52f2a7c1ab5e713bed24b5e2aa097_syXplPKQb_o.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Psychological_Modifiers_of_the_Stress_Response_transcript.pdf",
+      "title": "Psychological Modifiers of the Stress Response",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/71e4aa462b97e700352cb6956e6d7f99_z9XQpjNgeBI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Problems_With_Object_Recognition_transcript.pdf",
+      "title": "Problems With Object Recognition",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9b6c63266db694e643639b481af17300_MYMYXhR2Ppw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Problems_with_Language_Aphasia_and_the_Neural_Basis_of_Speech_transcript.pdf",
+      "title": "Problems with Language: Aphasia and the Neural Basis of Speech",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/1e308754d29c11cc98d6b66ca043233f_gRe7dy2HSTg.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Proactive_and_Retroactive_Interference_transcript.pdf",
+      "title": "Proactive and Retroactive Interference",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/f8db1b1f78f1f429f1370982a0dc4077_76O3rulk844.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Predisposition_to_Facial_Recognition_transcript.pdf",
+      "title": "Predisposition to Facial Recognition",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/48069a503714b3cd38127242d92bf44d_MYMYXhR2Ppw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Predicting_Happiness_Affective_Forecasting_the_Paradox_of_Choice_transcript.pdf",
+      "title": "Predicting Happiness: Affective Forecasting, the Paradox of Choice",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/d144d52378ee1a81a8d4855911867ebb_vf1U3Nt3HQk.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Piaget_and_the_Sensorimotor_Stage_transcript.pdf",
+      "title": "Piaget and the Sensorimotor Stage",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/3a5a290d2838d4ed879f0cc03d489118_yBYebcVw8Zk.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Piaget_and_the_Preoperational_Stage_transcript.pdf",
+      "title": "Piaget and the Preoperational Stage",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/effd35d0179db30628809b9cc96c3950_yBYebcVw8Zk.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Physical_Stress_Mechanism_and_Its_Effects_transcript.pdf",
+      "title": "Physical Stress Mechanism and Its Effects",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/f09fac4614d86ea2c0136c1a7b341ed0_z9XQpjNgeBI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Pfc._England_transcript.pdf",
+      "title": "Pfc. England",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/6a733503532b1d9aaba282c96b08160f_lanmHS0JwYI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Personality_and_How_It_s_Tested_transcript.pdf",
+      "title": "Personality and How It's Tested",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/546c94fd1a93912e5b42f8847482942b_Vko17una2Zw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Peripheral_Bodily_Events_Influencing_Emotion_transcript.pdf",
+      "title": "Peripheral Bodily Events Influencing Emotion",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/f8bfd2b5005fb285fc77f7414da91c09_t73rjeOj0eY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Perception_in_Blindsight_Patients_transcript.pdf",
+      "title": "Perception in Blindsight Patients",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/78157b95ceb2847f083406fa7eb2f08a_QvK6YdFKMY8.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Pavlov_and_Learning_Through_Conditioning_transcript.pdf",
+      "title": "Pavlov and Learning Through Conditioning",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/5fe9a5f482c7790266bafd18126c47fa_SBrCPDC21f4.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Origins_of_Personality_transcript.pdf",
+      "title": "Origins of Personality",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/d206be74ffd400c8d1980348d7e9f200_Vko17una2Zw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Operant_Conditioning_Thorndike_s_cat_and_Little_Albert_transcript.pdf",
+      "title": "Operant Conditioning, Thorndike's cat, and Little Albert",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/2209b3d5f2cfb0aec681817e762f787f_SBrCPDC21f4.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Obsessive_Compulsive_Disorder_OCD_transcript.pdf",
+      "title": "Obsessive Compulsive Disorder (OCD)",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/55147f22bd86ae5f3f0b6d950459987c_SFPPw6sDHEI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Object_Tracking_and_Improving_Attention_transcript.pdf",
+      "title": "Object Tracking and Improving Attention",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/0ef16e319ca232a2e1fd9a7d43698417_lBU64nfe8nM.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Neurogenesis_transcript.pdf",
+      "title": "Neurogenesis",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/5fc0d7ee8b21d444b5b2ec8c0dad6ec6_Qw4SkvZ03cc.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Neural_Memory_Systems_and_the_Effect_of_Huntington_s_and_Alzheimer_s_Diseases_on_transcript.pdf",
+      "title": "Neural Memory Systems and the Effect of Huntington's and Alzheimer's Diseases on Memory",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/5f1d1d0466e0b2c5796fa200d7e52a34_kD3CswjYb2E.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Modern_and_Historical_Viewpoints_on_Psychopathology_transcript.pdf",
+      "title": "Modern and Historical Viewpoints on Psychopathology",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/99f978efca92da427152635d2e3c6e4f_SXzdOK_J-xE.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Models_of_Intelligence_and_Underlying_Neural_Mechanisms_transcript.pdf",
+      "title": "Models of Intelligence and Underlying Neural Mechanisms",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/cbb644e0d3c028f0dcf426cd0e39da9e_bihrpOS0qtY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Milgram_Obedience_Study_and_Stanford_Prison_Experiment_transcript.pdf",
+      "title": "Milgram Obedience Study and Stanford Prison Experiment",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/e30348e1db9878c78368ab4f78b3e946_lanmHS0JwYI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Methods_of_Studying_the_Human_Brain_transcript.pdf",
+      "title": "Methods of Studying the Human Brain",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/0060f26d2c122a79ac865e275eff6114_-cK1og4ElKE.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Measures_of_Personality_transcript.pdf",
+      "title": "Measures of Personality",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/d32f7c551a15b7a981611dfedc202725_Vko17una2Zw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Long_Term_or_Secondary_Memory_transcript.pdf",
+      "title": "Long Term or Secondary Memory",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/32742a76ab09aedcab3d38d4971c6fbc_76O3rulk844.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Localization_of_Mental_Functions_transcript.pdf",
+      "title": "Localization of Mental Functions",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/0c35c07df8768b35cee6eab51e500b48_SjjGiqf96rI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Little_Things_Can_Influence_Behavior_transcript.pdf",
+      "title": "Little Things Can Influence Behavior",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/8adcb460075a10f9a3da4ba9bd5c65a6_syXplPKQb_o.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Limits_of_Conditioning_transcript.pdf",
+      "title": "Limits of Conditioning",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/adad39f9a5fcd1ff56b03d1ea7b75c8a_SBrCPDC21f4.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lesion_Injury_and_Stimulation_Studies_transcript.pdf",
+      "title": "Lesion (Injury) and Stimulation Studies",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/2a25879be20516a0f9cf43ad04ee37e7_-cK1og4ElKE.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_9_Learning_transcript.pdf",
+      "title": "Lecture 9: Learning",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/c371461c96c250ca1fd430cdc372bcdc_SBrCPDC21f4.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_8_Consciousness_transcript.pdf",
+      "title": "Lecture 8: Consciousness",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/fede89c054ed87dee0b82a04c02e1ddb_QvK6YdFKMY8.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_7_Attention_transcript.pdf",
+      "title": "Lecture 7: Attention",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/64cf72efe0380d796ff515109c0d91cd_lBU64nfe8nM.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_6_Vision_II_transcript.pdf",
+      "title": "Lecture 6: Vision II",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/bf1438f5da28d404bf4f76053d8a8077_MYMYXhR2Ppw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_5_Vision_I_transcript.pdf",
+      "title": "Lecture 5: Vision I",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/2937eaee7e26017680b6a0c5072ccdec_v4ur5mna060.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_4_Brain_II_transcript.pdf",
+      "title": "Lecture 4: Brain II",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/beec183e0ca4511f58d575774a851409_-cK1og4ElKE.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_3_Brain_I_transcript.pdf",
+      "title": "Lecture 3: Brain I",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/7a217e9dfb959e2768cfaf0223435a1d_SjjGiqf96rI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_24_Conclusions_transcript.pdf",
+      "title": "Lecture 24: Conclusions",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/a10ee6a45d616a170731d28df28b3a3b_vf1U3Nt3HQk.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_23_Social_Psychology_II_transcript.pdf",
+      "title": "Lecture 23: Social Psychology II",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/d92d74e7409e7873fa18f1614609a7c9_zPPsdsAQBx4.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_22_Social_Psychology_I_transcript.pdf",
+      "title": "Lecture 22: Social Psychology I",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/1a10d9f9efc73b29fb72a7e2f2b11176_lanmHS0JwYI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_21_Psychopathology_II_transcript.pdf",
+      "title": "Lecture 21: Psychopathology II",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/1d1c0ae0a6a7480b14b198d0ae324d7f_SFPPw6sDHEI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_20_Psychopathology_I_transcript.pdf",
+      "title": "Lecture 20: Psychopathology I",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/0dab143a3b7f0777578ae9e3d60415af_SXzdOK_J-xE.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_2_Science_and_Research_transcript.pdf",
+      "title": "Lecture 2: Science and Research",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/0872f3383340a480b2233d19009a4823_syXplPKQb_o.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_19_Stress_transcript.pdf",
+      "title": "Lecture 19: Stress",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/290b8b907a0947f92ecddd5177f532b4_z9XQpjNgeBI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_18_Adult_Development_transcript.pdf",
+      "title": "Lecture 18: Adult Development",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/394c1da6cbebef1773574fb398489252_Qw4SkvZ03cc.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_17_Child_Development_transcript.pdf",
+      "title": "Lecture 17: Child Development",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/bec7fd1acdd036641c92f7cee7cd1e72_yBYebcVw8Zk.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_16_Personality_transcript.pdf",
+      "title": "Lecture 16: Personality",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/f57c80e8ef5b910545698858c5f34e16_Vko17una2Zw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_15_Emotion_Motivation_transcript.pdf",
+      "title": "Lecture 15: Emotion & Motivation",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/f1bf7d8b2074fac0accf21afdd21324d_t73rjeOj0eY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_14_Intelligence_transcript.pdf",
+      "title": "Lecture 14: Intelligence",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9739f133f90720db83a683ffcd2b831b_bihrpOS0qtY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_13_Thinking_transcript.pdf",
+      "title": "Lecture 13: Thinking",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/52d6fc76581fd39f16950c9bbb96adf8_qZdm4mpQA_8.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_12_Language_transcript.pdf",
+      "title": "Lecture 12: Language",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/4ae31e09b4e0de6b7d6a446669784245_gRe7dy2HSTg.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_11_Memory_II_Amnesia_and_Memory_Systems_transcript.pdf",
+      "title": "Lecture 11: Memory II: Amnesia and Memory Systems",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/b108109e846174cc224c0d7ae85b5652_kD3CswjYb2E.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_10_Memory_I_transcript.pdf",
+      "title": "Lecture 10: Memory I",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/a03f3a97a836d6f99f8a02d85ad2a9cb_76O3rulk844.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Lecture_1_Introduction_transcript.pdf",
+      "title": "Lecture 1: Introduction",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/ac10dd296d93afcc1e95591899ee46b9_2fbrl6WoIyo.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Language_Basics_Sounds_We_Hear_and_Distinguish_transcript.pdf",
+      "title": "Language Basics: Sounds We Hear and Distinguish",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/e2dbc1fdf26e50032e7e91b0670babe2_gRe7dy2HSTg.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Language_Acquisition_Infants_Bilingualism_and_the_Case_of_Genie_transcript.pdf",
+      "title": "Language Acquisition: Infants, Bilingualism, and the Case of Genie",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/eaaa5023f11f5e0fc1f1757c16c9510d_gRe7dy2HSTg.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Judgement_and_Decision_Making_Heuristics_transcript.pdf",
+      "title": "Judgement and Decision Making: Heuristics",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/dc39257023461bc50e10297acefae6b2_qZdm4mpQA_8.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Is_Language_Learning_a_Conditioned_Skill_transcript.pdf",
+      "title": "Is Language Learning a Conditioned Skill?",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/34d8e32c340f12c4a2af4e34d065fe1d_SBrCPDC21f4.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/IQ_Tests_Validity_and_Value_transcript.pdf",
+      "title": "IQ Tests: Validity and Value",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/99673644d686ac0c008392b98efc81e0_bihrpOS0qtY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Introduction_to_Vision_and_the_Brain_transcript.pdf",
+      "title": "Introduction to Vision and the Brain",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9dd6d52abb8fea5427485a42378f96f8_v4ur5mna060.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Introduction_to_Recognition_transcript.pdf",
+      "title": "Introduction to Recognition",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/8799113d04044413915f8e6806e911f7_MYMYXhR2Ppw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Introduction_and_Neotony_transcript.pdf",
+      "title": "Introduction and Neotony",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/f78459b1f7bbbb5a61d677ff6f04bb6c_yBYebcVw8Zk.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Interventions_Effort_and_Practice_Does_Head_Start_Help_transcript.pdf",
+      "title": "Interventions, Effort and Practice: Does Head Start Help?",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/be976e12a1742d4e874fe0d28ac64372_bihrpOS0qtY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Influencing_Decisions_Anchoring_Adjustment_and_Framing_transcript.pdf",
+      "title": "Influencing Decisions: Anchoring, Adjustment, and Framing",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/deb566d0dab23771479646dbc027d4d4_qZdm4mpQA_8.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Hypnosis_and_the_Stroop_Effect_transcript.pdf",
+      "title": "Hypnosis and the Stroop Effect",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/f3d305dba53b42df3dbdfdb0a66b4328_lBU64nfe8nM.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/How_We_Feel_vs._How_We_Act_transcript.pdf",
+      "title": "How We Feel vs. How We Act",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/4977ff6d03e9986ab2c3e53a57ed9a4f_2fbrl6WoIyo.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/How_Our_Minds_Make_Our_Worlds_Vision_Memory_Attention_transcript.pdf",
+      "title": "How Our Minds Make Our Worlds: Vision, Memory, Attention",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/21f7ddebe30671c5a2fda15bb3be8ea9_2fbrl6WoIyo.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/How_Our_Minds_Make_our_Worlds_Hearing_Learning_Memory_transcript.pdf",
+      "title": "How Our Minds Make our Worlds: Hearing, Learning, Memory",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/4f77bc515d62282d80e3fc838e4854da_2fbrl6WoIyo.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/How_Development_is_Studied_transcript.pdf",
+      "title": "How Development is Studied",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/a4f9a84858d566b37b14f50831725fcd_Qw4SkvZ03cc.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/How_Babies_Learn_transcript.pdf",
+      "title": "How Babies Learn",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/f8042aa9d3132573be8d8db497a016cb_yBYebcVw8Zk.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/How_are_Mental_Disorders_Diagnosed_transcript.pdf",
+      "title": "How are Mental Disorders Diagnosed?",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/212d61f62b0946bf6cc9c02b4bfb2053_SXzdOK_J-xE.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Hemispheric_Specialization_transcript.pdf",
+      "title": "Hemispheric Specialization",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/1a1f595003e98b3692cd9c26e6311e00_SjjGiqf96rI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Happiness_Can_It_Be_Measured_and_Studied_transcript.pdf",
+      "title": "Happiness: Can It Be Measured and Studied?",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/a3f626b8c056ab3cb141af4a0010c2b0_vf1U3Nt3HQk.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Good_Memories_of_Bad_Events_in_Infancy_transcript.pdf",
+      "title": "\"Good Memories of Bad Events in Infancy\"",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/5d1da210b007851b2f279a2257df4764_Qw4SkvZ03cc.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Goals_of_the_Course_transcript.pdf",
+      "title": "Goals of the Course",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/cce4e75c4b54c8cbb7fb01f8e122dbf1_2fbrl6WoIyo.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Fundamental_Attribution_Error_and_Cognitive_Busyness_transcript.pdf",
+      "title": "Fundamental Attribution Error and Cognitive Busyness",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/6ed38f5a1a6206857e08b3405a45ffb5_lanmHS0JwYI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Frontal_Lobes_and_Thinking_transcript.pdf",
+      "title": "Frontal Lobes and Thinking",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/60be0ed7ecd76bc7981de50aac6e357e_qZdm4mpQA_8.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/From_Sound_to_Meaning_Syntax_Semantics_and_Comprehension_transcript.pdf",
+      "title": "From Sound to Meaning: Syntax, Semantics, and Comprehension",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/b201802914fbb6bd5f247e0c7dbe0596_gRe7dy2HSTg.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Folk_Psychology_and_Scientific_Psychology_transcript.pdf",
+      "title": "Folk Psychology and Scientific Psychology",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/e3591ff9d43d0ad426a7fcb68fda6df0_syXplPKQb_o.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Flashbulb_and_Repressed_Memories_transcript.pdf",
+      "title": "Flashbulb and Repressed Memories",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/de8356b4c798e3e9ca444f0e07b3a997_76O3rulk844.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/First_Impressions_How_Powerful_How_Accurate_transcript.pdf",
+      "title": "First Impressions: How Powerful, How Accurate?",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/6c51a146a435de55d45b346e5541a4b6_zPPsdsAQBx4.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/False_Consensus_and_the_Influence_of_Social_Norms_on_Behavior_transcript.pdf",
+      "title": "False Consensus and the Influence of Social Norms on Behavior",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/6c0f93862e6493009b69b12792d50a63_zPPsdsAQBx4.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Evolutionary_Psychology_Views_on_Sexuality_and_Race_transcript.pdf",
+      "title": "Evolutionary Psychology: Views on Sexuality and Race",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9657df97da6fe4cd73d7daaf5738df46_vf1U3Nt3HQk.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Embodied_Cognition_transcript.pdf",
+      "title": "Embodied Cognition",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/a97e13d8a324d8084cc5c4b624876c12_z9XQpjNgeBI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Dopamine_and_Reward_Systems_transcript.pdf",
+      "title": "Dopamine and Reward Systems",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9c6eb020e2c1639b34b2752f6d6180e0_Qw4SkvZ03cc.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Description_of_Schizophrenia_and_Genetic_Factors_transcript.pdf",
+      "title": "Description of Schizophrenia and Genetic Factors",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/e7281d8cdd823cc1fa15c2ca9fa66977_SXzdOK_J-xE.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Depression_Treatments_and_Studies_transcript.pdf",
+      "title": "Depression: Treatments and Studies",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/5d5ef70b8014a08d3db3a2b4f0942b7d_SFPPw6sDHEI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Depression_Diagnosis_and_Neural_Basis_transcript.pdf",
+      "title": "Depression: Diagnosis and Neural Basis",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/13fa544978ca7c20ad95cc638b84d608_SFPPw6sDHEI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Demonstrations_of_the_Limits_of_Attention_transcript.pdf",
+      "title": "Demonstrations of the Limits of Attention",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/dc31e1e84f308ebe3826b259fee57119_lBU64nfe8nM.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Cultural_Psychology_transcript.pdf",
+      "title": "Cultural Psychology",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/46c8c064437c4a3b6df77e6f034c35b1_zPPsdsAQBx4.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Contributions_from_Nature_and_Nurture_transcript.pdf",
+      "title": "Contributions from Nature and Nurture",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/7619c47ec342013cc59810f343837670_bihrpOS0qtY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Concepts_of_Stress_transcript.pdf",
+      "title": "Concepts of Stress",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/20fe63d39f98a71c6c35008af82913c9_syXplPKQb_o.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Cognitive_Loss_transcript.pdf",
+      "title": "Cognitive Loss",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/594aa28bc33d655349794481b7907164_Qw4SkvZ03cc.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Cognitive_Dissonance_transcript.pdf",
+      "title": "Cognitive Dissonance",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/1862485f6d6e69bf0f8074fa8a48b4c8_zPPsdsAQBx4.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Causes_and_Extent_of_Neglect_transcript.pdf",
+      "title": "Causes and Extent of Neglect",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/7d9905d9d71e3c4489b8b012de3160f2_QvK6YdFKMY8.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Causes_and_Description_of_Blindsight_transcript.pdf",
+      "title": "Causes and Description of Blindsight",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/0b581ec868eac5a3208766ad1c5f61cf_QvK6YdFKMY8.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Bystanders_and_Helping_The_Bystander_Effect_transcript.pdf",
+      "title": "Bystanders and Helping: The Bystander Effect",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/f0ad65d9ef65721c38dd29018a604689_lanmHS0JwYI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Brightness_Constancy_and_Other_Illusions_transcript.pdf",
+      "title": "Brightness Constancy and Other Illusions",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/dfc1d38c48babf6ac7fc06e4f29f6bab_v4ur5mna060.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Brain_Overview_Historical_Viewpoints_Neurons_Gross_Anatomy_transcript.pdf",
+      "title": "Brain Overview: Historical Viewpoints, Neurons, Gross Anatomy",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/962170d6a98b2b06feb87c5c816cdd4a_SjjGiqf96rI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Brain_Lesions_and_the_Visual_System_transcript.pdf",
+      "title": "Brain Lesions and the Visual System",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/118d59abd4b715c4bd5b390eeacf1cde_v4ur5mna060.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Brain_Imaging_Gender_Differences_and_Emotion_transcript.pdf",
+      "title": "Brain Imaging, Gender Differences, and Emotion",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/18e261e57da1a252bbc5fc5d57e4a801_t73rjeOj0eY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Brain_Development_Cell_Migration_Synaptic_Formation_and_Myelination_transcript.pdf",
+      "title": "Brain Development: Cell Migration, Synaptic Formation, and Myelination",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/16c9f1ef8ea515cb2751dee4efea12b7_Qw4SkvZ03cc.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Brain_Correlates_of_Personality_transcript.pdf",
+      "title": "Brain Correlates of Personality",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/e7d81048b1d8ab9c0bad990e8e1f7d1b_Vko17una2Zw.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Brain_Basis_of_Emotions_transcript.pdf",
+      "title": "Brain Basis of Emotions",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9b8c939c1c669c1ef23dc5b3b800a5d4_t73rjeOj0eY.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Babies_and_Mathematicians_transcript.pdf",
+      "title": "Babies and Mathematicians",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/b1b087ea500c23a7aa4b65e9be5487ca_yBYebcVw8Zk.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Attitudes_Emotions_and_Aging_transcript.pdf",
+      "title": "Attitudes, Emotions, and Aging",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/a33966caa3c02c8e57f19c4a1d20949d_Qw4SkvZ03cc.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Attention_and_Neglect_Measures_of_Neglect_transcript.pdf",
+      "title": "Attention and Neglect; Measures of Neglect",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/ca769b0a9f34909d861ecc35465f3f9a_QvK6YdFKMY8.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Attention_and_Extinction_to_Certain_Stimulation_transcript.pdf",
+      "title": "Attention and Extinction to Certain Stimulation",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9e47aef9b886932fadaa13a0487d8b4c_QvK6YdFKMY8.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/Anterograde_Amnesia_Patient_H.M._and_the_Role_of_the_Hippocampus_in_Memory_Forma_transcript.pdf",
+      "title": "Anterograde Amnesia: Patient H.M. and the Role of the Hippocampus in Memory Formation",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/60e0771f85fd23f8d7938c631e39fa00_kD3CswjYb2E.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/ADHD_Treatments_and_Studies_transcript.pdf",
+      "title": "ADHD: Treatments and Studies",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/7e7171954aef3fd6ada3e20ed5427e17_SFPPw6sDHEI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/ADHD_Diagnosis_transcript.pdf",
+      "title": "ADHD: Diagnosis",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9c6b7cba180bc5d5187e9ca4e16052e5_SFPPw6sDHEI.pdf"
+    },
+    {
+      "folder": "transcripts",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/transcripts/A_Mnemonist_s_Memory_transcript.pdf",
+      "title": "A Mnemonist's Memory",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/2fa4bf2a97af1a237897b2ebfaa998a4_76O3rulk844.pdf"
+    },
+    {
+      "folder": "other",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/other/mit9_00scf11_text.pdf",
+      "title": "Introduction to Psychology textbook",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/mit9_00scf11_text.pdf"
+    },
+    {
+      "folder": "problem-sets",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/problem-sets/1dba97541074d58c452f1cb091342198_MIT9_00SCF11_wax_bioethics.pdf",
+      "title": "MIT9_00SCF11_wax_bioethics.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/1dba97541074d58c452f1cb091342198_MIT9_00SCF11_wax_bioethics.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/3d126a0f54a6443c15ac0677f614aeee_MIT9_00SCF11_read_kr9.pdf",
+      "title": "MIT9_00SCF11_read_kr9.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/3d126a0f54a6443c15ac0677f614aeee_MIT9_00SCF11_read_kr9.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/9f9c834321e7c5b6777f17db602245c8_MIT9_00SCF11_read_kr8.pdf",
+      "title": "MIT9_00SCF11_read_kr8.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9f9c834321e7c5b6777f17db602245c8_MIT9_00SCF11_read_kr8.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/346b32b91187cd488571d14bfc942eab_MIT9_00SCF11_read_kr7.pdf",
+      "title": "MIT9_00SCF11_read_kr7.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/346b32b91187cd488571d14bfc942eab_MIT9_00SCF11_read_kr7.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/ec89945b5f566b6f45caf926f53b1343_MIT9_00SCF11_read_kr6.pdf",
+      "title": "MIT9_00SCF11_read_kr6.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/ec89945b5f566b6f45caf926f53b1343_MIT9_00SCF11_read_kr6.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/9e70f6086eb280629f7bd8c53e8fde7b_MIT9_00SCF11_read_kr5.pdf",
+      "title": "MIT9_00SCF11_read_kr5.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9e70f6086eb280629f7bd8c53e8fde7b_MIT9_00SCF11_read_kr5.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/33a99595e42e8173c80509553eb52a8c_MIT9_00SCF11_read_kr4.pdf",
+      "title": "MIT9_00SCF11_read_kr4.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/33a99595e42e8173c80509553eb52a8c_MIT9_00SCF11_read_kr4.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/1fad72069961bd957888249ee39494d2_MIT9_00SCF11_read_kr3.pdf",
+      "title": "MIT9_00SCF11_read_kr3.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/1fad72069961bd957888249ee39494d2_MIT9_00SCF11_read_kr3.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/0b4239da8941ad63b9964edbe5563106_MIT9_00SCF11_read_kr2.pdf",
+      "title": "MIT9_00SCF11_read_kr2.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/0b4239da8941ad63b9964edbe5563106_MIT9_00SCF11_read_kr2.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/4f3f0ab1b8f44d77afd2fd56d8e1d1b5_MIT9_00SCF11_read_kr13.pdf",
+      "title": "MIT9_00SCF11_read_kr13.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/4f3f0ab1b8f44d77afd2fd56d8e1d1b5_MIT9_00SCF11_read_kr13.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/20365c6d91a9c142362e31bf28a8d7ea_MIT9_00SCF11_read_kr12.pdf",
+      "title": "MIT9_00SCF11_read_kr12.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/20365c6d91a9c142362e31bf28a8d7ea_MIT9_00SCF11_read_kr12.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/b01546d81705597bcc97637a4e15bcb8_MIT9_00SCF11_read_kr11.pdf",
+      "title": "MIT9_00SCF11_read_kr11.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/b01546d81705597bcc97637a4e15bcb8_MIT9_00SCF11_read_kr11.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/fdc05826e602d4327164eaaf14129f11_MIT9_00SCF11_read_kr10.pdf",
+      "title": "MIT9_00SCF11_read_kr10.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/fdc05826e602d4327164eaaf14129f11_MIT9_00SCF11_read_kr10.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/e37ac097cb76f26710cdc5ab47efa47a_MIT9_00SCF11_read_kr1.pdf",
+      "title": "MIT9_00SCF11_read_kr1.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/e37ac097cb76f26710cdc5ab47efa47a_MIT9_00SCF11_read_kr1.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/710103028427f017f055653147250c96_MIT9_00SCF11_lec24.pdf",
+      "title": "MIT9_00SCF11_lec24.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/710103028427f017f055653147250c96_MIT9_00SCF11_lec24.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/17bb1e442ad698a10e613e571624698d_MIT9_00SCF11_lec23_socpsy2.pdf",
+      "title": "MIT9_00SCF11_lec23_socpsy2.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/17bb1e442ad698a10e613e571624698d_MIT9_00SCF11_lec23_socpsy2.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/e0e0990203149ab3d54d9f041015adee_MIT9_00SCF11_lec22_socpsych1.pdf",
+      "title": "MIT9_00SCF11_lec22_socpsych1.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/e0e0990203149ab3d54d9f041015adee_MIT9_00SCF11_lec22_socpsych1.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/5f13d32d3056dd1ef9e097499e487464_MIT9_00SCF11_lec21_psych2.pdf",
+      "title": "MIT9_00SCF11_lec21_psych2.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/5f13d32d3056dd1ef9e097499e487464_MIT9_00SCF11_lec21_psych2.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/5025a76381ca602da7a7dc63067d64e9_MIT9_00SCF11_lec20_psych1.pdf",
+      "title": "MIT9_00SCF11_lec20_psych1.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/5025a76381ca602da7a7dc63067d64e9_MIT9_00SCF11_lec20_psych1.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/2770e445a4774d40b46be241a6909f14_MIT9_00SCF11_lec19_stress.pdf",
+      "title": "MIT9_00SCF11_lec19_stress.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/2770e445a4774d40b46be241a6909f14_MIT9_00SCF11_lec19_stress.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/bc490b431cb6de0f2a860db277718f38_MIT9_00SCF11_lec18_AdDev.pdf",
+      "title": "MIT9_00SCF11_lec18_AdDev.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/bc490b431cb6de0f2a860db277718f38_MIT9_00SCF11_lec18_AdDev.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/03f8c32cb1c8d2dffd0b51375fc0b389_MIT9_00SCF11_lec17_child.pdf",
+      "title": "MIT9_00SCF11_lec17_child.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/03f8c32cb1c8d2dffd0b51375fc0b389_MIT9_00SCF11_lec17_child.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/4da7db14060942284ec21f32709f01b9_MIT9_00SCF11_lec16_person.pdf",
+      "title": "MIT9_00SCF11_lec16_person.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/4da7db14060942284ec21f32709f01b9_MIT9_00SCF11_lec16_person.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/c28dae58ca9ba42edc6feeceda51feae_MIT9_00SCF11_lec15_Emotion.pdf",
+      "title": "MIT9_00SCF11_lec15_Emotion.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/c28dae58ca9ba42edc6feeceda51feae_MIT9_00SCF11_lec15_Emotion.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/5d08a22319ff91329ff39bc9dfcae172_MIT9_00SCF11_lec14_intel.pdf",
+      "title": "MIT9_00SCF11_lec14_intel.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/5d08a22319ff91329ff39bc9dfcae172_MIT9_00SCF11_lec14_intel.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/7da18b22e745677eae115a50e3a89179_MIT9_00SCF11_lec13_think.pdf",
+      "title": "MIT9_00SCF11_lec13_think.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/7da18b22e745677eae115a50e3a89179_MIT9_00SCF11_lec13_think.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/bad022a1cb7439ffbb6d65ec1ab9a54a_MIT9_00SCF11_lec12_lang.pdf",
+      "title": "MIT9_00SCF11_lec12_lang.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/bad022a1cb7439ffbb6d65ec1ab9a54a_MIT9_00SCF11_lec12_lang.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/49b47a331949f4fc37e9a61f17420ab4_MIT9_00SCF11_lec11_mem2.pdf",
+      "title": "MIT9_00SCF11_lec11_mem2.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/49b47a331949f4fc37e9a61f17420ab4_MIT9_00SCF11_lec11_mem2.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/70cf036a23528edafdc89c66b91ee198_MIT9_00SCF11_lec10_mem1.pdf",
+      "title": "MIT9_00SCF11_lec10_mem1.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/70cf036a23528edafdc89c66b91ee198_MIT9_00SCF11_lec10_mem1.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/a7d978ec1b58fd1b1f52a442d807c40b_MIT9_00SCF11_lec09_learning.pdf",
+      "title": "MIT9_00SCF11_lec09_learning.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/a7d978ec1b58fd1b1f52a442d807c40b_MIT9_00SCF11_lec09_learning.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/2211e2452a9bc47afce5b7a2179e4083_MIT9_00SCF11_lec08_consc.pdf",
+      "title": "MIT9_00SCF11_lec08_consc.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/2211e2452a9bc47afce5b7a2179e4083_MIT9_00SCF11_lec08_consc.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/a4eb1079226055a8b05fb1ce56f5d397_MIT9_00SCF11_lec07_attn.pdf",
+      "title": "MIT9_00SCF11_lec07_attn.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/a4eb1079226055a8b05fb1ce56f5d397_MIT9_00SCF11_lec07_attn.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/2c0be37f63a42fb5feee3bc92c475535_MIT9_00SCF11_lec06_vis2.pdf",
+      "title": "MIT9_00SCF11_lec06_vis2.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/2c0be37f63a42fb5feee3bc92c475535_MIT9_00SCF11_lec06_vis2.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/caa500908dc7fdfe57e61847adf8276e_MIT9_00SCF11_lec05_vis1.pdf",
+      "title": "MIT9_00SCF11_lec05_vis1.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/caa500908dc7fdfe57e61847adf8276e_MIT9_00SCF11_lec05_vis1.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/e6fd1fa0b4e0a5290f3a1aeb3ccb0f43_MIT9_00SCF11_lec04_brain2.pdf",
+      "title": "MIT9_00SCF11_lec04_brain2.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/e6fd1fa0b4e0a5290f3a1aeb3ccb0f43_MIT9_00SCF11_lec04_brain2.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/d152a8ad15228393cc7cba38353a6954_MIT9_00SCF11_lec03_brain1.pdf",
+      "title": "MIT9_00SCF11_lec03_brain1.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/d152a8ad15228393cc7cba38353a6954_MIT9_00SCF11_lec03_brain1.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/5ff7eb6785f0575799a65af146ea17d2_MIT9_00SCF11_lec02_scires.pdf",
+      "title": "MIT9_00SCF11_lec02_scires.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/5ff7eb6785f0575799a65af146ea17d2_MIT9_00SCF11_lec02_scires.pdf"
+    },
+    {
+      "folder": "lecture-notes",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/lecture-notes/568e0d32a2401684b5daca281261f210_MIT9_00SCF11_lec01.pdf",
+      "title": "MIT9_00SCF11_lec01.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/568e0d32a2401684b5daca281261f210_MIT9_00SCF11_lec01.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/4782483bc4ca2c61e20678af9036e5a1_MIT9_00SCF11_exam3_sol.pdf",
+      "title": "MIT9_00SCF11_exam3_sol.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/4782483bc4ca2c61e20678af9036e5a1_MIT9_00SCF11_exam3_sol.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/bba116faff125bb8de246752cc0eed9b_MIT9_00SCF11_exam3_2010sol.pdf",
+      "title": "MIT9_00SCF11_exam3_2010sol.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/bba116faff125bb8de246752cc0eed9b_MIT9_00SCF11_exam3_2010sol.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/19008faa62bf346837addd929771e686_MIT9_00SCF11_exam3_2010.pdf",
+      "title": "MIT9_00SCF11_exam3_2010.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/19008faa62bf346837addd929771e686_MIT9_00SCF11_exam3_2010.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/80dbcf2b5e408b5bc347541585771458_MIT9_00SCF11_exam3_2009sol.pdf",
+      "title": "MIT9_00SCF11_exam3_2009sol.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/80dbcf2b5e408b5bc347541585771458_MIT9_00SCF11_exam3_2009sol.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/266951318ff093fe87bae2722dbc7c3d_MIT9_00SCF11_exam3_2009.pdf",
+      "title": "MIT9_00SCF11_exam3_2009.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/266951318ff093fe87bae2722dbc7c3d_MIT9_00SCF11_exam3_2009.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/bc7dda4dda81d7bc3c7151a1f503a77d_MIT9_00SCF11_exam3.pdf",
+      "title": "MIT9_00SCF11_exam3.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/bc7dda4dda81d7bc3c7151a1f503a77d_MIT9_00SCF11_exam3.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/9b7baf3c431c004169495436cc3da24e_MIT9_00SCF11_exam2_sol.pdf",
+      "title": "MIT9_00SCF11_exam2_sol.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/9b7baf3c431c004169495436cc3da24e_MIT9_00SCF11_exam2_sol.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/36aa7599b7c25993a77b2ce87adc4d01_MIT9_00SCF11_exam2_2010sol.pdf",
+      "title": "MIT9_00SCF11_exam2_2010sol.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/36aa7599b7c25993a77b2ce87adc4d01_MIT9_00SCF11_exam2_2010sol.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/e951c197626c81fa9822e5c9a67418f6_MIT9_00SCF11_exam2_2010.pdf",
+      "title": "MIT9_00SCF11_exam2_2010.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/e951c197626c81fa9822e5c9a67418f6_MIT9_00SCF11_exam2_2010.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/fa63e525f4e385855930031652f20dde_MIT9_00SCF11_exam2_2009sol.pdf",
+      "title": "MIT9_00SCF11_exam2_2009sol.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/fa63e525f4e385855930031652f20dde_MIT9_00SCF11_exam2_2009sol.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/538ae15c425cf79de077517599a71da4_MIT9_00SCF11_exam2_2009.pdf",
+      "title": "MIT9_00SCF11_exam2_2009.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/538ae15c425cf79de077517599a71da4_MIT9_00SCF11_exam2_2009.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/1cb6b9c6044bbc45708bac6ef370971a_MIT9_00SCF11_exam2.pdf",
+      "title": "MIT9_00SCF11_exam2.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/1cb6b9c6044bbc45708bac6ef370971a_MIT9_00SCF11_exam2.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/2aa4e53319de1efd3e82b755b5af6201_MIT9_00SCF11_exam1_sol.pdf",
+      "title": "MIT9_00SCF11_exam1_sol.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/2aa4e53319de1efd3e82b755b5af6201_MIT9_00SCF11_exam1_sol.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/b7ba8f271085307702c110149f6e5b43_MIT9_00SCF11_exam1_2010sol.pdf",
+      "title": "MIT9_00SCF11_exam1_2010sol.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/b7ba8f271085307702c110149f6e5b43_MIT9_00SCF11_exam1_2010sol.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/897d5b84fa3fedcd12ad42616bf21bad_MIT9_00SCF11_exam1_2010.pdf",
+      "title": "MIT9_00SCF11_exam1_2010.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/897d5b84fa3fedcd12ad42616bf21bad_MIT9_00SCF11_exam1_2010.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/8969a5e18cc6fb4aa3817468247ee825_MIT9_00SCF11_exam1_2009sol.pdf",
+      "title": "MIT9_00SCF11_exam1_2009sol.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/8969a5e18cc6fb4aa3817468247ee825_MIT9_00SCF11_exam1_2009sol.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/46607b6e274d72108fa1d7119ebb1864_MIT9_00SCF11_exam1_2009.pdf",
+      "title": "MIT9_00SCF11_exam1_2009.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/46607b6e274d72108fa1d7119ebb1864_MIT9_00SCF11_exam1_2009.pdf"
+    },
+    {
+      "folder": "exams",
+      "file": "courses/9-00sc-introduction-to-psychology-fall-2011/exams/70593d7a3f0a9ebcb6d8a71517e00669_MIT9_00SCF11_exam1.pdf",
+      "title": "MIT9_00SCF11_exam1.pdf",
+      "source": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/70593d7a3f0a9ebcb6d8a71517e00669_MIT9_00SCF11_exam1.pdf"
+    }
+  ],
+  "skipped_video": 159,
+  "errors": []
+}

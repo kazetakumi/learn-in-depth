@@ -1,0 +1,1188 @@
+[Music]
+digital India educated India
+[Music]
+see let us move on to the next chapter
+on bending of beams
+in fact we are going to
+threadbare study how the bending
+stresses are developed
+followed by how the shear stresses are
+developed
+and in fact in your earlier course on
+rigid body mechanics you have been
+exposed to beams more than the shafts
+you have developed Shear force and
+bending on diagrams
+and let us see
+what way we get into the understanding
+of a beam you know very well that when I
+have a load transfers to the axis
+okay
+it acts like a bee
+the main point is if I have this as the
+member
+the loads are perpendicular to that
+and here again we will focus only on
+Slender beings never forget that that's
+a very important idealization that we
+invoke in this
+course
+the important aspect is transfers
+loading to the axis
+and you can also have the rods when you
+have the rods
+you apply it along the axis
+the moment you say beams you come across
+the use of such cross sections very
+often you have the
+I-beam
+because it is very effective
+and utilizes less amount of material
+so these are designed to withstand
+transfers or perpendicular loading so
+you have to recognize
+I can have a beam which is vertical
+fine you don't think that beams are
+always horizontal
+suppose I have an antenna protruding
+from your car
+that is what is that in most of the cars
+these days you know it is subjected to
+wind effects when you go so it's
+actually bending
+so you have to qualify whether the
+member is subjected to
+transfers loading then you call it as a
+beam
+not by its position
+I can have a column which is horizontal
+a beam that is vertical fine
+if the loading is axially Disturbed as a
+bar that's what I have shown it here
+and you know when we were looking at
+axial load we never worried about the
+cross section did we ever worry about
+the cross section I simply said I have a
+low of force which is acting like this
+and let us Define
+Force divided by area as stress
+that came from plotting the graph for
+different cross section of the material
+we found that is a better way to plot so
+that I can have just one graph for a
+given material we never worried about
+the cross section
+on the other hand when we step down to
+torsion we were focusing on essentially
+circular cross section we are not gone
+anything beyond that
+either it is a circular cross section or
+a hollow cross section that's all we
+have done
+and you know you have beams and every
+place you have this
+Bridges
+you have a railroad
+and you can also have
+a spring it is a providing a cushioning
+effect these are called leaf springs
+mainly because these are termed As
+Leaves multiple leaves are put
+they are essentially subjected to
+bending
+and the cross section need not remain
+constant okay it will vary
+and you also have the other important
+example the complete Railroad
+essentially supports a bending load
+and we have also said even before we got
+into analysis of beams we have looked at
+the cross section I have removed lot of
+material from the sides
+that is mainly because by inference we
+have seen that the central core is not
+transmitting the load
+and even when you go and see this is
+kind of seating arrangement is there in
+many places so if you look at the
+supporting structure this acts like a
+beep
+and you know you have also done in your
+rigid body mechanics can't really wear
+simply supported overhang beam all of
+these you are able to do the
+Shear force and bending on diagram
+repeatedly
+fine and we have also looked at why do
+you have a roller support not just to
+simplify your mathematics
+it's also useful
+you cannot avoid temperature changes
+when there is a temperature change one
+way of mitigating the defect is
+if it is possible for you to allow the
+expansion in your design allow that
+don't generate stresses due to Thermal
+effects so that's one simplest way of
+handling thermal effects
+and there are also other class of beams
+if you take a railroad this is
+continuously supported on the entire
+length so it's little more complicated
+to analyze
+and you also come across propped
+cantilever
+and you also have a fixed beam
+see these are not possible for you to
+find out the forces
+by using the equations of stat X so you
+call these class of beams as statically
+indeterminate
+so you classified in that course that
+doesn't mean that you will not attempt
+to find a solution
+you have to bring in deformation I get
+additional equations with that I go and
+evaluate what is shear Force bending
+moment in any one of these beams
+fine
+and just because you have been exposed
+to beans see whatever the solution that
+I am going to develop today
+you cannot simply jump on the conclusion
+that this is applicable to all these
+beams in an exact manner understand the
+word exact manner we may still use the
+same equations
+so you should carefully observe what is
+the kind of idealizations we make when
+we want to find out the stresses in a b
+watch that very carefully
+and you know once you come to beam you
+have to
+learn how to draw the shear force and
+bending on diagram quickly see in your
+earlier course what you have done is you
+have taken a free body diagram
+each section you find out what is the
+Shear Force transmitter and the bending
+one transmitter
+but in a course like this you should be
+able to quickly
+write the shear force and bending one
+diagram and one of the important aspect
+is
+I have I want you to make a sketch
+because this is one of the difficulties
+I found that you are facing when I asked
+in the case of a spring problem when it
+is subjected to tension what is the
+force transmitted I didn't get the
+answer with the speed with which I would
+have expected it from you that's mainly
+because you do not know how to move a
+force from one point to another point
+see in Statics you learn principle of
+transmissibility where you can
+move the force along the
+axis okay along the line of action at
+any point and the external effect is
+not modified internal effect can be
+different that's a different issue
+however if I have to move the force from
+point P1 to P2 you have to do that very
+systematically you should understand how
+to do it and if you master this
+you would have solved the spring problem
+in no time you had difficulty I thought
+it is very relevant even though it is
+part of your previous course
+to continue our discussions further it
+is better that I clarify this and then
+proceed
+and for at the point P two what I do is
+I add two forces
+I want to transfer it to
+this point p p 2
+what way I would visualize is
+if I add a force on either direction I
+have not done anything to the point P2
+fine the net effect is zero
+however when I add a force system like
+this I can visualize this force and this
+Force
+forming and very interesting aspect what
+is it forming
+it is forming a couple
+okay
+and you have the perpendicular distance
+is given as
+d
+and this is shown as the yellow lines
+because we are not going to consider
+these forces anymore
+so if I have to find out what is the
+external effect of a force acting at
+Point P1 to point P2
+has two components
+one tends to rotate
+and you also have the other Force
+is the idea clear
+see this is a very very important step
+you have to master it you know if you
+master it you will not have any
+difficulty but you think that you have
+mastered it
+this is repeatedly used in
+strength of materials as well as in your
+Radisson operation elements though it is
+taught in rigid body mechanics
+it's very very subtle so I when I want
+to move a force from its point of action
+to any other point in the body
+you must find out what is the kind of
+rotating effect this causes at any other
+point
+so if you
+incorporate that and also move the force
+only then it is complete you cannot
+simply say this Force
+simply move it to this point you can't
+do that it also introduces a rotatory
+effect
+and let us see how do we use this for
+drawing the shear force and bending one
+diagrams see when you give me a problem
+like this I will not do cut the section
+and then try to do it when you see it
+you should also develop that ability
+because you have done one full course on
+Rigid body mechanics in the second level
+course you should draw the shear Force
+just below the beam with minimal
+calculations is idea clear
+and this also says that by reversing
+this procedure if I have a couple and a
+force I can find out an equivalent Force
+so it is
+to be understood very clearly and learn
+how to use it in many of the problems
+I have a problem like this I have a
+three point bending
+see once you come to bending
+you have certain colloquial type of
+representation if I have three loads we
+call this a three point bending if I
+have four loads I call it as four point
+many you should also understand what is
+the language that people use
+and I want to draw the shear force and
+bending on diagram
+normally what you would do you would
+find out the reaction the reactions are
+already given here you would cut a
+section
+put the free body diagram and find out
+what is the force acting
+and let me just draw the shear force
+diagram and explain You by taking a
+generic section
+how I can find out the shear force and
+bending moment at that point with
+minimal calculation
+you agree with
+me that the shear force diagram looks
+like this
+fine and we are using the sign
+convention on the positive phase
+positive Shear is positive okay
+and you can also draw the bending bond
+diagram like this and it is labeled
+fine
+now what I am going to do is I am going
+to take a section
+in this portion of the beam
+at a distance a by 3 from the load
+and what you find here I have a value of
+Shear Force I also have a value of
+bending moment
+fine
+which I can quickly calculate see when I
+write the shear force and bending on
+diagram I am actually saying what is the
+force acting on the member
+fine
+that is where the sign Convention of
+candle and doll also
+is very very convenient and you would
+also notice I have drawn the shear force
+from right to left
+there is a purpose behind it
+it's not that I have just taken an
+arbitrary animation scheme
+suppose I want to find out what is the
+shear force acting on this this is
+nothing but moving this Force to this
+point and moving this Force to this
+point is the idea clear
+so when I move this Force to that point
+I will have a force as well as a couple
+so whatever the couple component will
+help you to find out what is the bending
+moment acting at that point whatever the
+force component will give the shear
+force is the idea clear
+so what you learn here moving the force
+from one point another point is what you
+are actually doing it
+and when you draw the shear force and
+bending on diagram I can find out at
+important locations what is the shear
+force and bending on diagram and join
+them if you know what is the nature
+so I can do very simple calculations and
+do that and that is Illustrated in the
+animation here so I am actually moving
+this Force so when I move this Force I
+will have a force as well as a couple
+please understand that
+similarly when I
+move this Force at this point I'll have
+a force and I will also have a couple
+so you can do that mentally
+suppose I have this A B and L are given
+as numbers you can do the mental
+calculations which symbols it may be
+difficult okay with numbers it is much
+easier to do
+and if I find out what is the shear
+Force I have this as minus P plus P into
+a by L
+that is what is the amount from this
+point and this gives you minus P into B
+by l n that is what you have it here
+and when you want to get the
+bending moment
+you sum them up and finally you get this
+as two third of P into a b l because you
+know you can understand this this as a
+triangle
+and we are talking about a by three so
+this is 2 3. okay so I have this two
+third coming into the picture
+so with very simple appreciation of the
+logic you can quickly draw the shear
+force and bending on diagram
+this you have to master it because in
+this chapter and in the subsequent
+chapter where you want to find out the
+deflections you should be very
+comfortable with Shear force and
+bandwagon diagram and you repeatedly use
+this resolution of a force in their
+force and a couple you should understand
+that if you are if you would have
+understood this the spring problem would
+have given it in no time you had
+difficulty in that I noticed the
+difficulty I thought it is relevant that
+we go back to this discussion and then
+proceed with the course
+now I have a
+four point bending it's also called as
+pure bending why I call this as pure
+bending please draw the shear force and
+bending one diagram quickly
+I have given you this
+draw the shear force and bendemon
+diagram in the way that we have
+discussed first thing you would you need
+to know is the reaction reaction is also
+very simple to get
+I have
+the support the reaction will simply be
+w
+can you draw the shear force and bending
+one diagram
+you don't have to take a
+section write the free body and do it
+it's not necessary
+because you have to graduate you need
+the initial learning you have to do all
+that so that you get a grip of
+how to draw the free body diagram the
+second level course
+once the loading diagram is given just
+below that you should be able to draw
+the shear force and below that you draw
+the bending moment I always recommend
+when you have the loading diagram
+below that you should draw the shear
+force diagram
+below that you should draw the bending
+bond diagram so that even if you have
+made any calculation mistake the diagram
+would prompt you to look at see as
+Engineers you should come out with
+correct calculation it is not speed
+alone speed is also important
+correctness is equally very important
+have you been able to get the bending
+Mount and Shear force diagram
+okay
+I have drawn the bending mode first
+because the interest is
+in this section of the beam that is a
+central portion
+the beam is transmitting only bending
+moment is idea clear
+which you can confirm when you draw the
+shear force diagram when I have a Shear
+force diagram I have like this Shear
+force is completely zero in this section
+and in this section it transmits only
+the bending moment
+see we are going to develop our logic to
+find out the stresses
+only for a beam it is experiencing
+constant bending moment
+if it is anything other than constant
+you have to see how the results are
+applicable
+fine that is very very important
+so I have the constant bending moment
+and
+you know this you find in many many
+applications you have a buggy and then
+this has
+forces in two places so the central
+portion is subjected to Pure bending
+similarly a weight lifter is a very nice
+example
+this portion of the beam is subjected to
+Pure bending
+and we are going to develop the
+stresses strain only for a member
+subjected to Pure bending or a slender
+member
+okay
+this follows the same logic you know
+when we have looked at the actually
+loaded member
+we had only axial load
+fine we had only axial load along the
+length of the member no other load was
+acting
+and we moved on to torsion
+we took a circular cross section
+we applied only twisting moment and I
+have discussed at length when I twist
+the member like this every cross section
+transmits only the twisting moment
+constant value of twisting momentum and
+we found that the shear
+stress is varying linearly
+fine
+and when we come to bending also
+I take only a situation where I have a
+constant bending moment there is no
+other Force no Shear Force
+only for that we are going to develop
+the solution
+and in all this what we were actually
+doing
+we were
+conceptualizing what could be the
+deformation we have developed an
+hypothesis investigated the hypothesis
+satisfied ourselves with the experiments
+then we use the displacement or
+deformation to write our strain
+definition
+then stress strain relation is that what
+we have done the same thing we are going
+to also proceed and you know I have put
+the force which is tensile positive here
+I have also taken an anti-clockwise
+twisting moment as positive
+in similar lines you know whenever I
+show the beam I was always bending it
+like this because it's so easy and
+natural for me to bend rather than
+bending it like this
+fine
+because we want to have the equations
+with proper
+sign convention I apply a positive
+bending moment positive bending moment
+means it is anti-clock this is positive
+so that means I should have shown you
+all along only like this fine
+but it is much convenient for me to show
+that it bends so that is the reason why
+we have changed this
+and this is the result that we are going
+to get
+fine
+what do you get from Statics
+what do you get from Center materials
+when you have a beam just now we have
+seen four point bending
+you are bending on diagram gives you
+what is the bending moment at that point
+in the beam so your Statics can give you
+what is the resultant of the four system
+at that particular cross section it's a
+very subtle point I am discussing a
+subtle point please understand that
+how the bending moment is affected
+through a distribution your rigid body
+mechanics cannot give you only when you
+come to deformable solids you will know
+how the distribution is
+suppose I have this as a rectangular
+cross section
+can you tell me what is the net force
+acting on this cross section
+net force
+that is zero you are able to see that
+but if you find out what is the moment
+you will find and we will also equate it
+in the later development
+at this moment will be same as the
+moment applied at that point
+see the idea what you'll have to
+appreciate is
+we are graduating from rigid body
+mechanics to deformable solids
+rigid body mechanics gives me the
+resultant of what is the force acting at
+a partial cross section it doesn't give
+you the distribution
+in the second level course I get the
+distribution
+is the idea clear there is no
+contradiction between the two
+we will verify whether our Solutions are
+satisfying they
+equilibrium conditions
+and we have shown this by an inference I
+have taken a photographic material apply
+the axially loaded this one
+okay and you found that this is
+of uniform color for any increment of
+load
+you have multiple fringes get developed
+and when you finally look at
+the distance between the fringes was
+remaining constant
+suggesting that the variation is linear
+we have also seen the counter example
+when I showed you the thick cylinder
+the distance between the fringes were
+not uniform it was varying and it shows
+a non-linear variation okay so you can
+get rich information from
+photoelasticity in a jiffy what I need
+to do is take the model stretch it and
+put it in a polariscope so even before
+we solve the
+problem of beam under bending we know
+what is the nature of stress that it is
+transmitting
+and you have to appreciate what we are
+doing see I am emphasizing it again and
+again this I have done it while
+developing torsion also we are
+considering a slender beam
+for the purpose of illustration I may
+blow it up
+so always keep in mind
+the cross sectional dimensions are much
+smaller
+than the length
+so slender beam we are taking
+and we also restrict what is the force
+it should transmit
+we want the beam to transmit only a
+constant bending moment please write it
+in bold letters
+if anything other than a constant
+bending moment
+the solution you get is not exact for
+that problem
+so if I take a cross section and then
+find out what is the force balance and
+find out what is acting it will have a
+same bending moment transmitter that is
+what is Illustrated
+like what we have Illustrated in the
+case of a shaft
+and
+another very very important aspect which
+many students ignore is that it is
+applicable for cross section that has a
+vertical plane of symmetry
+or a plane of symmetry okay I can have
+the loading applied in that plane
+usually we have transverse load is shown
+vertical so it should have a vertical
+plane of symmetry that means this cross
+section whatever the solution I get
+whether it is valid for this cross
+section or only for this plane that also
+you have to keep in mind
+while developing the theory we will
+confine our attention only to the
+central plane
+in the case of a shaft
+we looked at a square shaft as well as a
+circular shaft we said our strength of
+material solution is valid we are
+developed only for a circular cross
+section
+here you have little more relaxation
+whatever we discuss as a beam theory is
+applicable for a variety of cross
+sections but they should have a plane of
+symmetry
+you also find L section is used as a
+beam in many applications
+does it have a plane of symmetry
+it is not having a plane of symmetry and
+you will find
+it's very very interesting when I apply
+the bending load it will also twist we
+will see that later
+and if I have to find out how to find
+out the stresses due to pending I have
+to do little more work
+I cannot get it easily
+so I should have a plane of symmetry
+so in a sense it is slightly more
+generic than what you have learned in
+the case of a torsion
+loading is a same plane as a plane of
+symmetry so that's what I said I can
+also have the beam Rotator horizontal
+and apply the load in the horizontal
+plane the loading plane and symmetry
+plane should be identical that is the
+meaning here
+and there is a very subtle point please
+understand that
+it's not emphasized normally but that
+Clarity you should have
+and finally
+our very important idealization material
+is isotropic only for an isotropic
+material we are going to develop so we
+are going to have an hypothesis
+and see what is the deformation once you
+have
+taken care that the deformation is
+correctly understood rest of it is
+straightforward okay
+and once you come to the beam you know
+when I'm going to bend it like this
+you'll also have to bring in your
+knowledge of curvature which you have
+studied in your analytical geometry but
+nevertheless we will
+get into that
+understanding so I take a curve I have
+marked two points P and S
+and curvature is a rate of change of the
+slope angle of a curve with respect to
+the distance along the Curve
+ok so if you put it in pictorial
+representation so this you have this as
+a radius of curvature row
+okay
+and I have the point Q
+so I write the slope this is at angle
+Phi
+I take a neighboring point
+please draw the sketch along with me
+draw the neighboring point
+which is at a very short distance from
+this
+and I have labeled this as r
+so when I draw the
+slope
+I have this angle has taken as Delta Phi
+so this will also be Delta Phi
+and we want to link this curvature to
+the bending of the beam
+fine
+and you also have QR you take the
+distance as Delta s
+this is a small distance these are all
+blown up pictures so you should
+understand that these are all blown up
+pictures
+and what is the definition of curvature
+at Q
+we want to find out what is curvature at
+Q
+it is defined mathematically like this
+in the limit Delta s tends to 0
+the ratio Delta Phi by Delta s
+so when I have Delta Phi by Delta s in
+the limit Delta s tends to 0
+I can call it as D Phi by DS
+and you have Delta s is O Prime Q into
+Delta Phi okay I have o Prime Q into
+Delta Phi so I have this
+so in the limit Delta s tends to 0 1 by
+0 Prime Q
+and in the limit when it goes it's
+equivalent to 1 by o q
+so I have D Phi by d s equal to 1 by rho
+so that is the definition of curvature
+and rho is defined as a radius of
+curvature given the curvature can change
+from point to point
+suppose I have a uniform bending moment
+we have an advantage see we would like
+to have a very simple deformation
+picture
+in order to achieve a very simple
+deformation picture
+we restrict what is the cross section
+what is the material and what is the
+loaning
+you should appreciate why we do all that
+fine
+so I take a
+beam like this which is subject to the
+four point bending
+I am repeating it again and again see
+when we started the lecture I showed
+different beams
+we may use the result obtained from
+analysis of a
+pure bending to those
+that would be turned only as an
+engineering analysis it's not an exact
+analysis
+exact analysis we develop only for a
+beam subjected to Pure bending so it
+goes into
+a curved position when it is
+the bending moments are applied
+okay
+and you can also visualize it in a
+different perspective
+so wherever possible where I can bring
+in the slenderness I am bringing it
+please make a sketch this would also
+help you to appreciate the deflection
+what we are going to develop yeah
+a few classes later I have the reference
+access
+along the beam axis I am going to take
+the direction as X
+and you have z and y direction shown
+like this
+and I would have my radius of curvature
+like this
+I would Define this displacement as V
+that is a deflection
+and you can also write
+from your
+analytical geometry
+I have the distance as DS
+and I have DX DS and d y so I will have
+this as D Phi
+and you know we always live one small
+deformation
+small defamation you should never forget
+for illustration whatever I show in the
+class is very large deformation
+unless you see large deformation you
+cannot conjecture what is the nature of
+deformation
+our idea is to capture all aspects of
+nature of deformation
+so the fee should be within 4.7 degrees
+fine
+and whatever you have this I don't have
+to repeat it you have
+seen it in the earlier one so the same
+is repeated for
+appreciation what is the definition
+so I have this such row and we have
+looked at this row in a four point
+bending
+also bringing in the deflection we will
+again use this picture later for
+developing the deflection
+and you have an hypothesis even before I
+go to an a hypothesis I have a very nice
+animation
+what do you see
+I have parallel lines you see parallel
+lines
+you see parallel lines here how do they
+deform
+do they remain plain
+why do you say that it doesn't remain it
+reminds plain
+the straight line Still Remains straight
+it is getting rotated
+fine see you have an advantage of a soft
+material and you are able to flex it
+like this and you get it in
+no time okay Euler and burn early you
+have this picture of Euler here and burn
+early this hypothesis
+is that Predator to iron and bernali
+first statement they make is plain cross
+section so the beam remain plane during
+the bending
+yeah cross section which is
+perpendicular to the undeformed axis of
+the beam remains perpendicular to the
+deformed beam axis during bending
+see this hypothesis took how many years
+400 years
+fine so when this hypothesis was stated
+the hypothesis was correct
+people didn't understand what this
+hypothesis is all about
+it was quite abstract at that time
+when I illustrate this I have
+blown this up I have a line here and
+this is perpendicular to that I have
+parallel lines these parallel lines have
+got rotated they remain
+plane okay the plane sections remain
+plane before and after loading is very
+well seen
+mind you we are discussing for a beam
+under pure bending never forget that
+okay
+suppose I draw a tangent to this curve
+and also find out what is angle between
+this line and the tangent it would be 90
+degrees
+it would be 90 degrees that is the
+meaning of the statement
+remains perpendicular to the defined
+beam access during bending
+this implies that originally parallel
+lines the beam no longer remain parallel
+and when you extend them they all meet
+at a point you get the idea
+that is what you see here
+we will use this for us to capture the
+deformation
+see in the case of torsion while we
+developed we took a wrong hypothesis we
+set radial lines deform into curve then
+we investigated did the thought
+experiment and said it cannot be like
+this radial lens will remain straight in
+the case of beam we start with the right
+hypothesis
+and people at the time didn't understand
+what it is
+because they didn't have access to soft
+material where they could see the
+deformation very clearly and now I have
+a soft material so I can easily bend it
+and then show and draw the lines and
+then see because this is magnified many
+times
+if I have a deformation like this none
+of my mathematics is correct please
+understand that
+I understand this deformation and then
+Factor it in my theoretical development
+but apply it for very small deformation
+you should understand the difference
+so it is it this hypothesis was very
+abstract in those days people didn't
+understand
+okay
+I have a
+beam like this I the only restriction is
+it can have any cross section I have
+taken a cross section which is having a
+plane of symmetry
+because this solution is applicable for
+cross section that have a plane of
+symmetry and my loading is also on the
+same plane of symmetry
+the deformation will be symmetrical
+about the plane of symmetry
+so I take a parallel lines a b
+c d
+e f i have taken three parallel lines
+we have already seen how the beam is
+deformed
+fine
+and these parallel lines
+get rotated
+and these rotated lines are shown please
+make a sketch
+and then draw this allow sufficient
+space because these lines have to meet
+at a point that is very important so
+don't
+draw immediately below this figure leave
+a gap like what I have given
+fine so I will have the line A1 B1
+rotated like this
+C1 D1 like this
+and E1 F1 like this
+so you can see here when it is rotated
+what I find is if I draw a tangent to
+this this angle is 90 degrees
+so plane sections remain plane without
+distortion
+which is very well validated
+so when I extend these lines because in
+this complete cross section I have
+constant bending moment
+the alliance if you extend they will all
+meet at a point
+this again emphasizes that I am having
+only a constant bending moment
+transmitted
+and if extended they all meet at a point
+I have this angleless Delta Phi this
+angle is Delta Phi
+is the idea clear
+and we are developing this for the which
+portion of the beam
+have you ever recognized that the beam
+has any thickness
+it's a subtle point
+we are always talking about plane of
+symmetry
+so we are looking what happens at the
+plane of symmetry we have not bothered
+about the thickness
+the moment I bring in the thickness
+there is something else which is going
+to affect
+that will postpone
+see we get the
+Central core of the idea then bring in
+modifications
+then your conceptualization becomes very
+simple your equation becomes very simple
+and you can also appreciate what happens
+and what could happen if you consider
+the thickness
+what aspect of the material is going to
+affect when I take the thickness can you
+visualize can you guess
+I have elastic constants
+which elastic constant is going to get
+bothered by the thickness
+tell me you're you're right tell me tell
+me louder
+fine we will postpone that later when I
+bring in the thickness I will have to
+look at what way the poisson ratio plays
+havoc
+right now we take a beam which is
+Slender
+it has a plane of symmetry
+and the loading is in the plane of
+symmetry and we analyze only that plane
+we are not analyzing anything else that
+should be very clear
+and that is what is shown here again I
+have the lines going like this and they
+meet at a point when you extend the meat
+at a point
+and you know you also bring in certain
+other observations because this
+observation is a help us to write the
+mathematics clearly
+when the axis is rotated okay
+when it is meeting at a point I can also
+have
+a value at a particular location
+even after bending the length remains
+constant
+that is possible because it has only is
+rotated isn't it
+so one line in the plane of symmetry
+that has not undergone any change in
+length is called the neutral axis fine
+this is called the neutralizes it will
+help us to write the definition of
+strain
+because strain means we want to find out
+change in original length divided by the
+original length that's what we have
+defined as strain so I should know how
+to calculate the
+change in lengths how to get the
+original length so I in order to get
+that I Define a neutral axis
+so I have this as R1 S1
+and I call this as neutral axis
+and you may also have a question
+where will the neutral axis be located
+suppose I have a
+Beam made of
+same material
+the neutral axis will coincide with the
+centroidal axis
+if I have B made of multiple materials
+it's not going to coincide with the
+center of
+centroidal axis so I have the plane of
+symmetry
+and then I have drawn the axis I am
+showing it slowly so that you can make
+the sketch please make the sketch
+because
+from neutral axis we are bringing in the
+thickness just to satisfy ourselves once
+in a while we see the thickness what
+happens and come back
+but all our analysis is restricted only
+to the plane of symmetry
+so now I will have one access
+which will
+remain of same length even when I bend
+the
+beam
+coincides with the centroid of the cross
+section they may if the beam is of one
+material
+which I've already said okay the plane
+perpendicular to the plane of
+symmetry through which the neutral axis
+passes that is the plane which is shown
+here is called the neutral surface
+so wherever we want to recognize the
+thickness we will recognize the
+thickness otherwise the discussion
+confines only to the plane of symmetry
+never lose track of it
+now you know we will
+use this definition because by our
+interest is I want to take a general
+line p q
+we want to see how it gets distorted so
+I should find out what is the change in
+length what is the original length the
+only parameter I get from the diagram is
+the radius of curvature so I will try to
+link it to that that is my interest
+so I have a deformed line P1 q1 and this
+is an undeformed beam
+fine in undefined way what is RS and
+what is p q there of identical lengths
+in a deformed beam they are different
+I have R1 S1
+you could quickly see R1 S1 should be
+same as what
+RS because that is what we defined as
+neutral axis
+and we have taken the line P1 q1 which
+is at a distance y from the neutral axis
+and then this
+neutral axis is located at
+radius of curvature row so with this you
+are in a position to find out what is P1
+q1
+what is original length and what is the
+expression for axial strain
+so determination of axial strain is our
+the interest we have discussed the basic
+requirements
+I am read drawing the same diagram so
+that you have time to
+fill in the blanks if you have missed
+some of it
+and we have already discussed
+what is the original length
+okay
+so from the definition of the neutral
+axis
+originally the line PQ was
+having the same distance as RS
+in the deformed configuration this is
+nothing but R1 S1 is idea clear is there
+any difficulty no difficulty at all
+then what we have to write the strain of
+line PQ
+we have to write change in length
+the deformed configuration as a length P
+one Q one
+original configuration I had p q
+so this gives a change in length
+and this gives the original length
+now we would like to express P one Q one
+p q etcetera in terms of rho and Y let
+us see how we are in a position to do
+that rho Y and Delta Phi these are all
+the quantities that we have
+I can also write this
+only restricting ourselves to deform the
+configuration
+instead of PQ
+fine I can replace it by R1 S1 so that I
+use only this diagram for me to fill in
+all the blanks
+is idea clear no difficulty at all
+now we have to write what is R1 S1 and
+what is P1 q1
+can you write what is R1 S1
+rho Delta C very good
+r 1 s 1 is rho Delta Phi what is P1 q1
+that's all you got it
+and when you substitute this P1 q1 is
+rho minus y into Delta Phi
+so I get this
+strain quantity
+we have taken the axis as X so this is
+Epsilon X
+and you should also put the sign
+properly
+so I get this as minus y by 0.
+and if you write it in terms of the
+DV by d s it is y d c by d s minus by DC
+by d s
+so you recognize why the variation over
+the cross section is linear
+I have the factor y coming in
+fine
+and in the case of torsion we had that
+as r r is changing from 0 to our maximum
+so this brings in that there is a linear
+variation
+fine
+so in this class we have looked at
+um
+what happens in the case of a beam
+though we have looked at many different
+genes in your
+rigid body mechanics
+while we want to develop the expression
+first
+stresses we take a beam subjected to
+only pure bending
+and we have said it should have
+plane of symmetry and the loading should
+also be the one in the plane of symmetry
+and our mathematical development really
+confines only to the surface the central
+surface through which it is symmetric
+with that we are in a position to write
+the axial strain because we have taken
+the axis as x axis we have got the
+expression for
+Epsilon XX it is a linear function of
+the distance y thank you
+[Music]
+foreign

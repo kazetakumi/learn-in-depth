@@ -1,0 +1,48 @@
+JavaScript is the most hated programming
+language in the world. And you know
+what's the most loved language in the
+world? It's JavaScript. And you know
+what's the most popular programming
+language in the world? It's again
+JavaScript. But then why do so many
+people hate JavaScript? You know, it is
+just because they don't understand
+JavaScript. So understanding the core
+fundamentals of JavaScript is really
+very important. So with this, let me
+introduce you to our new JavaScript
+course with a big round of applause.
+Namaste JavaScript.
+This will be a pure JavaScript course.
+And I'll be going deep inside JavaScript
+closures, prototype, event loop, async.
+90% of the developers don't understand
+these concepts properly and that's the
+main reason why they even fail in their
+interviews. But don't worry, I'm here
+with you. Just play along with me in
+this course and you'll realize
+JavaScript is very easy. In fact, it's
+the most beautiful programming language
+in the world. And you know what? The
+main mission of this course is to make
+you fall in love with JavaScript. I'll
+put all my efforts to make this great
+content and everything absolutely for
+free on YouTube.
+Okay. So, what's in this name? Namaste
+JavaScript. So namaste is a Hindi word
+for hello. So if you say hello
+JavaScript in Hindi, it will be namaste
+JavaScript. Sounds beautiful, isn't it?
+So as we move ahead in the next video,
+I'll be sharing how JavaScript works and
+how actually code is executed behind the
+scenes inside the JavaScript engine. So
+what are you waiting for? Check that
+video now and thank you for watching.
+Namaste JavaScript.
+Heat.
+[Music]
+Heat.
+[Music]

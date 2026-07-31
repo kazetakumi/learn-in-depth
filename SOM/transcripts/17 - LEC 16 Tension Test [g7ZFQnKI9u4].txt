@@ -1,0 +1,1076 @@
+[Music]
+digital India educated India
+[Music]
+see so far we have developed concepts
+related to stress
+followed by concepts related to strain
+now we have to graduate to the next step
+if I have to use a material I should
+know his characteristics
+only if I know the characteristics of
+the material
+I would be in a better position to make
+a decision which material should I use
+for a given application
+and the test I should do should also be
+simple enough
+and the number of parameters that I need
+to characterize the material should be
+manageable
+these are all the two requirements
+and one of the very famous test that is
+done in strength of materials
+is the tension test you try to take
+maximum out of the test
+right from selecting the material and
+also to understand the failure theories
+you try to interpret what happens in
+attention test so it's a very very
+important test
+and you know you should also look at
+all the time when we discussed state of
+stress and state of strain
+they were developed independent of the
+material
+for the purpose of discussion you know I
+brought in how a chalk fails it's a
+little material
+for the illustration how the ductile
+material behaves differently so that you
+appreciate why should they collect the
+information on all the possible planes
+passing through the point of interest to
+illustrate that I have taken advantage
+of failure of some of these materials
+otherwise the concept of stress stands
+alone concept of strain stands alone if
+at all I look at what is the material
+aspect I bring in we
+I have said that it is an elastic
+Continuum that was used because when the
+limit
+Delta a tends to 0 or the element
+shrinks to a point for that you need to
+have that idealization otherwise we have
+not qualified whether it is an isotropic
+material
+or
+thotropic material or an anesthetic
+material fine
+now we will look at
+some of the experimental observation
+which is also helping us to
+formulate the constitutive laws see if I
+have an isotropic material
+if I stretch it
+it has one layer axial expansion and a
+lateral contraction
+this is observed from the experiment
+suppose I apply pure
+for an isotropic material it distorts
+like this it does not elongate
+so it's a very very important
+observation
+this observation we will also use it to
+formulate the constitutive law it also
+makes our life extremely simple
+so this is the peculiarity of a
+isotropic material
+and you know what is the meaning of
+isotropy the elastic properties are
+identical for any direction of Interest
+they do not change as a function of
+Direction
+and another aspect is we have studied
+the state of stress at a point you have
+determined the principal stresses you
+have also determined what are the
+principle stress orientation
+when we go to
+state of strain at a point we have also
+discussed about
+the directions of Maximum axial strain
+these principal directions and principal
+planes are identical for an isotopic
+material that is not the case when you
+go to an orthotropic material or an
+isotopic material it can in principle be
+different depending on which way you
+load the system
+and you know you have standards
+available you have ASTM standards
+and they give you what should be the
+dimensions for a
+flat specimen like this
+and you have a sufficient length for you
+to grip the specimen
+and you also ensure that you provide a
+generous fillet so that this is the test
+section and the test section fails in an
+experiment it's not the material fails
+near the grips it fails at the test
+section
+and you also have provision
+to measure the strains see you are all
+now exposed to strain gauges many of
+these transducers
+for measurement of force or measurement
+of strain these are all essentially
+strain gauge based so when I conduct a
+test obviously you cannot pull it with
+your hand because it is made of steel
+it's very very strong
+and when you have sufficient thickness
+you need a testing machine which has
+maybe 10 kilo Newton capacity for you to
+do the tests
+and
+you have system to measure the force
+which is not shown here that would have
+a spring element like this see do not
+think spring means you have seen only
+coiled spring
+am I right
+I do not know whether some of you have
+noticed in your
+the big lorries you have at the back
+you have layers of material put it's in
+the shape like this that is a leaf
+spring that bends
+and what I said here was you can have
+an element shape like this when it is
+subjected to loading
+if you perform a test because these are
+all not coming under your strength of
+materials and it's difficult to analyze
+what is the stress state in this and
+they put four strain gauges one two
+three four on the inner boundary of this
+and you know because we have discussed
+we want to amplify signal in the case of
+transducers so if I put four strain
+gauges I can get four times the signal
+when the load is applied so you have in
+many of this
+axial Force transducer you have an
+element like this which deforms which is
+instrumented with strain gauge and you
+are in a position to estimate the force
+accurately see accuracy is very
+important
+and you have a x transformator connected
+here what you have is essentially you
+have a cantilever beam and you have a
+strain gauge pasted on this and when it
+is attached to this specimen
+it can measure the axial strain
+with little more accuracy than the
+movement of the Cross heads
+you need accuracy for this so when you
+have a tensile testing machine you have
+a provision to measure the axial strain
+as well as the force applied
+and you have
+ASTM standards this is called E8 and
+these standards also develop at a
+particular year and they keep
+modifying it and all over the globe they
+follow these standards only on the basis
+of Standards people report the results
+suppose you are the automobile
+manufacturer and you want components to
+be supplied by some of the ancillary
+units
+ask them what is the material properties
+only if it meets your requirement you
+accept the component you understand so
+it's a it's also involves legal aspects
+you know you cannot Supply a component
+with poor quality material
+so you have standards for this and
+standards are very elaborate
+it's also given in your laboratory
+manual few pages I have it even in my
+web page I have loaded that Shankar
+materials laboratory manual so you can
+have a look at it that gives only
+extracts of it
+It also says what should be the surface
+finish and then what should be the
+fillet radii all the details only if you
+stick to the standards and also the
+machine is calibrated
+then your values will be respected and
+it should also have repeatability is the
+idea clear
+and when you have a ductile specimen
+like this you know this also shows now
+you have fairly a
+recent idea
+why it fails like this I have a mild
+steel specimen I have an aluminum
+specimen and I also have a polycarbonate
+polycarbonate can become plastic
+okay
+it has the property to be ductile and
+Mild steel Has Broken
+can you guess what should be this angle
+because you have been exposed to failure
+also what should be the triangle
+45 you know all know very well because
+you can go to more Circle and then you
+can say it fails by shear
+and you see that in aluminum also
+and when you go to polycarbonate
+you know it has not failed it has had a
+long stretch the
+the material has not failed in the
+experiment
+fine and to support your observation
+that it fails at 45 degrees I have also
+drawn the more Circle
+and you know very well that maximum
+planes of Shear is at 45 degrees to the
+axial loading so that has precipitated
+failure in the case of a ductile
+material
+fine
+and if you look at modern ah
+instrumentation that comes with what is
+known as DAC integrated system the
+expansion is Digital Image correlation
+so you have a calibration of the
+measurement system here
+and then you I would like you to notice
+the specimen is lower and it is
+eliminated
+by a monochromatic light and you have
+two cameras that simultaneously record
+so you don't have a clip-on gauge or any
+such to attached to the specimen and you
+directly get a large value of strain so
+this is the way the modern
+equipments are coming out it's a very
+big business okay you have installed and
+MTS that also there are companies in
+India you have many such systems
+available
+and people have to test the materials
+and here you have
+how a beta material fails see if I have
+photolastic material that we have used
+as epoxy
+and if you have epoxy
+epoxy fails in a brittle fashion it
+depends on the hardener that I impose
+okay and you can see how the failure how
+do you anticipate the failure
+it's a brittle material okay let us see
+how it you will also see the failure
+towards again
+so you have a fairly good idea even
+before we take the theories of failure
+that a brittle material fails in a
+particular fashion
+and a ductile material fails in another
+fashion
+you watch this watch this Zone
+and you will find that you know it it
+will take some time for it to break fine
+it has to reach the peak load so you
+find that it is
+horizontal see the idea of me showing
+the experiment in full is to feel
+that when you perform the experiment
+failure occurs like this in the earlier
+case I showed the failed specimen this
+case I am in a position to show you that
+material actually fails so a brittle
+material fails
+by maximum normal stress that's a
+reasonable approximation
+and then a ductile material fails by
+shear stress reaching a maximum as we
+have discussed till now we will see that
+further and before we get into
+looking at the tension test very closely
+let me also introduce you what is
+digital image correlation because when
+you are learning it now at least you
+should have a rough idea what is it all
+about
+it is an optical non-contact fulfilled
+computer assisted experimental technique
+the emphasis is that you know more than
+the experimental measurement a lot of
+number quenching is done from your
+computer 3D imaging ok so that is very
+important
+and what you have is you have to spray
+the specimen with speckles
+you actually have a white background on
+that you spray black dots
+that requires skill see the measurement
+accuracy depends on how well you have
+generated the speckle they should be
+sufficiently random
+the size should be controlled
+and if you change the size
+you can also work on different length
+scales that are these are all the
+advantages
+particularly for very large deformation
+the image correlation is very good
+so like I said artificially introduced
+pickles in the specimen carries
+information of deformation
+and what is done here is what is the
+basis I have a deformation takes place
+and then I have to locate where the
+deformation is actually this location is
+done by an assumption
+intensity of the pattern characterizing
+the point of interest does not change so
+you've also seen that initially it is
+called as white light speckled people
+use white light white light means I have
+all the wavelengths and in the
+integrated system da is integrated says
+something you have seen that you they
+have used the monochromatic light and
+one of the claims is
+if you use monochromatic light
+accuracy system is better
+okay
+and this is the basic assumption with
+which the technology started in this now
+you also have
+systems that accommodate intensity
+variation
+higher order terms and so on and so
+forth this is one of the basic
+methodologies that assumes that you have
+a constant intensity
+and what is that that you do you have to
+select the camera
+lens and Lighting
+see your lighting should be cool
+it should not it should not hit the
+specimen you understand
+because now you know even for the
+recording they have come to a cool lamps
+earlier it used to be people will be
+sweating
+fine earlier days if you talk of 20 25
+years back if you see how videos are
+recorded they had such elimination used
+to sweat
+I would like you to make a sketch of
+this okay you have a specimen loaded
+I have a light source
+and I have a two dimensional Digital
+Image correlation which is cost
+effective and the software is also very
+simple
+you use only a single camera
+on the other hand if I use two camera
+that's only difference
+if I use two cameras then I have what is
+known as three dimensional DAC
+so in a two dimensional DAC you will not
+be in a position to
+accommodate the
+thickness change of the specimen in the
+three dimensional Direction the Z
+Direction the direction in which you are
+looking at it if there is a thickness
+change you will not be able to measure
+it and people have shown later when you
+want to make strain measurement only if
+you make the depth measurement it
+improves the accuracy when there are
+stress raises ok
+and what you do is you record a
+undeformed image you record a deformed
+image so you need two images for
+analysis
+so it is called I would also like you to
+draw this flowchart that gives you a
+summary of
+what are the important components then I
+do temporal matching
+temporal means time dependent matching
+so I look at it if undeformed image and
+a deformed image
+and primarily I get displacement
+information
+fine while I find out the displacement I
+not only find out u and v components
+but I also try to find out dou U by dou
+X dou U by dou by
+dou V by dou X
+and dou V by dou by I also try to
+measure the gradients why do I try to
+measure the gradients with these
+gradients I can find out
+The Strain components later
+fine
+so I have the displacement measurement
+from this
+information I post process I get this
+train measurement and in every stage
+there are many many approximations
+involved
+and it's a very involved technique from
+number crunching also and also from the
+point of view of the capacity of the
+hard disk that you require because these
+images are occupying large memory okay
+so you need to have a good system which
+also responds very fast
+and the objective is to find the set of
+six unknowns
+I have already listed them earlier so I
+call that as unknown P when I say P I
+have six unknowns listed here u v dou u
+by dou X dou U by dou by dou V by dou X
+and dou V by dou y
+so what I do is I have a source subset
+and then this subset is moved on the
+deformed
+Speckles and you first locate where it
+has moved by intensity measurement there
+is a correlation coefficient that you
+develop
+and then you improve by an iterative
+methodology the correlation functions
+are defined to match the similarity
+between subset in undeformed and
+deformed images
+and subset matching to find p is
+achieved in two steps you start with an
+initial guess where these gradients you
+put that as 0 you have some Assumption
+of U naught and V naught
+see whenever you do the iterative
+methodology initial guess is also very
+important
+fine there are thumb rules available
+and the thumb rule is you can you need
+to have U naught V naught but you can
+have these quantities as zero the actual
+value of p is obtained from P by
+iteratively meaning minimizing the
+correlation function using the
+newton-raphson method
+so this summarizes so I have a
+speckled image
+so I take one photograph in the
+undeformed configuration
+it's again an exaggerated picture see
+the spanner does not go through large
+deformation so the accuracy what you can
+anticipate in strain measurement is
+going to be poorer it's not going to be
+as high as what you get under large
+deformation
+so initially you identify the subset and
+then do the iteration
+and you finally get what is a distorted
+shape so deformed subset s is obtained
+by iteratively minimizing the
+correlation function
+and this also Compares you know what is
+the result I get from finite element
+and what is the result I get from
+image correlation see finite element I
+have used different reference axis
+so these things have to be rotated that
+is not done here
+but the idea is you see similar patterns
+and displacement displacement
+measurement is reasonably good
+fine
+but when I compare the strain
+the accuracy is not very high
+okay
+and because we are talking about very
+small value of strain
+see strain we have seen in different
+ways I have expressed it as a percentage
+I have also expressed it as number like
+point zero zero two and then we have
+also expressed a task in microstrain so
+you should be able to comfortably move
+from one representation to another
+representation fine
+and we have also seen I can use
+reflection photolasticity for
+strain measurement
+and this is a very Innovative
+experimental setup where on the same
+specimen on on one side you apply a
+DAC measurement on our other side you
+apply a reflection photolasticity
+and the specimen is made of
+polycarbonate and I said polycarbonate
+has ability to deform plastically
+and we also have what is known as
+photoplasticity
+so you have beautiful
+reflection photolysis references and the
+corresponding strains are measured
+by image correlation
+and this is about four percent when I
+have 0.036 it is about four percent
+four percent strain is reasonably good
+reasonably high value we are crossing
+the yield
+okay so here the
+image correlation is more accurate
+not only that you will also have to use
+finite strain measurement so I can also
+calculate the finite strain values from
+my image correlation is the idea clear
+because the current day equipments for
+tension testing comes integrated with
+DIC so you it's better that you have a
+basic idea what a DAC system is capable
+of
+and I have also shown that this is about
+four percent strain
+and You observe this and then find out
+I want you to draw the graph
+draw the graph with the axis labeled
+it's very important because I would like
+you to be sensitized on the numbers
+when I have a brittle material you know
+the maximum strain is within four
+percent
+which is listed as 0.005 in numbers so
+four percent means
+four divided by hundred okay so I have
+this something like 0.04
+and what do you see strikingly I have a
+glass
+and it shows that glass in compression
+is about
+900 megapascal is that is idea clear
+whereas glass in tension
+fails are below 100 MPA is ideally clear
+it's strikingly different when you take
+a brittle material
+first observation is the strain levels
+are also very small in the case of glass
+it is extremely small
+second observation is
+it is not having a same failure strength
+in compression and in tension
+and if you look at the ratio in the case
+of glass is almost 10 10 or 11.
+and I also look at gray cast and
+glass is almost linear whereas gray cast
+iron is
+it has a slight curvature
+and you find that this is about 250 MPA
+in tension and the same guy cast iron
+when you put it
+in compression this is about
+770 or so it's below 800 MBA
+so the Striking observation is when you
+perform a test the test tells you
+brittle materials or very strong in
+compression they are very weak in
+tension
+and the level of strain that they can
+withstand
+is much smaller when you compare it with
+a ductile material the next one we will
+see the ductile material
+have you drawn the axis with numbers
+because I would like you to be
+sensitized on the numbers it's very
+important you should feel we have seen
+glasses about 900 MP in compression
+let us see what happens to
+mild Steel
+so what I have said is
+summarized here compression strings are
+much higher sustain only small strains
+these are all the important observation
+when you handle liberal material
+Now we move on to a ductile material
+you have seen this graph many times in
+the course but today you are going to
+see it minutely
+we are not going to be in a hurry I have
+a ductile specimen which is pulled in a
+tensile testing machine because you
+cannot pull it by your hand you need
+large amount of energy to do that
+and you have various regions I have
+elastic region I have a yielding region
+I have a strain hardening region I have
+a necking region
+and I would like you to
+draw this graph
+and
+demarcate these regions
+and also put what is the strain measure
+which is put in the horizontal axis so
+we are talking about
+26 percent of strain the fracture has
+occurred and this is a mild steel
+specimen
+this has a peculiarity you know it has a
+very sharp definition of what is an
+yield strength
+so we have to recognize an attention
+test what is an elastic Behavior what is
+a proportional limit or is an elastic
+limit
+what is yielding
+what is strain hardening and what is
+making
+all these aspects that we will have to
+learn from this simple graph
+and you find the elastic region is
+extremely small you know in order to
+drive home that we deal with extremely
+small deformation I have used this graph
+even much earlier
+see the stress analysis whatever the
+concept they are interrelated right the
+difficulty is which concept you should
+say first which concept should say later
+it becomes difficult even before you
+understand
+stress or strain I have shown this graph
+particularly to you show you that this
+is basically a non-linear graph if you
+can find your attention to a small
+region
+you can idealize it as a linear it also
+gives you host of other benefits in your
+mathematical manipulation and in the
+case of mild steel it has a peculiarity
+here we will see that then you find as
+the strain increases the stress also
+increases
+okay
+it reaches a ultimate tensile strength
+then it
+it starts nicking and then making
+eventually transfers to fracture that's
+what you see it has fractured here so we
+will see this one by one
+fine have you drawn the graph
+have you been able to identify these
+regions roughly because you should have
+a feel of it you should know how to
+interpret the graph subsequent graphs I
+would like you to look at the graph and
+tell me what are the Salient things that
+I you are looking at is idea clear
+because you should also learn how to
+read the data just presenting the data
+is not sufficient interpretation of data
+what the experiment tells you is also
+equally important in this case I have a
+very short demarcation when the material
+yields and you all right now know
+yielding was considered to be a failure
+to be avoided at all costs and practical
+structures
+see you have seen material separation
+what happens to a ductile material what
+happens to Beetle material when you have
+a running suppose you are coming in your
+bicycle you don't want your bicycle to
+components to fracture while you travel
+it should withstand your load whatever
+the bumps it has to go and up the
+component should stay safe so you design
+it so that it never goes to either large
+deformation or failure is idea clear and
+the moment you have yielding the
+material has not failed material has
+failed far away it has failed only when
+the strain has reached to this extent
+but if you define what is failure
+functional loss
+when you have a mating members when I
+have a shaft in a bearing if it starts
+yielding you are going to have large
+deformation the shaft will get stuck in
+the bearing is idea clear
+so from the design perspective
+you don't want to reach yielding you
+want to work much below yielding that's
+the idea so what is an elastic Behavior
+suppose I apply the load and then
+release it when I release it it will
+come back in the same loaded path and it
+will come back to its original position
+what was happening in the case of a
+rubber when I had taken the rubber band
+and stretched it I could go to 250
+percent
+very very comfortably and release my
+hand it was coming back in the case of
+metals this is about 0.2 percent of the
+strain will also get that number and
+what you say is in the elastic region
+the stress is proportional to strain
+obvious because I have a straight line
+and the slope of the straight line in
+this region gives the ends mod less e
+which is also taught in url high schools
+am I right and in the case of mild steel
+specially there is a dip when you
+increase the strain when you increase
+the load and then it starts increasing
+OK stress starts increasing so this is
+called the upper yield strength and you
+have a lower yield strength that is
+something
+peculiar to mild steel and the moment
+you have yielding the specimen deforms
+permanently so when I unload it will
+still retain some value of strain that
+it has got stretched which is
+undesirable from functional point of
+view and you have components that are
+assembled together you don't want any
+one of the component to go to yielding
+so I have an upper yield point and lower
+yield point in the case of mild steel
+hence you look at the graph and I would
+like you you to draw these graphs as it
+is drawn while you draw please apply
+your mind I'm going to ask certain
+questions and I would like to get
+answers from you you should improve your
+observational skills I have drawn it for
+three materials I have done it for brass
+that is the blue curve that you have
+and I have done it for Alloy steal
+and when I say steal without any
+adjective it's understood as mild Steel
+and you have the mild steel which is
+shown I have this I have a sharp
+demarcation of the
+yield point and it then dips and then it
+increases and then it has drawn like
+this
+and this graph is drawn up to 40 percent
+of strain so I have 0.1.2.3 and 0.4 and
+what is the first observation you see
+from alloy steel to steel
+mild steel what is the first observation
+striking observation
+huh
+say mild steel has
+lower yield point where he is looked at
+it that this has a lower yield point
+and this apparently has capacity to
+withstand large distresses
+and you have a difficulty can you locate
+where it demarcates from elastic to
+plastic there is no demarcation
+there is a clear demarcation the case of
+a mild Steel
+which is absent in the case of an ally
+steel and if you look at the maximum
+strain
+they are similar there's a very there's
+a small dip in this but there is another
+important observation let me see whether
+anybody makes it
+which is important from your strength of
+materials point of view
+because you know why do you do alloying
+you want to improve the material
+characteristics by alloying you have
+been able to improve what you have been
+able to improve the yield strength
+can you do anything with X modulus what
+does the graph say
+does the graph give you some clue on
+what happens Rings modulus by alloying
+huh how do you say it increases I got
+the answer I wanted because first you
+should make a mistake only if you make a
+mistake you understand the concept
+better see you look at here brass you
+look at here Steel
+I see this region distinct for a brass I
+don't see from this graph we'll also see
+subsequent graphs there is no
+distinction in this initial slope
+between
+alloy steel and Mild distills very very
+important it is extremely difficult to
+change things modulus of a material your
+heat treatment or alloying does not
+change things models which you'll see
+elaborately in your Material Science
+course it's a very important observation
+because when you look at a graph
+when you have the data appearing before
+you you should also know how to
+interpret them now what I'm going to do
+is I am going to draw this graph for
+different strain values okay before that
+I have a important aspect which tells me
+what is the way I have to locate in the
+case of an alloy steel how to locate the
+point of yielding so these are again
+governed by standards
+you don't have a demarcation it's
+varying smooth please draw the graph
+I am giving you time for you to drag a
+graph these are all very very important
+Concepts
+you have excellent animation here
+and what is shown here is I have a
+proportional limit which is linear
+I have shown the elastic limit slightly
+away and then this Zone this is
+non-linear
+so that is what is observed in alloy
+Steel
+what is the meaning of elastic limit
+until this point when I load the
+specimen if I release it it will come
+back in the same loaded path loading and
+unloading paths are identical please
+write down this I'll also show it in an
+animation
+these are all very very important
+Concepts now what I do is I want to find
+out what is the yield strength the
+standard say you draw a line at point
+two percent of strain which is parallel
+to this initial curve
+and you draw the line you draw the line
+and this dotted line hits the curve here
+you take this as the yield strength is
+the idea clear I have also mentioned 0.2
+percent is very important point two
+percent means it is 2000 micro strain is
+idea clear you should know my it can be
+expressed in terms of micro strain it
+can be expressed in terms of percentage
+or it can also be expressed as just a
+number and point two percent strain the
+material yields and I want you to
+observe the graph after you have drawn
+this I have an offset strain here and
+when I unload at this point when I
+unload it does not take this route
+that's the way it was loaded
+when I unload it unloads in this fashion
+is idea clear that's very important the
+loading and unloading paths are
+different
+the material has yielded plastically
+even though you call yield strength in
+the case of mild steel we could get even
+before it has some permanent deformation
+we have been able to identify the yield
+strength here you permit a small
+permanent deformation and that is given
+as 0.2 percent and you have the offset
+and you have an elastic strain recovery
+the elastic strain gets recovered but
+you will have some amount of plasticity
+embedded in the material the material
+has become different that is where the
+plasticity theories are struggling if
+the material has gone through multiple
+loading and unloading how to predict Its
+Behavior it's very difficult the history
+of loading is also very important in
+plasticity theories that is where the
+mathematics get stuck
+it's also very sophisticated OK and what
+this shows is till the elastic limit not
+restricted to straight line and also the
+curved line the loading and unloading
+paths are identical is idea clear
+loading and unloading parts are
+identical
+in the elastic region and there is a
+difference between plus proportional
+limit and elastic limit which is very
+distinct in the case of a alloy steel or
+any material even aluminum will have a
+curve like this so you have a wire media
+how do you find out the yield strength
+is the idea clear okay
+so this is emphasized again failure and
+ductile material is specified by the
+initiation of yielding you don't want to
+have yielding in your running component
+with assembled Parts okay you don't want
+yielding you want to operate much below
+that and you have a region see
+scientists always want to coin new
+terminologies
+okay
+so they have come out with a
+bombastic term like strain hardening as
+if as a strain is increasing the stress
+is also increasing that is the meaning
+here
+fine because you know you want to escape
+you if suppose I want to model the
+complete curl
+strength of material would not have
+developed it is just because we have
+modeled only the linear portion Center
+material is developed
+so we want to keep this out and say that
+this bombastic name that this is strain
+hardening as if strain is increasing the
+strength of the material it's not to be
+interpreted like that but that term
+implies
+this okay you have the slope it changes
+and then it becomes horizontal when you
+go to the ultimate strength when I plot
+engineering strain there is a definition
+of engineering strength there is also a
+definition of true strain which we saw
+which will also see what weight is
+different
+the rise in the curve in this manner is
+called strain hardening that is what is
+mentioned
+and that's a only way to say that we are
+not considering strain hardening we will
+confine only to
+the elastic or proportional limit
+and only in advance is such the actual
+material Behavior Beyond yielding is
+satisfactory modeled with considerable
+mathematics if we look at the
+mathematics the amount of effort that
+they put in in mathematically modeling
+you have rhombus good law it's very
+difficult to handle and it also for
+slightly above plasticity I mean above
+yielding it's not for the complete range
+either
+so you have to appreciate that as you go
+and want to model the material Behavior
+Beyond yielding it's mathematically
+demanding it's not that simple to do and
+we have also seen once it has reached
+the ultimate and cell strength
+I have necking that I started and then
+you look at the animation
+and you have localized yielding that
+takes place
+and
+what you have is ultimately the material
+separates and you have cracks developed
+and that propagate and separate the
+material an analysis of necking is very
+very difficult from a mathematical
+perspective
+fine so when you do the tension test you
+go up to Breaking of the specimens so
+you completely record the stress strain
+Behavior up to that and
+you know we have looked at necking does
+this necking happen exactly at the
+center of the specimen what do you
+anticipate
+please make a guess
+see we have said it is an elastic
+Continuum that is an assumption or
+reality it is an assumption reality is
+different the material has some kind of
+defects inherent effects
+so when you do the test
+here I have shown it for a round
+specimen in this specimen it is more or
+less at the center I have another
+specimen it is not at the center there
+is another specimen
+the location is totally different so
+necking is precipitated by inherent
+defects it can happen at any other point
+okay you are all given ah jump clip fine
+you know you have seen I have a tension
+testing machine with the 10 kilo Newton
+capacity for you to pull this specimen
+and then do it I want to give you a
+challenge okay see you open it up like
+this
+and obviously you know you and I do not
+have the strength to separate it by
+pulling
+can you find out what is the way
+that you can separate it with your hands
+alone any type of loading you can apply
+can anybody guess
+do that do that do that do that
+you are much stronger than me I am not
+stronger like you can you just show you
+focus on the students
+and let me see who gets it first
+I will also try to do
+yeah now I separated it I am faster than
+you
+because I know the mechanics
+idea of what I have done is I've applied
+only small load but I have repeatedly
+done that I have actually done bending
+so one observation from this is I need
+much less load if the loads are repeated
+is idea clear and you have again
+scientists want to relate it to suppose
+I ask you to if we are in the third
+floor I ask you to go down and come up
+once you will not mind I ask you to do
+it 10 times
+at the end of ten times what you'll say
+I am fatigued will you say that or not
+same thing they have coined it for the
+material so when I apply a repeated
+loading it fails by fatigue and I'll
+operate at much lower low than what we
+have discussed till about about
+monotonic loading
+so we are Justified
+in looking at a linear elastic theory
+that is what we have to come out see the
+requirement for our day-to-day life the
+strains that you can permit are so small
+our small deformation assumption is good
+enough and reasonably accurate for all
+that it's not a arbitrary assumption
+that you have to keep in mind so in this
+class we have looked at tension test
+much more closely
+and I have also sensitized you on the
+numbers they are very important the
+important take is a brittle material is
+very strong in compression
+but very weak intention and the
+difference in yield strength can be of
+the order of 10 to 12 times
+it can even be higher okay
+and in the case of a ductile material we
+have also looked at in the case of mild
+steel you have a clear demarcation of
+where the yielding occurs
+and you also have a methodology if the
+curve does not show a sharp demarcation
+how to locate the point of yielding by
+using the offset strain thank you
+[Music]
+thank you

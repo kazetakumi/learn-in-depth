@@ -1,0 +1,440 @@
+Bollywood's most amazing part of
+JavaScript function programming and
+function program is not possible without
+festival function function program is
+used but in this video I will touch upon a
+small part of it I will see what is higher
+order functions and will also take some
+examples and the simple beauty of functional
+programming I will show how you should write
+code in your interview I will show you what means
+people make and explain how you
+should also write code in your coding round
+interview Salil Vishnoi has explained everything with
+examples for just a few choices list
+start with festival function function which page
+difference function and argument and returns and
+function from it is not here audio function
+liquid become service to a function which gets
+another function and argument and returns
+from it is none as higher order function yes it's simple it takes only
+limited to
+examples support behavior and function it's
+okay and in what we do be just  once logged
+in it's root
+college namaste bhi function wich
+channel
+ko
+subscribe va
+obscene
+va is of the year award function
+and
+videos
+please
+subscribe
+to access all the function of the
+example and beauty of the most
+important part with love you all the of the year
+award function very important function
+quick please i request you just 5
+minutes give five minutes and keep watching
+vice city hall example hai one should you how should approach
+problem in interviews
+and mysteries oo make ok so keep watching
+jaldi hai MS Word example spoch latest
+ek example where bhi hai woh ad wich has
+radius of circles ok subah aavai wich is
+ready for circles let's check the sense
+31243 ok delicious ingredients officer
+girls n boys dance class to tired of
+calculate area of ​​all these for circles ok
+fennel dot 34 write the function to calculate
+area of ​​all these for  circus show best offers
+will write the function like this side
+calculate area and in this area function
+tax rates given input ok so let's today from
+radius and over what to do when you
+create another with which area unit of this
+respectful rate yes-yes ok Saurav * let's
+create account statement output
+that and user name the are and what will you will
+guide you through all the radius so let's from I
+request him
+zor I
+plus in
+what will u will just
+loot-lut inside this also
+subscribe sorry maths dot
+500 * radius of the inheritance of loss due to what will u will just
+returned now
+them latest
+subscribe and share and
+subscribe and subscribe
+quote quote for this is chief area ok so this is
+the area of ​​and respective gross sur this point
+this point biscuits perfectly
+fine now also you daddy ko dross what
+mistake people make ok so what I have
+observed in interviews all what happens s
+Opposite this time it's calculating area
+and it's okay to 10 but what you have to
+calculate circumference of this works with
+acid yes okay soft various what would happen as
+we day now acting calculate calculate
+brighter function which calculated the
+circumference
+circumference
+and what would u will underhere to function which
+will take a radius and which will do the same
+thing is page
+subscribe will lead you will just for over a
+year ago quit upa yaar chotu abstain
+solitaire
+subscribe
+screen
+gold you can
+directly hadiya
+circumference of
+saintly people ride in interviews
+to
+calculate the
+diameter of what people generally
+subscribe The Channel Please
+subscribe this
+rich
+world tour this formula of the function
+and vighna meter function ready for me egg in this
+love print or meters
+Sudesh is how Jindal I have seen a lot of
+people green grass and copy pasting and doing
+good but this  Is not a good way do you see
+problem is they can you see problem is want to give
+moment and think what is the
+problem if here can you identify your
+problem and you identify abusive and tried to solve it
+and how to draw a decade okay I will show
+you what the
+interviewer express war according
+round what is modular court what is
+responsible code how you can write in
+functional way okay first for latest what are
+the problems share the first problem which
+you can obviously see you have her top is that
+Bihar defeating and salute Choudhary and
+principal in software engineering is
+none s dr vice principal drive
+principles which is don't repeat yourself
+he rottweiler scenes jain pier repeating all
+salute all these three functions have almost
+90% of birth court se
+bail changes this logic logic of area
+allergic option friends logic  of diameter
+and me too something is the only thing changing
+his death logic 100MB write in optimize mez let's see how to write
+the first of all it will be
+making changes volunteers
+pen or just put in the new top best for
+your friends will just complain letter on
+amazon let me just moved aside over here
+for the typing ok doctor just write
+optimizer code so severely repeating
+itself has not been just creating this
+again and again in 24 functions and then also after
+eating fruits false statement again in the
+pushing something * given hostpot and
+returning given hotspot on dungala thing
+changes logic super sport candy when
+extra this logic that can reach the
+steps that this logic of the area is
+side calculating area yes be cant forget there
+let's create agogo22 on
+projects to create another function ok which
+This area and the own responsibility
+of this function stake also radius and
+returned the area of ​​this function ok and
+in what will you mention for entries * please
+subscribe function of area of ​​to know what will you have
+to make this
+function generator windmill generator function will
+try to put this logic inside function
+from outside this will be complex
+hobby
+passing rear inside this function with passing
+some logic inside a function to exams
+interested swadesh lot sa little me latest
+remove all this unnecessary code
+adjust fast this area
+addition not were going to 10 latest right
+generate function generate function where you
+parked in this logic of area inside the
+function the function will be very much similar to this
+calculate area solitaire just
+tried to write this selection in this
+function and just calculate calculate
+calculate area and calculate circumference and
+calculate diameter but will pass the
+logic inside the function and will be doing
+assembler job show letters for office shop no
+carefully see water and doing ok happy
+unnao district logic should be written over here is
+ruby ​​5 from all sides into the
+function ok so and logic doing this logic
+kutbi calculate area this logic anything
+calculated the circumference this logic
+decorating diameter fennel ball cand of pride to
+pass in logic inside this function
+and what will u will call this logic with
+red ears for my
+missal no it might be sending and completed
+district once again directly this function and see
+this function there almost similar what they are doing this over here instead
+of
+writing directly over here instead of
+writing the formula of area directly
+and subtracting and thing ok I am
+Jaspal Singh logic inside this function and
+doing something hear what I will do is  Just like
+being called this calculate area
+latest call this also calculate and in
+turn will call calculate the why bill pass
+Red years and along with it will pass the
+logic to be implemented some and share if you see
+B5 scenario such logic and no due
+area function will be called with his readers again again
+for each no every element in this
+radius and will be posting it all put
+itself and guess what will you don't will be see
+su of but SIM so it's just like
+writing this spot with abs ko sunavai
+porn scene good-good why did you even
+extract this logic that what is the
+use and with speed extracted this
+area heart is it really required but now
+you will see the beauty of but okay because
+supoch he behaved to calculate circumference
+names 9:00 am help you copy this whole code
+logic again but  We can do just a small thing which can just write
+the circumference logic
+in the function
+that it became just like the area of ​​this circle
+that I did
+incompletely so how to calculate the circumference
+of these circles all we will have to do is pass another
+logic into this function calculate right way
+and use this function calculate and pass
+different logic over which circumference
+directly gives the circumference and here's the output serious
+decision circumference of this area and this is how we can write instead
+of copy
+pasting this whole code behave extracted
+this logic food and water vihar to parts
+right co dot diameter ok vihar to
+calculate for tire meter so let me just get rid
+of this calculate area is Nairobi don't no longer
+need so how to calculate diameter so what we can have done is right
+amit vikram and
+again in the same  Things with just the
+two-dimensional recover her key
+and Neetu just return how to in
+two years and you can just pass in
+another logic which is the minister and will
+return sb diameter of this sarpanch Sudesh how get
+open code now you can compare pure
+turmeric or code for justice and whoever
+dislikes this sweetheart separate functions
+3434 logic show in the right inside you can see this was
+near diya code and used in new
+court should not tell you but why this
+point is gold and this is the beauty of
+functional programming okay Khusro function
+programming is unit cell but small
+part of it rich dad think and better
+logic in your head according to functions okay so
+whenever you are giving according
+round interview day in your zodiac code in
+this fashion and not be special definitely
+fire interview of biotech thank you tried yes okay
+and love letter this is that was with this code
+gold  And duties of functional
+programming I want you to
+clearly also factor code into smaller
+functions and Johny every unit of the function
+has its own responsibility if you see the
+function area it just wants to that is
+calculate the area of ​​the function circumference just wants to
+calculate the circumference choose
+this function calculate has just wants to
+create a new great through all the elements in the
+exact pushed into the output and
+written directed they only work calculators
+and we are not repeating anything over here now right
+member functional programming and
+distributors of functional programming
+with you think every thing I think all this
+logic into small reversible components which
+of functions okay dhoop hostel program is
+use in itself 800 lot of things
+but 20,000 crucial things in function
+programming reduce  Ability modular
+ot how parts and functions into two
+different functions so if you see the get knowledge
+and calculate functions of higher order
+function write in this function from this callback
+function which 5 day side logic sometimes suggested diya
+hal thanks for the function festival
+function everything is mothers and decided to
+function programming deals with pure
+functions composition of functions reviews
+ability modular ot enter model for other
+things but in the interview schedule for
+kissing porn writing in this style of
+code and breaking down your logic into
+smaller functional units election let me tell you something really very interesting this
+function calculate here is exam clear
+similar to this function map with states of
+your vote carefully the
+people happened to be writing jobs for sometime 9
+people over writing diya told some might have
+encountered this function map baby map lot of
+things map is very common higher order
+function and  How it works Shoaib yes this
+radius over here history second dad so
+see dare bhi can right me function in this
+function maps this howle are with all logic
+ok and astrology this is what we pass
+supported pass area ok so everything will
+return 80 energy again and latest see which
+destroys letters lohat if you watched
+carefully and let me just had come in these two
+lines if you just watched carefully this is exactly
+similar to map you know because
+calculate function and malfunction has almost similar there
+giving 80 the same result so you can see
+that many the rotors implementation
+of manpower protest are implementation of
+map this map is given by JavaScript
+tourists and behave return for
+implementation of manpower ok office life
+vishudhra name this radius to air and and
+something which will make more general one
+over has and  This is exactly what matters
+what is map doing behind the scenes office let's
+do a little more checks but in a
+cell it's a small implementation of this
+map function you know what is
+interesting show main function also adjust
+creates a new a
+great over switch of these elements in the
+radius and the written s t output this is
+not weapons that what is the difference between
+and calculate function and map with nothing
+riders almost similar do you might argue
+data marriage quality this radius radius
+dot map and and function speaking reading
+session arguments over but for events a
+list right to make this calculate function
+exactly similar to map ok features from
+exactly so miller so height 21 all this
+function like this dot map ok don't map
+morning
+52522 chapter small things with just the
+two-day visit to put this function calculate
+andhero time  okay you can be realized
+this is no besides people comment last time
+and told but how can we write functions like that but this is how you write few
+pintu festival
+flats in this function calculate
+will be available on old year as you see okay
+in Unicode to benefit something on to
+prototype it appears in all the address so
+baikunt just like dot map 100 calculate we can also called read just
+calculate name
+mukesh duty power what we get
+okay latest updates time to make very
+similar to map okay so this calculate overhead
+tank to 8 minutes i tax one so latest
+remove this for the what we need to do we need
+to remove this shameful this hair oil so
+late may just removed is side the
+students of who ever so insisted of
+air
+facility sucking and where to get a gift
+from so in this case when you dua there
+dot regulator so  that air india calculate
+function tapish and hair point to the are
+which is this calculate bean called upon it's
+ok so
+android jelly bean completed but c 20 over
+hair dubai
+a radius ok morning bright red is do to let's do it means
+if sindhi calculate
+function which will be appointed to this a
+great and define this code on festivities
+love scene that this is exactly same for some
+people decided to type like water level
+complicated to avoid request you to
+go in watchman prototype per in these
+retention prototype video related
+software in over here and hindi
+description but to in first night video
+new wonders properly but tell me one thing is it
+similar to map very much similar to map this matter
+and calculate interest and
+very small implementation of map for this yes
+ujjaini veer right the polyphenols
+pure side of high quality full form of
+suddi beauty of  Functional programming
+and if you have love this type of food
+addiction in hindi interview always tried to
+break down work code in 2d smaller pieces
+so that example it should be applied to anything but
+your recording but generally fire
+interviewer i am very much careful about how to write
+code for more details how his
+abilities and how did you think through this
+logic directions you can improve and
+optimize chocolate swiss roll last k aap
+subscribe what is higher order function
+function which takes another function and input to
+excel and returns from its self is
+known as higher order function quote this post
+end function ritesh pandey chintu hai product
+function during this g call back function which
+total capacity email hindi program and
+digits only possible because its functions
+and first class citizens in javascript if you don't remember this
+drink watch all the
+previous episodes divers and everything in detail remember right
+after dharti ke montu
+Function programming sunidhi essence of
+functional programming in a small part of
+thinking of logic in transformer function
+and passing day into another function tweeting
+functions values ​​and time in your interview if you
+get any problem someshwar you
+tried to apply this fundamentals and
+tried to deal with this in this video you will be
+coming after and reduce and 1000's of the
+most common and most used her daughter
+functions most important once and address
+sudhar already lord of tourism map return
+reduce but i will make a tutorial where
+they will cover real life se relate is video
+new
+mental model while using map distribution
+reduce and how can this function be composed together
+so definitely check out this video
+and don't be just explanation of what is
+map office printer reduce but criminal
+but modi pinto and so it will almost to
+cover everything about map return reduce
+goa  State Video Buff Budhwar Peth Video
+Of Gifts Duly We Submit Rally
+Motivational Sub Comment And Fertilizer For
+Arduino And Also Coming Down What
+Topic You Need A Namaste Javascript I
+Am Ready To Make New Videos And Making
+New Videos Nadu And They Will Be More
+Faster This Time Because This Video And Keep
+Watching Namaste Gavaskar Ne
+[Music]

@@ -1,0 +1,1229 @@
+[Music]
+digital India educated India
+[Music]
+see let us have a bird's eye view of
+principles behind the photolastic
+technique
+see in your high school physics you
+would have done about refractive indices
+and invariably you would have assumed
+that refractive index was like a number
+like a scalar quantity am I right
+it's no longer scalar quantity when you
+come to crystals
+when you come to crystals
+it changes from direction to Direction
+and it behave like a tensor of rank 2.
+and you know with a long discussion we
+had on
+stress we understood state of stress at
+a point is a tensor of rank two so there
+is a happy Everlasting marriage between
+refractive indices and stresses so that
+has helped you to visualize the
+stress us which otherwise you could not
+see you could only see deformation
+that too I have cautioned you if you see
+deformation with your naked diets large
+deformation
+for the purpose of illustration and to
+develop the theory we exaggerate that
+deformation when you do sketches but in
+real structures you don't want to see
+the deflection
+okay
+and what is the
+sensor light is used as a sensor in
+photolasticity
+and the equipment that used for
+visualization is called a polariscope
+you call it as a kaleidoscope mainly
+because you send a polarized beam of
+light why do you need a polarized beam
+of light the answer is that we use light
+as a sensor
+and what you have is
+very interesting
+the central idea here is
+what is known as birefringence
+some of the polymeric substances they
+become birefringent when loads are
+applied when the loads are removed they
+behave like a normal material
+okay
+they behave like a normal material when
+the loads are removed
+so
+it behaves like a crystal
+when the loads are applied
+so whatever you see as the variation can
+be related to stresses that's the beauty
+behind it
+so if you say what is the physical
+principle it is a birefringence
+and you have an idea of what is
+birefringence shown here
+by means two so you see two refracted
+image of the letter B when I put a
+custom
+we will also see that
+little while later little more
+elaboratively
+see I said you have to send a polarized
+beam of light mainly because the natural
+light source is randomly vibrating like
+this
+the direction is different
+magnitude is also different so if I use
+that as a sensor no way I can
+identify the modification introduced
+because of stresses to the light
+fine so I need to have some discipline
+to the light
+and that discipline what I enforce I
+call this as polarization even when you
+have
+any discussion Point some people have
+polarized views you say isn't it that's
+also used in common English
+and here it is used in a positive sense
+and you want to have polarization
+and this is used in even in Signal
+processing even your electrical signals
+are polarized for you to do it
+and if you make the tip of the light
+Vector is forced to follow a definite
+law you call this is polarized
+when it is circularly
+constrained it's called circularly
+polarized when the tip traces an ellipse
+it is called elliptically polarized
+and when it lies in a plane you call it
+as plain polar waste
+essentially you know what you have is
+the most general form of polarization is
+elliptical polarization you can derive
+all the other polarization aspects from
+elliptical polarization
+and how do you get polarized light it
+can be bipolaride sheets that's what we
+will see you can also have a prism
+polarizer it can also be by reflection
+and scattering
+and this beautifully illustrates when I
+have a random light like this when I put
+a Polaroid sheet I get only
+a polarized beam of light
+and obviously what do you anticipate
+what will happen to the intensity of
+light
+it will get decreased because some
+energy is lost because this polarizer
+sends only a particular component of
+light is ideal clear
+and how do I investigate whether the
+light is polarized so I should have two
+identical elements
+and put them crossed
+and gradually make them completely cross
+you find the intensity
+goes to zero so that indicates
+that what you have as shown is a
+polarized beam of light
+which I have shown it for a white light
+now for a monochromatic light source
+this light source is very strong and
+this is experimentally recorded So when
+it comes horizontal that is
+perpendicular to this you call this
+as a polarized plane polarized and you
+see total extension of light
+and this is a representation you will
+have an optical element but when you
+want to make a diagram we simply put
+that as a line and we understand so you
+call this as a polarizer
+because I analyze I call this as
+analyzer materially both are identical
+the axes are oriented differently
+fine
+and in the case of an isotropic medium
+when you say isotropic it is optically
+isotropic okay I can have elastically
+isotropic optically anisotropic
+all those combinations are possible
+this you have studied in your high
+school physics you might have also
+determined the refractive index of a
+glass prism
+and you would have put pins and then
+identified this so you have a famous
+Snell's law
+and how many of you remember
+what way can you visualize the
+refractive index can you relate it to
+speed in some way velocity so velocity
+you can so that aspect we are going to
+use it in photolasticity
+fine so The Fringe formation
+photoelasticities by a phenomenon of
+temporary birefringence induced by
+loads that is why we are able to relate
+the Optical information to the stresses
+developed so when I send it through a
+crystalline medium instead of one Ray I
+get two rays one is an ordinary Ray
+another reason extraordinary
+and Indians understand what is
+extraordinary because we have a VIP
+culture
+whoever violates the law he is an
+extraordinary person so the
+extraordinary rail violates Snell's law
+okay so for a single incident Ray
+surprisingly I have two refracted ways
+one becomes true
+fine not only that and you also have how
+the light is indicated
+I have a circle and a line
+this is a representation in Optics to
+show an unpolarized beam of light
+and when I have this stray inside the
+crystalline medium
+one of the Rays has only dots another
+Ray has only
+lines so they are mutually perpendicular
+that is what is indicated
+you know this is Theory we would also
+see by a simple experiment indeed I get
+two rays
+and they are
+plane polarized and mutually
+perpendicular that happens inside the
+crystal
+ok so it is very interesting
+so this is a representation so this is
+what you
+called us as birefringence it has two
+refractive indices okay when you have
+Associated this with velocity what do
+you anticipate for the ordinary Ray and
+extraordinary Ray
+they will travel with different
+velocities
+that you can visualize because you have
+Snell's law which relates a refractive
+index to
+the angle of incidence and angle of
+refraction
+is that isn't it sir so I now you
+realize because the angle of refraction
+is different for Extraordinary Ray
+under certain conditions extraordinary
+Ray can merge with ordinary Ray and it
+can have any
+Ray of any angle of refraction depending
+on the orientation with respect to the
+optic axis
+fine so that
+property is exploited in photoelasticity
+only the ordinary Ray Faithfully follows
+the Snell's law
+and this shows I have rotated the
+crystal I see two dots that means I get
+two dots so I can have two dots seen and
+when I put a calcite Crystal I do I see
+two beams shear
+images you are able to see very clearly
+and in this I have successfully
+eliminated of the two images One image
+and you have already seen how to
+investigate a polarized beam of light I
+put an analyzer
+fine and I have put an analyzer in this
+fashion and you could very clearly see I
+see only the top image
+and I have put the analyzer
+perpendicular to this
+you see only the bottom image
+so this clearly brings out
+what you have in a crystal
+or polarized and they are also mutually
+perpendicular
+fine so to illustrate this you know we
+have put a calcite Crystal
+and looked at two images
+and you are able to segregate these two
+and this shows that when you rotate the
+crystal with respect to the incident
+light you have this two beams are seen
+now we will see what is useful in
+photoelasticity
+you all know when you take a crystal it
+has an optic axis see crystal is
+permanently by refrigerant
+so that is not useful for
+photoelasticity
+whereas when I have a polymer like this
+polyurethane it is easy for me I don't
+have to be a Superman to apply the load
+I can easily bend it fine and you may
+think how do I extrapolate these results
+to metallic objects fine we will also
+see what is the comfort from elasticity
+so when I have the incident Ray along
+the direction of the optic axis there is
+no difference between ordinary isotropic
+material and the crystalline material
+both ordinary and the extraordinary they
+travel along the same direction
+but when I have this at an angle
+ordinary Ray will go in one way
+extraordinary will go in another way
+that is why a c two dots when I rotate
+the Crystal this is the reason why you
+saw two images of a beam see now you all
+had a nice bath and come to the class
+and fresh
+it is not that your reaction of any
+intoxication but you saw two images
+isn't it
+isn't it so that is because of a
+physical phenomena
+and the third one is very interesting
+what happens is when the
+incident Ray is perpendicular to the
+optic axis
+from the sketch you can see
+the straight lines have traversed this
+distance faster
+and the dots are trailing behind it
+because you have already seen
+ordinary and extraordinary Ray can have
+different refractive indices that is
+dependent on the direction of incidence
+and when it is perpendable to the optic
+axis they travel with different
+velocities that is taken as an advantage
+so the net effective is when the light
+exits out there would be a phase
+retardation between the ordinary and
+extraordinary way can you visualize that
+and what you have is you have a simple
+harmonic motion
+if I have two simple hormone harmonic
+motions which are mutually perpendicular
+and if they have a face retardation then
+net result is an ellipse
+see
+I have given a detailed lectures on
+experimental stress analysis we normally
+take about 14 classes to establish the
+principle behind photoelasticity
+we are only going to have a bird's eye
+view here
+I am going to skip many of the proofs
+whatever the statement I make every bit
+of statement can be mathematically
+proved
+which is done in my experimental so
+analysis course it's also available in
+the YouTube people who are interested
+you can always have a look at it
+and you see here I have a plane
+polarized light impinging on the
+model it's a retarder
+and when it impinges on it
+whatever the reference access I have
+on the model
+acts like the optic axis so the
+component of light gets split into
+these two reference access one you call
+it as a slow access another you call it
+as a fast access because we have already
+seen within the crystal whatever the ray
+that impinges on the crystal
+has a retardation acquired as it passes
+through it
+so what is attempted here is I have a
+crystal plate
+whatever this thickness is enlarge here
+to show
+as the light passes through the crystal
+you have
+retardation acquired by it
+OK and let the relative retardation be
+expressed as Delta
+and you can see here
+you know it it gets resolved and you can
+see two mutually perpendicular simple
+harmonic motion you have a net
+retardation acquired
+when it exits out of the crystal
+OK and what you have here
+I have the thickness is constant for
+both the ordinary and extraordinary race
+fine
+the same distance each one of these Rays
+travel with velocity V1 and velocity V2
+the distance is same because their
+velocities are different see this is
+God's gift to humanity and humans have
+determined this around 1816 or so it
+took about 80 to 90 years for it to get
+developed only in the early 20th century
+the method got stabilized fine and
+people have exploited this property and
+you are able to relate what you have as
+a retardation
+related to the refractive indices of the
+order in extraordinary Ray difference n
+one minus n
+some of you can you recall when we
+discussed uniaxial stress I showed the
+model and then I showed the stress
+sensor I said photo elasticity gives me
+only one quantity
+and I said it plot Sigma 1 minus Sigma
+2. now you know the relationship
+from a crystal Optics perspective
+when the light goes into a crystal and
+comes out it acquires a retardation
+depending on the properties of the
+crystal
+if I use a different Crystal it may have
+n one and two differently
+fine
+and here we will relate it to the stress
+what you find is
+you know there is a relationship that is
+possible between stresses and the
+refractive indices this was credited to
+Maxwell in 1852 formulated that
+so you have the refractive index
+which is independent of the order in
+extraordinary Ray so n one minus n is
+related to C1 Sigma 1 minus Sig 2 Sigma
+2. n two minus n
+is equal to c 1 Sigma 2 minus c 2 Sigma
+1
+n 1 and N2 be the refractive indices of
+vibration corresponding to two
+directions
+n b is a refractive index in the
+unstressed state see this is an
+experimental observation
+so now by doing a mathematical
+manipulation it is possible for you to
+relate the difference in refractive
+indices to difference and principle
+stresses
+okay say I also have a book written
+which is published in 2021
+which brings out basics of
+photoelasticity as well as
+current Day applications I showed that
+if you want to analyze a functionally
+greater material or a heterogeneous
+material like concrete or if you want to
+do a Locomotion studies of
+snakes or you want to find out stresses
+induced in the roots of a plant so
+ranging from mechanical engineering
+Aerospace zoology and biology
+photolasticity spreads this ring to all
+these areas so you have all this very
+well documented in this recent book
+those of you interested can have a look
+at it
+because it is very difficult to compress
+a vast subject in a one hour class
+fine
+so what I have here is we know the
+retardation is related to N1 minus N2
+so I also bring in a material property
+see I can have even
+Plexiglas also a material glass is also
+a photographic material in fact in the
+early development of photoelastic read
+only glass was used
+initially to find out the stresses
+ok but Glass is very inconvenient to
+handle because it has a very poor
+photolastic response you get very feeble
+fringes so what you have is there is a
+constant which is related to the
+material
+and for demonstration purposes you have
+polyurethane which has a very small
+value of this material constant and when
+I relate whatever the retardation what
+you see in the case of Optics when I
+have a retardation measured in terms of
+wavelengths when you say retardation
+divided by 2 pi you call that as a
+fringe order
+fine so Fringe order is given a symbol n
+and N equal to Delta by two Pi so when I
+do that I get this as related to Sigma 1
+minus Sigma 2 and you bundle these as a
+material
+parameter you call that as F Sigma
+denotes it is a material stress Fringe
+value
+so the idea is if I know for a given
+material like polyurethane or a
+Plexiglas or glass
+then
+whatever the fringes you see can be
+interpreted to the magnitude of Sigma 1
+minus Sigma 2 is idea clear
+so what you need to learn is if you want
+to employ a photelastic technique
+quantitatively I need to know what is
+the material stress Fringe value
+and what is a fringe order at the point
+of Interest
+finding out The Fringe or at the point
+of interest is easily set but it is very
+difficult to do that is where we are one
+of the leading labs in the world we have
+developed many algorithms earlier you
+know if you look at these Expressions
+you have Lambda coming to the picture
+Lambda means wavelength
+fine I mean when we investigated the
+polarization I use two different
+wavelengths one is a white light another
+is a monochromatic source so early
+development of photonasticity was
+centered around the monochromatic
+wavelength
+and when you use a white line you are
+all scientist now
+fine you know what white light consists
+of it has webgr
+so all the beautiful colors that is why
+you see beautiful see it God wants you
+to learn stress analysis colorfully
+fine so when you use white light and we
+have made
+significant contribution on how to
+interpret the white light for evaluation
+of Fringe order subsequently how to get
+Sigma 1 minus Sigma 2. fine
+so what you need is you need to look at
+when I change the material what happens
+and when I know F Sigma I can get Sigma
+1 minus Sigma 2 there is also one more
+information I said there is something
+like an optic axis
+when you looked at that retardation I
+showed a slow axis and fast axis can you
+relate it anything to what you have
+learned in
+stress analysis
+when you say status at a point you are
+talking about principle stresses
+as well as the directions
+so at a point of Interest the principles
+trust directions are behaving like the
+optic axis what we have seen in a
+crystal
+and this
+happens only when it is stressed when it
+is not stressed it will be like a normal
+material when I put it the light will be
+cut off if the analyzer is perpendicular
+to that
+so it is beautiful it is Nature's gift
+to humanity
+and F Sigma has a very funny units it is
+Newton per millimeter for Fringe because
+you know the thickness of the material
+also matters in acquiring the
+retardation
+and do you agree with this statement
+Fringe origin is always positive in
+photoelasticity why why is it so
+ah because we have adopted a convention
+how to label Sigma 1 and sigma 2. no
+matter in which problem what I do so you
+cannot find out directly from one single
+measurement whether it is positive or
+negative
+but scientists don't keep quiet they
+have solved all these issues that is the
+details when you get into photolasticity
+see what I have is um you have a
+simplest Optical Arrangement where I
+send a
+polarized beam of light and the disc is
+loaded and when these two elements are
+rotated in unison you see one Fringe
+pattern is moving over the other
+stationary one I use a monochromatic
+source of light
+when I change the source of light to
+White Light you will see one of the
+patterns become colorful the other
+pattern remains black still okay
+so I have this pattern is colorful
+and this pattern is black and this is
+related to the analyzer and polarizer
+and they are always kept crossed
+so you get an idea
+so whenever I have this black Fringe I
+can relate it to the polarization
+analyzer axis at that point in time that
+can be related to the
+principle stress Direction
+fine
+and now I don't send a plane polarized
+light but I put another Optical element
+which will help me to make it a
+circularly polarized
+when I send a circularly polarized light
+I have a convenient life I see only one
+set of fringes it makes my measurement
+very very comfortable in DC in all my
+earlier slides I have used only this
+arrangement to show you fringes I have
+not used the monochromat light source
+but I have used the white light source
+fine when I use a monochromatic light
+source I will have only this as black
+and white
+and you can also see one more thing
+you know if you have this I have the
+background as black
+and I rotate the analyzer the background
+becomes white so they are respectively
+called as a dark field
+and a bright field arrangement
+that you can do by manipulation of the
+optical elements so these those are all
+the details with respect to photolastic
+analysis
+and I would only say that you should be
+trained in photolasticity to identify
+the value of ranges but if you have a
+color code by using the color code you
+are in a position to see the
+color and then assign at least the
+integer Fringe orders ok so what you can
+actually actually do is
+you can construct your own Polaris code
+you have these kind of elements readily
+available for DSLR cameras
+and using this we will construct a
+polariscope and then view the fringes so
+you can easily construct a polariscope
+by having the elements readily available
+in Amazon or any one of these online
+stores
+so you have this polarizing filters
+available for a DSLR camera
+you can have two of them
+and you can even have a cell phone light
+but because we are taking a video here
+that light is not sufficient so we have
+a light source here so this acts like a
+light source now you show the model
+which is under bending you will see
+beautiful set of fringes
+fine what you need is you need only a
+polyurethane and this just costs you 350
+rupees each So within thousand rupees
+you can construct a polariscope homemade
+polariscope fine you can also show plate
+with the hole
+so what you need is you need to just
+have a model and then apply the load
+all the computations are done by the
+Optics you get beautiful set of inch
+patterns
+fine
+and you know it's also very interesting
+to see what you have as a normal scale
+it is not free from stresses you see
+here
+you have residual stresses you do not
+see it in normal light
+this is a plastic this is also
+photolastically sensitive
+so you can really have fun in your home
+by constructing a polariscope yourself
+that costs you less than a thousand
+rupees that's like having two pizzas
+okay
+so we have seen one form of
+fringes
+so we will have a look at you know we
+have also developed a simulation package
+to understand
+not only for elasticity but also
+constantly related to stress
+by a software called p-scope
+and you know you have a set of models
+available since
+you are learning about beam will get
+into the beam first
+and you can have the various types of
+beams which we will see later when we go
+to
+finding out the shear stresses in the
+case of a three point Bend specimen
+right now we will confine our attention
+to beam under pure bending
+and when you do this you have a
+beautiful fringe patterns developed and
+what you see here is I have the optical
+Arrangement where I have the polarizer
+shown here then I have the quarterway
+plate access is shown here then I have
+the beam I have the second quarter wave
+plane I have the analyzer and what you
+have here is
+when I click any point I have light is
+fully transmitted
+so you have that
+changes to the light as it passes
+through the element is beautifully
+brought out in this
+see when you have a natural light to
+polarized light that is diminishing in
+light intensity
+but within the polariscope from the
+polarizer to analyzer there is no loss
+of light intensity there are no light
+absorbing component fine
+so the intensity remains constant
+and what you find here is whenever I
+select a point here when I get it very
+close to the
+the
+actual Fringe you see the light is
+diminished and you also see in this what
+is the state of polarization as the
+light traverses the optical elements so
+you get a complete
+appreciation of what happens to the
+light at every stage
+and you also have other facilities
+because you have always seen fringes in
+color
+so we will see the fringes in color
+OK and I will also put it you have
+several Windows like this you can have
+this in any way now I have this put here
+and you also have all the details of any
+particular point if I take any
+particular point it will tell you what
+is the stress acting there this is Sigma
+x minus 1.009 MPA it will give you what
+is Theta 1 and what is Theta 2 it will
+give you Sigma 1 and sigma 2 and
+Associated Direction
+you know when you do photolastic
+experiment you will not get all of this
+since it is a simulation package it also
+helps you to appreciate concepts related
+to stress analysis
+so now what I will also do is
+I will look at the stress component plot
+and I know that we are getting only
+Sigma X so I will plot Sigma X here
+okay
+and you know what we have done is we
+have taken a beam where when I have the
+bending moment is positive it is bent
+like this
+okay bending moment is positive
+no bending moment is positive means it
+is bent like this okay this anti-clock
+is positive
+because in the class I have always shown
+is bent like this when it is bent like
+this the top surface is under tension
+and bottom surface is under
+compression when I have positive bending
+moment that is what you see here it is
+put as 9.5 newton meters you it is bent
+like this ok
+and what I have here is the stresses are
+marked
+from Blue to red
+and blue is the minimum value
+so the top fiber is compressed so it is
+blue and it varies from minus 5.94 to
+Plus 5.94
+fine now what I do is I go and change
+this to
+and look at The Fringe pattern fine
+we'll have to look at The Fringe pattern
+all these are recomputed when I change
+the load I will put that as a clockwise
+that means I am bending it like this
+okay bending it like this let us see
+what happens to our plots
+it has to do the computation and do the
+plotting
+fine
+and what you find is
+Fringe pattern remains same but this
+truss pattern changes
+it ought to be because photolastic
+fringes they do not sense the sign
+difference
+Sigma minus Sigma 2 is always positive
+but stresses have to be different okay
+let me ask another question
+suppose
+I
+reduce the load by half on the model
+see we are living in linear World linear
+elasticity
+fine why we want to live in the linear
+elasticity when I want to do multiple
+loads I can superimpose I can add them
+together
+fine
+what I want you to think is
+when I
+half the load
+what do you expect the
+stress pattern to be
+and what you anticipate about the
+principal stress directions
+think about it okay now what I will show
+is I will take one more example to show
+the principles as Direction but here
+what I am going to do is I am going to
+make the load as
+minus 4
+something close to half
+and I would see less number of fringes
+okay
+and I'll also see less number of fringes
+in this and also
+you know I have this plot going from
+minus 5.94 to 5.94 is the I mean the
+value I have to see
+okay I have this as 2.5 the plot is for
+a longer distance but the maximum stress
+is also reduced by half closer to half
+okay
+now I said people have used initially
+glass
+fine let us change the material to glass
+you know glass has a very high value of
+this
+um photolastic that F Sigma value when
+it is very high means its response is
+very small so I am going to get
+something very close to 0 here okay so I
+have glass
+and then I put the material
+and then I see the fringes what happens
+to this
+I have this is very close to zero
+has anything changed to the stresses
+it's very interesting
+say I told you we start with the
+material which I can easily Flex it is
+polyurethane suppose I go to
+polyurethane
+polyurethane is very very small see the
+epoxy initially the default one was 12
+Newton per millimeter for Fringe
+if I go to polyurethane it is only 0.2
+so I am going to have hundreds of
+fringes
+and if I go to Glass it is 324 I get
+almost zero finches let me go to
+polyurethane
+and I have such high density of fringes
+OK and the color code Beyond goes beyond
+this so you have a plot of red beyond
+the narrow region where it can do there
+is absolutely no change in polyurethane
+the stress values
+the stress values remain same for
+epoxy the default material
+it remains same for glass
+it remains same for polyurethane but
+Optical response is different
+ok so that is a comfort so even you have
+a plane stress or plane strain problem
+you can mathematically show if the body
+Force remains constant
+okay or zero
+the stress is independent of elastic
+constant it's a very powerful
+result that you get from theory of
+elasticity
+that is why people do experiment on
+Plastics and you can directly correlate
+to
+your structures made of aluminum or
+Steel
+fine
+we have also been looking at
+problem related to pressure vessel so I
+will take a problem related to pressure
+muscle
+and you have the parameters for the
+problem
+so you can select this
+and what you see here in black and white
+you can see very clearly here I have
+this concentric circles
+in the case of being these fringes were
+equidistant
+and I said these are not equal distance
+which was not that directly clear when
+you had color but when you have black
+and white you are able to see so this
+distance is changing
+as a function of distance and this is a
+thick cylinder
+so thick cylinder is the first problem
+you solve in the next higher level
+course
+we have seen thin cylinder you have
+determined hoop stress and you also
+determine if it is close
+a longitudinal stress and we saw that as
+a biaxial state of stress and also
+caution that when you want to find out
+the shear stress whether it is a local
+maximum or Global maximum you ought to
+investigate a planar problem
+becomes three dimensional
+you can't always live in a planar
+situation so that is the caution that we
+have looked at
+now what I'll do is I'll also show you
+the
+Fringe patterns in color which you have
+already seen it in the class
+fine
+and I also have another
+pattern which you have already seen it
+in the class that's what we have seen I
+can also look at
+all the iso clinics present in the
+problem
+see when I use a polariscope I will see
+only one set of iso clinic at a time
+which can I can also show you
+so I have this as
+model I will put this as a plain
+polariscope
+and then I have the dark field
+I have the isoclonic angle if I put it
+as 30 degrees
+okay apply
+I can simulate that so what I'll do see
+is I'll see this as a plain polariscope
+when I see a plane polariscope I'll have
+two fringes superimposed
+for a given plane polariscope I can see
+only one set of fringes like this
+suppose I change this to 45 degrees
+OK and then I apply I get this
+as a 45 degree isotonics all the
+branches so if I go and click it I will
+know what is the angle there this is The
+Fringe order is 3.93 and this is about
+45.35 depends on because The Fringe is
+very wide enough it is difficult for me
+to click the
+exact position okay
+and you have this as
+label like this so you have the Comfort
+when you want to learn photo elasticity
+how to label the Fringe order for known
+problems you try to
+experiment with the simulation package
+so you gain some understanding and
+extrapolate it for a practical problem
+okay
+now what you have is
+I have
+collated all this because it is
+theoretically done
+you have all the iso Clinic spot we have
+seen that as radial lines in this
+problem
+and I have blue line which is showing
+the sigma 2 Direction and this black
+lines or Sigma One Direction
+ok
+so now the question is
+let us also look at I will just have
+half of it
+okay I'll just have half of it
+and then I'll show the what is the
+stress magnitude that we have determined
+we have determined in your thin cylinder
+only hoop stress but you here you will
+have hoop stress as well as radial
+stress is possible but we will have this
+as Sigma Theta okay Sigma Theta is
+plotted like this
+now the question is you know we have
+done it for ah
+a load of 6 MP air pressure
+fine
+so what I'll do is I will reduce this by
+3 MPA that means I am reducing the load
+the question is in the case of a beam we
+have looked at the optical response has
+changed
+you know I also wanted to
+tell you what happens to the principal
+stress Direction what is the expression
+for principle such Direction can you
+recall
+write down write down because I am going
+to ask the following question I want an
+answer
+see I am living in linear elasticity
+ok
+and I am reducing the load by half
+what do you anticipate to the principal
+stress Direction
+stress minorities are changing
+stress magnitudes are one half of it
+you look at the expression
+there is Advantage why we want to live
+in the linear region you should also
+taste that advantage
+what do you anticipate to the principles
+such directions
+what will happen to the benefits
+Direction let me simplify the question
+will they vary
+or will they remain same
+there are only two possibilities
+which one would you choose
+what happens investigate what happens
+the numerator what happens the
+denominator
+everything goes in the same proportion
+so what will happen what is what is your
+take
+it reminds them let us see that now I
+have reduced the load by half
+let us
+repeat the whole thing
+I have the fringes reduced
+and then I have the stresses reduced
+the iso Clinic remains same the all
+isotonic also remain same see don't tell
+me that you are showing me a simulation
+I don't know whether you calculated it
+or not take it from me that it is
+calculating it affresh for any one of
+the loads okay so you also understand a
+very subtle point the greatest advantage
+of living in linear domain
+that when I double the load or half the
+load or change the load in a linear
+proportion in the same proportion stress
+magnitudes change principles such
+Direction cannot change because I have
+the ratio remain same
+that you can get a grasp of it
+and we have also been seeing glass ok so
+we will also change this to Glass and
+then see
+so if I go to glass
+what happens to this
+I hardly see any fringes fine but the
+stress magnitude do they change they
+don't change
+so in linear elasticity
+when the body force is constant or zero
+for both plane stress and plane strain
+photoelasticity
+gives the stress magnitudes which can be
+correlated to your metallic prototypes
+and in fact if you are designing a new
+aircraft and doesn't want to design a
+landing gear
+they use photolasticity to optimize the
+landing gear because it's a dead weight
+every kilogram you save you save
+enormous amount of fuel
+and even today chemical Engineers go and
+spray this photoelastic coating
+and then make measurements and reduce
+the weight every
+ounce of material that you save
+it is enormous amount of fuel saved okay
+and you know you also have other
+interesting models we have also seen
+crack OK and then we will have a
+beautiful crack
+Fringe pattern here
+okay
+and you have The Fringe pattern seen
+like this
+they can also be seen in
+color
+you have beautiful colors
+and even in this when you want to
+understand fracture mechanics if I want
+to know the stress components see the
+advantage of assimilation is
+you can understand concepts of solid
+mechanics with the assistance of
+photelasticity see when the photography
+was developing people were working only
+on glass
+and you know it is only in 1822 to
+1882 or something like that those was a
+period where the concepts got developed
+at that time they didn't have an
+advantage of looking at it from a photo
+elasticity and then learned the concepts
+better so your batch is very lucky
+now you have both the advantage of water
+elasticity to show you the Fringe
+patterns in color
+and you can also understand
+concepts related to stress analysis very
+easily
+okay so here you know we also have
+stress magnitudes fine it's Infinity so
+I have to put this because I told you at
+a crack tip it becomes singular so I
+have to put a value for me to do that so
+I will put this as 50
+okay I will update the plot I have The
+Fringe pattern like this
+because
+when you're doing a simulation
+simulation will go only mathematically
+a physical material it will not go
+beyond yield
+and you have the sigma by stress
+component is like this and you also have
+simulated Fringe Contours
+you have the sigma X how the sigma X
+control changes it's all very
+complicated you have very high level of
+stress the idea is we have looked at
+what happens to your free outward corner
+what happens here
+re-ent corner re-end corner dies and it
+is infinity singular that is what you
+have got and then I can re-plot so you
+can learn all of this ok
+then another interesting problem that is
+not normally taken up even in your
+second course but is very important
+which happens even in the case of a
+simple
+Railways okay is this you have what is
+known as a contact stress you know
+whenever you have a concentrated load
+the concentrated load is actually
+happening over a small area I also
+showed an ellipsoidal distribution
+that's known as hersian contact
+where do you go for all that when you do
+mastication you have this contact
+analysis necessary for your tooth
+well-being
+when you have implants if the contact
+stresses are very high you are going to
+have problem with the tooth implant also
+one of my students has done a beautiful
+work on
+dental analysis and if the stress levels
+are high you have what is known as bone
+resorption and the implant comes out the
+bone gets weakened and all that so you
+need to look at how to handle this
+situation and what is interesting in
+this is the maximum stress
+occurs beneath the surface that is what
+is important in ah context as analysis
+if you look at you know when I increase
+the Fringe order if I go to this Fringe
+order it shows the suspended order as 10
+that's the highest difference order and
+this is about Fringe order three so the
+highest Fringe order this is the top
+surface it doesn't occur on the surface
+it occurs beneath the surface
+okay so that is the reason you know you
+find that people put the roads and then
+you have pits formed see in India what
+happens is if the road is rated for a
+particular Carriage weight you know the
+Lorry fellow will load twice that value
+that axle load is very high so you are
+applying excessive contact load on the
+road and failure happens beneath the
+surface and you have pits formed that is
+why that is the reason for all your
+potholes for stress poor quality
+construction second one is abuse of this
+when something is rated for some load
+you should respect that see Indians are
+very good at chalta hey attitude you
+have to come out of this attitude and
+respect
+convention rules and follow rules ok
+then what happens is
+when I introduce friction
+fine
+these are all very interesting from
+a practical point of view because you
+know you are learning the course in 2022
+you can't say that I will know only
+standard member and close my eyes for
+everything else it's not possible to do
+so when I have this the friction
+pulls his eye and it is coming making it
+closer to the edge is idea clear this is
+one of the problems in railways
+and I have on PhD student who is looking
+at some of these aspects so they are all
+very important for your day-to-day
+living tomorrow when you get into the
+train you want to go safe to your
+destination
+fine so with this we have a bird's eye
+view of what is photoelasticity
+and I have tried to give you the essence
+of it without any proof
+we have also looked at how you can
+construct your own homemade polariscope
+at a very
+nominal cost
+and you can also have a thorough
+learning when you have a simulation
+package like this this is also very cost
+effective because when you go for modern
+day polariscopes which all have Digital
+Image
+data acquisition data analysis it costs
+anywhere between minimum of 10 lakhs to
+40 lakhs okay these days and also with
+your dollar
+appreciating every other day when
+compared to the rupee so these are all
+becoming Out Of Reach so in that context
+your homemade polariscope you can
+construct within thousand rupees and if
+you have a simulation package like this
+you can understand both photoelasticity
+as well as solid mechanics
+much better thank you
+[Music]

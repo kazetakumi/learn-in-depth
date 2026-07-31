@@ -1,0 +1,1164 @@
+[Music]
+digital India educated India
+[Music]
+see while you learn stress analysis
+thermal effects are very very
+significant and we have to see
+what happens when the structure is
+exposed to small temperature changes
+on the one extreme you have very high
+temperatures like what you have in gas
+turbines
+and the On The Other Extreme you have
+cryogenic engines which operate at very
+very low temperature those are extreme
+environments we will not get into
+extreme environment
+but we will at least
+have an appreciation what happens when
+there is a normal temperature change of
+the order of 50 to 100 degree Centigrade
+that happens what way the structure
+responds
+fine
+and here what you Lord appreciate is
+we live in the comfort of isotropic
+materials so now what is the greatest
+advantage of isotopic materials
+because of symmetry every direction is
+identical from an elastic perspective
+the thermal strain has no Shear
+components it's a great advantage
+so when I have a temperature change I
+would only have normal strains Epsilon
+XX Epsilon y by Epsilon z z
+to show that this is the thermal effect
+either you use T or th whichever way you
+would like to label it
+and that is related to Alpha times
+the temperature difference
+so I could have an elongation
+I could have a contraction
+and the problem comes only when they
+prevent the thermal strain I get
+stresses developed
+so you have
+thermally introduced stress levels
+so the reason why we work on isotopic
+materials should now be very clear we
+need only two elastic constants to
+characterize
+and when we move and look at what
+happens in the presence of
+a temperature change
+the behavior is also very simple for you
+to comprehend and analyze
+and Alpha you know it's you all have
+studied in your Physics course the
+cohesion coefficient of linear expansion
+and this is also very important for
+temperature changes of the order of
+about 100 degree centigrade
+variation of thermal strain with
+temperature can be described as linear
+see we would like to work in linearized
+elasticity because that helps you to
+simplify the problem
+split a complex problem into assembly of
+small problems that can be individually
+solved
+and the stress tensor can be added
+provided you have the same reference
+access
+ok
+and what happens when you look at the
+stress strained relation
+you have to add one extra term Alpha
+times delta T for your Epsilon X strain
+component
+Epsilon y strain component and Epsilon Z
+strain component
+and by now I have sensitized U when you
+write Epsilon X
+please bring in all the three stress
+components when you write the expression
+for a given problem identify which all
+of the stress components are not
+existing knock them off
+don't simply write
+from your tension test
+strain is simply Sigma y by E that is a
+mistake that is applicable and valid
+only for a tension test
+it's valid only for a tension test
+and fortunately your Shear strain there
+is no influence of temperature on it
+so it becomes lot more clearer so if you
+solve the problem dealing with thermal
+strain in one stroke you know how to
+handle these Expressions as well as
+accommodate the
+temperature variation that is what we
+are going to do today
+and you will also have to look at
+what are the basic effects of
+temperature on string
+there could be change in elastic
+constants
+and you know you have ends modulus
+increases by five to twenty percent at
+cryogenic temperatures
+I have told you earlier it is very
+difficult to change Young's modulus
+your heat treatment does not modify
+and you are allowing does not modify
+but a temperature change can modify it
+happens at cryogenic temperatures and
+cryogenic temperatures are becoming
+important when you have a rocket that
+you want to send it to Moon you would
+like to pump in lot of energy and
+cryogenic engines are very powerful
+so right now we deal with cryogenic
+temperatures also so what you will have
+to look at is when you measure the
+strain you will have to recognize the X
+modulus is higher so the stress levels
+introduced are much higher than what you
+normally anticipate
+so this you have to consider when you go
+to extreme environments
+and the other
+important aspect that we have seen is it
+produces strain even in the absence of
+stress and that is used to mitigate
+when you design a structure when you
+recognize that thermal strains are
+introduced I love it to expand don't
+constrain it that is one of the ways to
+mitigate the
+effect of temperature change that is
+very well exploited in engineering
+and this is also stated when you are
+talking about changes of 100 degree
+Centigrade don't worry about change in
+elastic constants
+and as I mentioned earlier anything
+related to temperature you call that as
+a thermal strain
+when the expansion or contraction due to
+Thermal effects is constrained one gets
+in addition to Thermal strain you will
+also have thermal stress
+you have the strained relation The
+Strain relation takes care of the data
+stress components as well as
+a term related to temperature so if you
+use the Expressions properly you can
+find out the thermal stresses and
+thermal stain comfortably
+now what we will see is what are the
+ways people have mitigated the thermal
+effects you know you may wonder when you
+are writing a
+beam you take one side is
+simply support is simply supported beam
+one side is hinged
+other side you put a roller
+and if you go to actual Bridges you have
+such big rollers put you may not have
+the opportunity to go and see how they
+are supported
+so this is practically implemented
+and you know
+I have also shown in the previous class
+that you have analyzed the truss when it
+is subjected to loads
+it's an exaggerated deformation and look
+at this Edge
+this Edge is
+moving this way and you have provided a
+load air so you allow the expansion to
+take place
+as long as you allow the expansion to
+take place no harm is done in your
+structure no additional stresses are
+introduced
+so it is not only for simplifying your
+analysis that you have a simply
+supported beam it is statically
+determinate and solve the problem even
+in a practical structure you can
+mitigate the influence of thermal
+effects to an extent possible
+fine
+and there are also other applications
+you know before we go into that from
+your engineering mechanics you can
+replace this support as a simple normal
+reaction fine
+there are also other applications see
+this is uh
+um in rameshram you have a rail bridge
+on the sea also have a road bridge
+and I was surprised when I visited that
+place the road bridge has this kind of
+features
+so you have interlocking steel plates
+that come in and go that accommodate the
+temperature change
+it's very interesting people have
+accommodated
+the thermal effects in the design so
+that you minimize the additional load
+due to Thermal stress
+and when you go to the rails
+conventionally what they were doing is
+you have rail of particular length and
+then you have Gap in between them and
+then you have a bolted connection
+this was the old type of
+handling the thermal stressors in the
+case of railroad so this is on a actual
+concrete bridge like this so this is
+really done and you go to talk to it
+civil engineers who is constructing he
+will know more of it
+when you go and visit any place of
+historical interest look at the
+engineering aspects also
+only when you look at practical
+structures and ask a question why they
+are constructed in a particular manner
+what is the advantage then you learn
+some aspects of engineering
+okay see the modern rail network is
+different you don't have a gap
+you have that as welded
+the reason is it improves your riding
+comfort
+and we have also seen that people are
+going to have forged wheels and even the
+life of the wheels
+can be improved if I don't have gaps
+there
+but when you put a welded joint these
+are called The Continuous welded rails
+structurally they have a better
+performance but experience extreme
+thermal stresses
+okay
+you have something called a rail neutral
+temperature that it has to be determined
+that is a very complicated job to do it
+at which the continuous welded rails
+experience negligible stresses due to
+Thermal effects
+say you often hear there has been a
+derailment
+and you wonder whether it is due to a
+sabotage
+many times people conclude that it is a
+sabotage
+if you really look at from structural
+point of view
+when you have the temperature stresses
+due to
+improper management of TNT R and T it
+can fracture if I have tonsil stress it
+can buckle you have this buckling
+recorded across Railways in the world
+because of these reasons you can have
+derailment
+so if you have to have a riding comfort
+you need to address the effects due to
+temperature
+and you have
+a set of coefficient of thermal
+expansion you can take a photograph
+you know this is a data
+it can help you to solve some problems
+if data is not given
+and
+let us solve one simple problem
+where I will only worry about the
+thermal effects that is easy to start
+with
+what I have here is a composite hoop
+this is made of one material softer
+material
+see this may be precipitated by a
+requirement of what fluid that you send
+through the tube
+what fluid you send it through the tube
+if it is corrosive you need to have
+appropriate material
+depending on the pressure levels that
+may not be sufficient to contain the
+pressure so you need to have additional
+strength so that is what you gain by
+putting a another tube that is made of
+steel in this case we have also seen one
+such problem you had a tube made of
+wooden staffs that is Tied by a steel
+ring they are all identical they are all
+again composite
+the idea here is there is a temperature
+race of 90 degrees
+and you will have to look at how do you
+go and solve the problem what is the way
+that you should approach the problem
+when there is a temperature change you
+find the inner one is made of brass
+so that has a higher coefficient of
+expansion
+and your steel has a smaller coefficient
+expansion
+so the brass will try to expand and
+steel will prevent it from expansion is
+ideally you should first understand the
+physics
+only when you understand the physics you
+can translate your understanding into
+equations
+and you have to bring in a geometric
+compatibility
+fine
+how do I bring in the geometry
+compatibility
+you have the basic Dimensions given and
+when this is heated what do you
+anticipate
+I anticipate the diameter to change
+and you know
+you also imagine that these surfaces are
+Ultra smooth so that there is no
+friction and it allows free expansion of
+brass
+and you have steel that has not expanded
+that much because of the
+lower value of coefficient of expansion
+on the radial Direction it is expanded
+when you have a circle when there is a
+change in the radius it also has a
+change on the circumference
+fine and
+because you have pressure developed
+the composite hoop Still Remains a
+composite hope
+it's not that they come out of it
+fine
+because I have this expanding
+and it can expand more than if there is
+no Steel
+ring above above it
+so it will get constrained is the idea
+clear suppose I have a material which
+has a lower cohesion of thermal
+expansion
+what will happen is the outer one will
+expand the smaller one will come out of
+it we are not looking at a situation
+like that we are having a situation the
+inner one has a larger Co efficient of
+thermal expansion
+and what is the geometry comparability
+that you can think of
+this circumference remains
+same
+okay when it is expanded by the inner by
+the inner hoop the other one also
+expense but it does not expand to the
+same level ok so the inner hoop is
+subjected to compression
+outer hoop is subjected to tension so in
+both the cases whatever is the
+tangential strain
+that should be identical is the idea
+clear
+before we look at the tangential strain
+we will look at what is the way that we
+can put the
+yeah I have put the tangential sign
+itself so I have this if I have this as
+Delta 1
+we have also taken that interphase
+radius as 354 millimeters
+for that I am directly Computing see
+when you deal with thin Rings the
+question always comes should I take the
+center of the ring or should I take
+interface radius
+because the thicknesses are very very
+small
+the error committed would be very very
+small
+fine
+and it is prudent to take because you
+have the interface still maintained
+and it is better to take what happens on
+that radius so this tells you how to
+proceed and solve the problem
+see we have already noted when you have
+a pressure applied on a hoop what is the
+stresses developed
+you have the expression do you remember
+that expression
+these are all very famous expressions
+it's a very famous expressions
+we have seen we have also seen that when
+you so analyze it for a Coca-Cola can
+you have in addition to the hoop stress
+you have a longitudinal stress fine and
+there is a standard expression for that
+please try to recall that before I come
+to the
+next slide okay
+so I have the stress strain temperature
+relation I write it Faithfully so it has
+a component from stresses and also a
+component because of the temperature
+change
+and in this case I have only
+Sigma Theta Theta because I have a thin
+hook I do not have Sigma Z and sigma r
+and we have already derived hoop stress
+is nothing but prbt
+we don't have to redo the same
+calculation again you can take this as a
+starting point and proceed further
+and let us look at what happens to the
+inner hoop
+so I can substitute what happens to this
+value of Sigma Theta
+and we have already understood that
+inner hoop is constrained by the steel
+hoop so it develops compressive stresses
+so I have this as when I put PR by T
+and that pressure is taken as what is
+the interfacial pressure I have a
+[Music]
+um
+call this as PC it's a composite hoop so
+this is because of the construction you
+get this pressure
+when I have the temperature change this
+pressure gets developed
+and you have the term related to Alpha B
+delta T
+this is for the inner hoop
+and the force balance is also properly
+put
+the way Sigma Theta B is shown
+and what happens for the outer hoop
+outer hoop expands
+okay
+so I have this as positive
+I have alpha s into delta T that also
+goes to Delta 1 by 354.
+from geometry compatibility these two
+should be identical
+you have that expression
+and you get the interfacial pressure as
+0.854 MP
+so if there is no temperature change
+PC would have been zero because there is
+no internal pressure acting on the
+composite cylinder I can also think of a
+problem where a fluid is going at a
+particular pressure
+and it is also subject to the
+temperature change
+and you all know we live in linearized
+elasticity solve this as two problem and
+sum them up
+fine so once you know the interfacial
+pressure
+the pressure that happens or the
+interface of the brass and steel
+I can compute the stress on the inner
+hoop
+I can also compute the stress on the
+steel hoop
+please check the computation and then
+tell me that my numbers are all right
+I get Sigma Theta B that the brass hoop
+has
+minus 75.6 Mega Pascal
+and when I have a steel hoop
+I have the pressure as
+37.8 Mega Pascal
+see it's a very simple problem that
+illustrates how do you handle the
+temperature change we started with
+writing the strain stress relation
+and also the temperature effect
+completely and knocked off the term that
+is the right procedure do not jump steps
+okay now I am also going to ask you one
+more thing see you when you go to a mall
+these days you see glass everywhere
+am I right
+where you are having steel railings you
+have all of that barricaded by glass
+now I want to ask you see you have these
+two benches in these two Ventures I put
+a glass plate
+fine and then in the other set of
+benches I put an aluminum plate
+and I want some Brave Hearts to come and
+stand on the glass and stand on the
+steel or aluminum
+everyone will go and stand on the
+aluminum you know variable that is
+nothing is going to happen
+fine but even if you fall it is only one
+or two feet
+why do you fear that you will not go
+near glass
+you have an innocent feeling the grass
+is brittle
+it cannot withstand
+isn't it
+that's that's what you have a feeling
+let me show you a contra example
+in the Grand Canyon you have a 70 foot
+cantilever made of glass
+you can walk on it you can see if it is
+not one feet or two feet like what you
+have your bench and people can
+comfortably go walk on that and see what
+happens maybe 300 400 feet deep below
+don't you think that people have tamed
+glass
+see when you say strength of materials
+it is not that you look only at failure
+you also look at how to
+utilize the material why glass is
+important glass is a green material
+see you are in a generation where
+environment friendly construction
+processes and practices have to be
+implemented
+when I talked about cork I said it is
+naturally available material
+it is also green it is Ripple initiable
+and glass is also replenishable
+if there is a concrete structure if you
+would demolish it you don't know what to
+do with the with the concrete debris you
+can only use it as a landfill or
+something like that whereas glass if it
+is broken you can melt it and reuse it
+so people have tamed glass and what you
+have is you have
+five different ah layers are put and in
+between you have a plastic layer that
+absorbs shocks and things like that
+people also have improved the friction
+and it is in operation so that means
+people have understood glass what is
+glass please make a sketch out of it
+see there is a difference between if you
+take a aluminum and then make it as a uh
+take it to high temperature and then
+cool it it will cool at one temperature
+on the other hand when you have a glass
+it will cool over a range of
+temperatures and it becomes an amorphous
+material
+and there is also a very interesting
+temperature this is called glass
+transition temperature put as TG
+and you can have
+glasses out of silicates it can be out
+of polymers or even metal metallic
+glasses you have
+commonly used glasses are soda lime
+silica glasses
+and surprisingly this is one of the
+earliest man-made high technology
+material you have a glass bottle which
+is traced to second century BC
+and all of you flank your beautiful cell
+phone and drop it 100 times nothing
+happens to it
+fine and why it is because of
+Gorilla Glass that we have
+It Is by Corning
+and it's one of the few materials to
+have surveyed over 20 centuries and
+glass is also used in BIO reconstruction
+fine if you have any fracture or
+something like that they have some kind
+of scaffolding made out of glass
+and you temper the glass you introduce
+intentional stresses while glass is
+being fabricated
+and what you have is you have a liquid
+glass
+and then you I have cooling nozzles
+so I have a liquid
+so this gets cooled first
+and so you have this will prevent the
+other this one to come back to its
+original position
+so it will you have a compression
+compressive stresses developed on the
+outer layer
+and then you have a tensile truss
+developed
+and as a function of
+time this is what it shows finally you
+have a stress state after the tempering
+process
+parabolic like this it is highly
+compressive on the surface and tensile
+at the center of it you intentionally
+make it
+fine while you process the glass because
+people have understood how to tame the
+glass
+and not only this
+you know when you have failure it should
+save save fail safely that is also
+another important design perspective
+these days failures do happen
+but let the failure happen safely
+so when you temper the glass like this
+there are also standards that say
+for different thicknesses of glasses
+how many fragments it should break into
+and what should be the level of stresses
+developed if it is fully tempered Heat
+strengthened
+what should be the level of stresses
+developed
+so the advantage of tempering a glass is
+it improves the functional aspect of the
+glass but even if it fails you get small
+particles you would have seen when there
+is a road accident you see pulverized
+glass
+on the street you would be wondering
+from where the glasses come if you have
+that windshield whatever that is there
+it's all tempered and they make it
+intentionally
+to get into fragments so that it doesn't
+harm you
+once you say it has to be tempered it
+has to develop a particular level of
+stress you must also have a measuring
+system to measure this you have to
+ensure that is idea clear
+and
+you find photelasticity fits in very
+well because glass is photoelastically
+sensitive
+and we have seen that by tempering it
+has a parabolic variation where you have
+a compressive stress and then at the
+core it is tensile which you can easily
+measure if you align the glass plate in
+this manual in the polariscope
+if I align the glass plate perpendicular
+to that
+I get what are known as The Edge
+distresses you have The Fringe patterns
+see the photolasticity what we are
+looking at it is helping you to
+understand solid mechanics and it also
+meets the current requirements of the
+modern society
+because we are going from homogeneous to
+heterogeneous materials
+we have seen that
+photo elasticity can be applied for
+analyzing concrete by using a cat
+scanner you can generate a complex
+three-dimensional model with pores and
+all The Trebles
+Aggregates put inside and you can
+analyze what happens so you can go to
+heterogeneity and we have also looked at
+when you have a soft material like a
+skin where they want to do the epidural
+injection
+soft material means you need to go for
+finite strain there again
+photoelasticity is applicable and you
+find glass is a green material and
+people want to understand glass and also
+manufacture it properly so I should know
+how to measure it
+and I should also monitor it while I
+manufacture so I can have an online
+system where I would
+look at the digital image and have a
+software to evaluate the adjusters
+developed so I can accept whether the
+process is going on properly whether I
+can accept that batch of glass or not
+so right from measurement and also in
+manufacturing
+photoelasticity helps
+fine
+then we will also solve one interesting
+problem
+I have a bolt net combination
+subjected to temperature change
+you know I have a bolt
+and I have a sleeve you have the
+geometry of the system is shown here
+and you know as Engineers by now you
+should have understood why I have
+threads when I have threads I can have
+pitch I can have multiple threads I can
+have lead all that physics you should
+know that is if I rotate in one turn how
+much it will move in the
+horizontal Direction
+okay
+linearly how much it moves that you can
+find out from this data
+and what is seen here is
+initially the bolt nut is tightened by a
+half a ton by
+snack tight
+the nut is then tighten one half turn so
+that is also given you are also given
+the information to calculate what
+distance it can travel
+and this is very common see if you go to
+North India the temperature changes from
+morning to afternoon quite a bit in
+Winters it can have 10 to 15 degrees is
+very common
+so you have several systems even your
+automobile there are your engine is
+fitted into your chassis with some bolt
+Net Connection so you have this kind of
+a practical situation a bolt net is
+connected connected and then they are
+tightened and they are exposed to a
+temperature change so it's a very common
+occurrence that needs to be handled
+and you are given the
+elastic properties of the bolt as well
+as the thermal coefficient of expansion
+how do we go and solve the problem
+in this case I have mechanical stresses
+introduced
+as well as temperature effects have to
+be considered
+and I need to know what is the final
+stresses developed
+and we live in the world of linear
+elasticity
+so solve this as two problems one is a
+mechanical problem
+another is a thermal problem and finally
+add up the stresses is idea clear okay
+and we have discussed about this problem
+long time back when we discussed Force
+deformation
+and when you have a not tightened
+what happens how do you generate the
+geometry compatibility
+see whatever I have said is summarized
+in this slide I have the
+linear elasticity so I can apply
+principle of superposition
+you will have thermal sources developed
+because there are constraints
+it is a statically entertainment problem
+so you have constraints
+because of that thermal sources are
+introduced
+so evaluate stresses due to tightening
+of net separately
+and those due to temperature separately
+and add them together you can do the
+principle position
+now we will first take up the
+tightening of the net
+and what is the geometric compatibility
+see if you remember the discussion you
+can very well go ahead but even if you
+don't remember I gave you
+a methodology how to get the geometry
+compatibility you visualize of the two
+members that are interacting you make
+one of them as rigid another as
+deformable
+then understand what happens in extreme
+situations from that you
+hypothesize and find out what could
+happen when both are deformable is idea
+clear
+that we have seen if it is sleeve is
+rigid whatever the movement of the net
+is determined by the elongation of the
+bolt
+if the bolt is rigid whatever the moment
+is done by the sleeve when both are
+deformable I have
+I have elongation of the bolt as well as
+compression of the sleeve
+say while you write all of this you must
+keep track of what way you are putting
+the science okay
+we are looking at it physically and then
+we are looking at this as expansion and
+this as contraction
+and we are adding them when you add them
+that is the moment what you could get by
+tightening the nut
+fine so you should understand that
+and write your equations appropriately
+so I will have Delta 1 plus Delta 2
+equal to Delta
+so when I write this expression
+I will have to recognize that I am
+talking about what is the contraction
+okay
+so I have
+Delta B plus Delta S L equal to Delta
+and you know for a axial load
+we have learned this as PL by a e where
+p is the load and in this case FB is the
+load
+L is the length
+that is the length that is shown here
+and you have details of what is the
+cross section
+that you can easily find out a bolt is a
+simple circular cross section your
+sleeve is an annular cross section so
+you can easily calculate from your
+geometry that's not a big job
+and you are also given what is the
+pitch so I have 1 by 0.7 I put it
+so that I get the axial length it can
+move and I have rotated by half turn
+so I know what is the value of delta so
+I get one equation from this it can also
+be simplified
+if you
+substitute the numbers I can also get a
+simplified expression
+and that gives me Sigma B plus 3 times
+Sigma SL equal to one three six three
+point six four mpk please substitute the
+mathematics substitute this cross
+sectional details and check whether this
+equation is all right
+please do that verification if there is
+any change please alert me
+see I have
+two unknowns I need two equations to
+solve isn't it I have brought in one
+equation based on the geometry
+compatibility
+other equations comes from simple
+equilibrium
+okay
+that also we have seen when I have a
+bolt and nut tightened
+we have said
+the forces on the sleeve and forces on
+both should be identical but we don't
+know how to calculate based on Statics
+you need to bring in deformation into
+the picture and in this case we have
+first looked at the deformation wrote
+the equation and this equation is simple
+and straightforward I'll have to have FB
+equal to FSL
+and then I can substitute the
+values in terms of stresses and the
+geometry of cross section so I get the
+second equation
+the second equation reads like Sigma B
+minus
+2.408 Sigma SL equal to 0.
+so I have two equations I have two
+unknowns it is simple to solve
+okay it is quite simple to solve
+and when you solve this
+I get the
+stress on the sleeve as 252.14 MPA
+and on The Bold as six not seven point
+two two MP
+fairly straightforward
+this became fairly straightforward
+mainly because we are already spent some
+time on how to look at the geometric
+compatibility since we have looked at
+what happens when we are
+tightening the nut the discussion was
+simple and straightforward for you so
+you generated one additionally equation
+so with two equations you have been able
+to solve the two unknowns
+now we will go to the thermal part
+see this is a simplified representation
+you know I am not shown the Bold I have
+just shown
+to visualized because of temperature
+change what happens
+when there is an increase in temperature
+bolt also will elongate
+sleeve also will elongate
+fine so that is what is shown here I
+have a nut which is moving up
+but you find the coefficient of
+expansion of the sleeve and bolt are
+different
+sleeve has a larger coefficient
+expansion so it will try to elongate
+more but you have a nut which is sitting
+on top of it so nut will
+will not permit the sleeve to expand its
+full length
+okay
+because of that you will have stresses
+developed in the sleeve what is the
+nature of the stresses developed in the
+sleeve
+compressor that you should recognize
+ok
+on the other hand if you look at what
+way the strain happens
+The Strain is
+it is only expanding that is elongation
+OK that elongation has two components
+one component comes from
+thermal effect
+the other component comes from stress
+but for the sleeve it is getting
+compressed so that you should recognize
+when you write the expression
+in the case of a bolt
+I have again the thermal effect OK and
+bolt is subjected to tension
+okay so you should recognize the
+difference
+and
+write your Expressions properly
+so that what I have discussed is
+summarized here since the materials are
+different the expansion should be
+different
+steel will expand less
+and the nut will limit the sleeves
+expansion and we have also said there
+are two ways of looking at it it's said
+in the problem itself not this rigid
+on the other hand even if you consider
+as a deformable because the thickness is
+very small any change in the length you
+can ignore it as a second order effects
+so in essence you are treating the nut
+as rigid
+and because of differential thermal
+expansions thermal success would be
+induced in the bolt bolt it is tensile
+and sleeve it is compressive
+ok
+and in the subsequent discussion we will
+put the next strain
+due to Thermal effects labeled as total
+in the Bold as well as the sleeve
+okay
+and
+you write the expression completely when
+we look at stress strain temperature
+relation write the stress strain
+temperature relation completely
+that means don't write only Alpha Delta
+t write the
+stress components too because the
+problem is simple and I have only axial
+stress I have in Only One Direction I
+have directly put Sigma by the message
+here is you should not ignore this you
+should write stress strain temperature
+relation
+when there is an interaction like this
+otherwise you will make a mistake
+and we have already seen
+that EB total is like this
+it is tensile
+and for the sleeve see this is
+compressive you must bring in this minus
+sign here
+see the net strain is
+tensile
+but it has a component from stress which
+is compressive
+but the elongation due to temperature is
+much larger than this
+so the addition of these two
+finally give only tensile strain
+and from the geometry
+what I have as Epsilon B total
+should be equal to Epsilon s l total
+is the idea clear
+that is a very important geometric
+compatibility that you should bring in
+once you do that rest is simple
+arithmetic there is no
+difficulty in handling that so I have
+this as Sigma b t h divided by e b plus
+Sigma slth divided by ESL equal to Alpha
+SL minus Alpha B into delta T
+and you are given and the problem
+statement what are the thermal
+coefficients of expansions
+and I have this as Sigma B temperature
+plus 3 Sigma SL temperature equal to
+72.765
+and what do you do from equilibrium see
+equilibrium also you have to look at it
+so I have a tensile force acting on the
+bolt and I have the compressive force
+acting on the sleeve
+and they are equal and opposite
+so I have two equations
+and I can easily solve for water the
+stresses in the bolt what are the
+stresses in the seal and this is because
+of temperature change
+this is not a complete stresses
+developed on the system
+because the system was initially
+tightened by a nut then a temperature
+change was given you have analyzed the
+problem at two stages
+and when we substitute these values
+please do the arithmetic at home
+and alert me if there is any change
+so I have the second equation as Sigma b
+t h minus 2.408 Sigma slth equal to zero
+so solve these two and get the stresses
+I have the
+stress on the sleeve as 13.45
+Mega Pascal compressive
+and sigma B theoretical as 32.40 MPA
+tensile
+so now if I have to
+find out the total stresses this is
+where we use linearized elasticity if
+the material behavior is non-linear you
+cannot add
+because the material behavior is linear
+and also the temperature change is small
+enough so that the temperature change
+also can be considered as linear
+I can add them and simply solve the
+problem
+so the final stress I saw because of
+tightening the nut has moved down
+because of temperature change it has
+moved slightly above
+and what is the effect of it because of
+the temperature change
+this is the original stresses which you
+have calculated because of tightening
+due to temperature change additional
+succession introduce
+see suppose you are operating a system
+in a situation where you are not
+accommodated the temperature change and
+you have taken factor of safety is very
+small you may eventually end up in a
+failure
+and unless you accommodate the
+temperature change or increase the
+factor of safety either of the two you
+have to do it
+so you should not ignore even though the
+temperature stresses are reasonably
+small many compared to the stresses due
+to tightening
+the point here is when there is a
+temperature change
+additional successor introduced into the
+system so you need to have that
+estimated so that you are designed
+functionality is achieved you should not
+have a failure
+so I get the total stress on the bolt as
+639.62 MPA tensile
+and for the sleeve as
+265.59 MPA compressive
+so the problem brings out how to handle
+problems dealing with
+temperature change as well as mechanical
+load
+fine
+and you know I was interested that the
+glass is a green material it is also
+very interesting to see people have done
+stressors on glass which is a gorilla
+glass
+and when you compress it like this
+it withstands a very high level of
+stresses probably it is an MPA I believe
+120 MPA is able to stand whether other
+glasses which have also gone through
+some kind of heat treatment has not
+withstood
+so this is one aspect of it normally you
+think glass is brittle see you have
+fiber composite you have glass fibers
+e-glass e to Z you have variation of
+glass fibers that is used in polymer
+composite
+and you also have all your data is glass
+fiber that means glass also can be
+processed to be flexible
+and Corning may not reveal the secret
+but you can at least enjoy what is the
+flexibility imagine you are able to bend
+so much without any failure of it so
+people have tamed glass it is
+environmentally friendly now
+and you use thermal effects to do that
+the details may not be available to us
+but people have tamed glass for the
+modern world so in this class we have
+looked at what way the temperature
+modifies the system
+you can have only strain introduced
+if the system is constrained you also
+have stresses developed
+and one of the ways Engineers have
+mitigated thermal effects is wherever
+possible
+if there is a
+thermal issue needs to be accommodated
+if you can allow in a design expansion
+provide rollers on the supports allow it
+to expand so you don't have to worry
+about additional success developed
+that is one of the simplest way to
+handle thermal stresses but if you have
+constraints you also have the stress
+strain temperature relation for you to
+evaluate the
+thermal stresses as well as thermal
+strain and the recommendation here is
+when you write the stress strain
+temperature relation do not simply say
+strain as Alpha Delta t Alpha Delta D
+may be special situation when there is
+no constraint so these are all the ways
+you know you can make a mistake so write
+the complete expression including the
+stress terms plus the temperature terms
+and knock of those terms which are zero
+thank you
+[Music]

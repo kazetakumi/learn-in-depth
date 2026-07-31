@@ -1,0 +1,1201 @@
+[Music]
+digital India educated India
+[Music]
+see we have been discussing about
+principal stresses
+and I said if you express the stress
+tensor at a given point in terms of
+Municipal stresses there are certain
+advantages your mathematics becomes lot
+more simpler
+and while developing the principles
+success we have also looked at what are
+stress invariance
+stress invariants help us to have
+inbuilt checks in our calculations that
+is one advantage
+other Advantage is it can also be used
+to find out
+and investigate whether the given
+structures are corresponds to a simple
+uniaxial stress or pure shear stress
+State fine we will also look at
+what are the other aspects see when I
+look at the
+stress sensor in terms of principal
+stresses
+and I have also said that in order to
+distinguish I have put this in
+different color
+you can also see that these are all
+normal stresses
+and the invariance becomes very very
+simple can you write the invariance i1
+I2 I3 quickly
+you know definition of the invariance
+i1 is straight forward that is very very
+simple
+you should be able to write I2
+as well as i3
+when I express it in principle stress as
+the computation is so simple
+straightforward hardly takes a minute
+fine
+so I have i1 as
+Sigma 1 plus Sigma 2 plus Sigma 3
+and I2 simply becomes Sigma 1 Sigma 2
+plus Sigma 2 Sigma 3 and sigma 3 Sigma
+1.
+and I3 is Sigma 1 Sigma 2 Sigma 3 so
+simple and elegant
+so there is good reason to visualize the
+stress at a point in terms of the
+principal stresses and I also said
+many of the field failure theories
+essentially constructed around the
+principal stresses
+fine so it has an advantage and you can
+actually combine loading from various
+individual loads from that individual
+substance are assemble and get the final
+stress tensor
+from the final systems are get the
+principles stresses and adopt one of the
+failure theories
+and
+you know people also have looked at
+newer
+planes I said some planes are very
+important we have looked at principles
+to explain we have also looked at
+maximum shear stress plane
+fine
+from Principal stresses people also have
+looked at when they were working on
+plasticity what are known as octahedral
+stress plane
+and what you have is I have the
+reference access as Sigma 1 Sigma to
+Sigma 3.
+and this plane is equally inclined to
+the resonance axis
+and we have already said
+certain planes are very important and in
+that list you also include the
+octahedral stress plane why it is called
+OCTA
+I have this quadrant
+I can have four such in the top half and
+forces in the bottom half
+then I'll have
+eight such planes identified
+and whenever you have an arbitrary plane
+the stress factor what you have can be
+resolved into a normal stress component
+as well as a shear stress component
+and we have looked at brittle materials
+failed by normal stress and then ductile
+materials are sensitive to shear stress
+and once they have determined this kind
+of octahedral stress they have also
+looked at what happens to octahedral
+shear stress
+I said multiple cellular theories have
+been created so when you understand what
+is status at a point whichever aspect if
+it is a normal stress what happens when
+the normal stress reaches a critical
+value
+if it is a shear stress look at what
+happens when it reaches the critical
+value on the similar line people also
+have developed theories
+where what happens when octahedral shear
+stress reaches a critical value
+so the term octahedral you can
+understand I can have four such plane in
+the top half
+and I can have four such planes in the
+bottom half
+and they are also nicely colored to give
+you some kind of an enthusiasm in
+learning this course fine don't think
+that these planes are colored OK these
+are normal planes these are colored for
+you to keep your attention and
+development of this goes to
+foreign
+really developed in the early part of
+20th century fine and people thought
+when they were looking at it so it's
+they need to have this also
+now you can find out because you have
+Sigma on Sigma 2 Sigma 3 in the last
+class I said when I have a
+plane the plane is now defined it's
+equally inclined to plane you can find
+out mathematically what is the
+expression for the normal stress and
+what is the expression for the shear
+stress can you work it out and then
+check it with me
+because you are supposed to do a
+homework yesterday I am not sure whether
+all of you have done it because the
+ground rule is you tell the homework it
+is never done
+okay
+so I have octahedral uh the normal
+stress is very simple to write
+that is one third of Sigma 1 plus Sigma
+2 plus Sigma 3
+I get this as in terms of invariant one
+by three I one
+you can also write the
+octahedral shear stress and you will
+find that that can also be expressed in
+terms of the invariance
+okay
+and the
+Tau octahedral
+is given as one third of Sigma 1 minus
+Sigma 2 whole Square
+plus Sigma 2 minus Sigma 3 whole Square
+plus Sigma 3 minus Sigma 1 whole square
+and the entire expression is under
+square root
+and you know the invariance I have I one
+as Sigma 1 plus Sigma 2 plus Sigma 3 I 2
+as Sigma 1 Sigma 2 Sigma 2 Sigma 3 plus
+Sigma 3 Sigma 1
+and this expression can be Rewritten in
+terms of the invariance it's not very
+clear to see at the
+Outlook but you can write it you can
+substitute I 1 and I 2 and simplify and
+make sure that this matches with this
+so I get Tau octahedral shear stress as
+square root by three
+multiplied by I 1 square minus 3 I 2
+this expression under square root
+see scientists when they want to do
+research they also come out with newer
+names
+and this is very
+mnemonical because I have eight such
+planes so OCTA is very nice to attach so
+octahedral shear stress and this is one
+of the later theories
+fan you had the early Theory
+connected to ductile material was
+maximum shear stress theory that was
+there
+for maybe 200 to 300 years
+now what you'll have to look at is
+whether
+multiple theories when you have do they
+converge to a single result
+which will have to wait until we go to
+theories of failure
+but keep that
+curiosity in your mind
+fine
+and people also thought you know I have
+been saying that we are happily living
+in a linear elasticity so I can
+superimpose trust sensor
+and
+any given stress can be uniquely
+resolved into an isotropic State and a
+deviated extra state
+so we'll have to see you have to look at
+this trust tensor the way I decompose
+and you have to figure out what is the
+meaning of
+deviatoric
+okay
+so I have the
+systems are expressed in terms of the
+principles as a sigma 1 Sigma to Sigma 3
+so you will write the stress tensor as
+in this fashion
+Sigma 1 Sigma 2 Sigma 3 in the diagonal
+term
+and this is written as a superposition
+of an isotropic state
+that means I have a constant value
+the value of P
+is identical on all the
+three directions that is what happens
+when you immerse anything inside a
+fluid bath suppose I have put it
+below 100 meters in a liquid you find it
+is a hydrostatic compression
+ok now we have to choose what is p
+what is the way you have to select T
+that matters
+and P is taken as
+one third of Sigma 1 plus Sigma 2 plus
+Sigma 3.
+so can you
+fill what should be the
+stress tensor that add up to Sigma 1
+Sigma to Sigma 3.
+Can You Feel the next one
+you can easily do that
+because I have separated out a path
+where the stress magnitudes are p
+and we also understand that this is
+hydrostatic state
+and if I have to have the addition equal
+to Sigma 1 Sigma 2 Sigma 3 on the
+diagonal
+The Matrix or the stress strands are
+simply Sigma of a minus P Sigma 2 minus
+p and sigma 3 minus p
+can you comment from whatever you have
+learned so far
+what this represents
+from what we have discussed
+anybody can make a
+intelligent appreciation of what this
+trust sensor is this is definitely
+called a deviator extra State I have not
+deliberately given what is other name
+I want you to find out and tell me from
+what we have learned so far
+I can give you the clue use the
+invariant
+we have looked at invariants have some
+advantage
+it is learned very recently
+this stress tense or represents what
+kind of stress state
+that means you are sleeping you are not
+exercising your mind
+you have learned it just in the previous
+class
+huh
+i1
+we are I am asking
+you have a stress tensor when some
+substances are is given you can find out
+what trust state it represents I gave a
+clue that you can arrive at the state by
+looking at the invariance
+and this is a simple mathematics that
+you love to do
+somebody said I am able to hear some
+voices yeah this is
+ah because i1 is zero
+you should be able to see that
+see if you don't see that then you are
+not learning
+it's not that you simply copy down
+whatever that is discussed in the class
+without assimilation
+you are able to see now
+I have separated this stress tensor into
+two components one is the hydrostatic
+stress State another is a stress State
+like this and you know how to look at
+the stress State and comment about it
+that has been taught to you
+apply that knowledge
+so this is nothing but a pure Shear
+state
+so what happens
+when you have a hydrostatic state
+it can either get compressed or
+elongated
+expanded on all directions in similar
+fashion because we are looking at
+isotropic material
+if it is a Shear State the material gets
+distorted
+so once people have found this kind of
+quantities you know assign this do not
+keep quiet so we have also said this
+material is like a spring
+what is the property of the spring this
+is very attractive to you it can store
+energy like spring stores energy
+elastic materials also can store energy
+so people thought I have a deviatric
+Caster state so what happens to the DVA
+trick
+energy
+associated with this trust State you
+understand
+see if you look at if there is truth
+whichever way you start
+and investigate I must get one answer
+only that is truth
+no matter which way I have looked at
+see while developing the state of us at
+a point we looked at a graphical
+representation like Mohr Circle
+we understood how to evaluate principle
+stresses then we did mathematical
+development that also gave the identical
+expressions
+isn't it we will also see some
+experimental information which will add
+up to this knowledge
+so if you look at any of these branches
+developing people have verified it again
+and again
+because you are developing new body of
+knowledge it has to be verified it's not
+that you wake up from your dream and
+then say this is the result and
+everybody should accept it if science
+doesn't go that way
+and let us go back to the orientation of
+the principles as using more Circle
+this is a very useful utility of a more
+Circle you don't have to sketch it
+with geometric accuracy
+it can be used to find out the principal
+stress orientation and Ambiguously
+okay
+and you have this
+principles trust one it is given as 2
+Theta 1
+this is an acute angle
+and you have an obtuse angle with
+respect to the x axis the principles's
+direction to you label it as 2 Theta 2.
+and why do you need this when you have
+the expression Theta equal to one half
+of tan inverse 2 Tau XY by Sigma x minus
+Sigma of a you have to recognize that
+this is a multi-valued function
+it's not a single valued function
+so once you get the result
+you will have to investigate which of
+them represent the principles As One
+Direction which of them represents the
+principles stress to Direction by making
+a simple sketch
+and you can quickly find out I would
+like you to develop that habit
+when you are having Sigma 1 Sigma to
+Sigma 3 you arrange them algebraically
+you cannot do the same for Theta 1 Theta
+to Theta 3.
+okay
+and you know when I have Sigma 1 Sigma 2
+Sigma 3 are distinct I will have
+different uh
+directions associated with the principal
+stresses and they are mutually
+perpendicular
+we have seen mutually perpendicular from
+our Circle
+fine
+we are still not established it as
+mutually perpendicular from mathematical
+perspective
+I will also try to give an experimental
+perspective which is done in early part
+of 20th century so that you can get
+convenience when I say principles they
+are mutually perpendicular these are all
+very celebrated results
+the celebrated results have been
+verified multiple times in the history
+of evolution of engineering okay
+suppose I have Sigma 1 equal to Sigma 2
+and sigma 3 is distinct
+what happens to a more Circle it becomes
+a point
+is idea clear
+when you have that as a point
+the expression for the radius goes to
+zero
+when this goes to 0 it implies shear
+stress is zero
+and shear stress 0 is a definition for
+your principles trust planes
+so that is the reason why
+every direction perpendicular to the
+sigma three direction is a principal
+stress Direction
+on this plane every direction is a
+process Direction
+so these are all special cases
+fine
+see while developing the principle
+stresses mathematically I made a
+statement this can also be solved as
+eigen value eigenvector approach but we
+did not solve it like that
+I got the determinant as 0 I pulled out
+only two dimensional case and it was a
+quadratic equation so it was tempting to
+solve by simple quadratic approach and
+you got the numbers
+we got Sigma on Sigma to Sigma 3 we
+never worried about
+they
+directions
+now what we will do is
+we will go and see how I can evaluate
+the orientation from a mathematical
+approach because you are living in the
+computer world
+if you have to go and depend only on a
+graphical approach
+it will not help in these days so you
+should also have a mathematical
+methodology that helps you to do that
+and it's very simple it's very
+straightforward I just take a
+two dimensional case
+so in this case I have the eigen values
+as Sigma I representing one and two
+and the direction cosines associated
+with this is given with a
+subscript I
+and if I take a two dimensional case
+I already find out
+the principles success using the
+quadratic expression
+so a substitute
+instead of Sigma Sigma 1 and I have this
+expression can I use this to solve for
+an excellent way you have two
+simultaneous equations you can easily
+solve for two unknowns it's
+straightforward
+and I use the second equation to get the
+expression for NX
+and we also know
+NX square plus n y squared equal to 1
+ok so I have n x equal to minus Sigma y
+minus Sigma 1 n y divided by Tau XY from
+this equation
+and I can use this
+for me to find out what should be the
+expression for the
+n y
+so I have this
+substituted in this
+okay
+and when I simplify
+how do I get I get
+n y as square root of 1 by
+1 plus Sigma y minus Sigma 1 divided by
+Tau X by whole Square
+so you have always said when you use
+mathematics you should use mathematics
+very precisely when I put square root
+what are the roots
+both positive and negative are roots
+isn't dead
+so you should investigate what happens
+when n y is positive and n y is
+negative from this
+and I get the Theta orientation in a
+simplistic manner as Theta equal to tan
+inverse n y by n x
+so take up a simple stress tensor
+and then find out the principles as
+Direction
+using your conventional approach of
+more Circle
+and also use this and substitute for
+post positive root and negative root and
+have a clear understanding how this
+expression helps you to find out
+the associated direction if I have taken
+Sigma 1
+this will invariably give you the
+direction of Sigma 1 only you do not
+have to go to more Circle and then
+verify
+convince yourself by solving
+test problems created by you
+is a radial clear okay
+see this also I asked you to try
+yesterday as a homework how many of you
+trade
+see once people develop certain Concepts
+the mathematicians don't keep quiet they
+try to find out some identities
+and what you have is
+suppose I take a point I take an
+arbitrary plane again
+and if I know the stress factor is t n
+and I take another arbitrary plane which
+is n Prime
+with our symbolism we will say the
+suspect are acting on that is T and
+Prime and mind you these are vectors we
+have already understood will not put the
+vectorial notation is easy for us to
+interpret once you understand the
+nomenclature that we have
+mentioned in the earlier classes
+you have an identity
+t n Dot N Prime equal to T N Prime Dot N
+See this is a vector this is a vector
+and this is the representation of the
+dot product whatever the software that
+we have used to write the equation it
+puts the dot product only like this
+earlier I try to show it with a big dot
+later on I gave up it's because it's
+becoming difficult to edit every
+equation
+so you understand that this represents
+the dot product
+this identity we will verify and we will
+also use it
+to show that
+principles are mutually perpendicular
+first we will take this identity if you
+have done the long hand mathematical
+Expressions if you have calculated what
+is t n
+what is t n Prime and we have done the
+dot product you would have got both the
+expressions are identical
+find which you should have done as a
+homework
+nevertheless we will
+verify it in a different manner but
+before that
+I would like to show mathematically that
+principles such directions are mutually
+perpendicular
+so I take this identity and I say that
+I have principles Sigma 1 and sigma 2.
+and
+from your cautious formula I can find
+out what is stress factor TN and T N
+Prime
+so if I look at the identity
+they have to be
+equal like this so if I substitute for t
+n
+and T N Prime
+I get this Sigma 1 Dot N Dot N Prime
+equal to Sigma 2 Dot N Prime Dot N
+in a generic problem Sigma 1 and sigma 2
+are non-zero
+but if you have to maintain the identity
+of this
+what should go to 0
+you get the point
+the dot product of n and n Prime should
+go to zero that's what this equation
+says when I have this identity to exist
+if the dot product is 0 the identity is
+validated when do the dot product goes
+to 0 when the directions are
+mutually
+perpendicular ok so that means
+I have the
+this one on
+diameter that's what you have okay which
+we have already
+learned it while doing the more Circle
+and you have this two planes
+are perpendicular to each other the
+principal planes can only be
+perpendicular it's a mathematical
+development
+fine
+now we go and take a simple stress
+tensor and then verify mathematically
+whether this identity is
+existing okay
+so
+okay before that I think I have
+experimental verification of this
+see you are all now familiar with
+failure of a chalk
+how does a chalk fail
+when you have the normal stress reaches
+a maximum
+it fails
+okay and we have also classified that
+kind of failure
+associated with a material which is
+brittle
+and what is done here is very
+beautifully
+this is a cantilever Beam on which you
+spray a paint
+which
+is a brittle material
+and when I apply the load what you find
+is you have cracks getting developed you
+have cracks
+can you associate the crack to
+a physical reality
+that means the normal stress at that
+point has reached a maximum
+that is why the crackers form
+so
+tangential to the crank is the
+principle's direction
+one of the principles Resurrection
+perpendicular to that is what I am
+applying C principles is a mutually
+perpendicular so the direction
+perpendicular to the crack as well as
+tangential to the Cracker
+principles as Direction
+and what is done is
+people have taken it's a very
+complicated experiment because this is
+done in compression so I have to spray
+the paint when the object is compressed
+then slowly release it I will get first
+set of cracks
+and then apply the load again and then
+slowly release it I'll get the second
+set of cracks if you see this here do
+you see the two families of crack
+patterns
+their orthogonal patterns
+two families of isostatic these are
+called isostatics
+and this technique is called brittle
+coating
+this was done in the early 1930s also
+this is the only experimental proof that
+gives
+a demonstration that principles trust
+directions are mutually perpendicular
+but before that I'll also like you to
+see one region here here if you look at
+the cracks are random
+okay
+we have also seen when Sigma 1 equal to
+Sigma 2
+every direction is a principles's
+Direction so that means
+crack can appear in any direction
+depending on the local weakness of the
+material
+fine
+and I also show a blown up image of this
+here you can see
+that you have two orthogonal families
+are you getting convinced can you make
+at least a few line sketch of this
+region
+I have one family of crack pattern
+another family of crack pattern they are
+mutually orthogonal
+and this is demonstrated from point to
+point see you are actually discussing
+state of stress at a point of Interest
+when you go to Whole field experimental
+techniques you get a picture what
+happens on the field you need that kind
+of information also
+imagine structures were developed in
+1822
+and you are
+verification whether principal sources
+are mutually perpendicular
+experimentally happened in 1930s until
+then they didn't have this kind of an
+experimental approach
+and this convincingly proves that
+principal success are mutually
+perpendicular so
+in science when people make statements
+they verify it from various perspectives
+so when you do your mathematical
+calculations also I want you to use this
+stress invariance
+and effectively use it to verify your
+research you can verify it yourself it's
+not that only when you are the answer
+book is corrected by me I verify whether
+your answer is right you can verify
+yourself whether you've got the correct
+answer when you do stress transformation
+when you do principal stresses so
+certain aspects of a calculation you can
+verify if there is a possibility to
+verify
+utilize that
+don't be in a hurry you followed it you
+got some number and you just write it
+down I expect you to verify
+so now what we will do is we'll
+do a class of problems which will verify
+whatever the identities that we have
+developed
+and also how to get the principal
+stresses
+stress transformation Etc now I want to
+take two planes I have the
+plane like this one comma 0 and I have a
+stress tensor
+and I want to take another plane which
+is at
+45 degrees
+it's easy for me to write the
+Direction cosines
+so n Prime is nothing but 1 by root two
+one by root 2. can you go and
+verify the identity t n Dot N Prime
+equal to T N Prime Dot N
+I have given you the stress tensor
+please take out your calculator
+and you have the cautious formula to
+find out the suspector find out the
+individual stress vector
+and take the dot product
+then verify with my slide
+fine that's simpler way of verification
+of these identities one long hand way is
+put the expression and make sure that
+the expressions are correct which you
+ought to have done if you have not done
+it go back and do it at least today
+so I have to verify this identity
+very simple to do it's a very simple
+calculation the idea of doing the
+calculation is that you should retain
+in your memory that such identities
+exist so if you solve a problem you
+remember them better
+so I have this I have the
+stress Trends are given I have
+1 comma 0 is the plane
+and
+I have this t n Dot N Prime if I want to
+calculate can you get t n
+formula
+and then we you can verify what is t n
+Dot N Prime
+very simple to do
+I have n Prime is one by root 2 1 by
+root two I have all the quantities that
+I need
+so when I do this
+I get this as
+100i plus 52 J
+multiplied by 1 by root 2 y plus 1 by
+root 2 J
+that gives me 152 by root
+can you do T N Prime Dot N
+when you do that you will find that this
+is also
+identical
+very simple calculation is not very
+complicated or anything like that
+but if you do that you will remember the
+identity t n Dot N Prime equal to T N
+Prime Dot N I have the direction cosine
+I have to get t n Prime
+and I have n all the quantities are
+there so when I do this I get this again
+as
+152 by root
+so this shows that you have the identity
+we have already utilized the identity to
+prove that principles as directions
+have to be perpendicular mathematically
+and we have also seen by a beautiful
+experimentation called brittle coating
+you have two families you have also seen
+the whole field representation
+not just at a point
+that is very difficult to do
+that is why it took so much time and it
+was done by duralee
+fine it was a
+proponent of that technique
+now we will go for
+stress transformation principles as
+Direction
+so on and so forth I have a pictorial
+representation
+we have already seen you have a
+pictorial representation can you write
+the tensorial representation
+if the pictorial representation is given
+in this manner
+can you write the tensorial
+representation
+once you write a tensorial
+representation can you go and give the
+graphical representation
+you should be able to do it quickly
+because we have spent sufficient time on
+developing the fundamentals
+stress tensor can be given pictorially
+can be written in a tensorial fashion
+can also be given to you in a graphical
+manner I can also give you a more Circle
+and ask you to do calculations
+so the tensorial representation is
+the same 152 52 40.
+and can you draw the most Circle
+more circle is very straightforward
+and you have to mark the X and Y plane
+correctly
+X and Y plane correctly if you draw it
+with the convention
+if you rotate in the clockwise Direction
+in the most Circle you can also rotate
+in a similar Direction in the
+physical plane to locate the
+plane of Interest whether it is
+clockwise or anti-clockwise whichever
+way
+so I have the graphical representation
+is like this
+I have the sigma and Tau axis
+so I explained will come in the
+first quadrant or which quadrant
+fourth quadrant okay so I have the X
+plane I have a y plane join them
+and I get the center
+and draw the circle
+so I have everything any plane of
+interest if you say I can go to the more
+Circle and get it but we would also like
+to do it mathematically
+you also know that you have the
+principal stress as one and principal
+success two
+and from this diagram you can say the
+acute angle is
+Sigma One Direction and obtuse angle is
+Sigma two direction if I do the
+calculation
+if my multi valued function gives me
+acute and obtuse angle I should
+correctly filter out which is Theta 1
+and which is Theta 2.
+and you have the maximum shear stress
+representation
+so what we will do is we will go and
+find out the principles process
+mathematically
+you have the expression can you get me
+the principal stresses
+you have the mathematical expression you
+have the
+identities now what I would request is
+when you get the principal stresses also
+verify from the invariance
+you develop that habit right now
+so I should get i1 and I2
+wherever that is relevant in many cases
+even i1 should be sufficient
+but while we develop the practice it is
+better that you calculate I 1 and I2
+then it will become familiar when you
+want to do the
+Expressions that require I2 to be
+determined so what is the value of i1
+it's louder
+140 what is the value of I2
+calculate
+I get I2 as 1 2 9 6. so the habit is get
+the invariance calculated
+find out the principle success anybody
+has found out the principal stresses by
+using the quadratic expression
+ok
+so you have this basic expression
+and you get 130.03
+and sigma 2 as 9.96 I have to give you
+know the decimal places because when
+they add up
+it adds up to
+does it add up to 140
+it adds up to 140. so that's an inbuilt
+check
+fine and you have the expression for
+Theta
+and when I get this first write it as
+like this
+Theta can have 30 120 and all that
+do not jump and write whatever the first
+file you have called as Theta 1 second
+value what you have got as Theta two
+don't do that
+we have to qualify and for this you can
+take the advantage of more Circle
+you have the acute angle so I can label
+the acute angle as Theta 1
+and obtuse angle as Theta 2. I am
+telling you
+a recommended procedure verify the
+invariant
+and
+also use the Mohr Circle to label the
+Theta 1 and Theta 2 directions
+it is very fast and you also use the
+most Circle in a very effective manner
+suppose I ask a question
+you know I can also represent the same
+trust and charge in terms of principal
+stresses
+the same trust tense are
+state officers at the same point can be
+expressed in a different manner I want
+you to recognize that in this
+representation
+I have zeros that makes my mathematical
+development very simple
+okay
+and this is Trivial let me not spend
+time on this because I can get i1 I2 I
+can also say that this is the principal
+stresses again and then say Theta 1 and
+Theta 2 are 0 and 90 that's
+straightforward representation
+but what we will do is we will find out
+for a arbitrary plane the stress tensor
+for us to make the life simple let me
+take a plane at 45 degrees Theta equal
+to 45 degrees
+you know I have told you how to write
+the
+expression based on the integral
+notation can you write the expression
+for Sigma X Prime X Prime
+Tau X Prime y Prime
+Sigma y Prime y Prime can you write it
+down
+can you write it down it's a practice
+say you have to pick up speed in some
+sense fine you have to pick up speed in
+some sense
+but verification inbuilt clarification
+wherever it is possible you should be
+able to do that you should not shirk
+from that is the idea behind it
+so you have the expression
+Sigma X Prime X Prime we have seen it
+several times in the class
+Tau X Prime y Prime and you also have
+Sigma y Prime y Prime and when I
+substitute
+the quantities
+the stress magnitudes as well as Theta
+equal to 45
+this comes out to be 122 MPA and Tau X
+Prime y Prime is minus 30 MPA
+and sigma y Prime y Prime is 18.
+can you verify whether our computation
+is correct
+check the i1 what is the value of I one
+again 140 so that means we have done
+this stress transformation correctly so
+that aspect I want you to absorb can I
+find out what is the principal stresses
+based on this representation of stress
+sensor at the same point ideally what I
+should get
+I should get the same result like what
+we have got earlier from a different
+system do the computation
+I am going to show that you can easily
+verify it you should be in a position to
+do that and also verify whether your i1
+I2 are identical and how do you label
+the
+principles as Direction
+principles as direction will be
+different now principles does magnitudes
+will be same but I am looking at from a
+different plane so principles of
+directions will be different
+so with that idea if you look at it and
+utilize your more Circle effectively you
+will find it useful so I have
+the new stress tensor is referred with
+respect to
+45 degrees
+okay
+from the original that is why this is
+perpendicular to that
+and you have a clue what should be your
+principles's direction
+with respect to this stress tensor
+anybody has results
+because you know next slide I'm going to
+show my results I am not going to spend
+time on it
+at least you calculate the prince
+process Direction because principles
+trust magnitudes will be identical
+you can easily calculate
+two topics y divided by Sigma x minus
+Sigma by calculate Theta
+can you calculate Theta
+by the time I will have the other
+computations shown on the screen
+so this is just to make you recognize
+the steps I have the i1 and I2
+and then when I use the quadratic
+expression
+I do get the same magnitude of Sigma 1
+and sigma 2.
+tell me the principal stress Direction
+what are the values that you've got now
+anybody
+at least I should have one student
+complete in the competition
+is idea clear you have the expression
+for Theta
+2 Tau XY divided by Sigma x minus Sigma
+y my suggestion is write all the values
+from that
+as Theta
+and comparing it with the Mohr Circle
+label that as Theta 1 and Theta 2.
+anybody has got the values now
+I think it's taking little more time
+than what I anticipate
+okay I will give you the values
+how many of you have got minus 15 and 75
+okay then why did you not tell me
+okay
+so I look at the more Circle
+so from the Mohr Circle I can say Theta
+1 is minus 15 why it is minus
+it is clockwise
+fine I have this as the reference plane
+from this plane I have
+obtain the Theta direction is ideal
+clear
+do you know how to do the computation
+so you have seen for yourself whether I
+take the stress tensor
+with respect to X Y plane or this plane
+I get the same Sigma 1 and sigma 2
+ought to be but you have seen it black
+and white in this
+and this is summary because this gives
+you what is the way that you should look
+at the stress tensor
+State options at a point it can have
+multiple avatars all are identical they
+look different
+fine see Hindu gods are different but
+the concept of God is one you have that
+expression here the stress tensor looks
+different from different planes
+fine but they all represent the state of
+such a point
+the principle success are identical so I
+have this hundred fifty two fifty two
+forty let me Mark that as big blue dot
+on the more Circle
+I have the
+more Circle drawn then the second
+representation is it can be represented
+with respect to the principal stresses
+the stress tensor appears different
+the principal planes are beautifully
+shown here so I have the principle such
+Direction one and two shown
+I have referred with respect to the X Y
+axis 152 5240
+with respect to 1 2
+I have this as
+130.03
+9.966 the stress tensor
+representation appears different
+okay but we have seen that it represents
+the same
+state of stress for the point of
+Interest then we have also looked at the
+plane at 45
+and what are the magnitudes that we have
+got
+we have got that as 122 minus 30 minus
+30 18.
+see here everything is positive some
+quantities are negative here
+and some quantities are 0 here it is
+again state of such at the same point it
+can appear differently
+but from a Mohr Circle it is very easy
+to see
+but from a numbers is difficult to
+comprehend
+okay
+so this also you have with the axis
+oriented here
+I would appreciate that you draw this
+sketch
+okay you have this
+I have this
+represented in this fashion stress
+tensor is represented with respect to
+the X Prime y Prime
+I can also represent the substance R
+based on the
+maximum stress plane
+I can also do that
+I have all the numbers from the Mohr
+Circle
+from the more Circle I can pick out this
+and this is the stress transfer with
+respect to the
+maximum
+plane
+so what we have done is we have
+represented the substance are from X Y
+1 2 x Prime y Prime as well as X double
+Prime y double Prime all are giving the
+same values of principal stresses
+and using more Circle and the expression
+for Theta you can correctly fix the
+principles as Direction one
+whether it is Theta 1 or Theta 2 you
+have to filter it out from your result
+not the first result is Theta 1 and
+second result is Theta 2.
+so in this class you know we have looked
+at
+what way the principles success
+have encouraged the researchers to come
+out with new ideas
+one of the new idea which we saw was
+identification of
+octahedral stress plane
+other idea was splitting the stress
+tensor into a composition of an
+hydrostatic State plus a purchase
+trusted instead of deviatrics the state
+will call this a fuchsia State because
+we know what happens if you share
+that you are able to identify by
+utilizing the invariants
+then we have also proved mathematically
+that principles such directions have to
+be mutually perpendicular and also saw a
+beautiful
+experimentation by brittle coating that
+gave two families of Curves on the
+entire body that show that every point
+on the object
+you have principles of Direction at that
+point mutually perpendicular that is
+seen at every point in the whole field
+then we have also learned how to do the
+computation systematically
+as well as to do the inbuilt checks I
+expect you to do the inbuilt checks and
+then report the results thank you
+[Music]
+thank you
+foreign

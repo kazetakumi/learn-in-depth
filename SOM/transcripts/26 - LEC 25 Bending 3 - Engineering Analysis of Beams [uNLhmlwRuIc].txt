@@ -1,0 +1,1221 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on
+bending of beams
+in fact
+we have developed the
+basic equations
+of strain and stress
+by considering the plane of symmetry
+we have got the expression of strain as
+minus m b y by e i z z
+and sigma x equal to minus m b by by izz
+if you look at the theoretical
+development we have recognized it has a
+plane of symmetry
+on the plane of symmetry
+we have applied the loading also and we
+have got these expressions
+we did not stop there you know we took a
+counter example
+suppose I take a beam like this and then
+have large deformation
+when I consider the thickness
+what happens to the position ratio
+effect
+so we asked counter questions when we
+developed the theory in order to
+understand its limitation
+we set
+because operation ratio you have
+anticlustic curvature
+because we are working in small
+deformation these equations are
+applicable so be satisfied
+the moment I go to large deformation I
+should work with
+deformed configuration we have not
+attempted to do that mathematics but we
+satisfied
+when I have small deformation my
+equations are reasonably good and you
+have also got the flexor formula
+I am not sure how many of you recognize
+when I apply constant bending moment
+the beam bends these are like
+Arc of a circle
+why because the bending moment is
+constant along the length
+the bending moment is related to the
+curvature
+so you have Arc of a circle
+okay
+and when we looked at
+slightly different problem where I have
+a step because I said in engineering
+practice you need to have a step so that
+you can locate the bearings
+that's a simple modification I have made
+but I have not done anything to the
+loading the loading is still only pure
+bending moment
+when I have only pure bending moment I
+have a very interesting result
+away from this small Zone which is
+having the step I find the fringes are
+horizontal
+and I also have the black line forming
+at the center
+and if you have actually noticed the
+animation you would have seen that black
+line was initially very Broad and it was
+becoming sharper and sharper as we
+increase the bending moment
+like what we have seen in a beam of
+constant cross section subjected to Pure
+bending you see the same features even
+in a stepped beam
+and you also have the definition of
+neutral axis in the neutral axis when I
+have a triangular variation
+the stress value is 0.
+fine you know photo accessory plot Sigma
+1 minus Sigma 2.
+both Sigma 1 and sigma 2 are 0 and you
+also have this neutral axis
+it was a very comforting scenario that
+whatever we have developed
+based on simplified
+appreciation of what is the deformation
+we have got the solution and the
+solution is valid
+see whenever we discuss
+we will also have to look at exact
+solution and compare ourselves are we
+getting the right solution which is done
+and what do you do that you do that in
+theory of elasticity
+fine even though I'm not going to take
+the area of elasticity in all its
+completeness you just look at what
+happens to this point a and you know
+from your bending equation that Sigma X
+is given as minus m is at y by i z z
+and I said that you should cultivate the
+habit of looking at the stress component
+and putting that as a stress tensor and
+what we have developed we have developed
+differential equations defining the
+equilibrium of the solid
+we have not used it in this course till
+now
+and whole of theory of elasticity
+utilizes these differential equations
+solve this problem as a boundary value
+problem and you get the solutions is
+exact where you don't make assumptions
+about the deformation
+you evaluate the deformation as part of
+your solution
+and if you look at this
+in the absence of body Force we have
+already said in strength of material
+that Shear stresses do not exist because
+I apply only a pure bending
+I have only Sigma x x
+and sigma x s is found to be a function
+of only y so when I differentiate with
+respect to X it goes to 0. it satisfies
+the boundary condition is the idea clear
+so any problem that you do
+you verify
+Your solution with an experiment
+whether it is an experiment based on
+bending of a beam like this
+or when you look at foot elastic fringes
+if the experiments are carefully done
+what you get in an experiment is truth
+and your theoretical development should
+conform to that
+if it is not confirming then you must
+find out what is its limitation what way
+we can improve so you should always keep
+track of that experiments or truth is
+there
+performed carefully
+if you don't do the experiment carefully
+then there's no fun
+okay
+now what I do is
+ask a question
+can beam Theory be extended to
+cantilever B
+I make only one small modification
+in the earlier problem we didn't have
+Shear Force
+and in this problem I take a Shear Force
+which is
+constant on the length of the beam
+because it is constant I find the
+bending Bond varies along the
+length of the beam
+it does not remain constant it has a
+linear variation
+whether the solution we have obtained is
+applicable here is the question
+and you know I have taken a line which
+is away from the point of loading I have
+also taken a line away from the 610
+condition I have a region here
+where I can reasonably anticipate my
+theory should explain the features of
+the fridge
+what is the first observation you look
+at what is happening at the center of
+the beam where you normally think that
+will be a neutral axis
+it was black in the case of pure bending
+as well as stepped being subject to Pure
+binding what do you find here what is
+your first observation keep these
+observations
+first of all this is not black
+that means you have stressed us there
+is idea clear are you able to see
+it's okay
+now what I have here is
+I have the bending moment varies
+linearly along the length of the D that
+means when I go from this point to this
+point the bending moment is increasing
+suppose I say I can use the flexure
+formula
+which I have it here
+and then I put the bending moment
+corresponding to
+what I have in the minimum diagram and
+evaluate the stresses
+the bending moment is varying linearly
+and when I move
+along this direction you would
+anticipate stresses also increase
+if I have
+stress occurring here the same value of
+stress occur at a lower place
+because the bending amount is higher is
+the idea clear that is happening
+the bending moment is varying linearly
+but I find that this is not varying
+linearly but this has a
+curvature
+the observation is correct
+but you have one more difference I have
+a bending moment varying along the
+length of the beam
+I also have shear stress I have a new
+addition because the way the beam is
+loaded
+so I have to account for what way this
+shear stress is going to
+influence the shear force is going to
+cost you shear stress
+and long back we have discussed you know
+you have this as a free surface this has
+a free surface
+you can find out the distribution of
+shear stress variation from our Center
+materials
+whatever the result I get because it is
+a free surface here the free surface
+here this should go to zero at those
+points that we have made it clear
+now what I find is
+I have raised a question where is the
+neutral axis that is question number one
+our observation is that I have a color
+other than black
+and we know when I have only the bending
+stress I will have the stress State as
+Sigma XX best all of 0
+this is what we have evaluated till now
+we have not evaluated what is the shear
+stress variation
+that we will hopefully do it tomorrow
+but you can make an observation that The
+Fringe variation What You observe
+is influenced by the shear stress also
+okay
+and one can say when I have this as 0
+here 0 here and there
+Center the color is not black so I have
+some value of shear stress so one
+conjecture is shear varies from zero and
+then goes to zero probably it attains a
+maximum at the
+center of the beam one conjecture I am
+doing okay
+now what you will have to look at is
+Sigma 1 minus Sigma t equal to 0 is what
+my photographic fringes gives
+in the beam under pure bending I have a
+neutral axis whereas by Theory itself
+your Sigma 1 is 0
+Sigma 2 is also zero and I suppose you
+appreciate when we label Sigma 1 Sigma 2
+I always label the highest magnitude as
+Sigma 1 algebraically and the lowest one
+as Sigma 2.
+and in the case of a beam when I have
+bent like this the top fibers are
+subjected to tension and bottom fibers
+are subjected to compression so in the
+top half of the beam my Sigma 1 will be
+same as Sigma x x
+and the bottom of the beam my Sigma 1
+will be
+zero
+fine Sigma 2 will be where the
+compressive stress so I will only have
+positive fringes
+and what my observation at the center of
+the beam shows
+I don't have the luxury of saying that
+both are equal to zero
+I don't have that luxury at the center
+of the beam
+now the question is can I use this
+expression for me to find out the
+bending stress in fact that is what we
+do
+we simply take this expression
+and then look at the bending mount
+diagram pick out the bending moment at
+that
+point in the
+in along the length of the beam use that
+and calculate the bending stress as if
+we don't look at what is the influence
+of shear stress I get only the bending
+component by using this expression and
+that is an accepted and valid practice
+fine
+and you know very well along the if I
+say that this is applicable in the
+centroidal axis my bending stress is
+zero
+and we have seen that I have Shear
+success
+transmitted so I have Shear at the
+center of the beam okay and in the case
+of an isotropic material what happens
+normal stress introduces normal strain
+shear stress introduces Shear strain
+and what we defined as a neutral axis
+neutral axis only elongates
+it does have no elongation and no
+contraction
+above the neutral axis depending on the
+sign of the bending moment it can
+contract or elongate
+so we are only talking about axial
+deformation
+even if I have Shear present along the
+horizontal axis it is not going to
+influence the strain in isotropic
+material I think I also have the
+isotopic material for yeah isotopic
+material
+just to remind you that normal stress
+produces normal strain and shear stress
+produces Shear strain
+see we have been very very careful in
+developing the problem we want to do it
+only for isotopic materials why we do
+all that
+we can understand all this in a
+simplistic Manner and
+get the core of the problem the core of
+the problem is
+you are
+stress Sigma X varies linearly across
+the beam
+okay and it reaches zero and you also
+know from Center materials now when this
+is bent like this I have maximum 10
+sales stress here and maximum
+compressive stress here
+so when I put one strain gauge on the
+top I put the strain gauge exactly below
+I connect them in the wheatstone bridge
+in adjacent terms they subtract
+so minus of minus becomes plus so I have
+addition of
+signal
+so all that comes from this
+understanding
+so at this stage what we say is you can
+extend it to
+analysis of cantilever beam
+and the moment you say that it transmits
+shear
+I am going to get Shear deformation
+which will violate plane sections remain
+plane before and after loading so I must
+coin whatever the analysis I do as
+engineering analysis of beams
+your exact analysis stops at puberty
+anything other than that even though we
+exploit those expressions you need to
+carefully look at that as engineering
+analysis
+you know I was quite happy that you have
+done a beautiful set of experiments this
+is what I said when you do the
+experiment carefully experiment this
+truth if you don't do the exponent
+carefully explode is not truth fine and
+in fact Whoever has obtained this Fringe
+pattern here I should complement because
+it's very difficult to
+handle this model in the polariscope and
+then apply load with your hand
+and you know when you do experiment you
+also anticipate results no one does the
+experiment blindfolded you before you do
+the experiment you have an hypothesis
+you want to see whether my experiment
+gives that hypothesis
+okay because I have been repeatedly
+showing that you get constant color in
+the case of axial Force that has
+prompted you to adjust your loading in
+such a manner that you got constant
+color the same experiment done by some
+other group you didn't get constant
+color for the entire
+length
+and you have also done three point
+bending
+see this needs little more attention we
+have to see whether my theory my sancta
+material solution is giving me the
+result in all its completeness
+we will initiate the discussion you have
+to wait for the shear Force development
+for you to complete the discussion
+and you know I have this as a three
+point bin very similar to your
+cantilever
+because when you look at the shear Force
+Shear force is constant and your bending
+moment is varying linearly
+so if I can apply my sancta material
+solution to cantilever beam I can also
+apply to
+three point bending because this shares
+the same feature here okay on both the
+sections
+and I would like you to take a
+photograph of this because these Fringe
+patterns are very very interesting
+that needs to be looked at and discussed
+okay
+the moment I have Shear Force which I
+have introduced it is going to warp the
+section so symmetry arguments are
+strictly not applicable
+and I want to emphasize we don't give up
+as Engineers we do the analysis we
+recognize that we have made an
+approximation
+we label this as engineering analysis
+so the bending stress distribution is
+valid even when M varies along the beam
+now we are not investigate that this is
+influenced by
+the shear stress introduced
+and what you'll have to look at is
+whatever The Fringe pattern I have shown
+here they agree with theory of
+elasticity solution
+and we have to investigate
+how do they compare with strength of
+material solution
+if I have to compare it with Sanctuary
+solution I should also know
+how to calculate shear stress variation
+across the depth of the beam which we
+have not done till now
+fine we know only the bending such
+distribution
+and at this stage I want you to observe
+how The Fringe patterns are
+I am also having a bigger
+um
+blow up of The Fringe patterns
+overlapped and what I want you to
+observe is you know you know the bending
+moment is varying linearly across the
+length it's increasing
+and we have seen that Fringe is having a
+curvature
+and when you come closer to the load
+application point I have this curvature
+and it has a sharp tone
+this idea clear
+do you make that observation
+and we have to understand whether my
+strength or material solution what we
+are going to develop in terms of shear
+stress
+is good enough to capture these or not
+you will have to wait
+but have this observation in mind when
+we develop the discussion we will find
+out an answer
+okay
+and the moment I introduce a shear
+stress I am not going to have these
+sections remind plane
+they get deformed
+and this is based on
+the final solution
+okay you can make certain observation of
+this
+see this line is perpendicular to this
+free surface
+so when the deformed section is
+perpendicular that means the original 90
+degrees preserved what you do say about
+shear
+Shear is zero
+share is change of the original
+rectangle his idea clear
+and I have also made a conjecture that
+it is maximum at the center of the beam
+and I have the maximum deviation from 90
+degrees at the center Zone as a
+deviation
+and what I have is
+the plane sections have worked
+whole of our beam analysis was based on
+the premise plane sections remain plain
+before and after loading
+on that basis we calculated the bending
+stress distribution bending strain
+distribution and that is clearly
+violated even in the simplest case of
+cantilever beam
+where does this influence
+that's question number one
+and question number two is what is the
+variation of shear stress
+question number three is what is its
+magnitude in comparison to bending
+stresses all these aspects are important
+first answer is as long as I am having a
+slender beam that means that depth is
+very small compared to its length
+Shear effects can be
+ignored
+when the depth increases you have a
+coupling between shear and axial there
+unless you bring in the shear effects
+your beam Theory solution is not
+complete you also have idealizations for
+that
+bringing in Shear effects you have what
+is known as the motion copy okay that's
+all postponed for your higher level of
+Education
+for this course we will confine to
+Center materials and shear stress
+variation where the depth of the beam is
+non-linear you know we have always been
+looking in the case of a twisting of
+shaft shear stress was varying linearly
+and in the case of a beam axial stress
+was varying linearly
+and we find that
+shear stress variation is non-linear
+as we have conjectured based on free
+surface argument
+shear stress is zero on the top surface
+as well as the bottom surface
+and reaches the maximum at the center
+that raises a maximum at the center I
+gave evidence from photolysis
+differences it was no longer black I
+have a color
+and you know we'll also have to graduate
+when I have a loading that is varying on
+the beam and one of the things that you
+would normally take is particularly when
+you deal with civil engineering
+Construction
+sulfate itself is a load that is acting
+on the beam
+and this you have already developed in
+your earlier rigid body mechanics
+and
+this is the way you have used
+how to find out whether you have drawn
+the bending on diagram Shear force
+diagram correctly in comparison the
+loading diagram it's only a
+recapitulation okay it is not a new
+derivation
+recapitalization with the
+symbol on how do we label positive shear
+stress and positive bending moment
+that's only difference otherwise this
+you have already done in your earlier
+course
+so I take a small section
+and then I write all the quantities I
+know I recognize that this is a
+having a finite length of Delta X so I
+anticipate there is a variation of Shear
+along the axis
+that is also a variation of bending
+moment along the axis
+and we have taken on a positive surface
+positive direction of Shear is positive
+the only difference is we have learned
+it in a different symbolism
+of sine convention
+that is the only difference otherwise
+you have already been taught how to get
+this
+and you know I can also say that in a
+short distance Delta X I can simply put
+the value as
+W into Delta X okay
+and I can replace this as a force
+I can write the force balance
+and then get me the interrelationship so
+if I do f i equals 0
+I get a very important relation in the
+limit Delta X tends to zero DV by d x
+equal to
+intensity of loading okay
+and when I do the same thing for
+moment equilibrium
+I get another very interesting result
+d m by d x equal to minus V if you have
+used opposite end conversion you would
+have got this as DM by DX equal to D
+that's where the difference comes
+and what it says is if I know the shear
+force diagram I can comment about the
+slope of the bending bound diagram
+so that is one of the ways that you
+verify your
+plotting hand plotting you have to do
+all that see if you have a equation put
+it in your software and then want to
+plot the software will Faithfully fit in
+the Curve
+but when you do the hand plotting you
+have to know how to do it okay
+and
+let us solve one very down tier simple
+problem at the same time it's very
+interesting
+it also has components of modeling say
+consciously I want to bring in you
+become better Engineers only when you
+know how to do modeling
+first modeling is you know when you have
+a stack of books
+none of the books if you take five books
+five books each of them will have
+different weight different size
+you don't have one uniform book unless
+you go and buy a encyclopedic volume
+which are published from one same
+publisher if you take 10 of them 10 of
+them will have the same size same weight
+and all that but if you buy books in
+fluid mechanics solid mechanics Material
+Science all of them will be different so
+the first idealization you have to make
+is translate this into a uniform loading
+you should not exceed that that's what I
+want you to recognize okay
+and what is given is you can make a nice
+elegant uh
+support by having a simple glass plate
+this is of length 900 millimeter and
+depth 200 millimeter it can accommodate
+many of your books
+and it also says determine the average
+weight of the books per unit length
+which can be placed on the Shelf
+if the supports are in the optimal
+position you have to understand what is
+an optimal position
+in fact there is
+embedded clue in your question itself
+the supports are not put at the end
+the supporter put in a manner that
+this whatever the length a is greater
+than L by two
+you are given a clue
+and as Engineers we have to find out
+where do you put the supports
+say if you are not done engineering you
+would normally put the support at the
+ends you think that is stronger
+that's what you would do
+what we call as common sense we jump to
+such conclusions from based on
+prior training
+and I've also asked you to do this as
+your tutorial to get the Shear force and
+bending on diagram okay so that I can go
+and handle Those portions
+little faster okay
+first thing is you have to get the
+reactions
+and that is you do by
+Sigma f i equal to 0 and M A equal to
+zero it's very straightforward
+so I get the reactions as w l by 2 at
+both the supports
+you know I've also been saying that when
+you have a problem like this
+you should be able to draw the bending
+amount and Shear force diagram quickly
+fine so if
+you give me this I will find out for
+drawing my Shear Force I'll find out
+what is the share Force at this point
+I'll find out the shear pose at this
+point that is good enough for me to draw
+the complete Shear force diagram
+okay
+and if I have to do the bending moment
+I'll also find out what is happening at
+the center so two points are sufficient
+for me to draw three points are
+sufficient for me to draw the bending
+moment
+because I have the loading is W Newton
+per meter I anticipate my Shear Force
+for the entire length of the beam to be
+the first degree curve because I know
+d v by DX equal to minus W I use that
+and when I go to bending moment I have d
+m by DX equal to minus V
+so if the shear force is a linear curve
+bending Mount will be a parabolic curve
+so all that information you use it
+and you know if you do from the
+conventional point of view
+I can find out what is the expression
+for M if I take a section and then do it
+I can I can do this
+so I will do that for one section
+another section and the third section
+that is for the
+you know for completeness completeness
+you have these expressions
+I can get it for this
+but when I want to plot
+you know when I start here here the
+shear force is zero as well as bending
+moment is zero so I know two points
+already to start with
+so if I know this
+at this support I have WL by 2 actually
+from this point I will go up by WL by 2
+that's what
+your mathematics also will give I'll go
+up wbl by 2 and if I know this point I
+know this is a straight and I'll join
+these two
+again go up by W by 2 w l by two and
+then come back to zero so you can draw
+this very quickly you have to build up
+that Acumen you know as you learn the
+course you can't be saying that you will
+take half an hour to solve this problem
+okay and similarly when I go for the
+bending moment
+I know that this is a second degree
+curve the question is whether I should
+draw it like this or Draw It Like This
+that you look at based on your slope see
+slope is zero here slope is positive
+here
+you have d m by d x equal to minus V
+when V is 0
+slope is also
+zero when V is more and more negative
+slope is also more and more positive
+so that is how you decide why I have to
+plot the curve like this
+and now you can quickly say as an
+engineer suppose I put the support at
+the again what would be my bending
+amount diagram
+when you want diagram will be a parabola
+from this end to this and you are
+bending moment Peak will be value will
+be much higher than this you do you see
+that difference
+so one clue you get is by adjusting the
+support
+you can achieve a situation where you
+can minimize the level of bending moment
+maximum occurring in the plate
+so that is a design tool
+see you don't worry about whether it is
+a positive bending moment or a negative
+bending moment
+because whether it is a possibly bending
+moment or negative bending moment
+you are definitely going to have same
+maximum stress and maximum compressive
+stress you
+that's the only difference
+so even the sign of the bending moment
+doesn't matter as long as my cross
+section remains same
+and symmetrical suppose I have a cross
+section where the distance also matters
+okay there you may have to find out
+whether the compressive stress is more
+on tensile such is more if I have a
+brittle material if I don't have a
+brittle material I don't have a problem
+for ductile material your tensile
+strength and compressive strength are
+identical for a brittle materials
+opposite you have a tensile strength is
+hardly anything and compressive strength
+is 10 to 12 times so there it matters
+but you know glass blade you have taken
+it's of a constant cross section
+and with this itself you can find out
+by equating these two you can find out
+the optimal position
+in order to Aid your thinking better I
+am also plotting this when I have a is
+greater than L by two
+and when I have
+a is less than L by two
+greater than L by two is what we have
+got earlier also when you substitute the
+numbers the numbers are easy to
+recognize and then see how they vary
+and when I have a is less than L by 2 I
+have everything on the one side so if I
+start from this I will not be able to
+find out the optimal position at all so
+only if I start from this kind of a
+bending on diagram I have an opportunity
+to find out the positive bending moment
+or negative bending moment and equate
+the two so it's a design scenario
+so what we do is we simply equate the
+two
+equate the magnitudes okay equate the
+magnitudes
+the same Shear force and bending mode
+diagram is re-plotted
+I equate these two values
+I get a quadratic expression
+of a
+a squared minus 4 aigl plus 2 L square
+equals 0.
+from this I can solve for what is the
+value of a
+so that means I have adjusted my
+supports in such a manner whatever the
+bending moment I get here
+I ensured that this peak and this peak
+are of the same magnitude so that's the
+best optimization that you can do
+for the given problem that's the best
+optimization I can do
+so I get when I substitute this being a
+quadratic expression I will get two
+roots you have to select the root which
+is appropriate only this is will lie
+within the beam okay
+so I have this as 527.21 millimeter
+and once you substitute here once you
+apply the beam Theory hopefully the beam
+thing is applicable
+you have to verify we have to verify the
+theory of elasticity we have not done
+that verification
+we will also do a verification and if
+the deviation is small keep our eyes
+half close Pat our back I've got the
+value which is good enough for my design
+this is how Engineers operate okay you
+have to get the core of the problem that
+is more important the core of the
+problem here is bending stress varies
+linearly or the depth of the wave when I
+apply an axial load it is constant
+to recognize that varies linearly was a
+biggest challenge the scientific
+Community faced it took 400 years
+you should recognize that we will also
+revisit the history today
+because you are now more equipped with
+what is beam Theory you can go back and
+appreciate what aspects they could
+reveal what aspects they could not find
+out in their development
+okay
+so I have this bending moment is equated
+and you got this
+expression
+so when I substitute and then substitute
+the value of a which I calculated I get
+the maximum bending moment magnitude is
+like this
+and I have the
+bending equation is available
+so you know whenever you solve a problem
+in bending please write this in one
+corner and start because you are going
+to exploit this equation
+so I can write Sigma bending Max or
+Sigma m b max divided by i z z into I
+Max and then you have a cross section
+like this
+I have this as the
+breadth and height so I have for this
+rectangular cross section how to
+calculate the moment of inertia
+and when I use the information given in
+the problem that it cannot exit 10 MPA
+I find out what is the value of w I have
+this as 0.48 Newton per millimeter
+let me ask you few more questions I am
+not going to give you answer
+fine I want you to think
+suppose
+I want my w to be not 0.4 right I want
+this to be doubled
+what are the options that I have
+for me to do
+it's obviously going to exceed the 10
+MBA limit that means I have to
+strengthen the beam in some form
+isn't it
+one possibility is you take another
+glass plate put it
+that is one possibility the other
+possibility is instead of a five
+millimeter glass play find out what is
+the thickness of the glass plate you
+have to go that is option number two
+what is option number three
+simply increase one more support
+you get the point see I should also
+provoke you to find out when you go to
+design scenario there is no one solution
+for a design
+you will have multiple Solutions
+depending on the context one of them may
+be really applicable so I want you to
+exercise this
+so you find out what is when I want to
+double it what should be the thickness I
+should have with the same support
+because that's optimal support
+suppose I have three supports you know
+you have to wait until you develop a
+deflection because it's a continuous
+beam you need to find out the forces
+only then you can solve the problem
+so keep that at the back of your mind so
+it's a very interesting problem okay
+now let us look at
+whether this is supported completely by
+Theory of elasticity
+there are surprises
+okay
+you are not calculated the shear stress
+okay
+and you can take it that this is varying
+parabolically I said non-linear anything
+other than linear will say non-linear it
+may be even be a simple second degree
+curve okay
+and we have obtained some Central
+material that the bending stress varies
+linearly please make a sketch this you
+will not find it in any books that you
+have access to
+and also appreciate stress magnitudes or
+not to scale that's also very important
+we are only discussing the variation or
+the depth of the beam
+and you will find that what we get from
+Santa material up to this point it is
+perfectly correct
+we have also done discussion on free
+surface
+suppose I want to do the discussion on
+on what happened this surface is this
+surface free
+will be I am deliberately applying a
+vertical load how can that be free
+in the development of bending of a beam
+with constant bending moment
+we have idealized Sigma y as 0.
+isn't it
+Sigma Y is zero but this is one of the
+most common loading that you have and
+you are definitely applying Sigma y you
+are applying a force to generate Sigma y
+so when I go and solve the problem as
+boundary value problem taking the
+differential equations I am definitely
+going to have Sigma y
+and it will die down to zero at the
+other Edge
+and there is also another surprise
+even the linear variation of bending
+stress is no longer supported by Theory
+of elasticity
+you have a correction term to Sigma X
+so you have two additional quantities
+Sigma y exists
+and I have not drawn these to scale you
+will find that these are second order of
+effects the small variation can be
+ignored when you use the
+community
+expression for bending stress which were
+developed in Center materials is the
+idea clear
+so you have to understand that we are
+doing only engineering analysis
+so you have to appreciate the limitation
+and I have raised a point in a three
+point bending there is something we have
+to discuss about the shear stress
+whether Center material predictions
+correctly or not you have to wait until
+we develop what
+we do that in Center materials okay then
+compared with theory of elasticity
+so you should appreciate that whatever
+the expression that we have got in
+central material is very useful but it
+has its own limitations appreciate the
+limitations
+and let us go back and quickly go
+through the history because you we have
+already seen this you can appreciate
+certain aspects now better
+see Leonardo da Vinci was the first one
+he established all the essential
+features of the strain distribution
+while pondering the deformation of
+Springs that is his
+wisdom we have to say and for the
+specific case of rectangular cross
+section
+DaVinci argued equal tensile and
+compressive strains at the outer fibers
+that's what we also say now in Center
+materials
+he could also say that the existence of
+a neutral surface
+and a linear strain distribution what he
+could not achieve
+he did not have hooke's law so he could
+not translate this understanding to
+stresses
+okay and second one is
+you know you have to wait for the
+mathematical formulation of bernally and
+Euler
+and he was also not in a position to
+give recommendation how to design a beam
+how to if I know the strength of the
+material how to get the dimensions of
+the beam
+and when you dig the history you find
+that he has written a book that he has
+all this information
+but this was founded only in 1967. so
+all the early researchers without his
+book they had to struggle and find out
+what is the beam Theory
+so Galileo was the first person
+he said the beam strength was addressed
+and he was able to give some numbers
+based on his experiment
+even at that time I said this was a very
+difficult experiment okay
+can you recognize he's made a statement
+rulers offers more resistance when lying
+on the edge
+than when lying flat do you agree with
+this observation or not
+do you agree with this observation or
+differ
+I don't get the answer you not your head
+that what do I make out of it you agree
+or not
+you agree can you tell me how you say
+that this is better than this
+what is the aspect that you can say
+mathematically
+very good very good I'm happy
+so bending rigidity and I have e i z z
+and you know very well I is easy for
+this cross section is very high compared
+to this so This observation is correct
+they were learning and experience
+experiential knowledge was very good
+okay I have been using this beam this is
+also made of plastic
+this has some cross section and this has
+cross section which is much much larger
+and you know very well that this has
+hardly any bending agility
+and I needed this for me to show your
+warping in case of testing
+and also for anti-classical curvature
+okay so what made the difference between
+the two
+this has more rigidity than this because
+of its eggs modulus okay so e i is easy
+is a very very important aspect when you
+are looking at anything to do with
+bending similarly Gip for torsion
+and he had a good idea of how the beam
+failed and things like that okay
+and he could not find out the variation
+of stress the variation of stress was
+very difficult
+he had some idea that it has failed here
+it said it's because they were
+accustomed only axial Force transmitted
+so the same idea of equal force was
+obscuring their thinking
+and now you can say that he had taken a
+complex problem
+okay because I explained how your
+cantilever beam is difficult to handle
+because it has Shear force and Shear
+Force introduces plane sections do not
+remain plain
+and you have bending moment varying
+we were very clever we took a problem
+deliberately that it will transmit only
+constant bending moment
+she didn't have that luxury so
+he had he didn't have that luxury that
+is why he faltered he could not proceed
+Beyond a particular point
+and you also see that this beam is not
+Slender
+okay the problem is complex because it's
+not a slender beam the depth is
+important I said the sheer and the bin
+axial Force the coupling takes place
+when these two are the
+depth is comparable to the length
+and material he was not having isotopic
+material
+he was having good
+so they could not proceed so you when
+you want to solve your problem also you
+should know how to simplify
+and get the core of it
+and marietti had some idea that there is
+aeration is linear he was also not able
+to succeed but he showed both variation
+like this as well as variation like this
+but it's not clear why he obtained two
+of them
+so
+they were very close to the solution but
+not achieved it he could also say the
+neutral plane
+and the parent he got this as a
+triangular and he had this neutral axis
+shifted
+and
+stress distribution from tensile at the
+top face to compression at the bottom
+see they were always looking at bending
+like this okay like what I was showing
+so the top surface is in tensile and
+bottom surfaces and compression so he
+was able to do and
+so the Triangular variation is predicted
+to a Antoine parent
+the Breakthrough came only with Euler
+and Burnley they linked
+load and curvature
+unless they could bring in the
+deformation the beam ground was not
+solved okay so that took such a long
+time to develop
+so he was a stress mathematician another
+is a Dutch mathematician
+they independently derived beam bending
+formally and are credited with
+development of beam theory in 1750.
+but the actual distribution
+was credited to Kulu and if you look at
+the distribution
+the contribution by various scientists
+we summarize DaVinci had all the idea
+but his book got lost
+Galileo could design beams could solve
+problem halfway but he assumed that the
+stress is
+uniformly distributed
+and you have first appearance that it is
+varying in a triangular fashion in one
+form
+he also had
+mentioned this okay without assigning
+reasons
+and parent correctly said that you only
+have this kind of variation is neutral
+access is shifted
+and finally you have coulomb who has
+solved the problem of mean mending so
+what you have learned in the few
+lectures
+has taken 400 years for its Evolution
+it's not something simple so if you have
+doubts don't feel annoyed
+great minds have these doubts okay and
+they didn't have access to simplified
+experimentation
+and in fact even in IIT I see this I
+could get easily in a commercial shop
+and in order to show your
+warping in torque I had to get a
+material which is very soft we had to
+take some effort to get this material
+done okay
+so
+in this class we have looked at
+what are the limitations of
+Santa materials approach to beam Theory
+we said it is derived only for a beam of
+constant bending moment transmitting
+anything other than that it can be
+considered only as a good approximation
+of engineering analysis
+[Music]
+thank you

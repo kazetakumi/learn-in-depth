@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Does "responds more" mean "represents"?</title>
+<style>
+  :root {
+    --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --code-bg: #f3f0e8; --rule: #d8d2c2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #1c1a16; --ink: #e8e3d8; --accent: #8fb4d9; --code-bg: #262319; --rule: #45402f; }
+  }
+  :root[data-theme="dark"] { --paper: #1c1a16; --ink: #e8e3d8; --accent: #8fb4d9; --code-bg: #262319; --rule: #45402f; }
+  :root[data-theme="light"] { --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --code-bg: #f3f0e8; --rule: #d8d2c2; }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper); color: var(--ink);
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+    line-height: 1.65; margin: 0; padding: 3.5rem 1.5rem 8rem;
+  }
+  main { max-width: 640px; margin: 0 auto; }
+  .kicker {
+    font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 0.6rem;
+  }
+  .kicker a { color: var(--accent); }
+  h1 { font-size: 1.9rem; font-weight: 600; margin: 0 0 2rem; }
+  h2 {
+    font-size: 1.25rem; font-weight: 600; margin: 3rem 0 1rem;
+    padding-top: 1.5rem; border-top: 1px solid var(--rule);
+  }
+  p { margin: 1.1rem 0; }
+  .aside {
+    border-left: 2px solid var(--rule);
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    margin: 1.4rem 0;
+    font-size: 0.95rem;
+    color: color-mix(in srgb, var(--ink) 82%, transparent);
+  }
+  .aside b { color: var(--ink); }
+  details {
+    background: var(--code-bg);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 0.9rem 1.2rem;
+    margin: 1.6rem 0;
+  }
+  summary { cursor: pointer; font-weight: 600; color: var(--accent); }
+  summary:hover { text-decoration: underline; }
+  details[open] summary { margin-bottom: 0.8rem; }
+  .try {
+    margin: 2rem 0; padding: 1.2rem 1.4rem;
+    border: 1px dashed var(--rule); border-radius: 6px;
+  }
+  .try .label {
+    font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 0.6rem;
+  }
+  ol.answers { margin: 0.8rem 0; padding-left: 1.4rem; }
+  ol.answers li { margin: 0.9rem 0; }
+  code, .term { color: var(--accent); font-style: italic; }
+  hr.section { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  .nav { display: flex; justify-content: space-between; margin-top: 4rem; font-size: 0.9rem; }
+  .nav a { color: var(--accent); text-decoration: none; }
+  .nav a:hover { text-decoration: underline; }
+  footer { margin-top: 3rem; font-size: 0.85rem; color: color-mix(in srgb, var(--ink) 55%, transparent); }
+</style>
+</head>
+<body>
+<main>
+
+<div class="kicker"><a href="index.html">The Human Brain</a> · Rung 3 of 5</div>
+<h1>Does "responds more" mean "represents"?</h1>
+
+<p>By the end of last lesson, that patch on the underside of the brain had survived everything I could throw at it. It beat objects even when I forced extra attention onto the objects. It responds more to faces than to anything else I've tried, in every subject I've ever scanned. And zapping it — or its shallower neighbor, at least — causally disrupts face matching, at exactly the millisecond window you'd expect if it's doing real work on the task.</p>
+
+<p>I'm going to be straight with you: at this point, twenty years ago, I felt pretty good. I had a region, a confound-free correlation, and a causal intervention. That felt like the whole case.</p>
+
+<p>Then a paper landed from a scientist at Dartmouth named Jim Haxby that made me sit up. And I want to walk you through exactly what it showed, because it's the most serious challenge my own finding has ever faced, and I don't think you've fully understood category-selective regions of the brain until you've felt this challenge land.</p>
+
+<h2>A different question about the same tissue</h2>
+
+<p>Everything so far — mine and yours — has been about one number: is the <i>average</i> response in this patch higher for faces than for other things? Haxby's move was to stop asking about the average and ask about the <i>pattern</i> instead.</p>
+
+<p>Here's the logic, and I want you to build it yourself before I hand it to you. Suppose the average response in my face patch is very low for chairs, and very low for cars too — both near the floor, nothing like the tall bar you get for faces. By every test I've run so far, this region "doesn't respond to" chairs or cars. But suppose the low response to chairs isn't <i>uniform</i> across the patch — some little sub-regions run a bit higher, others a bit lower, and that particular pattern of high-and-low is different from the pattern you get for cars, even though both patterns average out to roughly the same low number.</p>
+
+<div class="try">
+<div class="label">Before the reveal</div>
+<p>If that's true — if chairs produce one consistent fine-grained pattern across the patch, and cars produce a different consistent fine-grained pattern, even though both have the same low average — what would that tell you? And concretely: how would you even test whether two patterns are "the same" or "different," using nothing but repeated scans of the same person?</p>
+</div>
+
+<details>
+<summary>Here's Haxby's actual method</summary>
+<p>Scan the same person on chairs and cars, in the same session, across several runs. Split the runs into two piles — even-numbered and odd-numbered, not first-half/second-half, because if a subject gets sleepier or more bored as the session wears on, first-half and second-half will differ for reasons that have nothing to do with chairs or cars. Even and odd interleave that drift evenly across both piles.</p>
+<p>Now measure the pattern across voxels for chairs-on-even-runs, chairs-on-odd-runs, cars-on-even-runs, cars-on-odd-runs. Ask: is the chairs-even pattern more similar to chairs-odd than it is to cars-odd? If patterns of the same category correlate with each other more than patterns of different categories do — even though the raw average response to both categories is low — then there is information in that low, "non-responding" signal that distinguishes chairs from cars. That is exactly the kind of information a simple bar chart of averages can never show you, because averaging is precisely the operation that throws it away.</p>
+</details>
+
+<p>Haxby ran this, in my own region, and found exactly that. Chairs correlated with chairs, cars correlated with cars, more than chairs correlated with cars. His conclusion, in his own words, aimed squarely at my finding: <i>"regions such as the 'FFA' are not dedicated to representing only human faces. Rather, they're part of a more extended representation for all objects."</i> Notice the scare quotes he puts around "FFA." That's not an accident. That's a shot fired.</p>
+
+<h2>The part where I have to be honest with you</h2>
+
+<p>When I first read that paper, I did what you'd hope a scientist does: I got defensive, found a bunch of things I didn't like about how he'd defined the region, and ran my own version to prove him wrong. We couldn't discriminate chairs from cars in our version. Point to us.</p>
+
+<p>Except a few years later, Haxby and a collaborator went back, reanalyzed their own original data more carefully, and found the effect really was there — "significantly above chance, but really lousy," as they put it. And right around the same time, my own lab was rerunning our experiments at higher resolution — and we found we <i>could</i> distinguish two different non-face categories inside the fusiform face area too, once we looked hard enough and cleanly enough.</p>
+
+<p>So here's where the dust actually settled, empirically, not as a story I'm telling you to make a point: yes, you really can decode non-face categories out of the fusiform face area, even doing everything as carefully as either lab knows how. The effect is weak — nowhere near as strong as the face signal — but it's real and it replicates.</p>
+
+<div class="try">
+<div class="label">Sit with this before you read on</div>
+<p>Does this mean the two lessons before this one were wrong? Does "this patch contains decodable information about chairs and cars" undo the confound-elimination, the double dissociation, and the causal TMS result? If you were in my seat, having built your whole career on this region, what would you actually need to establish before you'd let yourself off the hook?</p>
+</div>
+
+<h2>Three things that are still true</h2>
+
+<p>I don't think this is obvious, and I want to be honest that I've turned this over for years without it feeling fully settled. But there are three separate answers, and each one holds up on its own.</p>
+
+<ol class="answers">
+<li><b>The double dissociation didn't go anywhere.</b> Remember CK — normal, even excellent, at recognizing faces, while severely impaired at recognizing objects. No amount of "there's decodable chair-versus-car information in the FFA" touches that fact. Information content and behavioral necessity are different currencies: Haxby's method tells you what's <i>present</i> in a pattern of activity; a double dissociation tells you what's actually <i>load-bearing</i> for behavior. They can disagree without either one being wrong, because they're not measuring the same thing.</li>
+
+<li><b>The causal method has to be re-run for the new claim, not assumed.</b> The TMS result from two lessons ago showed that disrupting the shallow face-preferring patch hurts face matching, in a specific time window. That's a causal claim about faces. It doesn't automatically transfer to chairs and cars — you'd have to go run the same disruption experiment on a chair-versus-car task and see whether zapping this patch hurts that too. That's exactly the object-perception control I flagged as the missing piece last lesson: the right test to run, not one I can report the outcome of here. "There is decodable information here" and "this tissue is causally necessary for reading that information out and using it" are different claims, and only a real causal test of the second one would actually threaten the specificity story.</li>
+
+<li><b>Decodability is not the same thing as function.</b> One of my students put this better than I ever have: it's like using a vending machine as a clock — sure, if it happens to sit on the wall right under one, you can read the time off it. That doesn't make timekeeping its function. Now make that concrete: there are deep neural networks trained purely on face recognition — never shown a single chair or car during training, built and tuned for one job only. Feed one of those networks a photo of a chair anyway, and you can still read out, from its internal activity, whether it was a chair or a car. A network that has never once been asked to represent chairs still carries enough incidental structure to let you tell them apart. If a system built with zero purpose for chairs and cars still yields decodable chair-versus-car information, then decodability alone cannot be the test of what a region is <i>for</i>.</li>
+</ol>
+
+<div class="aside"><b>The general shape of this, worth keeping:</b> "you can decode X from here" is a much weaker claim than "this region's function is X." Almost any information-rich system will leak some decodable signal about almost anything correlated with its actual job, purely as a side effect of how it's built — the way a vending machine leaks the time, or a face-only network leaks chair-shape.</div>
+
+<p>So the honest final position, mine and the field's: the fusiform face area really is strongly, causally, specifically preferential for faces — nothing in Haxby's challenge undoes rungs one and two. But it also isn't a face-only vault with the door welded shut; it carries faint, real, decodable traces of other things too, the way almost any richly-structured tissue would. Both of those can be true at once, and holding both without collapsing into either "it's just faces, full stop" or "the whole framework is bunk" is the actual state of the science right now.</p>
+
+<h2>Try it cold</h2>
+
+<div class="try">
+<div class="label">A new case</div>
+<p>Someone hands you a brain-imaging result: a patch of visual cortex that responds strongly to written words — much more than to faces, objects, or scrambled letter-strings. Using Haxby's split-half method, they also find that this same patch's activity pattern can weakly decode animal pictures from tool pictures, above chance but far below its performance decoding one word from another.</p>
+<p>A colleague says: "See, this proves your 'visual word-form area' isn't really specific to reading — it also encodes the animate/inanimate distinction." Using the three answers above, what would you actually need to know before agreeing or disagreeing?</p>
+</div>
+
+<details>
+<summary>Check your reasoning</summary>
+<p>You'd want: (1) a double dissociation — someone whose reading is wrecked but who is normal or better at telling animate from inanimate things, and ideally the mirror case too; (2) a causal test — does disrupting this patch (TMS, lesion, stimulation) impair animate/inanimate judgments the way it impairs reading, or only reading; (3) the vending-machine check — is there some system built to do something else entirely (a network trained only on letter recognition, say) that would still leak a weak animate/inanimate signal purely as an artifact of how letter-shapes and object-shapes happen to correlate in the visual world? Weak decodability on its own settles none of this — it's the same three-part answer, applied cold.</p>
+</details>
+
+<h2>Where this leaves you</h2>
+
+<p>You now have the full toolkit this field actually runs on: a double dissociation to establish that two abilities are architecturally separate; confound-elimination plus a causal intervention to show some specific tissue is doing real, necessary work; and now, the discipline to not let mere decodability — in either direction — overturn either of those on its own. "Responds more" needed the first two lessons to earn causal weight. "Can be decoded from" needs all three of today's answers before it earns anything at all.</p>
+
+<p>One thread is still hanging, though, and it's the one my own student raised right after this debate: if the FFA isn't processing chairs and cars in any functionally important way, something else in the brain must be. There's a lot of cortex sitting right next to the face patches and the place patches that seems to respond fairly generically to object shape, full stop — no strong category preference, just a general-purpose "process whatever shape is in front of you" system. That's a real, different kind of thing from a module, and it's exactly the loose end rung four has to pick up: not just "how do you prove a module is there," but "how do you tell a genuine module apart from the domain-general machinery sitting right next door to it — and when should the whole framework say <i>no module here</i>?"</p>
+
+<hr class="section">
+
+<div class="nav">
+  <a href="02-correlation-isnt-causation.html">&larr; Rung 2</a>
+  <a href="index.html">Syllabus</a>
+  <a href="04-no-module-here.html">Rung 4 &rarr;</a>
+</div>
+
+<footer>Drawn from MIT 9.13, The Human Brain (Spring 2019), Nancy Kanwisher — Lecture 7 (Category Selectivity, Controversies, and MVPA).</footer>
+
+</main>
+</body>
+</html>

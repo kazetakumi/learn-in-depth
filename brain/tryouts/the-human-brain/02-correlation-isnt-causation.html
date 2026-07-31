@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Correlation in the brain isn't causation</title>
+<style>
+  :root {
+    --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --code-bg: #f3f0e8; --rule: #d8d2c2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #1c1a16; --ink: #e8e3d8; --accent: #8fb4d9; --code-bg: #262319; --rule: #45402f; }
+  }
+  :root[data-theme="dark"] { --paper: #1c1a16; --ink: #e8e3d8; --accent: #8fb4d9; --code-bg: #262319; --rule: #45402f; }
+  :root[data-theme="light"] { --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --code-bg: #f3f0e8; --rule: #d8d2c2; }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper); color: var(--ink);
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+    line-height: 1.65; margin: 0; padding: 3.5rem 1.5rem 8rem;
+  }
+  main { max-width: 640px; margin: 0 auto; }
+  .kicker {
+    font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 0.6rem;
+  }
+  .kicker a { color: var(--accent); }
+  h1 { font-size: 1.9rem; font-weight: 600; margin: 0 0 2rem; }
+  h2 {
+    font-size: 1.25rem; font-weight: 600; margin: 3rem 0 1rem;
+    padding-top: 1.5rem; border-top: 1px solid var(--rule);
+  }
+  p { margin: 1.1rem 0; }
+  .aside {
+    border-left: 2px solid var(--rule);
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    margin: 1.4rem 0;
+    font-size: 0.95rem;
+    color: color-mix(in srgb, var(--ink) 82%, transparent);
+  }
+  .aside b { color: var(--ink); }
+  details {
+    background: var(--code-bg);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 0.9rem 1.2rem;
+    margin: 1.6rem 0;
+  }
+  summary { cursor: pointer; font-weight: 600; color: var(--accent); }
+  summary:hover { text-decoration: underline; }
+  details[open] summary { margin-bottom: 0.8rem; }
+  .try {
+    margin: 2rem 0; padding: 1.2rem 1.4rem;
+    border: 1px dashed var(--rule); border-radius: 6px;
+  }
+  .try .label {
+    font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 0.6rem;
+  }
+  ul.confounds { margin: 0.8rem 0; padding-left: 1.3rem; }
+  ul.confounds li { margin: 0.4rem 0; }
+  code, .term { color: var(--accent); font-style: italic; }
+  hr.section { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  .nav { display: flex; justify-content: space-between; margin-top: 4rem; font-size: 0.9rem; }
+  .nav a { color: var(--accent); text-decoration: none; }
+  .nav a:hover { text-decoration: underline; }
+  footer { margin-top: 3rem; font-size: 0.85rem; color: color-mix(in srgb, var(--ink) 55%, transparent); }
+</style>
+</head>
+<body>
+<main>
+
+<div class="kicker"><a href="index.html">The Human Brain</a> · Rung 2 of 5</div>
+<h1>Correlation in the brain isn't causation</h1>
+
+<p>Last time, two patients gave us something clean: one who lost faces and kept objects, one who lost objects and kept faces. Between them, they killed the idea that one shared system was just worse at the harder of the two tasks.</p>
+
+<p>I left something out, though, and I want to fix it before we go on, because it matters for what's coming. Those weren't abstract behavioral tests floating free of the brain — those were patients with actual, physical brain damage, in specific places. A lesion is an address. Whatever region was destroyed in the face-blind patient, and whatever different region was destroyed in CK, that damage already tells you roughly <i>where</i> each ability's machinery has to live. So we weren't really starting from zero on location. Lesions hand you causal, localized evidence for free — you lose that bit of brain, you lose that ability, full stop.</p>
+
+<p>Here's the catch: I don't get to place the damage. Nature does. If I want to know where number sense lives, or music, or navigation, or fifty other things, I can't sit around hoping a tumor lands in exactly the right spot in exactly the right patient, cleanly enough to test my hypothesis. Most of the time I want to study minds that <i>aren't</i> damaged — and for that, I need a method that doesn't require an accident of biology to do my localizing for me.</p>
+
+<h2>The blob</h2>
+
+<p>So here's an experiment I ran about twenty years ago — the simplest version of the method I want you to understand. Pop a subject in the scanner. Scan continuously while they look at a bunch of faces for a while, then a bunch of ordinary objects, back and forth, five minutes total. For every three-dimensional pixel of brain tissue — a <span class="term">voxel</span> — ask: was the signal higher while they looked at faces than while they looked at objects?</p>
+
+<p>Do that, and you get a blob. A patch on the underside of the brain that reliably runs hotter for faces than objects. I can find one in nearly anyone in about ten minutes in the scanner. It is about as robust a finding as this field produces.</p>
+
+<div class="try">
+<div class="label">Before I tell you what it means</div>
+<p>Suppose this result is completely robust — every subject, every time, statistics as clean as you like. Does this, on its own, tell you that this patch of tissue is <i>specifically</i> about face recognition? If not — what else, besides "this tissue does faces," could produce the exact same pattern: higher signal for faces than for ordinary objects?</p>
+<p>Try to list at least two alternative explanations before opening the reveal.</p>
+</div>
+
+<details>
+<summary>Here's what my own students came up with, the year I asked this in class</summary>
+<ul class="confounds">
+<li>Maybe it's not faces specifically — maybe it responds to <i>anything human</i>: hands, bodies, any body part.</li>
+<li>Maybe it's responding to low-level visual features that happen to correlate with faces — curvy contours, skin-toned coloring, particular spatial frequencies — not "faceness" as such.</li>
+<li>Maybe it's not about faces at all, but about <i>difficulty</i>: this could be a perfectly generic object-recognition patch that has a harder time telling faces apart from each other (they're all so similar) than telling a toaster from a chair — so it works harder, and "working harder" is exactly what the blood-flow signal measures.</li>
+<li>Maybe it's about <i>attention</i>: we naturally look longer and pay closer attention to faces than to a pile of ordinary objects, and this patch just tracks attention, not category.</li>
+</ul>
+<p>Notice that the difficulty account is the exact same trap from last lesson, wearing a different coat — "this is just the harder task for a shared system," except now the shared system is a patch of cortex instead of Bob's whole mind. That's not a coincidence; it's the same logical hole showing up wherever you look for it.</p>
+</details>
+
+<p>This is the actual discipline of the field, not a footnote to it: whenever you have a result and an inference sitting next to it, your job is to ask how the inference could be wrong — what else could produce the same data. A brain blob doesn't interpret itself.</p>
+
+<div class="aside"><b>Vocabulary check:</b> a <span class="term">confound</span> is a difference between your two conditions other than the one you meant to manipulate. Faces have curvy contours and skin tone and get more attention than a random pile of objects — every one of those is a confound riding along with "faceness," giving you an alternative story for the same blob.</div>
+
+<p>So how do you rule these out? Not by intervening in the brain yet — by getting cleverer about the correlational experiment itself. Here's one thing I actually did: scan people looking at faces and hands, and force them to pay <i>more</i> attention to the hands than the faces — give them a task where they have to catch repeats among the hands, which is deliberately harder than the equivalent task on faces. If the blob were really about attention, or about "anything human," or about difficulty, forcing extra attention onto hands should shrink or kill the face-preference, or at least even it out.</p>
+
+<p>It didn't. Same blob, still firing harder for faces than hands, even with attention stacked against it. That single design move — not a new method, just a smarter contrast — knocks out the attention account, the anything-human account, and the curvy-outline account all at once, because hands have curves and got more attention and are still human, and the blob didn't care. And the difficulty account — "faces are just the harder case for a generic system" — was already dead before we got here: that's the same trap last lesson's double dissociation killed, just wearing tissue instead of a whole mind.</p>
+
+<h2>Even a spotless blob is still just a correlation</h2>
+
+<p>Now suppose you've done all that work. You've hunted down every confound you can think of and killed each one with a sharper contrast. The blob survives every attack. Faces beat everything, cleanly, every time, in every subject.</p>
+
+<div class="try">
+<div class="label">One more question before you're done</div>
+<p>Have you now proven that this patch of tissue <i>causes</i> face recognition — that it's necessary for it, the way losing it in a lesion patient was necessary? Or have you only proven something narrower?</p>
+</div>
+
+<details>
+<summary>Open when you've decided</summary>
+<p>Only something narrower. All you've shown is that this tissue's activity <i>tracks</i> faces better than anything else you've tried. That is a statement about correlation — blood flow rising and falling in step with a stimulus category — and no amount of confound-elimination turns a correlation into a cause. You could delete this patch of tissue entirely and, for all this experiment tells you, face recognition might not even notice.</p>
+</details>
+
+<p>Here's the distinction I want you to hold onto, because it's easy to blur: there are two different causal claims you could be making, and imaging can only ever get you one of them. <i>Stimulus causes brain activity</i> — show someone a face, watch the signal rise — that's a causal claim you can test all day with a scanner, because you're the one manipulating the stimulus. <i>Brain activity causes behavior</i> — this tissue firing is what lets you recognize the face — that's the claim that actually matters, and a scanner cannot touch it, no matter how clean the data are. To test whether something is a cause, you have to reach in and mess with it, not just watch it light up.</p>
+
+<div class="aside">This is exactly why the lesion patients from last lesson were so valuable, and exactly what an imaging blob, on its own, can never give you: lesions are nature doing the intervening for you. Losing the tissue and losing the ability, together, is a causal experiment you didn't have to run.</div>
+
+<p>So if I want causal evidence in a brain that hasn't been damaged, I have to go find some way to intervene myself. Two ways this actually gets done:</p>
+
+<p><b>Disruption.</b> Hold a coil of wire near the scalp and discharge a huge, brief current through it — a technique called <span class="term">TMS</span>. The magnetic pulse reaches a centimeter or two into the cortex directly underneath and briefly scrambles activity there, for under a millisecond.</p>
+
+<p>Here's the catch, before the method even gets used: the face patch from my own blob sits several centimeters in from the skull, and TMS can't reach that deep. Believe me, I tried — first thing I ever did with a TMS coil was crank it to the max right over my own face patch. Nothing happened. It's simply too far in. So the causal tool has a reach limit, and the correlational blob you found is not automatically the blob you can causally test. The fix was to find a second, related patch that sits right at the surface — a scrappier, more variable face-preferring patch further back — and zap that instead. If you can't reach the region you love, love the region you can reach.</p>
+
+<p>So: zap that surface patch while subjects judge whether two faces shown in quick succession are the same person, and compare against zapping a control spot on the scalp far from any face-related tissue — not a perfect control, but better than nothing. Accuracy drops from 85% correct to 78% when the coil hits the face patch. Zap at the wrong moment in the trial, nothing happens; zap in a narrow sixty-to-hundred-millisecond window after the second face appears, and accuracy drops. That timing is genuinely causal evidence — this tissue, at this moment, is doing <i>something</i> that matters for the task.</p>
+
+<div class="try">
+<div class="label">Before you count this as proof of specificity</div>
+<p>Does a result like this — zapping a face patch hurts performance on a face-matching task — prove the patch is specifically about faces, the way the confound-elimination work earlier in this lesson tried to prove the blob was specifically about faces?</p>
+</div>
+
+<details>
+<summary>Open once you've decided</summary>
+<p>No — and this is the same hole recursing at a deeper level. All this experiment shows is that disrupting this tissue hurts <i>face</i> performance. It says nothing about whether it would just as easily hurt performance on any hard visual judgment — telling apart two very similar chairs, say. Maybe the patch isn't about faces at all; maybe it's a generic "tell two similar-looking things apart" patch, and faces are simply the hardest similar-things-apart task in the test battery. You have to go run the object-perception version of the same experiment to find out — and that test exists, it's exactly the kind of follow-up this method demands. The point isn't that specificity is unreachable. It's that a causal method doesn't hand you specificity for free any more than a correlational one did — you still have to go rule out the alternative, every time.</p>
+</details>
+
+<p><b>Stimulation.</b> In the rare cases where a patient already has electrodes implanted in their brain for unrelated medical reasons — because those electrodes happen to sit in the fusiform face area itself, close enough to reach directly — you can run current the other way: inject activity instead of disrupting it. Do that, and the patient reports seeing a face — a hallucinated one, superimposed on whatever they're actually looking at. That's about as direct as causal evidence gets: put activity in, get the corresponding percept out. And notice it reaches exactly the deep patch TMS couldn't touch — the two methods cover different territory, for the same physical reason.</p>
+
+<h2>Where this leaves you</h2>
+
+<p>You now have two separate reasons a beautiful, statistically bulletproof brain-imaging result can still mislead you, and they are not the same reason:</p>
+
+<div class="aside">
+<b>First</b> — it might not even be measuring what you think. A blob that's "higher for faces" could really be tracking a confound: attention, low-level visual features, or plain difficulty. You rule these out the way you rule out any confound — with sharper contrasts, not new machinery.<br><br>
+<b>Second</b> — even once every confound is dead, "responds more to X" is still only correlation. It tells you this tissue's activity moves with X. It does not tell you the tissue is necessary for X. For that you need to intervene — a lesion nature already gave you, or TMS and direct stimulation for everyone else.
+</div>
+
+<p>Put together with rung 1: a double dissociation tells you two abilities are architecturally separate. Confound-elimination plus TMS or stimulation tells you where some tissue is doing genuine causal work, not just lighting up along for the ride — but notice that specificity has to be re-earned at the causal level too. Ruling out confounds in a correlational blob doesn't automatically rule them out in a disruption experiment; you run the object-perception control there as well, every time, or you haven't actually shown what you think you've shown.</p>
+
+<p>That still leaves one question completely untouched, and it's sharper than either of the two above. Suppose a patch of tissue really does prefer faces, really is causally necessary for something, and has survived every confound you can throw at it. Does that mean it only holds information about faces — nothing about chairs, nothing about cars? That turns out to have a very surprising answer, and it's about to get thrown at my own most famous finding by name. That's rung three.</p>
+
+<hr class="section">
+
+<div class="nav">
+  <a href="01-one-ability-or-two.html">&larr; Rung 1</a>
+  <a href="index.html">Syllabus</a>
+  <a href="03-responds-more-vs-represents.html">Rung 3 &rarr;</a>
+</div>
+
+<footer>Drawn from MIT 9.13, The Human Brain (Spring 2019), Nancy Kanwisher — Lecture 4 (Cognitive Neuroscience Methods I) and Lecture 6 (Experimental Design).</footer>
+
+</main>
+</body>
+</html>

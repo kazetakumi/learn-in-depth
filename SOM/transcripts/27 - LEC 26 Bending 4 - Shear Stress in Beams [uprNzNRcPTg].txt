@@ -1,0 +1,1134 @@
+[Music]
+digital India educated India
+[Music]
+we will move on to the determination of
+shear stress transmitted by the bean
+and you know you will find how
+comfortable it was
+to take up a beam transporting only
+bending moment
+discuss the deformation and evaluate the
+axial strain developed the moment you
+come to determination of shear stress
+you need to perform experiments very
+carefully as I have always emphasized
+doing a thought experiment or a direct
+physical experiment
+and what we will do is we will do
+some nice experiments and make
+clear observations on what all things
+that happen when you apply the load
+for our discussion we will take up a
+problem of a
+three point bending
+and you know how to draw the shear force
+and bending on diagram
+and what we have done here is
+we have introduced a constant Shear
+Force
+earlier we had only
+constant bending moment transmitted by
+the beam
+now I have a constant Shear Force even
+if I add a constant Shear Force
+my bending moment varies linearly
+and you know without proof I have also
+shown you
+how the section will change in the
+presence of a Shear Force
+we have made certain observations like
+the plane section gets distorted like
+this
+and what you have is here the original
+90 degrees preserved
+so which indicates Shear strain is zero
+which we have also seen when I have this
+as a free surface even though I may have
+a Shear Force transmitted by the beam
+the distribution which we evaluate from
+strength of materials should be such it
+has to be zero at the top Point as well
+as at the bottom point that we have
+understood from the discussion on free
+surfaces
+and we also note
+that you have a maximum change in the
+angle at the middle plane which is
+coinciding with the neutral surface
+so your Shear strain or shear stress
+reaches a maximum here
+and even though my bending Bond varies
+along the length of the beam
+in engineering analysis
+you use the flucture formula and in that
+you use the bending moment as what is
+seen at that particular length of the
+beam
+that is the way that we would use the
+flexure formula developed primarily for
+a beam which transmits only bending
+moment
+constant bending moment so even when the
+bending moment varies we invoke the same
+formula and substitute this bending
+moment
+and let us do some interesting
+experiment you know I am going to have a
+beam
+which is made of
+perspex and it has some thickness okay
+and I'm also going to do the experiment
+on four
+simple strips
+which when you put together it forms the
+thickness of the beam
+in fact this is also added as one of the
+experiments in your Center materials lab
+long time back when I introduced this
+I'm not sure how carefully you have done
+the experiment
+I said if the experiment is done
+carefully it is truth so whatever the
+theoretical development that we
+make it should explain what is observed
+in the
+carefully done experiment let me add
+that adjective
+you have to do the experiment very very
+carefully
+I have the beam subjected to three point
+loading
+and the second case is
+you know when I put this I also find out
+the zero load what is the I have also
+put the scale and you can carefully see
+that this is about 217 millimeters the
+idea is when I am going to change my
+beam
+I am going to look at what is the
+deflection that is created by the same
+load
+supports are same
+and your load is also applied is also
+same
+we are going to investigate
+the case 2 is a layered beam
+when I add the thicknesses it adds up to
+the thickness of the original beam
+and the third case what I am going to do
+is
+I am also going to tie these layers so
+that means they are not allowed to move
+freely
+you know I have four pins but I will
+just put insert two of them to
+illustrate that I am not allowing them
+to have any relative motion
+just to understand
+what way the experiment shows up
+so the third case is I have a pinned
+layered beam
+okay
+so let us do the experiment
+and zero loading is put us at 217
+millimeters
+and then I have when I apply the load it
+gets deflected
+and now the deflection is 218 so it has
+deflected only by one millimeter
+it's very very small when I have the
+perspex beam when I put the load
+see it's not as flexible like the
+plastic beam it's very strong okay
+and you have a deflection of only one
+millimeter
+suppose I put the load on the
+layered beam
+you find that it is deflector to 246
+millimeter
+that is the scale reading the initial
+reading is 217. and I find that the
+deflection what you find is very large
+it's about 29 millimeters
+see yesterday I said I have to double
+the load carrying capacity of the glass
+plate
+and I said from a design perspective I
+can make multiple options
+one option is to buy another glass plate
+put on top of it
+another option is increase the thickness
+of the glass plate the third option was
+put one more support
+after this experiment what would you say
+about putting another glass plate
+it's not found to be effective
+let us see if I pin them
+what happened that means I am
+restraining it
+okay
+and when you find this the deflection is
+two three nine millimeter
+you know these are all very carefully
+done photography because if you look at
+this
+it's not uh
+just the figure is shown you also see
+the reading from the scale
+to convince you
+and you find the deflection is reduced
+compared to the earlier case
+by
+about seven millimeters this is 22
+millimeters and this is 29 millimeters
+whereas if I have the
+solid beam that had hardly any
+deflection
+see for the purpose of illustration What
+happens when I have a layered beam I
+have taken four layers
+and if you really look at the beam I can
+imagine
+infinite layers
+of very thin
+cross section very thin depth
+and even when I do the pinned case I
+have just put four pins suppose I had
+put in so four if I had put 10 pins
+then what would you anticipate this
+deflection would be
+still smaller
+so the beam becomes and behaves more and
+more stiffer
+so something is happening in the beam so
+we'll have to find out our interest is
+to find out what happens in this solid
+beam
+to appreciate what happens the solid
+beam we have taken layers to understand
+what happens in between the layers
+because this is very subtle the issue
+what we discussed today is a very subtle
+concept
+and you can also make a record that the
+y1 is the least
+Y3 comes in between and Y 2 is the
+largest deflection
+and
+you know this is a summary I have one
+millimeter
+and then in the second case I have this
+as 29 millimeters
+and in the third case
+you have this such 22 millimeters
+see even before we take up a deflection
+these slides illustrate when I have a
+three point bent specimen how the beam
+is deflecting
+you know you have to do that because we
+are going to study principle of
+superposition even in deflection where
+you will have to visualize how a beam
+can possibly deflect
+only then you understand
+see as Engineers you have to have lot of
+visualization skills
+and now we would see very closely what
+happens at the edge
+fine You observe this video
+and what you find when I apply the load
+I am showing only this portion
+you could see that this is getting diff
+lifted
+fine
+this is for a homogeneous beam
+now I have a layered beam
+so you have this only like this there is
+no
+significant change on this this remains
+straight on the edge
+now I have a layered beam even here I
+only focus my attention on this
+and find out what happens
+okay
+can you see
+there is something interesting happening
+was this
+Edge remains straight
+it does not remain straight
+okay
+and what you have is you have
+these layers have slipped to different
+extent
+that is why you see this as a
+Edge like this
+so conversely what we can understand is
+something was there to keep them
+together in the homogeneous being
+that is the reason why
+this Edge defined straight
+that was missing when I have a layered
+beam
+so the layered beam is free to move
+and it has utilized that freedom to come
+out
+slip between the two
+and what we would do is we would see
+this in a
+enlarged fashion
+and you see this animation you know you
+have to understand this very very
+clearly
+and you know you see it very clearly
+that when the experiment is
+done carefully you find this has got
+shifted like this
+and you really see the layers have
+slipped along this boundary make a
+sketch out of it I wanted to make a
+sketch it's a very important observation
+I am not sure how many of you have made
+this observation and you did this
+experiment
+and carefully looked at what happens and
+why it happens
+all are important
+see now what we will do is we will also
+see the solid beam how it gets deflected
+you know it has gone up
+I don't know how many of you have
+observed to Aid you are thinking I'll
+also draw some extra lines
+so I have drawn a line where the edges
+so it has moved up like this
+suppose I repeat the animation
+you can see that the beam has moved up
+slightly
+see when you perform an experiment I
+said people do the experiment with some
+anticipation you don't do the experiment
+blindfolded even before you start doing
+the experiment you find out what all
+things have to be looked at in the
+experiment
+because many experiments you may not be
+able to repeat
+if the experiment is dynamic then you
+have to be very careful in recording the
+dynamical behavior so you must have a
+pre-plan what all things that you need
+to note
+what is key in this experiment is you
+should also look at what happens to the
+edge and look at here this is the
+horizontal led to what extent this beam
+has got lifted
+that is because this had the maximum
+deflection downwards at the load
+application point
+so the beam has got deflected like this
+when I have like this it has deflected
+like this
+okay so you are all you also see that it
+gets slipped but this is not a very
+careful experiment see that is the
+reason why I thought that I would record
+the video
+and then blow it up and then show
+is idea clear you are convinced that
+something is happening between the
+layers
+and that we have to quantify and
+evaluate
+and you can see very well when I have
+two surfaces have a relative motion like
+this
+you call that as
+shear isn't it
+fine so if shear stress get developed it
+will try to
+keep the edge straight like this
+fine
+and where does this come from
+we have already seen that when I have a
+constant bending moment the life was
+very simple
+the moment even I introduce the constant
+Shear Force bending monitors very
+linearly
+now we will take up a very generic case
+and here you know the sign convention
+you have to follow that is very
+important
+and
+we say on a positive surface positive
+Shear is shown in the positive direction
+and you also have bending moment varying
+along the x-axis and we have shown the
+variation as MB here and M B plus Delta
+m b
+and I have taken anti-clockwise moment
+as positive you know sign convention is
+very important because when we assemble
+the equation you have to put them in
+positive sign for us to get the basic
+equation and our mathematics will fix
+the sign automatically
+so what you find is depending on varies
+and now you know if the bending moment
+varies
+we have already said
+to find out the stresses due to bending
+simply use the bending moment at that
+cross section
+use the flexor formula that freedom
+we have given
+fine
+so if I go and plot what happens
+on the two surfaces
+we know that it is varying linearly
+and as the bending moment has increased
+so to say if we take this as an increase
+I would have larger stresses acting on
+this Edge
+incrementally larger
+is idea clear
+now what I'm going to do is you know
+the beam as a whole is in a state of
+equilibrium
+and it is a deformable solid
+for a deformable solid we have set every
+conceivable subsystem should also be in
+equilibrium
+we have to investigate that
+so one of the ways to do it is
+let me
+put a cut
+okay I also have the shear Force
+transported by the beam so I will put a
+cut horizontally
+that is shown as the pink plane
+so I sliced
+from the top a particular height and I
+slice it like this is idea clear I want
+to take out that slice
+the beam as a whole is in a state of
+equilibrium
+when I take a conceivable subsystem like
+this it should also be in a state of
+equilibrium
+so let me draw this and you know I have
+always been saying when I want to
+illustrate
+suddenly I will put things very large so
+that we see what happens in that section
+never forget we are handling only
+slender beams
+for illustration we are doing it so
+whatever we have understood from this we
+will translate as
+forces acting to make our mathematics
+clear we have identified this section
+what I have put is at a height of y1 and
+I put a horizontal section
+and the element is Delta X
+so I have
+bending stress indicated on this face
+and bending stress indicated on this
+face
+and it is also put for the entire width
+of the beam
+I have this please make a neat sketch
+that's reason why I am going slow these
+are all conceptual understanding
+and if you understand how we arrive at
+the shear stress distribution you will
+know when I have complicated cross
+section what they the shear force will
+show up
+when I have to calculate if I have to
+solve there if I have to join I'll have
+to find out what way the shear stress
+shows up
+and you have to get the conceptual
+understanding and we
+take a horizontal section we are very
+clever I will ask a question counter
+question later
+that you'll have to do some thinking at
+home and then come back
+see the board is not smart
+suppose I make the boat smart what would
+happen to this
+do you realize that there is force
+imbalance in this
+my diagram is not complete
+we know from the physics of the problem
+the beam as a whole was in equilibrium
+suppose
+I make the boat smart
+this element will not remain in place it
+will only have a translation
+fine
+it will keep on going in the direction I
+have stopped it at some position the
+board has become
+inert okay so that means to keep this
+tide in this place
+I should have stresses developed at the
+bottom of the surface is idea clear
+it's a very subtle point you have to
+appreciate this
+and you will also have to appreciate why
+I have put this in the negative
+Direction
+it has moved this way I should have put
+it in the positive direction it's not
+what you normally will feel
+and you know we are looking at the
+negative phase
+on a negative phase negative direction
+is positive
+we are developing basic equation
+okay
+so unless you have
+sharing action initiated there this
+cannot remain in equilibrium once you
+have understood this we will go back to
+our rigid body mechanics Sigma f x equal
+to zero Sigma m equal to zero all that
+we will do
+so that is how you go back between rigid
+body mechanics and
+strength of materials that is deformable
+solids
+so we are actually building a
+form building on foundation so you
+cannot afford to forget Concepts in
+rigid body mechanics and even the
+concept that we have developed all
+through the course till today
+all that is needed for you to appreciate
+how the shear stress is developed in the
+beam
+so considering the forces and X
+direction for the equilibrium to be
+satisfied
+let us write the expression see we are
+writing stress components and if I know
+the area I can find out the force
+fine
+so I I want to put summation of f x
+equal to 0
+so we look at what happens at X Plus
+Delta X Sigma X into d a
+at X Plus Delta X
+and I call this
+area as A1
+it's not the complete area of the cross
+section
+it is the area of the cross section
+above the
+line which is located at y one
+fine this section is the above the pink
+section is what we are really looking at
+and we have understood that there has to
+be a force on the bottom surface
+and when I write the equation of
+equilibrium I must put the
+sign as appropriate
+find soil this is in the negative
+Direction so I will put it as minus
+Delta f f i x
+and then this is also We'll add a put
+what happens at Direction X
+and
+so I have this integral a 1 Sigma x d a
+equal to 0
+so I have this as when I want to find
+out what is Delta f i x
+okay
+I have this as integral a 1 m b plus
+Delta m b into y because this is what we
+have said in the idealization just use
+the bending moment at that cross section
+so I can find out what is the stresses
+there and then multiply it by the area
+and do the integration from
+in this area A1
+at X Plus Delta X
+and you have force acting on this
+surface it is m b y divided by i z z d a
+that gives me Delta f i x equal to minus
+Delta m b by i z z integral a one y d a
+what is y d a
+it is first moment of area
+okay
+so what we have actually done is we have
+recognized that bending moment varies
+along the
+x axis
+and we have utilized the fraction
+formula using MB at this cross section
+using m b plus Delta m b at this cross
+section
+and we realized because the bending
+moment is different the stresses are
+different on this
+consequently the forces are different
+so in order to keep the element in
+equilibrium I should have stresses
+developed at the bottom surface I have
+shown this as Force Force give rise to
+stresses okay and then our interest is
+to find out this and now we have got the
+expression
+Delta f y x equal to minus Delta m b by
+i z z integral a 1 by D
+still we have not seen that this
+expression is written in terms of the
+Shear Force B
+and in the limit what we would do we
+would make Delta X go to zero
+okay
+so that's what we are going to see in
+the
+Next Step
+and you divide this by Delta X
+and you put the limits Delta X goes to 0
+so I get this as d f i x divided by d x
+equal to limit Delta X tends to 0
+Delta f y x divided by Delta x equal to
+minus DMV by DX
+1 by i z z y d
+see I have been able to take out this
+because I consider the beam has a
+constant cross section made of one
+material
+made of one material that is also I am
+conscious about it
+and y d a you can easily calculate and
+we will also replace this by Q
+can you tell me how I can bring in the
+shear Force here is there anything that
+you know
+from your earlier the development of the
+subject
+you can be louder
+equality of cautions we have discussed
+to say that this is equal to crochet is
+one idea because what she is trying to
+say is if I have success developed at
+the bottom surface I should have
+stresses developed in the as in this
+surface also so I essentially have if I
+have this as explained I will have Tau X
+Y double net and I equaled across rest
+whatever the topics were developed I
+will have Tau y x
+that is fine
+but now I do not want to have this
+expression having bending moment I want
+this expression to have my Shear Force
+you know I have discussed it in the last
+class I have shown you what is
+interrelationship between
+the load applied and the shear force and
+the bending moment applied and the shear
+Force
+so if I invoke that condition
+I will have this as d m b by DX equal to
+minus V
+and then I can write d f y x by d x
+equal to V by i z z integral a 1 yd
+see shear stress distribution and beam
+is subtle to understand and it also
+requires all that we have developed as
+part of the course
+you cannot directly jump and then see
+how maybe you can memorize the final
+expression that is not going to add your
+understanding and knowledge okay
+memory is secondary you have to
+appreciate how the subject is developed
+so I have this small area shown and then
+I will also write the integral properly
+okay
+I have this at a distance by
+and this is area A1
+and we will also see
+d f y x by d x equal to V by i z z
+integral a 1 by D
+y d is the first moment of area
+and usually it is given as symbol Q
+is taken as integral
+a 1
+yd you do it about the area a one
+and you also have coined another
+terminology
+f y x is a force
+Force per unit length you call this as
+Shear flow
+why you call it a Shear flow
+we make an analogy to fluid flow
+that we would see when I take an i
+section and then see how the shear is
+transmitted we will say two flows come
+join and then go like this and separate
+out
+so this is force per unit length
+and suppose I know what is the width of
+the beam
+at this cross section suppose I take
+this as B
+I can also find out the shear stress
+and we also assume that Shear force is
+uniform across the B
+see all that you can do as part of your
+development but final
+results that we have got should conform
+to
+an exact analysis like what you do in
+theory of elasticity
+or a carefully a done experiment it
+should satisfy both of this
+then our analysis is correct
+so I have Tau y x equal to q y x by B
+that gives me a very important
+relationship that's equal to V Q by b i
+z z
+and you should understand what is the
+symbolism q q is integral a 1 by d a
+suppose I want to find out what is the
+variation of shear stress over the depth
+of the cross section
+I must find out
+for a generic cross section write the
+expression and integrate it for the
+entire
+this one okay for each cross section I
+should find out each cross section
+either I should find out what is Q
+suppose I am able to have a simple cross
+section then if I write for a generic
+cross section that itself can be
+extended to give you for what happens in
+the
+complete cross section
+okay
+so shear stress evaluation is very
+subtle
+and you have to keep calculating Q for
+every cross section you look at
+here we have taken a cross section which
+is symmetrical about the X Y plane The
+Edge is not straight I have taken a
+small deviation in the edge to just to
+give an idea we are only insisting on
+symmetry along a plane the shape is
+immaterial in our theoretical
+development but when we do the problems
+we will take that as a rectangular cross
+section
+or an I cross section or a circular
+cross section for which you can easily
+calculate the mathematics
+and we will also
+illustrate what way the flow happens
+and here you understand and bring in on
+the top surface can I have any shear
+stress even though this cross section
+transmits Shear Force
+we have said the shear Force
+distribution should be such it should go
+to zero
+can you tell me whether it goes to zero
+on the basis of this expression can
+anybody see how it goes to zero
+on the top layer
+what happens to Q on the top layer
+is the question clear
+see I have taken y1
+I will increase the Y one to middle of
+the section I will increase y1 to the
+top of the section when I put it at the
+top of the section what is value of Q
+Q is zero
+you get the point
+I start from that so there is no area to
+start with the area of builds up only
+when I have some sufficient thickness
+so what we conjectured based on free
+surface is also mathematically seen so
+for mathematical development is correct
+now I put the shear flow from this I
+show this as a bigger Arrow because my Q
+is larger here
+for the next one from the illustration
+point of view how do you expect the
+arrowhead to be is it's going to be
+small or bigger
+because when I show this I can show it
+with few errors as an illustration
+when I put the arrows of one size here
+what would be the arrow that I should
+put next
+is is it going to be smaller or bigger
+is the question clear that means I have
+found out what is the
+shear stress at this cross section now I
+have moved up you can even say that I
+have moved up by this distance the
+height of the arrow
+there Q becomes smaller when Q becomes
+smaller you are shear stress also
+becomes smaller
+so I will have a small Arrow and when I
+go to the top it's almost close to zero
+and what happens on the bottom surface
+I will have a Shear flow like this
+please make a sketch
+because these are all conceptual
+appreciation
+see conceptual appreciation is what is
+going to stay with you
+because tomorrow you take up a problem
+which is challenging your mind should
+think and simplify the problem
+to Aid your thinking process
+I go slow
+show what are all the interactions that
+happen
+and then appreciate that it satisfies
+all that what you have developed earlier
+that gives the comfort that the logical
+step that you are taking is in the right
+direction
+see if I had taken the problem as a
+boundary value problem and solve the
+differential equation follow all aspects
+of mathematics
+that is good enough to see that you have
+got the solution
+but surprisingly even though I say
+theory of elasticity gives you exact
+solution the exact solution available
+are practically for a very few problems
+that is the reason why in Center
+materials we put lot of emphasis on
+physical appreciation
+and the thought experiment looking at
+the experiment simplify the problem so
+that you get the idea of how the system
+is responding
+so the procedure what we have taken is
+not fully mathematical
+we use mathematics in between
+and in order to verify that our steps
+are correct we look at the experiment
+whether our statements are right then we
+say the next step
+Final Solution we compared to the theory
+of elasticity fortunately it exists for
+a rectangular cross section
+fine
+now let us do it for a rectangular cross
+section how these shear stress
+distribution is
+here you can find out Q you know you can
+easily find out Q because it is a very
+simple cross section please make a neat
+sketch
+and if I have to find out
+Q I will write it in a generic fashion
+because if the cross section is not
+rectangle like this then I should do the
+integration properly so I take a small
+strip
+this strip has a height of d by
+so I will write the expression
+for a generic cross section
+V by b i z z
+and I want to have the area area is
+given as b d by
+so this I have written it for a
+representative cross section at y one
+because the cross section is simple the
+same expression by substituting the
+limits appropriately you can get
+calculate
+Q
+easily that is what I said earlier if I
+have a simple cross section
+if you write a generic expression like
+this
+this is enough to get Q at any cross
+section of Interest
+and what is the cross section of
+Interest
+the center of the cross section
+centroidal section is important because
+centroidal section is also a neutral
+surface
+and I have made a argument when we
+looked at the cantilever that you may
+have
+maximum at the
+centroidal plane
+so I have this as V by 2 i z z top X Y
+is given as H by 2 whole Square minus y
+1 square
+and I have to put the limits
+appropriately
+I have gone from y1 to H by 2.
+at the top and bottom fibers Q equal to
+0 so in shear stress is zero
+now what happens at the
+center of the cross section Q becomes b
+h squared by eight because Y is 0
+and you get that Tau XY Max as v h
+squared divided by 8 i z z
+and what is the nature of variation
+see in the case of
+uniaxial tension
+the stress transmitted was uniform
+across the cross section
+in the case of twist
+we found the shear stress varying
+linearly
+in the case of bending the bending
+stress was very linearly
+there is a difference
+this is a function of
+it's a parabolic function you get the
+idea
+so it's non-linear
+and when I do it for the center that is
+what is shown and I have this as a
+parabola
+so this is non-linear
+and on the top surface it is zero and
+the bottom surface it is zero
+and it has a maximum at the centroidal
+plane
+which we have also seen long time back
+when we discussed the free surface I
+took a generic
+three point bending
+and there the argument watch what we put
+forth was
+I take a section
+and these are not loaded boundaries and
+I said I can find out what happens at
+this top point and bottom point
+and our logic was
+it was a free surface there is no Shear
+acting on that and we said that this
+Shear force is not acting because it is
+free surface so all the other Shear
+stresses go to zero
+and we also raised a question
+can it support the horizontal force in
+this plane all that is happening in the
+cantilever in the cantilever beam as
+well as this three point Bend beam
+we have seen shear stress is zero at the
+top point and at the bottom point
+and at the top point and the bottom
+point you have the maximum normal stress
+so this conforms to that understanding
+and I have also said I have a cantilever
+beam and I asked you to observe what
+happens to the
+centroidal axis whether it is remaining
+in a black color it was not black color
+it has acquired a color
+see experiment whether the value is
+small or big
+it is truth
+right now what we have discussed is
+what is the variation of shear stress we
+have not commented about what is the
+magnitude of shear stress in comparison
+to
+bending stress
+the focus is only on the variation
+and I have asked you to look at two
+aspects one is the centroidal axis is
+having a color
+and second one is this Fringe is not a
+straight Fringe but it is having a
+curvature
+can you tell me what is the state of
+stress at a point like this
+because the beam is transmitting both
+shears Force as well as bending moment
+what is the state of stress at this
+point
+can you tell me
+you understand
+what are the stress components
+see flexor formula gives you
+bending stress
+and then we have evaluated even shear
+stress I have taken a generic Point here
+fine it is something like some point in
+the
+it is below the surface see you are
+looking the side view okay if you look
+at from the cross section point of view
+it is some point just below like this
+you can even be taken as y one
+so I will have shear stress here I will
+also have bending stress so if I put
+that substance array Sigma axis of X Y
+Tau y x 0 is idea clear
+and what you have here is your Sigma x i
+x
+is varying linearly
+and your bending moment also in a
+cantilever beam various linearly from
+this loading point to the fixed end
+but I have this rather than being a
+straight line it is curved where does
+that curvature come from
+you know photo elasticity plots only
+Sigma 1 minus Sigma 2
+and you are putting Tau box y Tau X Y is
+non-linear
+so your variation of Sigma 1 minus Sigma
+2 is not linear
+over the length of the beam for an
+horizontal line
+okay so you have the Sasa curvature
+okay
+now let us look at the relative
+magnitudes of bending and shear stress
+you know you have a rectangular cross
+section
+and you have Shear force and bending on
+diagram
+and where do you have the maximum
+bending stress
+you have the fluxual formula here I have
+the maximum bending on this PL by four
+that happens here
+and I can have this as a maximum tensile
+stress you can easily calculate
+the I for this is bhq by 12
+so if I do this I get the sigma Max
+as 3 by 2 p l by d h Square
+and you also know the expression for
+Taub x y
+for a rectangular cross section the
+maximum shear stress is
+VH squared by 8 is easy when I
+substitute i z z
+I get this as three by four P by b h
+so this gives a comparison that
+comparison is listed in the next slide
+and the ratio is 1 by 2 H by L
+and you know we want to have a slender
+beam the depth should be much smaller to
+the
+length of the cross section okay
+normally you have this as 10
+so shear stress is at least 20 times
+smaller than the bending stress
+isn't it surprising
+okay
+you know many books what they do is
+they give you the picture
+like this they don't go and emphasize
+what is the relative magnitudes
+I have drawn these stresses in a very
+big picture for me to illustrate the
+point so this is for the case of a
+rectangular cross section subjected to
+three point bending that means it has a
+constant Shear force and a variable
+bending moment
+and suppose I plot to some scale the
+stresses
+the way the beam is bent
+I have the top surfaces compressive
+bottom touch surfaces tensile is idea
+clear
+and many books simply put the shear
+stress variation the focus is only on
+showing that this is a parabola
+fine
+and you get duped that shear stress
+magnitude are comparable to tensile
+stress magnitude that's what you carry
+when you look at a picture
+the same thing I discussed when you are
+looking at such strain curve in the
+tension test I focus that you have to
+give importance to
+the level of strain
+on similar lines suppose I plot
+to scale what is the shear stress
+hardly anything look at this and look at
+this
+in many of our studies we will consider
+shear stress magnetism small we will
+ignore it even in a deflection we will
+ignore in many of the problems there is
+justification
+when it is important you have to worry
+about it that will come to it because as
+we have still not discussed what happens
+near the load application point
+and there are also many things that you
+can learn from this
+fine I want you to make a neat sketch of
+this it's a very very important slide
+it gives a lot of conceptual
+understanding can you tell me what is
+the stress tensor here
+I want you to develop see by flexor
+formula you get only component of stress
+you should know how to write this as a
+stress tensor
+minus Sigma X is zero zero zero
+and can you tell me what is the stress
+tensor here it is tensile
+so it is Sigma x x 0 0
+what is happening at the center
+0 term X right of x y 0
+what is happening at in between point
+it is Sigma x s Tau X fat over x 0
+in terms of principal stresses
+I will have this as Sigma 1 Sigma 2 on
+this for this point no problem
+because this is done in algebraically
+larger and one is labeled as Sigma 1
+algebraically smaller is Sigma 2.
+suppose I come to the top surface can I
+write like this
+I cannot write this becomes Sigma 2 and
+this becomes Sigma 1 because this is
+compressive
+okay so it's a very very important
+conceptual slide
+so in this class you know we have looked
+at uh
+how the shear stress is developed it's a
+very very important and subtle concept
+we have looked at an actual experiment
+and understood if I have multiple layers
+of the beam we could identify that is
+slipping happening that indicates what
+is the shear stress possibility
+then we have also learned how to
+calculate the shear stress we have found
+that it is 0 on the top and bottom
+surfaces reaches a maximum
+at the centroidal plane
+or at the neutral surface okay whichever
+way we have to look at for problem to
+problem
+thank you
+[Music]
+thank you

@@ -1,0 +1,1352 @@
+[Music]
+digital India educated India
+[Music]
+Syria looked at tension test to
+characterize the material
+then we also developed
+in an elementary manner by using the
+method of superposition how to get
+the relationship between strain and
+stress
+suppose I want to use a material
+I should know have a recorded all the
+parameters needed experimentally the
+question is how many constants do I
+require to characterize an isotropic
+material
+that is also a very important question
+that needs to be answered
+and we got the stress strain relations
+and an isotropic material when you apply
+a axial load it will have an axle
+extension when you apply shearly
+have a shared strip
+and we got the
+strain component in terms of all the
+normal stresses
+and I cautioned you
+when you look at the
+tension test when stress strain relation
+is asked people simply say epsilon y
+equal to Sigma y by e
+that is valid only in the case of a
+simple tension test where apply a
+uniaxial loading
+in the vertical Direction
+in general it will have an expression
+like this Epsilon x equal to 1 by E
+multiplied by Sigma x minus Nu times
+Sigma y plus Sigma Z
+and when you look at the
+relationship between the shear strain
+and the shear stress
+traditionally it is reported with
+respect to gamma x y
+gamma x y equal to Tau XY by G and
+cyclically you get the all the other
+strain components
+so when I look at this expression
+what are the elastic constants that I
+see I see
+E I see new icg
+so how many constant that you require to
+characterize the isotropic material
+based on this expression
+but they are not really three we'll have
+to see okay that is one issue
+another issue is we have done it for an
+isotropic material
+and how do you perceive the elastic
+constant e is it a scalar
+vector or a tensor
+as it stands now
+appears to be a scalar because every
+direction is identical in the case of an
+isotropic material that is one of the
+idealizations you make that is it is
+elastically isotropic
+we would soon see that this is the
+tensor of Rank 4 not even two
+it is a tensor of rank 4.
+and you can also say in Us in some sense
+this is a generalized hooke's law but a
+true generalized hooks law should cover
+isotropic material orthotropic material
+as well as anisotropic material we will
+that will also we will see towards the
+end of this lecture okay
+in comparison to what you learn in
+attention test you have little more
+generalization of the material response
+and you know the question is should I do
+tension test or should I go for a
+torsion test
+and in both cases you have
+a graph drawn and this is a linear
+portion that we are confining because we
+are looking at very small deformation
+and we have seen in the case of a
+tension test it is easy to pull I have
+to just do the pulling that's all I have
+to do
+and if I paste a strain gauge
+appropriately in one test I can measure
+X modulus as well as poissons ratio
+is idea clear
+suppose I want to do the torsion test
+this is just a history to just to give a
+recognition to Thomas Yang the deng's
+modulus is
+in his honor called as Ang's modulus
+and when you have a torsion test I have
+a Shear strain plotted on the x-axis and
+shear stress is plotted on the y-axis
+first thing is I should have a loading
+jig where it applies torsion not tension
+but you have loading jigs that is
+capable of doing it
+when I come to measure the strain we
+have seen we have also had a lecture on
+strain gauges
+how many strain gauges we use to measure
+the talk
+we use four of them we wanted to amplify
+the signal
+even in principle one strain gauge also
+you can use but it should be aligned
+properly
+so even the measurement of Shear strain
+is not going to be simple
+when I do the torsion test
+so from the torsion test I will get a
+linear graph and the slope gives you
+shear modulus it is also known as
+modulus of rigidity
+and from the tension test you get get
+the eggs modulus and it is also
+relatively shown you know the stiffness
+of G is smaller than e
+so the slope is different here
+and when you look at what is drawn here
+is a
+tension test result
+all the material model that we have
+simplified are all embedded in the data
+if I have a linear elastic and perfectly
+plastic you see it here
+if I have a linear elastic or and a
+bilinear curve to represent the plastic
+region you have it here
+and if I have a straight line followed
+by strain hardening it is there
+so the only trick is you confine your
+strain to a very small value where you
+see all these simplified material models
+that are very useful
+and you should also understand that this
+is plotted for the bulk material
+and how the loading is done the loading
+is gradually applied
+and it is done at room temperature
+see now we work on Extreme environments
+we work at very high temperatures as
+well as very low temperature like your
+cryogenic engine and so on
+so those applications you have to redo
+the
+tension test and characterize the
+material
+and these days there is also another
+threat people do bombing
+and in that case the strained rates are
+very very high how do the materials
+behave when I have high strain rates you
+have specific tests meant for that
+so what you have learned is a simple
+tension test is very basic this is for a
+bulk material
+then in a manner that the loading is
+gradually applied
+at room temperature
+fine that is how you start learning how
+to characterize a material
+and in Santa materials what you want to
+see why I use different materials for a
+given application it's in a very
+exaggerated picture
+I have the truss and the trusses loaded
+like this in your previous course
+you have learned how to find out the
+member forces by matter of joins and
+method of sections
+and you are not bothered to find out how
+the truss will deform
+suppose I plot an exaggerated picture
+see the maximum deflection is only about
+0.03 millimeter
+it's very very small
+I have one material this is
+by looking at the ends modulus you
+should be able to say that this is steel
+by looking at the ends modulus here you
+should say that it is Aluminum
+and you find
+when I change the material you could see
+distinctly the deformations are much
+much higher
+this is an exaggerated picture to drive
+home the point material selection is
+also a purpose why do you use a course
+on Center materials so you should know
+what is the difference in this but the
+maximum diffraction are still very small
+okay
+now the question is we have seen in the
+stress trained relations
+we saw ends modulus Shear modulus as
+well as poisson ratio are they distinct
+is there an interrelationship between
+them
+or all of them are independent or only
+two of them are independent
+now we take up a simple situation where
+I take a pure Shear state
+see this is also an application of the
+concepts that you have learned so far
+so please draw the more Circle and label
+the points
+another very important aspect see most
+of her discussion will be confined to
+isotropic materials
+in the case of isotropic materials
+what you have as principal stress
+directions what you have as principle
+strain directions they are identical
+that gives you lot of simplification in
+your understanding of the material
+Behavior
+and we would use that
+have you drawn the mouse Circle
+okay check it with mine
+so I can plot
+on the horizontal axis Sigma on the
+vertical axis shear stress
+and for this
+on the explain
+using our convention you plot it
+downwards
+and your y plane is plotted upwards and
+you draw the circle
+so this gives a complete picture of what
+happens at the point of Interest
+we have already seen I can represent the
+stress state by taking values from any
+diameter
+fine we are going to use that to
+establish
+I can also replace this trust state
+by using the principal stresses which
+are marked as 1 and 2.
+and you know that in the Mohr Circle it
+is 90 degrees in the physical plane they
+are separated at 45 degrees
+I can rewrite this trust state
+with respect to the principal stresses
+can you draw the sketch and also label
+the values
+from the more Circle you can find out
+what is the value of Sigma 1 and what
+also the what is the value of Sigma 2.
+for a pure shear stress State I want you
+to draw the most the
+pictorial representation
+with respect to the principal stresses
+and also the label the magnitudes then
+check with my diagram
+because that will help you to
+appreciate
+how do we go about in establishing the
+interrelationship
+can you do that have you done that you
+try to do it see there should not be
+hesitation if I make a mistake what will
+happen
+make mistakes that is how Society has
+learned
+many of the happenings there have been
+spectacular failures if scientists have
+designed it correctly why there is
+failure
+from failure and the failure analysis
+they learned where they have gone wrong
+what idealization was wrong
+and then go and improve the theory so
+you make a mistake that is the best way
+to learn a subject
+suppose I draw it with respect to the
+principal stresses
+you have
+at 45 degrees from X you go to Sigma and
+anti-clockwise direction in the real
+plane you go by 45 degrees I put the
+principle stress Sigma 1
+the magnitude from the more Circle you
+get the trust Tau
+fine
+and you have in the
+two direction
+a compressive stress whose magnitude is
+also tough
+and I said
+more circle of stress and more circular
+strain are identical
+if you adjust your access properly so I
+can also visualize the same Circle as
+most circular strain
+where I have the normal strain here and
+where I have this Shear strain here
+the idea is to interrelate what is the
+relationship between eggs modulus and
+Shear modulus
+fine
+I can also look at the more circle of
+strain from your transformation law
+Epsilon X Prime y Prime equal to minus
+Epsilon x x minus Epsilon y y divided by
+2 sine two theta plus Epsilon X Y cos 2
+Theta
+now what I am going to look at is I want
+to express
+gamma X Y in terms of the principal
+strains
+so I am going to look at
+write my strain in the principle strain
+directions that means I will have only
+Epsilon 1 Epsilon 2 is idea clear
+from that I want to express
+what happens in plain X and plane y
+so that means my x x will go to 1 1 and
+y y will go to 2 2
+and then X Prime y Prime will be x y
+and
+tensorial transformation you have to
+write Epsilon x x Prime y Prime in a
+engineering sense I can write this as
+gamma X Prime y Prime divided by two so
+you should understand that
+from the Mohr Circle can you tell me
+what is the value of gamma
+you look at the same Circle as a more
+circle of strain
+can you tell me what is the value of
+gamma very conveniently you can say
+what is the value of gamma in terms of
+Epsilon 1 and Epsilon 2 is the question
+clear
+see you have the radius radius is gamma
+by 2. the diameter is gamma I have given
+you enough Clues
+how do I get the gamma
+value
+huh
+Epsilon 1 minus Epsilon 2 okay same
+thing you can get from multiple ways I
+can substitute Theta equal to minus 45
+because I am going from the principal
+direction to X Direction so I rotate in
+the clockwise Direction clockwise is
+given as
+minus sign I can write from there or I
+can directly write from more Circle
+gamma x y equal to Epsilon 1 minus
+Epsilon 2 is idea clear
+foreign
+Epsilon 2 in terms of the normal
+stresses
+can you do that because we have just now
+seen the strain stress relation
+now I am looking at the stress
+quantities which are Tau 1 minus Tau you
+should keep track of what is the stress
+state that we are having
+so I can also write Epsilon 1 and
+Epsilon 2 in terms of normal stresses
+let us see those expressions
+before that you know we have the
+identity that gamma X Y is equal to Tau
+by G you should understand this is Tau
+XY
+since we are dealing with
+interrelationship and
+even if I do not write the symbol you
+should implicitly understand in the
+context it goes to Tau XY by G
+I can write Epsilon 1 Epsilon 2 in terms
+of the normal stresses
+can you write that and check it with me
+so I get this as Epsilon 1 equal to
+Sigma 1 by E minus Nu times Sigma 2 by e
+when I substitute what is Sigma 1 and
+sigma 2 Sigma 1 is Tau and sigma 2 is
+minus Tau so when I substitute I get
+Epsilon 1 as Tau into 1 plus Nu by
+X modulus e
+and Epsilon 2 as Sigma 2 by E minus Nu
+times Sigma 1 by e
+equal to minus Tau times 1 plus Nu by E
+is the idea clear
+see when we have learned it in terms of
+x y z
+you should know how to convert it from x
+y z to one to three
+so I can also compute what is Epsilon
+minus Epsilon 2 from this
+that gives me gamma x y equal to Epsilon
+1 minus Epsilon 2 equal to 2 times 1
+plus Nu by E into Tau
+and you already have another definition
+of gamma x y so when I equate the 2
+I get an identity
+that Shear modulus G
+equal to e by 2 into 1 plus Nu it's a
+very famous relationship
+so from this what do I understand
+even though for me to write a
+generalized strained stress relationship
+I needed
+e Nu and G
+of the three only two are independent
+the other one is interrelated
+so for isotropic materials
+the greatest convenience is it is enough
+you get any two elastic constants
+see there is also another
+strain that is discussed in strength of
+materials known as volumetric strain the
+moment I go to volumetric strain I
+cannot remain in plane X Y I have to go
+to Z direction also
+fine so there again we'll develop one
+more elastic
+quantity we will find an
+interrelationship
+and we will also find out what should be
+the limiting values of the poissons
+ratio Nu
+fine
+see the moment I go to volumetric strain
+I have to work in three dimensions
+because I am talking about volume
+and we have already seen
+in your strain displacement we have
+labeled it and we have taken
+deliberately a planar situation
+we have now looked at the Z direction we
+have confined ourselves to x y only
+but when we developed the finite strain
+we also discussed what happened in three
+dimensions
+and you know in my drawing it is
+difficult for me to show
+uh the points a b somewhere in the three
+dimensional space
+but I have labeled the coordinates
+appropriately a is X Y Z
+B is X Plus Delta X Y plus Delta Y and Z
+Plus Delta Z
+what is the difference between this and
+this
+there will not be any Z quantities in
+this
+in this I have all the
+three coordinates are available so the
+points A and B are situated in space
+fine
+and they get deformed and then move to
+new positions a prime B Prime we have
+also seen that when we discuss the
+finite strain
+and I have this will go to
+a displacement U this will go to
+displacement U plus Delta U
+since we have the displacement U V and W
+are also functions of x y and z
+we have said that Delta U should be from
+your Taylor's approximation dou U by dou
+X into Delta X Plus dou U by dou Y into
+Delta y plus dou U by dou Z into Delta Z
+and cyclically write it for Delta V and
+Delta w
+fine
+it's fair enough I mean that is how we
+have looked at the quantity we are long
+looking at in a three dimensional
+situation
+now what I am going to do is I am going
+to take an element
+which is along the X Direction okay
+before that let us also understand
+when I go from
+a b to a prime B Prime the B has got
+shifted
+okay B Prime has got shifted
+and if you look at what are the
+components along the x axis y axis and Z
+axis
+they'll become Delta X Prime equal to 1
+plus dou e by dou X Delta X Plus dou U
+by dou by Delta y plus dou e by dou Z
+Delta Z primarily because I have the
+coordinates of B Prime as
+shifted by
+Delta X Plus Delta U
+fine
+you have this as X Plus Delta u y plus
+Delta y z plus Delta Z
+and when I go to this point B Prime you
+will have all these quantities plus Del
+plus Delta U Delta by Delta V and Delta
+w
+so when I look at what happens to point
+B Prime this is what would happen
+when I look at what are the component
+along y axis
+I will have Delta y Prime equal to dou V
+by dou X
+plus 1 plus dou V by dou Y into Delta by
+plus dou V by dou Z into Delta Z
+and cyclically I can also write what
+happens along Z axis I have Delta Z
+Prime equal to dou W by dou X into Delta
+X
+plus dou W by dou y
+plus 1 plus dou W by dou Z into Delta Z
+when you look at this it looks as if it
+is too complicated its not too
+complicated
+suppose I take an element like I have
+taken OC I have also take a
+I have about points p and Q where I say
+the point Q
+is shifted only by Delta X that Y and Z
+remains
+same I am take a line which is parallel
+to x axis
+suppose I look at Delta by Delta Z goes
+to 0 and look at the component around x
+axis y axis and Z axis
+I will get what is the default position
+P Prime Q Prime see because it is a two
+dimensional space where I am plotting
+I have not shown the distinction between
+a B and P Q
+that distinction is brought out in terms
+of labeling the coordinates so you will
+have to have your visualization
+helping you to see that
+and I get this as 1 plus dou U by dou x
+x component
+y component is dou V by dou X and
+Z component is dou W by dou X
+this is what you have seen here see here
+we have shift taken the two dimensional
+situation
+okay it has got distorted like this
+and when you look at what happens to
+this it is U plus dou e by dou X Delta X
+that is what you are putting it here
+fine and then here you have shifted by
+dou V by dou X the dou B by dou X is
+there we have missed out the what
+happens in the Z Direction so the extra
+quantity dou W by dou S comes
+leaving that it is very similar to what
+we have done it for a
+planar situation now we have graduated
+to a three-dimensional situation
+suppose I know what happens for a line
+parallel to x axis now I take a line
+parallel to y axis and I take a line
+parallel to Z axis I can construct a
+Elemental Cube
+is idea clear
+and I want to see what is the volume
+before deformation what is the volume
+after the deformation that is my
+interest
+so what I am going to see here is
+instead of just a line I will take a
+cube
+I will take a cube that has dimensions
+Delta X Delta Y and Delta Z
+so that means I have a line which is
+parallel to x axis to start with
+parallel to Y axis to start with
+parallel to Z axis to start with
+and whatever we have discussed earlier
+we will borrow that result
+and then find out what is the
+deformed quantities okay now let me also
+show the deformed nature of the cube I
+label this as P Prime Q Prime
+and we have already discussed what
+happens to P Q which was originally
+parallel to x axis
+now following that discussion we will
+have to write for p Prime R Prime as
+well as P Prime S Prime is idea clear
+ok
+so I am going to write P Prime Q Prime P
+Prime R Prime and P Prime S Prime
+and we have seen already for p Prime Q
+Prime in the previous slide
+they are nothing but 1 plus dou e by dou
+x dou v by dou X and dou W by dou X
+in the generic expression we have
+written only Delta X we have made Delta
+Y and Delta Z 0. for a line which was
+originally parallel to Y axis that is
+this line
+I have no Delta X I have only Delta y
+Delta Z is also 0.
+so when I do that
+I get this as dou e by dou by
+and component along Y axis as 1 plus dou
+V by dou by
+component along Z axis as dou W by dou
+by
+and similarly I can also write it for p
+Prime S Prime I get this as dou U by dou
+Z
+I get this by dou V by dou Z when I get
+this as 1 plus dou W by dou Z
+now go back to your analytic geometry
+see this is a deformed parallel pipe
+okay
+how do I find out the volume of this
+I know the vectors P Prime Q Prime P
+Prime R Prime and P Prime S Prime if I
+know the three vectors how do you find
+out the volume
+you remember
+huh
+triple product scale or triple product
+so that's what I am also going to do
+fine so you know when you learn
+engineering you cannot afford to forget
+the mathematics many times what happens
+is you study mathematics as a separate
+course to get grades
+you have to remember some of those
+Concepts when you want to learn
+engineering subjects also
+so that is nothing but your determinant
+okay into Delta Delta X Delta by Delta Z
+and I have to get the determinant of
+this whatever the quantities that we saw
+earlier
+and when we find out the determinant we
+will use the identity we are working on
+very small deformation
+so product of small quantities will be
+much smaller
+so neglect all of them so then I will
+intelligently write this product
+as the determinant value as 1 plus dou e
+by dou X Plus dou V by dou V plus dou W
+by dou Z
+neglecting all the higher order terms
+if I have product of dou e by dou X into
+dou V by dou by I neglect because
+product of small quantity is much
+smaller because I am dealing with very
+small quantities
+so this when you go back to your
+original definition of what is
+strain I can write dou U by dou X as
+Epsilon x x
+dou V by dou by S Epsilon y by dou W by
+dou z s Epsilon z z and the volume is D
+multiplied by
+Delta X Delta by Delta C this is the
+deformed volume the original volume is
+Delta X Delta by Delta Z
+so V Prime is V plus Delta V so that is
+given as 1 plus Epsilon X Plus Epsilon y
+y plus Epsilon z z into Delta X Delta by
+Delta Z
+and when you want to write
+Delta which is labeled as Delta V by V
+like you have the extensional strain
+change in length divided by original
+length here change in volume divided by
+original volume
+I get this is a very famous expression
+it is nothing but addition of the axial
+strands Epsilon X X Plus Epsilon y y
+plus Epsilon z z
+so this is known as a volumetric strain
+and this is a very famous expression
+that we have determined it in a very
+systematic fashion
+now we will go and see
+one more elastic constants
+what we call it as bulk modulus
+and here you take an element which is
+subject to a
+compression the pressure is p since the
+direction is already shown only the
+value is shown as Sigma
+and I have stresses acting on all the
+three
+faces they are of equal magnitude that
+is why it is called hydrostatic the idea
+is if we must end anything inside a
+liquid
+fine you will have equal pressure acting
+on all sides
+so it is a hydrostatic state of stress
+and what is the
+strain quantities because our objective
+is to find out Epsilon X Plus Epsilon y
+plus Epsilon Z
+since I have all these quantities
+identical on all the three phases if I
+say epsilon X Epsilon y will be
+identical Epsilon X so I can say epsilon
+X Plus Epsilon y plus Epsilon Z as three
+times
+Epsilon X and write down write out the
+values
+so volumetric strain is Delta equal to
+Epsilon X S Plus Epsilon y y plus
+Epsilon z z
+since the stresses are equal I can write
+this as 3 times Epsilon x x
+and I can write what is Epsilon x s
+based on my
+original proper strain stress relation
+where I have to count for Sigma X as
+Sigma by asila Sigma Z
+in this case all of them equal to Sigma
+so this reduces to
+3 times Sigma by X modulus e minus Nu
+times Sigma by E minus Nu times Sigma by
+E you should not forget these quantities
+that is a common mistakes people do when
+they learn structure materials for the
+first time
+the tension test is so dominant you do
+not see beyond that so please do not
+make this mistake you should account for
+the other stress components their
+contribution to the strain
+so now I know the volumetric strain
+and you have the definition
+I have the volumetric strain when it is
+simplified I get this Delta as three
+sigma multiplied by 1 minus 2 Nu divided
+by X modulus e
+and you have a definition there is a
+definition of bulk modulus it is defined
+as
+ratio of
+Sigma X Plus Sigma y plus Sigma Z
+divided by 3
+divided by Epsilon X Plus Epsilon y plus
+Epsilon z z
+that is nothing but Sigma by Delta
+so this is a definition of what is a
+bulk modulus
+now we have all the quantities we have
+Delta in terms of Sigma so when I
+substitute this
+I get an expression for ah
+bulk modulus k
+in terms of
+ends modulus and
+e divided by 3 into 1 minus 2 Nu
+so what is your first take
+what will be the value of K in
+comparison to X modulus we have already
+seen Shear modulus is smaller than x
+modulus
+so similarly
+your bulk modulus is also smaller than
+modulus
+and what you have here this gives me
+a limiting value of what is the value of
+Nu what is the highest value new can
+take because I cannot have this
+go to zero
+if it goes to 0 I get this as Infinity
+okay so when Nu is 0.5 K becomes
+infinite
+volumetric strain becomes zero
+so one limiting value of Nu is 0.5
+and you have this idealization see these
+are all justification that you say the
+material is incompressible and then do
+the analysis
+pasticularly particularly in the
+development of plasticity
+you know it's very mathematically highly
+demanding
+one of the aspects we have also looked
+at when we discuss strain gauges when
+the material becomes plastic the portion
+ratio approaches 0.5
+so one of the idealization they do in
+simple plasticity theories is the volume
+remains constant
+that is one of the conveniences in
+simplifying the material model that
+comes from a discussion like this
+we have looked at what is the highest
+value of poisson ratio
+is there a way that you can find out
+what is the lowest value possible
+from whatever we have learned till now
+is there anything that you can take up
+and then say based on this the lower
+value is also fixed for position ratio
+any guesses
+see they've just now seen a relationship
+between X models and Shear modulus
+what was it like
+it was it like G equal to e by
+2 into 1 plus Nu so this gives me
+the other limit that it cannot go beyond
+minus one
+so I have the range of portion ratio
+minus 1 to
+0.5
+but most materials have between 0 and
+0.5
+and you have a very interesting material
+cork
+has a position ratio close to zero it
+may have some small value but we
+declare that it is zero
+similarly rubber is also very close to
+0.5 okay
+and most metals have Nu equal to 0.3
+so what we find here is when we discuss
+Shear modulus
+when we look at bulk modulus they have
+been able to establish a relationship
+between
+Ang's modulus bulk modulus and partition
+ratio
+similarly an interrelationship between
+X modulus
+Shear modulus and poisson ratio and this
+internal relationships declare
+any two elastic concepts are sufficient
+you may give X modulus and position
+ratio or bulk modulus and Shear modulus
+you can find out all other quantities an
+isotropic material requires only
+any two of the four elastic constants
+that we have brought into focus and we
+have also seen what is the limiting
+value of the position ratio and if you
+look at cork
+it is naturally occurring material it's
+actually bark of a tree that they use it
+and some of the applications of carc
+which has never changed even with other
+material development
+one of the things that the uses or
+alcoholic seasoning they put the sealant
+by using a cork
+you are going to apply compressive
+stress and then insert it in the bottle
+normally when you look at partial ratio
+what we imagine that when I stretch
+the lateral part gets
+opposite strain when I stretch it it
+gets shrunk when I compress it it can
+bulge out
+so if you are sealing a bottle when you
+are applying a compressive Force if it
+bulges out it will not it will be
+difficult for you to insert it
+that is one of the advantages another
+Advantage what they say is that it also
+allows oxygen into the bottle that is
+one of the reasons
+and also in some of the
+shows that they have the heel Stillness
+cork
+and it is a green material in the sense
+you know you can replenish it
+it appears that every 12 years or 13
+years you can remove the bar carefully
+and the tree will again grow the bar gas
+cork
+so it's a green that is also very
+important we now become environmentally
+very very sensitive okay we want
+everything to be recyclable
+and what is the utility of negative
+poisson ratio
+say I said you also have the ranges
+minus one
+people have developed exotic materials
+that is
+yes you develop polyurethane which has a
+negative portion ratios put as NTR
+he was able to develop it with the
+position ratios minus 0.7
+and such materials were named as oxytics
+that comes from the Greek word oxytus
+means that which may be increased
+so that means when I stretch it in stuff
+laterally Contracting it should bulge
+out
+you get the idea
+so that is achieved by a different
+structure of the material
+this finds application in these tense
+see
+you hear these days instead of going for
+a bypass surgery many of the elders in
+the family will go to the hospital and
+get a stent implanted in their arteries
+and one of the ways that the implant is
+they have a balloon and they will blow
+the balloon so what we'll do is it will
+bulge out at the same time it will also
+elongate in the longitudinal direction
+that is a decidable characteristic
+Forest tend to stay in place
+so people have developed such type of
+material
+particularly the medical profession uses
+the negative portion ratio so well
+okay see I can also write the same thing
+what we have looked at in a matrix
+relationship because my interest is to
+show later
+you know I can have
+what I have this as elasticity Matrix is
+actually a tensor of rank 4.
+we saw that as a scalar
+in isotropic material whether you take
+it as a number or tensor does not matter
+because you are never going to worry
+about the direction
+and I can also Express strains
+related to stress
+instead of writing it as long hand it is
+written in a matrix form there is
+nothing new here
+okay
+since I have a relationship between
+strain and stress I can also ask a
+question
+can I write the relationship between
+stress and strain
+this was also attempted okay
+this was attempted by Lamy
+and you know here again I emphasize that
+EG and new you have and G equal to e by
+2 into 1 plus Nu again to remind you
+that when we deal with isotropic
+materials you have a greatest Advantage
+you have only two elastic constants that
+are required even though I have three in
+the Matrix here only two are sufficient
+without the third one is dependent on
+the other two
+I can also write it in terms of lamis
+constants it's all together by a
+different approach
+and the idea is if I know the strain
+quantities how do I relate the
+stresses he came up with some other
+elastic constants so this you write
+the diagonals as Lambda plus 2 mu this
+is the symbol that he has used
+and we have to find out what is the
+interrelationship between the symbols
+Lambda and mu to what we have learned as
+e g and Nu
+okay
+this is credited to Lami
+and easily you can relate what you have
+as Mu is nothing but your Shear modulus
+that you can easily say
+the other one is difficult to look at
+from the
+expression you have to derive and this
+Lambda is related to
+X modulus as Lambda equal to Nu times x
+modulus divided by 1 plus Nu
+multiplied right one minus 2 Nu
+so this is also another set of
+expressions
+see when people approach the same
+problem from different perspectives
+if you agree on the essential
+analysis that you would require only two
+elastic constants
+that gets reinforced because I told you
+at the start of strength of materials
+people started that you need only one
+elastic constant because they assume for
+all material poison ratio is a fixed
+value of 0.25
+by looking at the position ratio now if
+you look at many of the materials
+however around that you may make a small
+error that is one aspect but from a
+fundamental aspect you need a minimum of
+two elastic constants
+but you can appreciate that you require
+only two elastic consonants in an
+isotropic material when Lee when you
+look at an anisotropic material how many
+elastic constants that you require
+I'll also give you a brief outline of
+that for you to appreciate
+we are living in a very comfortable
+domain isotropic materials
+where
+two elastic ones are sufficient
+ok
+you can just take a snap of it I'm not
+going to read this these are all the
+interrelationship that is available okay
+from an academic interest you need to
+have this table in your notes
+fine but we all know that
+um G equal to e by 2 and 1 plus Nu that
+is a very famous expression that we will
+repeatedly use for many of our problem
+solving and simplifications other
+quantities are from an academic interest
+point of view
+and you know before we move on to the
+generic material see people also have
+looked at suppose I take a ductile
+material
+I pull it I go to yielding what happens
+then I also compress it and then go to
+yielding in that
+compressive Zone
+see in the case of
+brittle materials we saw ends modulus
+intention and compression are widely
+different they are very strong in
+compression they are very weak in
+tension
+unlike that a ductile material is having
+similar yield strength both in tension
+and compression when you load it like
+this
+suppose I load it
+to plastic region
+then I unload it and go to compression
+people have found the deng's modulus has
+decreased then I load it unload it and
+then load it to elastic region
+I find this y a also decreases y b also
+decreases so this is
+credited to a scientist called
+boschanger it's known as a boschanger's
+effect
+and people have
+looked at all of this see the moment you
+want to go to plasticity
+history of loading becomes very
+important you may think why history is
+important they are transporting material
+in a truck and then truck has an
+accident and all the material fell on
+the road
+that means they have an impact lot some
+of them would have defound plastically
+and if I want to make a component out of
+it I want to see what would be its
+failure strength Its Behavior may be
+totally different
+so if you want to model plasticity
+history of loading is also very
+important and people have done many
+tests they will do tension compressions
+attention Shear all these combinations
+you have so they are all special
+situations
+special situations need additional
+experiment and additional understanding
+that is the take from this discussion
+so we have a comfort of an isotropic
+material when I apply tension
+it has only axial strain
+and when I apply pure Shear it has only
+Shear deformation the tension and Shear
+are
+distinguishable
+tension is provide the axial strain is
+precipitated by an axial stress and a
+Shear strain is precipitated by an shear
+stress
+same thing happens even in the case of a
+orthotropic material but with a
+restriction when you have an orthotropic
+material see what I show here is lion
+says it is easy to visualize if I have a
+fiber composite and the lion indicates
+the direction of the fiber
+ok
+and you have labeled this as a
+longitudinal Direction
+whatever you have this perpendicular to
+that you call this as a transverse
+Direction so you label this as L and the
+symbol t
+if I load it along l
+I will have only axial strain producers
+axial stress produces only axial strain
+similarly your Shear will produce the
+shear
+suppose I rotate it that means I pull it
+along the transverse Direction the
+transverse direction will have a lesser
+Rings modulus than the longitudinal
+direction that is what is seen in an
+orthotropic material so orthotropic
+material is also
+similar to isotropic material under
+certain directions in a generic
+Direction it will behave differently
+okay
+so that is one step from isotropic go to
+orthotropic and you also have the
+natural material as wood wood is an
+orthotropic material
+and you know your Carpenter will know if
+he has to develop a shelf he will know
+how to put the shelf for it to withstand
+he has not studied solid mechanics but
+he will put it all the fiber is along
+the longitudinal Direction he knows that
+from experience
+and if you look at any of the
+engineering material processed I have
+said
+that you have a grain flow
+in the Machining and the grain flow is
+cut forging is the best process
+and I can have a heart forging or a cold
+forging
+and when I have a cold forging I have a
+higher strength
+and you know you have a recent
+Announcement by the government we are
+having the Vande Bharat trains those
+Wheels
+they need about lack of them per year so
+80 000 they were importing it from
+Ukraine now because of the war they want
+to have this manufactured in India you
+know what is the manufacturing process
+that is going to be done by forging
+okay forging is a very common I told you
+your spanner is made by forging
+so the wheels are also going to be made
+by forging and forging Alters the
+grain flow
+that means the bulk material property
+what we have done by simple test will
+not be sufficient to predict the
+behavior of a Force's component
+so you have to take a specimen along the
+fiber Direction and find out what is the
+maximum stress it can stand
+so tension test is
+from a bulk material point of view that
+is good for simple day-to-day design you
+can have a bulk figure but for actual
+structures you will have to do
+additional test and get the properties
+not only that people also have
+qualification tests for all of this they
+don't just go by your design alone alone
+very exhaustive test tricks are made
+another way to look at the materialism
+material it is very simple to visualize
+if I have
+fiber Composites at different
+orientations are assembled and you make
+a lamina like this
+this will behave in an anisotropic
+manner that means every direction is
+different
+suppose I pull this material
+please make a sketch out of it it will
+elongate it it'll also shear it's very
+difficult to handle
+in an isotropic material an orthotropic
+material in special directions you have
+a very comfortable material Behavior
+but when I go to an isotopic material
+all crystals are anisotropic okay
+here to illustrate a simple
+understandable material I have taken
+place of different angle orientation I
+have made a
+ply like this
+when I apply axial tension it has
+elongation as well as shear
+when I apply Shear it will have Shear
+strain as well as axial strength so that
+makes the behavior very very complex
+and if I have to model this material
+Behavior then what I have is the
+generalized hooke's law
+and I am going to write it in integral
+notation
+I have Sigma i j i goes to 1 to 3 J goes
+to 1 to 3. and I have in general nine
+stress components
+okay
+this is related to The Strain component
+Epsilon k l
+and what you have here is e i j k l with
+four subscripts
+here you will recognize the angs modulus
+is a function of the direction
+it is a tensor of rank 4.
+and if you look at this how many
+coefficients I need to have and I have
+this in a matrix form
+I will have nine independent stress
+components and nine independent strain
+components so I will have a whooping
+81 elastic constants
+too big to handle is the idea clear
+okay
+I have this as tensor of Rank 4
+okay 81 elastic constants
+and you know
+a stress sensor is symmetric strength
+and sorry symmetric all these symmetries
+reduce the number of elastic constants
+so instead of nine suppose I say strain
+is symmetric I have only six independent
+components so I have this as 9 into 6 as
+54 elastic constants
+I J K L here i j l k when it is reverse
+its symmetric so I have 54 elastic
+constants
+when I bring in stress tensor is
+symmetric
+I get i j becomes j i
+I will have 36 elastic constants
+but the next step you have to go to
+thermodynamics find out the energy and
+all that you do not have a background
+right now but just listen because you
+have to appreciate an isotopic material
+requires only two
+don't think screw is very high
+for you to illustrate that I say if if
+you have to have an anaerobic material I
+can still simplify go to thermodynamical
+conditions so I strain energy density
+function can be assumed as
+the energy is you when I different
+differentiate this dou U by dou Epsilon
+i j I'll get Sigma a j
+if I differentiate it with respect to
+the other subscript the order of
+subscribe does not matter
+so that's what I am going to do I am
+going to differentiate with respect to
+Epsilon k l
+and then I am going to differentiate
+with respect to Epsilon i j the order
+does not matter so this gives me a
+condition I J K L equal to k l i j
+that reduces my elastic constants to 21.
+so in anisotropic material
+requires a minimum of 21 elastic
+constants to characterize where is 21
+and where is 2. don't you feel that you
+are handling a isotropic material why we
+want to idealize
+even though your Extrusion process
+aligns the fibers in one manner we still
+live in the comfort of isotopic material
+and handle it from an engineering point
+of view you do a different test use a
+different angs modulus for you to handle
+the situation
+so I have a ation elastic constants 54
+elastic constants 36 and finally with
+all this discussion and
+isotope anisotropic material the number
+of elastic constants
+reduces to 21. suppose I go to an
+orthotropic material I will stop with
+that
+okay
+so this emphasizes anesthetic material
+requires 21 elastic constants
+when I go to an orthotropic material
+just to give you a idea that what I have
+as the Matrix here I will have for a
+three dimensional situation
+only nine elastic constants because it
+has
+two orthogonal planes in which the
+elastic properties are symmetric
+so you bring in the Symmetry condition
+you go further because you are going to
+look at
+elasticity is a tensor of Rank 4 so when
+I look at symmetry
+on the symmetric axis the elastic
+constants cannot change you will have
+some contradictions that contradictions
+will say that this constant should go to
+zero that is how you get the zeros here
+so you extend this argument you can also
+show
+at
+isotropic material
+will have only two elastic constants so
+what you have is
+an anisotopic material has 81 to start
+with the discussion but we all know that
+stress tensor is symmetric strength and
+sorry symmetric when I apply all this
+and also bring in the thermodynamical
+condition
+it reduces to 21
+a 3D orthotropic has nine elastic
+constants that you see here
+a 2d orthotropic will have four elastic
+constants
+whether it is a 2d or 3D I have
+two elastic constants
+only
+which makes our life extremely simpler
+okay
+so in this class we have looked at
+interrelationship betweenings modulus
+Shear modulus as well as bulk modulus
+we also looked at what are the limiting
+values of the poisson ratio
+and we have looked at where the negative
+position ratio is used medical industry
+takes benefit out of it
+then we have also emphasized that in the
+case of a anisotropic material you need
+21 elastic constants
+whereas isotopic material requires only
+two elastic constants
+[Music]

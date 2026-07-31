@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why the chalk knows which plane to break on — Strength of Materials, rung 1</title>
+<script>
+  MathJax = { tex: { inlineMath: [['\\(','\\)']], displayMath: [['$$','$$']] },
+              options: { skipHtmlTags: ['script','noscript','style','textarea','pre'] } };
+</script>
+<script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"
+        integrity="sha384-Wuix6BuhrWbjDBs24bXrjf4ZQ5aFeFWBuKkFekO2t8xFU0iNaLQfp2K6/1Nxveei"
+        crossorigin="anonymous"></script>
+<style>
+  :root{
+    --paper:#fbfaf6; --ink:#2b2620; --accent:#355070;
+    --rule:#ddd8cc; --faint:#8b8375; --code:#f3f0e8;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    font-size:19px; line-height:1.68;
+  }
+  .wrap{max-width:640px; margin:0 auto; padding:4rem 1.4rem 8rem}
+  a{color:var(--accent)}
+  .top{font-size:.8rem; color:var(--faint); margin:0 0 2.6rem}
+  .top a{color:var(--faint)}
+  .eyebrow{
+    font-size:.72rem; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--accent); margin:3.6rem 0 .9rem;
+  }
+  .eyebrow:first-of-type{margin-top:0}
+  h1{font-size:2.25rem; line-height:1.14; font-weight:normal; margin:0 0 2.2rem; letter-spacing:-.015em}
+  h2{font-size:1.35rem; font-weight:normal; line-height:1.3; margin:0 0 1.2rem; letter-spacing:-.005em}
+  p{margin:0 0 1.25rem}
+  strong{font-weight:600}
+  hr{border:0; border-top:1px solid var(--rule); margin:3.6rem 0}
+
+  .aside{
+    margin:1.9rem 0 1.9rem 1.1rem; padding:.15rem 0 .15rem 1.35rem;
+    border-left:2px solid var(--rule); font-size:.93rem; color:#544b40;
+  }
+  .aside p{margin:0 0 .8rem}
+  .aside p:last-child{margin-bottom:0}
+  .aside .lbl{
+    display:block; font-size:.66rem; letter-spacing:.15em; text-transform:uppercase;
+    color:var(--faint); margin-bottom:.5rem;
+  }
+
+  .beat{
+    font-size:1.2rem; line-height:1.45; margin:2.6rem 0; text-align:center;
+  }
+
+  details{
+    margin:1.7rem 0; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+    padding:.2rem 0;
+  }
+  summary{
+    cursor:pointer; list-style:none; padding:.85rem 0;
+    font-size:.88rem; letter-spacing:.06em; color:var(--accent);
+  }
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"▸  "; color:var(--faint)}
+  details[open] summary::before{content:"▾  "}
+  details[open] summary{border-bottom:1px solid var(--rule); margin-bottom:1.1rem}
+  details > *:last-child{margin-bottom:.9rem}
+
+  .ask{
+    margin:2.4rem 0; padding:1.2rem 0 1.2rem 1.35rem;
+    border-left:2px solid var(--accent); font-size:1rem;
+  }
+  .ask p:last-child{margin-bottom:0}
+  .ask .lbl{
+    display:block; font-size:.66rem; letter-spacing:.15em; text-transform:uppercase;
+    color:var(--accent); margin-bottom:.55rem;
+  }
+
+  figure{margin:2.6rem 0; text-align:center}
+  figure svg{width:100%; height:auto; max-width:100%; display:block; margin:0 auto}
+  figcaption{
+    font-size:.85rem; color:var(--faint); margin-top:.9rem;
+    text-align:left; line-height:1.5;
+  }
+  svg text{font-family:'Iowan Old Style',Palatino,Georgia,serif}
+
+  code{
+    font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+    font-size:.85em; background:var(--code); padding:.1em .35em; border-radius:2px;
+  }
+  ul,ol{margin:0 0 1.25rem; padding-left:1.4rem}
+  li{margin-bottom:.5rem}
+
+  .mathbox{
+    background:var(--code); padding:1rem 1.1rem; border-radius:3px;
+    margin:1.6rem 0; overflow-x:auto;
+  }
+  .mathbox p{margin:0}
+
+  .end{
+    margin-top:4rem; padding-top:2rem; border-top:1px solid var(--rule);
+    font-size:.93rem; color:#544b40;
+  }
+  .next{
+    display:inline-block; margin-top:1.4rem; font-size:.9rem;
+    color:var(--accent); text-decoration:none; border-bottom:1px solid var(--accent);
+  }
+  @media (max-width:520px){
+    body{font-size:17.5px}
+    .wrap{padding:2.6rem 1.1rem 5rem}
+    h1{font-size:1.8rem}
+    .beat{font-size:1.08rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="top"><a href="index.html">← the ladder</a> &nbsp;·&nbsp; rung 1 of 8 &nbsp;·&nbsp; stands on <a href="00-the-cut.html">The Cut</a></p>
+
+<h1>Why the chalk knows<br>which plane to break on</h1>
+
+<p>Get a stick of blackboard chalk. I meant it last time and I mean it now — this lesson starts with your hands, not your eyes.</p>
+
+<p>Hold it at both ends and <strong>pull</strong> until it snaps.</p>
+
+<p>Look at the break. It's flat. Square across, ninety degrees to the axis, a clean disc. Do it again with a fresh piece and you'll get the same flat face. Everybody does.</p>
+
+<p>Now take another piece. Don't pull it — <strong>twist</strong> it. Grip each end and turn your hands in opposite directions until it goes.</p>
+
+<p>That break is not flat. It's a spiral, running around the stick at roughly forty-five degrees, and if you look at the two pieces they screw back together like a bottle cap. Twist the other way and you get a spiral leaning the other way — the mirror image, the other diagonal.</p>
+
+<figure>
+<svg viewBox="0 0 460 150" role="img" aria-label="Two sticks of chalk. The one pulled in tension breaks on a flat plane square to the axis. The one twisted breaks on a helical surface at about 45 degrees.">
+  <!-- tension -->
+  <text x="20" y="24" font-size="10" letter-spacing="1.2" fill="#8b8375">PULLED</text>
+  <rect x="20" y="46" width="78" height="26" fill="#f3f0e8" stroke="#2b2620" stroke-width="1.3"/>
+  <rect x="106" y="46" width="78" height="26" fill="#f3f0e8" stroke="#2b2620" stroke-width="1.3"/>
+  <line x1="98" y1="40" x2="98" y2="78" stroke="#355070" stroke-width="2"/>
+  <line x1="106" y1="40" x2="106" y2="78" stroke="#355070" stroke-width="2"/>
+  <path d="M 14 59 L 2 59" stroke="#2b2620" stroke-width="1.6"/><path d="M 0 59 l 7 -3.5 l 0 7 z" fill="#2b2620"/>
+  <path d="M 190 59 L 202 59" stroke="#2b2620" stroke-width="1.6"/><path d="M 204 59 l -7 -3.5 l 0 7 z" fill="#2b2620"/>
+  <text x="60" y="102" font-size="11" text-anchor="middle" fill="#355070">flat — 90°</text>
+  <text x="102" y="122" font-size="10" text-anchor="middle" fill="#8b8375">square across the stick</text>
+
+  <!-- torsion -->
+  <text x="258" y="24" font-size="10" letter-spacing="1.2" fill="#8b8375">TWISTED</text>
+  <rect x="258" y="46" width="76" height="26" fill="#f3f0e8" stroke="#2b2620" stroke-width="1.3"/>
+  <rect x="352" y="46" width="76" height="26" fill="#f3f0e8" stroke="#2b2620" stroke-width="1.3"/>
+  <line x1="334" y1="76" x2="352" y2="42" stroke="#355070" stroke-width="2"/>
+  <line x1="340" y1="76" x2="358" y2="42" stroke="#355070" stroke-width="2"/>
+  <path d="M 250 36 a 14 14 0 1 0 0 46" fill="none" stroke="#2b2620" stroke-width="1.4"/>
+  <path d="M 250 84 l 5 -8 l 4 7 z" fill="#2b2620"/>
+  <path d="M 436 82 a 14 14 0 1 0 0 -46" fill="none" stroke="#2b2620" stroke-width="1.4"/>
+  <path d="M 436 34 l -5 8 l -4 -7 z" fill="#2b2620"/>
+  <text x="344" y="102" font-size="11" text-anchor="middle" fill="#355070">a spiral — 45°</text>
+  <text x="344" y="122" font-size="10" text-anchor="middle" fill="#8b8375">and it flips if you twist the other way</text>
+</svg>
+<figcaption>Same chalk. Same brittle, boring, uniform material. It selects a different plane to fail on depending on how you load it — and in torsion it even picks which of the two diagonals, to match which way you turned.</figcaption>
+</figure>
+
+<p>So here is the question this whole lesson answers.</p>
+
+<p class="beat">The chalk is not smart.<br>What is it responding to?</p>
+
+<p>Whatever quantity decides where a material tears, that quantity is clearly <em>different on different planes</em> at the same point in the same stick. So it cannot be a single number attached to the point. Let me go and find what it actually is.</p>
+
+<p class="eyebrow">First, honour the thing we're about to break</p>
+
+<h2>Where \(P/A\) came from, and why it was a triumph</h2>
+
+<p>Before I take stress apart, I want you to see why "force divided by area" was a genuinely great idea, because the temptation is to think it was naive. It wasn't.</p>
+
+<p>Suppose you want to characterise a material — steel, say — so that anyone can predict how a steel part will stretch. The obvious experiment: take a steel rod, pull it with force \(F\), measure how much it lengthens, \(\delta\). Plot \(F\) against \(\delta\). You get a straight line (for small stretches). Its slope is the stiffness.</p>
+
+<p>Now take a <em>thicker</em> steel rod and repeat. You get a different line — steeper, because it's harder to stretch. A thinner rod: shallower line. A longer rod: shallower again.</p>
+
+<div class="ask">
+  <span class="lbl">See the problem before I say it</span>
+  <p>You want to hand an engineer a single sheet of paper that tells them everything about steel. With \(F\)-versus-\(\delta\) graphs, what do you have to hand them?</p>
+</div>
+
+<details>
+<summary>Why this is hopeless</summary>
+<p>A different graph for every cross-section and every length. Which is not a property of <em>steel</em> — it's a property of <em>that particular rod</em>. To cover all possible parts you'd need infinitely many experiments, and you'd have characterised nothing.</p>
+</details>
+
+<p>The fix took a lifetime to find. Jacob Bernoulli got there in his final paper, published in 1705, the year he died. Same experiments, same rods, same measurements — but plot them differently. On the vertical axis put \(F/A\), force divided by the cross-sectional area. On the horizontal axis put \(\delta/L\), the stretch divided by the original length.</p>
+
+<p>The three lines collapse onto one.</p>
+
+<p>Thick rod, thin rod, long rod — one line. That line is a property of <strong>steel</strong>, not of any rod. One experiment characterises the material, forever, for every part anyone will ever make from it. The vertical quantity got the name <em>stress</em>, the horizontal one <em>strain</em>, and essentially all of engineering mechanics is downstream of that regraphing.</p>
+
+<div class="aside">
+  <span class="lbl">Why I'm telling you the date</span>
+  <p>Not for trivia. Because \(F/A\) looks so obvious in hindsight that it's easy to assume it must have been obvious then — and if you believe the easy things were easy, you'll assume your own confusion means you're slow.</p>
+  <p>A first-rate mathematician spent a career getting to "divide by the area," and it was the last thing he published. When you get stuck in this course, that's the company you're in.</p>
+</div>
+
+<p>So \(F/A\) earned its place. But look at what it quietly smuggled in.</p>
+
+<p class="eyebrow">The crack in the floor</p>
+
+<h2>\(A\) is the area of <em>which</em> surface?</h2>
+
+<p>When you write \(\sigma = F/A\) for a rod under tension, \(A\) is the cross-sectional area — the area of a slice taken <em>square across</em> the rod. Nobody ever says so. It's assumed, because it's the obvious place to cut.</p>
+
+<p>But you already know from rung 0 that the cut is free. You can slice at any angle you like, and equilibrium still holds. So let me slice the rod at an angle \(\theta\) instead, and ask the same question.</p>
+
+<p>Two things change at once, and we walked through both last time:</p>
+
+<ul>
+  <li>The slanted face is <strong>larger</strong> than the square one. Bigger \(A\), so a smaller force per unit area.</li>
+  <li>The force is no longer <strong>perpendicular</strong> to the face. Part of it presses into the face; part of it drags along the face. Those are physically different things — one tries to pull the material apart, the other tries to make it slide.</li>
+  </ul>
+
+<p>So "the stress at this point" gave a different number, of a different <em>character</em>, purely because I moved my pencil. And now the chalk makes sense as a question: if the material fails when some quantity gets too big on some plane, and that quantity varies plane by plane, then <strong>the plane the material chooses to break on is the plane where that quantity peaks.</strong></p>
+
+<p>Which means I need the number on <em>every</em> plane, not one.</p>
+
+<p class="eyebrow">Building the right object</p>
+
+<h2>The stress vector: pick a point, pick a plane, then ask</h2>
+
+<p>Let me define the thing carefully, because the definition is where the whole subject turns.</p>
+
+<p>Take a point \(P\) inside a loaded body. Pass an imaginary plane through it — rung 0 says I may. Identify the plane by its <strong>outward normal</strong> \(\mathbf n\), the little arrow sticking out of it; that's how you name a plane with a direction.</p>
+
+<p>Now, instead of taking the whole cut face, take only a tiny patch of area \(\Delta A\) hugging the point \(P\). Across that patch the material on the far side pulls on the material on this side with some small resultant force \(\Delta \mathbf T\). Divide, and shrink the patch:</p>
+
+<div class="mathbox">
+<p>$$\mathbf T^{(n)} \;=\; \lim_{\Delta A \to 0}\frac{\Delta \mathbf T}{\Delta A}$$</p>
+</div>
+
+<p>That limit is the <strong>stress vector</strong> on plane \(\mathbf n\) at point \(P\). Force per unit area, but now pinned to one point and one plane, with nothing assumed.</p>
+
+<p>Two things about it deserve a beat each.</p>
+
+<p><strong>It is a vector, and it does not generally point along \(\mathbf n\).</strong> This is the thing that trips people. There is no rule saying the material must push straight out of the face you happened to draw. The stress vector points wherever the physics points; your plane is just the question you asked. So resolve it into two parts: the piece along the normal, called \(\sigma\) — the <strong>normal stress</strong>, pulling apart or squeezing together — and the piece lying in the plane, called \(\tau\) — the <strong>shear stress</strong>, trying to slide one face across the other.</p>
+
+<p><strong>The shrinking is what buys us "at a point."</strong> Rung 0 gave us six numbers for a whole cross-section and I flagged that as a debt: six numbers say nothing about <em>where</em> on the face. Shrinking the patch to a point is how the debt gets paid. It's also why we insist the material is a continuum — if you shrink far enough to hit atoms and gaps, the limit stops meaning anything. That idealization is doing real work here; it isn't decoration.</p>
+
+<figure>
+<svg viewBox="0 0 460 200" role="img" aria-label="At one point P, two different planes are drawn. Each has its own stress vector, neither aligned with its normal, each resolved into a normal component sigma and a shear component tau.">
+  <!-- blob -->
+  <path d="M 26 96 C 20 40, 90 14, 150 26 C 220 40, 226 110, 186 152 C 140 190, 40 168, 26 96 Z"
+        fill="#f3f0e8" stroke="#2b2620" stroke-width="1.3"/>
+  <circle cx="118" cy="94" r="3" fill="#2b2620"/>
+  <text x="108" y="112" font-size="11" fill="#2b2620">P</text>
+  <text x="34" y="180" font-size="10" fill="#8b8375">a loaded body</text>
+
+  <!-- plane 1 through P -->
+  <line x1="62" y1="60" x2="176" y2="126" stroke="#8b8375" stroke-width="1.1" stroke-dasharray="4 3"/>
+  <path d="M 118 94 L 140 56" stroke="#8b8375" stroke-width="1"/>
+  <path d="M 142 52 l -6 6.5 l 6.5 3 z" fill="#8b8375"/>
+  <text x="144" y="50" font-size="10.5" fill="#8b8375">n</text>
+
+  <!-- ==== zoom panel ==== -->
+  <line x1="238" y1="96" x2="266" y2="96" stroke="#8b8375" stroke-width="1.1"/>
+  <path d="M 268 96 l -6 -3.5 l 0 7 z" fill="#8b8375"/>
+
+  <!-- the patch -->
+  <line x1="292" y1="146" x2="404" y2="82" stroke="#2b2620" stroke-width="1.6"/>
+  <circle cx="348" cy="114" r="3" fill="#2b2620"/>
+  <text x="272" y="176" font-size="10" fill="#8b8375">the plane you</text>
+  <text x="272" y="188" font-size="10" fill="#8b8375">asked about</text>
+  <line x1="290" y1="166" x2="298" y2="152" stroke="#8b8375" stroke-width=".7"/>
+  <!-- normal -->
+  <path d="M 348 114 L 370 152" stroke="#8b8375" stroke-width="1"/>
+  <path d="M 373 157 l -1 -9 l -6.5 4 z" fill="#8b8375"/>
+  <text x="380" y="164" font-size="10.5" fill="#8b8375">n</text>
+  <!-- stress vector T -->
+  <path d="M 348 114 L 412 136" stroke="#355070" stroke-width="2.1"/>
+  <path d="M 418 138 l -8.5 -4.5 l -1 8 z" fill="#355070"/>
+  <text x="400" y="122" font-size="12" fill="#355070">T</text>
+  <!-- components -->
+  <path d="M 348 114 L 366 150" stroke="#355070" stroke-width="1.2" stroke-dasharray="3 2"/>
+  <path d="M 366 150 L 412 136" stroke="#355070" stroke-width="1.2" stroke-dasharray="3 2"/>
+  <text x="336" y="140" font-size="11" fill="#355070">σ</text>
+  <text x="392" y="166" font-size="11" fill="#355070">τ</text>
+  <text x="286" y="60" font-size="10.5" fill="#2b2620">T does not point along n.</text>
+  <text x="286" y="74" font-size="10.5" fill="#8b8375">Split it: σ out of the face, τ along it.</text>
+</svg>
+<figcaption>The stress vector belongs to a point <em>and</em> a plane. Its normal part σ tries to pull the faces apart; its in-plane part τ tries to slide them. Ask about a different plane through the same point and you get a different vector.</figcaption>
+</figure>
+
+<p class="eyebrow">And now the disaster</p>
+
+<h2>How many planes pass through a point?</h2>
+
+<p>I've defined the right quantity. Now let me count how much of it I need.</p>
+
+<p>To know "the state of stress at \(P\)" — to be able to predict which plane the chalk chooses — I need \(\mathbf T^{(n)}\) for every plane through \(P\). Not the convenient ones. Every one, because I don't know in advance where the material will give.</p>
+
+<p>So: how many planes pass through a single point?</p>
+
+<p>Tilt a plane by one degree and it's a different plane, with a different stress vector. By a tenth of a degree. By a thousandth. Spin it around the normal — different again. There are as many planes through a point as there are directions in space.</p>
+
+<p>Ten thousand of them. A hundred thousand. There is no largest number here; it is a continuous infinity of planes, each with its own vector, each needing three numbers.</p>
+
+<p class="beat">Will your notebook be sufficient?</p>
+
+<p>Sit in that for a second, because it genuinely looks fatal. We started with one clean number, \(F/A\). We showed it was wrong. And the honest replacement appears to be an infinite table that no one could ever write down, measure, or store — for a single point, of which a real object contains infinitely many.</p>
+
+<p>If the answer here were "yes, it's infinite, sorry," there would be no such subject as strength of materials. Engineering would have stopped in 1705.</p>
+
+<div class="ask">
+  <span class="lbl">Your turn — and this is the whole lesson</span>
+  <p>Suppose I hand you the stress vector on a small number of planes through \(P\), chosen by me, and ask you to work out the stress vector on some <em>other</em> plane you've never seen — one at a peculiar angle, of your choosing.</p>
+  <p>How many planes would I have to give you? Guess a number and commit to it. Then ask yourself the harder question: what tool would you use to get from the ones you were given to the one you want?</p>
+  <p>You already own that tool. You used it in rung 0.</p>
+</div>
+
+<p class="eyebrow">The rescue</p>
+
+<h2>Three. It's three. And a triangle proves it.</h2>
+
+<p>The answer is <strong>three</strong> — any three mutually perpendicular planes. Know the stress vector on those, and you can compute it on any of the infinitely many others, exactly, with arithmetic. Augustin-Louis Cauchy published this in 1822, and it is the reason this subject exists.</p>
+
+<p>And the tool that gets you there is the one from rung 0: <em>cut out a piece and balance it.</em> Watch.</p>
+
+<p>I'll do it in two dimensions, where you can see everything. Three dimensions is the same argument with one more face and no new ideas.</p>
+
+<p>Take the point \(P\). Cut a tiny <strong>wedge</strong> out around it — a right triangle. Two of its faces are the coordinate planes (one with normal along \(-x\), one along \(-y\)); the third, the hypotenuse, is the arbitrary plane I actually care about, with outward normal \(\mathbf n\) tilted at angle \(\theta\) from the \(x\)-axis.</p>
+
+<figure>
+<svg viewBox="0 0 460 246" role="img" aria-label="A right-triangle wedge around point P. Its hypotenuse of length L carries the unknown stress vector T and has outward normal n at angle theta from the x axis. The vertical leg has length L cos theta and carries sigma-xx and tau-xy; the horizontal leg has length L sin theta and carries sigma-yy and tau-yx.">
+  <!-- axes -->
+  <line x1="140" y1="196" x2="140" y2="60" stroke="#8b8375" stroke-width=".9"/>
+  <path d="M 140 54 l -3.5 8 l 7 0 z" fill="#8b8375"/>
+  <text x="128" y="60" font-size="11" fill="#8b8375">y</text>
+  <line x1="140" y1="196" x2="288" y2="196" stroke="#8b8375" stroke-width=".9"/>
+  <path d="M 294 196 l -8 -3.5 l 0 7 z" fill="#8b8375"/>
+  <text x="292" y="212" font-size="11" fill="#8b8375">x</text>
+
+  <!-- wedge -->
+  <path d="M 140 196 L 140 80 L 258 196 Z" fill="#f3f0e8" stroke="#2b2620" stroke-width="1.5"/>
+  <circle cx="140" cy="196" r="2.8" fill="#2b2620"/>
+  <text x="124" y="212" font-size="11" fill="#2b2620">P</text>
+
+  <!-- leg labels, inside the wedge -->
+  <text x="148" y="142" font-size="10.5" fill="#2b2620">L cos θ</text>
+  <text x="166" y="188" font-size="10.5" fill="#2b2620">L sin θ</text>
+
+  <!-- hypotenuse length, outside -->
+  <text x="224" y="140" font-size="11.5" fill="#2b2620">L</text>
+
+  <!-- normal + theta -->
+  <line x1="173" y1="113" x2="221" y2="113" stroke="#8b8375" stroke-width=".8" stroke-dasharray="3 3"/>
+  <path d="M 173 113 L 215 70" stroke="#355070" stroke-width="1.4"/>
+  <path d="M 219 66 l -2 9.5 l -7 -5 z" fill="#355070"/>
+  <text x="222" y="64" font-size="11.5" fill="#355070">n</text>
+  <path d="M 205 113 A 32 32 0 0 0 195 91" fill="none" stroke="#8b8375" stroke-width=".9"/>
+  <text x="196" y="106" font-size="10" fill="#8b8375">θ</text>
+
+  <!-- stresses on the vertical (−x) face -->
+  <path d="M 136 112 L 110 112" stroke="#2b2620" stroke-width="1.5"/>
+  <path d="M 106 112 l 7 -3.5 l 0 7 z" fill="#2b2620"/>
+  <text x="104" y="106" font-size="10.5" text-anchor="end" fill="#2b2620">σ<tspan font-size="8" dy="3">xx</tspan></text>
+  <path d="M 136 152 L 136 178" stroke="#2b2620" stroke-width="1.5"/>
+  <path d="M 136 182 l -3.5 -7 l 7 0 z" fill="#2b2620"/>
+  <text x="130" y="176" font-size="10.5" text-anchor="end" fill="#2b2620">τ<tspan font-size="8" dy="3">xy</tspan></text>
+
+  <!-- stresses on the horizontal (−y) face -->
+  <path d="M 204 200 L 204 226" stroke="#2b2620" stroke-width="1.5"/>
+  <path d="M 204 230 l -3.5 -7 l 7 0 z" fill="#2b2620"/>
+  <text x="210" y="226" font-size="10.5" fill="#2b2620">σ<tspan font-size="8" dy="3">yy</tspan></text>
+  <path d="M 176 200 L 150 200" stroke="#2b2620" stroke-width="1.5"/>
+  <path d="M 146 200 l 7 -3.5 l 0 7 z" fill="#2b2620"/>
+  <text x="150" y="226" font-size="10.5" text-anchor="end" fill="#2b2620">τ<tspan font-size="8" dy="3">yx</tspan></text>
+
+  <!-- T on hypotenuse -->
+  <path d="M 199 138 L 262 158" stroke="#355070" stroke-width="2.1"/>
+  <path d="M 268 160 l -8.5 -4.5 l -1 8 z" fill="#355070"/>
+  <text x="252" y="180" font-size="12" fill="#355070">T</text>
+
+  <!-- note -->
+  <text x="308" y="72" font-size="10.5" fill="#2b2620">Two faces carry</text>
+  <text x="308" y="86" font-size="10.5" fill="#2b2620">things I know.</text>
+  <text x="308" y="108" font-size="10.5" fill="#355070">One carries the</text>
+  <text x="308" y="122" font-size="10.5" fill="#355070">thing I want.</text>
+  <text x="308" y="150" font-size="10.5" fill="#8b8375">Nothing is accelerating,</text>
+  <text x="308" y="164" font-size="10.5" fill="#8b8375">so they balance — one</text>
+  <text x="308" y="178" font-size="10.5" fill="#8b8375">equation per direction,</text>
+  <text x="308" y="192" font-size="10.5" fill="#8b8375">which is all I need.</text>
+</svg>
+<figcaption>The whole of Cauchy's result is this triangle. Two faces are the planes you were given; the third is the plane you want. Equilibrium links them.</figcaption>
+</figure>
+
+<p>Let the hypotenuse have length \(L\) (take unit thickness, so length <em>is</em> area). Then simple trigonometry on a right triangle gives the other two:</p>
+
+<ul>
+  <li>the vertical face (normal along \(-x\)) has length \(L\cos\theta\);</li>
+  <li>the horizontal face (normal along \(-y\)) has length \(L\sin\theta\).</li>
+</ul>
+
+<p>Check it at \(\theta = 0\): the normal \(\mathbf n\) points along \(x\), so the hypotenuse <em>is</em> the vertical face — and sure enough \(L\cos 0 = L\), while the horizontal face has length zero. The wedge has collapsed to a line, correctly.</p>
+
+<div class="aside">
+  <span class="lbl">What those cosines really are</span>
+  <p>\(\cos\theta\) and \(\sin\theta\) here are the components of the unit normal: \(\mathbf n = (n_x, n_y) = (\cos\theta, \sin\theta)\). So the rule reads: <em>the face perpendicular to \(x\) has area \(L\,n_x\).</em></p>
+  <p>That's a shadow. Hold a card up to a light and the shadow it casts is its own area times the cosine of how far it's tilted. Each coordinate face is the slanted face's shadow cast along that axis.</p>
+  <p>Stated that way it carries over to three dimensions unchanged — the \(x\)-face of the tetrahedron has area \(A\,n_x\) — which is why the 3D proof needs no new idea, only more writing.</p>
+</div>
+
+<p>Now balance the wedge. Force on a face is stress × area. Take the \(x\)-direction, and remember the stresses on the two coordinate faces point in the negative directions because those are negative faces:</p>
+
+<div class="mathbox">
+<p>$$T^{(n)}_x \, L \;-\; \sigma_{xx}\,(L\cos\theta) \;-\; \tau_{yx}\,(L\sin\theta) \;=\; 0$$</p>
+</div>
+
+<p>Divide through by \(L\). Every \(L\) cancels — the size of the wedge never mattered:</p>
+
+<div class="mathbox">
+<p>$$T^{(n)}_x = \sigma_{xx}\cos\theta + \tau_{yx}\sin\theta$$</p>
+</div>
+
+<p>Do the same in \(y\) and you get \(T^{(n)}_y = \tau_{xy}\cos\theta + \sigma_{yy}\sin\theta\).</p>
+
+<p>That's it. That's Cauchy's formula. Two lines of bookkeeping on a triangle, and the infinite table is gone.</p>
+
+<div class="aside">
+  <span class="lbl">Where did gravity go?</span>
+  <p>The wedge has weight, and I dropped it. That wasn't laziness — watch the scaling.</p>
+  <p>The face forces are stress × <em>area</em>, so they scale like \(L\). The weight is density × <em>volume</em>, so it scales like \(L^2\). Divide everything by \(L\), as we just did, and the face terms stay put while the weight term still carries a factor of \(L\) — and \(L\) is on its way to zero.</p>
+  <p>So gravity, and any other body force, contributes <em>exactly nothing</em> to the stress state at a point. It matters for what the stresses <em>are</em>, through the equilibrium of the whole body; it plays no part in how they relate plane to plane. Small volumes have negligible weight compared to the surfaces bounding them, and at a point that becomes exact.</p>
+</div>
+
+<p class="eyebrow">Tidying up, and getting a symmetry for free</p>
+
+<h2>Four numbers, one object</h2>
+
+<p>Look at what Cauchy's formula consumes: \(\sigma_{xx}, \tau_{xy}, \tau_{yx}, \sigma_{yy}\). Four numbers in 2D (nine in 3D). Feed it any direction and it hands back the stress vector on that plane.</p>
+
+<p>The naming is worth ten seconds because it makes the rest of the course readable. Every component carries two subscripts:</p>
+
+<ul>
+  <li><strong>first subscript</strong> = the plane it acts on (named by its normal);</li>
+  <li><strong>second subscript</strong> = the direction it points.</li>
+</ul>
+
+<p>So \(\tau_{xy}\) acts on the \(x\)-plane, pointing in \(y\). And \(\sigma\) versus \(\tau\) just tells you at a glance whether the two subscripts match — same means normal stress, different means shear.</p>
+
+<p>Now — those two shear components, \(\tau_{xy}\) and \(\tau_{yx}\). They are not obviously related. One acts on the vertical face pointing up; the other on the horizontal face pointing sideways. Let me show you that they're forced to be equal, using nothing you don't have.</p>
+
+<div class="ask">
+  <span class="lbl">Try it first</span>
+  <p>Draw a tiny square element around \(P\), sides \(\Delta x\) and \(\Delta y\). Put \(\tau_{xy}\) on both vertical faces and \(\tau_{yx}\) on both horizontal faces, obeying the sign rule (positive direction on the positive face, negative on the negative).</p>
+  <p>The square isn't spinning. Take moments about its centre.</p>
+</div>
+
+<details>
+<summary>Equality of cross shears</summary>
+<p>Look at the two vertical faces. On the right face \(\tau_{xy}\) pushes up; on the left face it pushes down. Equal, opposite, offset — that's a <strong>couple</strong>, trying to rotate the element anticlockwise. Its size is force × separation: \((\tau_{xy}\,\Delta y)\times \Delta x\).</p>
+<p>Now the two horizontal faces. On the top \(\tau_{yx}\) pushes right; on the bottom it pushes left. Another couple — turning the element <em>clockwise</em>, of size \((\tau_{yx}\,\Delta x)\times \Delta y\).</p>
+<p>The normal stresses contribute nothing: they act straight through the centre, so they have no lever arm.</p>
+<p>The element is not spinning up to infinite speed. So the two couples must cancel:</p>
+<p>$$\tau_{xy}\,\Delta x\,\Delta y \;=\; \tau_{yx}\,\Delta x\,\Delta y \quad\Longrightarrow\quad \boxed{\tau_{xy} = \tau_{yx}}$$</p>
+<p>This is called <strong>equality of cross shears</strong>. You cannot have shear on one face without the same shear appearing on the perpendicular face. Shear always comes in fours.</p>
+</details>
+
+<figure>
+<svg viewBox="0 0 460 180" role="img" aria-label="A small square element with shear stress tau-xy on the two vertical faces forming an anticlockwise couple, and tau-yx on the two horizontal faces forming a clockwise couple. The two must balance.">
+  <rect x="150" y="46" width="120" height="90" fill="#f3f0e8" stroke="#2b2620" stroke-width="1.4"/>
+  <circle cx="210" cy="91" r="2.4" fill="#2b2620"/>
+  <text x="196" y="26" font-size="10" letter-spacing="1.1" fill="#8b8375">Δx</text>
+  <line x1="150" y1="34" x2="270" y2="34" stroke="#8b8375" stroke-width=".8"/>
+  <text x="290" y="94" font-size="10" letter-spacing="1.1" fill="#8b8375">Δy</text>
+  <line x1="282" y1="46" x2="282" y2="136" stroke="#8b8375" stroke-width=".8"/>
+
+  <!-- vertical faces: tau_xy up on right, down on left -->
+  <path d="M 270 112 L 270 60" stroke="#355070" stroke-width="2"/>
+  <path d="M 270 54 l -4 9 l 8 0 z" fill="#355070"/>
+  <path d="M 150 70 L 150 122" stroke="#355070" stroke-width="2"/>
+  <path d="M 150 128 l -4 -9 l 8 0 z" fill="#355070"/>
+  <text x="332" y="64" font-size="11.5" fill="#355070">τ<tspan font-size="8.5" dy="3">xy</tspan></text>
+  <text x="332" y="80" font-size="9.5" fill="#8b8375">turns it anticlockwise</text>
+
+  <!-- horizontal faces: tau_yx right on top, left on bottom -->
+  <path d="M 172 46 L 226 46" stroke="#2b2620" stroke-width="2"/>
+  <path d="M 232 46 l -9 -4 l 0 8 z" fill="#2b2620"/>
+  <path d="M 248 136 L 194 136" stroke="#2b2620" stroke-width="2"/>
+  <path d="M 188 136 l 9 -4 l 0 8 z" fill="#2b2620"/>
+  <text x="332" y="120" font-size="11.5" fill="#2b2620">τ<tspan font-size="8.5" dy="3">yx</tspan></text>
+  <text x="332" y="136" font-size="9.5" fill="#8b8375">turns it clockwise</text>
+
+  <text x="24" y="94" font-size="10.5" fill="#8b8375">not spinning,</text>
+  <text x="24" y="108" font-size="10.5" fill="#8b8375">so they cancel</text>
+</svg>
+<figcaption>Two couples, opposite senses, on the same little square. Nothing is spinning, so they are equal — and therefore so are τ<sub>xy</sub> and τ<sub>yx</sub>. Shear never appears on one face alone.</figcaption>
+</figure>
+
+<p>So there are only <strong>three</strong> independent numbers in 2D, not four.</p>
+
+<p>And that immediately tidies Cauchy's formula. Notice the \(x\)-equation came out with \(\tau_{yx}\) and the \(y\)-equation with \(\tau_{xy}\) — genuinely different components, sitting in the two equations asymmetrically. Now that we've proved they're equal we may write both as \(\tau_{xy}\), and the moment we do, the two equations line up into a <em>symmetric</em> square array:</p>
+
+<div class="mathbox">
+<p>$$\begin{bmatrix} T^{(n)}_x \\[2pt] T^{(n)}_y \end{bmatrix} = \begin{bmatrix} \sigma_{xx} & \tau_{xy} \\[2pt] \tau_{xy} & \sigma_{yy}\end{bmatrix}\begin{bmatrix}\cos\theta \\[2pt] \sin\theta\end{bmatrix}$$</p>
+</div>
+
+<p>Read it as a sentence: <strong>the array eats a direction and returns the stress vector on the plane facing that direction.</strong> That array is the <strong>stress tensor</strong>. It is the honest replacement for \(F/A\), and it is the answer to the infinite table — not because the infinity went away, but because three numbers generate all of it.</p>
+
+<p class="eyebrow">The misconception that will bite you</p>
+
+<h2>The components are just numbers. The tensor is the thing.</h2>
+
+<p>People say "stress is a tensor, not a scalar" and then get confused, because every entry in that array plainly <em>is</em> a plain number — \(\sigma_{xx} = 40\) MPa, no arrows attached. Both are true, and holding them together is the whole idea.</p>
+
+<p>Each component is a scalar. But it is a scalar <em>answer to a question you had to specify</em>, and the subscripts are where the question hides. Strip them off and the number means nothing.</p>
+
+<p>So this sentence is incomplete: <em>"the stress at this point is 40 MPa."</em> Forty on which plane, in which direction? Without that, you haven't said anything — and if you plug it into a failure calculation you may be reading off a plane the material doesn't care about while the plane it does care about is at 45°, carrying something else entirely.</p>
+
+<div class="aside">
+  <span class="lbl">The same \(F/A\), a different slot</span>
+  <p>A punch press drives a cylindrical punch through sheet metal and knocks out a disc. Force \(F\); the area that resists is the <em>rim</em> of the disc — its circumference times the sheet thickness. Engineers write \(F/A\) and call it the shear stress.</p>
+  <p>Same three symbols as the tension bar. Completely different physics: there the material was being pulled apart normal to the plane, here it is being sliced along the plane. In the tension bar that number sits on the diagonal of the array; in the punch it sits off the diagonal.</p>
+  <p>The number doesn't tell you which. The slot does. That is what "stress is a tensor" actually cashes out to.</p>
+</div>
+
+<p class="eyebrow">Now collect</p>
+
+<h2>Run the machine on the chalk</h2>
+
+<p>Time to use it. Chalk in tension: I pull along \(x\) with force \(F\) over cross-section \(A\). On the square cross-section there's normal stress \(F/A\) and no shear. So the tensor is as simple as it gets — one non-zero entry:</p>
+
+<div class="mathbox">
+<p>$$\boldsymbol\sigma = \begin{bmatrix} F/A & 0 \\[2pt] 0 & 0 \end{bmatrix}$$</p>
+</div>
+
+<p>It looks like nothing is happening. Three of the four slots are zero. Let's see.</p>
+
+<div class="ask">
+  <span class="lbl">Your turn — do the arithmetic, it's four lines</span>
+  <p>Ask about a plane tilted at angle \(\theta\), so \(\mathbf n = (\cos\theta, \sin\theta)\). Note \(\theta = 0\) is the ordinary square cross-section.</p>
+  <p><strong>(a)</strong> Multiply the array by \(\mathbf n\) to get \(\mathbf T^{(n)}\).<br>
+  <strong>(b)</strong> The normal stress is the part of \(\mathbf T\) along \(\mathbf n\) — take the dot product \(\sigma_n = \mathbf T\cdot\mathbf n\).<br>
+  <strong>(c)</strong> The shear is what's left over: \(\tau_n = \sqrt{|\mathbf T|^2 - \sigma_n^2}\).</p>
+  <p>Then the payoff question: <em>at which \(\theta\) is each one biggest?</em></p>
+</div>
+
+<details>
+<summary>Work it through</summary>
+<p><strong>(a)</strong> The array has only one live entry, so the multiplication is easy:</p>
+<p>$$\mathbf T^{(n)} = \left(\tfrac{F}{A}\cos\theta,\; 0\right)$$</p>
+<p>Note it points along \(x\) whatever plane you ask about — of course it does; the material is only being pulled one way. But it is <em>not</em> along \(\mathbf n\) unless \(\theta=0\).</p>
+<p><strong>(b)</strong> Dot with \(\mathbf n = (\cos\theta,\sin\theta)\):</p>
+<p>$$\sigma_n = \tfrac{F}{A}\cos^2\theta$$</p>
+<p><strong>(c)</strong> \(\mathbf T\) has only an \(x\)-component and nothing else, so its length simply <em>is</em> that component: \(|\mathbf T| = \frac{F}{A}\cos\theta\). Then</p>
+<p>$$\tau_n = \tfrac{F}{A}\cos\theta\sqrt{1-\cos^2\theta} = \tfrac{F}{A}\sin\theta\cos\theta = \tfrac{F}{2A}\sin 2\theta$$</p>
+<p style="margin-top:1.1rem"><strong>The maxima.</strong> \(\sigma_n\) is biggest at \(\theta = 0\), where it equals \(F/A\) — the plane square across the bar.</p>
+<p>\(\tau_n\) is biggest where \(\sin 2\theta = 1\), that is \(\theta = 45^\circ\), where it equals \(\dfrac{F}{2A}\) — <em>half</em> the maximum normal stress.</p>
+</details>
+
+<p>Now read what just happened, because two separate facts fell out of one calculation.</p>
+
+<p><strong>First: the chalk.</strong> Chalk is brittle, and brittle things come apart when pulled — they fail on maximum <em>normal</em> stress. Where is normal stress maximum? At \(\theta = 0\): the plane square across the stick. That is exactly where your chalk broke, flat, ninety degrees, every time.</p>
+
+<p>Not a fact I told you. A prediction from a triangle.</p>
+
+<p><strong>Second, and stranger: you applied no shear at all, and there is shear inside.</strong> You pulled straight along the axis. Nothing in your hands twisted or sheared anything. Yet there are planes inside that chalk — the ones at 45° — carrying shear stress of \(F/2A\), and it is the largest shear anywhere in the object.</p>
+
+<p>The shear was never applied. It is what "being pulled" <em>looks like</em> when you ask about a tilted plane. Pull is not a property of the material; it's a property of pull-plus-a-plane, and on a tilted plane the same pull reads partly as slide.</p>
+
+<div class="aside">
+  <span class="lbl">A prediction you can check on a metal bar</span>
+  <p>If shear at 45° is real, then a material that fails by <em>sliding</em> rather than by pulling apart should break at 45° in a plain tension test — even though nobody sheared it.</p>
+  <p>Ductile metals do exactly this. Pull a mild-steel specimen to destruction and it necks down and fails with the classic <strong>cup-and-cone</strong> fracture — and the giveaway is the rim: a ring of <em>shear lips</em> running at about 45° to the axis, which is what forms the cone. Same test, same loading as the chalk; a different failure plane, because the two materials are listening to different components of the same tensor.</p>
+  <p style="font-size:.93rem">(The flat patch in the middle of a cup-and-cone gets there by a different route, and I'm not going to pretend otherwise — that's void growth inside the neck, and it belongs to rung 7. The 45° rim is the part this lesson predicts, and it's the part that's there.)</p>
+  <p>Two materials, one stress state, two different answers to "which plane." That is the clearest possible evidence that the tensor — not any single number — is the real object.</p>
+</div>
+
+<div class="aside">
+  <span class="lbl">A convention warning, so other books don't confuse you</span>
+  <p>I measured \(\theta\) to the plane's <em>normal</em>, which is why you got \(\cos^2\theta\). Many books — and Prof. Ramesh in his lectures — measure \(\theta\) to the <em>plane itself</em>, and write \(\sigma_n = \frac{F}{A}\sin^2\theta\).</p>
+  <p>Identical physics, ninety degrees apart in bookkeeping. The maximum shear is at 45° either way. When you meet \(\sin^2\), check which angle is being measured before you panic.</p>
+</div>
+
+<div class="aside">
+  <span class="lbl">One honest caveat about "uniform"</span>
+  <p>I claimed the tension bar has stress \(F/A\) spread evenly over the cross-section. Near the grips that's false — clamp a bar in a machine and the stress right under the jaws is a mess no formula here can touch.</p>
+  <p>What rescues us is <strong>Saint-Venant's principle</strong>: if you apply a statically equivalent load — same resultant force, same resultant couple, however it's distributed — then a short distance away the stresses settle into the same pattern regardless. A rule of thumb for "short" is about one cross-sectional width.</p>
+  <p>So every result in this course is a claim about the region <em>away from</em> where the load is applied. That isn't a weakness; it's the licence that lets us say "uniform" at all. Keep it in your pocket — it comes back in rung 4.</p>
+</div>
+
+<hr>
+
+<p class="eyebrow">What I still owe you</p>
+
+<h2>I can interrogate any plane. One at a time.</h2>
+
+<p>Look honestly at what we have. Cauchy's formula answers a question of the form <em>"what is happening on this particular plane?"</em> Ask it, turn the crank, get an answer.</p>
+
+<p>But the question the chalk actually poses is the other one: <strong>which plane is the worst?</strong> Where does normal stress peak, and how big does it get? Where does shear peak? Are those the same plane or different ones?</p>
+
+<p>For the tension bar I got away with it, because \(\cos^2\theta\) is simple enough to maximise by inspection. That was luck. Give me a general state — some \(\sigma_{xx}\), some \(\sigma_{yy}\), some \(\tau_{xy}\), all non-zero — and finding the worst plane means grinding through trigonometry, or checking planes one at a time forever.</p>
+
+<p>And the chalk is still half unexplained. The <em>twisted</em> stick broke at 45° on a helix. Torsion produces a state of <strong>pure shear</strong> — no normal stress on the obvious planes at all — and yet a brittle material, which fails on normal stress, found a plane to fail on. Which plane, and why 45°, and why does it flip when you twist the other way?</p>
+
+<p>Both questions have the same answer, and it is a shape.</p>
+
+<p>Plot \(\sigma_n\) horizontally and \(\tau_n\) vertically, and let \(\theta\) sweep through every plane at the point. The dot doesn't wander. It traces a <strong>circle</strong> — perfectly, exactly, for every stress state there has ever been.</p>
+
+<p>Once you have that circle you don't hunt for the worst plane; you look at it. The extremes are the leftmost and rightmost points, the maximum shear is the top, and the whole infinite family of planes is a single shape you can draw on the back of an envelope. Otto Mohr worked this out for engineers who had no computers and no matrix algebra, and it is still the fastest way to see a stress state whole.</p>
+
+<p>That's rung 2. Bring the two halves of your broken chalk.</p>
+
+<div class="end">
+  <p><strong>Before you feel like you've got this.</strong> This lesson had one genuinely hard idea in it — everything else was arithmetic — and the hard idea is that <em>stress belongs to a point and a plane together</em>. It's hard because it asks you to give up a number you'd been treating as real.</p>
+  <p>Tomorrow, blank page, nothing in front of you:</p>
+  <ul>
+    <li>Say why \(F/A\) was a genuine triumph, and then say precisely what it assumed without saying so.</li>
+    <li>Draw the wedge and get Cauchy's formula out of it. The legs are \(L\cos\theta\) and \(L\sin\theta\) — but can you say <em>why</em> without recalling it?</li>
+    <li>Show \(\tau_{xy}=\tau_{yx}\) in three sentences about couples.</li>
+    <li>Take \(\begin{bmatrix}F/A & 0\\ 0&0\end{bmatrix}\) and get to "flat break for chalk, 45° cup-and-cone for steel."</li>
+  </ul>
+  <p>The last one is the real test. If it comes out, you own this rung — you can now predict the failure plane of a material you've never tested, which is not a small thing to be able to do.</p>
+  <p><a class="next" href="index.html">← back to the ladder</a></p>
+</div>
+
+</div>
+<script>
+  // MathJax measures layout at typeset time; a collapsed reveal has no box yet,
+  // so re-typeset its contents the first time it is opened.
+  document.querySelectorAll('details').forEach(function (d) {
+    d.addEventListener('toggle', function once () {
+      if (!d.open) return;
+      d.removeEventListener('toggle', once);
+      if (window.MathJax && MathJax.typesetPromise) MathJax.typesetPromise([d]);
+    });
+  });
+</script>
+</body>
+</html>

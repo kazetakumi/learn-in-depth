@@ -1,0 +1,1297 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on
+concepts related to strain
+see both in the case of
+concepts related to stress as well as
+strain I said they took material of
+different cross section and when they
+pulled it they could have this material
+response as a single graph when you plot
+on the x-axis quantity called strain and
+you plot stress on the
+vertical axis
+so we had a simple definition of change
+in length divided by original length as
+strain
+Force divided by cross-sectional area is
+stress
+from then on we developed that these are
+all not scalar quantities
+they are indeed tensorial quantities
+stress is a tensor of rank two
+strain is also a tensor of rank two so
+whatever the discussion we have had on
+stress you can have a parallel set of
+discussion on string you know we were
+confining our attention to plane strain
+a simplistic definition is given here
+a body whose particles all lie in the
+same plane and which deforms only in
+this plane
+and what you see here is actually a
+stretching of a member where you have
+the circles drawn and what you find is
+when I apply this load
+I have also have a lateral strain
+I am taking a planar example so I also
+have a lateral strain so by default when
+you apply the loads
+you will have multi-axial strain on the
+other hand if I have to have a strain in
+Only One Direction I have to have
+external constraints please never forget
+that both are Illustrated in this slide
+here I take a rubber block and compress
+it when I compress it what I do it will
+bulge out I prevent that bulging out by
+these constraints
+and when I have a uniform load applied a
+circle deforms into an ellipse and you
+also find these lines get rotated
+and this also gives suppose I reduce the
+circle to a point
+in the limit you find that depending on
+the direction
+the value of strain also changes like
+what we have seen in the case of stress
+in this case of stress we looked at all
+the possible infinite planes passing to
+the point of interest in the case of
+strain all the possible directions that
+is the difference
+and suppose I have a non-uniform
+Force applied
+you can have a very distorted shape
+and you know you need to have the
+mathematics to evaluate the
+strain quantities
+we have seen you have axial strain as
+well as Shear strain and we also saw
+that there is also rigid body rotation
+we have determined the expressions in
+strength of materials very comfortably
+and when you develop these quantities
+you also need to know if I change the
+frame of reference how do I express or
+get these quantities that is what you do
+in stress transformation or strain
+transformation
+same thing if you do it for all the
+possible directions you have a more
+Circle
+and I have said historically people
+developed Shear strain as gamma
+but tensor Elite is only gamma by 2
+behaves
+so when like what we have done in the
+case of stress
+here also you plot what is the axial
+quantity here it is axial deformation on
+the x-axis
+and on the y-axis you plotted shear
+stress there here you plot Shear strain
+if we express it as gamma it is gamma by
+2 if we express it as Epsilon X Y which
+is already known as gamma by 2
+you plot Epsilon X Y here
+and what is the purpose of this more
+circle of strain
+whatever I see in the real plane I
+should be able to correlate so I need to
+follow a convention the convention is
+same as what you do it for stress so you
+plot the positive Shear strain Shear
+strain for the X Direction downwards
+and you have no difficulty in plotting
+what is Epsilon x that you will
+naturally put on the positive axis there
+is no difficulty there but you have to
+follow a convention if I have a positive
+Shear strain
+in the X Direction you plot it downwards
+and for the Y play y direction
+you can
+follow simple logic what you have been
+using it for plotting any graph when it
+when it is positive shear
+and positive axial strain the point Y is
+located here so once you have located
+the Direction X and Y
+simply join them it cuts this axis at
+Point
+see
+with this as Center you draw the mouse
+Circle so very similar to what we have
+seen in the case of
+stress analysis this is called more
+circle of string and all the properties
+we saw principle stresses here we will
+have principal strains so what you have
+here is I have the point one
+where you have the maximum normal strain
+there is no Shear strain on this point
+like in the case of principal planes
+there are no Shear stresses
+in the principal directions there are no
+Shear strain
+and I have the Point located and in more
+Circle we will always have twice the
+angle
+so that is also Illustrated here
+and I have this as
+the if you move from this to this you
+get it and this is angle 2 Theta 1.
+and physical plane it is Theta one so
+whatever the discussion we have
+developed in the case of
+stress here again you repeat the same
+but you should recognize
+on the y-axis I plot gamma by 2.
+that is the only difference
+and I have principle strain Direction
+one and principle strain direction to
+like principle stresses you also arrange
+them algebraically
+so that is what is
+listed here then like we had seen
+maximum shear stress plane we will also
+have a maximum Shear strain
+fine and they can be located easily
+because you know very well how to locate
+them
+I have this
+on the Circle labeled as d and e and
+like we have discussed whether it is a
+local maximum or a global maximum that
+discussion what we have done for stress
+is also valid here
+to make your diagram simple I take both
+the strains as positive so that this
+access is not interfering with the
+diagram and we have seen in the case of
+your pressure vessel
+you have a biaxial stress one is PR by T
+another is PR by two t both are positive
+so such situations are very common
+and what you have here is
+the location of the maximum Shear strain
+direction is fixed with respect to the
+principal Direction
+this is at an angle 45 degree in the
+physical plane
+in the Mohr Circle it is at 90 degrees
+and you have in General on the maximum
+Shear strain Direction you also have
+some value of normal strain normal
+strain is Not absent suppose I go to a
+pure shear stress state or strain State
+then I will have maximum Shear strain
+there is no normal strain
+that means the entire shifted to
+this place ok now it is away from the
+origin so I have some value of normal
+strain as well
+so you have
+this as Theta 1 plus 45 that is what you
+see in the physical plane and in the
+more circular it is twice the angle
+and similarly what we have seen in the
+case of stress we can also appreciate
+when you have a circle I have infinite
+points forming the boundary of the
+circle
+so it gives you all the complete
+information of what is the value of
+strain
+on all these directions
+you know we also solve the numerical
+problem in the case of stress
+where the understood
+state of stress at that point is unique
+which can be expressed by various
+components
+on similar lines state of strain is also
+unique at that point
+I can express it as components in the X
+and Y directions
+I can express as components in the
+principal directions 1 and 2.
+and if I can also Express as components
+along the shear directions maximum Shear
+Direction here it is a local maximum
+and if you take any point that
+represents strain in a particular
+direction see I have just shown the
+direction I have not taken effort to
+show the change in the length which I
+was able to do easily in the case of
+stress but here it is too difficult to
+do so what is indicated here is when I
+go one full circle of 360 Degrees I will
+Traverse 0 to 180 on the physical plane
+so every Point denotes
+what is the strain in that particular
+direction in general it can have a
+normal strain component as well as a
+Shear strain component
+in particular cases you may have only
+normal strain
+and when you have a pure Shear strain
+State you may have only Shear strain
+otherwise when you have maximum Shear
+strain like this you will always have a
+normal strain component
+so every Point denotes what happens
+along that direction and if you draw a
+line and find out what is the angle from
+this one half of that is what is the
+direction in the physical plane so all
+the understanding that we have developed
+in the case of
+stress you can also extrapolate in the
+case of
+strain
+see while we discussed stress we also
+developed photoelasticity
+we had developed a stress optic law and
+then we showed that you can get
+beautiful fringe patterns and we were
+using only models that were transparent
+okay now the question arises suppose I
+do not have a transparent model can I
+still
+take advantage of the use of
+photoelasticity if you ask the question
+the answer is yes
+what you do is you take a specimen and
+then code the specimen with a
+photelastic coating that would be a
+transparent but what you do is you coat
+it with a reflective backing and then
+put the material so this
+main member experience a strain The
+Strain is Faithfully transmitter to the
+coating because of the strain the
+coating will get deformed
+and because the coating is birefringent
+all the concepts that we discussed in
+the case of such analysis you can have a
+parallel one like you have a stress
+optic law you can also have a strain
+Optical
+and this is what you see me 15 years
+back you know I've pulled out my old
+video and this shows a reflection
+polariscope
+it's very compact
+you have a light source you have a
+polarizer you have a first quarter wave
+plate you have the second quarterway
+plate and you have the analyzer which
+you had seen a normal Polaris scope
+should have this
+so what you do is the light comes out of
+this it impinges on the model you
+analyze the reflected light
+fine
+and in the case of normal
+photoelasticity you know you didn't have
+that angle problem
+here you have to keep the equipment away
+from the specimen so that you minimize
+the angle of a deviation okay you want
+to limit it with within four degrees
+and what you have here is you have a
+flange coupling it is tightened with
+four bolts
+and this is the light is impinged on
+this and the reflected light will be
+viewed through the analyzer and quarter
+wave plate
+and for you to see instead of me looking
+at it we will have a electronic camera
+output and you will see beautiful
+Fringe patterns
+OK and this only explains how the light
+gets reflected on this and you see this
+beautiful fringe pattern do you see them
+see normally if you are given a spanner
+what do you go what do you go and do you
+simply go and tighten it to your maximum
+that's not that the engineering is done
+and this is a very complex problem see
+you would have seen flange couplings in
+many many applications you'll have big
+pipelines you will have a flange and it
+will be transmitting fluid at a high
+pressure
+in those applications what people
+normally do is they have what is known
+as a torque wrench
+and they will measure what is a talk to
+be applied and when I have number of
+bolts like this here I have only four if
+you have a huge flange there is a
+particular sequence in which you have to
+tighten the bolts
+the sequence of tightening
+influences the performance you should
+not do over tightening and you see here
+the problem should have been symmetric
+because of non uniform tightening the
+fringes are not symmetric and it's very
+difficult to model analytically please
+understand
+the kind of stresses that are introduced
+happen because of the assembly assembly
+stressors are very difficult to analyze
+analytically whether you want to go and
+do a numerical analysis there again
+modeling assembly stresses is extremely
+difficult the only recourse is
+a technique like photoelasticity or any
+other experimental technique because
+here you actually work on a prototype
+you don't work on a model so from
+analytical perspective it's a very
+complex problem
+and you also find this equipment is very
+compact you can hold it in a hand like
+you have a stethoscope like the doctor
+tests you and then finds out whether
+your heart is beating properly so I can
+take this and then find out what happens
+to the structure
+and if you look at this is extensively
+used in Aerospace Industries and one of
+the applications there is when you have
+a landing gear
+if I say one kilogram of weight on the
+landing gear I save enormous amount of
+fuel in the lifetime of the aircraft
+and this is a structural optimization
+even today when they go from a360 to
+A380 it is done only experimentally
+because the problem is extremely complex
+fine and they actually have chemical
+Engineers making a three dimensional
+model of this landing gear and then do a
+transmission as well as deflection
+photolastic analysis and whatever the
+loading rig that they developed for
+a3680 they will use it for the model
+study for A380 because the capacity is
+increasing you also need larger loading
+frames
+so so it's a very big job
+and it is also used for a range of
+materials
+you have aluminum titanium alloys
+ceramics
+composites
+if you look at composite from analytical
+analysis is extremely difficult because
+it is anisotropic
+it can be autotropic or it can even be
+an isotropic whereas the coating is
+otropic in nature and you see you all
+use a cycle so you treat your cycle tire
+without any respect
+because it's after all a cycle there
+same is not applicable when you go in an
+aircraft imagine the while Landing the
+entire weight is taken care of by your
+tires that is what we said when we
+looked at that pressure vessel with two
+helical coils I said your tire is also
+very complex you have coils in the
+helical Direction and it is a very
+complex to analyze particularly when you
+go to aircraft tires people have
+analyzed
+stability of those tires in those
+applications only by a technique like
+photoelasticity you develop a
+photelastic coating applied
+appropriately it has to Bear the entire
+Dynamic load while Landing
+so Tire burst is a very severe problem
+and you rarely come across that kind of
+accidents these days because these are
+all tested
+and you need a wire media to do the
+testing so I have a variation that helps
+you to work on prototypes
+fine we will also have to learn what
+happens in polar coordinates see the
+animation is very good I would like you
+to devote a very nice page in your
+notebook
+draw the diagram very big if you draw
+the diagram systematically you know how
+to write the quantities
+fine so I have
+first drawn this line it goes to origin
+I take a small element A B C D I have
+shown the segment ad
+so I have a b which is a distance Dr
+I am going to go slow
+so which will help you to draw as I am
+drawing fine
+I have the segment BC
+these are all exaggerated pictures you
+should keep in mind
+so I have taken a
+simple element in the radial and
+circumferential Direction I have these
+two lines so I have an element a b c d
+under the given action of loads this
+element gets distorted
+and let me say that I have a
+displacement field u and v
+for us to write it very comfortably
+so the point a gets shifted b gets
+shifted C get shifted and D gets shifted
+and you carefully draw how do I locate
+these various lines and
+so I take this angle as D Theta
+so I have an element a b c d
+and I have a displacement at a I have a
+radial component which is denoted as U
+I have a circumferential component which
+is denoted as B
+in the limit you can say that this is
+tangential to this fine
+and I have point a shifter to a prime
+and let me see how I locate point B
+Prime
+I have moved by a distance Dr so U is a
+function of both R and Theta
+fine V is also a function of both R and
+Theta so I should write the incremental
+quantities from Taylor's approximation
+properly
+okay
+so I have let me first complete this
+distorted element I have
+this Arc
+becomes like this distorted like this
+and this is no longer
+purely circumferential like this it is
+distorted because of both axial and
+Shear strain
+now we have to locate what is
+the coordinates of B Prime
+and for me to do that later I have to
+get the shear strain so I draw this line
+I recognize
+this angle as Delta Theta 1
+because this is you know again radial
+fine so if I have to find out original
+rectangle so I should also draw one more
+line here
+which is circumferential
+so this is orthogonal okay if I draw a
+tangent here and this line they are
+perpendicular so I have to measure
+anything related to Shear strain as
+deviation from this line and deviation
+from this line
+is idea clear
+Shear strain we have said it is the
+original rectangle becomes what
+and it is Delta Theta 2.
+but I will also have to recognize if I
+have to calculate Delta Theta 1 I should
+recognize that I can get this angle
+comfortably
+I join this and then extend it this I
+can express it
+this I will put it as Delta Theta 1
+Prime
+I will also have another line drawn
+what we have already drawn is this and
+this is Delta Theta 1 double Prime I
+need these angles for me to find out
+what is Delta Theta for me to get Delta
+Theta 1
+I have to have Delta Theta 1 Prime minus
+Delta Theta 1 double Prime that is what
+you get this as Delta Theta 1.
+so I have the point B Prime located
+so from this how do I write this
+variation
+this is a variation in the radial
+Direction
+I have here it has U
+and I have shifted by the distance d r
+and what is this distance
+can you can you guess and write down
+write down what is the way I can do that
+then check what I have written
+can I write this as U plus dou U by dou
+r d r
+because I have moved by a distance d r
+this a has become a prime B has become B
+Prime
+so B will have U plus variation of U
+because of the shift in distance Dr
+and I also have
+I can comfortably write this vertical
+distance
+I have put a horizontal line here okay I
+can write this distance easily can you
+find out what is this distance because I
+have come to V
+and then at a distance Dr I have I am
+writing what has happened to V
+can you say what is this value here
+see u and v are functions of r as well
+as Theta
+fine but here I have moved only by
+distance d r so it will be a function of
+r
+so I will have this as dou V by dou r d
+r
+fine
+see I am not writing from this bottom if
+I write it from this bottom it will be V
+plus dou v bedo or d r i have written
+this directly here so don't get confused
+I write U plus dou U by dou r d r here
+suddenly I drop V I am denoting it
+different quantity here
+and if I know this I can find out what
+is ah
+what is this angle OK I can find out
+what is this angle Delta Theta 1 Prime I
+can easily find out
+fine
+so once you have understood this same
+logic will extend it for other positions
+so this will become
+it is because of theta variation so V
+plus dou V by dou Theta D Theta
+and this you will have this as
+dou U by dou Theta D Theta so once you
+have understood how to draw the
+distorted element and label them
+systematically
+finding out the strain components from
+this diagram is simple and
+straightforward
+fine
+so what I am going to do is to find out
+the normal and Shear strain here again I
+have the animation just watch the
+animation how the diagram is drawn how
+the quantities are
+denoted
+even if you have missed some idea you
+get clarity from the way
+the diagram is drawn
+so we have to consider an infinitesimal
+element a b c d
+and there is peculiarity in the case of
+polar coordinates see when the radius
+changes
+the circumference also changes they are
+interrelated
+fine
+so results in both radial and tangential
+strain if you change because of U it
+will have a component on the radial
+direction as well as tangential
+Direction
+now let us look at what is the radial
+strain radial strain is very
+straightforward I have U it has gone to
+U plus dou U by dou r d r so I simply
+have change in length divided by
+original length as Epsilon r equal to
+dou U by dou R there is no difficulty at
+all in writing radial strain
+which was also like Epsilon x s dou e by
+dou X
+fine
+there is similarity between what you had
+seen in Cartesian coordinates and what
+you are looking at in polar coordinates
+and we have to look at what is the ah
+strain due to ah the tangential strain
+due to displacement U
+because when I the radius X elongates by
+distance U
+you also have a circumferential distance
+changed
+okay so you will have this as R plus u d
+Theta is a circumferential change
+original one was r d Theta so change in
+length becomes U by R which is something
+very peculiar which happens only in
+polar coordinates
+fine
+I have one component because of what
+happens to U I will also have another
+component in the tangential Direction
+because of what happens to V
+okay
+so I will write this as Epsilon Theta V
+that reduces to dou V by dou Theta D
+Theta divided by r d Theta equal to 1 by
+R dou V by dou Theta
+so this is subtle and you have to know
+what is physically happening in polar
+coordinates
+if you have every likelihood you may
+ignore this you may account for this but
+you may ignore this
+because any radial change there will
+also be a
+connected circumferential change and
+when I say e Epsilon Theta I am talking
+about what is the change in the
+circumference so it has a component
+because of the change in the
+circumference V is what is the change in
+the circumference length U is what is
+the change in the radial length so this
+also will have a component
+so the resultant strain is Epsilon Theta
+equal to Epsilon Theta U plus Epsilon
+Theta V so that gives me Epsilon Theta
+equal to U by r
+plus 1 by R dou V by dou Theta
+is the idea clear
+and for you to find out the shear strand
+I have already elaborated how do you get
+the Angles and things like that but
+nevertheless we will have advantage of
+the animation we will see the animation
+you just look at the angles look at how
+it is drawn in what sequence this
+quantities are labeled all that
+contributes your basic understanding
+okay so you look at this
+and component or sharing strain due to U
+we have already drawn what is a
+reference here I have a radial line I
+have a circumferential rain is idea
+clear
+radial line is drawn straight
+circumferential line is drawn as curved
+because I have concentric circles and
+then radial lines
+in the limit they will all look like
+straight lines but this is an
+exaggerated picture
+and when we do that we have to show that
+our circumferential line
+so I have gamma R Theta the contribution
+from U
+I have this as dou U by dou Theta see
+this you are able to see
+I am first writing out Delta Theta 2
+divided by r d Theta that's original
+length original length is this okay
+original length is this that is this is
+with angle D Theta so I have this as r d
+Theta so I have this as 1 by R dou U by
+dou Theta
+and what is the
+component
+due to the displacement V
+I have dou V by dou R see you will have
+this Delta Theta 1 Prime so this is dou
+V by dou r d r divided by Dr I will get
+this as dou V by dou r
+and then minus V by r
+see you look at here Delta Theta 1
+double Prime this is V and this distance
+is R we neglect this R plus u
+so I have this as
+I have this as V by r
+so the shear strain is addition of these
+two
+so that I finally get this as 1 by r
+dou U by dou theta plus dou V by dou R
+minus B by r
+so what you find is when you want to
+find out the
+train quantities in polar coordinates
+it's not completely similar to what we
+have seen in
+Cartesian coordinates you have
+additional terms you should not ignore
+the additional terms
+fine now let us look at a comparison
+because there is also a need that you
+need to remember them mnemonically
+fine I'll try to give you some hints
+about how you can remember some of these
+quantities
+so you have the animation for the
+Cartesian you have the animation for the
+polar coordinates
+and you have Epsilon x x as dou U by dou
+X and Epsilon r r this is what I said
+we will use this symbols interchangeably
+because
+x x I can also write it as an Epsilon X
+Epsilon r r i can also write it as
+Epsilon r
+they are very similar dou U by dou X and
+dou E by dou r no difficulty at all
+when I come to Epsilon y y it is like
+dou V by dou y
+I do have the term doubi by dou Theta
+but in addition I have a term U by r
+and whenever I have a
+d Theta at the bottom
+I will always have a multiplayer like R
+because r d Theta is a distance
+so that is on one way of remembering
+here I have Epsilon y by S dou V by dou
+y
+so similarly Epsilon Theta will be dou V
+by D dou Theta because I have Theta L by
+1 by r that you can write comfortably
+but you have to remember that you will
+also have a nuisance value from U by r
+okay
+now when I go to Shear strain you look
+at here I have dou V by dou X Plus dou U
+by dou y
+opposite
+so I will also have similar terms here I
+have dou V by dou r no problem I have
+dou U by dou Theta but when I have Theta
+term I'll have one multiplier R so I I
+have 1 by R dou U by dou Theta so this
+basic
+structure you can write from Cartesian
+without any difficulty but you will have
+in the case of Shear strain and this is
+again engineering definition of Shear
+strain
+I have this as minus V by R for engine
+for this Shear strain for the tangential
+strain I have U by R that you will have
+to
+remember or learn that you can draw the
+sketch and then write it so that cannot
+be avoided
+okay see with these definitions of
+strain we can comfortably do
+strength of materials but you are
+learning this course in 2022 and you
+will also have to be aware what are all
+the other strain measures
+and I am going to have one simple
+development which is not that
+complicated
+we'll have a look at it
+so I have a reference frame x y z I have
+the object
+and let us consider a point p with
+coordinates x y z
+consider a small region surrounding that
+point I take a point Q
+which has the
+coordinates X Plus Delta X Y plus Delta
+by Z Plus Delta Z
+and now I have deformed
+structure the points have displacements
+P has gone to P Prime and then Q has
+gone to Q Prime
+and I denote this as material points you
+know there are material for material
+coordinates and spatial coordinates and
+if we go to higher studies of strain
+because in infinitesimal strain we work
+on the
+undeformed configuration when we said we
+are working on small deformation there
+is no distinction between
+deformed and undeformed I can live in
+the comfort of
+undeformed configuration
+so we never worried about it but the
+moment you come for a large deformation
+there are many many definitions I will
+not get into all of them
+and you understand that these are all
+material points this is all material
+coordinates
+and let their displacement vector be U V
+and W
+fine
+and what we do is
+we want to find out the change in length
+of the linear element so I need to have
+Delta U Delta V and Delta w
+and we are looking at a three
+dimensional space so U is a function of
+x y z v is a function of x y z w is also
+a function of x y z so when I have Delta
+U I can write from
+Taylor's approximation dou U by dou X
+Delta X
+plus dou U by dou by Delta y plus dou U
+by dou Z Delta C on similar lines I can
+also write Delta V equal to dou V by dou
+X Delta X
+plus dou V by dou by Delta by
+plus dou W by dou Z Delta Z
+and you have Delta W as dou W by dou X
+Delta X plus dou W by dou by Delta by
+plus dou W by dou Z Delta Z
+fairly straightforward this for this you
+have a mathematical background no
+difficulty at all if you write one
+expression even if you don't have time
+to write the other expression now you
+can fill it up later and one can also
+Express Delta X as become Delta X Plus
+Delta U
+so when I know what is Delta U I can
+write Delta X Prime as 1 plus dou e by
+dou X Delta X
+plus 1 plus I mean not one plus it is
+dou U by dou by Delta y plus dou e by
+dou Z Delta Z
+so Delta X Prime is nothing but Delta X
+Plus Delta U so when I have Delta y
+Prime
+when I have Delta y I have this 1 is
+coming 1 plus dou V by dou by Delta y in
+the case of Z I get this as 1 plus dou W
+by dou Z Delta Z
+see our interest is only to find out
+a quantity like this when you are
+talking about P Prime Q Prime
+okay we are only looking at what is the
+train in the direction PQ
+I have to find out what is Delta S Prime
+minus Delta s divided by Delta s that's
+the definition of strain change in
+length divided by the original length
+but instead of computing it from this it
+is
+done by using the squares Delta S Prime
+Square divided by Delta s whole Square
+minus 1 if you look at if you expand
+this definition and substitute and do
+the simplification you can write this in
+terms of e p q plus one one half of e p
+q Square
+is idea clear my interest is to find out
+Delta S Prime minus Delta s but I will
+compute Delta S Prime squared minus
+Delta s Square
+we have defined what is Delta X we have
+defined what is Delta X Prime
+so I can find out what is the difference
+so the taking the difference between
+Delta S Prime squared and Delta s
+squared I get this as P Prime Q Prime
+whole Square minus p q squared
+you have this expression and we have
+written down in long hand what is the
+definition of delta X Prime
+and when I do this I could write this in
+a form
+expressed like this
+2 of e x x Delta x square plus e y by
+Delta y square plus e z z Delta Z square
+plus e x y Delta X Delta y plus e y z
+Delta by Delta Z Plus e x is a Delta X
+Delta Z
+where the quantity is e x x e y by
+which we will see later
+are the finite strain components
+and on the left hand side you have this
+when I have a
+infinitesimal strain
+if e p q is small e p q square is small
+much smaller than this so I will knock
+out this term
+and we will also knock up the higher
+order terms on the right hand side that
+is what you have done in its infinite
+infinitesimal strain
+fine and we have already seen what is
+the expression for Delta X Prime
+when I substitute this and simplify I
+can get these expressions in this form
+do you find any similarity between these
+expressions and your
+infinitesimal strain components
+suppose I look at e x x
+I have dou U by dou X that we have seen
+as infinitesimal strain plus one half of
+dou U by dou X whole square plus dou V
+by dou X whole square plus dou W by dou
+X whole Square
+and you have this repeated cyclically
+and when I go to the shear component e x
+y I have this as dou U by dou by plus
+dou V by dou X this is identical to what
+you have seen in your
+Center material infinitesimal strain
+this we have seen this as Shear strain
+ok
+and I have this as additional terms dou
+e by dou X multiplied by dou E by dou y
+plus dou V by dou x dou v by dou y plus
+dou W by dou x dou w by dou Y and this
+is cyclically repeated
+like what we have seen in
+Center materials you have equality of
+cross
+strains also available e x y becomes e
+by X
+and then
+e y z becomes Easy by e x z becomes easy
+X
+and multiple people have developed these
+kind of expressions in various
+coordinate system
+so for infertissimal strain itself
+cauchi has developed it
+and for finite strains it was developed
+by Al bansai in the deformed
+configuration
+in the original configuration it is
+green sensor now multiple names
+find that if you get into that
+literature you will get the idea of it
+by but my interest is to tell you you
+know we have looked at um
+the simple
+rubber
+suppose you imagine that this is the
+original length
+without any difficulty I can double the
+length without any difficulty I can
+triple the length nothing happens to it
+when I
+release the hand it comes back to its
+elastic condition
+you cannot have analysis of this unless
+you have finite strain
+okay
+in the case of a rubber and we have also
+seen how a guardian pin is formed
+so in metal forming it will be of use
+and people also develop
+incremental plasticity Theory and so on
+and so forth in metal forming even the
+level of strain is much less compared to
+what you see in the case of a rubber
+and we have already seen how a guardian
+pin is formed and I said that this is
+used in the case of IC engine
+this is the PIN where you have and
+initially you have drawn a square line
+Square
+lines horizontal and vertical forming a
+square and when you deform you could see
+very clearly
+with your naked eye you are able to see
+the deformed lines so these are all very
+high strains I said strain is of the
+order of 20 to 22 percent
+whereas in the case of infinitesimal
+strain I said you should limit within
+0.1 percent
+if you say what is 1.1 percent it is
+like one millimeter extension of a
+distance of if I have original length is
+1000 millimeters if it extends by one
+millimeter you call that as point one
+percent
+so you talk a very small strain in
+components that are working you have a
+bearing you have a shaft which is
+embedded into that you need to have
+this work comfortably during the surveys
+you can't have large deformation
+you can also argue that they were
+behaving almost rigid but they do deform
+so that was comfortable to analyze with
+infinite decimal strain
+but when I come to a problem like this I
+need to have finite strain quantities
+and
+the literature says that these are not
+approximations these are exact
+expressions for finite strain that's
+what the literature says
+and you know bio engineering is becoming
+ah
+order of the day I have
+shown you the rubber like recoverable
+elastic strain and bio engineering is
+very very important that's the many iits
+are also starting a medical school
+you have to analyze what happens in the
+case of a heart see if you go to human
+beings right from your blood it is not
+due to the mechanics blood is a
+non-Newtonian fluid so our body is much
+more complex than what we analyze as
+engineers
+fine so when I go to bioengineering
+people work with very soft material
+people have developed
+this is again from photoelasticity you
+have soft material which is mimicking
+the human skin
+and I'm not sure how many of you have
+heard of if they have to perform on an
+operation they put an epidural injection
+it's not like your normal injection
+where you take your antibiotics
+it's a very long injection that they
+have to penetrate to your spine and then
+they will put it and here the question
+is what should be the shape of the tip
+and as you penetrate you know the
+advanced studies also show the
+resistance is also different
+and people have developed you have I do
+not know whether you know there is a new
+school of thinking you have what is
+known as haptics
+where they develop the force resistance
+so you have simulation modules that are
+developed to train the doctors if they
+don't put the injection properly the
+person can become paralytic for the rest
+of the life and here you deal with soft
+material large deformation so current
+problems require your exposure to finite
+strain you cannot stay away from it
+even though in this course we will
+confine ourselves to infinitesimal
+strain that is good enough for you to
+handle the next level course on machine
+design
+if you look at and step out of IIT and
+if you want to do any engineering
+there's very great scope in medical
+Diagnostics and people want to apply
+more and more
+mechanics to understand the heart
+understand the kidneys so all of them
+are soft material and they have much
+more complex problem than what you can
+think of
+and you know I'll also give you a flavor
+from continuing mechanics literature how
+do you live how do they label things
+they
+you have we have seen displacement there
+it is a deformation gradient tensor
+and I have a vector this is material
+coordinates so I have this as capital x
+and you also have the vector notation is
+given
+and this gets transformed to
+the current configuration so have they
+have there is a reference configuration
+and there is a current configuration
+that is given by the symbol C
+and you have all small letters used for
+this current configuration
+and
+you have a displacement field
+and you have what is known as
+DX this is a vector field d x d small x
+divided by D capital X
+and you call this Matrix as a
+deformation gradient tensor
+and the tensorial quantities are
+Illustrated with two
+horizontal bars below the quantity that
+says it is a tensor of rank two
+see you recall when I developed a
+concept of stress vector it was so
+inconvenient to write the vectorial
+notation I said you please understand
+whenever I have t n
+if there are no subscripts but you
+understand that as a vector it is easy
+for you to write but the moment you step
+into continual mechanics literature
+is flooded with all this
+bars and
+you also have this lines below to
+indicate that this is a tensor and this
+is a vector here this is a vector and
+this is a unit Vector all those
+symbolism is put
+fine
+and and what you have is
+the requirement is to segregate the
+rotation and deformation
+and what people have found is
+you can split the deformation gradient
+when they are finite as a multiplicative
+decomposition of a rotation
+and a stretch OK this is how the
+literature goes
+in the case of
+infinitesimal strain we saw strain
+Matrix strain tensor plus rotation
+tensor gives you displacement Matrix
+fine here you write the deformation
+gradient tensor either as a product of
+or into U or is a rotation Matrix
+and when this is on the right side or
+left side they call it as right side
+tensor left side and so on all those the
+symbolism that they use will not get
+into them but at least you understand
+those words are used
+and you have by definition C is given as
+F transpose F and if I write F transpose
+F and F is defined as r u I can relate
+what is the relationship between U and c
+I get U squared equal to C
+and then if I have you know I said when
+you have
+strain looked and your principles strain
+Direction you see that as a stretch
+okay only axial elongation so I can also
+Define
+the deformation in terms of what is
+known as a stretch ratio
+where LC is the length in the current
+configuration
+and LR is the length in the reference
+configuration that is a language that is
+used and this ratio is called stretch
+okay and the stretch can be related to
+eigen value of this Matrix
+this tense RC that is what you have this
+is Lambda 1C so there are interrelated
+quantities
+and you can also Imagine suppose I have
+LC equal to LR I get the stretch ratio
+is 1 when there is no deformation
+which is not convenient for you to write
+the constitutive relations you want to
+have this goes to zero that is why
+strain concept was developed
+from a mathematical perspective
+and you also have a generic expression
+of strain
+and deformation at a point may be
+considered as a result of a translation
+followed by a rotation of the principal
+axis of strain and stretches along the
+principal axis
+see when we took a state of stress at a
+point I said you can have multiple
+avatars of
+state of stress it can be expressed in
+different ways
+similar thing happens in strain also
+strain also can be expressed as a matrix
+with all non-zero elements
+if I refer it with respect principle
+Direction I will have only diagonal
+element I will have zero
+when I express this as diagram elements
+you can recognize that these are nothing
+but structures it could be structures or
+it could be contraction either of the
+two
+fine and this was recognized by Thompson
+and Tate in 1867.
+explicitly stated by law he was one of
+the Pioneer in writing the first book on
+theory of elasticity
+but the symbolism is very difficult to
+decipher in the modern notation
+and there is also a generic measure of
+strain Define in terms of the stretch
+ratio in the following
+two forms basically
+but this could be expressed in a much
+simpler way for different values of M
+so you have strain is defined as thrust
+ratio power M minus 1 divided by m
+as well as such ratio as logarithm of
+Lambda see this is a natural logarithm
+this is all used in plasticity Theory
+incremental plasticity or people deal
+with soft materials they express train
+like this
+from our course point of view if I put m
+equal to 1 I get this as LC by LR minus
+divided by LR this is nothing but
+changing length divided by original
+length this is what we defined as strain
+when we started
+strength of materials what is the
+definition of
+normal strain
+and there is also which is also known as
+engineering strain there is also another
+form which we will see when we look at
+sustained relation
+I can also have m is minus 1
+when I put minus 1 I have this as LC
+minus LR divided by LC that means
+this is referred with respect to the
+current configuration
+and when I do that there is a specific
+name
+you know people want to coin new names
+they call this a screw strain as if the
+other one is untrue it's not like that
+fine we will see stress strain relations
+we will talk about strain hardening and
+we will see how the graph changes when I
+use this expression
+these two will be using in sanctuar
+materials as well
+and it's also interesting to see when I
+have m equal to 2 you have this Epsilon
+goes to Lambda squared minus 1 divided
+by 2 this is nothing but your finite
+string
+so my idea is to give you a bird's eye
+view of what is the current type of
+thinking in
+Advance literature
+it's necessary you may not have a
+background to fully understand or
+develop it mathematically but you should
+know such quantities do exist
+so this brings a cut line razor on what
+we have learned on concepts related to
+strain
+once you have understood status at a
+point state of strain at a point is easy
+to grasp appreciate all these quantities
+like we have invariance in strain stress
+tensor we also have invariance in strain
+tensor you should also know how to use
+the
+strain tensor invariance properly
+and we have also seen definition of
+strain in Cartesian coordinates as well
+as in polar coordinates
+and I said in polar coordinates how to
+remember you can derive from
+appearance of Cartesian components but
+certain components you need to have
+understand how it is originated
+thank you
+[Music]

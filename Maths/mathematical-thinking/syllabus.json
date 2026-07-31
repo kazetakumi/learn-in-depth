@@ -1,0 +1,78 @@
+{
+  "subject": "Mathematical Thinking",
+  "goal": "Take an English mathematical claim, write its formal skeleton, know what a proof of it must do — the human-language groundwork for formalizing maths in Lean. Ends on the completeness of the reals, where intuition fails and precision rescues.",
+  "track": "both-lean-first",
+  "learner": {
+    "owns": "Solid high-school mathematics — algebra, equations, roots, functions, trig, basic calculus as procedures. No proof experience.",
+    "lean": "little or none assumed; every Lean snippet introduced from scratch"
+  },
+  "source": "transcripts/LN7cCW1rSsI.txt — Keith Devlin, Introduction to Mathematical Thinking (Stanford)",
+  "cruxes": [
+    {
+      "id": 1,
+      "title": "Why precision isn't fussiness",
+      "hook": "A five-line chain of algebra you can check yourself that ends at 1 = −1. Every link looks fine. Find the broken one.",
+      "crux": "A statement must have exactly one truth value, independent of reader and context — because a proof is a chain, and a link that can be read two ways is not a link.",
+      "owns": "Everyday language, and school algebra with square roots.",
+      "pays": "The four linguistic forms + three combinators: the finite alphabet all mathematical statements are built from. This is the map of the whole ladder.",
+      "depends_on": [],
+      "lesson": "01-precision.html",
+      "status": "current"
+    },
+    {
+      "id": 2,
+      "title": "The implication table is forced, not chosen",
+      "hook": "Build the truth table for 'if φ then ψ' yourself. Watch every alternative to the standard one die.",
+      "crux": "Once you demand that a compound statement's truth depend only on the truth of its parts, the material conditional is the only survivor. 'False implies anything' is not a convention.",
+      "owns": "Crux 1's definite truth value, and the combinators and/or/not.",
+      "pays": "Mechanical computation of truth — and the table that will later license proof by contradiction.",
+      "depends_on": [1],
+      "lesson": "02-implication.html",
+      "status": "planned"
+    },
+    {
+      "id": 3,
+      "title": "Quantifier order is meaning",
+      "hook": "A cancer foundation's fact sheet that accidentally condemns one man to die every hour, forever.",
+      "crux": "Nesting order of ∀ and ∃ changes what is claimed. Negation is then a crank: push ¬ inward, every quantifier flips.",
+      "owns": "Crux 2's combinators.",
+      "pays": "Readable epsilon-delta, and mechanical negation.",
+      "depends_on": [2],
+      "lesson": "03-quantifiers.html",
+      "status": "planned"
+    },
+    {
+      "id": 4,
+      "title": "The form of a statement is the proof's blueprint",
+      "hook": "Two statements you cannot yet prove. Read only their shapes, and write the first three lines of each proof anyway.",
+      "crux": "The logical form dictates the proof's moves: ∀ says take an arbitrary one, ∃ says produce one, → says assume the antecedent. No template hunting.",
+      "owns": "Cruxes 2 and 3.",
+      "pays": "The Lean-shaped skill — intro, use, apply are these moves.",
+      "depends_on": [2, 3],
+      "lesson": "04-blueprint.html",
+      "status": "planned"
+    },
+    {
+      "id": 5,
+      "title": "The indirect moves, and why they're legal",
+      "hook": "Proof by contradiction feels like cheating. Derive your licence to use it from a truth table you already built.",
+      "crux": "Contradiction, contrapositive and induction are not tricks handed down; each is licensed by something already established.",
+      "owns": "Crux 4's blueprint, plus crux 2's table.",
+      "pays": "√2 is irrational, proved and understood — and induction as a move you could have invented.",
+      "depends_on": [4],
+      "lesson": "05-indirect.html",
+      "status": "planned"
+    },
+    {
+      "id": 6,
+      "title": "The hole in the rationals",
+      "hook": "The fractions look like they fill the number line completely. Prove that they don't.",
+      "crux": "Completeness: a set of rationals plainly bounded above with no least upper bound in the rationals. Intuition fails; the machinery holds.",
+      "owns": "Everything above.",
+      "pays": "Why anyone built any of this.",
+      "depends_on": [5],
+      "lesson": "06-completeness.html",
+      "status": "planned"
+    }
+  ]
+}

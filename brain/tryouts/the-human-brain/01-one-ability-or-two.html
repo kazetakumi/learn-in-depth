@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One ability, or two?</title>
+<style>
+  :root {
+    --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --code-bg: #f3f0e8; --rule: #d8d2c2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #1c1a16; --ink: #e8e3d8; --accent: #8fb4d9; --code-bg: #262319; --rule: #45402f; }
+  }
+  :root[data-theme="dark"] { --paper: #1c1a16; --ink: #e8e3d8; --accent: #8fb4d9; --code-bg: #262319; --rule: #45402f; }
+  :root[data-theme="light"] { --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --code-bg: #f3f0e8; --rule: #d8d2c2; }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper); color: var(--ink);
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+    line-height: 1.65; margin: 0; padding: 3.5rem 1.5rem 8rem;
+  }
+  main { max-width: 640px; margin: 0 auto; }
+  .kicker {
+    font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 0.6rem;
+  }
+  .kicker a { color: var(--accent); }
+  h1 { font-size: 1.9rem; font-weight: 600; margin: 0 0 2rem; }
+  h2 {
+    font-size: 1.25rem; font-weight: 600; margin: 3rem 0 1rem;
+    padding-top: 1.5rem; border-top: 1px solid var(--rule);
+  }
+  p { margin: 1.1rem 0; }
+  .aside {
+    border-left: 2px solid var(--rule);
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    margin: 1.4rem 0;
+    font-size: 0.95rem;
+    color: color-mix(in srgb, var(--ink) 82%, transparent);
+  }
+  .aside b { color: var(--ink); }
+  details {
+    background: var(--code-bg);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 0.9rem 1.2rem;
+    margin: 1.6rem 0;
+  }
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--accent);
+  }
+  summary:hover { text-decoration: underline; }
+  details[open] summary { margin-bottom: 0.8rem; }
+  .try {
+    margin: 2rem 0;
+    padding: 1.2rem 1.4rem;
+    border: 1px dashed var(--rule);
+    border-radius: 6px;
+  }
+  .try .label {
+    font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 0.6rem;
+  }
+  code, .term { color: var(--accent); font-style: italic; }
+  hr.section { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  .nav {
+    display: flex; justify-content: space-between; margin-top: 4rem;
+    font-size: 0.9rem;
+  }
+  .nav a { color: var(--accent); text-decoration: none; }
+  .nav a:hover { text-decoration: underline; }
+  footer {
+    margin-top: 3rem; font-size: 0.85rem;
+    color: color-mix(in srgb, var(--ink) 55%, transparent);
+  }
+</style>
+</head>
+<body>
+<main>
+
+<div class="kicker"><a href="index.html">The Human Brain</a> · Rung 1 of 5</div>
+<h1>One ability, or two?</h1>
+
+<p>Let me tell you about a friend of mine. I'll call him Bob.</p>
+
+<p>Bob stayed over at my house once, on his way to a conference. Smart guy — sharp, funny, holds down a serious job, the kind of person who is the life of every party he's at. Next morning I hear a crash. He's on the floor. Ambulance, hospital, a day of tests that find nothing. Then that night: <i>they found something in his brain.</i> A tumor, the size of a lime, sitting deep in there.</p>
+
+<p>He had eleven hours of surgery. Bone off the back of his skull, hemispheres pulled apart, the thing removed from right next to a vein that's been known to anatomists since ancient Rome. He came through it fine. Two days later they sent him home. A few days after that, he was back at work. Full IQ, same wit, same job.</p>
+
+<p>But there'd been a strange thing about Bob for years before the surgery, that I'd noticed and half-ignored: he got lost constantly. Not "bad with directions" — lost in his own driveway. Asked which way to turn out of his own house, he'd guess wrong. And after the surgery, that didn't come back. Not even a little. Everything else about his mind was intact. That one thing was just <i>gone.</i></p>
+
+<p>Here's the question I want you to sit with, because it's the one my whole field is built on: does that story prove anything about how minds are built?</p>
+
+<details>
+<summary>What would you say, before reading on?</summary>
+<p>Most people's gut reaction is yes, obviously — there must be a "navigation part" of the brain, separate from everything else, and Bob's tumor sat right on it. That gut reaction is exactly the one I want to slow down and interrogate. It might be right. But nothing I've told you so far actually proves it.</p>
+</details>
+
+<h2>The trap</h2>
+
+<p>Here's the trap, and I want to get it from something you already know cold, not from neuroscience.</p>
+
+<p>Say your laptop starts choking specifically on video calls — everything else runs fine, browsing, writing, music, but the second you open a video call, fans scream and it lags. Your first instinct might be: "must be a dedicated video chip failing." Reasonable guess. But here's the thing: a video call is also just about the single heaviest thing you ever ask an ordinary shared CPU and GPU to do at once — encode, decode, render, network, all simultaneously. If the whole machine has degraded a little — thermal paste drying out, a dying fan, dust in the heatsink — video calls will be the <i>first</i> thing to visibly break, purely because they were already running closest to the edge of what the hardware could do. Nothing dedicated has to be broken at all. The general system got slightly worse, and the heaviest task felt it first.
+
+<div class="aside"><b>The general shape of this trap:</b> under load, the hardest-loaded path degrades first, whether or not it runs on separate hardware. A single symptom — one thing broken, everything else fine — cannot by itself tell you which of those two stories is true.</div>
+</p>
+
+<p>Now run that back through Bob. Losing his way around a familiar house is, if you think about it, a genuinely <i>hard</i> cognitive task — you have to hold a mental map, update your position, infer unseen space behind you. Reading, talking, holding a job: comparatively, maybe those are just easier computations for a slightly-damaged general-purpose brain to still pull off. Bob's tumor could have dinged a generic, shared piece of machinery a little, and navigation — being the hardest thing that machinery did — was the first casualty. Exactly like the laptop.</p>
+
+<p>I set this exact trap for my own class every year, with a case that isn't Bob's at all. There's a well-known syndrome, <span class="term">prosopagnosia</span>: after brain damage, a person can no longer recognize faces by sight — they can identify the very same people instantly by voice, so it isn't that the person or the memory is gone, just the visual route to it — while everything else about their mind is intact. I ask my students the same question I just asked you: does that prove face recognition runs on its own dedicated machinery? Someone always says yes, obviously. Whenever I ask this, the answer's no — not yet, anyway.</p>
+
+<div class="try">
+<div class="label">Your turn — before the reveal</div>
+<p>You have one deficit: a patient who is bad at faces, fine at everything else you've tested. You suspect a "face module." What single piece of additional evidence, if you could go find it, would let you rule out the "harder task, same shared system" explanation once and for all? Don't reach for a scanner. Think about what kind of <i>case</i>, if it existed, the difficulty-story could not explain.</p>
+</div>
+
+<details>
+<summary>Think it through, then open this</summary>
+<p>If "faces are just harder" were the whole truth, then damage bad enough to wreck face recognition should <i>never</i> spare object recognition worse than it spares faces — because on the difficulty story, faces are simply further out on the same continuum of difficulty as objects. Anyone whose object recognition is badly wrecked should have their face recognition wrecked at least as badly, since faces are supposedly the harder case.</p>
+<p>So go find the mirror-image patient: someone whose <i>object</i> recognition is severely damaged — can't tell a chair from a table from a toaster — but whose face recognition is completely normal. Better than average, even.</p>
+<p>That patient exists. I call him CK, from a 1997 paper. He is markedly impaired at recognizing objects and entirely unimpaired — genuinely excellent — at recognizing faces.</p>
+<p>Now the difficulty story is dead. It cannot produce CK. If everything ran through one shared, gradedly-difficult system, damaging that system enough to wreck the "easy" case (objects) should wreck the "hard" case (faces) even worse. Instead we have one patient broken on faces-not-objects, and another broken on objects-not-faces. Two opposite failures, each ruling out the other's explanation. This is called a <span class="term">double dissociation</span>, and it's about the strongest kind of behavioral evidence cognitive science has for saying: these are not one system wearing two hats. They are two separable things.</p>
+</details>
+
+<h2>Why the double, and not just the single, is what does the work</h2>
+
+<p>Sit with why this needed <i>two</i> patients and not one. A single case — prosopagnosia alone, Bob's navigation alone — is a story that two different theories can equally explain: "there's a dedicated module here" and "this happens to be the hardest thing a shared system does" both predict exactly the same single fact. One data point, two live theories. You have learned that <i>something</i> is broken, not <i>what kind of thing</i> broke.</p>
+
+<p>What kills the difficulty theory dead is finding the same kind of split running the <i>other direction</i>. Once you have both CK and the face-blind patient in the same textbook, there is no longer any way to rank faces and objects on a single shared scale of difficulty that explains both. Whatever ranking rescues one case sinks the other. The only story left standing is: two separate pieces of machinery, and each patient happened to lose a different one.</p>
+
+<div class="aside"><b>Vocabulary check:</b> a <span class="term">single dissociation</span> — one ability lost, another spared — is suggestive but ambiguous, exactly like the video-call laptop. A <span class="term">double dissociation</span> — one patient with A-not-B, another with B-not-A — is what actually earns the conclusion that A and B are architecturally separate abilities.</div>
+
+<p>Notice what this rung has and hasn't told you. It has told you, about as solidly as behavioral evidence can, that face recognition and object recognition are two separable pieces of mind — not one thing masquerading as two. What about navigation — is that a third separable piece, the way Bob's story suggested?</p>
+
+<p>Honestly: I haven't given you the mirror-image patient for navigation. I've only given you Bob — one striking case, exactly the kind I just spent this whole lesson teaching you not to trust on its own. To actually earn the conclusion "navigation is architecturally separate," I'd need to hand you someone with the opposite pattern: fine navigation, but wrecked at something navigation is supposedly distinct from. I'm not going to hand you that yet, because I want you to notice the gap rather than let me paper over it. Bob's story is a hook, not a proof — and that distinction is the whole lesson.</p>
+
+<p>What this rung also hasn't told you: <i>where</i> in the brain any of this lives, or <i>why</i> a scan lighting up in one spot would or wouldn't be good evidence for the same claim. That's a genuinely different question, and it's the next rung.</p>
+
+<h2>Try it cold</h2>
+
+<div class="try">
+<div class="label">A constructed case</div>
+<p>Here's a pairing I've made up to test the logic, not a real study. Patient X, after brain damage, can no longer read words — reading is destroyed — but recognizes faces and objects perfectly and speaks and understands speech normally. Patient Y, after different brain damage, has lost spoken language almost entirely — can't produce or understand speech — but can still read written words silently and understand them fine.</p>
+<p>Is this a double dissociation? Between which two abilities, exactly? And what would the single-system skeptic have to explain away for this pairing to <i>not</i> count?</p>
+</div>
+
+<details>
+<summary>Check your reasoning</summary>
+<p>Yes — this is a double dissociation between <i>reading written words</i> and <i>spoken language</i>. Patient X: reading gone, spoken language intact (X has spoken-language-without-reading). Patient Y: spoken language gone, reading intact (Y has reading-without-spoken-language). Neither can be explained by ranking the two abilities on one shared difficulty scale, because whichever ability you call "harder" to rescue one patient, the other patient contradicts it. A skeptic would have to find some <i>third</i>, hidden variable that happens to point opposite ways in these two specific patients — possible in principle, which is why real papers go hunting for exactly that kind of confound, but the bar has now been raised very high.</p>
+</details>
+
+<h2>Where this leaves you</h2>
+
+<p>You now own the actual logic I open this course with, in the form I use it, not just a name for it. If someone hands you a single striking case — someone who lost one specific thing and kept everything else — you should feel the pull to say "there's a module for that," and immediately distrust that pull, because a single case can never distinguish a dedicated module from the hardest task on a shared system. What you should ask for next is the mirror-image patient.</p>
+
+<div class="aside">Reading this once is not owning it. You'll know you actually have it when you can be handed a brand-new pair of deficits — not Bob, not CK, not the ones above — and immediately name whether it's a real double dissociation, or just two single ones dressed up to look like one.</div>
+
+<p>What we still don't have an answer to: <i>where</i> in the brain each of these lives, and whether a brain scan lighting up in a particular spot is even the right kind of evidence to answer that. That's rung two — correlation in the brain isn't causation — and it's where the story turns from behavior to tissue.</p>
+
+<hr class="section">
+
+<div class="nav">
+  <a href="index.html">&larr; Syllabus</a>
+  <a href="02-correlation-isnt-causation.html">Rung 2 &rarr;</a>
+</div>
+
+<footer>Drawn from MIT 9.13, The Human Brain (Spring 2019), Nancy Kanwisher — Lecture 1 (Introduction) and Lecture 5 (Cognitive Neuroscience Methods II).</footer>
+
+</main>
+</body>
+</html>

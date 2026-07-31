@@ -1,0 +1,1250 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on review
+of the course
+in fact in lecture 30 I have given a
+review of the course done till that time
+and this review lecture you can take it
+as a continuation of that so if you look
+at these two review lectures you have a
+complete perspective of what the course
+is all about
+you know the main focus of this course
+is to look at
+what is the typical variation of stress
+in an actually loaded member in a beam
+subjected to Pure bending and a shaft
+subjected to Pure torsion
+and you know we have done this based on
+inference of photoelastic fringes at
+least for axial loading and bending
+and when you look at for axial loading
+it is uniformly distributed
+on the other hand
+when I look at it for torsion this is
+varying as a
+triangle
+this is the variation of shear stress
+and if you move on to the beam which is
+transmitting a constant bending moment
+here again you have a triangular
+variation but this variation is for a
+normal stress which is known as bending
+stress
+and you know whole of this course
+centers around development of this
+torsion formula
+and then you are bending formula
+and for an axle reloaded member the
+elongation
+equal to p l by AE is a useful relation
+which will use it in other context of
+the course also
+and you know
+we have seen that you have a simple
+tension test to find out the Yang's
+modulus and yield strength
+and you can also use the same tension
+test to find out the poissons ratio
+so you have
+ASTM standards available for this
+and one way is to put a strain gauge
+transfers to the loading
+and you measure the strain transfers to
+the Loading and also along the loading
+Direction
+and poisons ratio is given as
+minus of transfer strain divided by the
+longitudinal strain
+and you have ASTM standards
+d3039 which lists out what precautions
+you need to take to measure poisons
+ratio
+and we have also looked at
+there is a drastic reduction of the
+cross section when the material reaches
+the necking point
+so it is better that you consider the
+variation the cross section
+and if you plot
+the two stress as P by a i as the
+current area of cross section
+and also Define strain as L naught t l d
+l by L L and L by L naught you have a
+true strain graph
+instead of drooping down after necking
+this will increase as until the ultimate
+tensile strength
+and we have also looked at the stress
+strain relations because in that tension
+test you apply load only in One
+Direction
+when I have all the stress components
+exist the normal strains are related to
+normal stress and Shear strain is
+related to only the respective shear
+stress so that is the specialty of
+isotropic material it makes our life
+extremely simple
+when I move on to an anisotropic
+material a normal stress can introduce
+shear
+and a shear stress can introduce normal
+strain and normal stress so it is very
+complicated to handle
+so it is also known as generalized
+hooke's law
+in a simplistic sense and we have also
+looked at
+how many elastic constants that you
+require to characterize an isotropic
+material because we have seen what is X
+modulus e Shear modulus G and poisson
+ratio Nu and we have also developed the
+bulk modulus so we have four of them
+discussed out of this four how many are
+required to characterize an isotropic
+material so if you develop the
+interrelationship and for
+interrelationship what we have looked at
+is we have effectively used the more
+circle of stress and strength for an
+isotropic material if you scale them
+appropriately the same principle stress
+directions or same as principle strain
+Direction so you can look at what
+happens
+by
+relooking the shear stress pure shear
+stress as combination of
+attention and compression and invoking
+the
+stress trained relations it's possible
+to establish an interrelationship
+between portions ratio
+angs modulus and Shear modulus
+so you have this from The Strain
+transformation la
+and you have the definition of gamma X Y
+based on stress transformation and also
+this more circle of strain you can
+simply write this as Epsilon 1 minus
+Epsilon 2.
+and from your sustained relation I have
+gamma X Y is Tau by G
+and when you look at from your
+understanding of principal stress and
+strain I can write out independently
+Epsilon 1 and Epsilon 2. when I
+substitute it back I get a very
+interesting relation G equal to e by 2
+into 1 plus Nu
+on similar lines we have also looked at
+how to find out the rental relationship
+between bulk modulus
+ratio earnings modulus for that we
+developed the concept of volumetric
+strain that is simply
+addition of all these normal strains
+volumetric strain is nothing but Epsilon
+X S Plus Epsilon y y plus Epsilon z z
+using this we have Revisited what is
+bulk modulus it is given as pressure by
+volumetric strain
+and that we got the expression 3 Sigma 1
+minus 2 Nu divided by e equal to Sigma
+by K
+and from this you get K as e by 3 into 1
+minus 2 Nu so what you find here is it
+is enough
+you have only two elastic constants to
+characterize an isotropic material it's
+a greatest simplification that we have
+achieved
+OK and we have also looked at what are
+the extremum values of poisson ratio in
+nu is 0.5 K becomes infinite volumetric
+strain becomes zero the material becomes
+incompressible
+and when Nu is minus 1 you have the
+other story for G so the bounding values
+for the position ratio is from minus 1
+to 0.5
+and we have seen cork is a very
+interesting material it has a position
+ratio is zero whereas rubber has a
+portion ratio of 0.5
+and we have also seen negative partition
+ratio comes to Advantage when you want
+to develop a stent
+for all your arteries and other blood
+vessels
+and the generalized hooke's law foreign
+if you are considering a anisotropic
+materials how these are related
+independently we have nine stress
+components and nine strain components so
+you may think that you may require a21
+elastic constants
+we have this Sigma A J equal to capital
+e i j k l this is known as elastic
+distances a tensor of Rank 4
+you may think that you will require
+atone elastic constants
+but if you look at strength and sorry
+symmetric
+this reduces to 54 elastic constants
+if you say stress sensor is symmetric
+that reduces to 36 elastic constants
+and if you look at
+strain energy density function and if
+you differentiate with respect to
+Epsilon i j you get Sigma A J this is
+nothing but another statement of castic
+Linus theorem
+and the Order of differentiation does
+not matter so I have e i j k l is e k l
+i j
+this reduces to 21 elastic constants so
+if you have an anisotropic material you
+may require 21 elastic constants to
+characterize an endosteric material look
+at when I have an isotropic material I
+need just two of them
+so it makes your life extremely simple
+that is one of the reasons why we want
+to have
+analysis of
+isotropic material even in situations
+where it is clearly not isotropic we
+make that simplification then we have
+also looked at stress strain temperature
+relations
+as long as you do not constrain you have
+only thermal strain the moment I
+constrain then what I have is I also
+have stresses developed
+and if I want to write
+the thermal effects affect only the
+normal strain I have an additional term
+Alpha T minus t not okay so it's
+actually Alpha Delta T it is not
+affecting the Shear strain in case of
+isotropic materials
+even though we look at what happens to
+orthotropic or anisotropic material once
+in a while our focus in this course is
+confined to isotropic materials
+and you know we have also looked at what
+happens to
+a hoop subjected to a temperature change
+and then you know we brought in Geometry
+compatibility we said this tangential
+strain should be identical in the
+interface
+and we also determine the stresses and
+we have also plotted see across this you
+know you maintained compatibility of
+strain at this interface but when I plot
+stress
+stress can be discontinuous
+and in the case of a hope we have simply
+said it is like you know you have a
+circle when it is opened up and then you
+are actually applying a axial tension so
+it is supporting only a constant stress
+that you know as PR by T
+so when you plot the stress variation
+the variation would be like this and we
+have also looked at if you have to
+strengthen a beam
+made of a soft material you can put a
+steel on top of it top of aluminum top
+as well as the bottom so that you
+maintain the Symmetry and when we plot
+The Strain variation The Strain
+variation is linear
+however when I plot the stress variation
+stress variation will have a step at the
+interface
+and the other subtle point is because I
+am looking at bending even though the
+thickness are small there would be a
+linear variation because you have this
+Factor y coming in the strain expression
+as well as stress expression it is not
+going to be constant in the case of a
+hope it is constant in the case of a
+bending it varies linearly even though
+thickness is small it's a subtle point
+for you to note
+and you know we have also looked at
+basics of photoelasticity since now you
+have the knowledge of
+stress strain and also principal
+stresses what would be the nature of
+Contours of Sig Bond minus Sigma 2. we
+have Sigma 1A Sigma X and sigma 2 equal
+to 0 in one section of the beam
+since Sigma X varies linearly Sigma and
+sigma to control values always remains
+positive and if you plot them
+analytically you get essentially
+parallel lines which is also
+verified by your photolastic experiment
+so this is another indirect validation
+of photolasticity giving Contours of
+Sigma 1 minus Sigma Auto
+so you have beautiful color variation
+and we have also seen
+use of photolasticity in several other
+applications and your stress tensor is
+shown
+and you know we have also looked at how
+to measure strain there are multiple
+methods the moment you go for
+measurement you know the resolution and
+range of each of the technique you have
+to look at depending on the capacity of
+the technique it has a resolution
+possible like you have a distance
+measurement by a scale or even near
+caliper so you should choose an
+appropriate technique that would
+meet your requirement
+if you are working on this range I can
+go only for my interferometry if I work
+in this range which is like in a
+guardian pen I can go for a grid method
+and you can also apply for elastic
+coating to reveal the strain patterns
+and you have the moire which also gives
+you displacements and you have a brittle
+coating where normally you don't want
+cracks here crack is the information
+crack provides
+the material fails in a little fashion
+so you get Contours that are when you
+draw the tangent that you get the
+principle such Direction
+fine and you know a general purpose
+analysis is possible with a strain gauge
+but for special application you need to
+go for
+appropriate experimental technique for
+strain measurement
+and you know one other discussion in the
+case of strain gauges how do I connect
+the strain gauge in a wheatstone bridge
+if I don't connect them properly I may
+get wrong vessels in translucent
+applications you want to maximize the
+signal so you know how the cantilever
+beam behaves because you know bending
+now when I apply this load this is
+subjected to tension and this is
+subjected to compression so these are
+strain in opposite direction connect
+them in adjacent terms so that strain
+magnitudes get add up okay so you
+amplify the signal in a transverse
+replication
+I can also do the amplification by
+putting two strain gauges on this but if
+I don't connect them properly suppose I
+connect them like this
+what is the result you will get
+you will get twice the signal or zero
+signal I'll get only zero signal so you
+will also have to handle the wheatstone
+bridge appropriately
+and we also looked at how to extend this
+for torsion because strain Gauge by
+itself can measure only axial strain
+fine and we have understood what ways
+shear stress can be looked at as
+combination of tension and compression
+and using that
+and looking at the more Circle you can
+have the justification using this we
+have identified that strain gauges have
+to be arranged at 45 degrees to the axis
+and connect them appropriately in the
+western Bridge so that I can
+quadruple the signal that is the
+advantage so I can measure torque with
+much more accuracy when I use that as a
+torque meter okay you have torque
+wrenches which measure the torque so you
+have definite applications how do I put
+them this is very important tied to how
+I have pasted it on the shaft
+then we moved on to torsion
+we have looked at circular cross section
+to understand Circle cross section in
+the simplistic manner we have also
+looked at the square shaft in a square
+shaft you have a warping which is absent
+in a circular shaft that made your life
+lot more simpler
+that's the reason why in this course we
+choose the cross section and the loading
+so that plane sections remain plane
+before and after loading we postpone
+torsion of sector cross and on Circle
+cross section to the next level course
+it is not yet is not solved it is
+solvable and sine winner is the first
+person to solve it okay so plane
+sections remain plane before and after
+loading we have done it by a thought
+experiment
+okay and then you can also
+um
+see it visibly when you take a simple
+circular shaft draw the lines and then
+twist it okay and we have also a nice
+animation you look at the animation you
+understand what all we have done for
+finding out the strain components
+and this shows the experimental
+information and this shows
+the drawing in yes
+systematic manner so you find out what
+is the
+strain that is existing you have that as
+the reference access is given as R Theta
+Z so I have only gamma Theta Z existing
+that is given as r d Phi by DZ
+and Gamma R Theta is zero
+and the gamma R zero
+I have only
+gamma Theta Z which is r d c by DC so we
+have used this to develop the stresses
+okay
+and strain stress and equilibrium
+equations and in the process we have
+also looked at a quantity like this
+which when I substitute I get this as R
+Square D A that is your polar moment of
+inertia
+and we develop it for a circular shaft
+we also extend the same ideas to a
+hollow shaft
+the same ideas are equally applicable
+for an Hollow shaft
+and there is also interchangeably use IG
+or IP because I said that in bending of
+beams IC has a different connotation so
+it is better to look at as IP for
+circular shaft when you are doing
+torsion and look at Iz for
+when you go for the bending of beams or
+you can simply say that as I if you
+understand how the equations are
+developed with respect to the coordinate
+system and this is the celebrated
+equation that you have this is developed
+for a circular shaft transmitting
+constant torque
+and what we do is when you have a
+testing moment pick out that twisting
+moment at that cross section find out
+the torsional stress ok
+then we moved on to bending of beams
+where we have looked at a very soft beam
+and we could understand that straight
+lines get rotated
+and we have understood
+you know the
+planes cross sections of the beam domain
+plane during bending that's what you see
+here there's no whopping
+and you have cross section which is
+perpendicular to the undeformed axis of
+the beam remains perpendicular to the
+deformed beam
+during bending that is very important
+okay this implies that originally
+parallel lines the beam gets rotated
+it's very clearly seen in this
+experimental demonstration
+and when we go into the results we have
+the stress and strain in pure bending
+it's very important that theory is
+developed for Pure bending a beam
+transporting only bending moment nothing
+else
+so we have the expression for Epsilon X
+we have the acceleration for the sigma X
+and we have the stress tensor and this
+final result is credited to coulomb
+so you have to recognize that the stress
+varies linearly over the depth of the
+beam and the central core is not
+contributing to load share which is used
+by Nature When developing your bones
+your hemoglobin gets developed in the
+soft aspects of the bone
+and we have the relation e by rho equal
+to m b by i z z
+which finally when you look at all the
+other Expressions you have the famous
+fracture formula m b by i z z equal to
+minus Sigma X by y equal to e by rho
+because later on we also drop this ZZ
+just to speed up your writing the once
+you understand the context what is the
+access and what is the kind of moment of
+initial talking in this context it's
+convenient to Simply write an indicate
+moment of HD as I
+and you have the torsion formula you
+compare they are very very similar find
+is easy to recollect
+how these are written
+and the other question we raise can beam
+Theory be extended extended to a
+cantilever beam what is the difference
+the can case of a cantilever beam in
+addition to bending moment it also
+transmits a simple constant Shear even a
+simple constant share
+modifies the bending moment along the
+length of the beam so the recipe here is
+you have the fracture formula
+okay and simply pick out what is the
+bending moment at this cross section
+then you say what is the bending stress
+using the fracture formula that is
+permitted and we have also seen even
+though the cantilever beam warps
+there is no coupling between shear and
+bending as long as you are having a
+slender member and the depth of the beam
+is very small compared to the length if
+the depth is comparable to the length
+then you can have coupling effects that
+is considered as such emotion go beam
+and you have different theory developed
+remembers such problems are solved it's
+not done in this course
+and we have also looked at other
+discussion how do you have Sigma 1 Sigma
+2 and then whether you have neutral axis
+and an isotopic material you know what
+is the advantage all these related
+discussion we have done you know
+whenever we have a beam transmitting a
+variable load or even your uniform
+weight there are multiple ways books
+bring out the expressions
+you know if I have the W acting upwards
+they can as positive I will have the
+expression DB by d x equal to minus w x
+and DM by DX also minus B on the other
+hand if I develop the equation with W as
+acting downwards
+the only change is DB by DX goes to w x
+it becomes positive so you will also
+have to understand a subtle difference
+if you do the mathematics system article
+there is no problem but if you want to
+interpret it based on sign convention
+you have to see which way you have
+developed the equations
+and one of the subtle points in the case
+of bending is
+how Shear gets developed to understand
+this we have taken a layered beam and we
+find they get uh
+they are slipped okay as the loading is
+applied you could very clearly see
+slipping of layers
+and you can also Imagine
+something is holding it that is why the
+layer is not slipping in a beam which is
+rotated like this
+okay here the rotation is very very
+small and this Edge remains straight
+whereas the same
+height of the beam with four layers you
+have this jacked Edge that clearly shows
+that something is holding the surface
+okay so on that basis we developed
+the
+mathematical expression for the shear
+stress and this also shows how much is
+the
+angle or the slope when the beam is one
+unit but with the different layers which
+brings out very clearly
+the role of Shear in the
+beam analysis okay
+and you know even though we have set
+Shear is important there are other
+Concepts all we also we have learned a
+bending stress if you plot it with some
+scale
+is triangular and you have compressive
+and tensile and in order to illustrate
+that shear stress varies parabolically
+many books show this big but they do not
+give an Insight what is the relative
+magnitude
+that is also very important even if you
+consider a simple problem of a
+rectangular cross section subjected to
+three point bending like this for this
+problem if you calculate the shear
+stress
+in actual magnitude if you plot this is
+as small as this compared to the normal
+stress thus normal stress created by
+bending that is the reason even though
+Shear is important in certain instances
+we are neglecting it because its actual
+magnitudes are considerably very small
+in many applications
+and we have also looked at how to put
+you know the stress tensor you have the
+comparison in terms of numbers in terms
+of Tau XY Max divided by Sigma x max I
+get this as 1 by half of H by L so if I
+have H by LS if I take this as 1 by 10
+so it is 20 times less
+okay
+compared to the normal stress so that is
+the idea that you should have and we
+have also looked at how to write the
+stress tensor at specific location of
+the cross section this is the cross
+section that we are talking about
+you can also write this stress tensor
+this is compressive so I have put this
+as minus Sigma x x 0 0. and when I have
+this as the tension side for this
+problem I have Sigma x x 0 0.
+and when I look at at the center because
+this beam is also transmitting a Shear
+Force so what I have here is I have 0
+Tau of X right of x y 0 when bending is
+maximum Shear is zero when Shear is
+maximum bending stress is zero that is
+the interesting aspect of what happens
+in a beam suppose I take a point in
+between this will have Sigma x x Tau x y
+and double Tau y x that is dictated by
+the problem okay
+and we have also looked at how to write
+Sigma 1 and sigma 2.
+you know we always say that one should
+be
+algebraically the largest when I have
+this as compressive this becomes Sigma
+2. very subtle point but it is also very
+important that's a convention that we
+have used we will always have Sigma 1
+Sigma 2 Sigma 3 arranged algebraically
+larger
+okay
+and you know we have also looked at the
+inconsistencies in shear stress formula
+you have an issue when I have it in the
+Junction okay
+and nevertheless we use these
+Expressions because we get the numbers
+reasonably for us to play with
+and from your free surface concept you
+know I should have my
+this flange this should have zero stress
+but your shear stress formula does not
+give it and in the transition region
+what you have here is
+this you take the length of the
+flange and you get a smaller magnitude
+the moment you come to the
+web
+suddenly these trans magnitude increases
+that is correct that there is no problem
+the problem comes
+in other other Zone okay and you have
+this Tau XC varies linearly because you
+take Q like this okay
+and
+the other important limitation is when I
+look at here you know this is a free
+surface I should have zero shear stress
+but you have shear stress here
+and that you will have to take it with a
+pinch of salt these are fuzzy zones
+Shear has to be zero but Shear formula
+predicts a small value but we have
+already looked at
+from a mathematical point of view I have
+some number but if you compare the
+magnitudes the magnitudes are very small
+and this is a reasonably a simplistic
+analysis of an open cross section that
+we could do in the case of beams from
+what we have developed for the cross
+section which has one plane of symmetry
+we could exploit that flexion formula
+for a wide variety of problems then what
+we have learned it for torsion OK and
+there is also a very interesting concept
+once you look at open sections When You
+observe this you find that this is
+bending as well as twisting
+and when you apply it along the shears
+Center it only bends okay and this is
+another angle cross section
+and if you look at this
+you know this
+also bends and twists
+the shear Center is actually this corner
+I was unable to put my pen there so it
+was slipping I just put it next to this
+you can very clearly say that this is
+only bending there is no twist but while
+bending it has bending in two planes one
+plane is like this another plane is like
+this it is also it is bending like this
+it is also bending like this and that we
+said it is an asymmetrical bending
+is idea clear when it is bending in two
+perpendicular axis you have this as
+unsymmetrical bending
+and we have also looked at ah
+another typical cross section used in
+beams you have t beams used in many many
+applications
+this is very interesting from the point
+of view of writing where stress tensor
+because you know if you write substance
+are at a it is very simple
+simply Sigma axis is existing and you
+also have the expression from your
+flexure formula
+and for the point B which is on the
+centroidal axis which is also the
+neutral surface
+this is made of one material okay so I
+have this as only Tau x y and Tau by X
+and when I we also have the expression
+Tau of X Y as V Q by b i z z
+and your typical bending stress
+variation is like this and your shear
+stress variation Tau XY is like this
+and when you
+when you make this as modulated for the
+actual values these values are very very
+small compared to the bending stress
+and when you go to the point C I have
+put this as minus Sigma x s
+an interesting aspect is what happens at
+a point D that is what is put here I
+have Sigma x x Tau XY as well as Tau X
+is you should recognize that the stress
+tensor is more populated okay so we have
+learned how to get the expression for
+stress magnitudes whether it is axial
+stress shear stress and torsion or
+bending stress in bending or shear
+stress and bending when you get that as
+those quantities that are appears like
+scalar but you should also put it in the
+Matrix form so that you recognize that
+this is a tensor of rank 2. not only
+this when I have combined loading if you
+write it as a matrix form you can add
+them if you take the axis appropriately
+which we have also solved a problem of a
+femur subjected to tension torsion and
+bending
+combined loading is the order of the day
+any simple problem has only combined
+loading we learned them separately and
+you know one of the concepts that I have
+said that you lack is how to move a
+force from one point P1 to P2 if you
+master this when I move this from P1 to
+P2 I need to have a force as well as a
+couple
+you can comfortably write the bending
+bound diagram and Shear force diagram
+you take more time because you have not
+mastered this I am repeating it again
+and again and even when you look at a
+simple attention spring if you find what
+is the load which is acting when I asked
+you to find out the forces you are
+struggling to get it but if you look at
+how to apply this concept which I am
+doing it again
+when I move it along the axis nothing
+happens I can move the force freely
+along the axis that is principle of
+transmissibility
+but if I move from this axis to this
+I have to look at I will have a force as
+well as an appropriate couple okay here
+you are getting this couple in such a
+manner that this is along the axis so it
+is a twisting moment so I will have a
+twisting moment as well as a Shear Force
+then we moved on to how to analyze the
+torsional spring you say torsional
+spring but what is the major force it is
+transmitting
+its Major Force transmitting is bending
+that is again I have a force here
+I move this Force so this gives me a
+force as well as a couple this couple is
+a bending
+moment and when I move from this to this
+I have a force as well as a couple this
+is a twisting moment so you have to use
+this aspect of moving a force from one
+point to another point it's not trivial
+which is not emphasized in the books I
+have emphasized it repeatedly so that
+you get the idea of this concept better
+and you can solve seemingly very complex
+problems in a jiffy now you have the
+background to analyze these problems so
+don't simply say that when I have a
+sketch like this a simple spring gets
+stretched it is transmitting axial load
+don't say that it is actually
+transmitting a twisting moment
+so this transmits torsion and this
+transmits primarily bending so you have
+to know the difference
+and you know I said that
+even though I say Shear magnitudes are
+small
+it matters when I go very close to the
+load application point if at all I apply
+strength of material solution I must
+apply it away from the point of loading
+okay I must do it only in a Zone away
+from the point of loading but if I go
+close to the
+load application point this is done from
+theory of elasticity solution this is
+what you have in an experiment this
+matches very well with theory of raster
+solution and look at what happens in the
+case of
+Center materials it totally misses out
+this aspect because we are never
+considered we have taken shelter under
+sign venon's principle so you have to
+consider that near the load application
+points this Shear magnitudes are very
+high
+just below the surface it reaches a Peak
+at the surface it is still zero because
+it has to satisfy that free surface
+requirement
+and these stress magnets are comparable
+to the bending stress so failure can
+definitely happen unless you reinforce
+these areas and this is done in practice
+people have
+stir UPS to support this and we have
+also looked at another deviation suppose
+I have a uniformly distributed load this
+is a common load in all civil
+engineering construction you have the
+self light and if you look at
+the the sentimental solution even for a
+rectangular cross section
+which is very well done in Center
+materials
+is not in order there is a small
+variation in your
+normal stress
+it's not linear but it is having a small
+nonlinear component and in addition we
+have said in pure bending there is no
+normal Sigma by stress component that is
+correct
+but when I have a situation like this
+where I have distributed load I do have
+normal stress and theory of elasticity
+accounts for this and here again I want
+to caution you that this is not drawn to
+scale none of these quantities are drawn
+to scale the focus is only to show the
+variation shape of variation to
+accentuate the appreciation of shape of
+variation it is drawn big if you draw it
+in real scale they will appear very
+small all these three quantities will
+appear very very small
+and we have also learned how to analyze
+a reinforced concrete beam using the
+same flucture formula we imagine that
+the concrete beam is like a section like
+this and the hollow section connected by
+a thin web okay
+and that's how we have analyzed it it's
+all engineering analysis because only
+the rods
+steel rods take the tension load
+concrete is very weak in tension
+and we have also looked at various
+methods to determine the reflection of
+beams so we have double integration e i
+z z D Squared V by DX squared equal to m
+b
+and if you use the interrelationship DM
+by d x equal to minus v d b by d x equal
+to minus w
+then I get a quadruple integration that
+is the load deflection EA D power 4 V by
+DX power 4 equal to w we have been able
+to take out d a out because we are
+discussing a beam of constant material
+and constant cross section otherwise EA
+would be inside D Squared by d x squared
+will be there that way also you can
+analyze
+and you know when you do this double
+integration or quartable integration you
+get the variation of slope and
+deflection along the length of the beam
+conveniently no problem
+and we have also looked at that this is
+useful even for statically indeterminate
+problems then we also looked at
+momentaria method method of
+superposition and energy method these
+are applicable for
+at specific locations if you want to
+find out the deflection slope you are in
+a position to do it quickly
+okay and moment area method people also
+say even if I have EA changes I have to
+scale up my bendemon diagram in that
+region with the appropriate EA so beams
+of variable cross section or if you
+change the material moment area method
+is also a good choice for you to find
+out the deflection at specific locations
+and one of the aspects in bending is
+deflection is you have to find out what
+way the boundary condition to be written
+for
+a simply supported end it will have a
+slope
+it will all it will have deflection as
+zero on the other hand if I go and
+do that as a fixed end you find
+immediately the slope goes to zero
+your deflection is zero but slope is
+also zero and you know you will also
+look at what happens in a free end so if
+I have problems of this nature you
+should know how to write the boundary
+conditions it is needed even for your
+appreciation of how the deflection can
+be because one other training in this
+course is to learn how to use method of
+superposition there the training is how
+to draw the deflected shape
+okay so you should practice this and
+then visualize how the beam can have a
+deflection that is a very important idea
+it helps you to even verify your
+mathematical development okay
+and you know we have also looked at in
+the momentaria method you get only the
+if you have calculate the area you get
+only that difference in angle of the
+slopes
+you don't get the absolute slope okay
+similarly you get only tangential
+deviation when I take the moment if if I
+take TBA I have to multiply by X Bar B
+if I have t a b I should multiply by X
+bar a I get only tangential deviation
+you should know how to use this
+effectively to get the actual deflection
+okay or actual slope
+and in the method of superposition as I
+said you know
+because we are living in a linear
+elastic regime
+I can superimpose
+independently
+and add all of them analyze the problem
+independently so that the problem is
+easy to handle
+and add them together
+in a systematic fashion so you should
+know how to draw this reflected shape if
+you visualize that that is one of the
+important training that you learn in
+this course
+and we also learned fictitious load
+method this is due to castigliano is a
+very young scientist you know he passed
+away very early in his life
+and this theorem was available in his
+PhD dissertation it has become very
+popular
+and many developments using energy
+methods later on
+go allegiance to his contributions so
+even if I don't have
+a particular point and load is acting if
+I want to know what is the deflection
+in a direction or in any other point I
+can add a load introduce a load queue
+determine the energy
+and then differentiate with respect to
+find out the energy differentiate with
+respect to Q substitute Q equal to zero
+at that stage
+then what you get is a deflection along
+that direction
+for that point of Interest so very
+useful method and I also said an
+extension of this is the development of
+the finite element method
+and experiment is truth okay but when I
+have the finite element method I can get
+the displacement Contours I can get the
+strain Contours I can get the stress
+Contours all of that I can do okay and
+finally you know if I plot the stress
+Contours in terms of Sigma 1 minus Sigma
+2 you see this is from an experiment
+this is from a financial analysis the
+matches
+very impressive you can clearly say that
+my numerical analysis
+has brought out the results correctly
+and what is the difficulty here
+you know you have a boundary of this
+panel which is very arbitrary
+even though theory of elasticity we have
+used as a basis to verify our Center
+material solution theory of elasticity
+demand that how to write the boundary
+condition in an arbitrary geometry that
+was very difficult it can handle simple
+geometries like circles ellipses and so
+on so one of the greatest advantage of
+finite element is I can discretize it
+using a an element and handle any
+arbitrary geometry comfortably
+but the solution is approximate it's not
+an exact solution but you go
+asymptotically to the actual solution
+and you have many packages available
+and you can learn some of them as part
+of your future courses
+and ultimately why we have developed all
+this concept of stress strain and
+principal stresses we wanted to
+investigate whether the component that I
+make whether it will withstand the loads
+or not whether it will be strong enough
+so you have failure theories and you
+have trust criteria I said if I have
+Sigma 1 Sigma 2 Sigma C arranged in this
+fashion you will never make a mistake if
+I have Sigma 1 minus Sigma 3 is taken
+and compared with Sigma over yes I
+caution in the case of your simple
+pressure vessel both the principal
+sensors are positive there is every room
+that you can apply tresca yield criteria
+wrongly to that you may simply use Sigma
+1 and sigma 2.
+you should not forget Sigma 3 is 0.
+and you should also appreciate failure
+theory is a substitute for good test
+data I said for complex structures
+people develop very expensive loading
+Rigs and only then the design is
+released for
+human use
+because human lives are very precious
+and failure theories are based on simple
+10 centers how did they approve the
+theories by conducting complicated
+experiments and verifying that the
+experimental results for unknown load
+situations which have not accommodated
+in simple tension test also falls within
+that
+ill Locus or very close to the yield
+Locus OK and for brittle materials
+because you know for ductile materials
+you have tresca you have one mices which
+are shown here one is an elongated
+hexagon another is an ellipse and this
+appears like a circle under a hexagon in
+the three dimensional Sigma one Sigma
+two Sigma three space
+and I also said that one misses yield
+criteria is same as distortional energy
+Theory as well as limiting value of the
+octahedral shear stress okay so people
+have verified it from multiple
+viewpoints and for brittle materials
+because they have a very different
+values of tensile yield strength and
+compressive yield strength they are very
+strong in compression and you have a
+failure Locus which is modified by
+several people initially you had one
+developed by
+long time back coulomb but Modified by
+more then finally it was modified by
+Griffith that is also shown here
+and
+so you have to use principle success
+very effectively to verify whether a
+material whether it is brittle or
+ductile you have failed your theories
+and you also have in design what is
+known as factor of safety I said Factor
+safety is a very very important design
+parameter even a simple Auto checking
+can throw you surprises so when I have
+this I have the stress tensor in this
+form
+and you can write in the design courses
+they simply express it in terms of the
+bending moment and
+twisting moment
+and because the shaft is rotating you
+have to recognize
+the bending introduces stress nature
+that very cyclically because this shows
+you have the fiber how the fiber when
+due to rotation experiences load which
+is a very subtle Point okay you may miss
+it
+and what is the consequence of this the
+bending stress on the shaft inducer
+introduces fatigue loading as the shaft
+rotates
+in view of this it reduces further the
+allowable stress and all your
+design courses
+basically use what is the principle
+success from this test tensor and
+expresses this in terms of your bending
+moment and twisting moment
+so when I have a shaft transmitting
+torsion and bending
+you have a simple expression they will
+do and estimate the diameter of the
+shaft just by using this there is no
+torsional stress or bending stress in
+the expression they are hidden okay and
+you don't have to memorize this in your
+later course you can derive and people
+use this in the design books like this
+okay
+then you know we said that um
+when you don't have a warning any
+failure is difficult to handle so one of
+the functional failure loss is
+you have a column that suddenly buckles
+okay there is no material separation but
+suddenly buckles
+and we have seen that this is
+developed by Euler in 1757
+and buckling is one
+aspect where we have to analyze on
+deformed coordinate system second aspect
+is the critical load at which buckling
+tapes is very sensitive to the
+boundary conditions
+and we have looked at how the when the
+boundary condition changes how the shape
+changes and we also said that these are
+all new neutral equilibrium positions
+okay
+and
+the experiment gives you truth and this
+is one of the experiment which is very
+very expensive
+and people also found application for
+the buckling
+you know Engineers are very clever you
+know they do not leave any physical
+phenomena go unutilized and you view the
+critical load from a different
+perspective you take the hinged hinged
+column as a basis
+and you have the critical load as Pi
+Square EA by L square e and you
+visualize other boundary conditions with
+an equivalent column length if I have a
+column of fixed pin I view this as
+equivalent length of 0.7 l
+if I have a column which is uh
+clamped clamped I view this as a column
+of length 0.5 L and if I have a
+cantilever I view this as a column of 2L
+longer the column more it is prone to
+buckling okay
+and you know last but not the least we
+have one of the best explanation for
+sending principle in this course because
+you have been trained to look at
+photographic Fringe patterns so in these
+three cases I have statically equivalent
+system applied
+and what you find is the disturbances
+die down after a distance and this
+distance becomes smaller when this
+distribution is close to the assumed
+distribution of
+uniformly distributed is the one which
+we require we say that axial load
+resistance is developed like this and
+this happens at different distances see
+what is the distance that you have to
+take one thumb rule is it is equivalent
+to the longest cross sectional dimension
+it's only an empirical approach okay
+there have been many discussions there
+are also certain specific instances
+where sinewin on principle does not work
+that also you should know but for a
+large variety of problems cinderon
+principle is a very useful principle
+and you are able to relate it easily by
+looking at The Fringe pattern because in
+a axial load I should have a constant
+color
+and how the constant color is obtained
+you have to look at
+and this is by send me nant you know
+unlike classically you know he had their
+longest life about 90 years very active
+till the last minute very very few
+people in life are gifted to
+pursue their passion
+till the last minute ok so with this
+observations you will
+overview on strength of materials is
+brought out so if you look at these two
+lectures
+one after another in a nutshell you know
+what are the important Concepts that we
+have looked at in this course
+thank you very much
+foreign
+[Music]

@@ -1,0 +1,245 @@
+Undefined is a very special keyword in
+JavaScript and it is not there in other
+languages. It has a lot to do with how
+JavaScript code is executed. So as we
+have studied in the previous videos also
+that JavaScript code is executed in a
+different way. It creates a global
+execution context and allocates memory
+to all the variables and functions even
+before a single line of code is
+executed. Remember this. So undefined
+comes into picture here only. Let us see
+with the code also. So suppose we
+created a variable a is equals to 7.
+Right? So even before this line of code
+is executed, right? JavaScript is trying
+to allocate memory to this a. Right?
+Memory space to a even before this line
+of code is run. Okay? Let me show you
+with the help of debugger. So I am
+putting the debugger right before this
+line is executed. Okay.
+So let us see an interesting thing. So
+if we refresh the page, this A, this
+line hasn't been executed yet, right?
+But JavaScript has already allocated
+memory to this A. Okay? So we have
+already reserved memory for A now. Okay?
+So if we see here is the reserved
+memory. So right now A is undefined. So
+at this point if you try to in the
+console, if you try to log what A is.
+See, I have hold the program. I have
+held the program like I have put a
+debugger right so I have hold the
+program at that state itself. So if you
+try to log a right now it is undefined.
+So why this happened? Okay so when it
+allocates memory to all the variables
+and functions to the variables it tries
+to put a placeholder right it is like a
+placeholder which is placed in the
+memory. Okay that special keyword is
+undefined. So if we try to log this so
+you get undefined in it. So undefined is
+like taking memory it is it is very
+different than not defined. Okay. So
+suppose if I try to access something
+else right. So suppose if I try to do a
+console log of X over here. Okay. So
+which we have not allocated memory to.
+Okay. If we run this code if we run this
+code we have not allocated any memory to
+X. Right? So what will happen if we try
+to find X? you won't find anything that
+is known as not defined but we have
+allocated memory to a if you try to
+console log a we can find that so even
+before I put this where a is equals to 7
+right so suppose if I try to log a over
+here even before putting seven to a I am
+trying to log this a so what happens is
+what happens is
+let me just run it so In the console you
+will find that we have printed
+undefined. This a was printed undefined.
+This is the value which JavaScript
+engine allocated to a while creating the
+memory. Okay. But once this line has
+been executed after this line you will
+see that the value of a has changed to
+7. Okay. Let me just remove that x. If
+you try to log here see it was undefined
+before. This undefined was coming from
+the place just because JavaScript engine
+allocated undefined that special
+placeholder to a okay not like not
+defined not defined in something which
+has not been allocated memory okay so
+this is the difference between undefined
+and not defined okay we'll see something
+more so remember undefined is not equal
+to empty some people think that
+undefined means empty like it is not
+taking up any memory space or something.
+No, it is a special keyword. It takes up
+its own memory. But you can assume it to
+be like a placeholder which is kept for
+the time being until the variable is
+assigned some other value. Okay. Till
+that point, it will store this
+placeholder known as undefined. Okay.
+And one more thing I would show you
+right now is suppose if I do um suppose
+this is undefined, right? So if I never
+put any value inside a right like I just
+declared that okay where a and I never
+put any value to it. So it will
+throughout our whole program have this
+value undefined that placeholder kept
+inside a. And to show you that it is
+something in JavaScript we can also do
+something like this. Okay. Uh so suppose
+if I have my uh if a is equal equal
+equal to undefined. So equal equal equal
+to you might not be aware of this syntax
+but see it is just checking whether two
+things are equal or not and strictly
+checking we will talk about it later in
+the videos okay that will be interesting
+but for now just assume that it is
+checking two things are equal or not so
+if we try to see that a is equal equal
+to undefined okay that undefined is a
+thing or not so if we try to do a
+console log of
+over here let us just log it a is
+undefined
+Okay. And if we try to do something like
+else, we just console log
+a um string a is not undefined. Okay. So
+if we try to check like this, what you
+will see? See a is undefined. Okay. A is
+undefined. It is like it goes into this
+if it meets this condition. It go inside
+this if block. And suppose if I put some
+value in a okay a is equals to 10
+meanwhile so it will say that a is not
+undefined it has some value in it okay
+now the a is replaced that undefined is
+replaced by 10 interesting right now
+when we are talking about undefined let
+me tell you a little bit more about
+JavaScript and variables in it okay so
+you know JavaScript is a loosely typed
+language so loosely typed means that it
+does not attaches its variables to any
+specific data type. So suppose if I
+created a and put in string in it. So
+later on in the program I can also put
+numbers in it. I can also put boolean in
+it. It is like uh very JavaScript is
+very flexible in this case. Right? It is
+loosely typed. That is known as loosely
+type language. If it was strict type
+then uh just like other languages just
+like C or C++ if you assign a variable
+that if it is a string a so it will only
+hold string it won't hold numbers or
+booleans or anything else but it is not
+the case in JavaScript you can put
+anything and everything inside this
+variable okay so if I do a
+for the time being it can like just hold
+undefined okay if I do a console So log
+over here it will just hold undefined.
+Okay. And if I later on put a is equals
+to 10 here. So and try to log it again.
+So it will it can hold numbers also. And
+it can also hold a string again. Okay.
+So this is a perfectly valid JavaScript
+code. Okay. Um I mistyped it. No issues.
+So it it is a perfectly fine JavaScript
+code. Okay. And if I log this a once
+again. Okay. So see what the output will
+be undefined. So until unless any value
+is specified there is a placeholder
+undefined. When you put in 10 so it is
+10 now. And when you put in string hello
+world it is hello world now. Okay. So
+JavaScript is very flexible in this
+case. That is why JavaScript is known as
+loosely type language. Loosely type
+language are also known as weekly type
+language. Weekly typeyped language. So
+it does not mean that it is weak in any
+sense. It does not have any deficiency
+or something. It is not weak at all. In
+fact, I feel that the language is more
+stronger. Okay, because it is handling a
+lot of stuff behind the scenes. Okay,
+you give it string, it handles
+automatically behind the scenes. It
+okay, it's a string. You give it a
+number, it takes it and puts number in
+it and manages all these things behind
+it. So, it is not weak at all for sure.
+In fact, I feel that it is more flexible
+and beautiful in this case. Okay. So and
+it has to do a lot of things while
+coercion also. Okay. When you change one
+type to another type, it is doing a lot
+of stuff. We might cover that in the
+later videos. For now, just understand
+that JavaScript is a loosely typed
+language and some people also call it as
+a weakly type language. Okay. So let me
+tell you an important thing. Never do
+this mistake. Okay. Never do this
+mistake of doing something like this. A
+is equal to undefined. What does that
+mean? See, undefined is a value. It is a
+keyword in JavaScript. And it is totally
+possible to assign undefined to any
+variable. But it is kind of a mistake
+and it is a bad thing to do in
+JavaScript. Okay, you should not do it
+because see what first of all what is
+undefined? So undefined is like a
+placeholder which is kept inside the
+variables. Uh and it states that in the
+whole code that variable was not
+assigned anything right. So it is meant
+for a specific purpose. So it is not
+generally a good way to put undefined
+like this. Though it is a totally okay
+to do this. Okay. If you just log it
+once again, if you log a once again, you
+will see that okay you you can put
+undefined once again. But it can lead to
+a lot of inconsistencies. So it is not a
+good practice to do this. I won't say
+it's a mistake but it's not a good
+practice or a healthy practice to put
+undefined into any variable. So don't do
+this mistake. Right? Let us just keep
+undefined for its own purpose. Right?
+Undefined was meant to know okay that
+whether that variable was assigned
+anything or not. Okay? So let it be used
+for that space only and for the JS
+community let us not ever put undefined
+into any variable. Okay. So it's just a
+request. That's all for now. In the next
+video we'll be covering the scope chain.
+It is a very beautiful topic I would say
+and it is very hot interview topic also.
+Okay. In the interview a lot of people
+ask about what is a scope chain. So
+definitely watch that video. So before
+moving on to that video, just like
+always give this video a thumbs up and
+thank you for watching Namaste
+JavaScript.
+[Music]

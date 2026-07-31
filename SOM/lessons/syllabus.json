@@ -1,0 +1,98 @@
+{
+  "subject": "Strength of Materials",
+  "source": "NPTEL / IIT Madras — Prof. K. Ramesh, 40-lecture course (transcripts in ../transcripts/)",
+  "goal": "Given a slender member under combined torsion + bending + axial load, write the stress tensor at the worst point and decide whether it survives.",
+  "learner_prior": "Coming in cold on statics, calculus and linear algebra. Rung 0 builds the statics prior from scratch; calculus is taught just-in-time; Mohr's circle substitutes for eigenvectors.",
+  "cruxes": [
+    {
+      "id": "00-the-cut",
+      "title": "The Cut",
+      "hook": "You cannot see inside a solid body. So pretend to slice it — and equilibrium of the leftover piece tells you exactly what the inside is doing.",
+      "owns": "Holding a rope that isn't moving: you are pulling exactly as hard as the wall is.",
+      "payoff": "A cross-section transmits exactly six numbers — 3 forces, 3 moments — and nothing else. Axial-force, shear-force, bending-moment and twisting-moment diagrams; the worst cross-section.",
+      "depends_on": [],
+      "lesson": "00-the-cut.html",
+      "status": "done"
+    },
+    {
+      "id": "01-stress-tensor",
+      "title": "Why the chalk knows which plane to break on",
+      "hook": "Chalk pulled apart snaps flat. The same chalk twisted snaps on a 45° helix. The chalk is not smart — so 'force ÷ area' cannot be the whole story.",
+      "owns": "The cut (rung 0): six numbers on a cross-section.",
+      "payoff": "The stress vector, Cauchy's discovery that three planes pin down all infinitely many, and the stress tensor.",
+      "depends_on": ["00-the-cut"],
+      "lesson": "01-stress-tensor.html",
+      "status": "current"
+    },
+    {
+      "id": "02-mohrs-circle",
+      "title": "The circle",
+      "hook": "Rotate the plane you're asking about, and the pair (σ, τ) traces a perfect circle. Why a circle?",
+      "owns": "The stress tensor (rung 1).",
+      "payoff": "Principal stresses, why max shear sits at 45° to max tension — and the retroactive explanation of the chalk.",
+      "depends_on": ["01-stress-tensor"],
+      "lesson": "02-mohrs-circle.html",
+      "status": "planned"
+    },
+    {
+      "id": "03-strain-and-hooke",
+      "title": "The bridge: strain, and one tension test",
+      "hook": "Statics alone cannot tell you the stress. Two equations, three unknowns. You have to ask the material.",
+      "owns": "Stress as a tensor (rungs 1–2).",
+      "payoff": "Strain as a tensor, σ = Eε, δ = PL/AE, and why two constants characterize an entire isotropic material — down from a possible 21.",
+      "depends_on": ["02-mohrs-circle"],
+      "lesson": "03-strain-and-hooke.html",
+      "status": "planned"
+    },
+    {
+      "id": "04-the-recipe",
+      "title": "The recipe: guess the deformation, and the stress falls out",
+      "hook": "This subject dodges differential equations by cheating — it conjectures how the body deforms, then checks the guess against experiment.",
+      "owns": "Strain, Hooke's law, and the cut (rungs 0–3).",
+      "payoff": "Kinematics → strain → Hooke → stress → integrate over the area. Torsion formula T/J = τ/r = Gφ/L. Then the learner derives the flexure formula M/I = σ/y = E/ρ unaided.",
+      "depends_on": ["03-strain-and-hooke"],
+      "lesson": "04-the-recipe.html",
+      "status": "planned"
+    },
+    {
+      "id": "05-shear-in-beams",
+      "title": "The subtle one: shear in beams",
+      "hook": "Stack four loose planks and bend them: the ends fan out like a deck of cards. Glue them and they don't. What is the glue doing?",
+      "owns": "The recipe and the flexure formula (rung 4).",
+      "payoff": "τ = VQ/Ib, from an argument the recipe cannot produce — plus honest limits, shear centre, and why the web of an I-beam exists.",
+      "depends_on": ["04-the-recipe"],
+      "lesson": "05-shear-in-beams.html",
+      "status": "planned"
+    },
+    {
+      "id": "06-deflection",
+      "title": "Deflection",
+      "hook": "The flexure formula already contains the shape of the bent beam — hidden inside the 1/ρ nobody looks at.",
+      "owns": "The flexure formula (rung 4).",
+      "payoff": "EI·d²v/dx² = M, superposition, moment-area, Castigliano — and the key into statically indeterminate problems.",
+      "depends_on": ["05-shear-in-beams"],
+      "lesson": "06-deflection.html",
+      "status": "planned"
+    },
+    {
+      "id": "07-failure",
+      "title": "When does it break?",
+      "hook": "A tension test hands you one number. A real part has three principal stresses. Something must collapse three numbers into one.",
+      "owns": "Principal stresses (rung 2) and the tension test (rung 3).",
+      "payoff": "Tresca, von Mises, Mohr's theory for brittle materials, factor of safety — and sizing a real shaft under combined loading.",
+      "depends_on": ["06-deflection"],
+      "lesson": "07-failure.html",
+      "status": "planned"
+    },
+    {
+      "id": "08-buckling",
+      "title": "Buckling: where the undeformed shape lies to you",
+      "hook": "Every result so far was computed on the shape the body had BEFORE loading. For a column in compression, that assumption predicts it never fails.",
+      "owns": "Moment-curvature (rung 6).",
+      "payoff": "Euler's critical load, effective length, and why buckling is a failure mode anywhere compression exists — not just in columns.",
+      "depends_on": ["07-failure"],
+      "lesson": "08-buckling.html",
+      "status": "planned"
+    }
+  ]
+}

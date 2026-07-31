@@ -1,0 +1,1120 @@
+[Music]
+digital India educated India
+[Music]
+see one of the important aspect of
+learning strength of materials is to
+select an appropriate material and also
+the appropriate cross-section for a
+given application
+and I said you have to characterize the
+material and one of the important
+questions the founders of solid
+mechanics had was
+how to characterize a material how many
+parameters that you need to character
+Cemetery in these are two important
+questions
+and we looked at a simple tension test
+in the last class
+and we would like to use whatever the
+information we get in tension test in a
+meaningful rain sense of materials
+because that is a simplest possible
+and you try to get the maximum out of
+the test
+so from the test you also go and
+graduate to formulate the constitutive
+relations
+what is the relationship between stress
+and strength
+in a simplistic manner it is a
+structuring relationship
+in a very bombastic terminology you are
+talking about a constitutive
+relationship how does the material
+behave under the application of
+different types of loading
+so that is what we are aiming at
+and we have looked at a very important
+aspect when we conducted the tension
+test we also saw material separation
+that is also important
+because once you understand that every
+component may have inherent defects
+these defects can grow during service
+and you can have fracture that such
+failures have happened
+and we have also seen that what you have
+as necking in the simulation I have
+shown it exactly at the center
+and when I take a circular rod and then
+follow the ASTM standards I have got for
+one specimen exactly at the center
+this is of aluminum
+and this is slightly shifted from the
+center I've also picked up another
+specimen which is way off
+you know necking is a very very
+material
+at that point in time what kind of
+defects are there in that specimen it is
+precipitated by that
+so it can happen anywhere in the gauge
+length
+fine
+and it's a mathematically it's very
+difficult to
+analyze what happens during this
+instability
+and from our understanding what is
+important is
+how does the failure take place you have
+a cup and a cone fracture this is how it
+is referred to
+so what happens is initially you have
+crack develops at the center
+because of the brittle failure it
+propagates and then finally you have
+this as sheer lips
+and we have also looked at from Mohr
+Circle
+for an uniaxial loading
+we have discussed why does a chalk fail
+like this we have also seen epoxy
+which behave like in a brittle manner
+in a actual video I showed that when you
+pull it it was getting separated
+horizontally fine
+so that we enforce us
+a reason that brittle materials failed
+by maximum normal stress
+that can be a good model for
+your failure Theory
+and the moment you come to ductile
+materials
+we have seen that it is a Shear that
+precipitates this failure
+and when you have this access you know
+the sheer
+points are marked on these two and this
+is oriented at 90 degree in the case of
+more Circle in physical plane it is
+about 45 degrees
+so that explains
+why I have a Cup and Cone fracture when
+I have a ductility
+and we have also looked at one more way
+to make the specimen fail we have looked
+at if I apply the road repeatedly
+then also after
+some number of Cycles depending on the
+material and depending on the load
+you find failure as a cut
+and with your hand you cannot apply very
+high load you can easily
+understand
+so when I do a repeated loading
+I am forced to operate at lower loads in
+actual service see these are all
+justification why we want to confine our
+attention to small deformation
+whether it is only a bombastic
+assumption or
+does it really help in solving our
+day-to-day problem if it helps in
+solving a day to day problem it's an
+excellent simplification
+see Engineers have to simplify the
+problem
+you are supposed to deliver a solution
+for a given requirement
+it's not that you complicate the problem
+and then Revel in your mathematics fine
+that is also needed
+but the focus of a engineer is to
+provide solution
+and I have also been re-emphasizing that
+you should not only look at what happens
+at selected points you should also get
+the field information now you should be
+able to appreciate
+when you use any of the whole field
+techniques you get the field variation
+of the parameter that is also very
+important I told you in the case of
+Concord redel and if you look at many of
+the aircrafts see Concord is not in
+service now it was the first supersonic
+aircraft
+and in its entire life of service there
+were not many failures
+fine
+that was mainly because
+judiciously combining a whole field
+technique and a point by Point technique
+to solve the Practical problem
+so you should have that basic
+understanding and we have also discussed
+that it gives you Sigma 1 minus Sigma 2
+and we have also learned how to label
+Sigma 1 and sigma 2 it is because it has
+to be algebraically larger one should be
+labeled as Sigma one so when I have
+Sigma YY Sigma YY Sigma 1 and we have
+also said that in photolasticity you get
+only Contours are Sigma 1 minus Sigma 2.
+see all the experimental tanks exploit a
+particular physical principle it cannot
+give you all the information
+it can give you only a particular kind
+of information based on the physics that
+is being exploited
+with a strain gauge you can measure only
+strain you cannot get stress out of it
+you have to use trust strain relation
+and find out stresses on the other hand
+if you go to Digital Image correlation
+you can only measure displacement
+from the measurements go to the strain
+displacement relations find out strain
+and constitute relations you find out
+stress
+so this you'll have to appreciate
+and we have also looked at
+a very important graph and it is also
+plotted in a very nice fashion
+I would like you to sketch see this plot
+is done initially you saw it for 40
+strain
+you know the same data is used
+in which the horizontal axis is
+plotted differently
+because once you collect data what does
+the data say
+how do you interpret the data
+why do you make an approximation that I
+can live in a small deformation is it
+justifiable
+and what are the other properties see we
+have also looked at
+you know in this graph it is little more
+clear that I have this mild Steel
+and I have this alloy steel both of them
+share the initial slope as identical
+it's a very very important information
+see the desire of a material scientist
+is to develop a material which has all
+the good qualities
+you will never have in none of the
+physical systems some aspects are good
+some aspects are bad
+and what you have also seen is you know
+if I have to
+okay I'll go through this graph then I
+will come back then we will see if I
+increase my yield strength you will find
+the maximum strain it can take will
+become slightly smaller
+it's not that I want to have best of all
+the worlds fine so there is always a
+trade-off
+and one of the issues that material
+scientists want to do is if I out use
+minimum material I should have very high
+strength
+I should also have a real strength I
+should also have very high toughness
+very high ductility these are all the
+questions people ask
+and you know you see here this is about
+uh 550 or so if you will have 0.2
+percent strain and then find out the
+yield strength it may be our 550 MP
+whereas your
+um mild steel is about 273 or 300 MPA so
+by allowing the steel you are in a
+position to increase the yield strength
+that's fine and people also do heat
+treatment
+people do what is known as punching
+they heat it and then put it in water
+fine that improves the hardness you know
+our ancient
+people have understood this when they
+were making their weapons when they were
+making their swords
+they were making the material processing
+technology was very well developed they
+could get very high strength swords made
+and India is credited for that
+it's all done in the you know not in a
+technical
+manner you have a nice Workshop where
+you do it all done in Huts okay hartmans
+where they have developed this
+technology I there are also names for it
+people also have looked at the evolution
+of Steel in India and people have
+understood see experiential learning has
+always been there
+by performing set of experiments by
+varying certain things people have
+understood how to process the material
+but analysis always comes later
+okay and what is done here is you have
+the same data which is the advantage of
+your multimedia
+type of knowledge
+delivery see what I said was when I have
+a mild steel it fractures at a larger
+strain
+when I have an alloy steel I have
+improved my yield strength but this has
+shifted to the left
+so you always have a trade-off
+when you want to increase the yield
+strength you may have to lose something
+else but people also have
+addressed these one of the challenges
+for material scientist is to develop
+exotic materials
+see right now you have alloy steel which
+is giving you 550 MPA
+people have developed in defense
+application where the yield strength is
+in the order of GPS people may not
+reveal what is the composition
+what is the processing technology
+you understand so this these are all
+Trade Secrets okay people all have also
+achieved some of those alloys
+and here you are unable to see that
+these two slopes match now we will look
+at the
+change this is the 30 strain
+so you should see the y-axis is not
+changed
+only the xoc axis is changed okay
+you know I have also said that strain
+can be mentioned in terms of percentage
+or a number or also as micro strain you
+must be comfortable switching between
+these representations
+then I have this as 20 strain
+and I see the same graph
+at 10 strain I would like you to draw
+the 10 percent strain
+likewise we will have a few steps I want
+you to draw it and keep it for your
+reference
+this explains many of the simplistic
+models that we want to adapt to
+characteristic material for example if
+you look at here for the mild steel I
+have a straight portion if you
+ignore this small King it becomes
+horizontal don't you see that
+that was not very clear when we looked
+at at 40 strain
+so I have a straight line followed by a
+horizontal line
+that kind of an approximation is also
+made all that comes from
+reprocessing the data that you have
+recorded
+that is also very important see once you
+collect data you should also know how to
+use it effectively
+so what is done here is I have changed
+the percentage of strain and then I have
+tried to bring out whatever the
+simplified material model you have a
+justification
+inherent in the data collector
+it's for you to see
+see there are optical illusions people
+throw it before you and then say what do
+you see and then they characterize what
+they you think it can be fun it can also
+be psychologists using that as a
+methodology to find out how your brain
+functions
+so many times you see what you want to
+see is idea clear
+so when you get the data you must get
+the maximum out of it and this is
+plotted for different percentages
+now it is also plotted for four percent
+strain
+here again you are able to see I have a
+straight line portion and a horizontal
+portion this is a very celebrated
+approximation people do when the moment
+they want to enter into plasticity they
+don't want to analyze plasticity in all
+its complex complexities people would
+like to have
+elastic and plastic
+perfectly plastic that's the way they
+look at it because you have a graph
+which has horizontal
+and because the graph is increasing here
+they have to come out and distinguish
+what is that happening that is why coin
+that as strain hardening you know
+terminologies also come like that
+then I have this as three percent strain
+okay then I have one person strain
+see one percent
+if you go and invest money in your bank
+one percent is very small if you go to
+Japan you have to pay money to keep the
+money in the bank do you know that
+in India you have very high interest
+rates
+and normally when you say one percent uh
+from the monetary perspective it is very
+small but from Material perspective if
+you say one person's change is very very
+high strain you don't want to go
+anywhere near one person's train why
+because we have seen when I have a
+structuring graph which is not having a
+clear demarcation of the yield strength
+I have to draw a line parallel to this
+initial slope from point zero to and
+then find out what is the point it
+touches and find out what is the
+corresponding value as yield strength
+so what you will not appreciate is 0.2
+percent strain the material yields it's
+a very very important knowledge never
+forget this
+so we operate at a very very small level
+of deformation I can say it is point two
+percent strain or I can call it as
+0.0.002 I can also say 2000 micro strain
+so whichever way it is mentioned you
+should be able to appreciate this and we
+have also drawn it for
+point four percent strain
+so you can understand it's just a linear
+graph
+it's very becoming very very prominent
+and particularly for a brass you see for
+the entire range it is still linear
+and
+I think you should also
+um have a graph for point three percent
+strain
+okay because you have an appreciation
+what is happening the same data looks
+different
+see suppose I also change the y-axis
+parallely
+I would have a different picture see one
+of the Lacona I find in many of the
+books is
+they give stress strain graph without
+labeling the access
+while discussing the constitutive
+relations they give a general picture
+which is not sufficient from
+understanding point of view
+you will also have to associate with
+these numbers so when I look at in the
+x-axis a very small strain
+all these approximations are valid
+so that gives a better appreciation of
+what is happening
+and I also have
+4.2 percent strain 0.1 percent strain
+and what are the ways that you have a
+simplification to the stress strain
+Behavior
+you know you have graduated from rigid
+body mechanics yes or no
+see you can argue as a mathematician she
+can argue if I have a thousand
+millimeter length if it extends by one
+millimeter I will simply close my eyes
+and say it is rigid you can also take
+that strand
+you can take that stand see if there is
+an elephant standing on granite
+you may not be able to see the
+deformation even though Granite you
+considered as more rigid compared to
+your plastic
+when elephant stands on it when you make
+sensitive measurement it will also have
+some deformation
+fine
+so one of the simplest one and you have
+also had one full course on Rigid body
+mechanics that means what sustain is
+whatever the
+stress you apply only the stress keeps
+increasing there is no
+corresponding deformation at all that is
+the definition okay it was a very
+convenient approximation
+and the second one is you have a system
+where it is rigid and perfectly plastic
+see many of the initial plasticity
+theories
+started based on this kind of a modeling
+it was easier to focus only on
+plasticity Behavior not on combining it
+with elasticity
+fine
+you need to have graphs drawn what is a
+rigid idealization what is the rigid
+plastic please make a graph the idea I
+give a discussion is to give you
+sufficient time to have these graphs
+plotted in your
+notebooks so please make a simple sketch
+on this
+and you also have a system where
+strain hardening I have a rigid plastic
+and then strain hardening see this is
+how mathematical theory is developed
+they took baby steps
+before they want to analyze
+what happens to the material
+and you also have
+our famous
+linear elastic
+you know I have also followed the books
+I have not labeled what is the strain
+here what is the stress here but you
+know from this graph
+when I look at in a region of very small
+strain
+destructing behavior is linear what is
+importance here is the behavior is
+linear and when it is a linear
+relationship we have many many
+advantages
+we will exploit those advantages and use
+it for our
+discussion
+and if you look at history
+this linear relationship was first
+proposed by John bernali he is the
+brother of your other bernali who was
+responsible for the beam Theory so this
+was proposed by him 1727 and I am sure
+that this is also taught in our high
+schools
+and you are told that you have what is
+known as Ang's mod less
+Thomas Yang was only between 1773 and
+1829 he got this only in 1807.
+I do not know how the labeling of some
+of this and giving the credit to a
+scientists is operated
+whatever you have this is known as an
+angst modulus in his honor okay
+and you also have another simplistic
+modification okay can you can you see
+here I have this as a straight line
+followed by another line with a
+different slope
+you see that that is embedded in the
+data
+see take I want you to draw this please
+don't leave it these are all very very
+important these are all the best
+modeling that you will be doing it when
+you have your
+constitutive relations even if you have
+a straight line for elastic and another
+straight line for plastic Behavior the
+mathematics is back breaking please
+understand it's not simple from a
+mathematical perspective it is not a
+simple task at all
+even if you have modeled it even when
+people do finite element analysis where
+the computer Faithfully reproduces
+whatever the input you give
+only if the modeling is right you will
+get good results otherwise it is garbage
+even there if they have the model some
+material Behavior
+they would do linear elastic and change
+the slope to model some aspect of
+plasticity not all aspects of it
+and this is called bilinear Elastic
+Plastic it's a very famous approximation
+in material constitutive law
+when people want to go beyond yield
+the first baby step is to have it
+horizontal perfectly plastic second baby
+surface have that as a
+straight line of a different slope and
+the third one is you have elastic and
+elastic and you have strain hardening
+you have a law called ramberg Osgood law
+which explains this
+you don't have a law which explains
+from the elastic region to fracture
+okay
+you have portions of this stress strain
+grab you have mathematical models
+so plasticity is also very important
+so when people wanted to develop
+theories related to plasticity they
+started with elastic and perfectly
+plastic then elastic and strain
+hardening
+okay
+now let us go and look at from a
+mathematical perspective you know I have
+shown it
+many times this that when you have a
+specimen which is made of soft material
+and I stretch it
+you are able to visually see the lateral
+contraction so that cannot be ignored
+that is what is seen apart from the
+lateral contraction the thickness also
+changes okay
+thickness also changes and when I have a
+plotted strain and stress they can be
+related
+I have uh
+pulling in the y direction so I
+essentially apply Sigma YY that is
+related to The Strain Epsilon y y
+by a
+material parameter called
+ends modulus is labeled as e in on or
+off in Thomas Inc okay but we've seen
+that this linear relationship was first
+hypothesized by
+bernally okay the brother of the first
+born early
+okay
+and you not only have
+Epsilon YY you also have
+Epsilon XX you also have Epsilon z z
+lateral string you have Epsilon y by the
+same equation is
+put in a different form where I have
+Epsilon y y equal to Sigma YY by X
+modulus e
+initial material characterization but I
+have a transverse strain to longitudinal
+strain is a ratio they took a constant
+value of 0.25 people didn't know that
+changes from material to material
+and they were thinking that you can
+characterize the isotropic material with
+one elastic constant
+because if it is one elastic constant
+then my life is also becomes very simple
+so people have made crude assumptions
+like that
+and only later they found out so people
+have found that the Epsilon x x is
+related to The Strain in the y direction
+by a coefficient what you have this as
+the poissons ratio which is given a
+symbol new
+this is credited to poisson
+it was between 1781 to 1840 he also
+decorated that equally Polytechnic
+and you have a minus sign mainly because
+you know the when you stretch it the
+other strain contract that's what the
+natural behavior if I compress then
+it'll bulge out
+okay
+and you have Epsilon XX you also have
+Epsilon ZZ
+that is also minus Nu times Sigma YY by
+e
+so when you conduct a simple uniaxial
+tension test
+you find the strain is triaxial
+see while we discussed a strain I also
+said
+imposing uniaxial stresses very simple
+imposing uniaxial strain I have to take
+extra effort to constrain
+and for that what I did was I simply
+compress
+bulging out I prevented it by a rigid
+block
+and you had any axial strain but you
+will you will have biaxial stress truss
+will be developed that is a different
+issue
+and when you have this x modulus you
+know you should also know the relative
+numbers please write down this x modulus
+is always coated in GPS gigapascal
+and your stress is usually quoted in
+mega pascals and strain as micro strain
+you should know the relative
+values for different material for steel
+it is 210 GPA
+do you see something in the way that I
+have written the numbers
+see what may we remember is brass is one
+half of Steel and aluminum is one third
+of Steel some of these numbers you
+should remember
+because the stiffness is also very
+important if suppose I have a design
+scenario where I have to limit my
+displacement
+then I will have to use a stiffer
+material
+or I should increase the stiffness of my
+structure by some means either of the
+two I have to do
+and you should know how the Young's
+modulus varies for some of the standard
+materials
+and most metallic materials have portion
+ratio as 0.3
+if nothing is given you can have that as
+a starting point and then do it Plastics
+have very high value 0.36 or 0.37 and
+the caution is whenever we ask students
+after learning this strength of material
+what is the sustained relation they
+would give only this as a sustained
+relation
+this is for a very specific loading of
+uniaxial
+okay only when I apply an uniaxial
+loading your stress is related to strain
+in a linear fashion like this
+when I have other components exist the
+stress strain relations you have to look
+at you should know how to write
+particularly The Strain component
+how the strain component you have to
+write you will have contribution from
+other stress components as well so I
+want to emphasize you can apply uniaxial
+stress comfortably a uniaxial stress
+gives in general strain as triaxial it
+may appear trivial it is not trivial
+people don't get this in the first level
+course you have to appreciate when I
+apply stress it can get deformation in
+all the three directions
+the next question is how do I measure
+this poisson ratio see in the tensile
+setup which we have seen earlier
+I have put a
+extensometer to find out only the strain
+in the axis of the
+member I was measuring only Epsilon y by
+and you had a load cell which was giving
+you what is a load so
+divided by area you are able to get the
+stress so you could plot stress versus
+The Strain and we also saw there is a
+standards available for this
+and similarly you also have a standard
+available for the
+finding out poisson ratio particularly
+using strain gauges
+suppose I give you a strain gauge
+and I my action summator gives me the
+strain along the Y Direction
+can you guess how will you go and paste
+The Strain gauge on the specimen so that
+I can measure one more strain so that I
+could get
+the ratio of transverse strain to the
+longitudinal strain
+please make a case you know strain gauge
+measures can you draw a strain cage
+where will I paste The Strain gauge how
+will I paste The Strain gauge please
+make a guess
+no you must make an attempt only then
+assimilation of knowledge will be there
+we have looked at strain gauge just in
+the last class and I said a strain gauge
+will give you the component of strain
+along the gauge length so you draw The
+Strain what strain I have to measure I
+have reference axis Y and X what strain
+I need to measure I need to measure
+Epsilon x x because that is easier to do
+because thickness is very small there is
+no sufficient space for me to place the
+strain gauge on the thickness Direction
+now once you know this which way will I
+paste the sand gauge because alignment
+is also very important
+along the x axis so I will put the same
+gate horizontal I will have the same
+gauge horizontal
+okay I have also shown it on this
+specimen I can also put it on the
+horizontal
+so I can use the external meter and then
+find out Epsilon y by and use the strain
+gauge and find out Epsilon x x so if I
+take minus Epsilon x x I have this
+expressions
+okay
+I have you know if I want to do this by
+strain gauge without an external
+submitter I can also paste a strain
+gauge in the vertical Direction
+and then connects two strain gauges and
+do my job
+so I can find out portion ratio as minus
+of Epsilon x s divided by Epsilon by
+that is the definition
+you have a transfer strain you have a
+longitudinal strain
+and you have a minus sign this is how
+poisson ratio is defined
+and you have a standards ASTM d3039
+explains what are the precautions that
+you have to stake when you use two
+strain gauges to find out
+the position ratio here I have simply
+put it on this but when you follow the
+standards you will not put the
+extensometer there fine
+so you should know how to get X Mod less
+and also how to get position ratio from
+a
+tensile test suppose I use Digital Image
+correlation
+what was advantage
+in one go I can measure Epsilon X as
+well as Epsilon by I can get partial
+ratio also without putting any
+additional instrumentation and I've also
+mentioned that there is something called
+true stress and true strain
+the definition is
+you know we have set P by a
+you improve the definition of cross
+section A as instantaneous or actual
+cross-sectional area see this becomes
+important when the material starts
+necking when the material starts necking
+you visibly see a change in the cross
+section
+but if you hang on to your original
+cross sectional area you are not going
+to make any Headway of that
+that is why the graph was going down
+okay so this is another measure and we
+have also seen when we looked at the
+finite strain
+we have labeled this as henky strain
+that is integral DL by L I have got this
+as a natural logarithm L by L naught
+we Define that as true strain
+and if I use this and plotted for bile
+steel please make a sketch of this you
+should know how does the graph change
+after the
+necking this is drooping down because
+there is a visible change in the
+cross-sectional area
+and when I plot it with the
+the new definition of strain the graph
+will keep moving up because you are also
+correspondingly changing the area of
+cross section
+and this is called a true stress strain
+curve and you have the definition of
+true stress as P by e
+a i
+and two strain is integral DL by L
+just to distinguish between your
+conventional stress strain curl they
+have labeled this as true stress to
+Anchor other than this academic interest
+I do not find any other
+utility of this straight away for your
+course but you should know there are
+other measures where which by which you
+can measure strain and the graph appears
+differently it's very simple you have to
+just draw this graph above that even if
+you have the old graph of mild steel you
+can just draw the two structure you
+don't have to draw a fresh
+okay
+now let us summarize what we have
+learned in any axle loading in any axial
+loading I have got Epsilon y by Sigma YY
+divided by X modulus and in epsilon x x
+has minus Nu times Sigma y by X modulus
+Epsilon z z as minus Nu times Sigma y by
+X modulus
+suppose I apply the load in the X
+Direction can you write down the strain
+in all the three directions make an
+attempt and then check it with my slide
+because once you do this for One
+Direction you can
+similarly light right okay cyclic click
+on Rider apply the load only in X
+Direction
+you have Sigma x x applied and tell me
+what is the Epsilon x x what is Epsilon
+YY and what is Epsilon z z what you will
+have to recognize is I apply a uniaxial
+stress but strain is triaxial
+it's not difficult it's simple and
+straightforward
+so I will show it for you
+I have load applied in Sigma XX so I
+have Epsilon xxi Sigma x x by X Mod less
+Epsilon y y is minus Nu times Sigma x x
+divided Banks modulus Epsilon ZZ is
+minus Nu times Sigma X is divided by X
+modulus
+can you repeat the same for a sigma is
+easy
+you should now realize where I am going
+to
+because our ultimate idea is we would
+like to know under a generic loading how
+do I write the stress strained
+relationship is idea clear
+and now we will take advantage that we
+are looking at a linear relationship the
+linear relationship gives me a
+mathematical advantage
+and sigma is easy you can write in
+similar manner I'll have Epsilon x x
+will become minus Nu time Sigma is Easy
+by E
+Epsilon y y becomes minus Nu time Sigma
+Z by E and Epsilon ZZ becomes Sigma z z
+by e now let me ask a question suppose I
+have
+simultaneously Sigma X Sigma y n
+Sigma Z are acting on the material can
+you write the sustained relationship
+how will you go about
+huh superposition that's very good that
+comes from the strength that the
+behavior is linear that is the reason
+why we hang on to small deformation
+the greatest Advantage I have in small
+deformation is the relationship is
+linear it gives me a wire media for the
+mathematical simplification I want you
+to simplify and then verify it from my
+result I want you to get the Expressions
+yourself
+and we have also seen with sufficient
+discussion even though it is a a
+convenient way to say small deformation
+in reality in many practical
+applications we work under very very
+small level of strain in actual loading
+because everything is dynamic you are
+having only fatigue loading everywhere
+if you come in your car there are many
+moving parts
+even if you are sitting in your chair
+you get up and then come back that means
+Charis also
+experiencing a fatigue loading
+the function of time the load changes so
+whenever there is a function of time the
+load changes the maximum load that I can
+apply is smaller and smaller which has
+seen it by experience
+you could not have pulled that jump clip
+and then failed it but if you bend it
+several times you are able to fade it
+and you know what is your capacity so
+you would have applied only smaller load
+fine so there is every justification
+that we say that we are looking at small
+deformation and the greatest Advantage
+is this linear relationship
+how many of you have got Epsilon x x
+Epsilon by a and Epsilon z z expressions
+have you got
+can I show
+yeah I have a system where I have Sigma
+x x Sigma Y and sigma is easy acting
+and I write by superposition Epsilon x
+axis 1 by E multiplied by Sigma x s
+minus Nu times Sigma YY minus Nu times
+Sigma is easy
+and then Epsilon y by is
+1 by E times Sigma y by minus Nu times
+Sigma z z minus Nu times Sigma x x
+and Epsilon z z is 1 by E times Sigma is
+easy minus Nu times Sigma x s minus Nu
+times Sigma y by
+see strength of materials is a course
+you will always have to fall back on
+experiments
+we are handling an isotropic material
+you know an isotropic material we have
+seen when you pull it
+you have axial deformation
+there is no Shear deformation
+so we have accounted for all the normal
+stresses
+am I right
+when I apply shear
+I get Shear deformation
+so that is the advantage of an isotopic
+material so you understand why we
+idealize the material to be isotropic it
+makes our life simple
+I have said suppose I go and do and
+extrude the material the fibers are
+aligned even a crystalline material you
+will have alignment of grains
+the material becomes
+anisotropic but we still analyze it as
+isotropic we will also know how to
+handle it we will take the specimen
+along the direction where you have fiber
+and conductor tension test and find out
+the strength
+so what you have the advantage is in
+isotopic materials
+shear stress component develops only the
+corresponding Shear strain similarly a
+normal stress develops only the
+corresponding
+normal strains okay it's not one axis
+but multiple axis
+so if I do this I can also relate gamma
+x y equal to Tau XY by G
+see even though tensor really we say
+gamma X Y by 2 Epsilon X Y is what we
+are using it now
+traditionally when the strength of
+material developed people have
+visualized some of this from the
+experiments only based on gamma X Y so
+you cannot throw it out
+so you have
+a relationship between shear stress and
+Shear strain
+which is labeled like this
+so thus completes the material
+characterization
+and now what we have introduced is
+instead of X model as we have introduced
+another symbol G
+which is known as Shear modulus see like
+I have done a tension test
+you also have permission that you can
+take a shaft and then paste it
+I can find out the shear stress and also
+the shear strain and dry graph and you
+will get a straight line and your G is
+much smaller than x modulus c g is
+related to
+X modulus as G equal to e by 2 into 1
+plus Nu it's a very famous relationship
+we will also see how to prove this
+relationship
+it's not that you have to look at this
+relationship and then remember it you
+can also
+mathematically prove from your
+background of more circle look at strain
+and stress and find out how this can be
+related
+and from this what you find see I have
+Nu is around 0.3 so your rigidity model
+this is also known as modulus of
+rigidity
+and you call this as Shear model as a
+multiple names and this is smaller than
+the X modulus
+and let us summarize these relations
+so I have the elastic stress strain
+relations
+So when you say trust strained relation
+you will have to write the complete
+expression for Epsilon X Epsilon Y and
+Epsilon Z don't stop at Sigma X or Sigma
+y
+that can happen if I apply stress in the
+sigma is direction or Sigma by Direction
+alone
+when you say trust and relation this is
+the sustained relation
+okay
+and you have
+Shear strain related to shear stress and
+what happens in an isotopic material
+when I apply tension it elongates when I
+apply Shear it gets deformed
+suppose I go to an orthotrophic material
+and I call this as L Direction and T
+Direction it gets elongated
+it also behaves
+like an isotropic material in these two
+directions but when I go to an isotopic
+material if I pull this it'll elongate
+also deform
+similarly when you apply Shear it can
+have elongation and deformation it's
+very very complex
+that is why we do not go near our
+inocervic material in the first
+development of the course we live in the
+comfort of isotropic materials
+because the material behavior is simple
+you are in a position to model it
+comfortably
+and whenever the stress strain relations
+you should write these trusting
+relations completely and knock off the
+terms that are zero
+do not say from your tension test
+Epsilon y by equal to Sigma YY divided
+by X models do not write
+that is applicable only for a tension
+test in a generic situation Epsilon y by
+is related to 1 by a sigma by minus Nu
+times Sigma Z Plus Sigma X Nu is
+Multiplied to Sigma Z as well as Sigma X
+Sigma by as well Sigma Z Sigma X as well
+as Sigma y
+so with this we have looked at uh and
+graduated what is the simplest
+constitutive relation that you can
+establish between
+stress and strain in the case of a
+isotropic material and this is also
+known as hooke's law we have given
+credit to Robert Hooke who was doing all
+the experiments when these
+aspects were developed in those ancient
+times
+and we will look at this further and we
+will also establish interrelationship
+between elastic constants
+in the process we will also know what
+are the ranges of these that are
+possible what is the range of
+poisson ratio we will develop in the
+subsequent lectures thank you
+foreign
+[Music]
+foreign

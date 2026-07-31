@@ -1,0 +1,52 @@
+{
+  "course": "The Human Brain (MIT 9.13, Kanwisher) — reasoning about minds from evidence",
+  "goal": "Given a behavior or deficit, predict whether it points to a dedicated brain module vs. distributed/domain-general processing, and say what evidence would tell them apart.",
+  "owned_prior": "Systems/engineering intuition: you find out if a system has a dedicated component by disabling it and seeing what breaks vs. what doesn't.",
+  "cruxes": [
+    {
+      "id": "01",
+      "title": "One ability, or two?",
+      "hook": "Bob loses navigation but nothing else — does that prove navigation is a separate piece of mind, or did the hardest task just break first?",
+      "owns": "engineering prior: under load, the weakest path degrades first; a single failure never tells you which component broke",
+      "depends_on": [],
+      "lesson": "01-one-ability-or-two.html",
+      "status": "done"
+    },
+    {
+      "id": "02",
+      "title": "Correlation in the brain isn't causation",
+      "hook": "fMRI lights up for faces — that's a correlation. What would it take to show this tissue causes face recognition?",
+      "owns": "double dissociation from crux 1 — now we ask WHERE and WHETHER causally",
+      "depends_on": ["01"],
+      "lesson": "02-correlation-isnt-causation.html",
+      "status": "done"
+    },
+    {
+      "id": "03",
+      "title": "Does 'responds more' mean 'represents'?",
+      "hook": "Haxby's attack on the FFA: it prefers faces, but its activity pattern still discriminates chairs from cars. Debunked?",
+      "owns": "causal tools from crux 2 — now armed with intervention, ask what's actually represented",
+      "depends_on": ["02"],
+      "lesson": "03-responds-more-vs-represents.html",
+      "status": "done"
+    },
+    {
+      "id": "04",
+      "title": "When the framework should say 'no module here'",
+      "hook": "The 20-category scan found nothing for snakes, tools, flowers, food, cars — only faces/places/bodies/text replicate.",
+      "owns": "full toolkit from cruxes 1-3 — now used to falsify, not just confirm",
+      "depends_on": ["03"],
+      "lesson": "04-no-module-here.html",
+      "status": "current"
+    },
+    {
+      "id": "05",
+      "title": "Coda: where do modules come from?",
+      "hook": "Bob never regained navigation as an adult. Children with equivalent damage often do.",
+      "owns": "closes the loop on crux 1's architecture question — is it built-in or built by experience",
+      "depends_on": ["04"],
+      "lesson": "05-coda-built-in-or-built.html",
+      "status": "planned"
+    }
+  ]
+}

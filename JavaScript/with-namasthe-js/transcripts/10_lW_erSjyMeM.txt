@@ -1,0 +1,322 @@
+that till now this interview idea from candidate
+what is the block in javascript you know what
+you can replicate
+let and conta block court disposed i
+can replicate this day ok but contest
+and blogs ko but what is app lock in
+javascript
+till sarovar enrique rest the candidate
+should ignore this place where but corn
+vegetables adjust and what is that
+candidate kerala to develop saadhe know what
+is the block
+subscribe
+and schedule in this video's
+description first fluid pintu block
+ok so now log defined by 20 karne se ok
+now reduce perfectly jewellery biscuit
+now log in the
+middle of this program is nothing
+but what do you used what is the use of
+the clock of first of all let me tell you
+block's also known as compound statement
+ok thank you now
+now log is used to combine multiple
+javascript statements into one group
+ok it's just like this ok show what  is
+not doing this less mining multiple
+JavaScript statements * group do you
+mean mean why do we need to group all
+these statements together they need to give this
+statement there brilliant trick news
+multiple statements in place where
+JavaScript expats only one
+statement in android flat rapid listen to this very carefully
+squid multiple
+statements together in a block solid
+wikinews pair JavaScript expats
+one statement whole countries in tears
+example okay so suppose you have normal life
+ok hai but News room va fennel color iska
+tight ek share it se is diet
+sentence Roy sentence Ravish
+deficit statement va ok expats
+statement over
+one statement of account statement
+perfectly statement but if you want to write
+multiple statements you can only to
+back together
+so you can use this clock and group this
+statement and you can be used to gather
+inside over the use of
+this group of multiple statements can be
+used in a place where
+subscribe
+Sleep in a good experience single
+statement here ok it's something else
+statement fear factor this is the correct
+sentence of
+multiple statement use something like this is a
+lock pizza multiple statement of
+account statement
+subscribe very important
+use haze
+liquid
+subscribe directly something like this
+subscribe video
+but want to write multiple playlists a
+lemon use now
+now ombudsman
+panel statement friday black and users
+with follow and oil that and all other places of
+this blog and this is use to do you know
+what is a lock download see what is the
+box ko ok hobby log in water soluble
+and functions which can be accessed inside this
+bulk pack abs ko what is the author of the book
+we
+can access inside this blog
+to understand the latest declare types
+of variables share and
+subscribe
+and things work behind the scene for the
+latest one weight lose and not all the
+amazing
+request letter for
+physical 230
+latest
+browser and pradeep  agarwal this post
+line excel ok down latest hot s3
+behaves behind scenes ok so imported
+without let's see what happens in pacific
+rim just randi scored and very carefully
+desktop ok i'm running dress code do
+something interesting right straight to this show for
+this is the box ko and e got b and c
+inside scoop ok dilate and norms which things which
+two variables are inside this
+box ko ok different species were hadis be the
+senior most educated dude ho
+estate and allied undefined remember for the
+most in video 10,000 hoisted in the
+sacred memory space details result for
+this block ok and clash of the amazing
+in his dead inside ignore this straight to
+himself undefined retention city global
+score and absolute and don't soil your
+clothes ko that is pilot statement
+comes into picture let encounter blogspot dot be
+stored  In the sacred memory
+space which is reserved for this black
+[ __ ]
+and no one else must shoot this film
+this block right when they go to line number
+five europe patience but can't no longer
+accessible ok you can access the but on that
+side this blog is none other than
+block scope
+person maxis were living outside
+deposit this sindhi globals ko so let's see
+enlightened reaction ok sorry for dear
+consort of
+over hair and different do and drug
+controller of all the
+best scene nhik
+ki election litmus remove this without and see
+watering sindhi cancel ok let me just once
+again this election friends develop of ABC
+from this line number 5 6 7 ok
+shyamal shop research from helpline number
+989 take source pendant stop the programs
+and processes
+not defined
+but not in the global don't
+forget to subscribe
+subscribe
+skin from this ko
+1999 global school and only 20 from this
+ok  So tension
+na lo ho to
+14% Laxmi just remove this and if you what are doing so if you have seen
+patience bhar outside this block ok at song
+that variable shadow that measures that history same
+variable outside this blog ok Sudesh
+semen force shadow this pimple ok sweater
+tightening effect tried to access the
+inside this blog is variable
+friends this pimple ke daag value
+printed in this
+program will get
+Shyam
+subscribe number three land line number one
+this is not doing so addition what happened
+to outside this blog
+and printed it once again data see what we get what you think you will get
+ok so let's which
+aspect and cheese paper 10th
+August ok sir that musavvir this word and
+also modified key value of special ok
+by bigg boss bigg boss 3.23 from memory
+location so Redmi Note 4 different let me show you see remember
+The Amazing Nobles
+And he was not in the clothes and this is a
+plus also in this that global scope okay
+its value color is program winter line
+head disco digit to z a good deal etc
+right to execute this line number three
+call 100 name dowry change 09 carefully year
+sex this do carefully watch over david
+transform to take hindi global memory see
+which name is tere is tennu okay and both
+places line number
+60 both are different to the same memory space
+did equal space okay that's why randi
+code it's its source tempo and it is
+actually modified given again but that's not the
+case in let okay write see why and how to
+support his forehead is variable it is
+equal to two hundred okay and another blow over there
+but now this is by default randi remove the
+indian express to front sure
+absolutely
+subscribe The Amazing
+be id
+for you by ok  it is not doing okay it does not change the
+effects of but side no I don't know if I see something
+interesting right nov 10 20
+different doobi zubi doobi box ko and this
+and another isko ok sorry for gold depend
+kotdi without latest yes this looks like sorry
+front record ok see you do something more
+interesting right elections carefully of dawood
+isko bright morning of but into place ok
+solve what is this beach is outside in
+line number one big b isko Kripke it is not even in the
+global ok idli script
+will decide on the block ok and one beach
+hindi blogs ko ok elections affair also have
+three types of ko the first ignobile ko
+unemployed hai they attaches right this global
+object with that they are attached isko jara
+second memory space remember when
+dropped his trident channel
+subscribe
+sk
+soheb scope and
+memory for this is
+page par swarna trid to be inside you
+ok
+subscribe to that
+and  deposit outside this is
+description decide is
+definitely that's why it
+print se
+zaleel ok and that's what is not doing
+so 10th over 200 points of bareilly
+contact decision interesting thing happens
+with
+you have cost
+servi servi servi
+servi
+program
+agna this is pet side se zameen side
+shyam second line entertain 2030 and
+outside printed coming from different and
+sunao
+india talking about doing let me show you
+another important dash laddu is not taken
+concept of block ok it is the same way when any function also k
+soi bihar w
+functions k are held in the house in a similar
+way return schedule ok so let me give them
+and its effect against schedule so so this
+is coming from this year
+to in this function all so let's see what is
+the
+latest girls doing something shadow fight
+2 shadow amazing
+sure  ok
+inside now log in
+to variable in and subscribe
+do it 9 we can do this okay this amazon
+already been declared okay so it is
+like indian girls doing you can not doing so if
+and this you want to shahdol let semen
+force inside the box to personal and
+you can not copied but what if you want to
+high school no this is perfectly well
+and you can shahdol lettuce home let ok but
+you can not shade a lettuce Singh and this is
+indian girls doing work and vice versa
+of what is the thing should happen
+according to dola is this is yes we can a
+perfectly right hand side you still not
+for every year during it is good to see more when you let her
+drive Thursday
+that only now really doing something right this
+dish of doing something that should not
+produce boundary office to locate in a
+particular co alert can not be declared tried to
+solve and should  not produce
+limit and the boundary over here ok and
+when not crossing boundaries voter's
+boundary of and remember where where is the
+function scored ok so f i use of function
+over
+5-point function over function act and find
+you like this right now want to air force which where is
+inside its boundaries its it
+is not interfering with it
+ok ok dooba
+dooba hair oil
+and it's totally fine at this time printer
+previous co video has told something knowledge
+electricals ko so yes blogs to spoil
+south and electricals ko ok Sudheesh scope are
+electrically president ok from subah electrical that means one inside another remember
+from GPS video ko if I have conte
+under inside diet software se
+zauk from subah electricals ko dat means if you
+tried to access the inside this
+function tight election this and will get access
+from this
+nearest A grade  200 feet printed ok
+and different tried to print this a
+proud side isko ok no what available
+pe gaon se zaroor this hair and see another
+interesting thing ok if this hair and 5c
+big dick inside your browser
+jhal effect deepak grover hair latest
+updates and see now see interesting thing right
+each and every dog ​​has its own toe
+electricals ko stop this block is
+inside one side and scribbled something like this
+and again for dates chain pattern
+lexical scope chain pattern k this rumor
+not hair pack isko not here what will happen if you all in this
+course you will get 80 ok
+ok knowledge
+remove
+subscribe 0
+500 index eagles ko box 10th inside d
+block also let me also talk about arrow
+functions so let me tell you all the best way to
+declare a function with function key word
+and andhero function bean field dost might have
+different scope par  There exactly same
+10 and 10 co approve switch wah which functions are
+exactly same hindi audio function
+call 100 no need to worry about learning
+differently co forever functions and animal
+function web services in delhi in this
+video the next video will be yes sir
+price ok don't tell you what else but avoid this is very important
+20 minutes
+surprise video give this video like enter in the
+comment section whether you understood b
+block co block scope and doing and not
+defined as video helpful 10 comment fog
+motivation til thank you for watching namaste
+javascript hai
+that a
+[music]

@@ -1,0 +1,1118 @@
+[Music]
+digital India educated India
+[Music]
+see one of the
+important learnings in the course on
+strength of materials is to see how a
+shaft resists the torsional load and how
+a Bend
+however beam rest is the bending moment
+fine so we come to the main
+discussion on how a shaft will resist a
+torsional load
+and before we get into this you know
+you'll also have to bring back your old
+memories on how do you
+understand what is known as a couple
+four system
+see if I have a couple four system
+when I look at
+what is the kind of effect on the shaft
+you get only a testing moment you get
+the idea
+on the other hand if I rotate the same
+shaft with a single
+arm
+I get the rotation in addition I also
+have another moment and also a force
+acting on the shaft so there is a subtle
+difference
+and if you look at
+you know in this course we will confine
+ourselves to analysis of Slender members
+it's very very important you should not
+lose track of
+this
+idealization that we handle only slender
+members
+you know for the purpose of discussion
+I might show a portion of the shaft
+shown big not only this I may take a
+particular cross section
+or depending on the need when I have to
+discuss certain aspects related to the
+shaft those diagrams will be very very
+high for you to visualize so do not
+think that we are handling a
+slab or something like that it's always
+a slender member the cross-sectional
+dimensions are much smaller than the
+length of the member
+in torsion what happens the member is
+primarily subject to a twist
+and such a member is also called a shaft
+the moment you say shaft you understand
+that it transmits torque
+a major use of Twisted shafts is in the
+transfer of mechanical Power
+see it's used in a wide variety of
+applications and it's a very important
+mechanical component so if you learned
+how to design it you can handle a host
+of problems
+and you would have seen in big trucks
+this is a universal join and this is the
+axis of rotation from this shaft
+and whatever the power from this is
+transferred to another shaft at a angle
+it is not at the same angle as this
+and this is very nice to see that like
+you are applying a couple you are
+actually twisting this you have a better
+feeling of it that is why I have shown
+this
+and we have also seen in the case of
+simple attacheki you have a shaft
+and when you take any shaft
+it is not simple like a cylinder
+but from our analysis point of view for
+us to develop the appropriate
+mathematics we will consider a very
+simple shaft
+if you go and open up a gearbox you will
+have a splined shaft and some of you
+have
+learned how to drive the conventional
+car where you have a gearbox where you
+have to open it and then see when you
+shift the gears you have splines that
+help you to shift the gears
+so this is very complicated and you know
+how Engineers handle it because you know
+they will find out a basic solution
+depending on the situation they can have
+a factor of safety or some empirical
+analysis
+only if it is absolutely necessary they
+go for a numerical simulation and all
+the other things because when you do all
+those numerical simulations the analysis
+becomes very costly
+and we have to mount certain things on
+the shaft so you have a key way you have
+a step
+and when you have a keyway it's going to
+be a stress razor so you have to
+accommodate that while you plan your
+design
+the shafts need not be solid it can also
+be a hollow shaft
+and this has several other features you
+can also have a tapered shaft it need
+not be a cylindrical
+for the purpose of developing the basic
+interrelationship between shear and
+angle of test and so on we would confine
+ourselves to
+a cylindrical shaft like this which is
+of constant cross section
+and mind you in strength of materials we
+also indirectly do one thing without
+telling it openly
+when we analyze torsion of shafts
+the only worry about torsional load on a
+circular cross section
+but torsional load can happen on any
+type of structure I can have a non
+circular cross section
+those analysis become difficult so we
+postpone it to the next level course so
+in the first level course
+we would like to develop how the shaft
+resists torsion
+that is a circular cross section it has
+a wide variety of application
+and it is difficult if I have anything
+other than circular when we want to do a
+simplistic analysis
+and what are the applications you know
+we have already seen the IC engine where
+you have looked at the guardian pin how
+it is made you needed very high
+plasticity to do that and you have a
+shaft and this also shows the
+you know balancing wheel okay
+so I have a taper shaft here I have a
+spline end here
+and you have a gas turbine here which
+also rotates and this has explains
+so any application will have steps
+splines key base without that you will
+not be able to use a shaft
+on the other hand when I go and look at
+uh
+Springs
+you know it's primarily a constant cross
+section
+and you know once you come to deformable
+solids the understanding is
+it can store energy because it is
+deformable it is not rigid it can store
+energy
+have you seen
+some of these Springs in your day-to-day
+life have you used it can you tell me
+which application you have used these
+kind of Springs
+huh
+writing pad I don't know
+how many of you are having your cycle
+you ride your cycle now in cycle many
+places you have such Springs if you have
+a carrier you have a beautiful spring
+like this
+and you know what is it that it does
+it provides a stiffness and it resists
+rotation
+because you want to lift the carrier and
+when you leave it it comes and grips
+whatever that you have kept and it
+should not fall back
+when you ride the cycle so it should
+have sufficient Force
+fine
+this is named as a torsional spring
+but I would like you to go back and
+think
+what is the resisting Force developed in
+this member
+long back I asked you we have a
+compression spring or a tension spring
+like this
+I do not know how many of you even
+attempted
+when I pull this or compress this take a
+generic cross section and find out what
+is the way resistance is developed what
+is the actual Force system acting on a
+cross section of the spring
+it's not trivial
+I have a reason for it
+you know I have a reason for showing a
+tension or compression spring as well as
+this spring I want you to ponder about
+how the resistance is developed in these
+two category of spring they are
+different they are not one and the same
+from a functional approach you label
+this as a torsional spring
+it's not resisting torsion
+I have given you the clue so look at
+what happens in the spring and also look
+at what happens in this spring these two
+are different
+which one is relevant to this course you
+have a look at it
+and what are the quantities that you
+need to find in a torsional problem
+first is transmission of power
+and you are a mechanical engineer I have
+a power and then power is equal to
+torque and
+Omega speed
+and why do you have a gearbox when I
+want to start the car I need more torque
+fine
+so I operate at a lower speed
+and when I go in the road highways I
+would like to have only speed I have
+minimal torque is sufficient so you
+manipulate your
+speed by using the gearbox the power
+Still Remains the Same
+fine so one of the main objective of a
+shaft is to transmission of power so
+that is where you have to find out
+whether the cross section is sufficient
+and it does not fail
+and it is also subjectivity of fatigue
+loading in this course we may not focus
+on fatigue so the shaft design have to
+take care of torsional loads bending
+loads
+and if you have a helical gear mounted
+on it you may also have an axial load
+so you will have a combination of all
+the three
+loads are possible
+so one needs to know how the stresses
+are developed due to torsion
+and even before the we go and try to
+find out formally we have been saying
+this that it essentially transmits shear
+stress even in my first class I have
+shown you what is the nature of shear
+stress distribution
+since I am having a circular cross
+section it is convenient to analyze it
+in a polar coordinate system so once you
+go to polar coordinate system the
+question arises
+among the shear stressors Tau R Theta
+Tau Theta Z are tau's ZR which one will
+be non-zero
+or whether all these stresses are
+existing
+and in the case of a torsional spring
+the objective is to determine the
+relation between the applied twisting
+moment and the resulting angular Twist
+of the spring
+an angle of twist is usually represented
+as an angle Phi that's a symbol you
+normally come across fine so these are
+the questions for which we need to find
+an answer
+and you know what we are going to do is
+see in those days when people graduated
+from rigid body mechanics to deformable
+solids they were essentially handling
+Stone and wood they were not having soft
+material
+see one of the simplest way to do is if
+I take a soft material put lines and
+then twist it and then find out what
+happens then I can write my mathematics
+immediately
+and you know we have also made a square
+member this is soft but it is not soft
+enough for me to show certain properties
+and for that to be done actually we got
+this model specially made for me to show
+this okay
+we will see all this towards the end of
+this class
+now we'll have to go back and see how
+our forefathers when they were
+developing torsion they were also doing
+a thought experiment
+fine see in the learning process
+experiential knowledge is very important
+it's also very simple provided you have
+access to soft material
+suppose you don't have access to soft
+material where the deformations can be
+visualized in in perceptible levels
+then you have to do a thought experiment
+okay
+and what we are going to hang on is
+this is an isotropic material
+fine it's an isotropic material is very
+important it is loaded only by twisting
+moment
+empty at its ends first thing is what is
+it transmitted see if it is axial Force
+you all agree that when you go from one
+section to another section it is
+transferred to the same Force
+a similar thing also happens in the case
+of a
+torque applied to a shaft first we will
+understand what is transmitted across
+the cross section
+so that means I pass a generic section
+and then split it and then see what
+happens in the top portion and what
+happens in the bottom portion
+and I would like you to draw many
+sketches today you know you have to draw
+many sketches so the idea is to develop
+a
+thought experiment and then look at what
+displacements are possible what
+deformations are possible
+and whether it violates our
+isotropic material Behavior if it
+violates then go back and then see and
+change your hypothesis
+so when I have a small portion cut the
+top portion also will transmit the same
+torque
+see there are two ways of indicating the
+torque I can have the arrow like this
+and then show a twisting direction or I
+can also have double headed arrows
+so the top portion also will transmit
+the torque and bottom points also will
+transmit the same torque
+there is no change in the
+value of torque when it is a circular
+cross section
+so that's what is summarized here the
+equilibrium conditions require
+each cross section of the shaft to
+transmit the same testing moment empty
+so that is the first understanding
+then we would take a small slice
+fine
+I am going to take a small slice of
+height Delta Z
+say I have already told you if I have to
+show something in this slice I will show
+this length larger
+but you should not lose track that we
+are still analyzing a slender member for
+the purpose of discussion certain
+portions I enlarge for us to visualize
+what kind of
+deformations take place
+so I take this slice out of it
+and
+I have the
+torque transmitted
+any slice taken from this region will
+have an identical original shape and
+will be subjected to the same testing
+moment that you should recognize
+now we will have to hypothesize suppose
+I take a radial line
+how this line can deform
+so you start from an hypothesis and find
+out whether it satisfies the isotropic
+and material Behavior okay
+and you know when you say anything
+related to symmetry you should recognize
+suppose I take this as an access the
+geometry is symmetric to that
+boundary conditions are symmetric to
+that and material behavior is also
+symmetric to that that is the reason why
+we bring in this symmetry argument
+so consider a radial line like this o a
+and let us say that it is deformed into
+a curved line This is an hypothesis see
+hypothesis need not be
+absolutely correct to start with
+we would investigate the hypothesis
+based on the other aspects of the
+problem here we are going to invoke the
+Symmetry conditions
+and we have taken has a hypothesis that
+I have a deformation into a curved line
+what we are going to investigate is can
+this be possible
+so you have to invoke that the material
+is isotropic
+the slice has full geometric circular
+symmetry about the axis of the shaft
+and any radius considered also should
+have same similar deformation suppose I
+take another radial line here
+if I hypothesize that this can be a
+curve
+the lion voice also should deform into
+your curve
+fine
+and we also make one another very silent
+hypothesis
+which is very very important in the
+first level course of strength of
+materials
+in view of axial symmetry
+these curved lines must all lie in the
+same plane that means if I have this as
+one plane
+all these lines
+when they deform in general we start you
+know we want to Pat our back that we
+have not started with the constraint we
+will have that as a curve which curve we
+do not know whether it is a curve or a
+straight line is what is to be
+investigated
+fine hypothesis you have to start like
+that
+and what we are going to look at in the
+complete discussion is we will
+assume that this is satisfied this is
+not a simple statement it's a very
+important statement you can appreciate
+it only when it is a square shaft
+we will see that also today
+now we are going to investigate whether
+this line can remain
+curved under deformation or not
+so we have to look at
+and
+when I want to investigate this I will
+look at two slices addition slices I
+have slice one I have another slice just
+below this and now I want to analyze
+this slice so I will take this Delta Z
+very large for me to illustrate the idea
+otherwise it is difficult for you to
+visualize
+and
+when I say this as original line
+okay I also see a plane
+I have this as o a b c j h
+I read this so that you can draw it okay
+I would like you to have make a sketch
+of it
+now the idea is when this
+line under the action of the twisting
+moment
+let us say that this is a curve
+see I have shown some other curve here
+don't worry about it the idea is
+we are saying that it's not a straight
+end but as a some curve I have taken
+now the question is if I have a
+deformation like this what way can I
+visualize the deformation at the bottom
+surface
+question number one question number two
+is if this is deformed like this what
+way the next slides will be deformed
+your anticipation is when I take out a
+slice whatever the deformation picture I
+visualize it should be identical for
+every slice
+that should not
+be violated
+so that is the way that we will
+investigate to find out whether the
+deformation can be occur
+you should understand the question
+clearly
+fine
+see while learning a subject it's also
+better you exercise your brain to do
+some thinking
+fine so that rational
+thinking habit has to come so for that
+reason this is a good discussion
+and you know it is getting twisted I am
+twisting it like this I am twisting it
+like this so it is logical to visualize
+the bottom portion can have a curve like
+this and these are joined by straight
+lines fine that is the hypothesis so we
+have this
+and let us see
+this is also labeled as o a prime
+B Prime J Prime and H Prime
+consider the deformation of the same
+section at the bottom slice and we have
+to see is there a contradiction between
+the two
+if I take the slice the top portion
+should be identical to this
+fine
+so I have labeled this to distinguish
+between the top sliced bottom slice as a
+one o one and H1
+and I have also shown very similar to
+this
+fine
+now the question is we have to compare
+what happens here and what happens here
+because these two are same surfaces
+I get one result from this I get another
+requirement from this let us investigate
+see the bottom slice is also subject to
+the same deformation as The Slice Above
+It which we have already noted and it
+should also be like this
+so the diametral diametrical line a 1 o
+h one will deform into this
+but these two are different
+okay
+so in order to satisfy this let us
+hypothesize another step
+okay
+what we will do is
+we will change the curvature
+they are in opposite sense so we will
+change the curvature of this OK it would
+be impossible to fit these two elements
+together when deformed as shown
+and we would change the curvature
+instead of a curvature like this
+in the thought experiment for the bottom
+let me change the curvature like this
+they are different so we hypothesize
+that the curvature becomes different
+when you go from Top surface to bottom
+surface
+this may permit matching it doesn't say
+that when you hypothesize a prairie you
+know whether it is going to match or not
+it may permit but when you investigate
+it very closely
+what you will find is even this pattern
+of deformation also leads to a
+contradiction how do you verify this
+see the top portion should remain same
+whether it is the top slice or the
+bottom slice there should not be any
+different
+so one way of doing this is
+in the thought experiment is rotate this
+by 180 degrees
+rotate this by 180 degrees is idea clear
+please make your sketch
+see we are developing a logical
+framework
+to give some food for thought to your
+brain
+fine at the end of it we'll understand
+what is the deformation that is possible
+we have started with a generic curve
+and then as we proceed looking at that
+there could be a difference between the
+top and bottom the hypothesis again to
+change the curvature to see whether it
+satisfies
+if it doesn't satisfy we'll have to go
+back and see what way it can deform so
+that is the logic behind this
+so when I rotate it by 180 degrees
+I will have a situation like this so
+this is not same as this is idea clear
+is the idea clear when you are
+investigating symmetry
+we find that this violates the Symmetry
+this aspect violates a symmetry
+so what is the way it can deform
+it can deform
+only as a straight line
+that is the conclusion that we are going
+to arrive at
+the curvature even when I change the
+curvature they are not identical
+the only way that it can deform is a
+line O A will deform to another straight
+line is the idea clear this is my
+thought experiment
+does the assumption that diametrical
+lines deform into curved lines is ruled
+out by symmetry
+the resulting conclusion is that
+straight diameters remain straight
+even after undergoing distinct
+deformation
+so this is when I rotate it by 180
+degree
+I would get identical shape
+so this is the only possibility of
+deformation when you apply the twisting
+moment
+you see you should also imagine those
+days when they were having very stiff
+material
+and I told you that for me to get this
+soft we have to do it very
+take special efforts to get it done in
+IIT okay commercially what is available
+is not possible for me to show what I
+want to show
+fine so in those days they were not
+having the material so they were only
+conjecturing bit based on this see when
+deformations are exaggerated your
+thinking process is also better
+for you to visualize what are the
+interrelationship and so on
+for you to develop the theory you need
+to have a picture of the deformation
+very clear
+so the application of the argument of
+symmetry has established that the
+circular Shard must deformed such that
+each plane cross section were originally
+normal to the axis remains plane
+and normal and does not distort within
+its own plane
+you know I have said two things we have
+looked at the radial line and we found
+that this radial length cannot
+have a code deformation it can have only
+a straight line we also made another
+statement
+that all these lines remain in the plane
+that we have not even investigated
+whether it can be in a different plane
+or not we are not even investigated we
+have taken it for granted as an result
+that all these lines remain in a plane
+I will show an experiment and then
+convince you
+fine
+before that when I look at only symmetry
+see the symmetry of deformation
+can also say
+it can have expansion and contraction
+yeah you can have an expansion
+or contraction symmetry is still
+maintained
+but you know when you are handling an
+isotropic material we have been
+discussing when I pull it axially it
+will have only axial deformation
+when I share it it will have only Shear
+deformation that is the beauty of
+isotopic material
+so even though from a symmetry argument
+it can have expansion or contraction
+since you have applied only
+torsion to the member it can have only
+Shear stresses developed
+you can't have normal strains
+so I will not have Epsilon or Epsilon
+Theta
+and Epsilon Z they go to zero
+is idea clear see since our hypothesis
+was on
+based on symmetry how do we investigate
+the deformation
+so when you investigate that symmetry or
+deformations is still there when you
+have expansion or contraction
+but because the nature of load that I
+applied is such
+you cannot have expansion or contraction
+so that rules out Epsilon R Epsilon
+Theta Epsilon is equal to zero I suppose
+we appreciate that this is the axis I
+call this a z axis and then when you
+have a circle geometry I have this as R
+and Theta coordinate they are not shown
+here but you can
+visualize that they can be taken like
+this
+so now what I am going to do is I want
+to show you the
+shaft and this is a very nice
+demonstration
+you look at the red line as well as the
+blue line
+see the red line is like the cross
+section
+we said all the deformed lines should
+lie in that plane
+we have not even investigated it based
+on symmetry while developing the
+argument
+but when I take the shaft and twist it
+I find
+this line remains horizontal this gives
+the hypothesis that this cross section
+remains plain before and after loading
+see you see a small shift because of the
+focusing because you know when I am
+taking the shaft and then twisting it we
+are doing it with hand we are not doing
+it in an equipment and even when you put
+a camera stable you know you have this
+difficulty in focusing okay
+on the other hand if I take a square
+shaft
+and then I pissed it
+which is also shown in the animation in
+the left
+so I have a horizontal line
+this horizontal line does it remain
+horizontal in a square shaft
+let us see this okay
+I take a square shot I have a horizontal
+line
+and this is Twisted
+do you see that this is moved up and
+then there is a slant and then it is
+coming down do you see that it is like
+this
+it's very very important it's a very
+subtle aspect
+and this has a bombastic name in
+literature it is called warping of the
+cross section please write down
+see what we do in structure materials is
+we take a problems we take up material
+we take up cross sections in such a
+manner that you can solve it comfortably
+in this course
+yes Square shaft also can transmit
+torsion
+and if you go to an automobile chases it
+has all funny cross-sectional shapes
+they all transmit torsion
+but at this level of the course we don't
+have the mathematical background to
+analyze such structures
+we confine ourselves to circle of cross
+section mainly because you see the
+animation again there are many things
+are Illustrated here see I am holding it
+top and bottom
+I am holding it top and bottom and I do
+the testing
+fine
+and I have a twisted shaft and in this I
+have this red line is the horizontal the
+minds horizontal it's not moving up and
+down whereas the same horizontal line in
+the case of a square shaft has moved up
+and down
+that's called warping of cross section
+because of warping a cross section we do
+not analyze it in this course and this
+solution was first proposed by sign
+venant and you know saying winner from
+seni non's principle he had solved it
+using the referential equations approach
+he has so you have solution for this
+please don't think that you don't have
+solution for what are the stresses
+developed in a square shaft you have
+solution but it is beyond the level of
+this course
+so and you also see that the straight
+lines which are drawn they are
+modified like this OK because a twisting
+you can see that again the straight
+lines how they are to start
+the straight line
+it is sheared you can very well see that
+this is sheared is the idea clear you
+can very well see that the rectangle has
+become a parallelogram OK you can see
+right from the beginning I've been
+saying that a shaft transmits Shear
+stresses and you see the deformation as
+due to what happens in a shear OK and
+another aspect what you have to look at
+is we have also discussed free surface
+the entire shaft is free
+on the outer boundary see how do I apply
+torsion it depends on various aspects
+when I want to do a demonstration I have
+to hold it on either end and then apply
+it and we are not applying whatever the
+equations developed in the zone where I
+apply torque
+we move away from the load application
+points we analyze what happens somewhere
+in the middle
+and we have already seen when I apply a
+torque every cross section here
+transmits the same torque
+and you should recognize that this
+complete surface is free
+see one of the common confusions people
+have is because you have seen that you
+had a play torque by holding this
+when you discuss what shear stress can
+exist people have confusion
+whether you have shear stress on the
+surface or on a different plane we have
+discussed that thread bear when we
+talked about free surface you have to go
+back to that lecture and find out what
+we have discussed and understand the
+nature of free surface in the case of a
+torsion
+see in your
+course you have done repeatedly Shear
+force and bending on diagram you have
+not looked at twisting moment diagram
+though it is listed that is also one of
+the possibilities so before we take up a
+torsion in a great way please make a
+sketch of this let us get the twisting
+moment the question is get the twisting
+moment as well as angle of twist we will
+postpone the angle of twist
+after we develop the relevant equations
+in this class we would see
+how do we get the twisting mount diagram
+for this
+like when you want to draw the shear
+force diagram
+you had a sign convention for the shear
+Force and you also had the sign
+convention for the bending moment
+similarly we should also have assigned
+convention for the pisting moment
+and you can see see
+when I apply the torque in the clockwise
+Direction it is negative
+anti-clockwise is positive and this is a
+distributed
+torque over a length
+and there is a torque applied here
+so you have the n b is fixed
+and N A is free
+fine your angle of twists will be
+maximum where along the length of the
+shaft
+it's a free n but when we graduate and
+then come for interview we ask question
+students always get confused because
+they see there is a maximum twisting
+moment here they also think that that is
+where the maximum torque is there this
+confusion is there so I am warning you
+so learn it clearly so visualization
+should be very clear so even before we
+solve we have an appreciation of what
+the anticipated result is
+and you know to make your mathematics
+simple I have shown this uh tour cast
+double-headed arrows it becomes much
+easier to handle and also helps in
+visualization very comfortably
+and you have the reference access the
+z-axis is taken along the axis of the
+shaft
+I have the direction R and Theta shown
+and I take a cross section
+and first is to find out what is the
+torque at the 610
+so balancing the torque gives I have
+minus m z minus 320 plus 166.67 into 1.5
+minus 600 goes to zero
+that gives me the torque and the fixed
+end is minus 670 Newton beat
+when I say twisting mount diagram I want
+to find out what way the twisting moment
+changes as a function of the length
+in principle I can take a generic cross
+section analyze the left portion or the
+right portion
+but in this problem your mathematics is
+much simpler and straightforward if I
+analyze the left portion because I have
+already found out what is the twisting
+moment at the fixed end
+so that is shown in the right
+Direction in the diagram so for the zone
+0 to 0.4 see we are analyzing from NB so
+be analyzing this section
+so you should understand how the drawing
+is drawn for convenience
+so in this section you take a cross
+section
+and then write the free body diagram
+I know this and I have to find out the
+twisting moment m z it's fairly
+straightforward
+you get that as
+minus 670 newton meters that's what we
+are going to do for every cross section
+like what you have done the bending on
+diagram you will also have to do for the
+testing bound diagram as many loads as
+you have as many sections you have to
+pass and then get them and plot that as
+a diagram
+and then I move to the next section that
+is 1.4 meters
+that is 0.4
+to 1.8 meters I expect you to write that
+the reason why I am reading it out so
+that you have sufficient time to
+draw the sketch and also
+write that
+like what you have learned in
+engineering mechanics the rigid body
+mechanics course you take the isolated
+section
+draw the free body diagram
+put all the quantities then your job is
+done
+fine
+and you get the m z as minus 350 newton
+meters
+and I go to the next section where I
+have a
+distributed torque
+and you draw the free body diagram you
+take a section
+draw the free body diagram
+and put the quantities very
+systematically
+please take your time to draw the free
+body diagram that culture should be
+there whenever you analyze a problem
+quickly you should be able to draw the C
+body diagram and free body diagram if
+you draw it without a mistake
+Your solution shall be straight forward
+and we have also followed a convention
+see on the positive surface I write it
+anti-clockwise as positive
+unknown quantity I write it as
+anti-clockwise and put it on the
+positive surface as positive on the
+negative surface clockwise Mount will be
+positive so you need to follow a sign
+convention
+that is then and this is again you can
+easily handle this
+so I have this as Z minus 1.8 is what
+because you take Z from this and then
+find out how it varies
+so when I get this m z
+finally I have an expression as a
+function of Z
+and the last section is simple
+so you take a cross section
+and again take the free body diagram
+and here
+to simplify the mathematics I have
+considered the right section
+and I have appropriately put the unknown
+testing moment
+unknown twisting moment is rape labeled
+correctly okay so this is the way that
+you have to label it and while do the
+mathematics you should do the
+mathematics properly
+fine so m z comes to be minus 600 newton
+meters once you have all these values
+it's a child's play to plot the twisting
+moment variation
+so I have these expressions
+and this is the sign convention please
+write down the sign convention because I
+have also emphasized in engineering
+mechanics if you look at the video
+lectures when you draw the shear force
+diagram or a bending mount diagram you
+should put the sign convention used
+if the sign convention used is different
+these diagrams will appear different
+but what happens on the actual structure
+what is the maximum torque or maximum
+bending moment that will remain same
+whichever sign convention you use
+sign convention is only to interpret
+when I have the diagram how to find out
+what is the
+twisting moment in this context
+on acting on the shaft
+okay so I have a constant value in this
+section
+so I have writing it from the fixed end
+then it drops down in this section
+because I have a concentrated testing
+Mount applied
+how this is applied we are not worrying
+now it is applied by some some means
+something is mounted there and that is
+giving a different twisting moment
+so I have this as a straight line
+then I have this as a linear variation
+which is dictated by this equation
+so I have this as a linear line
+and this section again it becomes
+constant
+and I have the twisting mount diagram
+for this shaft why do you do this
+the bending moment or Shear force or
+twisting on diagram when you have to
+design you design for the maximum load
+so that your cross section selected
+is appropriate to withstand that load
+and let me also give you an idea to
+think
+see when you physically look at you are
+able to see it's a subtle cross section
+fine
+when you physically look at you are able
+to see that this is the square cross
+section
+fine
+can you imagine you have learned many
+quantities in your engine mechanics also
+mathematics when you do how does the
+mathematics understand the cross section
+you have any idea
+you are doing mathematics
+when you are developing the mathematical
+equations
+depending on the cross section the
+stress levels also will vary
+which quantity that we use
+mathematically to represent a cross
+section think about it I have three
+exercises for you to do
+the homework one is if I have a spring
+loaded in the axial Direction
+what is the resisting force that it has
+to withstand fine how it is resisted
+please think about I need the solution
+by next class
+and we have also looked at a torsional
+spring we say torsional spring
+because I would like to have stiffness
+in the when I rotate it should give the
+resistance from that context from the
+functional aspect it is labeled as
+torsional spring
+it is not transmitting torsion
+so find out what is the resisting force
+and how the resistance is developed in a
+torsional spring
+and the third one is in your
+mathematical development which you have
+already done you should have calculated
+left and right in your engine mechanics
+course without realizing that this is
+the quantity that represents the cross
+section in a mathematical sense
+fine so with this in this class I know
+we have looked at
+the basics of
+applying torsion to yes slender circular
+shaft
+we have actually done a thought
+experiment the idea is to
+find out
+when you have a isotropic material when
+you have axis of symmetry because the
+geometry is symmetric by taking a subtle
+cross section if you take a square cross
+section it is not symmetric about the
+axis
+fine it has sharp edges and has four
+edges fine
+whereas a circular shaft is completely
+symmetric about the circular cross
+section
+about the axis and the boundary
+conditions also symmetric so by symmetry
+argument we have been able to establish
+only one aspect if I have a radial line
+the radial line can deform into only a
+radial line
+we have taken it for granted that the
+plane in which the radial line lies
+remains plane which we are not even
+investigated in the thought experiment
+but I have definitely shown that when I
+have taken the shaft and tested it I
+have definitely shown that that you have
+these red lines representing the
+horizontal plane remains horizontal in
+the case of a circular shaft
+they do not remain horizontal when you
+have a square shaft
+and what you have to understand is
+people have solved stresses developed in
+a square shaft under torsion but this is
+beyond the purview of this course thank
+you
+[Music]
+foreign

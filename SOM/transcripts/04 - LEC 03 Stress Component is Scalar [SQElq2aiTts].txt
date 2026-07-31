@@ -1,0 +1,1111 @@
+[Music]
+digital India educated India
+[Music]
+let us move on to our next topic
+and understand little better
+how do we comprehend deformation let us
+take certain simple problems
+and one of the main issue is
+what is the compatible decondition when
+you have connected members when one
+member deforms the other member also
+should deform
+appropriately
+only then that compatibility of the
+system will exist
+fine
+so we will take up certain simple
+problems and learn ourselves
+we start with the simple linear spring
+see I have asked you
+to figure out from your background of
+rigid body mechanics
+what an element of spring
+experiences as resistance
+at least the force that is acted when I
+am pulling it anyone figure it out
+if you have not figured it out please go
+back and then
+find out what that spring is
+experiencing it is not simple tension
+what aspect we exploit for our
+understanding of tension or torsion or
+bending from Spring is
+its linear relationship between force
+and displacement
+and also its principle of recovery
+because spring you can easily see you
+can compress and release your hand it
+comes back to its original position
+similarly you extend it it comes back to
+its original position because when you
+move from rigid bodies to deformable
+solids your mind should be tuned to
+visualize
+displacements
+and deformations
+see for you to do the thought experiment
+these displacements have to be big
+enough for you to visualize
+in reality the moment you see
+displacement it is large deformation
+if you perceive it with your naked eye
+then it is large deformation because if
+you look at a beam that is supporting
+this roof
+it is deflecting fortunately you and I
+not observe It If You observe you will
+be the first one to get out of the room
+fine so you have to understand that we
+talk about small deformation
+but for us to write the equations and
+develop our thought experiment the
+exaggerate this
+so you have to keep that in mind
+and spring is not simple so I have I am
+giving you sufficient time for you to
+figure out what it is
+fine please exercise your
+effort to do that
+and you also have a very famous
+relationship relating Force to
+the displacement and you call this K as
+stiffness so if you know the stiffness
+of the spring you understand what is the
+force displacement relationship
+or when you make the force displacement
+relationship you can also find out the
+stiffness when you make measurements of
+the displacement you can also go back
+and calculate the stiffness
+and this you would have done many times
+in your je preparation I suppose I have
+two Springs in parallel
+now I pull this in a manner that
+this horizontal bar remains horizontal
+it does not deflect OK I am pulling it
+in a manner
+so when I pull it in this manner what
+happens
+I can look at the free body diagram of
+each individual spring
+I can have a force acting on it now you
+have to tell me
+what is the way forces are related
+and what is the compatibility condition
+can you can you just write it down in
+your notebook and then check what I am
+popping up in the PowerPoint because
+this is fairly straight forward
+I have also said what way I am pulling
+the
+two Springs
+so what is the compatibility it's very
+obvious
+isn't it
+the displacement happening in
+both the Springs even though that
+stiffnesses are different
+see I have given a schematic do not say
+that this is of the same size like it is
+depicted that's a way we can do it when
+you are making a diagram but I have
+labeled that the stiffness of the spring
+one is different
+stiffness of the spring 2 is different
+so the force equilibrium is straight
+forward
+the force is shared by Spring 1 and
+spring 2.
+the compatibility is because the bar
+remains horizontal
+both the Springs have identical
+displacements
+and I can also go and say
+what is the equivalent stiffness of the
+system
+fine can you write down what is the
+equivalent stiffness because this you
+are exposed to I am starting from what
+you already know
+fine
+and the K effective you can simply say
+it is nothing but
+K 1 plus K2
+so once you see Springs in parallel the
+next step is
+Springs in series
+fine so we will take up that also
+I have Springs in series
+and recollect how do you draw the free
+body diagram
+whatever you are learned in the rigid
+body mechanics you must
+employ them here
+so brush up your fundamentals on free
+body diagram
+and
+look at what happens when I pull it
+when I pull like this
+what is identical between the two
+Springs
+we have looked at Force we have looked
+at displacement
+now you have to look at which one you
+have to worry about
+how the compatibility is
+fine the compatibility was very simple
+in the previous case
+and when I draw the free body diagram
+I have it like this I have a spring
+one is pulled by force F1
+and spring 2 is pulled by force F2
+because they are connected in series
+it transmits the same Force
+ok but each one will have different
+displacements
+so the force equilibrium is
+each of the spring is experiencing the
+same level of rows
+but the compatibility is I have a Delta
+1 for spring 1 Delta 2 for spring 2
+and what happens is this n is the
+summation of these two displacements
+and how you calculate K effective you
+will have one by K 1 plus 1 by K2 equal
+to 1 by K effective so if I simplify
+that I get K effective as K 1 k 2
+divided by K 1 plus k
+so this is again straight forward
+now let us look at one more system
+you also have an equivalent problem in
+your tutorial
+I have a collection of Three Springs
+and I have pulled this it has come to
+this stage until this stage it is not
+really looking at these Springs only
+then these Springs come in contact
+if I pull it further
+what way
+should I draw the diagram F versus delta
+so here I have two Springs in
+parallel
+so now this is getting compressed
+so there are two possibilities that can
+happen
+the K effective is ah
+um K1 is less than K effective
+and K1 is greater than K effective
+then you can have a diagram like this
+it is still linear in segments see this
+is again we will use it ex in an
+advanced studies in this segment it is
+linear in the next segment it is still
+linear but with a different slope that
+is how people are indigenous handle
+complex situations they don't jump into
+non-linearity straight they will always
+find out methodologies to make it as
+linear so that it is amenable for
+comfortable mathematical development
+and next we go on to real materials
+fine
+because now
+when I look at the real materials we say
+that we have to have this idealizations
+I am going to pop up these idealizations
+again and again
+because you repetition is also very much
+needed when you learn a course
+we have small deformation we have
+homogeneity we say elastic properties
+are isotropic
+and then material is an elastic
+Continuum you must never forget these
+idealizations
+and when I take a real material how to
+characterize a material that means what
+if somebody gives you a material I must
+perform a test
+from the test I should say this is how
+the material will behave in actual
+situation the test should be
+simple enough
+and minimum for me to characterize a
+material
+what hook has found out he found out
+that many materials have a linear Force
+displacement relationship
+now I take rods of different cross
+sections made of a same material the
+only difference is if I say that this is
+area cross section A in this segment
+this is like you know in the clamps so
+we have a larger section so that the
+material does not fail at the clamps
+and the area is divided by two and area
+is doubled here
+suppose I pull this and plot the force
+vessel displacement
+how do you anticipate the relationship
+how do you identify will they all lie in
+the same line
+first thing is you expect it to be
+linear As Long As You Are
+deformation is small
+I am not pulling this material to the
+level of breakage I am just
+elongating it when I remove it it will
+come back to its original position so I
+am really stretching it to small amounts
+fine
+and you know when Galileo found out that
+it is proportional to the cross section
+independent of the length so if I have
+stretched this
+cross sectional 2A which will have the
+maximum stiffness
+fine
+and then you anticipate this will have a
+lower stiffness and this will have the
+lowest
+compared to the Three cross section that
+we have taken
+and if you look at this is what Hook was
+credited and you have also seen that he
+determined this
+in 1660 but revealed it to public only
+in 1678.
+this was his basic contribution
+that means what if you have to design a
+particular cross section
+for a given application you should have
+this Force displacement relationship
+only then you will know its Behavior
+but you find same material is used with
+different cross sections so is it a
+comfortable way of characterizing the
+material
+definitely not
+because for each cross section it
+demands one additional test
+and if you look at the whole of
+engineering
+when you look at experimental data how
+do you represent the experimental data
+has given birth to New Concepts
+deeper understanding so plotting a graph
+is not trivial
+many times you know you come to the
+laboratory exercise and then in this
+usually in the afternoon because morning
+times we want to keep theoretical
+classes you are also very sleepy and
+then you know even before you do the
+experiment you anticipate what is the
+result and then you are all very good in
+cooking
+fine whether you cook your food or not
+that is the casual attitude you take but
+in reality if you are given with the
+challenge that you have to design and
+you are going to be responsible if there
+is a failure then you have to cashfully
+design and experiment carefully make
+measurements and interpret the results
+appropriately
+so what people did was
+it has taken quite a bit of time see
+it's it's not instantaneous we are going
+to see a person's
+complete research in his entire life
+towards his Yen got this idea
+fine
+it is no other person less than Burnley
+we will see that
+now what I'm going to do is I'm going to
+repeat the same experiment
+but I would plot my data differently
+I have the same experimental pulley I
+will plot
+in the x axis
+change in length divided by original
+length
+and in the y axis I will plot
+Force divided by area that's the only
+change I am going to do all the other
+measurements are identical
+what is striking is
+you have the data collected differently
+in the previous set of graphs they all
+lie in one line
+that means to characterize a material
+just one experiment is sufficient it's a
+very fundamental understanding see the
+concept that why should I plot change in
+length divided by original length and
+force divided by area it was prompted by
+this kind of a
+development and you also see the
+photoelastic fringes that you have this
+as
+constant color
+and
+we have already loaded that should be
+small deformation this is valid as long
+as my deformation is 0.1 percent
+and this was credited to
+bernally
+and you know when he got this
+that was his last paper in his life
+imagine
+and you all have a Burnley Euler
+hypothesis for your bending Theory we
+all give lot of credit to him
+so some of these developments look
+trivial are not really trivial people
+have struggled
+entire life is spent in understanding he
+has contributed many other great
+inventions
+but this is also like that
+what what is it in idea it gives
+I have P by area we also labeled as
+stress
+and when you say p by area it looks like
+a number
+isn't it
+but we have already said that in the
+chalk experiment
+it is failing at different planes unless
+I bring in the plane information my
+understanding of the resistance is not
+complete
+we will postpone that for the time being
+fine we will solve certain simple
+problems with this understanding
+so you should understand the final paper
+of his life in 1705 reveal that stress
+and strain are better quantities to
+depict deformation it's again need based
+because when I want to characterize a
+material I would like to have
+least amount of effort in conducting a
+test
+no matter what cross section
+you are able to do just one experiment
+and get the results out of it and this
+was also summarized
+and people have like we have F equal to
+K Delta people also have put this e
+equal to P by K divided by Delta by L
+and this is famously known as hooke's
+law but if you look at history this was
+actually proposed by Euler
+in 1727.
+and you call this
+e as angs modulus
+whereas Thomas Young got this
+understanding only in 1807. see how the
+scientists have given credit
+to certain is a puzzle to me fine if you
+look at the history somebody has
+invented it but in his honor we all call
+this as angst modulus and we also say
+that this is a hooke's law
+but it was actually proposed by Euler in
+1727.
+and we will use this I have this
+displacement as PL by a e is a very
+useful relationship in a axial pull that
+deformation the change in length is
+nothing but PL divided by a integer we
+will use this to solve certain
+simple day-to-day problems
+and you can also find out the stiffness
+as
+k equal to a e by L
+and in this course I'll again and again
+show this NCL test and today you must
+make a neat sketch of it
+see the idea is
+you must also draw the axis and label
+them I am drawing this till 28 percent
+of strain that's very important
+and in the y axis depending on the
+material you know this is about
+275 MPA is the yield strength
+so what you do is I have the final graph
+where I have a red region and yellow
+region that graph you make a plot please
+make a sketch
+please make a neat sketch because what I
+find is
+many of the books when they talk about
+engineering materials also
+they do not label the access
+they simply
+say
+sus versus strain and draw the line
+without any numbers and you see only a
+straight line and I want you to
+appreciate if you take
+any of the engineering materials
+when you
+do a tension test as per standards you
+will always end up getting a non-linear
+relationship
+and you have a red region which is very
+very small
+which is the reason region of
+where the
+material elongates
+and when I remove the load it will come
+back to its original position it reminds
+like
+elastic body like a spring coming back
+to its original position so that is why
+it is put as elastic region
+and the plastic region is very very
+large
+this would be required if I have to
+design a crash bar I would like to have
+a good plastic region
+and many of the engineering components
+they work together so they have to
+remain in an elastic Niche so
+from a practical perspective also we
+will live in very small deformation in
+many of the applications in some
+applications we will have to go to large
+deformation large plasticity and so on
+but those instances can be handled as
+special cases
+so now we move on to
+another interesting problem
+you know we have seen in the earlier
+classes that you tighten are not using a
+spanner which you would have done in
+many of you as
+toys at least meccano said they would
+have given you a new RN if your parents
+would be happy my son or daughter is
+going to become an engineer fine there
+you have done this tightening
+and we saw what happens to the spanner
+and what happens to the nut
+in this what we want to ask the question
+is
+what happens to the sleeve I have a
+sleeve and I have a nut which is
+tightening this
+and I would like you to draw the free
+border diagram this is nothing but an
+exercise on free body diagram
+can you put what is the force
+interaction for this
+how do you expect this is the sleeve I
+have a
+sleeve here and when I have the nut I go
+and tighten it you understand the
+problem
+and when you tighten the nut what you
+feel physically
+you feel the resistance that is number
+one other one do you also
+feel that there is an axial moment of
+the nut down the bolt you have observed
+it fine
+you have observed it
+can you draw the free body diagram for
+this
+can you draw the free body diagram
+quickly I free body diagram it is a
+bread and butter for all mechanical and
+Naval architecture engineers
+fine
+so I can
+visualize that there is a distribution
+of forces on this surface similarly
+there is also a distribution of forces
+on the surface
+they could be represented as a resultant
+Force as FS
+and what happens to the bolt
+bolt also experience the same thing
+you will have forces on the bolt head
+I'll have forces acting on the bolt head
+I'll also have the forces acting on the
+net
+fine
+and you can also find out the resultant
+I will have this as FB
+and what happens to the nut
+has threads
+and from your forced equilibrium you can
+only say
+FS equal to FB
+and what happens then that if you look
+at
+it is cut to open and then shown as
+threads
+so I have forces acting on this
+and then you will also have resistance
+developed on the threads
+so this also you can visualize this as
+FB and this is what happens when you
+look at all the subsystems
+what is missing here I have not put one
+important
+Force
+huh
+there is no torsion we are only looking
+at after I rotated it what is the
+situation I am not looking at while I am
+rotating how the forces are developing
+no we never do that mistake
+we always say step one and then step two
+we look at the system after some time
+in a
+free body diagram what are the things
+that you have to take care you have to
+look at the surface forces as well as
+body forces
+see the body forces if they are very
+very small in comparison to the applied
+forces you have the freedom to
+neglected so we have removed that here
+we have not put any body Force now the
+question is
+you have done one full course on Rigid
+body mechanics
+can you find out what is the force
+acting on the sleeve as well as the bolt
+this is part of your tutorial problem I
+am giving you hints
+so obviously a simple day-to-day problem
+unless you bring in the deformation into
+the picture
+you cannot proceed further
+is the idea clear
+now how do you write in the case of
+Springs it was quite obvious
+it was quite obvious Springs are
+parallel swings a series we are able to
+do it here I have sleeve and the bolt
+the best way to proceed is
+you make one of the component as rigid
+other component is deformable then
+visualize that component is rigid and
+this component is deformable if you do
+that we can do a thought experiment
+yes or no okay we will do that
+so the question is how to estimate the
+force
+now we will consciously is rigid
+and will cancel only bolt is deformable
+see Engineers solve a problem
+and remove the second order effects
+implicitly you should understand now we
+will worry only about the sleeve and the
+bolt we'll not worry about the net
+fine okay
+and I have this so when it is rigid
+you must have observed that while
+tightening the net there is also linear
+movement of the
+nut
+where does this deformation come in
+suppose I say the sleeve is rigid it
+cannot deform so all that moment has to
+be perceived only in the bolt is that
+right
+and I am showing very exaggerated
+displacement see this displacements will
+not happen physically
+for us to visualize we should see them
+as big quantities
+so that is what you see here the
+bolt has elongated by a distance Delta
+is it convincing to you
+because something has to go because the
+nut has traveled the distance Delta from
+where it is travel distance Delta
+if a sleeve is rigid it can travel only
+if the bolt has elongated in the process
+is idea clear
+now we will do the reverse of it we will
+make the sleeve as deformable and the
+bolt as rigid
+okay
+so sleeve is deformable Bolt is reaching
+so here what you will see
+here again you know
+sleeve is deformable means when I rotate
+it the nut would have moved down fine so
+we will visualize that so it would have
+moved down and the complete deformation
+will now be
+born by the sleeve that is also
+acceptable
+but in reality bold is also deformable
+sleeve is also deformable so what
+happens is while you are tightening it
+the sleeve is getting compressed
+and bolt is also getting elongated
+simultaneously
+what happens to the net we are treating
+that as rigid for our convenience
+even if you don't treat it as rigid look
+at the height of the sleeve look at the
+height of the bolt in comparison to
+those lengths the nut is very small so
+even if there is something happens it
+will be very small as engineers
+you simply take that as rigid and carry
+on with it
+because engineering is approximation
+intelligent approximation that validates
+your observations it's not that you take
+an approximation and hold on to it
+blindly
+fine
+so
+both sleeve and both are deformable
+so what happens is there is an
+elongation of the bolt
+of the bolt and there is a contraction
+of the
+nut
+what is the compatibility condition now
+the nut has moved a distance Delta
+y Delta 2 minus Delta one
+by the way why should you have a minus
+there
+I have given you for you to be sure is
+physically also similar proportions
+geometric compatibility is Delta is
+Delta 1 plus Delta 2.
+see these are subtle things
+I have given you a via media for you to
+visualize
+please go back and ponder about it get
+yourself convinced fine and if you have
+a new situation you have to bring in
+deformable solids don't jump onto it see
+whether you can make certain things as
+rigid certain things as deformable stage
+by stage you try to analyze so unravel
+what is the connectivity is idea clear
+and this is part of your tutorial
+problem
+and now we move on to another simple
+problem which is again
+easy to handle at this stage without
+further development of concept of stress
+many of you would have taken a Coca-Cola
+can and that's what you see these days
+and it's a very thin sheet of metal
+once you have taken the liquid out of it
+you can squeeze it with your hand it is
+actually stable because of the internal
+pressure
+so it is a very thin cylinder and I have
+already given you a clue I have shown
+what are the fringes here and what are
+the fringes in the
+thick cylinder or a thin cylinder I have
+shown it as slightly thick for you to
+see I can't have a simple line and then
+ask you to see the color only if I show
+some width you will be able to see it
+even before we go and solve the problem
+you have a clue can anybody say what are
+the stresses developed what way you
+anticipate the stresses developed in the
+cylinder
+is it uniform
+because that's what you can see because
+if I have uniform color and tension I
+see uniform color from photographic
+fringes now we have to go to mathematics
+and then get it done if you actually
+solve this it's not a thin ring but it
+also has a
+closed the ends
+I have taken this because that is what
+you see these days ideally I should have
+taken a problem like this you know when
+I grew we used to see horse driven
+carriages like this they'll have a
+wooden wheel
+and if they want to have long life for
+the wheel they'll put a steel rim so
+what they do is they heat the steel rim
+and then put it on it so it's a when the
+temperature is cool it drips the wooden
+wheel it enhances the life of the wooden
+wheel in fact we are solving a problem
+like that
+I have a thin ring subjected to internal
+pressure
+I have shown this because this is what
+you are able to see these days easily
+maybe in old movies you will see a
+carriage driven by
+horses okay
+so we want to solve this so we will
+go and do the free body diagram
+and we also visualize that when there is
+pressure
+the cylinder expands
+fine
+now I draw an imaginary line
+along the horizontal axis and I say that
+this radial displacement as Delta R my
+interest is to calculate Delta r with
+the background that we have developed so
+far
+we are not developed the concept of
+stress or anything like that in great
+detail but this is sufficient to solve
+this problem
+so can you draw the free body diagram
+you start drawing it I will also show it
+on my screen
+and you can verify whether you are able
+to because when I put a imaginary line
+and then cut it half
+fine
+when I remove that section you should
+put appropriate forces
+on that to be determined
+that we have also shown
+if suppose I have a member if I have an
+imaginary section what all can happen
+please make an attempt
+make mistakes no problem
+if you don't make an attempt you will
+never learn it you will have to make an
+attempt
+then see what I have
+got on my screen
+then you are understanding improves
+okay and taking proper notes is also
+very important so I have shown that when
+I have this in general I can have a
+force and a moment and all that now
+because of simplicity
+I am considering only two forces one is
+f
+T and another one is fr
+AME and if I look at this
+you know we have been talking about
+symmetry first of all this structure is
+symmetric
+loading is symmetric and we have assumed
+the elastic properties are symmetric
+that is what we said as isotropic fine
+so everything is symmetric here
+see if if one of this is not symmetric
+you can't bring in symmetry argument
+you should have the structure should be
+symmetric boundary conditions should be
+symmetric loading should be symmetric
+elastic response should be symmetric
+then you can bring in symmetry arguments
+by symmetry arguments what you can do
+I can remove the radial forces because
+it is trying to push it down here it's
+trying to pull it out at the bottom
+and we followed Newton's third law if I
+assume this this is automatically Action
+Reaction path
+once I have this the problem is solved
+can you take a small segment here and
+then try to write the equilibrium of
+that
+so you follow whatever you have learned
+in your rigid body mechanics all that we
+will follow here
+we will also have to bring in
+deformation picture for us to have
+additional equations
+fine can you take a simple section
+I have removed this
+radial forces and I've shown this
+reference axis
+I have taken an element at Theta
+these are all drawn very big for you to
+appreciate
+so this is R Delta Theta gives this
+Earth length
+and we have also taken ah
+a thin ring which is of width B
+I have a force represented here I call
+this as Delta f p you have to write in
+what is Delta f p
+I have the internal pressure is given as
+p
+OK and we have taken a thin ring of
+width B
+ok
+so I have this as pressure into area
+that is a force
+so now what I have to do
+I have to integrate from Theta varies
+from 0 to
+pi
+I I if I balance this segment I have the
+necessary expression for what is the
+force f t
+so I can put this as Delta f x and Delta
+f i and I can write the force
+equilibrium Delta f i equal to 0
+and I have 0 to
+pi
+Delta f i minus I have one f t here
+another f t here that's equal to 0 is
+the idea clear this is very straight
+forward
+we have taken some simple problem
+and then you substitute
+what is Delta f y
+and this is nothing but
+Delta f p sine Theta so I get this as p
+multiplied by B into r d Theta into sine
+Theta and you can easily do the
+integration I get this as minus cos
+Theta and put the limits I get the
+famous expression f t equal to p r b
+in fact people find out the stress I can
+also find out the stress stress is
+nothing but Force divided by area
+here if I have the thickness as T so I
+will divide it by B into T so I will
+have this as p r by T and P R by T is a
+very very famous expression
+very very famous expression but our
+ultimate goal is what we want to find
+out what is the radial expansion of the
+pressure vessel thin cylinder
+ok
+so I have this FDA acting like this and
+if I completely unwrap okay for the
+positive space I cannot show you the
+complete length so I have put a
+cut here and this is of the length of
+the
+complete circle so I will have this as 2
+pi r to make it little more
+[Music]
+um
+accuracy 2 pi r plus T by 2 but
+Engineers will always knock the last
+term fine but since you are not very
+much into engineering I want to put step
+by step and finally knock it off ok so
+what we are doing is we are taking an
+equivalent radius that is at this
+Central of the thickness
+so this is nothing but what I have a
+simple strip pulled in
+tension
+is idea clear and tension you know we
+have already seen what is expression for
+Delta
+I can find out the axial deformation
+what we have seen what is the expression
+we have seen earlier famous expression
+as p l by a e so a substitute was P here
+it is f t here
+okay what is the length length is also
+given what is the area X model
+everything is known
+so I can find out what is the
+elongation of this okay
+I put that elongation as delta T
+so force is f t l is this area is BT and
+then X Mod let's see
+so if I substitute this
+I get this as 2 pi p r squared divided
+by t e multiplied by 1 plus T by 2R
+but this is not what we wanted we wanted
+the radial expansion what is
+interrelationship between
+axial the circumference is increasing by
+this how do I find out the radial
+displacement
+simply divided by
+2 pi
+fine so you have to bring in all your
+analytical geometry Delta R is nothing
+but delta T by 2 pi
+so I get this expression I get this
+Delta r equal to
+PR Square by t e
+multiplied by 1 plus T by 2 r
+R is so very high thickness is very
+small I can put this as p r squared by T
+again a very very famous expression
+CBC T by 2 R is very very small
+so I can neglect that
+okay
+and you know as an utility for this you
+have a very interesting problem there
+are many ways you can make a pressure
+vessel
+fine
+and let me have a look at it we will use
+this knowledge to solve a
+practical problem see if you go to a
+book
+the book problem will be only like this
+so if you read this yeah water pipe is
+made of longitudinal wooden staffs I
+have a
+wooden staff like this
+you know I want to make a pressure
+vessel with local available materials
+and it should also be strong enough to
+withstand the whatever the liquid that
+is pressurizing this
+and what is done is you assemble all of
+them that is not very clear from this
+which is very clear from this animation
+fine that's the advantage when you
+have this okay so I have individual
+wooden strips
+and what is done is
+you tie it by a steel
+ring like this
+the question is
+what should be the distance between the
+two successive steel rings
+which is
+essential for me to transport the liquid
+without any leakage
+and what the problem says
+the problem says what is the
+size of this Steel Rod that is one inch
+that is 25.4 millimeter diameter
+pressure in the water pipe is also given
+as 689.5
+kilopascal
+and from a design perspective
+what is the allowable
+increase in the central line
+not more than 0.762 millimeter that's
+given as a design pyramid
+we have
+got the expression for Delta R so now
+what is given here is the center line
+difference so I have to find out what is
+Delta r
+so I know all these parameters
+so now what you have you have a fluid
+which is going inside what essentially
+you have to look at is
+as if wood is not supporting any load it
+is only the steel
+ring that is supporting the load
+that means what you have to find out
+take S as part of your
+problem so you have pressure acting over
+a length s
+that is transmitted to the
+steel ring
+fine
+you see as a designer you have to find
+out whether it should be 0.762 or
+something else
+that you don't have to do now this given
+in the problem
+so its a very nice problem
+very nice problem where
+whatever the knowledge that you have
+gained
+as what is the nature of resistance
+developed in the pressure vessel
+we here again we have a nice thin ring
+and you also have expression for what is
+the radial expansion
+with this you will be able to solve the
+problem fine it's part of your tutorial
+okay
+then we move on to
+an observation
+you know I have always said that
+photonasticity is very very user
+Interactive
+and you have lot of
+understanding is possible can you look
+at what happens in a thin cylinder
+that's what we have looked at
+we have got The Fringe pattern as
+constant and we have also got the
+mathematical expression to be constant
+it's not a function of radius it was
+independent of the radius
+on the other hand when I have a thick
+pressure vessel
+what do you see
+what way you can relate what are the
+comments that you can make about
+the resistance developed in the tick
+ring
+what is that you see like you have seen
+in the case of beam
+you see all the fringes here
+nothing is Vanishing it's not one color
+it's it's different colors and nature is
+also very nice in the case of beam you
+have parallel lines
+fine you may find it difficult to draw
+parallel lines because these days you
+don't use mini drafter you directly get
+into AutoCAD you don't have the feel of
+how to draw a parallel line comfortably
+isn't it you escape that so nature loves
+beautiful geometrical patterns and here
+what you find
+these fringes are concentric Circle
+can you make one more observation
+here I have shown 0 1 2 and 3.
+I have these fringes
+what are the distance between the
+fringes
+is it uniform like what you had seen in
+the case of a beam
+it's not uniform
+so it is
+different
+so it's non-linear
+in fact if you have to solve this
+problem
+you have to go to the second level
+course
+where you will have
+it's called a lamis problem you have a
+stress function and then you solve it
+but even before you could get into
+complicated mathematics
+it is easier for you to find out
+from this
+influence what way the stresses could be
+okay
+and with this we have a
+bird's eye view of what happens in a
+thin cylinder and we have also
+understood what is the
+false deformation relationship and if
+you have to go and handle any new
+problem make some of the aspects as
+rigid for you to visualize
+from that you find out what is the
+interrelationship and carefully write
+the compatibility condition you cannot
+write it arbitrarily okay thank you
+[Music]
+thank you
+[Music]

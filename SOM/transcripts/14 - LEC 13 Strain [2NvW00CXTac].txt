@@ -1,0 +1,1041 @@
+[Music]
+digital India educated India
+[Music]
+let us learn from this class concepts
+related to strain
+and now we have looked at concepts
+related to stress
+and soon we understand that strain can
+also be labeled as a tensor so whatever
+the concepts that we have developed for
+stress you will have a mirror image of
+it in terms of strain and you'll also
+have to look at
+we will confine our attention to
+infinitesimal strain in this course
+but nevertheless you should also
+recognize that you have situations where
+you have finite strain
+how this needs to be handled at least in
+a rudimentary manner we will try to see
+in our lectures on string and what we
+will do first is
+you are all given a rubber band
+and then I would like you to take it
+identify a region where you have
+that uniform cross section because you
+know it's all
+made in a very crude manner so there is
+no consistency in the cross sectional
+dimension
+and I would like to hold it
+and pull it and make observation see I
+have made sure that I have I am holding
+a portion of it
+that can be taken as a starting length
+now I slowly increase it
+I am able to go double the length
+I am also able to go beyond that
+and suppose I release it I can come back
+comfortably to the initial position
+there are also other observations
+anybody has made when I elongate like
+this what are all the observations you
+make cross section becomes smaller so
+that means there is something happening
+in the lateral Direction so that's what
+you see it in this in a very magnified
+version so when I have a uniform
+stretching
+it also has a contraction in the lateral
+direction if I have a block of material
+then it will also have in the
+perpendicular Direction
+whereas in the case of stress when we
+looked at it we were able to apply
+uniaxial stress very comfortably
+I don't have to do anything extra to
+apply uniaxial stress simply take the
+object and pull it that's all I do
+suppose I pull if I exaggerate the
+deformations
+I also have a lateral contraction
+suppose I
+push it instead of pulling it I compress
+it what would you anticipate in the
+lateral dimension
+opposite of this should happen it will
+bulge out
+so when I have strain it is always
+either biaxial
+or triaxial so what I have here is
+I have contraction which is exaggerated
+what I have done is I have put circles
+on this and
+which is magnified many times because
+for us to visualize and develop the
+concepts we have to magnify it there is
+no other goal and while developing the
+concepts of stress we also seen that we
+have taken different cross sections and
+if you plot a quantity strain versus
+stress you get only one graph and this
+was also the birth of the concept of
+stress this is also the birth of concept
+of strain
+and what you will have to note down here
+is this is all discussed when the
+deformation is within 0.1 percent
+fine
+that point one percent is very very
+important and we have also noted that
+this was not something very simple you
+know Jacob bernardly is credited with
+the beam Theory and you find it was this
+last paper of his life
+and I have also said in engineering how
+do you process the data what you plot in
+the x-axis and what you plot the y-axis
+has really revolutionized understanding
+of Concepts and also development of new
+entities
+now let us look at
+plane strain which is defined in a very
+simplistic manner here we will also see
+a different type of presentation later
+a body whose particles lie in the same
+plane and which deforms only in this
+plane that is what is emphasized
+now let me take up a simple case of
+uniform strain
+that is if all the elements are deformed
+to the same amount
+so I take a simple example
+and then here I have a constraint on
+either side
+I have a rubber block because that is
+what you and I can apply load and then
+see now I have drawn a circle
+and the circle also has several lines
+drawn for us to visualize
+what would happen to this when you apply
+a uniform deformation
+and mind you here I have constrained the
+size and I'm going to apply a
+compressive load
+so I have to take special care
+for me to have a uniaxial strain
+here I have not done any special
+attention so this is a biaxial strain
+and when I apply the load when this
+rubber block is compressed what would
+happen to the circle
+it will translate into a ellipse
+so what you find is circle as deformed
+into an ellipse
+and you can also see what has happened
+to the
+lines drawn a what happens to
+the line drawn a e c g
+HD
+as well as BF they still remain straight
+because it is uniform strain
+and you can also understand in like in
+the case of stress so when this line
+element Dia shrinks to zero we get
+strain at a point
+I raised a question whether strain is a
+scalar or
+it is something much more we have raised
+a similar question when we develop
+stress it appeared like a scalar to
+start with because when you look at
+components they are always numbers they
+will appear like scalar but the entity
+is not a scalar entity like stress
+strain is also a tensor
+and you have all that understanding here
+so when at this point if you take the
+center as the reference
+when you look at what happens on all the
+directions
+you find it changes from direction to
+Direction
+you get the idea very similar to stress
+you'll also have to look at instead of
+the planes you have to look at
+directions which are infinite when I go
+around the point of Interest
+so we will also say strain is also a
+tensor of rank 2.
+and you know you can also have a non
+uniform strain
+and what I have shown here is a very
+interesting example
+a guardian pin is developed by a
+punching operation
+and this is done by super plasticity
+this is again done in IIT Madras by
+Professor Kevin gopal
+and you find visually whatever the lines
+which are like Square to start with get
+distorted in the process
+and here we are talking about very high
+values of strain
+and what a guardian pin is when you have
+IC engines I have the cylinder is
+connected to the connecting rod the pin
+that forms in this joint is a guardian
+pin I have a horizontal section and a
+vertical section
+so what you see here is what is the
+level of strain the level of strain is
+so high so whatever the lines drawn you
+can visually perceive
+that these lines are distorted
+and this is a case of a non-uniform
+strain
+strictly does not come under plane
+strain
+for the purpose of illustration this is
+good for a non-uniform strain and what I
+find is if I apply variable load on the
+Square block
+I do get distorted image of the circle
+and the lines also become curved this is
+what I have
+in this diagram
+BF and HD or the curved
+so when I have a uniform strain the
+process is very simple and usually you
+come across non non-uniform strain and
+special cases you may have the situation
+of uniform strain
+and you will also have to recognize what
+is the level of deformation we are
+talking about
+and that you can understand when I look
+at the simple tension test
+say you have a attach a key where you
+have a shaft is rotated and supported on
+bearings
+and when I have a mechanical structure
+like this
+it has to remain elastic and this is a
+very very small region this is yellow
+region shown here
+and we have already seen that the
+maximum deformation is limited to 0.1
+percent strain
+0.1 percent translates into
+when you look at in terms of micro
+strain which is defined as 10 power
+minus X millimeter per millimeter 0.1
+percent reduces to 1000 micro strain
+1000 micro strain is the max Cinema
+level of strain permissible in most of
+the Practical structures you never teach
+1000 micro strain when I have a
+mechanical element like this
+you get the point because when the loads
+are removed they have to come back to
+its original position if they deform
+excessively a shaft cannot rotate inside
+the bearing so in Practical applications
+you look at deformations which are
+extremely small
+and mind you when I say micro sign is
+Central minus six millimeter per
+millimeter it's going to be extremely
+difficult to measure fine
+on the other hand when I look at the
+tension test and look at what happens to
+the material
+the x-axis is drawn up to 28 percent of
+strain and when you live in this region
+you get this material deformed into your
+guardian pen so when you have a
+situation like this strains are Way
+Beyond it's about hovering around 20 to
+22 percent
+it has not reached the stage of fracture
+and you call this as a finest strain so
+you need different mathematics to
+express what are the strain
+behavior and so on and so forth It's not
+simple mathematics okay
+and in the case of Center materials we
+start with simple definitions you have
+an extensional strain
+which you all can easily decipher
+I have a small element of size Delta X
+and Delta Y and we have taken a small
+element Delta X Delta y in the limit we
+will say Delta X goes to 0 and Delta y
+goes to 0.
+and whenever there is an extension like
+this I can have this as
+Delta U change in length divided by the
+original length I can call this as
+axial strain in the
+X direction and you will also have two
+subscripts that subscripts share the
+similar
+nomenclature what we have looked at it
+will represent Direction in sort of the
+plane
+first one which will show the direction
+ok
+and you have the
+extensional strain in the y direction
+and we have shown in such a manner that
+there is no lateral contraction
+in fact this happens in certain type of
+material in the case of cork
+it does not have any lateral string
+it's very interesting to see OK and
+these are all infinitesimal strain we
+are talking of very small values of
+deformation we have already said in the
+beginning of the course we will confine
+our attention to small deformation that
+makes our stress strain relationship
+linear and it also gives the host of
+other advantages
+so you should never forget that we are
+dealing with extremely small quantities
+and you also have
+a sheer strain
+a Shear strain will also look at the
+definition a little by later
+it's a change in the initial rectangle
+so I have this
+Edge rotated like this this Edge rotated
+like this and that's what we have in the
+next slide fine and you have Shear
+strain is defined as a change in initial
+right angle between two line elements
+originally parallel to the x and y axis
+for the purpose of illustration I show
+these angles as very big
+fine from your analysis perspective
+these are all extremely small less than
+a degree
+I have shown this as maybe 20 degrees
+okay on each side but it is less than a
+degree
+and when I have this
+the angles Theta 1 plus Theta 2 gives me
+what is the shear strain and when the
+angles are small
+I can simply write this as for me to
+express them in terms of Delta U and
+Delta y Delta V and Delta X as summation
+of tan Theta 1 plus tan Theta 2. and you
+know how to calculate tan Theta 1
+so when I do that
+tan Theta 1 is Delta U by Delta y
+tan Theta 2 is Delta V by Delta X
+and you have gamma x y
+and I should also tell you that this is
+labeled as engineering strain
+okay it is Theta 1 plus Theta 2 Delta V
+by Delta X Plus Delta U by Delta y
+we would soon see later that we will use
+only half of gamma X Y when we express
+this as a tensorial quantity and what is
+the convention see we have looked at the
+convention for
+what is positive shear stress a positive
+shear stress will introduce a positive
+Shear strain
+and what you have is you make a neat
+sketch of this please make a neat sketch
+but when you express it the expression
+looks little complicated to visualize
+when the axis rotates so that the first
+and third quadrants become smaller that
+is seen very clearly in the diagram
+first and third quadrants become smaller
+the shear strain is positive
+the opposite of this you call that as
+negative Shear strain so you have the
+diagram drawn and diagram is very
+illustrative of what we are meaning as
+positive and negative Shear strains so
+strength of material simply States this
+and then carries on with all the
+analysis
+we will also look at from a displacement
+perspective
+see we have to look at what happens
+before deformation and after deformation
+and let that be dictated by a
+displacement vector
+when we look at a planar situation it
+has components u and v
+and how do the displacement component
+should be
+there should be continuous functions of
+X and Y so that when the material
+deforms I do not have voids I do not
+have separation I have compatibility in
+the deformation all that is taken care
+of
+and you will also have to look at it is
+not the relative displacement always
+cause a strain
+you could have a relative displacement
+that Erasers on Rigid body rotation will
+not contribute to strain this will
+understand in stages
+now we will look at when I say this I
+have a
+displacement field then I take a simple
+element which we have taken as Delta X
+and Delta y
+and we would say after applying a
+deformation this gets distorted Let each
+of these points have some displacement
+Vector fine and these are all
+exaggerated I have taken Delta X
+comparable to X but I call it as Delta X
+you should understand
+unless these diagrams are big
+you are not in a position to visualize
+what happens
+so I have a displacement Vector that
+point O move to O Prime
+similarly Point C has moved to c Prime
+Point D has more to D Prime
+point he has more t e Prime and I can
+have individual displacement vectors
+you o u c u d u e so on and so forth
+and when I join this I get this as a in
+general some distorted shape
+and I can also Define The Strain
+quantities based on the change in the
+length if there is a change in the
+length in the X Direction
+I would say it contributes to
+Epsilon x x okay
+and when I have a normal strain you have
+a definition Epsilon x x
+this is nothing but
+in the limit Delta extends to 0
+this helps us to understand what is the
+state of strain at a point when the
+limit goes to zero
+we also exploit the Continuum nature of
+the material that is a assumption that
+we have made it's an elastic Continuum
+otherwise I cannot write this limiting
+process
+so the change in length is O Prime C
+Prime minus OC
+and the original length is OC
+and Epsilon y by
+comes to O Prime e Prime minus o e
+divided by Oe
+and how do we
+say when the elongation
+when it elongates we call this as
+positive strain
+when it contracts we call it as negative
+strain
+like you have calling tension and
+compression it's very similar to that
+and you can also Define the shear strain
+and Shear strain is is nothing but the
+change in the original rectangle
+so whatever the original angle is Coe it
+was initially Pi by 2
+and the final angle is C Prime o Prime e
+Prime
+so this is the definition of your Shear
+strain
+and you know I have said that all
+relative displacements do not cause
+strain which will not understand and
+this is a very nice example you know you
+have a cantilever where I have put the
+load in between
+and you know how to draw the shear force
+and bending on diagram you have a
+segment
+where there is no load at all
+and you also have a photoelastic pattern
+which shows
+which portion is experiencing stresses
+and stresses are there strain will also
+be there when success are absent chain
+also will be absent
+and this is nicely summarized here
+solid stresses relative displacements
+not all kinds of relative motion give
+rise to strains and stresses in a solid
+if a solid moves as a rigid body the
+rotational part of its motion produces
+relative displacement but that does not
+cause a strain
+I take the small element
+when I have a translation no problem
+on the other hand if I have a rotation
+if you look at there is relative
+displacement
+but this is a pure rotation in the
+about the easy access
+and if I take a cantilever like this
+it must be how many of you have a look
+at it see this is a very soft material
+so it sags even with the applied load
+this is the free end
+I put a load somewhere in between
+so what happens
+to the region from the front to this
+it is subjected to
+resisting the applied load by bending
+moment and Shear Force
+and in this section this is not
+experiencing any load but still
+it is having a rotation can you see that
+and this rotation is a rigid body
+rotation
+on the other hand in this section
+whatever you have
+I have strain as well as
+rotation of various degrees
+so relative displacement
+in a sense cause a strain but not all
+relative displacement contributes to The
+Strain so you have to understand
+we will also look at when we see the
+thermal effects fine
+so I have this angles are also shown
+fine we will also find a mathematical
+expression how to define rotation
+now what we will do is in a while we
+developed the equilibrium condition when
+we wanted to do the stress analysis
+we've learned when the quantities are
+changing as a function of
+position
+how do I write it using Taylor series we
+have looked at that
+now we have taken a small element Delta
+X and Delta y
+in the limit this goes to 0 but this has
+a finite distance now
+so if I have a quantity as U at o
+when I go to
+C this is separated by a distance Delta
+X
+so I will have U Plus
+what is that we are going to have fine
+the same thing I won't express it in
+terms of the displacement u and v
+so I have the distorted element like
+this
+please make any sketch
+and you would get expressions in a very
+nice manner what we have defined we will
+see right here
+and I want you to tell me what is this
+distance
+I have moved by a distance Delta X
+the point O has mode horizontally by a
+distance U
+and the point C has moved to c Prime can
+you tell me what is this complete
+distance from the way I have drawn the
+diagram
+can you tell me can you guess make a
+mistake no problem
+I will have U Plus
+what happens to the Taylor's component
+Taylor series component
+yeah
+so dou U by dou X Delta X
+so similarly we should write this for
+the other points d
+Prime e Prime and so on
+okay
+and even for C Prime there is also a
+shift of this in the vertical Direction
+so the next one is how do I write this
+distance this distance we have written
+as V
+and this resistance how do I write it
+this is again happening because of the
+change in the X Direction
+so you have to write this as V plus dou
+V by dou X Delta X do you want do you
+get the idea how to apply this Taylor's
+approximation systematically
+we have to see U is a function of X and
+Y V is also a function of X and Y now we
+are looking at what happens when X
+changes
+and similarly when I come to e Prime
+this because
+y has changed
+or V has changed okay whichever way you
+can look at it why has changed is a
+better
+[Music]
+appreciation so I have this the point O
+has more to O Prime
+e was also at the same position of x e
+has moved to e Prime
+they are separated by Delta y so I have
+this as U plus dou U by dou by Delta y
+and how do I write the vertical distance
+I will have this as
+what is this what is this quantity
+V plus dou V by dou by Delta y so if you
+understand and put all these labels we
+have already looked at how we are going
+to define the
+normal strain we have also seen how to
+define the shear strain if I take that
+formula and plug in these values I get
+expressions for normal strain I also get
+expressions for
+Shear strain
+and in the process what we have looked
+at is we have also looked at
+a displacement gradient that can be put
+in the form of a matrix I have this as
+dou U by dou X
+dou U by dou by dou V by dou X and dou V
+by dou by I have a displacement gradient
+Matrix
+we will see its very interesting to see
+how they are related to strain and
+rotation
+so now we are going to look at how to
+get the normal strength we have the
+expression o Prime C Prime minus o c by
+OC
+so when I do this
+this is nothing but limit Delta X tends
+to 0
+Delta X Plus dou U by dou X Delta x
+minus Delta x divided by Delta X
+so this gives me Epsilon XX as dou U by
+dou X
+similarly
+I get an expression for Epsilon y by
+o Prime e Prime minus o e divided by OE
+so change in length divided by the
+original length that is the simplest
+definition of strain
+when I substitute the quantity is
+this reduces to dou V by dou y
+is idea clear
+I can extend the same approach for me to
+get a mathematical expression of
+Shear strain
+we have said that this is
+Pi by 2 minus angle C Prime o Prime e
+Prime
+and from the geometry
+I can write this as Pi by 2 minus
+dou V by dou X Delta X by Delta X
+minus dou U by dou y Delta y by Delta y
+and when I simplify this I get the
+expression as gamma x y equal to dou V
+by dou X Plus dou U by dou y
+which we have simply said as a
+definition to start with now what we
+have achieved is we have recognized
+there is going to be a displacement
+field
+from the displacement field by applying
+Tyler's approximation
+we are now able to express the
+quantities like Epsilon x x Epsilon YY
+as appropriate partial differentiation
+of u and v
+now I said in addition to the strain
+components you will also have to
+recognize what contributes to rotation
+and you have all that available in this
+diagram
+so we will look at the rotation how do I
+express the rotation
+so we've also recognized
+that this is rotating about Z axis
+because I have this as X and Y Z is
+perpendicular to this so the line OC has
+rotated by a small angle
+and that angle you can find out we have
+already looked at as Theta 1 and Theta 2
+and here I say anti-clockwise rotation
+is positive
+and clockwise rotation is negative I
+should apply the same convention
+I should apply the same convention
+so when I do this I get the rotation
+about the Z axis of line OC
+reduces to V plus dou V by dou X Delta X
+minus V divided by Delta X gives me dou
+V by dou X and this has rotated
+anticlockwise so this is positive
+and what way the line OE has rotated it
+has rotated in the clockwise Direction
+the sense is also very important
+so when I have the line
+OE I get this as minus of U plus dou U
+by dou by Delta by
+plus u divided by Delta y that gives me
+minus dou U by dou y you have to
+recognize that this has rotated in a
+clockwise Direction
+and for an element we take an average of
+this yes
+rotation of the element as a whole is
+the average of the rotations of the two
+perpendicular line segments
+so I have omega Z as half of dou V by
+dou x minus dou U by dou y
+and let me summarize these quantities
+fine
+and why I show this as this is a very
+nice example
+which has rigid body rotation in some
+segment which has strains as well as
+rotation
+in one of the segments because you are
+all tuned to photoelasticity you can see
+that this is the portion which is
+stressed I have Epsilon x x is dou U by
+dou X
+Epsilon y y equal to dou V by dou by and
+this is the engineering Shear strain
+okay gamma x y equal to dou V by dou X
+Plus dou V by dou by
+and what transforms like a Trends are is
+only Epsilon X Y which is defined as one
+half of dou V by dou X Plus dou U by dou
+y
+and what is the rotation
+Omega Z we have seen half of dou V by
+dou X
+minus dou U by dou y
+and we have already seen
+see these are all infinitesimal
+strain components very small we are
+talking of the order of
+0.001 it's a number because you have
+ratio of distance as you have this as a
+number
+and the strain components depend
+linearly on the derivatives or
+displacement components
+derivation is valid under the assumption
+of small displacement derivatives
+compared to Unity
+we have this maximum values point zero
+zero one which is very very small when
+you compare to Unity
+and there is also a very interesting
+interrelationship
+ok
+the requirement to express train by
+separating the displacement distribution
+that does not contribute to the string
+so if you look at the displacement
+gradients when they are small
+they can be expressed as sum of
+a strain tensor under rotation tensor
+and strain tensor is symmetric
+we have seen stressed and sorry
+symmetric from the equilibrium condition
+we got Tau XY equal to Tau Y X all those
+ideas are borrowed
+similarly Epsilon X Y will be equal to
+Epsilon y x
+and you have a rotation and if you see
+it in black and white it's very
+convincing I have seen the displacement
+gradient Matrix dou U by dou X dou U by
+dou y dou v by dou x dou v by dou by
+which can be expressed as one Matrix dou
+U by dou X
+half of dou U by dou y plus dou V by dou
+X
+these are all equivalent values OK
+though the order is written in a
+different fashion here
+one is
+Epsilon X Y another is Epsilon by X
+and I have this as dou V by dou by
+Plus
+this defines a rotation about the Z axis
+so when I sum this am I not getting dou
+e by dou X dou U by dou by
+so this quantity transforms like a
+tensor and you call that as a strain
+tensor
+so you should know the distinction
+between engineering definition of Shear
+strain gamma X Y is used repeatedly both
+the symbols are used when it is used as
+gamma X Y only one half of gamma x y
+to be taken as a component in a strain
+tensor only this obeys the laws of
+tensorial transformation
+so I can look at the displacement
+gradient as sum of strain tensor plus
+rotation tensor
+this happens for infinitesimal strain
+and we have already noted
+strain is a number
+it usually expressed as micro strain and
+if you look at one microstrain it is 10
+power minus 6 millimeter per millimeter
+and we have set point it is also
+expressed as percentages and 0.1 percent
+corresponds to a strain level of
+thousand microstrain
+so now we look at what is a strain
+tensor I have a strain displacement
+relation
+Epsilon x axis as dou U by dou X
+Epsilon y y is dou V by dou y and Gamma
+X Y is dou V by dou X Plus dou U by dou
+y
+strain Matrix is Epsilon x s gamma X Y
+gamma y x Epsilon y by
+strain tensor is
+Epsilon XX
+Epsilon x y and your Epsilon X Y is half
+of gamma x y r half of dou V by dou X
+Plus dou U by you can express it in any
+other way
+so when I go and plot the more Circle
+I will have to plot
+normal strain
+when I put the shear strain I should not
+only Epsilon X Y not gamma x y
+gamma X Y comes from historical
+Evolution people have looked at this
+quantity as gamma X Y when they
+initially started understanding what
+happens in the deformation
+but from a tensorial perspective you
+will have to have only Epsilon x y
+so that distinction you have to
+consciously make do not make the mistake
+so whatever that
+stress transformation law we have looked
+at I will have a counterpart a strain
+transformation
+if you have looked at principal planes I
+can also have principal directions here
+instead of a plane you have a direction
+in which the element only elongates or
+contracts it does not go any angular
+changes
+fine so all these are similar Concepts
+and you know the stress transformation I
+have a reference access as X and Y I
+have the other reference access as X
+Prime and Y Prime
+and if I want to get Sigma X Prime X
+Prime we have done it from a first
+principle
+and you have also learned how to write
+it from integral notation
+all that what you have learned you can
+apply to strain
+we can replay Sigma x x by Epsilon x x
+Sigma YY by Epsilon y y and Tau XY
+should be replaced by Epsilon X Y not
+gamma x y
+that's only distribution that you have
+to make
+and
+you know
+you have to write that rotation Matrix
+if you know how to
+determine X Prime y Prime from X Y if
+you write that rotation Matrix correctly
+like you have written down the stress
+transformation law can you write the
+strain transformation law you have you
+know how to write it from integral
+notation you can also write from Epsilon
+X Prime X Prime I have the
+diagram given from that you can easily
+write the rotation Matrix
+you will have identical image
+because all tensors transform into a
+similar manner so I have e Epsilon X
+Prime X Prime is Epsilon x s cos Square
+Theta plus Epsilon y by sin Square Theta
+plus Epsilon X Y sine two Theta
+and Epsilon X Prime y Prime is equal to
+minus Epsilon x s minus Epsilon y y
+divided by 2
+sine 2 theta plus Epsilon X Y cos 2
+Theta see I read this so that you get
+time to write it down you need to have
+this expressions in your notebooks
+so that it's easy for you to review when
+you prepare for an examination
+I have Epsilon y Prime y Prime equal to
+Epsilon x x sin Square Theta plus
+Epsilon y by cos Square Theta minus
+Epsilon X Y sine 2 Theta
+so from strain transform Mass stress
+transformation love you have gone to
+strain transformation
+in stress analysis we have determined
+the principle stresses and their
+Associated Direction
+here we will find the principal
+directions
+and what is the angular orientation
+similar way so I have to coin this as a
+eigenvalue and eigenvector problem
+so I have to find out what is Epsilon 1
+Epsilon 2 and Epsilon 3 and to make your
+life simple
+I will also give you this as a
+expression
+Epsilon Cube minus J 1 Epsilon square
+plus J2 Epsilon minus j3 equal to 0.
+like you had seen i1 I2 I3 as invariance
+in this train discussion we label the
+must J1 J2 and j3
+and what is the definition of I 1
+some of the diagonal what is the
+definition of J1 J1 is also
+Epsilon X plus plus Epsilon y y plus
+Epsilon z z
+like what you have seen in principle
+stresses here again when I get three
+roots of this equation arrange them in
+the algebraic manner you get Epsilon 1
+Epsilon to Epsilon 3.
+and you also know how to write I2
+you can similarly write J2 and j3
+I have shown one element of J2
+Epsilon X Epsilon X Y Epsilon x y and
+Epsilon y y you have to get the
+determinant of this
+and if this will have three elements can
+you write the second element
+we have taken the
+two by two Matrix from this so
+determinant of this
+Epsilon YY Epsilon Y Z Epsilon y z and
+Epsilon is easy
+and similarly all the four corner
+elements
+contribute to
+the third element of J2
+so it's a mirror image whatever your
+learned in stress analysis similar
+quantities you look at in stream
+and what is j3 at the determinant of the
+complete Matrix
+and like what we have seen in stresses I
+have a cubic in a three dimensional
+situation
+I simplify when I look at only in the X
+Y plane knock of all quantities related
+to Z
+same thing I do this here also
+when I write this
+J2 J1 J2 and j3 they are expanded in
+this form
+and J2 is Epsilon x x Epsilon y by
+Epsilon y by Epsilon Z Z Plus Epsilon Z
+Z Epsilon x x minus Epsilon X Y whole
+Square minus Epsilon y z whole Square
+minus Epsilon z x all square
+suppose I knock off terms related to Z
+since we confine our shell to two
+dimensions
+you have
+this quantity also will go to zero this
+will also go to zero this will also go
+to zero and the complete j3 will go to
+zero
+and I have a quadratic expression
+from the quadratic expression you can
+find out
+The Roots
+and The Roots
+turn out to be the same form so what you
+need to do is instead of Sigma x x Sigma
+YY and Tau X Y you have to replace them
+as Epsilon x s Epsilon y y and Epsilon
+X5 you should not make a mistake that
+you substitute gamma X Y there
+gamma X5 traditionally we use a symbol
+gamma x y That's How Shear strain was
+originally understood
+so I can get this
+so this will give me what will be the
+magnitude of the
+elongation or contraction
+all that you have seen I can have both
+positive both negative one is positive
+one is negative all the ideas what you
+have seen in stress are applicable here
+now we will also have to find out they
+angular orientation
+you know from strain transformation
+strain transformation law you define
+principal directions are those where you
+do not have any Shear strain
+so that again reduces to what
+when I say epsilon X Prime y Prime goes
+to 0 gives me the expression
+Theta equal to half of tan inverse
+2 Epsilon X Y divided by Epsilon x minus
+Epsilon y
+so what you have to understand is
+we have looked at
+stress from the original simple
+experiment of taking the material with
+three different cross sections if people
+plotted on the x-axis
+change in length divided by original
+length and in the y axis
+Force divided by area you could get only
+one line for the given material
+then we developed concept of state of
+success at a point
+similarly we have looked at from that
+graph started with change in length by
+original length of strain
+and we have said if you have Epsilon X
+Epsilon x y and
+Epsilon y it behaves like a tensorial
+nature
+and whatever the concepts that we
+developed for stress you can find in
+strain we are looked at principal strain
+magnitudes and principle strain
+directions
+when we go from one axis of reference to
+other axis of reference the same
+transformation law is applicable
+and we have also recognized that you can
+have a relative displacement that's not
+contributing The Strain we recognize
+that as a rotation and while looking at
+the rotation we have assigned if it is a
+rotation the anti-clockwise direction is
+positive and clockwise direction is
+negative so we also have a expression
+for the rotation
+and in future we would also see similar
+to more circle of stress we will also
+see more circle of strain thank you
+[Music]

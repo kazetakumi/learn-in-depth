@@ -1,0 +1,1214 @@
+[Music]
+digital India educated India
+[Music]
+let us move on to the new chapter
+on deflection of beams
+see while we study torsion we studied
+torsional stress as well as the twist of
+the shaft simultaneously
+those concerts were simple so we could
+do it in the same chapter
+in fact bending we have done it in two
+instances one bending stress where we
+have looked at the axial stress then we
+have also discussed the shear stress
+and as a separate chapter we discuss
+about the reflection
+and deflection is fairly simple provided
+you understand and recall what you have
+learned as idealization of supports in
+your earlier course
+and I have always emphasized
+experimental knowledge
+and you should be able to visualize for
+the given supports how a beam can bend
+that would be the focus of the lecture
+also today
+okay
+and you know it is closely related to
+curvature that is how we relate the
+deflection to the bending moment
+and you have the beam bent
+and like we discussed in bending stress
+here again all the equations are
+developed for Pure bending
+simply use those equations to any other
+nature of loading on the beam
+look at the bending moment take out the
+bending moment value and use it in your
+equations
+so it's an approximation we do only
+engineering analysis
+and once you have the beam subjected to
+four point bending this section
+experiences pure bending
+and you know you have
+developed the notion of curvature you
+have the radius of curvature rho
+indicated
+and the vertical displacement
+is also labeled as V because we have
+used U as horizontal displacement
+v as the vertical displacement
+and u and v are functions of X and Y
+fine
+and if you draw the tangent at this
+point of the Curve
+I can also find out what is the slope
+angle
+I am plotting X versus y as well as V
+so I have the line segment DS
+I have this angle as
+Phi
+and this vertical distance as DB
+and it is better that we go back and
+understand what is
+curvature
+and curvature is nothing but rate of
+change of the slope angle of a curve
+with respect to the distance along the
+cup
+so I take a point
+Q
+which is oriented at angle C
+and I take a neighboring point
+at a very short distance away
+I label that as r
+and if I draw the
+slope
+the difference in the slope is
+Delta Phi even the notation is like this
+it is actually C plus Delta Phi from the
+horizontal from the previous one it is
+separated by DC these are all shown
+exaggerated for you to easily visualize
+and it is also said whatever the
+discussion that we are going to do
+is valid if the angle C is less than 4.7
+degrees
+you should not lose track
+but whatever the deformation I show they
+are all large deformation for you to
+comprehend the nature of deformation
+clearly
+and you can take QR as DS
+Delta s
+and what is curvature at Q
+this is defined as limit
+Delta s tends to 0
+the ratio of Delta Phi divided by Delta
+s
+which you can also label it as D Phi by
+d s
+and we have an understanding what is
+Delta s Delta s is q r
+from this diagram you can say it is O
+Prime Q Delta Phi
+so I can write this as limit Delta s
+tends to 0 1 by o Prime Q
+because we are talking about Delta is
+going to 0 in the limit I can also write
+this as 1 by o q
+and
+we get the relationship D Phi by d s
+equal to 1 by rho
+now what we will have to do is how to
+relate this D Phi by d s
+to the
+deviation
+DV or displacement V
+once you establish that then we will
+know by looking at the bending of the
+beam how to calculate the deflection the
+reflection is going to be represented as
+the displacement V
+and mind you even though we take a three
+dimensional Beam for demonstration
+mathematically we are only looking at
+the neutral
+axis
+fine we are only looking at plane of
+symmetry
+we don't recognize that the beam has
+thickness
+the neglect position effect
+in fact we looked at what happens when
+there is a position effect what way
+the beam bends we have looked at it in
+the previous chapter we said
+when we look at small deformation all of
+this do not happen
+it was only an extreme condition okay
+and rho is the radius of curvature at Q
+and we go back to Euler bernola
+hypothesis just to recapitulate
+and I have the beam is bent I have these
+lines so this line is straight if you
+look at these lines which are drawn here
+they are getting rotated
+and can you also see visually that as I
+go along the length of the beam the
+rotation is also becoming
+larger and larger
+and one of the idealization of Euler and
+Bernal is Plain Cross sections of the
+beam remain plane during the bending
+in contrast to torsion
+we started with the right hypothesis in
+bending
+okay in torsion we started with the
+wrong hypothesis
+and by experimentation we proved that
+hypothesis is wrong here we start with
+the right hypothesis and the experiment
+supports the plane section these lines
+remain straight they don't get distorted
+a cross section which is perpendicular
+to the undeformed axis of the beam
+remains perpendicular to the deformed
+axis during bending
+you know after relating the curvature to
+the deflection
+we will go back and see
+by a sketch the meaning of the statement
+okay
+and whatever we have stated here it
+implies that originally parallel lines
+in the beam gets rotated which is very
+visible we have drawn the line we have
+the advantage of a soft material
+so we could Bend and see for ourselves
+that these lines get rotated
+and we have already seen
+d v by d x equal to tan Phi that you get
+from this diagram
+now we will have to relate how to get
+the
+value of deflection V
+we will differentiate this expression
+with d by d s
+so when I have to differentiate the with
+respect to D by d s I will have to
+differentiate with respect d by DX
+multiplied by DX by d s okay and tan Phi
+you can
+find out what is the value it's nothing
+but secant squared 3
+so I get this as D Squared V by d x
+square
+d x by d s equal to secant squared Phi D
+Phi by d s
+and let me do the rearrangement of this
+expression our interest is to get D Phi
+by d s
+so D Phi by d s can be written as D
+Squared V by D X Square D X by d s cos
+squared Phi
+can you replace cos Square Phi from the
+expression
+when you look at d s d x DV I can also
+find out cos Phi cos Phi is d x by d s
+I am going to use this for me to replace
+okay
+and these are all very very simple
+mathematics in this chapter
+though you learn many methods the basics
+are very very simple there is no great
+mathematics involved very simple
+exposure which you already have is going
+to be utilized
+and from the figure I can write what is
+cos Phi ok
+so cos C is DX by d s
+and so I can also say that DX by d s cos
+squared Phi becomes cos Cube Phi okay
+so I have a d Phi by d s is given as D
+Squared V by DX squared cos Cube Phi
+and I would like to replace cos Phi
+from the relationship cos Phi is 1 by 1
+plus DB by D X whole Square whole power
+off I suppose you are able to simplify
+and then convince yourself I have just
+written what is cos Phi
+fine
+and once I substitute this
+you know I have an expression
+where
+D Phi by d s is given as D Squared V by
+d x square
+whole divided by
+1 plus DV by D X whole Square whole
+power three by two
+and this expression is exact
+but it is non-linear
+you know we have always been saying that
+we live in linearized elasticity
+that is justifiable not because we want
+to force it to be linear because our
+deformations in actual practice are
+extremely small
+you must recognize that so it is a very
+valid approximation
+it simplifies your mathematics
+so I say
+DV by D X is very small
+so DV by DX squared is going to be a
+very very small quantity
+so I say that this is almost like one
+Unity
+so I can say d Phi by d s is
+approximately equal to D Squared V by d
+x square it's an approximation it's a
+deliberate approximation
+and we also know D Phi by DX equal to 1
+by rho
+so I am going to relate what is 1 by rho
+2
+these two D Squared V by d x square
+so we also recognize that we are doing
+an approximation
+and
+by doing this approximation you make
+only less than one percent error it's
+very very small
+provided
+the slope angle is less than 4.7 degrees
+see in actual practice
+the angle Phi would be less than 0.5
+degrees
+if really solve some of the problems it
+won't go anywhere near five degrees
+okay
+and so you will have to recognize that
+this is an approximation
+and all of this you can easily derive
+the mathematics involved is
+straightforward simple trigonometry
+there is nothing
+great
+okay
+and you have the fraction formula
+MB by i z is equal to minus Sigma X by y
+equal to e by rho so our interest is how
+to relate the bending moment transmitted
+by the beam
+to the deflection
+we have already seen d c by d s can be
+approximated to
+d square V by d x square
+and we know one by rho equal to m b by e
+i z z from this expression which is also
+equal to D Phi by d s
+so now I can establish
+a relationship between
+what is
+D Squared V by d x squared
+and the bending moment
+and we have already noted this this as
+flexural rigidity product of e into i z
+z
+or bending rigidity
+and sometimes you know since we use axis
+of the beam as X
+perpendicular this one is z and this is
+y people also simply drop off the
+subscripts ZZ because it is well
+understood we are confining our
+attention to a class of problems they
+may also simply say this as e into I
+easy to write every time when you want
+to discuss it becomes easier to write
+and this is famously known as Mormon
+curvature relation
+mind you this is developed for
+pure bending
+is idea clear
+we develop it for fuel bending but we
+apply it for
+a situation where the bending moment is
+varying when does the bending moment
+varies
+the moment you have even a constant
+Shear Force like in the case of a
+cantilever beam or a three point bent
+beam your bending moment varies that's a
+simplest variation you can think of
+even in those cases I am going to
+directly use this expression for me to
+find out the deflection V
+do you see any
+further approximations inherently
+embedded in this expression
+when we apply it for a beam transmitting
+Shear Force
+do you see
+have you not
+totally ignored the effect of Shear when
+I want to apply this expression to a
+beam transmitting Shear Force
+yes or no
+because this expression only worries
+about what happens because of the
+bending moment we are never brought in
+what is the effect of shear we have
+already seen
+the shear stress magnitudes are much
+smaller than bending moment and provided
+the bean is Slender you can safely
+ignore the shear effects
+becomes significant when the depth is
+larger and comparable to the
+length of the beam
+then I have to consciously bring in the
+shear effect
+which we need special methods to handle
+it
+and this is a very famous expression
+moment curvature so when we apply it for
+practical problems
+it is only an approximation it ignores
+the effect of Shear deformation of the
+beams
+and we have already seen e
+i z z s bending rigidity or flexural
+rigidity
+or it can also be called as bending
+modulus
+and if you have to calculate the
+deflection V you have to integrate this
+equation
+and apply the boundary conditions as
+simple as that
+so you have double integration
+integration of the moment curvature
+relation
+so when I have when you are given e i z
+z d square V by DX squared equal to m b
+if you different you integrate this
+twice not differentiate but integrate
+this twice
+and
+satisfy the boundary conditions
+when I integrate it twice I will have
+two integration constants and these
+constants have to be evaluated based on
+the
+boundary conditions and boundary
+conditions physically you will have
+something but mathematically you will
+idealize it as supports
+and these supports are developed in your
+course on Rigid body mechanics
+so once we understand what happens at
+these supports what possibilities exist
+for the beam to have a deformed shape
+the problem is extremely simple to
+handle so you have to have that
+visualization what happens at the
+supports you have a fixed support you
+have a simply supported support
+you have a free end what happens
+and we have also looked at certain other
+interrelationships earlier
+we have looked at d m by DX equal to
+minus V related to the shear Force
+we have also looked at DV by d x equal
+to minus W where W is the load that is
+applied on the beam
+so when you use these
+interrelationships I can also construct
+another set of
+equation
+which is a low deflection differential
+equation e a d power 4 V by DX power 4
+equal to w
+see I have taken e i out
+considering that I have a
+homogeneous material I do not have
+different materials and EA can be taken
+out otherwise I should have had D
+Squared V by DX squared of e i z z d
+Square D by DX Square I cannot take e i
+z out
+if I have a homogeneous beam
+if I have a constant value of moment of
+inertia I can take this out and
+the advantage here is I deal directly
+with the load
+it has an advantage
+see if you look at this expression and
+you want to do double integration
+I need to calculate the bending moment
+so far you have handled only statically
+determinate problems
+I have also shown
+what are statically indeterminate
+problems wherein you have to bring in
+what happens to the deflection
+only you bring in the deformation I get
+additional information for me to solve
+on the other hand if the load applied on
+the beam can be expressed as a
+continuous function of x
+this is applicable for even statically
+indeterminate problems
+so this is primarily applicable for
+statically determinate problems this is
+applicable for both statically
+determinate and indeterminate problems
+and you also have when you do this
+integration you have done the
+integration mathematically
+I can also do the integration
+graphically
+see in the early development of
+engineering or any physical sciences
+people relied more on graphical methods
+because they had no access to computers
+so in order to
+understand appreciate interrelationships
+they were very comfortable with
+graphical methods
+and particularly the civil engineers use
+this moment area method
+and we have always been saying that we
+are going to use principle of
+superposition left and right in this
+course
+we have used a linearized elasticity and
+it's an isotropic material
+and when you have the
+Advantage why not use method of
+superposition and in this course also we
+would emphasize more on method of
+superposition rather than this double
+integration or momentarian
+the reason is if you have to apply
+superposition you should be able to
+visualize under the action of the given
+load how the beam bends that
+visualization is very very important as
+an engineer
+it's not that you take an equation
+simply blindly do the integration and
+get the boundary condition satisfied and
+you say this is the answer that's not
+the engineer should function Engineers
+should feel where do you have maximum
+deflection where do you have maximum
+slope that knowledge is very important
+so that you gain more when you do this
+principle of superposition
+and I have already said when you have
+this expression this expression has
+completely ignored for a beam
+transmitting shear stress the
+contribution to the Reflection from the
+shear stress
+which we could easily accommodate when
+you go on to the energy method and we
+will also solve some other interesting
+problems
+when we go to the energy method
+the advantage of this is you can get the
+deflection and slope at all locations
+along the length of the B you get that
+as a mathematical expression substitute
+the position X you get the value of
+slope you get the value of deflection
+in general momentarian method or method
+of superposition energy method you try
+to find out at certain specific
+locations because when you are doing a
+design
+these values became important at on
+certain locations
+so you also need a quick method you also
+need a complete method to get the data
+now let us take a very simple problem
+like this the first question is how does
+the beam can bend
+what make any visualize
+I have this as a simply supported
+these are simply supported and this has
+a roller support
+because when there is a thermal change
+you allow free expansion and contraction
+and you know what is a pin joint okay
+when you say
+simply supporter it's a pin joint what
+does the pin joint do it freely allows
+rotation
+is idea clear
+the member is allowed to rotate freely
+so that you should visualize so what way
+it will happen
+we will see okay I have the beam
+supported on simply supported one and
+applying a concentrated load like this
+can you see how the beam is bent
+what happens at the supports
+please make a neat sketch you need to
+visualize this
+I said a pin join can allow a free
+rotation
+okay so look at what happens at this end
+what happens at this end
+this is a quite a slope
+is idea clear
+and you also find because the loading is
+symmetric
+you find there is a beautiful symmetric
+curl can you write anything
+mathematically at this point
+because you are going to write certain
+boundary conditions you should know what
+is the boundary condition
+we are going to discuss about what will
+happen to the deflection V
+you can say that this rests on the
+support so the reflection is 0 here
+the deflection is 0 here
+but because this supports or pin jointed
+freely rotate you can have slope slope
+is non-zero
+slope can exist
+what can you say at the load application
+point
+slope is zero but I have deflection
+if you understand this if you look at
+the beam like this this chapter is
+extremely simple
+okay and you should visualize how the
+beam can bend that is very very
+important
+so we go back to our habit of drawing
+the Shear force and bending on diagram
+you know I am showing this again and
+again mainly because you should also
+pick up speed for these problems by
+looking at the loading diagram you
+should be able to draw the sfd without
+any intermediate calculations
+and we do it from right to left
+I have the load here I go up I remain
+constant here and come down by
+w
+and then go here and then go up
+similarly I can have
+the bending mount diagram
+I have this going like this fine and you
+also have the deflected shape
+so you have all the information that is
+necessary for you to solve the problem
+relation you should write what is the
+bending moment at a section apply the
+boundary condition and get the two
+integral constraints
+and I have also shown the sign
+convention that we have been using in
+this course
+so everything is complete about this
+problem
+so you have to visualize the idea is in
+certain simple problems I will give you
+the picture here so that should give you
+a training
+when loads are given you should be able
+to conjecture what could be the deformed
+shape
+looking at the support looking at how
+the beam is loaded you should be able to
+sketch it at least approximately
+and you know I have shown this and I
+have also measured this angle fine and
+this was turning out to be 15 degrees
+I said that
+these equations applicable only within
+five degrees as a slope OK this is just
+to re-emphasize when I perform
+experiment the deformations are
+extremely large intentionally for you to
+visualize
+how to look at bending as a whole
+the our equations are not going not
+accurate to solve for finding out this
+large deflection this is about uh three
+times more than this and I said in
+practice if you solve any problem it
+would not even reach 0.3 degrees
+fine so you should have that relative
+sense of proportion
+so can you write what is the value of
+bending moment at this section x x
+please write
+the moment curvature relation fill in
+the bending moment expression in terms
+of x
+and then check it with my expression
+these things you should be able to write
+quickly when you do the double
+integration
+you should write the moment
+and get it quickly okay
+E I D Squared V by d x squared equal to
+m
+I said we drop the subscript because we
+know what do we mean by moment of
+inertia here you should understand in
+this context
+it helps our
+simplification of writing
+do you have an expression for m
+you should also get it with the correct
+sign
+it's very important
+okay
+so I get this as E I D Squared V by d x
+squared equal to w x by 2.
+is it is it all right
+W by 2 into X
+fine
+so you can easily integrate
+so integrate and substitute the
+boundary conditions
+integrating equation one
+I get e i DV by d x
+equal to
+w x squared by 4 plus c one
+that is an integration constant
+and what is the boundary condition you
+can write due to symmetry
+at x equal to l by two we have already
+seen here
+DV by d x equal to zero so you should
+know how to translate your appreciation
+of slope as zero mathematically
+fine
+and once you substitute these
+you can find out what is C1 it's very
+simple and straightforward
+okay
+so I get C1 as minus w l Square by 16.
+just substitute this
+condition
+and I get e i DB by DX equal to w x
+squared by 4 minus W L squared by 16.
+so I get the
+variation of slope as a function of X
+along the length of the beam whichever
+point if I substitute the value of x
+I get what is the value of
+slope
+ok
+and you can also draw the
+deflected picture
+and we'll have to integrate it again
+and find out what is the expression for
+deflection curve v
+so I can integrate this that's very
+simple and straightforward
+can you integrate and then check with me
+please do the integration and check with
+me
+it's a very simple and straightforward
+expressions
+I get eiv equal to w x Cube by 12.
+minus WL squared by 16 into X Plus seat
+and I have to determine c 2 by applying
+the boundary conditions
+and what is the boundary condition that
+I that I can choose
+okay
+applying the boundary condition
+x equal to 0 V equal to 0 so I can get
+what is C2
+and C2 happens to be 0.
+so I get the deflection curve
+e i v equal to w x Cube by 12 minus w l
+Square by 16 into X
+okay
+say I've also been saying that certain
+quantities you need to remember as part
+of this course you know even after you
+complete the course
+when you have to apply this knowledge in
+field
+you will have to
+remember this it makes your life lot
+more simpler we'll have to find out what
+is the maximum deflection at the
+load application point
+that's a very important answer so you
+are going to substitute x equal to L by
+2.
+fine
+so I have this and mind you all these I
+am doing it just for this line
+I recognize the beam as just a line I
+apply the mathematics only there I
+ignore the thickness
+we have found an explanation for that
+even though we investigated position
+ratio plays a work
+that happens only when the deflections
+are very very large
+we never go near to that situation
+so I have expression for slope
+I have the expression for deflection
+and
+find out at important locations what
+happens
+at x equal to 0 I have the slope
+it's given as minus w l Square by 16 e i
+and please remember
+what you get a slope
+is Express only in radians this is
+another mistake people commonly make
+you will have to convert this Radiance
+into degrees appropriately
+fine
+and you also have V equal to 0 at x
+equal to 0. which is all Satisfied by
+this expression when x is 0 V is 0.
+and this reaches the maximum at x equal
+to l by 2
+where the slope is 0
+and the maximum deflection including the
+sign it is given minus wlq by 48 e a
+it's a very famous expression you know
+what way we remember is we remember this
+as w l q by 4080 a
+we don't remember the sign sine comes
+automatically when you draw the sketch
+and take the coordinate system
+I have also discussed
+even though we have developed the
+fracture formula with minus Sigma X by y
+from the application point of view of
+design you will simply calculate the
+magnitude and you say on one side it
+will be tensile on the other side this
+will be compressive if I have a
+symmetric cross section about the Z axis
+okay if the cross section not symmetric
+we always make mushroom from the neutral
+axis whichever is farthest will have the
+maximum stress it could be tensile or it
+will be compress it so that may happen
+if I have a t beam
+okay if I have if I have a I being
+symmetric if I remove one flange
+it one it becomes only as T So T beams
+will have a different
+distance from the neutral axis to the
+one side and the other side of the cross
+section so you have to appreciate this
+and we normally remember this is a very
+famous expression worth remembering it
+WL Cube by 48 e
+and you know let us also go back and
+then see what we have learned when we
+discussed strain
+when we discuss the strain
+we have found out that Epsilon access is
+dou e by dou X Epsilon y y is dou V by
+dou by
+and Gamma X Y is dou V by dou X Plus dou
+U by dou by
+and the tensorial expression of strain
+is Epsilon X Y which is given as one
+half of dou B by dou X Plus dou U by dou
+by
+and we have also discussed rotation
+you remember we have also developed
+rotation
+so when anything gets deformed it can
+have all of these quantities it can have
+all of these strain components
+as well as rotation
+because it all comes from what way the
+components of displacement u and v
+varies over the cross section
+and we have also said that the strain
+components depend linearly on the
+derivative of displacement components
+derivation is valid under the assumption
+of small displacement derivatives
+compared to Unity
+which you have to always remember
+you have to remember this as well as all
+the demonstrations are large deformation
+and I said you know when we looked at
+Euler Bernal Theory
+after deformation also
+the line remains perpendicular
+and you know I have taken a cross
+section which is something like a t beam
+see this is done for a rectangular cross
+section
+but this diagram is drawn for a t beam
+so that the neutral axis is shifted
+because we have always been seeing
+neutral axis at the center I don't want
+to give an impression that centroidal
+axis is what we are talking about we are
+talking about new I mean neutral axis
+for a homogeneous material both of them
+coincide it can remain in the center or
+it can get shifted okay
+so when the beam is subjected to
+constant bending moment the lines get
+rotated
+and if I draw the tangent
+and then find out what is this angle
+this angle Still Remains 90 degrees that
+is how we have developed the Euler
+Bernal hypothesis and the beam that
+obeys the Euler Bernal hypothesis is
+called as Bernal beam
+and I have said there is also a t motion
+globin
+which will accommodate
+the effect of shear okay
+so we are confining our attention to
+burnally beam you make a sketch and draw
+this as perpendicular
+so this lines just get rotated
+okay
+and let us also investigate what happens
+to the angle of rotation we have already
+seen the slope as angle Phi
+and then we have also shown this diagram
+how
+you have related fee and
+the deflection V
+tan Phi equal to DV by DX and we also
+set Phi is approximately DV by DX
+so what you have got the expression as
+slope is nothing back
+what you have here this and we will also
+see that this V is also the rotation
+okay
+and as long as you want to investigate
+the shear I have to look at what happens
+the original rectangle
+how this gets changed because of
+deformation
+and the original rectangle remains
+original rectangle even after the beam
+is bent and we have already seen that
+Shear strain is zero when I have a pure
+bending
+we are discussing only about pure
+bending
+so this show Shear strain is zero
+and from the geometry of the figure you
+can also denote that this is also angle
+Phi
+okay
+and you know we will also write
+what is the shear strain in terms of the
+displacement components
+gamma X base dou V by dou E X Plus dou e
+by dou y
+and we have seen gamma x y equal to 0
+okay
+and we have also seen what is rotation
+rotation is Omega Z
+that is given as half of dou V by dou x
+minus dou E by dou by
+and you have this okay I have this as
+this angle
+so it is
+this angle will be labeled as positive
+because it is acute
+okay this angle will be labeled as
+negative because it is obtuse
+the way the deformation takes place
+and you can easily see that what you
+call as rotation is this slope Phi from
+this expression if I use gamma x 5 they
+are equal and opposite if I use this I
+will finally get this
+omega as angle Phi so what you get a
+slope
+is nothing but the rotation that takes
+place along the beam
+and you have suppose I take a point in
+the undeformed beam in the deformed beam
+this point will be shifted to this it is
+rotated like this
+and this is nothing but ah
+from magnitude point of view can write U
+as modulus of Y Phi
+I have e x x Epsilon x x is dou U by dou
+X
+so I get Epsilon access is minus y by Y
+into D Phi dou V by dou x what we write
+is with the sign accommodated
+so it's a smooth transition from what we
+have learned as strain displacement
+relation to what happens in the case of
+a beam and I already shown when I have
+shown the beam Bend you saw Phi was
+changing you can see the rotation was
+increasing
+okay
+now what we will do is we look at
+different type of supports we have
+already looked at what happens for the
+simply supported
+and we have seen that this is symmetric
+and you have slope here you have slope
+here now what I'm going to do is I'm
+going to apply
+a clamping when I clamp what happens Can
+You observe what happens here
+Can You observe what happens to the
+slope here
+slope is zero you recognize this slope
+is 0 here but what happens to this end
+it's not zero you should recognize that
+if you recognize that deflection is
+extremely simple that's all
+okay so in this case I have the beam as
+deflected like this
+and in this case
+and you can write v a equal to 0 and
+Theta a is not 0 VB equal to 0 and Theta
+B is not equal to 0 please write down
+this these are all the important
+boundary conditions
+you can write from the problem statement
+but your nodes should have these
+quantities so you should recognize when
+I clamp this
+I have this slope is zero
+but you can have still slope on the
+other end
+okay here I have shown a beam and this
+is a free end
+fine
+so when I have this
+I will have a deflection like this
+and I'll also try to show an experiment
+see I have
+two cantilever beams you okay I have it
+with a purpose and what I'm going to do
+is I am going to apply a load end load
+here
+and when I apply the end load along the
+length of the beam now we have learned
+that this has strain developed because
+of bending
+and it also has rotation continuously
+varying is ideal clear
+when I have the beam bent like this I
+have like this
+now I take this beam
+and I apply load somewhere in between
+technically I have no load on this
+section when I apply the load
+I want
+people to recognize what is the
+deflection up to the
+load application point from the fixed
+end and what happens after the load
+application point to the free end in the
+second beam
+so this section
+remains straight but rotated
+okay that you have to recognize I have
+this load applied here I apply the load
+here
+up to the load application point in the
+second being the beam has variation of
+slope as well as strain in the rest of
+the portion
+what I have is this is a straight rigid
+body
+that you have to recognize if you
+recognize
+you know your job of handling deflection
+is extremely simple
+fine
+and now you know I can also have
+the conditions I can only write v a
+equal to 0 and Theta a equals 0. I can't
+say anything beyond that
+on the free end
+okay
+it can have a slope as well as
+deflection
+suppose I have
+instead of concentrated load but I have
+a distributed load the distributed load
+disturbs the beam very lightly okay
+so you will have a similar displacement
+but the magnitudes can be smaller
+so the idea is you should not get
+worried about uh
+the nature of load
+you should worry about how to handle the
+support
+so if you handle the supports and join
+them in between from your visualization
+you will have the deflection
+of the beam plotted reasonably well
+ok so I will have this as like this
+and you have this like this
+okay
+now what we will do is we will solve one
+more problem
+I have the
+distributed load which you can easily do
+my anticipation is you should solve
+faster than me
+okay take a typical cross section
+and then e squared
+D Squared V by d x squared E I D Squared
+V by d x squared equal to
+you write the bending moment with sine
+integrate it twice
+utilize the boundary conditions and get
+the
+constants
+integration constants
+we have already seen how the beam bends
+I have
+I have deflection see some books call
+this as y
+some books call this as B fine so you
+should be comfortable with any of the
+symbolism if you know the diagram
+so at the free end I have a deflection
+as well as a slope
+and we have already seen slope is
+nothing but
+what we learned as rotation in our
+strain displacement relation
+fine
+so you should write the expression
+you have the expression for m
+with sign I want you to write it with
+sign
+so it's easier for me to write like this
+E I D Squared B by d x squared equal to
+minus
+W of L minus X whole Square divided by 2
+once I have written this correctly this
+is a crucial step if you make a mistake
+rest of your problem is
+going to be troublesome
+if you write this correctly then the
+integration is very very simple this
+wall you have done in even in your high
+schools
+so I have this e a DV by d x equal to w
+multiplied by L minus X whole Cube
+divided by 6 Plus C1
+and when x equal to 0 I have
+slope is 0. this gives me c 1 equal to
+minus wlq by 6.
+and I have e i DV by DX equal to w t l
+minus X whole Cube divided by 6. minus
+wlq by 6.
+I can do the integration second time
+I think I have written this as d y by D
+X here
+so you have all this Expressions okay
+people call it as y people call it as B
+so you should be comfortable with both
+symbolisms
+and I get the
+value of C2 as WL power 4 divided by
+twenty four
+so I get e a y equal to minus w l minus
+X power 4 divided by twenty four minus
+WL Cube x divided by 6 plus W Alpha 4
+divided by 24.
+so the idea is double integration is
+simple straightforward when I have
+simple loadings
+when I have multiple loadings
+then I have to do the integration
+separately for each of the segments you
+also have a mathematical development
+called Singularity functions which we
+would not get into it primarily because
+it becomes only a mathematical exercise
+if you do solve problems related to
+deflection
+as an engineer you should have lot of
+visualization so it is better that we
+adopt other methods where it gives you
+more comprehensive appreciation of what
+deflection is
+and I can also find out what are the
+maximum values
+at the free end
+okay
+and you know this we don't remember I
+said wlq by 48 is a very famous answer
+this we don't remember you have to do
+the calculation get it DV by d x equal
+to minus wlq by 6 e a
+in radians I am emphasizing this never
+forget this this is not in degrees
+and V is minus WL power 4 by 8 e a
+and once I have such solution available
+you can have a table
+use the table for method of
+superposition the table will be supplied
+in your quizzes and exams don't worry
+about it
+okay
+and I want you to do some homework you
+know the purpose is your learning will
+be better if you do the homework
+so I want you to apply the double
+integration method for the
+udl
+simply supported the boundary conditions
+are given
+and a cantilever with a end load
+and also a cantilever with a n bending
+moment
+and we normally remember
+what is that tip reflection in a
+cantilever like I said in a three point
+beam what is the deflection at the
+center similarly this is again a very
+famous expression what is a tip
+deflection
+so certain quantities you need to
+remember it's also better you'll make
+you very comfortable when you have to
+deal with
+beam deflection or beam design
+fine so in this class we have looked at
+what is deflection of a beam we ever
+looked at you have a deflection as well
+as a slope
+and we have seen slope is nothing but
+the rotation what we have learned in
+strain displacement relations
+and here again you develop the basic
+equation only for Pure bending
+the extended for beams transmitting
+Shear Force
+neglecting the influence of Shear or you
+have infinite Shear rigidity whichever
+way you look at it
+we are justified in doing it because
+Shear effects are normally very small
+and I said we also have special methods
+by which you can find out what is the
+deflection because of Shear force that
+will postpone it for the time being but
+we will definitely do as part of this
+course thank you
+foreign
+[Music]
+foreign

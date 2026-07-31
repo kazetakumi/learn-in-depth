@@ -1,0 +1,99 @@
+{
+  "subject": "Namaste JavaScript — from first principles",
+  "learner": {
+    "background": "knows Python, new to JavaScript",
+    "goal": "deep understanding + interview-ready"
+  },
+  "cruxes": [
+    {
+      "id": "01-execution-context",
+      "title": "Execution Context & the Call Stack",
+      "hook": "You already believe nothing exists until its line runs. JS breaks that — watch it break, then find out what actually happens.",
+      "owns": "sequential execution (a prior you already own from Python)",
+      "depends_on": [],
+      "sources": ["01_pN6jk0uUrD8.txt", "02_ZvbzSrg0afE.txt", "03_iLWTnMzWtj4.txt", "05_gSDncyuGw0s.txt", "06_QCRpVw2KXf8.txt"],
+      "lesson": "01-execution-context.html",
+      "status": "done"
+    },
+    {
+      "id": "02-hoisting",
+      "title": "Hoisting",
+      "hook": "Why can you call a function before you 'wrote' it, but get undefined (not an error) for a variable?",
+      "owns": "the memory-creation phase (crux 1)",
+      "depends_on": ["01-execution-context"],
+      "sources": ["04_Fnlnw8uY6jo.txt", "07_B7iF6G3EyIk.txt"],
+      "lesson": "02-hoisting.html",
+      "status": "done"
+    },
+    {
+      "id": "03-scope-chain",
+      "title": "Scope & the Lexical Environment",
+      "hook": "How does an inner function see an outer variable it never received?",
+      "owns": "execution context has a memory space with a name (crux 1)",
+      "depends_on": ["01-execution-context"],
+      "sources": ["08_uH-tVP8MUs8.txt"],
+      "lesson": "03-scope-chain.html",
+      "status": "done"
+    },
+    {
+      "id": "04-let-const-tdz",
+      "title": "let, const, the Temporal Dead Zone & Block Scope",
+      "hook": "let/const are hoisted too — so why does touching them early throw instead of giving undefined?",
+      "owns": "hoisting (crux 2) + lexical environment (crux 3)",
+      "depends_on": ["02-hoisting", "03-scope-chain"],
+      "sources": ["09_BNC6slYCj50.txt", "10_lW_erSjyMeM.txt"],
+      "lesson": "04-let-const-tdz.html",
+      "status": "done"
+    },
+    {
+      "id": "05-closures",
+      "title": "Closures",
+      "hook": "A function returns, its execution context is deleted — so how does the inner function still remember its variables?",
+      "owns": "scope chain / lexical environment (crux 3)",
+      "depends_on": ["03-scope-chain"],
+      "sources": ["11_qikxEIxsXco.txt", "12_eBTBG4nda2A.txt", "13_t1nFAMws5FI.txt"],
+      "lesson": "05-closures.html",
+      "status": "current"
+    },
+    {
+      "id": "06-first-class-functions",
+      "title": "First-Class Functions & Callbacks",
+      "hook": "Functions as values — you already do this in Python. What does JS add?",
+      "owns": "functions live in memory just like values (crux 1)",
+      "depends_on": ["01-execution-context"],
+      "sources": ["14_SHINoHxvTso.txt", "15_btj35dh3_U8.txt"],
+      "lesson": "06-first-class-functions.html",
+      "status": "planned"
+    },
+    {
+      "id": "07-event-loop",
+      "title": "The Event Loop & Async JS",
+      "hook": "JS has one call stack and does one thing at a time — so how does setTimeout not just freeze everything?",
+      "owns": "call stack (crux 1) + callbacks as values (crux 6)",
+      "depends_on": ["01-execution-context", "06-first-class-functions"],
+      "sources": ["16_8zKuNo4ay8E.txt", "18_nqsPmuicJJc.txt"],
+      "lesson": "07-event-loop.html",
+      "status": "planned"
+    },
+    {
+      "id": "08-js-engine",
+      "title": "Inside the JS Engine (V8)",
+      "hook": "Zoom out: what is physically running the execution context and call stack?",
+      "owns": "execution context & call stack (crux 1) + event loop (crux 7)",
+      "depends_on": ["01-execution-context", "07-event-loop"],
+      "sources": ["17_2WJL19wDH68.txt"],
+      "lesson": "08-js-engine.html",
+      "status": "planned"
+    },
+    {
+      "id": "09-higher-order-functions",
+      "title": "Higher-Order Functions: map, filter, reduce",
+      "hook": "The payoff — build map/filter/reduce yourself from what you now know about functions and closures.",
+      "owns": "first-class functions (crux 6) + closures (crux 5)",
+      "depends_on": ["06-first-class-functions", "05-closures"],
+      "sources": ["19_HkWxvB1RJq0.txt", "20_zdp0zrpKzIE.txt"],
+      "lesson": "09-higher-order-functions.html",
+      "status": "planned"
+    }
+  ]
+}

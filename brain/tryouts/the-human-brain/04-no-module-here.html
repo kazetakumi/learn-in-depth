@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>When the framework should say "no module here"</title>
+<style>
+  :root {
+    --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --code-bg: #f3f0e8; --rule: #d8d2c2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #1c1a16; --ink: #e8e3d8; --accent: #8fb4d9; --code-bg: #262319; --rule: #45402f; }
+  }
+  :root[data-theme="dark"] { --paper: #1c1a16; --ink: #e8e3d8; --accent: #8fb4d9; --code-bg: #262319; --rule: #45402f; }
+  :root[data-theme="light"] { --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --code-bg: #f3f0e8; --rule: #d8d2c2; }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper); color: var(--ink);
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+    line-height: 1.65; margin: 0; padding: 3.5rem 1.5rem 8rem;
+  }
+  main { max-width: 640px; margin: 0 auto; }
+  .kicker {
+    font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 0.6rem;
+  }
+  .kicker a { color: var(--accent); }
+  h1 { font-size: 1.9rem; font-weight: 600; margin: 0 0 2rem; }
+  h2 {
+    font-size: 1.25rem; font-weight: 600; margin: 3rem 0 1rem;
+    padding-top: 1.5rem; border-top: 1px solid var(--rule);
+  }
+  p { margin: 1.1rem 0; }
+  .aside {
+    border-left: 2px solid var(--rule);
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    margin: 1.4rem 0;
+    font-size: 0.95rem;
+    color: color-mix(in srgb, var(--ink) 82%, transparent);
+  }
+  .aside b { color: var(--ink); }
+  details {
+    background: var(--code-bg);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 0.9rem 1.2rem;
+    margin: 1.6rem 0;
+  }
+  summary { cursor: pointer; font-weight: 600; color: var(--accent); }
+  summary:hover { text-decoration: underline; }
+  details[open] summary { margin-bottom: 0.8rem; }
+  .try {
+    margin: 2rem 0; padding: 1.2rem 1.4rem;
+    border: 1px dashed var(--rule); border-radius: 6px;
+  }
+  .try .label {
+    font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 0.6rem;
+  }
+  ul.tested { margin: 0.8rem 0; padding-left: 1.3rem; }
+  ul.tested li { margin: 0.3rem 0; }
+  table.signature {
+    width: 100%; border-collapse: collapse; margin: 1.4rem 0; font-size: 0.94rem;
+  }
+  table.signature th, table.signature td {
+    text-align: left; padding: 0.5rem 0.8rem; border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  table.signature th { color: var(--accent); font-weight: 600; }
+  code, .term { color: var(--accent); font-style: italic; }
+  hr.section { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  .nav { display: flex; justify-content: space-between; margin-top: 4rem; font-size: 0.9rem; }
+  .nav a { color: var(--accent); text-decoration: none; }
+  .nav a:hover { text-decoration: underline; }
+  footer { margin-top: 3rem; font-size: 0.85rem; color: color-mix(in srgb, var(--ink) 55%, transparent); }
+</style>
+</head>
+<body>
+<main>
+
+<div class="kicker"><a href="index.html">The Human Brain</a> · Rung 4 of 5</div>
+<h1>When the framework should say "no module here"</h1>
+
+<p>By now you might be getting suspicious of me, and honestly, you should be. I've shown you a double dissociation, a confound-free blob, a causal TMS result, and even a weak decodable signal that survived a serious attack from another lab. Every single time, the story ended with "and here's how the specificity claim held up anyway." A skeptic is entitled to ask: is this a real scientific framework, or is it just a machine that finds a module wherever you point it, no matter what?</p>
+
+<p>That's a completely fair challenge, and I want to answer it properly — not by asserting that I'm being careful, but by showing you two places where the very same toolkit you've been building says, flatly, <i>no</i>.</p>
+
+<h2>Part one: sometimes you look, and there's just nothing there</h2>
+
+<p>Years ago, my postdoc Paul Downing and I did the obvious next experiment once we'd found the face patch and the body patch and heard whispers of a scene patch: we scanned people looking at twenty different categories of pictures and just checked, systematically, which ones produced a reliable, replicable patch of their own.</p>
+
+<p>We threw in everything we could think of, including some deliberately silly entries. I'm phobic about snakes, so snakes went in. My collaborator is phobic about spiders, so we compromised and lumped snakes and spiders into one "creepy things" condition. We had food and plants, on the theory that finding edible things is a plausible biological priority. We had tools and weapons, for similar reasons. We even threw in flowers, because the psychologist Steven Pinker had once written that a flower is "a veritable microfiche of biologically relevant information," and hypothesized people might have dedicated flower-processing machinery. It sounded like a crock to me — but it's an empirical question, so in it went.</p>
+
+<div class="try">
+<div class="label">Before I tell you what we found</div>
+<p>If this whole framework really were a module-finding machine that rubber-stamps whatever you test, what should this experiment have found?</p>
+</div>
+
+<details>
+<summary>What we actually found</summary>
+<p>Faces, places, and bodies again — replicated cleanly in every subject, exactly as before. And nothing else. Not snakes, not spiders, not tools, not weapons, not food, not flowers, not cars, not chairs. Steven Pinker's flowers did not get their own patch of cortex. As I put it to my class: you don't find a little patch of brain for any damn thing you test. Mostly, you don't find it.</p>
+<p>(Text turned out to be the one exception nobody expected going in — there really is a dedicated region for written words, which we'll leave for another day. But snakes, spiders, tools, weapons, food, and flowers: nothing.)</p>
+</details>
+
+<p>That's the first, most direct answer to the skeptic. If category-selective patches were just an artifact of looking hard enough with a big enough scanner, twenty categories should have produced twenty patches, or at least considerably more than three. They didn't. The framework can fail to find something, and here it did, repeatedly, on purpose, with categories chosen specifically because they seemed like they <i>should</i> matter biologically. That failure is itself data, and it's exactly the kind of result that keeps this from being unfalsifiable.</p>
+
+<h2>Part two: a completely different kind of thing, hiding in plain sight</h2>
+
+<p>But there's a second, more interesting answer, and it's the one I actually want you to leave with, because it's not just "sometimes there's nothing here." It's "sometimes what's here isn't a module at all — it's a different kind of system, with its own positive signature, and you can tell the two apart with the exact same toolkit."</p>
+
+<p>Right next to the regions we've spent this whole course on — sitting in frontal and parietal cortex — there's a set of regions that turn on for almost any hard mental task you can devise. Difficult spatial working memory. Difficult arithmetic. A difficult perceptual judgment about which way a line is tilted. These tasks share essentially nothing in common — no shared stimulus category, no shared content — except that they're all effortful. And this same set of regions lights up for all of them.</p>
+
+<div class="try">
+<div class="label">Before the reveal</div>
+<p>Compare this directly to the fusiform face area. The FFA is exquisitely picky — faces, and not much else. This new system is the opposite: it doesn't care what the task is, only that it's hard. If you had to guess, would you call that domain-specific or domain-general — and what word would you use for a system engaged by everything difficult, rather than one particular thing?</p>
+</div>
+
+<details>
+<summary>The vocabulary I actually use</summary>
+<p>Face areas, music areas, language areas — I call all of those <span class="term">domain specific</span>: very good at one mental process, indifferent to almost everything else. This new set of regions is the opposite. They're ludicrously <span class="term">domain general</span>. Researchers who study it call it the <span class="term">multiple-demand system</span> — "multiple demand" meaning many completely different kinds of cognitive demand all activate the same regions.</p>
+</details>
+
+<p>Here's where it gets genuinely interesting, and where you get to use the tools from every earlier lesson on a case they weren't originally built for.</p>
+
+<p><b>The lesion test, rung-one style.</b> A researcher named John Duncan spent years studying about eighty patients with brain damage in all different locations, and asked a simple question: what happens to IQ? If you have damage inside the multiple-demand regions, your IQ drops — and it drops in rough proportion to how much of that tissue was destroyed, more or less regardless of exactly where within the system the damage sat. If you have damage <i>anywhere else</i> in the brain, your IQ is essentially untouched. You might come away paralyzed, or unable to speak, or unable to recognize faces, or unable to see motion — a whole menu of the specific, selective deficits this course has been built on — but your general intelligence stays intact.</p>
+
+<div class="aside"><b>Notice the shape of this:</b> it's a dissociation, in the spirit of rung one, but it cuts the opposite way. Domain-specific damage costs you one specific ability while your general capacity stays whole. Domain-general damage costs you general capacity while sparing no one specific thing in particular — because it wasn't specific to begin with. Same evidentiary move, applied to a system built on the opposite principle.</div>
+
+<p><b>The network test — a genuinely new tool.</b> Here's a method I hadn't shown you yet, because this is the first case where it's actually the right one to reach for. Scan someone doing nothing at all — lying still, eyes closed, mind wandering — and look at how activity rises and falls over time in one region compared to every other region in their brain. Regions that are part of the same functional system, it turns out, drift up and down together even at rest, even when they're centimeters apart and nobody is asking the brain to do anything.</p>
+
+<p>Do this with the multiple-demand regions, and they all move together — a chunk in the frontal lobe drifting in lockstep with a chunk in the parietal lobe, far away, doing nothing in particular. Do it with language regions — Broca's area up front, Wernicke's area further back, ten or twelve centimeters apart — and they too move together as their own separate cluster. Now check the cross terms: is any part of the language system correlated with any part of the multiple-demand system? Basically not — two systems, each internally unified, each functioning largely independently of the other, discoverable without giving the brain anything to do at all.</p>
+
+<p>One honest exception, because it's more instructive than a clean "no" would be: the theory-of-mind network — the system for thinking about other people's thoughts — turns out to correlate with the language system slightly above chance, though not with the multiple-demand system at all. That's not noise; it has a reason. The whole point of language, when you think about it, is to take the thoughts in your head and put them into someone else's — so it would almost be surprising if a system for representing other minds and a system for language were perfectly, hermetically separate. Systems can be genuinely separable and still lean on each other exactly where their jobs overlap.</p>
+
+<div class="aside">One term to be careful with: this kind of result gets called "resting-state connectivity" all over the literature, but that's sloppier than it should be. All you've measured is a correlation between two time courses — you have no direct evidence the regions are structurally wired to each other the way a lesion or a stimulation result would show. It's a real and useful pattern. It just isn't the same claim as "these two things are physically connected," and it's worth keeping those apart in your own head even when a paper blurs them.</div>
+
+<div class="try">
+<div class="label">Try this one yourself</div>
+<p>Suppose bilateral damage takes out the multiple-demand system specifically — both hemispheres, bad enough to matter. Given everything you now know about what this system is <i>for</i> — not any one content, but attending to and selecting information, full stop — what kind of deficit would you predict? Would it look like prosopagnosia? Like CK's object blindness? Sketch what you'd expect before reading on.</p>
+</div>
+
+<details>
+<summary>What actually happens — Balint's syndrome</summary>
+<p>Nothing like a category-specific loss, because there was never a category to lose. Patients with this kind of bilateral damage can only see one object at a time. I show a complicated picture and ask what's there. The patient names one thing — say a person in the scene — and insists that's all there is. Nothing else registers, no matter how much else is actually in front of them. They aren't blind, and it isn't any one category that's gone. What's gone is the capacity to shift attention and select among things at all — they're locked onto one item and cannot move off it. That's exactly the flavor of deficit you'd predict for a system whose entire job is domain-general — when it breaks, nothing in particular breaks; the general capacity to select and attend breaks.</p>
+</details>
+
+<h2>Now you have the full toolkit</h2>
+
+<p>Put all five lessons together and here is what you actually own: a double dissociation tells you two abilities are architecturally separate. Confound-elimination plus a causal intervention tells you specific tissue is doing necessary work, not just correlating with it. Decodability is real evidence about information content, but it's a weaker claim than function, and needs the other tools to interpret. A negative result across many tested categories tells you the framework doesn't manufacture modules on demand. And now: a positive signature for domain-general machinery — engaged by everything effortful rather than one thing in particular, internally correlated as its own network at rest, and tied by lesion data to general capacity rather than any specific ability — tells you when you're looking at something that was never going to be a module in the first place, and shows you what to expect when it breaks.</p>
+
+<h2>Try it cold</h2>
+
+<div class="try">
+<div class="label">A constructed case, not a real study</div>
+<p>Suppose someone tells you about a brain region that lights up more during difficult Sudoku puzzles than easy ones, more during a hard mental-rotation task than an easy one, and more during tricky logical-reasoning problems than simple ones. They want to know: is this a "Sudoku module," a "reasoning module," or something else entirely? Using everything in this lesson — the lesion test, the network test, and the negative-result principle — describe the two or three checks you'd actually run, and what result would point toward each conclusion.</p>
+</div>
+
+<details>
+<summary>Check your reasoning</summary>
+<p>Given how generic the trigger is — difficulty, not any specific content — your first suspicion should be domain-general, not a new module, and you'd want to check it against exactly what you just learned. Does it turn on for other kinds of difficulty entirely unrelated to Sudoku, logic, or rotation — hard arithmetic, a tough working-memory task? If yes, that's the multiple-demand signature, not a dedicated module. Does its activity at rest correlate with known multiple-demand regions rather than forming its own isolated cluster? If so, it's probably just part of that system, not a new discovery. Does damage to it move IQ broadly, rather than knocking out one specific skill while sparing everything else? That's the lesion signature of domain-general machinery, not a module. Only if it failed all three of these — responded to nothing but this one narrow task, formed its own separate resting-state cluster, and produced a selective rather than general deficit when damaged — would you have grounds to call it something new.</p>
+</details>
+
+<h2>Where this leaves you</h2>
+
+<p>You now have what the goal for this whole course asked for: given a behavior or a deficit, you can actually reason about whether it points to a dedicated module or to something domain-general, and you know exactly what evidence would tell the two apart — a double dissociation, a causal intervention, a decoding result correctly interpreted, and now, a network signature and a lesion pattern that looks like general capacity loss rather than a specific loss. That's not a list of facts about face areas and place areas. It's the actual reasoning this field runs on, and it transfers to any new case you're handed.</p>
+
+<p>There's one loose thread left, and it's the one Bob's story opened with all the way back in rung one, still unresolved: <i>why</i> does the brain end up built this way at all? Is a module like the FFA wired in from birth, or does it have to be built by years of looking at faces? That's not load-bearing for anything you've learned here — you can reason about modules versus domain-general systems perfectly well without it. But it closes the loop on Bob, and it's worth twenty more minutes of your time. That's the coda.</p>
+
+<hr class="section">
+
+<div class="nav">
+  <a href="03-responds-more-vs-represents.html">&larr; Rung 3</a>
+  <a href="index.html">Syllabus</a>
+  <span>Coda — not yet built</span>
+</div>
+
+<footer>Drawn from MIT 9.13, The Human Brain (Spring 2019), Nancy Kanwisher — Lecture 7 (Category Selectivity, Controversies, and MVPA), Lecture 21 (Brain Networks), and Lecture 24 (Attention and Awareness).</footer>
+
+</main>
+</body>
+</html>

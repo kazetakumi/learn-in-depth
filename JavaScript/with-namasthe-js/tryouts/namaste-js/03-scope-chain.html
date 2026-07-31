@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scope & the Lexical Environment</title>
+<style>
+  :root {
+    --paper: #fbfaf6;
+    --ink: #2b2620;
+    --accent: #355070;
+    --rule: #ddd7c8;
+    --code-bg: #f3f0e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #1b1a17; --ink: #e8e3d8; --accent: #8fb4d9; --rule: #3a362d; --code-bg: #242119; }
+  }
+  :root[data-theme="dark"] { --paper: #1b1a17; --ink: #e8e3d8; --accent: #8fb4d9; --rule: #3a362d; --code-bg: #242119; }
+  :root[data-theme="light"] { --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --rule: #ddd7c8; --code-bg: #f3f0e8; }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 8rem;
+    line-height: 1.7;
+    font-size: 1.18rem;
+  }
+  h1 { font-size: 1.85rem; line-height: 1.25; margin-bottom: 0.3rem; }
+  .kicker { color: var(--accent); font-style: italic; margin: 0 0 3rem; }
+  h2 { font-size: 1.35rem; margin-top: 3.2rem; }
+  p { margin: 1.1rem 0; }
+  code { font-family: 'SF Mono', Menlo, Consolas, monospace; font-size: 0.92em; background: var(--code-bg); padding: 0.1em 0.35em; border-radius: 3px; }
+  pre {
+    background: var(--code-bg);
+    padding: 1.1rem 1.3rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    line-height: 1.5;
+    font-size: 0.95rem;
+  }
+  pre code { background: none; padding: 0; }
+  a { color: var(--accent); }
+  .aside {
+    border-left: 3px solid var(--rule);
+    padding-left: 1.1rem;
+    margin: 1.6rem 0;
+    color: var(--ink);
+    opacity: 0.82;
+    font-size: 1.02rem;
+  }
+  .predict { margin: 1.4rem 0; }
+  summary { cursor: pointer; color: var(--accent); font-weight: 600; padding: 0.5rem 0; }
+  details {
+    border-left: 3px solid var(--accent);
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    margin: 1.2rem 0 1.8rem;
+  }
+  details[open] summary { margin-bottom: 0.6rem; }
+  .stack-diagram {
+    background: var(--code-bg);
+    border-radius: 6px;
+    padding: 1rem 1.3rem;
+    font-family: 'SF Mono', Menlo, Consolas, monospace;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    white-space: pre;
+    overflow-x: auto;
+  }
+  hr { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  .nav { display: flex; justify-content: space-between; margin-top: 3rem; font-size: 1rem; }
+  .signature { text-align: center; color: var(--accent); font-style: italic; margin-top: 4rem; }
+</style>
+</head>
+<body>
+
+<p class="kicker">Namaste JavaScript · Crux 3 of 9</p>
+<h1>Scope &amp; the Lexical Environment</h1>
+
+<p>You already own a fact that's about to seem like a problem: each function call gets its own sealed execution context. Sealed enough that in crux 1, two functions with a local variable of the same name never interfered with each other — separate rooms, separate memory, no leakage between siblings.</p>
+
+<p>So here's the question worth sitting with before you write a single line: if every execution context is its own sealed room, how does <em>this</em> work?</p>
+
+<pre><code>function a() {
+  var b = 10;
+
+  function c() {
+    console.log(b);
+  }
+  c();
+}
+a();</code></pre>
+
+<div class="predict">
+<details>
+<summary>Predict it. c never received b as a parameter, never declared it. Sealed room, remember.</summary>
+<p>It prints <code>10</code>. Completely fine, no error, no <code>undefined</code>. <code>c</code> reached straight into <code>a</code>'s memory and read <code>b</code> as though it were local.</p>
+</details>
+</div>
+
+<p>So "sealed" was too strong a word. There's clearly a door somewhere. Let's find out exactly where it opens — and, just as importantly, which direction it opens.</p>
+
+<pre><code>function a() {
+  function c() {
+    var b = 10;
+    console.log(b);
+  }
+  c();
+  console.log(b);
+}
+a();</code></pre>
+
+<p>Same three functions, but now <code>b</code> lives in the <em>innermost</em> one, and the second <code>console.log</code> tries to reach it from <em>outside</em>, one level up.</p>
+
+<div class="predict">
+<details>
+<summary>Does the door swing both ways?</summary>
+<p><code>c</code>'s own <code>console.log(b)</code> prints <code>10</code>, no surprise. But <code>a</code>'s <code>console.log(b)</code> — reaching from the outside in — throws <code>Uncaught ReferenceError: b is not defined</code>. Same error you met in crux 2, for the same underlying reason: no slot named <code>b</code> exists anywhere <code>a</code> is allowed to look.</p>
+</details>
+</div>
+
+<p>Now you have both halves. An inner function can reach outward into everything containing it. An outer function can never reach inward into what a function it called declared locally. The door only opens one way — inward looking out.</p>
+
+<p>This — where in your code a given variable can be legally touched — is exactly what <strong>scope</strong> means. Nothing more mystical than that. "What's the scope of <code>b</code>" and "is <code>b</code> in scope here" are the same question asked from two directions.</p>
+
+<hr>
+
+<h2>Lexical environment: the actual door</h2>
+
+<p>Here's the mechanism, and the word <strong>lexical</strong> is doing real work, so don't skim past it. Lexical means: <em>where something physically sits, written in the source code</em> — not who called it, not when, just where it's sitting on the page. In the very first example, <code>c</code> is written physically inside <code>a</code>. That single fact — nothing about how or when <code>c</code> gets called — is what makes <code>a</code> "the lexical parent" of <code>c</code>.</p>
+
+<div class="aside">This is worth pausing on, because it didn't have to be this way. Imagine a different rule: a function's scope is decided by whoever <em>calls</em> it, not by where it's written — that's a real design called dynamic scoping, and a few older languages actually work that way. JavaScript doesn't. It fixes scope permanently, once, based purely on the physical nesting in the source — which is exactly why you can read a JS file top to bottom and know precisely what every line can see, without ever having to trace who might call what at runtime.</div>
+
+<p>Now the actual rule: <strong>every time an execution context is created, it also gets a lexical environment</strong> — and a lexical environment is nothing but two things bolted together: that context's own local memory, plus a reference to the lexical environment of whatever function physically contains it. Not a copy — a live reference, a pointer, to the parent's own lexical environment, which itself holds a reference to <em>its</em> parent, and so on, all the way up.</p>
+
+<p>Walk it for the three-deep version — global, containing <code>a</code>, containing <code>c</code>:</p>
+
+<div class="stack-diagram">lexical env of c           lexical env of a           lexical env of global
+
+┌──────────────────────┐   ┌──────────────────────┐   ┌──────────────────────┐
+│local memory of c     │   │local memory of a     │   │local memory of global│
+│ (nothing local)      │   │ b: 10                │   │ a: function          │
+│                      │   │ c: function          │   │                      │
+│parent ref            │──►│parent ref            │──►│parent ref: null      │
+└──────────────────────┘   └──────────────────────┘   └──────────────────────┘</div>
+
+<p>When <code>console.log(b)</code> runs inside <code>c</code>: JS looks in <code>c</code>'s own local memory first. Not there. So it follows the parent reference — straight to <code>a</code>'s lexical environment — and looks there. Found: <code>10</code>. Done.</p>
+
+<p>If it hadn't been found in <code>a</code> either, the exact same move repeats: follow <em>that</em> parent reference, land in global's lexical environment, search again. Global's own parent reference points to <code>null</code> — there's nowhere left to go. If the search reaches <code>null</code> still empty-handed, <em>that's</em> the moment JS gives up and throws <code>ReferenceError: b is not defined</code>.</p>
+
+<p>This whole walk — local memory, then parent, then parent's parent, then parent's parent's parent, until either the variable turns up or you hit <code>null</code> — has a name: the <strong>scope chain</strong>. That's genuinely the whole definition. Not a separate structure JS builds specially — just the trail of "follow the parent reference" left behind by however deeply your functions happen to be nested in the source.</p>
+
+<div class="aside">One thing worth noticing now and setting aside for later: <code>c</code> keeps working even though it's reaching into <code>a</code>'s memory from inside a nested call. What happens if <code>c</code> gets called <em>after</em> <code>a</code> has already finished and its execution context is supposedly gone? That question is crux 5 — closures — and the honest answer will surprise you a little.</div>
+
+<hr>
+
+<h2>Your turn</h2>
+
+<p>Three levels deep this time, each with its own local variable, plus one access that breaks the one-way rule. Predict every line.</p>
+
+<pre><code>function outer() {
+  var x = "outer x";
+
+  function middle() {
+    var y = "middle y";
+
+    function inner() {
+      var z = "inner z";
+      console.log(x, y, z);
+    }
+
+    inner();
+    console.log(z);
+  }
+
+  middle();
+}
+
+outer();</code></pre>
+
+<details>
+<summary>Reveal</summary>
+<p><code>inner</code>'s <code>console.log(x, y, z)</code> prints <code>outer x middle y inner z</code>. All three are reachable, because <code>inner</code>'s scope chain runs inner → middle → outer → global, and each of <code>x</code>, <code>y</code>, <code>z</code> turns up at exactly the link where it was declared. Notice <code>inner</code> never had to be handed <code>x</code> or <code>y</code> as parameters — the chain found them on its own, purely from where <code>inner</code> sits in the source.</p>
+<p><code>middle</code>'s <code>console.log(z)</code> throws <code>Uncaught ReferenceError: z is not defined</code>. <code>z</code> only exists in <code>inner</code>'s local memory, and <code>middle</code>'s scope chain — middle → outer → global — never runs through <code>inner</code> at all. The door only opens looking outward; <code>middle</code> has no way to look back down into a function it merely called.</p>
+</details>
+
+<hr>
+
+<h2>Where this leaves you</h2>
+
+<p>Scope isn't a rule you memorize function by function — it's the direct, mechanical consequence of one fact: every execution context carries a live reference to its lexical parent's environment, fixed permanently by where the code is physically written. "Can I reach this variable" is just "does the scope chain, walked from here, hit it before hitting <code>null</code>." Hold onto that image of the chain — closures, two lessons from now, is what happens when a link in that chain refuses to disappear even after the function that created it has returned.</p>
+
+<p>Don't stop at having read the diagram. Paste the <code>outer</code>/<code>middle</code>/<code>inner</code> example into your console, put <code>debugger;</code> as the first line inside <code>inner</code>, and open the Scope panel when it pauses there. You'll see it labeled exactly the way you'd hope by now — <strong>Local</strong>, then <strong>Closure (middle)</strong>, then <strong>Closure (outer)</strong>, then <strong>Global</strong> — the scope chain, rendered as literal nested entries, not something I'm asking you to take on faith.</p>
+
+<p class="signature">Namaste 🙏 JavaScript.</p>
+
+<div class="nav">
+  <a href="index.html">← back to the ladder</a>
+  <span></span>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Strength of Materials — the ladder</title>
+<style>
+  :root{
+    --paper:#fbfaf6; --ink:#2b2620; --accent:#355070;
+    --rule:#ddd8cc; --faint:#8b8375; --code:#f3f0e8;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    font-size:19px; line-height:1.65;
+  }
+  .wrap{max-width:640px; margin:0 auto; padding:5rem 1.4rem 7rem}
+  .eyebrow{
+    font-size:.72rem; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--accent); margin:0 0 1.1rem;
+  }
+  h1{font-size:2.25rem; line-height:1.15; font-weight:normal; margin:0 0 1.4rem; letter-spacing:-.01em}
+  .lede{font-size:1.08rem; color:#4a4238; margin:0 0 1rem}
+  .goal{
+    margin:2.2rem 0 3.4rem; padding:1rem 0 1rem 1.3rem;
+    border-left:2px solid var(--rule); font-size:.97rem; color:#4a4238;
+  }
+  .goal strong{font-weight:600; color:var(--ink)}
+  hr{border:0; border-top:1px solid var(--rule); margin:3.2rem 0}
+
+  ol.ladder{list-style:none; margin:0; padding:0; counter-reset:rung -1}
+  ol.ladder > li{
+    position:relative; padding:1.6rem 0 1.6rem 3.4rem;
+    border-top:1px solid var(--rule);
+  }
+  ol.ladder > li:last-child{border-bottom:1px solid var(--rule)}
+  .num{
+    position:absolute; left:0; top:1.75rem;
+    font-size:.8rem; color:var(--faint); font-variant-numeric:tabular-nums;
+    letter-spacing:.06em;
+  }
+  .mark{position:absolute; left:1.65rem; top:1.62rem; font-size:.95rem; line-height:1.4}
+  .t{font-size:1.12rem; margin:0 0 .35rem; line-height:1.35}
+  .t a{color:var(--ink); text-decoration:none; border-bottom:1px solid var(--accent)}
+  .t a:hover{color:var(--accent)}
+  .hook{margin:0; font-size:.95rem; color:#5a5145; font-style:italic}
+  .stands{margin:.55rem 0 0; font-size:.83rem; color:var(--faint)}
+
+  li.done .t{color:var(--faint)}
+  li.done .mark{color:var(--accent)}
+  li.planned{opacity:.48}
+  li.current{background:linear-gradient(90deg,rgba(53,80,112,.055),rgba(53,80,112,0) 70%)}
+  li.current .mark{color:var(--accent)}
+  li.current .t{font-weight:600}
+  .badge{
+    display:inline-block; font-size:.62rem; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--accent); border:1px solid var(--accent); border-radius:2px;
+    padding:.08rem .38rem; margin-left:.5rem; vertical-align:.14em; font-style:normal;
+  }
+  footer{margin-top:3.4rem; font-size:.85rem; color:var(--faint)}
+  footer a{color:var(--accent)}
+  @media (max-width:520px){
+    body{font-size:17.5px}
+    .wrap{padding:3rem 1.1rem 5rem}
+    h1{font-size:1.85rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="eyebrow">Nine rungs</p>
+  <h1>Strength&nbsp;of Materials</h1>
+
+  <p class="lede">Rigid bodies were a lie you were allowed to tell. Everything bends. This is where you stop pretending.</p>
+
+  <div class="goal">
+    <strong>What you'll be able to do at the end:</strong> take a real shaft carrying torsion, bending and axial pull at the same time, find the single worst point in it, write down the complete state of stress there, and say whether it lives or dies — and by what margin.
+    <br><br>
+    Every rung stands on the payoff of the rung before it. Nothing floats. If you ever have to <em>trust</em> me for a step, that step is a bug — tell me and I'll go break it down further.
+  </div>
+
+  <hr>
+
+  <ol class="ladder">
+
+    <li class="done">
+      <span class="num">00</span><span class="mark">✓</span>
+      <p class="t"><a href="00-the-cut.html">The Cut</a></p>
+      <p class="hook">You cannot see inside a solid body. So pretend to slice it — and equilibrium of the leftover piece tells you exactly what the inside is doing.</p>
+      <p class="stands">Stands on: holding a rope that isn't moving.</p>
+    </li>
+
+    <li class="current">
+      <span class="num">01</span><span class="mark">▶</span>
+      <p class="t"><a href="01-stress-tensor.html">Why the chalk knows which plane to break on</a><span class="badge">you are here</span></p>
+      <p class="hook">Chalk pulled apart snaps flat. The same chalk twisted snaps on a 45° helix. The chalk is not smart — so "force ÷ area" cannot be the whole story.</p>
+      <p class="stands">Stands on: rung 0.</p>
+    </li>
+
+    <li class="planned">
+      <span class="num">02</span><span class="mark">·</span>
+      <p class="t">The circle</p>
+      <p class="hook">Rotate the plane you're asking about, and the pair (σ, τ) traces a perfect circle. Why a circle?</p>
+      <p class="stands">Stands on: rung 1.</p>
+    </li>
+
+    <li class="planned">
+      <span class="num">03</span><span class="mark">·</span>
+      <p class="t">The bridge: strain, and one tension test</p>
+      <p class="hook">Statics alone cannot tell you the stress. Two equations, three unknowns. You have to go and ask the material.</p>
+      <p class="stands">Stands on: rung 2.</p>
+    </li>
+
+    <li class="planned">
+      <span class="num">04</span><span class="mark">·</span>
+      <p class="t">The recipe — guess the deformation, and the stress falls out</p>
+      <p class="hook">The real secret of this subject: it dodges differential equations by <em>conjecturing</em> how the body deforms. One machine generates torsion and bending both.</p>
+      <p class="stands">Stands on: rungs 0–3. This is the keystone.</p>
+    </li>
+
+    <li class="planned">
+      <span class="num">05</span><span class="mark">·</span>
+      <p class="t">The subtle one: shear in beams</p>
+      <p class="hook">Stack four loose planks and bend them: the ends fan out like a deck of cards. Glue them and they don't. What is the glue doing?</p>
+      <p class="stands">Stands on: rung 4 — and it is the one thing the recipe cannot give you.</p>
+    </li>
+
+    <li class="planned">
+      <span class="num">06</span><span class="mark">·</span>
+      <p class="t">Deflection</p>
+      <p class="hook">The flexure formula already contains the shape of the bent beam, hidden inside a term nobody looks at.</p>
+      <p class="stands">Stands on: rung 4.</p>
+    </li>
+
+    <li class="planned">
+      <span class="num">07</span><span class="mark">·</span>
+      <p class="t">When does it break?</p>
+      <p class="hook">A tension test hands you one number. A real part has three principal stresses. Something must collapse three into one.</p>
+      <p class="stands">Stands on: rungs 2 and 3.</p>
+    </li>
+
+    <li class="planned">
+      <span class="num">08</span><span class="mark">·</span>
+      <p class="t">Buckling — where the undeformed shape lies to you</p>
+      <p class="hook">Every result above was computed on the shape the body had <em>before</em> loading. For a column in compression, that assumption predicts it never fails.</p>
+      <p class="stands">Stands on: rung 6.</p>
+    </li>
+
+  </ol>
+
+  <footer>
+    Built from Prof.&nbsp;K.&nbsp;Ramesh's 40-lecture course, IIT Madras. Progress lives in <code>syllabus.json</code>; close this and come back whenever.
+  </footer>
+
+</div>
+</body>
+</html>

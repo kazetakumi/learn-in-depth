@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Execution Context & the Call Stack</title>
+<style>
+  :root {
+    --paper: #fbfaf6;
+    --ink: #2b2620;
+    --accent: #355070;
+    --rule: #ddd7c8;
+    --code-bg: #f3f0e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #1b1a17; --ink: #e8e3d8; --accent: #8fb4d9; --rule: #3a362d; --code-bg: #242119; }
+  }
+  :root[data-theme="dark"] { --paper: #1b1a17; --ink: #e8e3d8; --accent: #8fb4d9; --rule: #3a362d; --code-bg: #242119; }
+  :root[data-theme="light"] { --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --rule: #ddd7c8; --code-bg: #f3f0e8; }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 8rem;
+    line-height: 1.7;
+    font-size: 1.18rem;
+  }
+  h1 { font-size: 1.85rem; line-height: 1.25; margin-bottom: 0.3rem; }
+  .kicker { color: var(--accent); font-style: italic; margin: 0 0 3rem; }
+  h2 { font-size: 1.35rem; margin-top: 3.2rem; }
+  p { margin: 1.1rem 0; }
+  code { font-family: 'SF Mono', Menlo, Consolas, monospace; font-size: 0.92em; background: var(--code-bg); padding: 0.1em 0.35em; border-radius: 3px; }
+  pre {
+    background: var(--code-bg);
+    padding: 1.1rem 1.3rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    line-height: 1.5;
+    font-size: 0.95rem;
+  }
+  pre code { background: none; padding: 0; }
+  a { color: var(--accent); }
+  .aside {
+    border-left: 3px solid var(--rule);
+    padding-left: 1.1rem;
+    margin: 1.6rem 0;
+    color: var(--ink);
+    opacity: 0.82;
+    font-size: 1.02rem;
+  }
+  .predict { margin: 1.4rem 0; }
+  summary { cursor: pointer; color: var(--accent); font-weight: 600; padding: 0.5rem 0; }
+  details {
+    border-left: 3px solid var(--accent);
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    margin: 1.2rem 0 1.8rem;
+  }
+  details[open] summary { margin-bottom: 0.6rem; }
+  .stack-diagram {
+    background: var(--code-bg);
+    border-radius: 6px;
+    padding: 1rem 1.3rem;
+    font-family: 'SF Mono', Menlo, Consolas, monospace;
+    font-size: 0.88rem;
+    line-height: 1.7;
+    white-space: pre;
+    overflow-x: auto;
+  }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.95rem; }
+  td, th { border: 1px solid var(--rule); padding: 0.4rem 0.7rem; text-align: left; }
+  th { background: var(--code-bg); }
+  hr { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  .nav { display: flex; justify-content: space-between; margin-top: 3rem; font-size: 1rem; }
+  .signature { text-align: center; color: var(--accent); font-style: italic; margin-top: 4rem; }
+</style>
+</head>
+<body>
+
+<p class="kicker">Namaste JavaScript · Crux 1 of 9</p>
+<h1>Execution Context &amp; the Call Stack</h1>
+
+<p>Let's start with something you already believe, so completely that you've probably never stated it out loud: <strong>nothing exists until its line has run.</strong></p>
+
+<p>In Python, if you write</p>
+
+<pre><code>print(x)
+x = 7</code></pre>
+
+<p>you get a <code>NameError</code>. Obviously. <code>x</code> isn't a name yet — the assignment hasn't executed. The interpreter reads top to bottom, and a variable is born the instant its line fires. Before that line, as far as the interpreter is concerned, that name simply does not exist. You've built your whole intuition for how code runs on this one idea, and it has never once betrayed you.</p>
+
+<p>Now here's the same shape of program, in JavaScript.</p>
+
+<pre><code>console.log(x);
+var x = 7;</code></pre>
+
+<div class="predict">
+<details>
+<summary>Before you open this — what does JavaScript do here? Same as Python?</summary>
+<p>It prints <code>undefined</code>.</p>
+<p>Not an error. Not <code>7</code>. A specific, deliberate value: <code>undefined</code>. Something was already sitting in <code>x</code> before line 1 ran — line 2 hadn't executed yet, so it couldn't be <code>7</code>. But it also wasn't <em>nothing</em>, or we'd have gotten Python's error. It was <em>something, holding the shape of x, empty.</em></p>
+</details>
+</div>
+
+<p>Sit with that for a second, because it's genuinely strange. Whatever your mental model of "the interpreter reads top to bottom and things spring into existence when their line runs" was — it just failed. Something existed before its line ran.</p>
+
+<p>Let's push on the crack. Same idea, with a function instead of a variable:</p>
+
+<pre><code>getName();
+
+function getName() {
+  console.log("Namaste JavaScript");
+}</code></pre>
+
+<div class="predict">
+<details>
+<summary>Predict this one too — calling a function before its definition even appears in the file.</summary>
+<p>It runs. Completely normally. Prints <code>Namaste JavaScript</code>, no error, no <code>undefined</code> — the entire function was usable before the parser had even "seen" it written on the page.</p>
+</details>
+</div>
+
+<p>So now we have two data points, and they disagree with each other in an interesting way:</p>
+
+<ul>
+<li><code>x</code> existed early, but empty — <code>undefined</code>.</li>
+<li><code>getName</code> existed early, and <em>fully functional</em> — the whole thing.</li>
+</ul>
+
+<p>A tempting cheap explanation: "maybe JS just does a quick first pass to find all the function definitions, then runs the file normally." That would explain <code>getName</code> working early. But it doesn't explain <code>x</code>. If JS only pre-scanned for functions, <code>x</code> should still throw <code>ReferenceError</code>, same as Python — <code>x</code> isn't a function, there'd be nothing for that pre-scan to find. Yet it didn't throw. It gave us a real, if empty, box.</p>
+
+<p>So the pre-scan isn't only looking for functions. It's reserving a spot for <em>every single variable and function in the program</em>, before running a single line — and it fills each spot differently depending on what it is. That's the actual idea. Let's build it properly.</p>
+
+<hr>
+
+<h2>The execution context</h2>
+
+<p>Here's the core fundamental, and everything else in this series — hoisting, scope, closures, <code>this</code>, the event loop — is a consequence of this one fact:</p>
+
+<p style="font-size: 1.15em; color: var(--accent); font-style: italic;">Everything in JavaScript runs inside an execution context.</p>
+
+<p>Picture it as a box. The box has exactly two compartments:</p>
+
+<ul>
+<li>a <strong>memory component</strong> (also called the <em>variable environment</em>) — a set of key–value pairs, where variable and function names are the keys.</li>
+<li>a <strong>code component</strong> (also called the <em>thread of execution</em>) — the place where lines actually get run, one at a time, in order.</li>
+</ul>
+
+<p>The box is built in <strong>two separate phases</strong>, and this is the part your Python intuition is missing entirely:</p>
+
+<p><strong>Phase 1 — memory creation.</strong> Before executing anything, JS walks through every line <em>belonging to that box</em> — for the global context, that's the top-level code; for a function's context (more on this below), just what's inside that function — and for every <code>var</code> and every function declaration it finds, it reserves a slot in the memory component. It doesn't run any code in this pass — it just allocates.</p>
+
+<p>What goes in each slot depends on what it is:</p>
+
+<ul>
+<li>a <code>var</code> gets the placeholder value <code>undefined</code>.</li>
+<li>a function declaration gets the <em>entire function</em> — the whole code, copied in, ready to run.</li>
+</ul>
+
+<p><strong>Phase 2 — code execution.</strong> Only now does JS go back to line 1 and actually run the program, top to bottom, replacing each <code>undefined</code> with its real value as the corresponding assignment line executes.</p>
+
+<p>Rerun the two snippets above in your head with this model:</p>
+
+<p>By the time <code>console.log(x)</code> fires, phase 1 has already reserved <code>x</code> and set it to <code>undefined</code> — so that's exactly what prints. <code>7</code> doesn't exist yet because line 2, the assignment, hasn't run.</p>
+
+<p>By the time <code>getName()</code> fires, phase 1 has already copied the <em>whole function body</em> into the <code>getName</code> slot — nothing left to wait for, so it just runs.</p>
+
+<div class="aside">This is why <code>undefined</code> is not an error and not "nothing" — it's a specific, deliberate placeholder JS writes into every reserved-but-not-yet-assigned <code>var</code> slot. Later you'll meet a case (a function <em>expression</em> — an arrow function assigned to a variable) where a "function" behaves like <code>x</code> instead of like <code>getName</code>, because to JS, it <em>is</em> a variable, not a declaration. Worth predicting for yourself before that lesson.</div>
+
+<hr>
+
+<h2>Functions get their own box</h2>
+
+<p>So far we've only watched the outermost box — the one JS builds for your whole program the moment it starts running, called the <strong>global execution context</strong>. But functions are where this gets interesting. Take this:</p>
+
+<pre><code>var n = 2;
+
+function square(num) {
+  var ans = num * num;
+  return ans;
+}
+
+var square2 = square(n);
+var square4 = square(4);</code></pre>
+
+<p>Global phase 1 reserves <code>n</code>, <code>square</code>, <code>square2</code>, <code>square4</code> — <code>n</code>, <code>square2</code>, <code>square4</code> get <code>undefined</code>; <code>square</code> gets the whole function copied in. Global phase 2 begins: <code>n</code> becomes <code>2</code>. Then line 6 runs: <code>square(n)</code> — a function invocation.</p>
+
+<p>Here's the rule: <strong>every time a function is invoked, a brand-new execution context is created just for that call</strong> — its own two-compartment box, its own memory phase, its own code phase, totally separate from the global one. Inside <em>this</em> box, phase 1 reserves memory only for what's local to that call — the parameter <code>num</code> and the variable <code>ans</code> — both <code>undefined</code> to start. Then its own phase 2 runs: <code>num</code> gets the argument <code>2</code>, <code>ans</code> gets computed as <code>4</code>, <code>return</code> hands <code>4</code> back to where <code>square(n)</code> was called from, and — this matters — <strong>the moment the function finishes, its entire execution context is thrown away.</strong> Gone. Then line 7 runs: <code>square(4)</code> creates a whole new, equally disposable box, computes <code>16</code>, and vanishes the same way.</p>
+
+<p>Notice what this buys you: if <code>square</code> had a local variable named <code>n</code> too, it would <em>not</em> collide with the global <code>n</code> — each execution context's memory is its own sealed room. Two different calls to the same function, even reusing a variable name, get two completely independent boxes that know nothing of each other.</p>
+
+<div class="predict">
+<details>
+<summary>Quick check: two functions, same local variable name — will they interfere?</summary>
+<pre><code>function a() {
+  var x = 10;
+  console.log(x);
+}
+function b() {
+  var x = 100;
+  console.log(x);
+}
+a();
+b();</code></pre>
+<p>Prints <code>10</code> then <code>100</code>. Each call gets its own sealed execution context with its own <code>x</code> — they never see each other, even though the name is identical.</p>
+</details>
+</div>
+
+<hr>
+
+<h2>The call stack</h2>
+
+<p>If every function call spins up a new box, and functions can call functions can call functions, JS needs a way to track "which box am I in right now, and where do I go back to when this one's done?" It manages this with a stack, literally called the <strong>call stack</strong> (also called the execution context stack, program stack, control stack, runtime stack — all the same thing, JS just loves extra names for one idea).</p>
+
+<p>The rule is simple: whenever an execution context is <em>created</em>, it's pushed onto the stack. Whenever one <em>finishes</em>, it's popped off, and control returns to whatever's now exposed underneath.</p>
+
+<p>Walking through <code>square(n)</code> then <code>square(4)</code> from before:</p>
+
+<div class="stack-diagram">1. program starts    2. square(n) is called   3. square(n) returns, square(4) is called
+
+                 ┌───────────┐    ┌───────────┐
+                 │ square(n) │    │ square(4) │
+┌───────────┐    ├───────────┤    ├───────────┤
+│    GEC    │    │    GEC    │    │    GEC    │
+└───────────┘    └───────────┘    └───────────┘</div>
+
+<p>The <strong>global execution context (GEC) always sits at the bottom</strong> — it's created the instant your program starts, and it's the last thing to be popped, once every line has run. <code>square(n)</code> is pushed on top when it's called, popped the moment it returns, then <code>square(4)</code> is pushed the same way. Everything stacks on top of the GEC in the order it was invoked, and unwinds in the reverse order it finishes — which is exactly why a function three calls deep still correctly returns control to the call that made it, and not to some other one.</p>
+
+<hr>
+
+<h2>The shortest JavaScript program</h2>
+
+<p>Here's a question worth actually sitting with: what does an <em>empty</em> file do?</p>
+
+<pre><code>// (nothing here at all)</code></pre>
+
+<div class="predict">
+<details>
+<summary>Does an empty file create an execution context?</summary>
+<p>Yes. Even with zero lines to run, JS still creates a global execution context the moment the program starts — because "create the GEC" isn't something your code triggers, it's the very first thing that happens, unconditionally, before your code is even looked at.</p>
+</details>
+</div>
+
+<p>And that GEC isn't actually empty either. Two things come bundled with it automatically, for free, in every JS environment:</p>
+
+<ul>
+<li>a <strong>global object</strong> — in a browser, this is called <code>window</code>.</li>
+<li><strong><code>this</code></strong> — at the global level, <code>this</code> simply points at that global object. <code>this === window</code>, right from the start, before you've written a single line.</li>
+</ul>
+
+<p>And here's the part that ties it back to everything above: any <code>var</code> or function you declare <em>outside of any function</em> — at the top level of your file — doesn't just sit in some abstract "global memory." It gets attached as a property of that same global object. Declare <code>var x = 7</code> at the top level, and <code>window.x</code> is <code>7</code> too. They're the same slot.</p>
+
+<div class="aside">Node.js (running JS outside a browser) uses a different name for the global object, but the shape of the idea is identical — every JS environment is responsible for handing you a global execution context with a global object and a <code>this</code>, before your code runs at all.</div>
+
+<hr>
+
+<h2>Your turn</h2>
+
+<p>Predict the output, in order, before opening the answer. Use nothing but: phase 1 reserves memory for every <code>var</code> and function in a context before phase 2 runs anything; every function call gets its own fresh, sealed context.</p>
+
+<pre><code>console.log(x);
+console.log(sum(2, 3));
+
+var x = 10;
+
+function sum(a, b) {
+  console.log(y);
+  var y = a + b;
+  return y;
+}</code></pre>
+
+<details>
+<summary>Reveal</summary>
+<p><code>undefined</code>, then <code>undefined</code>, then <code>5</code>.</p>
+<p>Global phase 1 reserves <code>x</code> (→ <code>undefined</code>) and <code>sum</code> (→ whole function). Phase 2 begins: line 1 prints <code>x</code> — still <code>undefined</code>, since line 4 (the assignment) hasn't run yet. Line 2 calls <code>sum(2, 3)</code>, which spins up its own context: its own phase 1 reserves <code>y</code> as <code>undefined</code> before <code>sum</code>'s phase 2 does anything; so <code>console.log(y)</code> inside <code>sum</code> prints <code>undefined</code> too — not <code>5</code>, because <code>var y = a + b</code> hasn't executed yet. Then it does, <code>y</code> becomes <code>5</code>, and <code>return y</code> hands <code>5</code> back out to the outer <code>console.log</code>, which prints it.</p>
+</details>
+
+<hr>
+
+<h2>Where this leaves you</h2>
+
+<p>You now have the one fact everything else in this series hangs off: <strong>JS builds a box before it runs anything, fills the box's memory in one pass, then executes in a second pass</strong> — and every function call gets its own disposable box, tracked by a stack. Hoisting, next, is just this same fact restated as a phenomenon. Scope, closures, <code>this</code> in a function (not just globally) — all consequences of what a box remembers and what it forgets.</p>
+
+<p>One honest note before you move on: you just read this, and reading feels like understanding. It isn't, yet. Open your browser console right now, paste in the <code>sum</code> example above, put <code>debugger;</code> as the first line, and step through it — watch the Scope panel actually fill with <code>undefined</code> before your eyes, watch the call stack panel grow and shrink as <code>sum</code> is entered and left. You own this once you've watched it happen without me telling you what you'd see, and can predict a snippet you've never seen with the same confidence you'd predict Python.</p>
+
+<p class="signature">Namaste 🙏 JavaScript.</p>
+
+<div class="nav">
+  <a href="index.html">← back to the ladder</a>
+  <span></span>
+</div>
+
+</body>
+</html>

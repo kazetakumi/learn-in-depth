@@ -1,0 +1,430 @@
+now we will cover very important
+interview questions related to closures
+which is asked a lot of times in
+interviews and you know even very senior
+developers they pull their hairs right
+when they see
+like things are not working as expected
+and you know that is because we don't
+understand what happens behind the
+scenes so now let us see these examples
+and you will be better in your
+interviews i'm telling you just keep
+watching so suppose we have a function
+over here okay let's call it x and we
+have a where i is equals to let's say
+one
+over here okay and we have a set timeout
+let's create a set timeout
+okay it takes a callback function
+and we are just trying to access this i
+right this i inside set timeout nothing
+else
+and we are just logging this and it also
+takes a timer right
+and let us give one second timer that is
+1000 millisecond over here so what do
+you expect if i run this program if i
+run this function what do you expect to
+see in the console
+so many of you already know that it is
+easy right
+it prints
+i value of i one
+after one second right so if we run this
+code so see after one second it prints
+one if i do it three over here three
+thousand okay it will print after three
+seconds one two and three so it will
+print after three seconds the value of i
+many people think that this set timeout
+runs over here itself
+no you will pull your hairs if i show
+you something so even if i show you
+okay even if i show you suppose if i
+print namaste javascript over here right
+so what will happen okay so yep so what
+do we expect to see now so many
+developers will think that javascript
+will wait for 3000 milliseconds over
+here and then we'll print
+i and then the value of namaste
+javascript no man see if i run this code
+if i run this code it prints namaste
+javascript then waits for 3000
+milliseconds and run that function and
+prints the value of i
+right so
+you know
+many people think that javascript set
+timeout will wait over here
+no
+javascript does not wait for anyone okay
+so just like we say right time and tide
+waits for none just like javascript also
+waits for none okay
+nice code right time tied and javascript
+waits for none
+i know that's a bad joke but
+yeah so what set timeout actually does
+is
+how and why this is printing like this
+is because
+these see this function first of all let
+me tell you an important thing this
+function forms a closure okay so this
+function remembers the reference to i
+okay this reference to i and it is like
+forms a closure so wherever this
+function goes it takes the reference of
+i along with it
+okay that's what closure is right
+and what does the set timeout do is it
+takes this callback function
+and stores it into some place okay and
+attaches a timer to it let me tell you
+that it takes this callback function and
+it attaches a timer of 3000 milliseconds
+to it
+and it stores it somewhere and the
+javascript proceeds right it does not
+wait for anything it just goes to the
+next line and prints namaste javascript
+okay that's how javascript works and
+once that timer expires once that 3000
+millisecond is
+done right that timer expires it
+takes that function okay puts it again
+to the call stack and runs it that's how
+set timeout work okay and we will go
+into more details in event loop callback
+queue those things come into picture but
+we'll go dive deep into it later but for
+now just understand set timeouts takes
+this callback function attaches a timer
+and when the timer expires it like calls
+that function that's how and javascript
+does not wait at that point of time
+itself right while you see this set
+timeout statement it does not wait there
+actually okay it just goes on and runs
+the whole code so it just prints the
+namaste javascript and goes on that's it
+that's it and it's it's somehow
+somewhere else stores and waits for the
+timer to expire something like that
+now
+this is also many developers understand
+and can crack but now what i will show
+you will like you will pull your hairs
+okay literally you will pull your hairs
+because that most developers are
+confused about so suppose we are given a
+problem to print in the console one two
+three four five after each and every
+second okay something like that okay one
+after one second two after two seconds
+three after three seconds four after
+four seconds some like this till five
+how would you do it
+so i know many of you cool developers
+who are watching right now what they
+will do is they will just quickly write
+a for loop right
+that is what we use right i'll tell you
+and you will just write where is equals
+to 1 and you will run this from 1 to 5
+right 1 to less than equal to 5 and you
+will do a i plus plus and what you will
+do inside the loop you will put this set
+time out right
+okay it's easy right we can just do it
+like this
+let me just remove this i now we no
+longer need this i and then what you
+will do so over here i i value will be
+one two three four five so it will print
+one two three four five and two like
+print it after each and every second
+what generally developers will do they
+will just put a i into one thousand
+easy
+right done
+we are done with our code right it will
+it will and how this will behave it will
+print namaste javascript then it will
+like go on and uh this when the value of
+i will be 2 it will set the timer of
+2000 and
+it will like log 2 then 3 then 4 then 5
+and that's how it is and that's how it
+is not
+okay it does not behave that way
+it behaves very differently
+okay and i if i'll show you the output
+of this code you will like pull your
+hairs so i'll show you the output of
+this code that will be very interesting
+okay
+so let me just run this code now so if i
+run this code so it prints namaste
+javascript and then six and then six and
+then six
+and why why it is printing 6
+it printed in the correct order right it
+printed after one second it printed 6
+after 2 seconds 6 6 6 like this
+after seeing javascript behave like this
+many developers want to like crash their
+screens but that's not the case let us
+see let us find out and let us see why
+this is working this way right
+so
+it is working this way because of the
+closure okay so if you understand
+closures properly you will be able to
+understand why it is printing six over
+here like this so remember what happens
+when a closure is formed a closure is
+like function
+along with its lexical environments
+right so even when function is taken out
+from its original scope right if it is
+executed in some other scope still it
+remembers its lexical environment right
+it can access to those variables uh of
+its lexical scope right so what will
+happen when the set timeout takes this
+function and stores it somewhere and
+attaches a timer so that function
+remembers the reference to i
+so let me make things clear i have told
+you in the closure video also that it
+remembers the reference to i not the
+value of i
+it reference to i many developers get
+confused here so when
+the loop runs the first time so it like
+kind of makes a copy of this function
+attaches a timer and
+also remembers the reference of i and
+similarly these five copy of this
+functions all of them are pointing to
+same reference of i
+right
+they are pointing to same reference of i
+because the environment for all of these
+functions are same right
+all of these copy of set timeout
+callback functions the reference to that
+i right it it refers to the same memory
+space right
+so that was the first thing the second
+thing is that javascript does not wait
+for anything remember so it does not
+wait for anything it will run the loop
+again and again okay it will just
+quickly uh push that like store that
+function set timeout will store that
+function all these five functions and
+javascript will move on right it does
+not wait for those timer to expire
+right so it will print namaste
+javascript and when the timer expires it
+is too late
+it is too late and the value of i
+because the loop was constantly running
+right it was one two three four five six
+so the i value became six
+okay this i value became six and when
+this callback function runs
+by that time the value of i this where i
+is six okay in the memory location it is
+six so that is why it prints six every
+time because all of these callback
+functions all of these copy of these
+functions all of these five functions
+are referring this i is referring to the
+same spot in memory
+and that is the same variable
+this variable which has now run five
+times and its value because of this
+increment has gone to six so if we try
+to retrospect that why it is behaving
+this way then we get to know that it is
+because this i for each and every copy
+of the function
+is referring to the same spot in memory
+that is i
+this i okay which has now become six
+right
+because the loop was continuously
+running by the time this callback
+function gets a chance to execute right
+by that time this i value has been
+changed because of this loop to 6 right
+so the problem lies over here in this i
+so how we can fix this
+how we can fix this
+a very quick and very easy way to fix
+this is to use let over here
+okay so if i use a let over here you
+already know what let will do
+let has a what block scope right
+so when i say let has a block scope that
+means for each and every loop iteration
+right so whenever every time loop runs
+this i
+is a new variable altogether okay it is
+a new copy of i altogether
+and
+each time set timeout is run
+this callback function
+has a new copy of i with it its own
+identity of i with it let me first run
+you run and show it to you that it works
+okay many of you might not believe it so
+see it runs why
+you know because these let variables are
+block scoped right so each and every
+this time this loop is called right each
+and every time the set timeout method is
+called
+this function forms a closure with a new
+variable itself okay that means this
+copy of i in each iteration is new okay
+so that means if we do a i plus plus
+here so i is equals to 2 is a new copy
+of variable which forms a closure with
+this function okay set timeout what it
+will do set timeout will take this
+function now this function has a new
+copy of
+i bound to it which has value 2 and send
+it okay and saves it
+and similarly when the i goes to three
+it it forms a closure with i is equals
+to three which is a fresh variable in
+itself okay fresh new copy of i
+and it like saves it and similarly it
+like keeps on doing it keeps on doing it
+and it makes five copies of this
+variable i
+and they form closure with each and
+every function
+so in simple term you can assume that
+each and every time this function is
+called it is it is referring to
+different memory location which is their
+individual i
+uh separate copy of i which were in the
+scope okay so why was it not working
+with var and why it is working with lead
+the only difference is that let is block
+scope and it creates a new copy every
+time this loop is executed but you know
+some of these smart interviewers very
+smart interviewers they will say that no
+you can't use lit you have to use web
+now you are confused right now what you
+will do
+now again only closures will help you
+okay closures will help you
+with this and you can like without even
+writing let you can do and perform the
+same thing because you already know why
+this is happening
+so it is hap it was happening like it
+was not working with var just because
+this the copy of this i right this copy
+of this i refers to the same memory
+location so somehow we have to give a
+new copy of i
+every time right to this set timeout and
+forms a closure with it okay so for that
+what we can do if we want to fix it with
+using where over here
+so what we can do we can form a closure
+okay so clearly see this pay very
+attention you like it it might be
+confusing for you initially but
+i'll show you so what we will do is we
+will create a function okay let's call
+it close let's call it close okay we
+will enclose this set timeout inside
+this function okay let us take this
+so what we have to do is we want to kind
+of have a new copy of i each and every
+time this loop is executed like that is
+what was working with let right
+so what we will do is we wrap this
+wrap this sept time out inside this
+close function pay attention very
+carefully so we wrap this set timeout
+inside this closed function
+and we somehow have to supply this i
+every time with a new copy of i
+right how we can do that
+we can just call this close function
+with an i okay so if i do a i over here
+okay and if i pass in i here and
+if i run it like this so it works
+why it will work because every time
+you call this close function with this i
+it creates a new copy of i for itself
+over here okay
+uh i know these are these are a lot of
+eyes
+that might be confusing to you but you
+can assume this to be like this somewhat
+like this okay so these are like
+this so these two code have no
+difference it's like this okay so
+basically what we did is so we just
+identified that problem that that
+problem was because it was referring to
+the same memory space now using closures
+using this close function we kind of
+created a new copy of
+i or a new copy of x every time this set
+timeout was called okay so every time
+the set timeout callback function is
+like stored in a separate memory and
+like attach the timer right it stores so
+it remembers a new copy of x every time
+this close function is called it like
+has a new copy of i in it okay so
+uh that is how it is and that is how you
+can make this work so next time if you
+find something like this so don't just
+pull your head and hate javascript but
+understand how it beautifully works
+behind the scenes okay how you can make
+closures work for you not against you
+you know while coding how you can make
+closures work for you like understanding
+how these things are working
+you don't get into this this is a very
+corner case you don't get run into these
+problems very often but this is
+important to know okay how things are
+working behind the scenes if you know
+internally you won't hate javascript but
+you will love it
+i know it is too much for this video so
+that's all in this video and in the next
+video we will be covering an important
+example of closures you know i saw in
+the comment somebody wrote that
+if suppose an interviewer is asking for
+a good example of closure what can we
+give so in the next video i will show
+you a good example of closures which
+will make your foundations more strong
+you will remember closures for your life
+before moving on to that video give this
+video a thumbs up it motivates me a lot
+and till next time thank you for
+watching namaste javascript
+[Music]
+foreign

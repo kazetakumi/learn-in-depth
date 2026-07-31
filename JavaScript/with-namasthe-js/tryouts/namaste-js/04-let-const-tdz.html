@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>let, const, the Temporal Dead Zone & Block Scope</title>
+<style>
+  :root {
+    --paper: #fbfaf6;
+    --ink: #2b2620;
+    --accent: #355070;
+    --rule: #ddd7c8;
+    --code-bg: #f3f0e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #1b1a17; --ink: #e8e3d8; --accent: #8fb4d9; --rule: #3a362d; --code-bg: #242119; }
+  }
+  :root[data-theme="dark"] { --paper: #1b1a17; --ink: #e8e3d8; --accent: #8fb4d9; --rule: #3a362d; --code-bg: #242119; }
+  :root[data-theme="light"] { --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --rule: #ddd7c8; --code-bg: #f3f0e8; }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 8rem;
+    line-height: 1.7;
+    font-size: 1.18rem;
+  }
+  h1 { font-size: 1.75rem; line-height: 1.25; margin-bottom: 0.3rem; }
+  .kicker { color: var(--accent); font-style: italic; margin: 0 0 3rem; }
+  h2 { font-size: 1.35rem; margin-top: 3.2rem; }
+  p { margin: 1.1rem 0; }
+  code { font-family: 'SF Mono', Menlo, Consolas, monospace; font-size: 0.92em; background: var(--code-bg); padding: 0.1em 0.35em; border-radius: 3px; }
+  pre {
+    background: var(--code-bg);
+    padding: 1.1rem 1.3rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    line-height: 1.5;
+    font-size: 0.95rem;
+  }
+  pre code { background: none; padding: 0; }
+  a { color: var(--accent); }
+  .aside {
+    border-left: 3px solid var(--rule);
+    padding-left: 1.1rem;
+    margin: 1.6rem 0;
+    color: var(--ink);
+    opacity: 0.82;
+    font-size: 1.02rem;
+  }
+  .predict { margin: 1.4rem 0; }
+  summary { cursor: pointer; color: var(--accent); font-weight: 600; padding: 0.5rem 0; }
+  details {
+    border-left: 3px solid var(--accent);
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    margin: 1.2rem 0 1.8rem;
+  }
+  details[open] summary { margin-bottom: 0.6rem; }
+  .stack-diagram {
+    background: var(--code-bg);
+    border-radius: 6px;
+    padding: 1rem 1.3rem;
+    font-family: 'SF Mono', Menlo, Consolas, monospace;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    white-space: pre;
+    overflow-x: auto;
+  }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.95rem; }
+  td, th { border: 1px solid var(--rule); padding: 0.4rem 0.7rem; text-align: left; }
+  th { background: var(--code-bg); }
+  hr { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  .nav { display: flex; justify-content: space-between; margin-top: 3rem; font-size: 1rem; }
+  .signature { text-align: center; color: var(--accent); font-style: italic; margin-top: 4rem; }
+</style>
+</head>
+<body>
+
+<p class="kicker">Namaste JavaScript · Crux 4 of 9</p>
+<h1>let, const, the Temporal Dead Zone &amp; Block Scope</h1>
+
+<p>Here's a fact that should immediately bother you, given what you know: <code>let</code> and <code>const</code> are hoisted too. Phase 1 reserves them in memory before any code runs, exactly like <code>var</code>. So — same setup as crux 2 — what happens here?</p>
+
+<pre><code>console.log(a);
+let a = 10;</code></pre>
+
+<div class="predict">
+<details>
+<summary>You already have a rule for this shape of program. Apply it.</summary>
+<p>Not <code>undefined</code>. <code>Uncaught ReferenceError: Cannot access 'a' before initialization.</code></p>
+<p>Read that message closely — it's not the same error as an undeclared variable either. Crux 3 taught you <code>ReferenceError: a is not defined</code>, for a name that was <em>never in the scope chain at all</em>. This message is different on purpose: <em>"Cannot access... before initialization."</em> JavaScript is telling you <code>a</code> exists. It's reserved. You're just not allowed to touch it yet.</p>
+</details>
+</div>
+
+<p>So now there are three distinct behaviors for "touch a name before its assignment line runs," and you've just met the third:</p>
+
+<table>
+<tr><th><code>var a</code></th><td>hoisted, given <code>undefined</code> immediately — freely readable, just empty.</td></tr>
+<tr><th>never declared</th><td>never reserved anywhere in the scope chain — <code>ReferenceError: not defined</code>.</td></tr>
+<tr><th><code>let</code> / <code>const a</code></th><td>hoisted, reserved — but locked. <code>ReferenceError: Cannot access before initialization</code>.</td></tr>
+</table>
+
+<hr>
+
+<h2>The temporal dead zone</h2>
+
+<p>Notice the word JS chose: <em>temporal</em>. Crux 3 was built entirely on <em>lexical</em> — where something sits, physically, in the written code, fixed forever the moment you write it. This is different. <strong>Temporal means about time</strong> — specifically, time during <em>execution</em>, phase 2, as your program actually runs line by line.</p>
+
+<p><code>let</code> and <code>const</code> get reserved in phase 1 same as anything else, but into a separate, guarded pocket of memory — not the ordinary slot <code>var</code> uses. From the moment their scope starts executing until the exact line where they're declared actually runs, they sit in that guarded pocket, completely untouchable. That entire stretch of time has a name: the <strong>temporal dead zone</strong> (TDZ) — dead, because nothing you do to the variable in that window works; temporal, because the boundary is a moment in execution time, not a location in the code.</p>
+
+<p>The scope chain from crux 3 tells you <em>where</em> you're allowed to look for a variable. The TDZ tells you <em>when</em>, even once you've found the right box, you're allowed to actually open it.</p>
+
+<div class="aside">This isn't JS being needlessly strict. Think about what the alternative would cost you: with <code>var</code>, accidentally reading a variable before you meant to assign it silently gives you <code>undefined</code> — a bug that runs quietly and shows up as wrong output three functions later. The TDZ turns that same mistake into a loud, immediate, impossible-to-ignore crash, right at the line that's actually wrong.</div>
+
+<hr>
+
+<h2>const adds two more rules</h2>
+
+<p><code>const</code> does everything <code>let</code> does — hoisted, TDZ, all of it — plus two extra constraints that fall directly out of what the word means: a constant.</p>
+
+<pre><code>const b;</code></pre>
+
+<div class="predict">
+<details>
+<summary>Predict this one — declaring a const with nothing assigned.</summary>
+<p><code>Uncaught SyntaxError: Missing initializer in const declaration.</code> Not even a runtime error — the program refuses to parse at all. Since a <code>const</code> can never be assigned later, JS can't let you declare one without a value; there'd be no legal line left where it could ever receive one.</p>
+</details>
+</div>
+
+<pre><code>const c = 10;
+c = 20;</code></pre>
+
+<div class="predict">
+<details>
+<summary>And reassigning one after the fact?</summary>
+<p><code>Uncaught TypeError: Assignment to constant variable.</code> This one waits until phase 2 actually reaches the offending line, which is why it's a <code>TypeError</code> and not a <code>SyntaxError</code> — the program is perfectly well-formed, it's just doing something forbidden at runtime.</p>
+</details>
+</div>
+
+<p>One more, shared by both <code>let</code> and <code>const</code>, that <code>var</code> never enforced: you cannot declare the same name twice in the same scope.</p>
+
+<pre><code>let d = 1;
+let d = 2; // Uncaught SyntaxError: Identifier 'd' has already been declared</code></pre>
+
+<p><code>var</code> would have silently allowed this and just quietly overwritten the first <code>d</code> — a real source of bugs in large, old JS files. <code>let</code>/<code>const</code> close that door outright.</p>
+
+<div class="aside">A distinction worth having ready for an interview: <code>const</code> locks the <em>binding</em>, not what it points at. <code>const arr = [1]; arr.push(2);</code> works completely fine — you've mutated the array, not reassigned <code>arr</code> to a different array. What throws is only <code>arr = [1, 2]</code>, a genuine reassignment of the name itself.</div>
+
+<hr>
+
+<h2>Block scope</h2>
+
+<p>Everything so far has been about <em>when</em>. Now, one more piece of <em>where</em> — a scope chain link crux 3 never showed you, because <code>var</code> can't create one.</p>
+
+<p>A <strong>block</strong> is just <code>{ }</code> — the curly braces you already write around <code>if</code>, <code>for</code>, <code>while</code>. JS calls it a compound statement: a way of grouping several statements into one, for the places — like the body of an <code>if</code> — where the language only expects a single statement.</p>
+
+<pre><code>{
+  var a = 10;
+  let b = 20;
+  const c = 30;
+}
+
+console.log(a); // ?
+console.log(b); // ?
+console.log(c); // ?</code></pre>
+
+<div class="predict">
+<details>
+<summary>Same block, three different declaration keywords. Which survive outside it?</summary>
+<p>Only <code>a</code> — it prints <code>10</code>. <code>console.log(b)</code> and <code>console.log(c)</code> both throw <code>ReferenceError: not defined</code>.</p>
+</details>
+</div>
+
+<p>Here's why: a block, just like a function, gets its own lexical environment the instant execution enters it — its own local memory, its own link back to the parent's lexical environment, exactly the chain you already built in crux 3. <code>let</code> and <code>const</code> respect that boundary completely: declare one inside a block, and it lives <em>only</em> in that block's memory. Step outside the closing <code>}</code>, and the scope chain from out there simply doesn't run through it anymore — same as <code>middle</code> never being able to see into <code>inner</code>.</p>
+
+<p><code>var</code> never got the memo. It doesn't recognize block boundaries at all — it always attaches itself to the nearest enclosing <em>function</em> scope, or the global scope if there is no function. A block is invisible to it. That's why <code>a</code> survived and the others didn't: it was never really "in" the block to begin with.</p>
+
+<hr>
+
+<h2>Shadowing</h2>
+
+<p>Since a block gets its own slice of memory, you can reuse a name from an outer scope inside it — and the inner one temporarily hides, or <strong>shadows</strong>, the outer one for as long as you're inside that block.</p>
+
+<pre><code>let x = "outer";
+
+{
+  let x = "inner";
+  console.log(x); // ?
+}
+
+console.log(x); // ?</code></pre>
+
+<div class="predict">
+<details>
+<summary>Predict both logs.</summary>
+<p><code>"inner"</code>, then <code>"outer"</code>. Inside the block, the scope chain finds the block's own <code>x</code> first and stops there — never even looks further out. Once the block ends, that inner <code>x</code> and its whole memory are gone, and the outer <code>x</code> was never touched.</p>
+</details>
+</div>
+
+<p>This is completely safe with <code>let</code>/<code>let</code> or <code>const</code>/<code>const</code>, because each block genuinely gets its own separate memory. But remember <code>var</code> doesn't believe in block memory at all — so watch what happens when you try to shadow a <code>let</code> with a <code>var</code>:</p>
+
+<pre><code>function f() {
+  let y = 20;
+
+  {
+    var y = 20;
+  }
+}</code></pre>
+
+<div class="predict">
+<details>
+<summary>Is this "shadowing" too, the same way?</summary>
+<p><code>Uncaught SyntaxError: Identifier 'y' has already been declared.</code> Fails before the program even runs.</p>
+</details>
+</div>
+
+<p>This is <strong>illegal shadowing</strong>, and it falls straight out of two facts you already have in hand: <code>var</code> ignores the block and hoists <code>y</code> up to <code>f</code>'s function scope — but there's already a <code>let y</code> sitting in that exact same function scope. Same collision as declaring <code>let y</code> twice in a row. The reverse direction is perfectly legal, and now you can predict why without being told:</p>
+
+<pre><code>var z = 20;
+
+{
+  let z = 30; // perfectly legal
+  console.log(z); // 30
+}
+console.log(z); // 20</code></pre>
+
+<div class="aside">Here, <code>let z</code> stays confined to the block's own memory — it never tries to attach anywhere it isn't wanted, so there's nothing for it to collide with. Only <code>var</code> reaching outside its block causes trouble; <code>let</code> reaching outside its block is impossible by construction.</div>
+
+<hr>
+
+<h2>Your turn</h2>
+
+<p>TDZ and block shadowing, in one pass. Predict every line.</p>
+
+<pre><code>let score = 100;
+
+function printScore() {
+  console.log(score);
+  let score = 200;
+}
+
+printScore();</code></pre>
+
+<details>
+<summary>Reveal</summary>
+<p><code>Uncaught ReferenceError: Cannot access 'score' before initialization.</code></p>
+<p>The tempting wrong answer is <code>100</code> — "the inner <code>score</code> isn't declared yet, so surely the lookup falls through to the outer one." But it doesn't work that way. <code>printScore</code>'s own execution context has a <code>let score</code> written inside it, so phase 1 of <em>that context</em> already reserved a local <code>score</code> — in the TDZ, locked — before <code>console.log(score)</code> ever runs. The scope chain finds that reserved-but-locked local slot first and stops right there; it never even continues outward to check the global <code>score</code>. Having a local declaration anywhere in a scope — even below where you read it — is enough to shadow the outer one for the <em>entire</em> scope, TDZ included.</p>
+</details>
+
+<hr>
+
+<h2>Where this leaves you</h2>
+
+<p><code>let</code> and <code>const</code> didn't get a new hoisting rule bolted on as an exception — they get the exact same phase-1 reservation as everything else, just written into a locked pocket of memory instead of an open one, for a span of execution time with a name: the temporal dead zone. Block scope is the same scope-chain machinery from crux 3, just with one more kind of node — a <code>{ }</code> — allowed to open a link, something <code>var</code> was never taught to respect. Both traps you tested here — TDZ and illegal shadowing — are really the same lesson from two different angles: JS would always rather throw loudly at the exact wrong line than let a silent, wrong <code>undefined</code> slip three lines further down and become someone's 2am bug.</p>
+
+<p>Go verify the block claim yourself, don't just take the prose for it: paste the shadowing example into your console, put <code>debugger;</code> inside the inner block, and look at the Scope panel when it pauses. You'll see a <strong>Block</strong> entry sitting right there alongside Local and Global — its own real link in the chain, not a syntactic illusion.</p>
+
+<p class="signature">Namaste 🙏 JavaScript.</p>
+
+<div class="nav">
+  <a href="index.html">← back to the ladder</a>
+  <span></span>
+</div>
+
+</body>
+</html>

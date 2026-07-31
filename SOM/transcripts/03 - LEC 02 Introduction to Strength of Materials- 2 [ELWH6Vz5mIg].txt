@@ -1,0 +1,1268 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on
+history of strength of materials in that
+we have particularly focused on
+development of the beam Theory
+you know you had
+burnally coming into the picture
+he was but in 1655 and 1705
+so he brought in the connection between
+the load and curvature
+see people were trying to extrapolate
+their understanding of tension to
+bending
+until somebody looked at what happens
+when you Flex it
+see if I flux the beam now you recognize
+that this is a deformable solid you can
+easily visualize the top fibers the way
+I bend it are stretched
+and the bottom fibers are compressed
+so this they were not doing it earlier
+so only burnally looked at the elastic
+equation okay
+so the beam deflection changed the
+scenario they were able to appreciate
+what is the way to handle it
+and he was also quite right in coming
+out with apostolate that the curvature
+is proportional to the bending moment
+but he could not proceed further
+ok
+and when you say Bernal it is not one
+it's a family which dominated scientific
+development in the 18th century so you
+had Jacob Burnley
+then you have brother of Jacob is John
+Burnley
+he is credited for virtual displacements
+and what is more importantly is he
+taught Euler
+okay
+and his son
+was Daniel Burnley
+he is known for Burnley principle in
+Fruit mechanics is in those days there
+is no distinction between solid
+mechanics fluid mechanics light Sound
+electricity everything is like you know
+a natural philosophy that is the way
+people have approached it and a bulk of
+them were mathematicians
+and I also said you know the scientific
+development has not been poetic
+it is recorded history that father and
+son had plagiarism problems
+fine
+I don't know once people become
+knowledgeable the human aspect is
+missing so consciously you have to hold
+on to good human values
+fine
+then you have
+a parent is picture is not available
+he found the correct relation and the
+Triangular variation
+so people were
+taking baby steps towards the correct
+solution
+see there was nothing like an exam for
+them to deliver Bean Theory so it was
+happening at its natural phase that is
+why it took 400 years almost close to
+400 years
+fine
+and you had Jacob Leopold
+he was also looking at
+sag that means when the beam bends what
+happens to it
+okay
+so looking at the deflection picture
+was the turning point for people to
+arrive at correct conjecture about
+bending
+then you had the famous Euler
+and
+whenever you say Euler people always
+remember his contribution to buckling
+so he studied elastic lines and buckling
+equation
+he followed the work of Jacob bernali
+and all this buckling problem became
+very critical only when people started
+pumping
+satellites you have aircrafts
+where there is definitely a need for
+reduction in weight
+so when you reduce the cross section
+instead of failing by fracture the
+predominant one is when it is subjected
+to compression it was losing its
+stability
+fine so optimization brought this new
+problem
+initially you want something to work
+later on you go for optimization
+and we will also see when you say
+buckling people always attach it to
+column buckling I want you to break that
+one out and if you look at my first
+slide you would see wherever you have
+compression
+when the thickness is not sufficient
+enough you can have buckling it can
+happen in bending it can happen in
+other situations in Shear we'll see that
+also so Euler is credited to the famous
+column buckling equations
+and if you look at he has investigated
+the shapes of the curves with a slender
+elastic bar will take up under various
+loading conditions
+so looking at the deflection opened up
+the possibility
+and he was also clever looking at a
+slender bar
+because I said in a common autochecky
+which is seen everywhere not in an
+exotic
+aircraft structure a simple shaft has
+many steps
+not only many steps simultaneously it
+can have
+torsion it can have bending
+but each one when you look at it's
+difficult to comprehend
+fine so you will have to appreciate that
+complexity of the situation how we break
+it into simple problems
+and this was also the time where people
+are writing their books so you have an
+introduction to calculus appeared in
+1748
+then differential calculus appeared in
+1755
+and also integral calculus
+three volumes
+during this period
+and what is the Indian contribution to
+calculus see many times
+historians they go back and then find
+out even if there is a likelihood of
+similar thinking they want to go back
+and give give credit to those people
+fine
+you find most of this calculus developed
+somewhere in the 18th century
+fine
+but what was the contribution in India
+you all know calculus means you are
+talking about differential calculus
+integral calculus infinite series limits
+all that is start right in your schools
+these days I believe
+so it was only Isaac Newton and
+Lebanese have developed it independently
+in the 17th century
+okay
+in fact use of infinite series to
+express Pi was used by Kerala School of
+mathematicians at least 300 years before
+Newton you have to find out
+see
+why Pi was so important if you look at
+history of scientific development Pi has
+always occupied
+an Indian tradition The Vedic tradition
+they have a problem to solve you have a
+square altar
+you have a semicircular Altar and you
+have a circle altar
+all these altar should have same area so
+the problem of Pi was
+time Memorial Vedic people have solved
+it in some way if you go and find out
+they know how to find they are all
+called solap sutras and so on
+and you find
+in Kerala School of mathematics that's
+what we will see that they have
+understood about pi and expressed it as
+an infinite series
+one also find tailored series expansion
+for sine cosine and R tangent right in
+14th century
+whether it is further developed or not
+that's a different question but thought
+process was there
+and people say it was taken to Greece
+from Greece it spread to other countries
+there are you have to have
+archaeological evidence to do that but
+now more and more mathematicians are
+acknowledging this
+so madhava was in 1340 to 1425
+he had his disciples parameshwara
+nilakanta jesta Deva and you also have
+this summarize and recent book that's
+about 2016 it got published
+see it also takes time for the
+scientific Society to recognize the
+contribution
+now more and more people
+acknowledge this
+and he has not given the scientific
+facts in the modern symbolism fine
+and he has given a shloka like this
+it says
+foreign
+you know I can read Sanskrit I cannot
+interpret it and you have Scholars who
+do that interpretation and you have
+Professor K Rama subramanian and IIT
+Bombay has given very
+illustrious lectures on these topics the
+shloka refers to an equation like this
+where C is the circumference
+and D is the diameter and the sloka if
+it is translated see when you have a
+knowledge given in a different symbolism
+you need experts who are well versed in
+the modern development as well as
+interpreting it only then you can
+uncover the truth
+so a shloka like this results into an
+equation of this form
+and they have also written books see
+that's the only way of communicating the
+accumulated knowledge so you have Tantra
+sangraha yuktibasha
+so these are all written in Sanskrit
+either in Sanskrit or probably some
+books are in Malayalam I do not know
+but primarily Sanskrit was the language
+in those times
+so this can be Rewritten when D is equal
+to 1 as Pi by 4 equal to 1 minus 1 by 3
+plus 1 by 5 minus one by seven plus one
+by nine
+go to Infinity the concept that
+something can be summed up as an
+infinite series that's a seed fine that
+was seen in the Kerala School of
+mathematics
+it is known as Gregory Lebanese series
+but more and more people accept that
+this is actually madhava nilakanta
+series I think it he requires a clap
+from this class you should give a clap
+so you have to take pride that there
+were thought processes in the country
+about calculus 300 years before the
+Europe European scientists could come
+forward with those ideas
+and as I said Euler and Burnley were
+able to look at the deflection and come
+to some understanding about the
+bending of beams but the final
+relationship on finding out the stresses
+the credit goes to coulomb
+and coulomb you also know in electric
+Sciences you have a famous Coulomb's law
+so that's what I said in those days they
+were there were not many branches like
+this fine
+and it's all natural philosophy
+and coulomb is also credited with one
+more
+aspect he determined the torsional
+rigidity
+see torsional rigidity means first
+when you have applied torsion
+whether the
+machine element or the structure is able
+to withstand it see you are graduating
+from rigid body mechanics to deformable
+solids so people initially thought
+whatever the forces that act on it
+nothing will happen to it
+and if they want to feel safe nothing
+should happen to it
+so that is how these terminologies have
+come about you will have bending
+rigidity you will have torsional
+rigidity likewise you know this has an
+origin and origin from that kind of a
+thought process so he determined the
+torsional rigidity of a Wire by
+observing the torsional oscillation of a
+metal cylinder suspended by it
+and you also have a book by Navy air was
+published in 1826
+on strength of materials so whatever the
+understanding is documented and that was
+available as a textbook
+so you have to appreciate you took
+actually
+about 400 years
+and 11 gifted men to finally develop the
+present beam Theory it is not trivial
+at each stage of development development
+of each of these Concepts have to be
+verified by experiments it's not just
+you throw a concept and run away
+fine and there has to be a mathematical
+basis not only that you must also be
+able to prove it from various
+standpoints whatever we observe it
+should be explainable from the theory
+that you have built up from the theory
+that you have built up you should be
+able to build certain
+structures and then you should be able
+to predict its life
+and you know you had Gaspard monkey
+fine he was credited as a great
+mathematician
+and he started a engineering school
+in 1794 it's the famous equally
+Polytechnic
+see until then engineering was more like
+apprenticeship people will go to
+experienced people learn certain skills
+and then come out and practice it as
+engineers
+it was not like they have to be taught
+the basic Sciences
+so he was the leader like you have the
+current curriculum when you do
+Engineering in iits around 90s or across
+the country now you have a basic
+mathematics physics and
+chemistry so that kind of a formulation
+he was responsible for it
+and then you know people need a
+textbooks on these fundamentals so
+textbooks were written in those times
+he was a progressive thinker and then
+lectures for large groups of students
+see some account says they give very
+large classrooms they lecture it to 2000
+people at a time and so on fine because
+you know knowledge is scarce and
+communication
+aspects are less
+so many stalwarts in the field of
+mechanics of solids decorated this
+equally Polytechnic you have monge you
+have poison you have Navy air you have
+consulate you have koshy and then you
+have Lami we would see their
+contribution as we go through the course
+fine
+and consulate is
+immediately important because you know
+when you say strength of materials
+what you find is here documented
+what is the
+knowledge of the material that they use
+at that point in time
+so the most complete presentation of the
+knowledge of mechanical Properties or
+Structural Materials of that time is
+found in that book so that was his
+contribution
+and you will also see in this course I
+have already said
+why Galileo could not comprehend bending
+completely because you took a problem
+which is complex
+from a mathematical perspective
+from a practical perspective cantilevers
+are seen everywhere
+you see more cantilevers than
+simply supported beams
+fine
+you had taken a common example but I
+can't deliver you all know it has a
+Shear variation and you will also see in
+our subject development also we will
+develop deflection
+only due to stresses developed in
+bending
+then we will
+try to find out how to accommodate shear
+so a consulate is credited
+in introducing the effect of shearing
+force in the formula for deflection of
+beams we will take it up towards again
+so inclusion of Shear is not trivial
+these are all important developments
+okay
+and you should also look at what is the
+timeline
+of material development
+so this is like a hundred thousand years
+back I am going to recall this hundred
+thousand years later fine so you should
+know we are talking about what is
+happening currently
+and look at the Genesis of various
+materials what was the material
+available in those times you had only
+Stone
+you had wood that's how you had many
+um
+gadgets and structures have been made
+then people went into Bronze Age you
+have tools out of bronze
+then they had iron
+so cement was available at the start of
+the Common Era
+and then you had steel somewhere around
+1800
+mind you that this is a non-linear scale
+fine
+then in 1950s you had polymers you have
+polycarbonate and so on and so forth
+they are all used in many structural
+applications
+and then compost is developed because
+there is more and more Darth of
+fuel
+people thought that I should spend less
+fuel one way of doing it is reduce the
+weight
+it retain the strength
+fine reducing the weight means it's not
+that compromise on safety you have to go
+for Advanced Materials which provide you
+strength where you are needed so people
+found that if I have fibers inserted
+which are stronger than the Matrix I can
+make a composite and do it then you had
+Nano materials
+I have not put here you also have Smart
+materials
+fine you have Smart materials
+and there are also material like this
+which are functionally graded material
+we started saying in our idealizations
+we'll keep seeing that because you have
+to know we make very simplifying
+assumptions to understand the basics
+so this has been the timeline for
+development of materials
+so we will come back to this
+now what we will do is we will learn
+some practical experience of
+what is the strength of a material fine
+so I would like you to do the experiment
+on Chalk I would first ask these section
+of students to do the experiment you
+just watch
+what we will do is you would have broken
+the chalk many times randomly but I
+wanted to do it in a particular fashion
+now you take the chalk hold it in front
+of you all of you take it take it out
+pull it until it fractures
+pull it pull it until hold it like this
+you are being recorded pull it pull it
+pull it yeah
+okay
+so I will also now pull it fine
+everybody has pulled it and what do you
+find it is more or less perpendicular to
+it
+we have not done any prayer
+adjustments with people I should break
+it only like this
+it has been open like this okay now what
+we would see is we would break it in a
+different manner now I want this section
+of students to
+take the chalk and I want half of them
+see what I would suggest is I want this
+row to break it in one fashion that
+throw to break down another fashion so
+you'd check the chalk all of you take
+the chalk
+and do it anti-clockwise okay hold it
+and do it rotate it anti-clockwise
+can you rod
+break the chalk rotate until the chalk
+breaks
+let's see what is the shape
+is it perpendicular
+can you guess what could be the angle
+roughly
+roughly
+roughly this 45 okay now what I'll do is
+I'll ask the other section now you take
+the chalk
+rotate it clockwise
+then also what happens
+there's something very interesting the
+chalk is very smart it understands
+somebody is pulling me
+when somebody pulls me
+it breaks like this
+fine
+when somebody twists it whether it is
+clockwise or anti-clockwise the 45
+degree will be in one of the two
+complementary directions ok
+so how do you comprehend this
+chalk is definitely not smart
+fine
+something happens to the material
+on this plane
+or on this plane
+which reaches the critical value and the
+material separates
+see we have graduating from digit body
+mechanics to deformable solids and we
+said the body races
+and we also call the resistance as
+stress
+we have still not developed what is the
+concept of stress
+but we have to have in our mind if I
+have to develop the concept of stress I
+must bring in the planes passing through
+the point is ideally here
+I should know what happens in any of the
+possible planes
+if I don't bring in that aspect of it
+then I would not be in the position to
+appreciate or Reason out mathematically
+how do I explain the failure of the
+chuck
+is idea clear
+so now we know when I have to developed
+the concept of stress because Galileo
+did the experiment and then found out
+and gave a conclusion it depends only on
+the cross section not on the length very
+useful it may appear very childish for
+you now
+it's so obvious because it is taught you
+maybe in 10th class you have a tension
+test that's what I understand 10th or
+12th you do a tension test ready
+elasticity all that is introduced I
+don't know how much you have
+comprehended that
+where it is very subtle so now if I have
+to develop the concept of stress
+the concept will be complete when I I
+bring in the planes until then the
+concept will not be complete
+now let us see
+if I have a
+steel rod and a pull it it cannot be
+done with hand you have to go to your
+machine and you will be doing it as part
+of your laboratory course
+when I take it and Faithfully record my
+data
+I am going to get only a non-linear
+relationship like this I am not going to
+get a linear relationship
+and we have already looked at what are
+the goals for an idealization
+the idealization is very very important
+to simplify your problem
+and you find when I have a non-linear
+curve like this the red portion is the
+portion where I apply the load when I
+release the load it comes back to its
+original position
+and fortunately this is linear but it is
+very very small
+okay but that is a Golden Goose for us
+because once I have a linear
+relationship there are many many things
+I can do mathematically it makes my life
+a lot more simpler
+so when I have a failure of that real
+material it is not failing in the same
+way like chalk the ductile material
+fails by a famous Cup and Cone fracture
+in a brittle material was flat
+whereas ductile material you will have
+this at 45 degrees
+you will get the answer yourself once we
+develop the relevant Concepts in this
+course
+fine you have a Cup and Cone fracture
+I said that we have to go back to this
+idealizations again and again my
+interest is to emphasize two points
+first when I say small deformation I can
+write the governing equations based on
+undeformed configuration that is one
+advantage
+the second crucial Advantage is I can
+hang on to the linear relationship
+I don't have to worry about
+combined loading of axial pull
+torsion
+and bending
+simultaneously I can understand them
+I can understand them one by one
+and then simply use the principle of
+superposition and then look at the
+combined effect so it makes our life
+very very simple
+see another one what we have looked at
+is
+otropy
+I said
+you have a simple spanner that is done
+by forging all manufacturing operations
+modify the isotropic property you no
+longer have the material as isotropic
+and you have to learn how to live with
+it
+and that's what we are going to see
+so when I have the casting
+you have grains there is no grain flow
+there is no great advantage
+and many times you extrude the material
+from the bar stock you machine it like
+this so you have grain but there is
+breakage in this
+Gap
+whereas if I do the forging the grains
+are aligned like this
+so whenever that's that that's like you
+know you have a fiber aligned like this
+so it is much stronger
+and I can do forging
+either by a cold forging operation or by
+an hot forging operation
+and if you do cold forging that has the
+highest strength
+so now people don't talk about the
+design they say design to manufacture so
+the manufacturing process has to be
+integrated with the design thinking and
+final performance of the component
+depends on both the material as well as
+the manufacturing process
+and you know you go to your Carpenter he
+has not come to IIT to study engineering
+mechanics or strength of materials
+he will know if you have to make a shelf
+he will cut the wood like this where the
+grains are aligned horizontally so you
+will put the Shelf like this by
+experiential knowledge
+he knows
+and we have also said
+unfortunately
+Galileo walked on wood which is a very
+complex material it's an orthotropic
+material
+and if I had to visualize an anosotropic
+material how do I do it what I can do is
+I can have imagined that these lines are
+indicating fibers
+I align these fibers in different
+direction and sandwich them
+the behavior of a material like this
+would be different in every direction
+you call that kind of material as
+anisotropic
+you call this kind of material as
+orthotropic
+fine so isotropy is a convenience for us
+to live in a happy domain that is the
+way that we will do and develop this
+course
+and essentially these composters are
+developed to reduce weight
+and what you have is
+can you recognize this plane this is our
+LCA aircraft
+okay now it is also being
+exported
+and you also have
+a light helicopter
+see many of these first developments
+happen in military hardware once it is
+tested in military hardware
+then it comes to passenger plane because
+a person sitting in a LCA can eject out
+you and I cannot eject out from a 300
+sister plane fine
+you can't have trajectory
+for all those people
+so it percolated down to
+your passenger aircraft you have Airbus
+A380
+the many components you have a center
+Wing box Bing ribs rear pressure belt
+CAD
+horizontal tail plane vertical Trail
+plane CRP genos so bulk of the
+components are now made of Composites so
+you have to graduate from handling
+isotropic materials
+at least two orthotropic materials and
+then graduate to anesthetic material you
+can't live in the comfort domain we have
+made simplification one course and
+nothing else to be learned but this
+Concepts what we develop they form a
+foundation for you to
+hopefully
+helps you to understand the concepts
+associated with it so these are all what
+you find in
+engineering development now let us look
+at what happens in our human body
+what we have said if I want to have
+strength in a particular direction put a
+fiber which is strong enough
+and then
+have your
+weight reduce but look at collagen
+is a protein responsible for skin
+elasticity in healthy joints it is
+present everywhere it is present in
+three quarters of the skin it's also
+available in Bones muscles tendons and
+cartilage
+and collagen deficiency leads to
+wrinkles and this you find in many of
+the people who live in the Hills
+see what people say is as you
+go up different altitudes they seem to
+have different deficiencies
+okay that shows up but you know
+wrinkling is also very good it's a very
+graceful aging process fine but what is
+important from scientific approach is
+collagen is oriented in a random pattern
+initially
+see in the case of composite you want to
+align it
+you pre-align it depending on the load
+anticipated but what happens in a human
+body
+as the applied load is increased they
+realign parallel to each other so that
+higher load is required for further
+elongation don't you feel we have still
+not come anywhere closer to this kind of
+fiber composite
+fine
+need based
+so that is what you find
+and it is a very very interesting stuff
+fine
+but people have come closer to this what
+is it that they have done
+they will have a block of material with
+short fiber randomly oriented fine but
+that is not sufficient the edges have to
+have continuous fiber for strength
+and this is a development somewhere
+around three or four years back I'm
+talking about very recent developments
+so you put those here and then make a
+hard press so I have this black ones or
+continuous fiber where you need to have
+improved strength
+so the final
+composite is like this these are short
+fiber composite and where you want the
+line it is possible to mimic it in a
+particular way but it is not dictated by
+the stress locally
+fine that is the best we are able to go
+closer to it
+so the next material development is
+people also wanted to have instead of
+putting fibers if they have particulates
+particles and they have they are
+dispersed like this
+the elastic properties would change
+as a function along the length you will
+not have one ends modulus even though I
+have not introduced in the course you
+have already heard the term in your
+schools so the elastic properties
+varies as a what would you think
+scientists are more smarter they have
+learned it from Composites and then they
+want to have
+functionally graded material Doty feel
+that you get excited
+whether they excited my excitement is
+short-lived or not we'll see
+okay
+we also have tendons fine and this is
+the recent research it was done in
+I think it was published in 2018 this is
+photo tunable polyurethane
+there's an interface and since you have
+seen photolastic fringes these are all
+photologic fringes
+if there is a gradual change of
+elasticity the color is also gradually
+changing from a photelastic perspective
+from a photoelastic perspective this is
+a step change
+where the elasticity is not changing
+smoothly see the fundamental idea here
+is why you have functionally graded is
+stress concentration will be smaller if
+I have a functionally gradient
+application
+fine
+now I said that whether this is
+for the engineers to have a look at it
+or what is there in nature
+write your bone
+is functionally graded
+that means what
+hundred thousand years back when people
+had Stone
+your bodies were having functionally
+greater material
+we are now
+dumping our chest and then say we are
+developing functionally graded material
+and how this is done is by
+microstructural change
+and bone is also Hollow there is hollow
+and many of you might know that
+hemoglobin is generated
+inside the bone fine
+and when you climb up the stairs
+you are born Thai bone is subjected to
+bending as well as torsion depending on
+how you climb up
+so we have already looked at
+by inference I have shown you that the
+core of either Shaft or core of the beam
+is not transmitting any load
+we have taken 400 years when you analyze
+the bending
+God has understood hundred thousand
+years back because bones were there when
+somebody where the animal is there or
+anyone is there they were all having it
+and you have a softer core where
+hemoglobin can beautifully
+develop
+okay not only in
+this plant life also you have this
+bamboo and this bamboo if you look at
+and then see there is a microstructural
+change
+and it is a porous structure
+see we have said
+elastic Continuum and then made
+everything as very simple for us to
+analyze because when I say area goes to
+zero I have cell material point and I
+can do the differentiation in
+integration that's how we will develop
+the mathematics but we cannot live with
+that comfort
+we see that it is available in nature so
+readily
+bamboos were there from time immemorial
+we have understood and if you look at
+some of the publication I think as a
+publication detail the next one I was so
+enamored by this nice child elephant you
+know it is flaunting its trunk
+okay you know what is the beauty of
+trunk do you know
+it can handle
+which is very very small and also carry
+several tons of log
+see human made any equipment as a range
+the range is limited
+and if you go to robotics
+it is extremely difficult to make a
+elephant trunk
+it is not so simple
+that is why I thought that you know
+we have to really look at nature and
+salute we are still far behind nature
+let us look at your human tooth
+what is happening
+is a multi-layer structure with outer
+coating of less than two millimeter see
+I have an enamel I have a Dentin
+and you do the mastication depending on
+what you eat
+fine if you go and try to chew your
+sugar cane your masticatory force is
+going to be very very high okay so the
+load is varying load is not constant
+so when you have a tooth it should
+withstand all of that and people have
+estimated the masticatory force
+variation of 28 Newtons 2 200 Newtons
+and what you find is
+enamel is a functionally graded natural
+biocomposite
+is very very surprising and when
+scientists have recognized this fact
+papers appeared somewhere around 2010
+it's in 2013 there were also some papers
+earlier than that until they looked at
+from this perspective
+they were not able to appreciate So
+within a span of 22 millimeters it has
+to become softer and merge with this
+okay
+so inner enamel has lower elastic
+modulus and hardness
+it has higher creep and stress
+redistribution abilities than the outer
+enamel that needs to be there because it
+has to be soft
+fine it has to give you a cushioning and
+many of if you go to any of the iits
+some of the leading Laboratories would
+be working on functionally graded
+material they will be doing a
+mathematical analysis of it they would
+be physically preparing it now you can
+go and flaunt
+I have right in my
+mouth
+I have 32 teeth normally but I think
+these days children have more than 32.
+frame you can flaunt each of the teeth
+the top layer of enamel is functionally
+graded
+so which is great
+scientists are trying to come closer to
+Nature Nature is far more Superior we
+are not still understood you know when
+you have an engineering automatically
+you know the skin becomes
+rough and then after a few days it gets
+healed
+so you people that have identified this
+and developed compasses that can still
+feel themselves where they are needed
+you are having a space station in the
+space if there is a problem recently
+that a telescope is they launched they
+had a you know the meteoroid hit that
+and then some portions have got damaged
+so there you cannot go and repair it so
+it has to self heal it
+so what you have to understand is
+the current materials are very complex
+and
+you will have to find out
+many things and learn from nature and
+people also have looked at additive
+Manufacturing I said that manufacturing
+is closely linked to design now
+people do not want to have large
+inventory they would like to have just a
+cad diagram and then generate the
+component when there is a need
+here what you do is you can make very
+complex models by adding layer by layer
+these are all photo curable resins see
+the idea is photelasticity has played a
+very significant role in understanding
+simple solid mechanics also in the
+development of fraction mechanics it
+also has a role to play in the
+development of rapid prototyping and
+also
+handling problems of the future that's
+what I am going to get that to you so
+here
+you know people also had the plastic
+ribbons for them to make it initially it
+was all used for the
+designing your chapels
+and it has become it it started
+somewhere around 1990s now does rapidly
+picked up
+and you have a layer by layer
+and this is called stereo lithography
+and if very recently what I am talking
+about in the last two years people have
+also
+use additive manufacturing for
+composites
+that means I can lay the fibers at
+different orientation
+even though I cannot make the fiber
+respond to stress like collagen does
+okay
+something closer to that in a different
+perspective so more complex
+manufacturing processes have are getting
+developed
+and in additive manufacturing one of the
+issue is what is the depth of the layer
+if you reduce the depth of the layer
+the Precision goes up
+fine and you are going to have a laser
+to cure it
+so it's not going to cure it in a
+rectangular fashion it's going to be a
+parabolic fashion
+how to put the layers and what happens
+why you want to have one layer or the
+other this green act like rivets so that
+hold the layer
+and you also see this is a highly
+exaggerated picture you have resin and
+hardener queued here and you have gaps
+so what you find is in the early stages
+of rapid prototyping the more you are
+able to get the model that was used for
+visualization
+you want to explain the customer what is
+it that you want to design it was used
+for that purpose to start with there you
+don't need anything about the strength
+or anything like that you want only the
+shape
+so they had pores they had internal
+success and so on and so forth and
+people also solve this issue see if you
+have a problem it is a nice problem for
+research so people don't give up
+and you have a different
+way of scannings have come about and
+different ways of
+putting the layers
+and now you have much better machines
+okay
+so somewhere in the 90s we proposed
+myself and my group at IIT kanpur when I
+was working there we proposed Fusion of
+rapid prototyping photoelasticity and
+finite elements
+so I can do a three-dimensional
+photoelasticity based on a cad model
+either I could do it by rapid
+prototyping like additive manufacturing
+or rapid tooling where I make a mold and
+then make a cast
+the same CAD model can also go for a
+numerical simulation
+with a numerical simulation you do a
+finite element analysis and we have
+developed
+sophisticated software to post process
+of energy element to plot Fringe
+patterns
+so I have an experimental route I have
+the numerical root and I can verify it
+this was proposed by us way back in 1999
+and this was done
+somewhere around 2000
+five or so 2005 to 10 this was done in
+our lab
+and this is for the LCA aircraft so you
+have a rapid prototyping of the
+shaft that is used in the kaveri engine
+you have the three dimensional
+photoelastic model
+and it was done several years back so
+you had this photolastic fringes for a
+gear slice you see black dots randomly
+okay in a regular fashion I wouldn't say
+random it's mainly because the rapid
+prototyping process was developing so
+that had its initial hiccups so that is
+seen here
+so with modern developments
+you can develop much smoother models
+so you have to look at what are the
+current and future challenges
+the presence of inherent effects is
+unavoidable
+and I already said
+from the failure of Liberty ships new
+branch of mechanics called fracture
+mechanics got developed
+and you need to model heterogeneity you
+can't always say homogeneous homogeneous
+and live your entire life
+fine
+and in India also the speeds are going
+up in the roads so you have crashes
+and it's very important that you have
+crash protection in all these
+automobiles and what people are doing is
+they are developing metallic forms that
+means there are a lot of pores and
+magnesium is used for that
+and magnesium Alloys are more and more
+finding application in automobiles and
+you are not going to have a material
+which is continuous
+so all the idealization that we have
+made in this course are breaking
+and we have already seen any
+mathematical model which I want to
+develop
+it can be accepted only if it is
+verified by an experiment
+what experiment can I use it to do this
+complex situations
+where there is heterogeneity where there
+is pores
+we have to look at
+and we also find when I want to have
+high efficiency for engines we go for
+high temperatures and then titanium
+blades are made they suffer from macro
+porosity not micro pose but macro
+porosity and how the crack interacts
+with the holes you need to know
+an efficient structural design needs
+understanding of functionally created
+material I have already shown if you
+make it out of a polyurethane you are
+able to visualize the need for the
+functionally graded material we have
+already seen when there is a step in the
+beam there was lot of concentration of
+fringes
+something like a stress concentration so
+functional graded material when you look
+at a bone is connected to your muscle
+muscle is soft bone is hard that is done
+by a tendon so tendon has to be
+functionally graded
+okay
+so for all this you know there is also
+another thing
+when
+people were looking at
+mathematicians developed all of this if
+I have a plate with a infinite plate
+with a small hole
+which is bad
+people said the small hole is very small
+you can completely ignore it people had
+fist fights and conferences mind you
+they were not registering that whole can
+be dangerous
+okay and what you see here is
+comparison of a whole
+an elliptical flaw and a crack
+okay
+so what you find here is
+you see the player fringes
+until photolysis were very useful to
+convince the mathematicians you cannot
+ignore the whole
+there are a lot of fringes very close to
+the hole
+it indicates stress concentration it has
+to be handled properly
+and if you compare a hole to a crack the
+amount of material removed in a crack is
+what very very less
+your intuition will say only small
+material is remote I don't have to worry
+about it what does this picture say
+this picture says
+among the circular whole elliptical and
+a crack you see the largest Fringe for
+the same load
+so it's an indication that the stress
+levels are very very high
+fine
+and you also have
+I said heterogeneity you cannot hide
+away you have to recognize heterogeneity
+and we have very nicely developed
+cat scanners these days so people have
+scanned this concrete block
+identified that it this has aggregates
+it also has pores
+and if I want to do an experiment I must
+mimic this verbatim like this only then
+whatever the experiment I do the results
+can be extrapolated for analysis okay
+people have done it using cat scanners
+and by rapid prototyping with several
+materials
+and this is a 3D photoelastic model
+and this is analyzed with a compressive
+load
+and what you see as
+black are the aggregates
+so you compare what is happening in a 2d
+model and a 3D model you understand what
+happens in the three dimension
+so you are in a better position to
+analyze
+heterogeneous materials
+functionally graded materials if I want
+to analyze a metallic form with cat
+scanning I can mimic that precisely
+using photoelasticity and this is a work
+done in 2017 that's about five years
+back
+I talked about some of the rapid
+prototyping then 20 years back now the
+technology has very well developed and
+photolas is the holds the key please
+understand that
+and you are going to have an experiment
+on photolasticity in your lab
+and I also said there is a crack
+interacting with macro porosity this is
+an experimental result
+and many of the finite element packages
+will give you only a plot like this
+either this or this
+they are not good to convince you that
+your numerical modeling is precise on
+the other hand if you post process
+in plotting Fringe patterns
+you can easily explain to your mother
+mother I have done this work fine you do
+you find that they are identical
+I am also going to get my Ms thesis fine
+you can do that
+so with this opening remarks let me
+complete the introduction to strength of
+materials the idea is to see what is the
+scope of this course the scope of this
+course is very limited we want to have
+small deformation
+we want to have homogeneity we want to
+have isotropy but you cannot stop there
+the current needs are widely different
+fortunately the concepts that we are
+going to develop as stress or strain
+will have the elements which would form
+the foundation for you to
+extrapolate this knowledge and
+understand the current developments
+better and we have also seen
+convincingly
+we are inching towards nature nature is
+still far ahead of us thank you very
+much
+[Music]
+foreign

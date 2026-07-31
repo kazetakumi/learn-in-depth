@@ -1,0 +1,1070 @@
+[Music]
+digital India educated India
+[Music]
+see we have been discussing concepts
+related to stress
+so now you know fairly well what is the
+concept of
+state of stress at a point
+and you could understand the concept
+still better
+by looking at the graphical
+representation of Mohr Circle
+from the Mohr Circle what you learned
+you learned there could be planes that
+are very special
+one such set of planes are known as
+principal planes in which the stress is
+totally normal
+and we have also looked at other
+important planes in which the shear
+stress can reach a maximum
+we also learned when Shear reaches a
+maximum in general you will also have a
+normal stress
+fine so you have fairly good idea of
+what is data stress at a point
+and we have also looked at more Circle
+in three dimensions
+and you will appreciate still better
+the utility of more Circle and its
+Simplicity when you look at other
+graphical representations
+find these were developed well before
+the most Circle
+and you find that laminster ellipsoid
+was developed in 1833
+all this is possible once you understand
+the
+representation of stress tensor in the
+form of a
+principal stresses that makes your life
+simple and your stressed and so also has
+many zeros so any mathematical
+manipulations that I want to do
+can be done quickly
+and what is done in this approach is
+you plot the stress Vector the magnitude
+of the stress factor
+passing through all the possible
+infinite planes
+you have the plane and you have the
+expressions for
+the X component y component and Z
+component
+this graphical representation is
+credited to the scientist Lamy
+so you have the plane on this plane you
+have the
+stress vector
+and when you plot it for all the
+possible infinite planes in general it
+takes the shape of a ellipsoid
+that's what you see here
+which can also be mathematically
+proved since we have very simple
+expressions
+we will see that subsequently
+what we are plotting
+we are plotting the
+magnitude of this respect
+fine
+and how you have this coordinates
+the coordinates are nothing but
+t n x t and Y and T and G and you know
+the expression for t n x in terms of the
+principle stress and the direction
+cosine
+and you also have an identity
+that n x squared plus n y squared plus n
+z squared equal to 1 which is a very
+well known when you look at the
+direction cosines
+so now when I decode using this
+expression
+I get the
+expression as t n x by Sigma 1 whole
+Square
+plus t n y divided by Sigma 2 whole
+Square
+plus t n as e z divided by Sigma 3 whole
+square that equals to 1.
+so this is nothing but a ellipsoid of
+revolution
+but you get only the stress vector but
+what we found more than the stress
+factor I need to get the normal stress
+and shear stress
+so there was also another graphical
+representation
+have you been able to take down the
+essential of this line
+have you that is the reason why I spell
+out the equation when I spell out the
+equation you have time to write that
+equation
+even if you have not return it
+completely you can
+prove it
+later by understanding we have just used
+n x square plus n y square plus n z
+squared equal to 1.
+that's all the simple expression that we
+have used
+okay
+so you have the other graphical
+representation
+called koshy's stress quadric
+here he attempted to plot
+1 by square root of Sigma that is a
+normal stress acting on the plane of
+Interest
+in the previous case stress structure
+was plotted
+in this case you have graphical
+representation for various
+representations of the principle
+stresses if I have all of them
+non-zero
+I will have this as an
+ellipsoid and here along the normal you
+plot p q
+whose magnitude is 1 by square root of
+Sigma
+the other understanding is suppose I
+plot whatever the surface I get I find
+out the normal to the surface at the
+point
+that would be parallel to the stress
+factor at the point of Interest
+I am not getting into the proof
+so you can understand these graphical
+representations are too complicated
+and when I have a situation where Sigma
+1 equal to Sigma 2
+and sigma 3 is different
+I get this Central core as a circle
+you have a special form of ellipsoid
+okay
+ellipse all other places but it is a
+circle at the center
+suppose I have a situation
+Sigma 1 equal to Sigma 2 equal to Sigma
+3
+you get a sphere what may we got it in
+more Circle
+if I have Sigma 1 equal to Sigma 2 equal
+to Sigma 3
+we just got it as a point
+fine so it was a very simple
+graphical representation very elegant
+and even for other cases even if when I
+come down to a planar situation you get
+beautiful geometrical patterns
+and this was credited to Koshi and you
+know we have already looked at Koshi was
+responsible for
+establishing the concept of stress
+tensor that happened in 1822
+fine
+suppose I take a plane state
+if I have Sigma 1 is greater than Sigma
+2 and they are
+both positive
+then I get this an elliptic cylinder
+so likewise you know they were so happy
+see in those days any graphical
+development was considered
+enjoyable and people were comfortable
+with it and it also adds to the
+happiness of the scientist that he had
+beautiful patterns suppose I have Sigma
+1 equal to Sigma 2.
+in a two-dimensional situation it
+becomes a
+circular cylinder
+and what was it in the case of more
+Circle
+when Sigma 1 equal to Sigma 2. it was
+just a point
+and you also have very complicated
+shapes when Sigma 1 is greater than zero
+and sigma 2 is negative
+I get this as a hyperbolic cylinder it
+was difficult for me to plot so I left
+it
+and when Sigma 1 is not equal to 0 there
+is any excess state
+you get two parallel lines
+from a graphical point of view when
+people were groping in the dark
+this gave some light
+and there is no specific year when was
+this developed but it should be much
+before most Circle it was credited to
+caution so it should be before 1857.
+fine and when was more Circle developed
+and stabilized 1882 that is 60 years
+later stress
+tensor was understood completely okay so
+you find with these
+other examples of graphical
+representation more circle is the
+simplest
+it is just a circle for any state of
+stress easy to draw easy to get all the
+information that you need from stress
+analysis point of view and we also know
+that more Circle you could draw based on
+the stress transformation law
+and we developed stress transformation
+from the first principle
+again I am repeating the same thing
+which we have done in the earlier class
+because it's a very very fundamental
+concept
+so when I say
+t x Prime X I am talking about plane X
+Prime
+and I have a stress vector this can be
+achieved by the koshy's formula
+and if I want stress tensor with respect
+to X Prime y Prime axis
+I will have to do a vectorial
+transformation of the stress vector
+fine
+if I have to get t x Prime X Prime
+from t x Prime X I have to go for a
+vectorial transformation
+and this is so important until you
+graduate your mechanical you will be
+having requirement to use this again and
+again so it is worth
+learning how to do it from first
+principles
+it is also Worth to do how to do it
+quickly so that is what we are going to
+see in this class
+from first principle you can always
+derive takes time
+and some of you have a very good memory
+you may even memorize these expressions
+but when you come to the examination you
+will have a confusion
+whether this is plus 2 Tau XY or minus 2
+Tau X 5. because when I have the
+expression for this
+Sigma y Prime y Prime I will have a
+negative sign
+so now we will look at from a different
+perspective
+you need to know and master this aspect
+also
+so what I am going to do this I will
+directly write the
+trust components in the reference axis X
+Prime y Prime
+using indices
+and what is given to you
+with respect to the X Y reference
+you are given
+the stress tensor at that point
+and you also have knowledge how to
+express X Prime y Prime in terms of X
+comma y
+and you are given the stress tensor and
+note this the way that I have written
+what is it that I have written
+I have written it in the way we've
+originally developed
+I have not used the equality of cost
+shares I have said this is Tau XY and
+this is Tau y x so when I use indices
+for me to calculate Sigma X Prime X
+Prime
+I will have four terms in the expression
+and all these four terms should appear
+without using the advantage of equality
+of cross shears
+and what is important here is
+I should write the stress transformation
+the vector transformation matrix
+properly the rotation Matrix properly
+that you can easily understand see I
+have this x Prime
+this x Prime is definitely longer than x
+so it will be called X cos theta plus y
+sine Theta
+and you will have y Prime is
+minus X sine theta plus y cos Theta
+that is a mnemonic way of remembering it
+if you put the X Prime y Prime and X Y
+as for a generic point you can write
+this if you write this rotation Matrix
+correctly
+you can straight away write the
+transformed stress component directly
+what I want I want Sigma X Prime X Prime
+this will have contribution from all the
+terms
+so I take Sigma x x
+and what I do is I have X Prime X and
+what is X Prime X Direction cosine here
+cos Theta so I'll have cos Theta
+this is again X Prime X so I have cos
+Theta
+then I go to the shear stress component
+I have X Prime X
+cos Theta I have X Prime y
+that is sine Theta
+and I go to the next term Tau y x
+I have X Prime y x Prime Y is sine Theta
+then X Prime X cos Theta
+plus Sigma YY
+I have this as sine Theta multiplied by
+sine Theta
+this is straight forward
+so I get the final expression
+in this form and this is also simplified
+in terms of
+sine two Theta or cos 2 Theta whichever
+the case may be this is straight forward
+is idea clear
+we will repeat it for Tau X Prime y
+Prime
+so do not invoke equality of cross
+shares while using this approach that is
+very important
+in this expression for Tau X Prime y
+Prime you will understand why I want Tau
+XY as well as Tau y x
+they are multiplication factors will be
+different
+fine so when I use these indices
+you will have to do this can you do it
+can you do it and check it with my slide
+you don't have to remember please do it
+take a minute to do it I should see
+everybody doing that
+so if you learn how to write the
+transformed
+stress magnitudes based on integral
+notation
+the key point is you should write the
+rotation Matrix even if a forgotten
+rotation Matrix if you go and put these
+access and take a generic point then you
+can construct this
+if you construct this properly rest of
+it is simple and straightforward that is
+a key element
+fine
+so I have this as
+cos Theta multiplied by minus sine Theta
+and when I go to Tau XY I have x x Prime
+cos Theta y Prime y that is cos Theta
+again OK when I go to Tau y x
+I have X Prime y that is sine Theta
+and then y Prime x minus sine Theta you
+find these two terms are different
+you get the point so if you use the
+equality of crochets
+using the integral notation to get the
+transformed assess components you cannot
+apply so you should understand the
+restriction
+and you similarly write for Sigma y by
+I get this as X Prime y
+and then y Prime y
+so I have this and this is written in a
+simplified fashion here so I have top X
+Prime y Prime equal to minus Sigma x x
+minus Sigma y divided by 2
+sine 2 theta plus Tau X Y cos 2 Theta
+this is the same expression that we got
+from first principles also
+you should know how to write it from
+first principles but you should also
+know how to solve problems where you
+have to write the expression you should
+not have
+difficulty in assigning the correct
+signs ok so this is a recipe for you to
+do that I can repeat the same thing for
+Sigma y Prime y Prime
+can I expect you to do that
+okay
+I think I would appreciate that you do
+that
+I am going to show the result
+and I do that as a home exercise
+okay
+because that will help you to appreciate
+the methodology involved
+so that even when you are asked to wake
+up from your dream you should be able to
+write the such transformation because
+this is so fundamental and important for
+all your future courses
+okay
+so this is a summary you have I have
+these trust times are referred with
+respect to X Y frame
+and then I want to find out the
+stress tensor referred with respect to
+the
+X Prime y Prime frame
+so I have the summary of results
+this is nothing but the summary you can
+just verify whether the expression that
+you are written or correct
+and the message in this is that you have
+to write this
+rotation Matrix and also
+put this x Prime y Prime here and X Y
+there if you interchange that then again
+you will have a problem so you should
+know how to write the rotation Matrix
+and what we are looking for
+fine then using the integral notation it
+is very comfortable for you
+see from more Circle you have already
+have an idea what are principal stresses
+while we developed the cautious formula
+to find out stress factor on any
+arbitrary plane I said you can find out
+two classes of problems in one class of
+problems
+the direction cosine is given and you
+have to find out the
+stress factor in another class of
+problem specify the stress Vector find
+out the direction cosines precisely that
+is what we are going to look at when we
+want to find out the principle stresses
+and principle planes mathematically
+you already have the results from
+graphical representation
+is that idea clear motorcycle was so
+useful so you have an idea
+that you can have planes where you will
+have only normal stress that idea is now
+very well understood okay now we ask the
+question mathematically
+and we specify the plane to be n
+and the direction cosines are n x n y
+and Ng
+and we also specify what is the stress
+vector
+we have specified on that plane I have
+only normal stress component
+so that means restrictor is specified
+there is no shear stress component
+and I want the stress factor to be
+in this form which could be identified
+from the cauchies formula
+I have t n equal to Sigma n
+and components of this along X Y and Z
+Axis or we have specified this I have
+specified the X component is Sigma and X
+y component is Sigma and Y
+and Z component as Sigma n z this is
+what I want
+what is unknown here is the direction
+cosines n x n y and NZ
+I am not sure whether you have studied
+eigen values and eigen vectors in your
+mathematical courses
+so if you have done that then we are
+going to formulate this problem as eigen
+value and eigenvector type of
+development
+okay
+so from cauchi's formula I have the
+generic expression this is the given
+substancer
+and I have this action cosine z n x n y
+n and z and in this specific problem we
+are specified
+what should be the nature of stress
+vector
+the stress factor should be of this
+nature the question is how to find out n
+x n y and NZ is idea clear
+so now I can combine these two I can
+replace t n x t n y t and z in terms of
+this
+and I can do a
+mathematical simplification
+and I can rewrite this
+in this form
+I have this Sigma x x minus Sigma
+Tau X Y Tau x z
+Tau y x Sigma YY minus Sigma
+Tau y z
+Tau z x
+Tau Z by Sigma z z minus Sigma
+multiplied by n x n y and z dot equal to
+0.
+so what are our interests we need to
+find out what are the possible values of
+Sigma
+and what are the possible values of
+the direction cosine n x n y and n z
+in realities you can have this as an
+eigen value and this as the eigen vector
+is idea clear
+and obviously I want to have a
+non-trivial solution if I have n x n y n
+zero everything goes to zero we do not
+bond that as a solution
+for a non trivial solution what I should
+have I should have the determinant goes
+to zero
+see you have to get the determinant but
+I will try to make your life simple and
+faster I will rewrite it in a convenient
+fashion
+the final expression of this determinant
+can be written as Sigma Cube minus I 1
+Sigma Square
+plus I2 Sigma minus I 3 equal to 0.
+and we will soon understand why i1 I2
+and I3 are called stress invariance
+we are just given a definition that
+these are just invariance
+now I will also have to Define what is
+i1
+what is I2 and what is I3
+once I Define what is I 1 I 2 and I
+three
+it is easier for you to write the
+expression for the determinant
+comfortably
+to make your life simple
+and also to have your involvement in
+development of these expressions
+i1 is given as Sigma X Plus Sigma y plus
+Sigma Z
+it's a very famous invariant
+and we should also know how to use this
+invariant effectively in our
+computations
+and you have the definition of I2
+so look at the I2 definition it is very
+interesting if you see the animation
+you will never forget how to write I2
+so I2 has
+Sigma X Tau XY Tau XY Sigma y by
+taken as the first two by two
+portion of this three by three Matrix
+Plus
+this portion of the Matrix
+Sigma YY Tau y z
+Tau y z Sigma is easy
+and all the four corner elements
+so if you know how you have sequentially
+written down I2
+you can easily write out from the given
+stress tensor
+I want you to compute this I 1 I 2 I 3
+you can quickly compute I2 it is not
+difficult please work it out
+and check it with my expressions
+okay what I have said is
+when I say this determinant should go to
+zero I should get Sigma Cube minus I 1
+Sigma square plus I 2 Sigma minus I3
+equal to 0.
+i1 is straight forward no computation
+involved I2 you have to write down the
+expressions
+similarly I3 also I have to write down
+the expression
+and I3 is the determinant of the
+complete Matrix like this
+so I3 is a determinant of this Matrix I
+will read it out Sigma x x Tau X Y Tau x
+z
+Tau y x Sigma y by Tau y z
+Tau z x Tau Z by Sigma is easy
+so the idea is if you find out this
+you can write this expression
+comfortably
+and let us see the expression in the
+long hand
+okay
+and finally once you get these
+quantities
+I'll have three roots for this
+expression
+and they have to be arranged
+algebraically the largest is Sigma one
+in between 1 and sigma 2 and the least
+is Sigma 3 this you should never
+forget
+there is a convention in how to label
+Sigma 1 Sigma to Sigma 3 it's not that
+arbitrary
+arbitrarily whatever the roots that you
+get you label them Sigma 1 Sigma to
+Sigma three you have to look at arrange
+them in an algebraic manner then only
+label as Sigma 1 Sigma 2 Sigma 3.
+is the idea clear so when I look at this
+expression please verify with your
+computations so I have Sigma Cube
+minus Sigma Square Sigma X Plus Sigma of
+a plus Sigma Z
+and I2 is obtained like this I have
+Sigma X Sigma y plus Sigma y Sigma Z
+Plus Sigma Z Sigma x minus Tau squared x
+y minus Tau squared y z minus Tau Square
+ZX
+and then you have this i3s Sigma X Sigma
+by Sigma Z plus 2 Tau XY Tau y z Tau z x
+minus Sigma x s Tau squared by Z minus
+Sigma by Tau squared x g minus Sigma z z
+Tau squared x y equal to zero
+see you could have also written it from
+the determinant and arranged and grouped
+them
+my interest is that you will also have
+to know what is i1 I2 I3 which are
+because they are very useful if you know
+how to use them
+when you do the computation this is what
+I said when you make the computation as
+Engineers speed is
+not important accuracy is important
+okay so you should have inbuilt checks
+in verifying your results
+so the roots of the equation that are
+designated as Sigma one Sigma to Sigma
+three
+again the labeling convention see the
+idea of repetition is that you should
+recognize that this is important
+while learning a subject
+healthy repetition is very very
+important okay
+see now we will live in a two
+dimensional domain
+okay let me live in a planar situation
+even before I find out what are the
+expressions for the principles stresses
+in two Dimensions you have them from
+your more Circle
+so whatever I do from a mathematical
+approach it should satisfy identically
+only then my graphical approach is
+correct and my mathematical approach is
+also correct
+so you have to give credit to the
+Pioneers that they have verified the
+development from multiple different ways
+okay so when I say two Dimension I have
+only Sigma X or Sigma YY and Tau XY are
+existing all other stress components
+with Z are zero okay
+so when I do that I will have Sigma Z
+zero and this term goes to 0
+I this term goes to zero
+these two terms also go to zero
+and if you look at this expression
+every term has a quantity which has a
+subscript Z
+so all these quantities also go to zero
+so now this expression can be simplified
+and Rewritten as
+Sigma Cube minus Sigma squared
+multiplied by Sigma X Plus Sigma y
+plus Sigma into Sigma X Sigma y minus
+Tau squared x y equal to zero
+and I can take out Sigma
+and I get a
+quadratic expression once you have a
+quadratic expression you know how to
+find out the roots of the quadratic
+expression
+but when you write the roots it is
+directly not similar to what you have
+got in most Circle you have to do one
+more step of simplification
+because you have this minus B plus I
+minus root of
+b square minus 4AC divided by 2 a is
+what you have generally learned as roots
+of a quadratic equation so when you do
+that directly I will get Sigma 1 comma
+Sigma 2 as Sigma X Plus Sigma y plus r
+minus square root of Sigma X Plus Sigma
+y whole Square
+minus 4 into Sigma X Sigma by minus Tau
+Square x y
+whole divided by 2.
+when I simplify this
+this reduces to the same expression like
+what you got
+based on the more Circle
+that we have seen earlier there is
+absolutely no difference
+so these are very famous expressions
+I have this as Sigma X Plus Sigma y
+divided by two plus r minus square root
+of
+Sigma x minus Sigma by by 2 whole Square
+plus Tau squared x y
+and from most Circle point of view what
+is this expression
+this was related to the
+radius of the most Circle okay
+see that by looking at the graphical
+representation we were able to find out
+the principal stress as
+well as its direction
+now we will also have to find out the
+direction based on the
+mathematical approach
+okay
+and before we go into that let me also
+say
+since you are very comfortable with more
+Circle
+the stress State can be represented in
+terms of
+the principles process
+it can also be represented in terms of
+any points forming the diameter of this
+small circle is the idea clear I can
+have multiple representation of the
+stress tensor
+and why I call this i1 I2 and I3 are
+invariants
+suppose I start with my stress tensor
+refer to X Prime y Prime
+that must also give me the same
+principle such as Sigma 1 and sigma 2.
+is the idea clear
+it cannot give any other value of this
+because it all represents what happens
+in a particular point of interest on all
+the possible infinite planes
+the stress tensor per se can be
+represented with respect to X Y
+reference
+X Prime y Prime reference 1 2 reference
+or any other diameter is a very subtle
+concept you know this can be easily
+Illustrated if you know more Circle
+because we have
+spent sufficient time on understanding
+the more circle now you are equipped
+so you can understand
+the roots of the equation no matter what
+is the starting point of the
+stress tensor
+should remain same so the coefficient
+should remain identical
+the individual numbers for you to
+multiply and get the final value final
+value should remain same but individual
+value can be different that's what you
+see as different stress sensors
+and this is also an inbuilt check when I
+want to find out
+stress transformation
+okay I can use that as an invariant
+now I said
+I have to find out the
+orientation of the principles to explain
+mathematically
+that means I should apply the condition
+mathematically
+what is the definition of a principles
+trust plane
+what is the definition of open Solutions
+plane
+on the principle trust play you cannot
+have shear stress so I go and say in
+this expression shear stress is 0
+because this is generic expression you
+are finding out the stress
+transformation on a generic X Prime y
+Prime this x Prime y Prime can
+coincide with your principles trust
+planes so this gives me again the same
+expression that we have got from more
+Circle
+Theta equal to one half of tan inverse 2
+Tau XY divided by Sigma x minus Sigma y
+so you have a graphical representation
+you have a mathematical development both
+are identical is ideal clear
+see that is how scientific development
+has been
+now we will also appreciate and put it
+in black and white whatever I have said
+I can represent the stress tensor as
+Sigma X Sigma y Tau XY Tau y x
+or I can also express it in a simplistic
+manner as Sigma 1 Sigma 2
+0 0 is idea clear my reference axis
+become different
+this you should understand see I have a
+populated Matrix here
+here I have
+only the diagonal terms are available
+non-diagonal terms are 0 it brings in
+lot of comfort in mathematical
+development we will take advantage of
+this
+okay we will take advantage of this as I
+said we have to utilize the invariance
+this is again repetition of the same
+slide
+where we have looked at what are I 1 I 2
+and I three
+so look at this and understand how you
+get i1 I2 and i3
+I have the
+four corner elements forming the Third
+determinant for the finding out this I2
+and I3 is Sigma X Tau X Y the complete
+Matrix
+and we will confine ourselves to a two
+dimensional representation
+so I have I 1 I 2
+reduces to Sigma X Plus Sigma y
+and I2 is Sigma X Tau x y
+and sigma YY
+okay
+so as I mentioned earlier
+when you do stress transformation
+or when you do determination of
+principle stresses
+you have an opportunity to verify your
+values whatever you will verify some
+plus one
+at least you check whether
+i1 remains same when I go from Sigma X
+Plus Sigma y to Sigma 1 plus Sigma 2 or
+Sigma X prime plus Sigma y Prime is idea
+clear
+and I would expect you to do this
+verification in all your calculations
+speed is also important when I say speed
+is not the only thing that is the idea
+of saying that speed is not important
+accuracy is more important
+it's not a you say you said speed is not
+important you give me two hours to solve
+a half an hour quiz don't do that okay
+there is also a reasonable time which
+you have to do it
+this is not the only utility of
+invariance from the Mohr Circle you can
+again reconform that you have the
+advantage that the stress tense are at a
+point of interest can be represented in
+multiple ways infinite ways in fact
+okay
+and some of them will be very simple
+like when you refer it with respiratory
+principles trust planes you have zeros
+mathematics is simple
+and you can also use the utility of
+invariance in many other ways
+okay I have a uniaxial state of stress
+can you plot the
+more Circle for this I have it you can
+also you can also draw it and what we
+have learned
+we have learned
+this uniaxial stress State can also be
+represented in multiple different ways
+when I represent it in X Prime y prime
+or any of the other directions
+the complete Matrix will be populated
+fine
+now tell me by utilizing the invariant
+suppose I give a matrix which is
+populated how will you verify
+whether it is representing a uniaxial
+state of stress
+you have a clue right on your screen
+you have a clue right on your screen I
+say that you have to utilize the
+invariance please think about it
+okay
+think about it and we'll also see
+another important state of stress what
+is the state of stress
+it is a pure Shear State and you can
+also draw the Mohr Circle the graphical
+representation is very simple the only
+thing is the origin is shifted
+I shift the origin and I re-plot
+and again when I have a pure shear
+stress State when I represent the Matrix
+in one reference frame I have beautiful
+zeros and the non-zero number
+pure shear stress State also has zeros
+and non-zero number but when I go to the
+Mohr Circle I have infinite
+possibilities in which I can represent
+the same stress state is the idea clear
+now with the utility of invariance can
+you tell me how will I use the
+invariance to identify if a given Matrix
+is
+corresponding to uniaxial stress state
+or shear stress State anybody
+very good very good very good
+because you know how to compute the
+invariance for this and it is also a
+direct check that invariants are really
+invariance so when I have I2 is 0 I will
+have this as a uniaxial state
+when I 1 equal to 0
+I will have that as a shear stress stage
+so you should know
+appreciate what are invariants also
+assimilate what are invariants and use
+them in your computation see that is the
+purpose why you are learning it
+fine
+and there are also advantages when I
+represented and principle planes see we
+have earlier the seen this koshy's
+formula
+and we have also said that I should know
+how to write normal stress
+and how to write the
+shear stress in Long expression which we
+have already seen
+I have Shear stresses square root of t n
+Square minus Sigma Square n
+I can find out this and this looks very
+long and
+difficult to compute
+suppose I express the same trusted in
+terms of the principle stresses
+all these Expressions simplify and not
+only that you know researchers also
+wanted to develop new entities even for
+development of new entities it was
+convenient for them to visualize when it
+is expressed in principle suspense
+suppose I read write the same expression
+just to show that I'm handling a
+principles as plane
+I have shown this tetrahedron in a
+different color
+and mathematically you know when you
+want to have a reference access x y z it
+is arbitrary I can still put x y z in a
+convenient fashion
+and then say that they correspond to
+principles Direction one two three
+is idea clear in order to distinguish
+from a generic representation I have
+changed the color of the
+tetrahedron and I also put this as only
+normal stress existing and if you want
+to rewrite you can also write it as
+Sigma 1 1 Sigma 2 2 and sigma 3 3. can
+you write the expression for normal
+stress and shear stress
+go from koshy's formula find out what is
+t n find out t n Dot N
+write the expression for normal stress
+write the expression for Shear says
+please do that please do that and then
+verify it from my Expressions I have
+very simple expressions for t n x t n y
+and T and Z they are simply Sigma 1 and
+X Sigma 2 N Y Sigma 3 and z and I have
+Sigma s Sigma 1 and x square plus Sigma
+2 N Y squared plus Sigma 3 and Z Square
+very elegant and nice looking
+compared to what we had seen for
+a generic representation of stress
+tensor this is very elegant
+and I also have the shear stress as T N
+squared minus Sigma Square
+so I have t n square is Sigma 1 square n
+x square plus Sigma 2 squared n y Square
+plus Sigma 3 squared n z Square
+and I can substitute it in this I am
+showing the expression for you
+okay but I expect you to do that as a
+homework
+please do that as a homework and now I
+want to give one more homework today
+fine
+the next homework is
+what is the relation between stress
+vectors on any two arbitrary planes
+see this is a very useful result
+I take a point t
+draw the sketch I have a plane
+the plane is represented by an outward
+normal
+and it has a stress Vector t n
+I can also pass another plane
+n Prime
+I have an N Prime plane
+I have stress factor as t n Prime
+and I want you to prove
+t n Dot N Prime equal to T N Prime Dot N
+see these are all vectorial quantities
+and this is a DOT product
+please work it out in long hand and come
+with this identity because we will use
+this identity to develop certain other
+interesting concepts related to state of
+stress at a point
+so in this class
+we have looked at
+two more graphical representations of
+state of stress at a point
+they showed
+that more circle is by far the best
+graphical representation from state of
+stress
+then we mathematically developed
+what are the principal stress magnitudes
+as well as the directions and in the
+process we identified a new set of
+quantities called invariance i1 I2 and
+i3
+and I said that when you do the stress
+transformation or principles as
+determination you have an inbuilt check
+if you check the invariance your
+computation is correct and I expect you
+to do that for
+whenever you're solving a given problem
+and we have also looked at how to
+identify a given stress state is
+uniaxial
+or
+episcate see in the early developments
+people were struggling when they are
+when they were understanding material
+Behavior
+they found uniaxl was easy to handle
+biaxial some more understanding is
+required so even if you know the given
+stress State at a given point
+is uniaxial the problem was lot more
+simpler
+and looking at the stress tensor
+represented in terms of the principal
+magnitudes
+really helped the mathematicians to come
+out with newer entities
+okay thank you
+[Music]
+thank you

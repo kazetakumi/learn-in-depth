@@ -1,0 +1,853 @@
+map filter and reduce are higher order
+functions in JavaScript do know what
+higher order functions are shame on you
+go ahead check my previous video in this
+series you will get to know what higher
+order functions
+are most of the people understand what
+map filter and reduce are but don't know
+where to use
+it in this video we will be covering
+what is map filter and reduce and we
+will take a lot of examples to see where
+you can use these functions so let's
+just begin let's roll the
+[Music]
+intro
+hey first of all let's just start with
+our map function so map function is
+basically used to transform an array
+suppose we have this array 51 326 are
+the values in it and suppose if we want
+to transform it what do I mean by
+transformation so transformation means
+suppose if you want to transform each
+and every value of this array and get a
+new array out of it so this is one of
+the transformation of this array which
+is which is double of this array okay
+when I say double it means each and
+every value in this transformed array is
+double the original value or this is one
+of the transformation which means that
+each and every value is triple the
+original value and one of the
+transformation could be finding out
+binary of each of these individual
+elements in that original array so these
+three are the transformation and there
+can be a lot okay so I'm just giving you
+an example that if you want to transform
+this whole array you can do it with map
+function and here is when maap function
+is used so let's now see how we can
+write that code so to find out the
+output let's just initialize a variable
+const output okay and how we will call a
+map function on an array let's now see
+that so first of all we need to write
+the array which is ARR in this case and
+we used to have a DOT operator and after
+that we write map okay
+and then basically you have to pass in a
+function inside this a function which
+basically tells you that what
+transformation do we need do we want to
+double do we want to Triple or do we
+want to find binary or what do we need
+to do what is the transformation logic
+what we need to apply to each and every
+value of this array that is what we need
+to pass inside this map for over here
+suppose let's take an example to double
+these values so let's just pass double
+inside it so this double should be a
+function isn't it so let's create a
+function double okay let's call it
+function double so what it will do is
+basically it will double the values how
+do you write a function to double these
+values just do a x into 2 great so this
+doubles the value of x it returns X into
+2 and we passed this transformation
+function okay in this array do map what
+does it internally do is it will run
+this function over for each and every
+value of this array and create a new
+array out of it and that new new array
+will be inside output so let's just do a
+console log and see what we get inside
+our output right so if we do a console
+log of output and save the file here we
+see something let me just show you see
+the output is 10 2 4 6 12 so suppose if
+you wanted to Triple these values so how
+would you do that you can just instead
+of passing double over here we we can
+use a function triple how do you write a
+function
+triple this basically is a
+transformation logic you can call it as
+a transformation logic okay so if we had
+to triple we just need to return what
+yes you guessed it absolutely right so
+we just want to do a x into 3 uh why
+okay okay we need to pass in triple over
+here right so if we refresh the page see
+we get this output 5 3 9 68 so that's
+what we wanted right the triple of these
+arrays now let us see how we can
+transform binary can anyone of you guess
+that let's just see so we just have to
+pass in binary over here right so what
+is the logic for writing binary let's
+just create a new
+function uh binary okay and how do you
+convert a number to a binary so you just
+need to return X do2 string of two isn't
+it and just pass in binary over here
+here so if we write this see what we got
+so we got this binary of each of these
+numbers so 5 is 1 1 and similarly so
+that's how we write map function now let
+me tell you one more thing in a lot of
+places you will find something like this
+that instead of writing the code like
+this some people also prefer to just put
+a function inside it and calm down my
+friends this is totally valid syntax in
+JavaScript people who are coming from
+different languages pull their ears when
+they see such syntax but this is a
+perfectly valid JavaScript code you can
+pass in functions like this okay that is
+what is known as high order functions
+remember okay so you can also write this
+and this will behave the same way see
+that you get the same output so this is
+one way of writing it and a lot of
+places you will also find that some
+people write Arrow functions inside it
+you just have this syntax okay so I'm
+just showing you in case you encounter
+this and you just don't know what is
+happening so this is the same thing okay
+this is basically an anonymous function
+over here which we pass in and in fact
+we can even remove this return statement
+so when there is only one line inside
+this function which is returning
+something so we can just directly like
+remove this and we can remove these
+curly braces as well so this is also the
+same thing what the function does so
+basically if you want to transform a
+number array to a binary array of those
+values you can do it like this okay this
+is a perfectly valid syntax and if You
+observe clearly my friends this actually
+makes a lot of sense see you write array
+do map so it is basically mapping each
+of these values and what is the mapping
+logic okay what is the mapping logic it
+is that X or each and every value is
+transformed to its binary okay so it is
+like mapping each and every value to
+another value and creating a array and
+returning it into output okay so that is
+what map function does and that's all it
+is so this was a very basic example we
+will cover a little more advanced
+example later on in this video but let
+us first see what filter and reduce does
+so first of all let us just get rid of
+all this code so let's now talk about
+filter function so filter function is
+basically used to filter what so filter
+function is basically used to
+[Applause]
+filter no no I'm not kidding but yes
+filter function is actually used to
+filter the values inside an array okay
+so if we are given this array right 51
+326 suppose we want to filter out all
+the values which are odd inside it
+suppose if we want to filter out each
+and every value which is greater than
+four inside this particular array so it
+will result out to 6 and five or maybe
+we just want to filter out all the even
+numbers inside array or maybe we want to
+uh filter out all the numbers which are
+divisible by three inside this
+particular array so you are kind of like
+taking this array as an input and
+finding out a array which has only the
+values which are filtered based on some
+logic okay so let's just see how we can
+write that so let's now take a very
+basic example and let's now try to
+filter out all the odd values inside
+this array okay so how we can do that so
+to find the output let us again create a
+const output okay and what we will do is
+now we will call a filter method over
+array so we will do array. filter and we
+will write the filter logic inside this
+so now the filter logic would be to find
+out odd values inside this array right
+so maybe we need to write a function
+over here which is basically which
+checks whether an value is odd or not so
+maybe let's write a logic is odd okay
+and this is basically again a function
+oh I misspelled it function is odd
+okay and is odd basically takes an value
+and checks whether this value X is odd
+or not how do you write that logic you
+just do a X Mod by two and it basically
+checks whether a value is odd or not so
+that is how it filters let's now see our
+output over here and if we print it see
+we get 513 and why there is no 2 and six
+because when this function was checked
+against 2 and six so basically it
+returned false false isn't it so
+similarly if we just had to filter out
+all the even values so how we could have
+done is maybe we just pass in a function
+filter even and how do you find even
+values so even values are the ones where
+X Mod by 2 is equal equal to0 isn't it
+right we can do a even right filter is
+even so if we see only two and six are
+filtered out now suppose if we want to
+find out all the values which are
+greater than 4 okay so what we should do
+over here again return X is greater than
+4 right so so it just gives you five and
+six right so that's how we can do or
+maybe just okay so we had a bad name
+greater than four okay greater than four
+and let's have a greater than four here
+so so this gives you again greater than
+four values right so that's how the
+filter function works and again over
+here in this filter function instead of
+just passing this greater than four like
+this maybe you can just copy this
+function and pass in directly over here
+like this okay it works perfectly fine
+again it gives the same result or maybe
+just use a arrow function so I'm just
+showing you all this so that you are
+habitual of uh seeing this type of code
+okay and you don't get frustrated when
+you see such code written okay and it
+makes sense to you so and maybe some
+people write like this as well so this
+is a perfectly valid code so this video
+is not just about explaining what the
+filter function is doing but also when
+you read the code you should be able to
+understand and build the mental model of
+what is happening in the code right so
+if you read this code you should be
+aware of that okay ARR do filter what is
+ARR ARR is this array right this array.
+filter and what is the filter logic you
+only filter if x is greater than 4 okay
+that means all the values which are
+greater than four will be filtered out
+right suppose if I do all the values
+less than three would be filtered out so
+sorry three would be filtered out see
+you will get one and two right so so
+that's how you should be reading this
+code and understanding and writing this
+code okay so this was a very easy
+example but we will take a little more
+advanced example but first let us cover
+reduce a lot of people have texted me
+that please make reduce video please
+make red red video so here we are we
+will learn what is reduced now so first
+of all let us just get rid of this code
+okay so now let us see what is reduce so
+just like the name suggests reduce it
+actually does not reduce
+anything you know if I was given an
+option I would never name this function
+reduce okay because it is so confusing
+when it says reduce we don't know what
+it is reducing what does that reduce
+means okay filter makes sense map makes
+sense you are map in one to one value
+but says
+reduce so now let us just talk about the
+reduce function so reduce function is
+basically used at a place where you have
+to take all the elements of an array and
+come up with a single value out of them
+okay so um it sounds confusing but let
+me give you an example to give you an
+example maybe suppose if you have to
+take this array and you have to iterate
+over each and every element and find out
+sum of all these elements in this array
+right or maybe just try to iterate all
+these array and find out the largest or
+the maximum number inside this array so
+how would you do that here you can use
+reduce okay maybe to find sum or maybe
+to find maximum number inside this array
+okay so let's just take an example to
+see how we can write this reduce
+function but before moving on to that
+okay before moving on to that if I'll
+directly just jump on to writing the
+reduce function it will not make any
+sense to you first of all what we will
+do we will just write down a code how we
+used to write in a nonfunctional way
+okay non-functional programming way then
+we will move on to writing the reduced
+function okay that way you will be
+better able to understand the reduceed
+function so just bear with me for 2
+minutes okay so let us just first try to
+write a normal function okay let's call
+it find sum okay which finds the sum of
+these array right a r r if we pass on a
+RR inside it so to find sum of all these
+values of ARR what we will do we will
+basically have a variable which is sum
+and we will just assign it with zero
+right this will be a place where we will
+be calculating our sum and then what
+we'll do we'll just generally write a
+for Loop okay and then what we will do
+we will just iterate over each and every
+element right and what we will do we
+will just keep on appending that inside
+our sum variable sum is equals to sum
+plus a r r of I right and what we will
+do we will just do that again and again
+for each and every value of ARR of I and
+what we'll do we will just return the
+sum That's How we'll do right this is
+what the code will be let's just check
+it if we check the result how we what we
+can do some find some and and we call it
+with ARR and what's the result so we get
+17 over here so now if we had to do the
+same thing using reduce okay so reduce
+is used in this place where you need to
+iterate over all the elements and find
+out a particular value okay so in this
+case it was Sum right so how we can
+transform this logic and write a reduce
+function instead so now I'll show you
+that for that let's take a const let's
+call it output okay and over here we
+will write ar. reduce just like map and
+filter we use ar. reduce now this reduce
+takes a function inside it now this
+function has two parameters now listen
+to me very carefully this is the most
+confusing part for a lot of developers
+this function takes two parameters
+listen to me very carefully first is the
+ACC that's a accumulator and the second
+one is current okay I remember like this
+okay accumulator and current so now what
+are these accumulator and current let's
+just see in a moment so when you write
+like this right ar. reduce basically
+this function is iterated over each and
+every element of this array okay so this
+reduce basically iterates this function
+over each and every elements of this
+array and what it will do is this
+current or the second parameter
+represents the value of when when we are
+iterating right when we are iterating
+this function or we are running this
+function against each and every value
+this current represents the value like
+these values inside this reduce function
+okay so this function over here current
+will be these values and this
+accumulator right the first parameter
+basically is used to accumulate the
+values okay or accumulate the result
+what we have to get out of those values
+which are present in the arrays so in
+this example we needed to find the sum
+right so how did we do in a traditional
+way we initialize this sum and we were
+accumulating our sum inside this sum
+variable aable right so similarly we
+will use an accumulator to accumulate
+these values so what we will do and this
+current is basically the current values
+which are represented in this particular
+array so so if we have to compare this
+example and with this function this
+function find some with this function so
+the current is basically this ARR of I
+okay over here and the accumulator in
+this case is the sum so how would we
+write over here is so accumulator is
+equals to what we need to accumulate in
+it sum right so how do we calculate sum
+we would do a accumulator Plus+ now what
+a r r of i instead of a r r of I we
+basically write curve which is our
+current value right and what we will do
+we will just return this
+accumulator return this
+accumulator and one more thing to notice
+over here is so in this function
+basically this accumulator is acting
+like this sum variable right and it is
+just accumulating all these values it is
+just iterating this function is being
+run against each of these values inside
+this array and basically accumulator is
+just appending a sum of the current
+value to itself right so accumulator
+should be initialized with an initial
+value for the first go right so the
+initial value how do we pass an initial
+value to an accumulator
+so that is basically the second argument
+to this reduced function so this reduce
+function basically takes second argument
+so the first argument is a function and
+the second argument is any initial value
+which you need to pass inside this
+accumulator okay so the initial value
+over here would be zero for some isn't
+it this is how we will write this whole
+logic inside our reduce function and if
+we do a console log of output now let's
+do a console log of output and if we
+save it see we got 17 once again so
+basically this whole logic is exactly
+similar to this find Su
+logic so now let's come to a tricky
+example where you need to find out the
+maximum value inside this array so how
+let us first write down that logic over
+here let's just modify this find Su and
+try to find out find Max inside this
+array how do we find out the maximum
+inside that array let us suppose for now
+this sum is Max okay so we need to find
+out maximum value inside this value what
+we will do we will just iterate over
+each value and we will see if our
+current value is greater than maximum so
+maximum would be that current value
+right how will we write if our current
+value current value is AR RR of I is
+greater than maximum what we will do we
+will
+just override our maximum with the
+a RR of I else we don't do anything so
+we will just iterate and if our ARR or
+ARR of I or any of these values becomes
+greater than the maximum value then what
+happens maximum becomes this ARR of I
+and then we just return maximum right
+that's how it works isn't it so if I
+just comment down and just save it so if
+you find out some okay not find some
+find Max um let's run it and see if it
+works yes so we got the six right the
+six is the maximum value so now we have
+written our find Max function now we
+will write the same logic using reduce
+but this time we won't be doing any
+cheating okay we won't be doing using or
+we won't be using this as a reference
+and we would try to write down Reduce by
+ourselves okay how let's try to write it
+okay so if we do a const
+output okay can you just guess what we
+will do now yes you are absolutely right
+we will do a array. reduce right array
+do reduce and we will write a function
+over here right and this function takes
+two parameter what were those yes the
+accumulator and the current over here
+now what we will do first of all we have
+to think that the second argument to
+this reduced function would be the
+initial value of accumulator so the
+initial value to find out the maximum
+let us give it zero so why zero because
+we are just assuming that the array
+would be non-empty and it always have
+positive numbers so the least possible
+value the maximum could have would be
+zero right so that's why the initial
+value is zero now we'll try to write the
+main logic now remember what I told you
+this function will be called against
+each and every value of this array so
+what happens is now we want to and this
+accumulator is basically acting as the
+max now right so what we will do we will
+at each point of time for each and every
+current value we will check if our
+current value is greater than our
+maximum till Point okay maximum till
+point is our accumulator over here if it
+is then what we will do we will just
+assign the maximum value to that
+accumulator isn't it so now our maximum
+value or the accumulator becomes the
+current value okay so instead of of
+calling this accumulator let's call it
+Max that will make more sense so it's
+just a label right we use accumulator as
+a generic term but ideally let's call it
+Max so now assume so the initial value
+of Max was zero and we will check at
+each current value or each point that if
+the current is greater than our Max then
+what we will do our Max becomes current
+and we just return our Max great so
+that's how we should write it so let's
+just save this and try to do a console
+log of our
+output if we do it see we got six so
+that's how we write this logic I know
+there can still be some confusions with
+map filter and reduce that is why I have
+few more a little more real world
+examples for you for map filter and
+reduce just give me five more minutes we
+will run down through these examples and
+your knowledge of map filter and reduce
+will be more strengthened and trust me
+you won't forget this lifetime let's
+take few more examples you will love it
+seriously just hold
+on so first of all let's just get rid of
+this code and for the next example let
+us take a different a little more
+complicated version of this array okay
+so suppose we have this array of objects
+and each and every object over here has
+three properties which
+are first name last name and the age
+okay so this is basically like the data
+what we get from API assume that this is
+coming from some API okay this is the
+list of users right this is a more real
+world example so now suppose we are
+given a task to find out the list of
+full name of all these users okay list
+of full names so it will look something
+like this okay so the full name of the
+first user is AI and similarly we have
+the second item in the list should be
+Donald Trump so suppose if we have to
+find a list like that and we have and so
+on okay so we want to find a list with
+the full name okay so now can you guess
+what function would be used over
+here what function would be used over
+here so it is exactly you are absolutely
+right we would be using map over here
+let us just quickly write it so first of
+all as usual let's take our constant
+output and then what we do we will write
+user do map and what will we pass inside
+is now just just see carefully I am
+writing a arrow function directly we had
+X and what do we need to map it to so
+the x is basically this object right as
+I told you that this function which you
+pass inside map will run against each of
+these objects right each of these values
+inside this array so over here this x
+basically represent the first item of
+this users so basically this object so
+what this x should map to X and then
+what does this function return X do
+first
+name plus X do last name right so if we
+save it and that's all it is seriously
+that that's all you need to do if we
+just run this now see we got AI okay so
+we did not get the space as intented so
+let us just put a space also so we can
+do like this so so that's how it is
+right we got our current output this is
+what we wanted right now we got a list
+where we have full name of each of these
+objects so here is when we can use map
+so let's just take one more tricky
+example it would be really awesome okay
+so let's just see this this is tricky
+okay it is a challenge for you while I'm
+doing you should be able to do this okay
+suppose if this is the same array what
+we use and now we have to find out how
+many users have a particular age okay so
+let me just explain you if suppose this
+user list is given we need to find out
+that what are different age inside this
+array and how many people are with the
+same age so suppose how many people have
+age 26 inside this so there are two
+people with age 26 inside this right so
+our our map should be like this so it we
+should get and how many people are there
+with 75 age it is one how many people
+are with 50 age it is one so similarly
+suppose we had a very huge list of users
+so we need to find out that how many
+people are of a particular age okay so
+particular unique age I would say so
+there are two people with 26 okay and
+there is one person with 75 and one with
+50 so that's how we need to make this so
+now can you guess what would we use over
+here can you guess should we use map
+should we use filter should we use
+reduce or nothing we can't use anything
+I'll give you a moment to think think it
+think it once again pause the video and
+think it if you can't because this is
+really nice example okay if you're able
+to do this then your reduced concepts
+are clear oh I give you a hint so
+yes we would be using reduce we would be
+using reduce why why we would be using
+reduce because we are using this array
+and we need to find one value inside it
+okay we have we don't want a list over
+here now we wanted one object okay and
+object should have different unique
+values with the count of individual
+value so we would be using reduce over
+here because we want to reduce our array
+to a particular value which is an object
+okay that's great let's just try to
+write the logic now so just like always
+let us just create a const output for
+now and what should we do now okay we
+will just do a we will just write users.
+reduce and remember what does reduce
+take reduce take a function it has the
+first parameter is accumulator the
+second parameter is current and we
+basically the second argument to this
+reduce function is basically the initial
+value of this accumulator so over here
+our accumulator is basically this object
+right the initial value of our
+accumulator what it will be the initial
+value would be empty object isn't it
+because when there is no data present in
+it there would be empty object and now
+we will slowly be appending these values
+to it right and remember what does this
+current function holds so this function
+when this function is iterated or is run
+against each of these values of this
+array because that's what reduce do
+right reduce was run this function
+against each of these values right so
+this current will be this particular
+object at the first point right what we
+need to do with it what we need to do
+can you just guess so we need to check
+if our accumulator of current do AG
+right current. AG what is current. age
+current. age is 26 we need to check if
+our accumulator of 26 is it even present
+or not right there could be a case like
+this empty object right so there is a
+case where our accumulator of 26 or
+accumulator of current. age is not there
+right if it is there we need we will do
+something but if it is not there what
+should we do so let's write the else
+condition first if our accumulator of
+age like 26 is not present then what we
+should do we should just initially
+assign it with one isn't it make sense
+so initially if our 26 was not there
+inside this object initial object we
+would just do a 26 and put in one inside
+it
+right and then so this function will
+basically run for each and every value
+right each and every value inside this
+array so suppose if it if now the
+current is this value okay this 75 so
+what it will do again it will check if
+accumulator of 75 is present or not no
+it is not there it will assign it to one
+so now this will be added to our
+accumulator now it will go to this
+object it will see 50 it will just
+append this 51 now is the tricky and an
+interesting case so if our accumulator
+of current of age or accumulator of 26
+is already present what we will do now
+we will just do a accumulator of current
+age and it's simple right we will just
+do a plus plus of accumulator of current
+age that's all we need to do isn't it
+and we will just return our accumulator
+from this function function simple right
+so let's just try to see
+this and let's just try to console loger
+output first of all okay and see if this
+works or not fingers crossed let's just
+run it yes so what we got see we got
+this object with 26 as 2 50 as 1 75 as 1
+and that's what we wanted right so this
+is how you can write the reduce function
+and leverage it I took this example
+because because I wanted to show you
+that reduce can be used in a lot of
+places okay so you need to have that
+mental model that if you have an array
+and you need to and you need to iterate
+over that array and come up to a single
+value out of it so most probably you can
+use reduce and do that stuff so
+basically that is where reduce comes
+into picture and this is what the power
+of functional programming is you can
+pass in these functions and you can
+leverage them to write such beautiful
+code we have already seen the examples
+of map and reduce right now let's just
+take a quick example of filter to revise
+and then we would end this video okay
+just give me two three more minutes okay
+very easy very very very easy okay this
+example is basically if we are given
+this user list we need to filter out or
+we need to find out the first name of
+all the people whose age is less than 30
+okay first name of all the people whose
+age is less than 30 Can You Solve IT
+pause for a moment pause this video and
+think okay first name of all the people
+whose age is less than 30 so let's just
+write it now okay so let's just quickly
+write it as always let's do a com com
+const output and let's just do a users.
+filter now I would be writing a arrow
+function okay just quick carefully
+listen to me and I'm going a little slow
+if our x x over here would be this
+object right if our X do age is less
+than 30 filter out all these objects
+which have age less than 30 okay let's
+just save it and if we see the output so
+now we got all these objects which have
+age less than 30 right we got this
+object but remember the problem
+statement the problem statement was to
+find out the first name of those people
+so interesting isn't it now you tell me
+how we can do this we were expecting our
+output to be ake and Deepika right this
+is what we expected but instead we got
+this objects why I took this example was
+I wanted to tell you an interesting
+thing that a power of these functions is
+chaining okay you can chain map filter
+and reduce what I mean by chaining is
+suppose if you filter this array now you
+can run a map over it as well okay now
+we can write a DOT map in front of it
+also this is what I wanted to tell you
+now this map will be running on the
+output of this the output of this was
+these objects right and now we can do a
+map of these and find out x and x do
+first
+name make sense so we get the desired
+output right we got aay and Deepa right
+this is what we needed right we need to
+filter so how did this work let let just
+break down and see once again once again
+just give me one minute I'll explain you
+so First We Take users and that we when
+and what we did with this object is we
+filtered it out okay what we what did we
+filter we filter out X and X's age is
+less than 30 so all the people give me
+all the give me list of all these
+objects which has x. ages less than 30
+so what happened this user array now
+shrinked down and it removed all the
+these values okay it basically just was
+left with these people right the with x.
+age less than 30 right and then we ran
+the map over these array okay and now
+what is the function which we pass
+inside map we just needed the first name
+so we did a x do first name so now
+basically the output what we got was
+exactly what we wanted isn't it it's
+beautiful isn't it this is how you can
+chain these methods also but now before
+we end this video I want to tell an
+interesting thing you can achieve the
+same thing instead of doing Dot filter
+and Dot map with a reduce also yes you
+can even use reduce to come up to this
+solution you just need to know how to
+write it okay so this is a task for you
+this is a homework for you can you can
+you just find out all all the people
+with age less than 30 and get the list
+of the first names of that using reduce
+so this is a challenge for you this is a
+homework for you I want you to code that
+in the comment section write down your
+code I want to see your code okay so you
+need to get to this point using a reduce
+but I gave you this example just to show
+you that you can change these methods
+that's all what my motive was but you
+can use a reduced to just get to this
+output okay and now in the next video we
+will be covering the polyils of map
+filter and reduce this is asked so many
+times in interviews and I'm telling you
+if you are giving interviews for full
+stack or UI
+roles poly of reduce poly of map filter
+reduce these things are asked so much so
+what we will do is this was coming I I
+was getting a lot of request in comments
+so I thought that let me make videos out
+of it so the next videos will be
+the polyfill of math filter and reduce
+we would be covering all of that we
+would be covering all the corner casing
+then I would exactly explain you how you
+have to tell in interviews so that you
+get 10 on the 10 in the interviews okay
+so are you ready so go ahead and check
+out that video before moving on to that
+video give this video a thumbs up just
+write down in comments whether you
+understood these Concepts or not and
+thank you so much for watching Namaste
+JavaScript
+[Music]

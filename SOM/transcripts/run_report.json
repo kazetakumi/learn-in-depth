@@ -1,0 +1,248 @@
+{
+  "total": 40,
+  "downloaded": 40,
+  "skipped_existing": 0,
+  "failed": 0,
+  "videos": [
+    {
+      "video_id": "La4UEa7hA7Q",
+      "status": "downloaded",
+      "path": "transcripts/La4UEa7hA7Q.txt",
+      "error": null
+    },
+    {
+      "video_id": "uA_HqCGo8Pg",
+      "status": "downloaded",
+      "path": "transcripts/uA_HqCGo8Pg.txt",
+      "error": null
+    },
+    {
+      "video_id": "ELWH6Vz5mIg",
+      "status": "downloaded",
+      "path": "transcripts/ELWH6Vz5mIg.txt",
+      "error": null
+    },
+    {
+      "video_id": "SQElq2aiTts",
+      "status": "downloaded",
+      "path": "transcripts/SQElq2aiTts.txt",
+      "error": null
+    },
+    {
+      "video_id": "FeUAgQrPUU0",
+      "status": "downloaded",
+      "path": "transcripts/FeUAgQrPUU0.txt",
+      "error": null
+    },
+    {
+      "video_id": "8hxgzEq-7cs",
+      "status": "downloaded",
+      "path": "transcripts/8hxgzEq-7cs.txt",
+      "error": null
+    },
+    {
+      "video_id": "MzZMPZzS1NY",
+      "status": "downloaded",
+      "path": "transcripts/MzZMPZzS1NY.txt",
+      "error": null
+    },
+    {
+      "video_id": "NJB4nk89qkU",
+      "status": "downloaded",
+      "path": "transcripts/NJB4nk89qkU.txt",
+      "error": null
+    },
+    {
+      "video_id": "Hal1cTYZpFI",
+      "status": "downloaded",
+      "path": "transcripts/Hal1cTYZpFI.txt",
+      "error": null
+    },
+    {
+      "video_id": "wkiCzI4fhIs",
+      "status": "downloaded",
+      "path": "transcripts/wkiCzI4fhIs.txt",
+      "error": null
+    },
+    {
+      "video_id": "vy_TTBy2y7A",
+      "status": "downloaded",
+      "path": "transcripts/vy_TTBy2y7A.txt",
+      "error": null
+    },
+    {
+      "video_id": "zufBYad-Vt0",
+      "status": "downloaded",
+      "path": "transcripts/zufBYad-Vt0.txt",
+      "error": null
+    },
+    {
+      "video_id": "GKiotMaWj6E",
+      "status": "downloaded",
+      "path": "transcripts/GKiotMaWj6E.txt",
+      "error": null
+    },
+    {
+      "video_id": "2NvW00CXTac",
+      "status": "downloaded",
+      "path": "transcripts/2NvW00CXTac.txt",
+      "error": null
+    },
+    {
+      "video_id": "iAGX_Emb8_Q",
+      "status": "downloaded",
+      "path": "transcripts/iAGX_Emb8_Q.txt",
+      "error": null
+    },
+    {
+      "video_id": "hj2Vle4k-VA",
+      "status": "downloaded",
+      "path": "transcripts/hj2Vle4k-VA.txt",
+      "error": null
+    },
+    {
+      "video_id": "g7ZFQnKI9u4",
+      "status": "downloaded",
+      "path": "transcripts/g7ZFQnKI9u4.txt",
+      "error": null
+    },
+    {
+      "video_id": "oDx8vsm9HW8",
+      "status": "downloaded",
+      "path": "transcripts/oDx8vsm9HW8.txt",
+      "error": null
+    },
+    {
+      "video_id": "GYomtssygV4",
+      "status": "downloaded",
+      "path": "transcripts/GYomtssygV4.txt",
+      "error": null
+    },
+    {
+      "video_id": "uye-gOx9i0o",
+      "status": "downloaded",
+      "path": "transcripts/uye-gOx9i0o.txt",
+      "error": null
+    },
+    {
+      "video_id": "VVxtw3anYd0",
+      "status": "downloaded",
+      "path": "transcripts/VVxtw3anYd0.txt",
+      "error": null
+    },
+    {
+      "video_id": "XCwFds7ebcE",
+      "status": "downloaded",
+      "path": "transcripts/XCwFds7ebcE.txt",
+      "error": null
+    },
+    {
+      "video_id": "IcQiaXheQJI",
+      "status": "downloaded",
+      "path": "transcripts/IcQiaXheQJI.txt",
+      "error": null
+    },
+    {
+      "video_id": "o9aTw8JvPuU",
+      "status": "downloaded",
+      "path": "transcripts/o9aTw8JvPuU.txt",
+      "error": null
+    },
+    {
+      "video_id": "EkcgtgVNfxg",
+      "status": "downloaded",
+      "path": "transcripts/EkcgtgVNfxg.txt",
+      "error": null
+    },
+    {
+      "video_id": "uNLhmlwRuIc",
+      "status": "downloaded",
+      "path": "transcripts/uNLhmlwRuIc.txt",
+      "error": null
+    },
+    {
+      "video_id": "uprNzNRcPTg",
+      "status": "downloaded",
+      "path": "transcripts/uprNzNRcPTg.txt",
+      "error": null
+    },
+    {
+      "video_id": "Q_sQwNict-o",
+      "status": "downloaded",
+      "path": "transcripts/Q_sQwNict-o.txt",
+      "error": null
+    },
+    {
+      "video_id": "z0zyhyZ246A",
+      "status": "downloaded",
+      "path": "transcripts/z0zyhyZ246A.txt",
+      "error": null
+    },
+    {
+      "video_id": "3zNpD4HJY2Y",
+      "status": "downloaded",
+      "path": "transcripts/3zNpD4HJY2Y.txt",
+      "error": null
+    },
+    {
+      "video_id": "h20oHMJNfds",
+      "status": "downloaded",
+      "path": "transcripts/h20oHMJNfds.txt",
+      "error": null
+    },
+    {
+      "video_id": "M-0U9E0O8q8",
+      "status": "downloaded",
+      "path": "transcripts/M-0U9E0O8q8.txt",
+      "error": null
+    },
+    {
+      "video_id": "1x61PPD3q94",
+      "status": "downloaded",
+      "path": "transcripts/1x61PPD3q94.txt",
+      "error": null
+    },
+    {
+      "video_id": "0h_ewgCW1gY",
+      "status": "downloaded",
+      "path": "transcripts/0h_ewgCW1gY.txt",
+      "error": null
+    },
+    {
+      "video_id": "JM1KSSngo_4",
+      "status": "downloaded",
+      "path": "transcripts/JM1KSSngo_4.txt",
+      "error": null
+    },
+    {
+      "video_id": "afbf7s2H25Y",
+      "status": "downloaded",
+      "path": "transcripts/afbf7s2H25Y.txt",
+      "error": null
+    },
+    {
+      "video_id": "tyBzuhjt1nA",
+      "status": "downloaded",
+      "path": "transcripts/tyBzuhjt1nA.txt",
+      "error": null
+    },
+    {
+      "video_id": "_6P60BcdUZ4",
+      "status": "downloaded",
+      "path": "transcripts/_6P60BcdUZ4.txt",
+      "error": null
+    },
+    {
+      "video_id": "83_LBShd2uY",
+      "status": "downloaded",
+      "path": "transcripts/83_LBShd2uY.txt",
+      "error": null
+    },
+    {
+      "video_id": "829Ew6hb7v4",
+      "status": "downloaded",
+      "path": "transcripts/829Ew6hb7v4.txt",
+      "error": null
+    }
+  ]
+}

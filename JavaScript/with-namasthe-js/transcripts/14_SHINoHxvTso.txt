@@ -1,0 +1,603 @@
+once i was giving interview for a very
+reputed indian startup i won't take the
+name but that startup was a very famous
+online food ordering startup the
+interviewer over there asked me
+that what is an anonymous function i
+just quickly said that a function
+without a name is an anonymous function
+that was easy right then she moved on to
+the next question which was what are
+first class functions in javascript
+okay
+so
+now i got nervous
+because i never knew what first class
+functions are
+i have heard of callback functions i
+have heard of higher order functions
+i've heard of arrow functions pure
+functions but i haven't heard of first
+class functions what are they
+and i got nervous the interviewer she
+was looking directly into my eyes and
+i was gone
+i said that i don't know okay i don't
+know the answer to this question so then
+she moved on to the next question which
+was what is the difference between a
+function statement and a function
+expression
+and now that nervousness from here went
+till here
+okay i i didn't know i i didn't know
+what a function expression statement is
+so many things were going upon in my
+head
+i thought that statement expression both
+were looking like the same so when the
+nervousness went to the next level i
+firmly said that
+a statement which has functioned in it
+is a function statement
+and oh my god
+the reaction of that interviewer was
+like
+she is just going to kill me there and
+there itself she made a she made such a
+weird face i mean like if i close my
+eyes i can still like recall that face
+okay and i knew that i am like gone in
+the interview like
+finished
+so this video is dedicated to that
+interview and that interviewer so let's
+see what all these things are and uh
+let's dive deep into the code now okay
+so let's move so we will be covering all
+these topics let's go upon these slowly
+one by one okay so first of all let us
+see what a function statement is okay so
+so you know how we create a function
+there is one way to create a function
+like this so if we write a function
+keyword and we give a name so this is a
+function statement
+okay
+so if i so suppose our function does
+nothing but just a console log okay
+let's just console log and let's give it
+a call
+that's it right so this way of creating
+a function is known as a function
+statement that's it
+that's all
+okay
+and remember i have told you several
+times throughout these videos that
+functions are very beautiful in
+javascript and functions are like the
+heart of javascript right
+so
+a beautiful feature of function is that
+you can assign it to a variable also
+okay so suppose if i have a var b we can
+assign a function to it okay we can
+assign a function to it function acts
+like a value okay you might have heard
+this before i am revising it function
+acts like a value okay so you it's it's
+like a value which you are
+initializing you are initializing this b
+with a value like putting function
+this into b so this is how beautiful
+functions are in javascript in many
+programming languages you can't do this
+and people coming from like other
+languages might find this crazy but
+what this you can do okay
+let's just log something inside this
+also so let me do a console log of
+be
+called okay
+so this is known as a function
+expression and this is known as a
+function statement both are ways to
+create function and i was using this
+since many years in our programming but
+i never knew what the difference between
+these
+jargons are like and in the interview i
+i was using this right a lot in my code
+but i never knew in the interview that
+this is what it is
+right
+so
+the interviewer did not ask me what it
+is the interviewer asked me the
+difference between function statement
+and a function expression so what is the
+difference between
+these two
+so the major difference between these
+two is hoisting
+okay
+so let's first see how do you call this
+function okay so you call this function
+by just calling it like this you know
+and even in the case of function
+expression you call it like this right
+if i call it if i run this program so
+see it prints a call and it prints b
+called right so that is how we call it
+but the difference between creating
+functions with these two types is
+hosting
+so how does hoisting come into picture
+so what if i call this function a
+even before creating it
+okay so
+here i am creating the function but i
+want to call it before creating it and
+similarly for b also
+so you have seen my hosting video right
+so what do you think the output will be
+if i call these functions before even
+creating them in code what will happen
+can you give it a guess
+yes let's just see so one will throw out
+an error which one the b
+so that is the difference between a
+function statement and a function
+expression so during the hosting phase
+during the memory creation phase a is
+created a memory and this function is
+assigned to a
+but in case of a function expression
+this b is treated like any other
+variable
+it is assigned undefined initially
+until the code hits this line itself
+so when the javascript engine executes
+this line by line and it reaches this
+line then only this function is assigned
+to this variable b until then it is
+undefined
+okay so here the value is undefined and
+you can and you can't call that b right
+that is the major difference between
+function statement and a function
+expression so now let's move on to
+function declaration so function
+declaration is nothing this is another
+jargon and function statement is also
+known as
+function declaration okay so they both
+are the same thing if you say
+function declaration or a function
+statement these are both the same things
+so now let's move on to the anonymous
+functions so anonymous functions as you
+know a function without a name is an
+anonymous function
+this is an anonymous function
+okay
+but let me tell you a little more about
+anonymous functions so anonymous
+functions
+does not have their own identity okay
+when i say it does not have its own
+identity that means if you create an
+anonymous function like this this will
+result out to be a syntax error okay so
+via syntax error let me tell you an
+anonymous function looks like a function
+statement right it looks like similar to
+that right see if you clearly see this
+looks exactly same as a function
+statement but it has no name
+but according to ecmascript
+specification a function statement
+should always have a name so this is a
+invalid syntax let me run and show it to
+you so if i save this run this so this
+is c a syntax error and clearly see the
+message which it says a function state
+function statements require a function
+name
+okay so see it's a function statements
+okay this function statements it is type
+of a function statement and it requires
+a name okay you need to give a name over
+here you can't leave it anonymous and
+create anonymous functions like this
+so now when you can't create it like
+this what is the use of it
+so anonymous functions are used in a
+place where functions are used as values
+so i have said this a lot of times let
+me repeat it once again functions are
+like very beautiful in javascript i love
+functions and functions i think are
+heart of javascript they are so powerful
+you can use them as values also right
+and anonymous functions are used when
+the functions are used as values okay
+when they are used as values so when i
+say they are used as values that means
+that you can use use it to assign it to
+some variable so just like you assign
+any other value to a variable okay you
+can assign this anonymous function also
+to a variable
+so it acts like a value here you can use
+anonymous functions but in function
+statements you cannot use an anonymous
+function okay so that is why it says
+function statements
+require a function name okay you know
+this knowledge of knowing what is a
+function statement or expression a
+declaration and all these things is very
+important also it helps you a lot if you
+are debugging programs so if you read
+clearly the message right so function
+statement so here it's not an expression
+it's a statement so these things these
+keywords will kind of click your mind
+and you will better understand
+javascript
+and generally you might have seen that
+when we are reading blog articles or we
+are reading books sometimes
+we it is very confusing right the author
+uses the term expression somewhere it is
+a statement somewhere so this is what it
+means okay so this knowledge will be
+very helpful when you are reading some
+books of javascript some blogs of
+javascript some stack overflow answers
+this all knowledge will be very helpful
+for that so now let's just see what is a
+named function expression okay so let me
+just first of all remove these errors
+okay let me just comment it out and
+let me bring these calls uh over here
+once again
+so now let me tell you what is a named
+function expression so a named function
+expression is like exactly the same as
+this function expression but when this
+anonymous function instead of using an
+anonymous function here we use a
+function with a name suppose if i gave
+it a name so this becomes a named
+function expression
+it's kind of weird right
+you are like kind of giving a name to
+the function here also and you are
+giving the name to the function here
+also it's it's like weird right but this
+is possible in javascript like you can
+have the name of a function itself and
+then put it into an expression so this
+is known as a named function expression
+remember a named function expression now
+here there is a corner case also there
+is a gaucha okay so uh so you know we
+can call this b function like this but
+what do you think what will happen if i
+do something like this x y z so can you
+guess what will happen if you just call
+this function x y z like this give a
+guess
+so you will get an error okay so it is a
+very famous output question also so you
+might get a mcq where
+the person might have called this xyz
+like this but it will throw out to be an
+error okay so this will give a reference
+error that xyz is not defined okay so
+why it gives xyz is not defined so
+if we see clearly this x y z if you put
+a function like this right if you use
+this function as a value so in this case
+this x y z is not created in the
+outer scope okay so this xyz is not a
+function inside this outer scope in this
+close global scope but it is created as
+a local variable okay when i say a local
+variable if you try to if you want to
+access this function inside this
+function okay if you want to access this
+function inside this function
+okay so suppose if you want to access
+xyz you can access it over here right
+you can access this function see it
+prints xyz and you can access this
+function over here but if you try to use
+it outside like this it will throw out
+to be an error where it is okay let's go
+to console so it it gives you a
+reference error that xyz is not defined
+okay so this is what is called as a name
+function expression and if you just
+don't give a name over here it is like a
+normal function expression or you might
+call it as an anonymous function to
+create a function expression okay so
+something like this so let me just
+revert it once again
+um and just remove this
+xyz
+and let's move on to the next part okay
+one more thing which i have often seen
+is that
+a lot of programmer use parameters and
+arguments as interchangeably terms but
+no they are very different okay so these
+two things parameter and arguments are
+very different okay so whenever you are
+creating a function so whatever you put
+over here right these these identifier
+or this labels right
+over here are known as parameters so
+that is why you can call it as a param
+param1 okay so you might have seen the
+syntax written a lot of places so this
+identifier or the label
+or this variable okay this is a local
+variable in the function scope okay so
+this this param1 and param two are local
+variables inside this function you
+cannot access this param1 and param two
+outside okay so these local variables or
+you can call it them as the identifiers
+or the labels so whatever you might call
+them so these are the parameters
+parameters of a function
+and the arguments which you pass over
+here like if i uh give a one and a two
+so this is known as arguments a lot of
+people you know
+use this as interchangeably and don't
+know this that is why often when you
+read a blog or you read a book then
+somebody is using an argument somewhere
+if somebody using parameter so you
+should actually have a mental model of
+what that person is talking about that
+is when you will understand these blogs
+and articles and books right
+so once again the values which we pass
+inside a function are known as arguments
+and
+these label and identifier which gets
+those values are known as parameters
+okay so now let's move on to the most
+critical part which is first class
+functions okay
+so what are first class functions so
+this is a very heavy term for what we
+already know
+so as i already told you and let me
+repeat it once again because it is very
+important functions are very beautiful
+in javascript functions are very strong
+functions are heart of javascript
+and
+just because it is like that
+we call them as a first class functions
+so the functions are so beautiful so
+beautiful that instead of these
+arguments we can even pass functions
+inside another functions as an arguments
+okay listen to this carefully arguments
+so functions are treated as values right
+i told like you can use an anonymous
+function to pass in as a value also okay
+that is how beautiful functions are and
+you can receive that in the parameters
+okay so if i pass this anonymous
+function inside param1 and i try to
+access this panel and see what we get
+okay this is a perfectly valid
+javascript okay see we got this
+anonymous function inside it right and
+there is one more way to pass this
+function
+okay inside this function okay suppose
+it was a named function let's call it as
+uh x y z okay and if i pass this x y z
+like this we can do that too okay so
+it's like passing another function
+inside a function right we are passing
+this x y z inside b
+that's how beautiful functions are and
+we can do that
+and not just this if we pass this
+function into this function we can also
+return a function from a function
+okay crazy it sounds right so we can
+return a function from a function we can
+return an anonymous function from a
+function
+and what will happen is when you invoke
+this b right when you call this b
+this function will be returned over here
+right so let's just try to do a console
+log of this okay so if i do a console
+log of this
+so uh and
+let me just remove this x y z
+and let me just remove this x y z also
+and if i now
+run this code so see
+when we call this function so
+this function anonymous functions were
+returned from b and we did a console log
+so it prints an anonymous function and
+if it was a named function we can return
+that too okay so what is first class
+functions so first class functions is
+nothing but this only
+the ability to use functions as values
+is known as first class functions
+so let me repeat it once again the
+ability of functions to be used as
+values and can be pass this in an
+argument to another functions and can be
+returned from the functions
+is this ability is known as first class
+functions in javascript
+nothing more than that okay these
+ability of these functions to use an n
+value and assign it to a variable and
+can be passed into another functions and
+can be returned out of another functions
+this ability all over all together is
+known as first class functions
+that is what is first class functions
+and it's not just in javascript it is a
+programming concept it's in other
+languages also not in every language but
+in many languages also so our interview
+question can be what are first class
+functions in javascript so you have to
+explain it like this okay when they are
+treated as a value parsed into another
+functions or returned from another
+functions so this is known as a first
+class functions okay this ability is
+known as the first class functions
+that's all it is
+right so if you read blog articles or if
+you read books okay so a lot of times
+you might also find a statement which is
+functions are first class citizens let
+me repeat it once again functions are
+first class citizens okay so let me
+write it down first class
+citizens okay
+so
+when i say first class citizens it means
+the same thing
+first class functions functions are used
+as first class citizens so it's both the
+same thing okay so if you read it in
+some blog or if you read it in some book
+assume that this ability to be used like
+values
+makes the function as first class
+citizens in javascript i know this is
+kind of like a playing with english and
+words right but that's how it is and it
+is important to know all these things
+because if we read it in some book we
+should understand what that author is
+trying to say right
+javascript has a very vast community
+right a lot of people are writing stack
+overflow answers blogs blogs articles
+this that and they use all sort of
+notations so what i try to do is i am
+just giving you this knowledge so that
+next time you read these blog articles
+you will properly understand what that
+author is trying to say if somebody says
+that functions are first class citizens
+that means he is referring to first
+class functions that means the ability
+of these functions to be used as values
+passed inside another function get out
+from the function and like returned out
+from the functions use them to assign
+into a variable all these things make
+say functions as the first class
+citizens in javascript
+remember will you remember this lifetime
+remember this lifetime okay so one more
+doubt you might get is that what if i
+use a letter const over here so suppose
+if i use a letter const over here so in
+that case also it behaves the same way
+just like let and const normal variables
+do they are in a temporal dead zone
+until it encounters this statement okay
+so you it is treated exactly the same if
+you want to get more information it is
+in the latin cons video right go watch
+that again if you are still confused
+about it so in the latin const video
+whatever rules are applied the same
+rules are applied to these also so these
+are nothing this const b is nothing but
+just like a constant another variable
+and this function over here is acting
+just like any other value which is being
+assigned to this b okay so that's how
+and that's what it is okay
+so now this function statement in a
+function expression or a function
+declaration these all things can also be
+written using arrow functions okay arrow
+functions has come up as a part of es6
+you can call it as ecmascript 2015 and
+this let const arrow functions these
+things were introduced in es6 okay so
+these function statements function
+expression this all things can be
+created using arrow functions also okay
+but let's not do this in this video
+because i haven't told you what an arrow
+function is
+up till now in this series i have seen a
+lot of people asking in comments that
+what will happen in case of arrow
+functions error functions error
+functions don't worry people
+i am covering the basics first of all
+okay the basics of javascript because
+when javascript was built it was not
+built with arrow functions right it used
+to have where it used to have function
+keyword so let us first explore these
+basic nitty gritty things about uh these
+this beauty of javascript which was
+originally made right and we will slowly
+transition towards this es6 new things
+also you know i am not avoiding let
+const or
+arrow functions or something because
+those things are being used a lot right
+i will make a separate video all
+together just for covering arrow
+functions that will be a very
+interesting video i will be covering
+everything like how how this keyword
+works and how arrow function syntax
+works how higher order function works
+and how
+statements declaration expression
+everything we will be covering in arrow
+function series just keep calm and wait
+no issues everything will be covered
+slowly slowly slowly slowly slowly
+slowly slowly slowly slowly slowly and
+trust me i'm not going anywhere i'll
+teach you everything just keep on
+watching this series and watch it in the
+sequence okay in the next video we will
+be covering callbacks and higher order
+functions those are very very very
+important topics in javascript if you
+want to learn functional programming
+okay so don't miss that video that is a
+very crucial video but before moving on
+to that video give this video a thumbs
+up it gives me a huge motivation and see
+you in the next video till then thank
+you for watching namaste javascript
+[Music]
+[Applause]
+me

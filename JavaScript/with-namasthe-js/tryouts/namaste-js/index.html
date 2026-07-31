@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Namaste JavaScript — from first principles</title>
+<style>
+  :root {
+    --paper: #fbfaf6;
+    --ink: #2b2620;
+    --accent: #355070;
+    --rule: #ddd7c8;
+    --code-bg: #f3f0e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #1b1a17; --ink: #e8e3d8; --accent: #8fb4d9; --rule: #3a362d; --code-bg: #242119; }
+  }
+  :root[data-theme="dark"] { --paper: #1b1a17; --ink: #e8e3d8; --accent: #8fb4d9; --rule: #3a362d; --code-bg: #242119; }
+  :root[data-theme="light"] { --paper: #fbfaf6; --ink: #2b2620; --accent: #355070; --rule: #ddd7c8; --code-bg: #f3f0e8; }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+    line-height: 1.65;
+    font-size: 1.15rem;
+  }
+  h1 { font-size: 1.9rem; margin-bottom: 0.2rem; }
+  .sub { color: var(--accent); font-style: italic; margin-top: 0; margin-bottom: 2.5rem; }
+  .rung {
+    display: block;
+    padding: 1rem 0 1rem 1.1rem;
+    border-left: 3px solid var(--rule);
+    margin-bottom: 0.4rem;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .rung.done { border-left-color: var(--accent); }
+  .rung.current { border-left-color: var(--accent); background: var(--code-bg); }
+  .rung.upcoming { opacity: 0.5; }
+  .rung.upcoming a, .rung.upcoming { cursor: default; }
+  .status { font-family: monospace; margin-right: 0.6rem; color: var(--accent); }
+  .rung h2 { font-size: 1.1rem; margin: 0 0 0.25rem; display: inline; }
+  .hook { display: block; margin-top: 0.35rem; color: var(--ink); opacity: 0.75; font-size: 0.98rem; }
+  a { color: var(--accent); }
+  .note { border-left: 3px solid var(--rule); padding-left: 1rem; margin: 2.5rem 0; color: var(--ink); opacity: 0.85; font-size: 1rem; }
+</style>
+</head>
+<body>
+
+<h1>Namaste JavaScript</h1>
+<p class="sub">from first principles — nine cruxes, each one a ladder rung standing on the last</p>
+
+<div id="ladder"></div>
+
+<p class="note">Each rung is a full lesson: a problem you can't yet solve, a wrong turn, then the idea that makes it inevitable. Progress is saved in your browser and in <code>syllabus.json</code>.</p>
+
+<script>
+const cruxes = [
+  {id:"01-execution-context", title:"Execution Context & the Call Stack", hook:"You already believe nothing exists until its line runs. JS breaks that — watch it break, then find out what actually happens.", lesson:"01-execution-context.html", status:"done"},
+  {id:"02-hoisting", title:"Hoisting", hook:"Why can you call a function before you ‘wrote’ it, but get undefined (not an error) for a variable?", lesson:"02-hoisting.html", status:"done"},
+  {id:"03-scope-chain", title:"Scope & the Lexical Environment", hook:"How does an inner function see an outer variable it never received?", lesson:"03-scope-chain.html", status:"done"},
+  {id:"04-let-const-tdz", title:"let, const, the Temporal Dead Zone & Block Scope", hook:"let/const are hoisted too — so why does touching them early throw instead of giving undefined?", lesson:"04-let-const-tdz.html", status:"done"},
+  {id:"05-closures", title:"Closures", hook:"A function returns, its execution context is deleted — so how does the inner function still remember its variables?", lesson:"05-closures.html", status:"current"},
+  {id:"06-first-class-functions", title:"First-Class Functions & Callbacks", hook:"Functions as values — you already do this in Python. What does JS add?", lesson:"06-first-class-functions.html", status:"planned"},
+  {id:"07-event-loop", title:"The Event Loop & Async JS", hook:"JS has one call stack and does one thing at a time — so how does setTimeout not just freeze everything?", lesson:"07-event-loop.html", status:"planned"},
+  {id:"08-js-engine", title:"Inside the JS Engine (V8)", hook:"Zoom out: what is physically running the execution context and call stack?", lesson:"08-js-engine.html", status:"planned"},
+  {id:"09-higher-order-functions", title:"Higher-Order Functions: map, filter, reduce", hook:"The payoff — build map/filter/reduce yourself from what you now know about functions and closures.", lesson:"09-higher-order-functions.html", status:"planned"}
+];
+
+let saved = {};
+try { saved = JSON.parse(localStorage.getItem('namaste-js-progress') || '{}'); } catch(e) {}
+
+const ladder = document.getElementById('ladder');
+cruxes.forEach((c, i) => {
+  const status = saved[c.id] || c.status;
+  const el = document.createElement(status === 'upcoming' || status === 'planned' ? 'div' : 'a');
+  const cls = status === 'done' ? 'done' : status === 'current' ? 'current' : 'upcoming';
+  el.className = 'rung ' + cls;
+  if (el.tagName === 'A') el.href = c.lesson;
+  const mark = status === 'done' ? '✓' : status === 'current' ? '▶' : String(i+1).padStart(2,'0');
+  el.innerHTML = `<span class="status">${mark}</span><h2>${c.title}</h2><span class="hook">${c.hook}</span>`;
+  ladder.appendChild(el);
+});
+</script>
+
+</body>
+</html>

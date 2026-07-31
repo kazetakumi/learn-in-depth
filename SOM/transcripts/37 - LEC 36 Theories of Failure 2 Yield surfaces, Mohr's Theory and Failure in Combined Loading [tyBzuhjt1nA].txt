@@ -1,0 +1,1378 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion with
+theories of failure
+in fact you should recognize that these
+theory is basically developed from a
+simple tension test
+later
+people have conducted experiments on
+geometries where they could change both
+Sigma 1 and sigma 2
+then verified it satisfies even in a
+biaxial situation
+and you know as far as brittle materials
+concerned we have looked at the maximum
+principles Theory
+I said once you go to brittle material
+the ultimate tensile strength becomes
+important there is nothing like yield
+strength
+the material does not give you any
+warning it simply fractures
+and we will not try to apply maximum
+principles as Theory to end ductile
+material ok
+and one of the very famous theories and
+it was also developed very early was
+criteria
+the way you will have to appreciate this
+theory is we are monitoring what happens
+to the shear stress
+and it's written as Sigma Max minus
+Sigma mean divided by two
+when this reaches a critical value in a
+tension test in a tension test
+you go only up to Sigma y s because you
+are pulling the specimen you are pulling
+the specimen and you want to see that
+when yielding has taken place you use
+that information and you limit
+the shear stress at that stage to be the
+permissible one
+and one of the aspects you have to keep
+in mind is we have arranged the
+principal success as Sigma 1 greater
+than Sigma 2 greater than Sigma 3
+algebraically it's a very
+important convention that we follow
+then you have
+Rewritten this as Sigma 1 minus Sigma 3
+less than or equal to Sigma Y is
+permissible I can write it less than
+equal to or greater than or equal to
+less than equal to sales that is
+permissible greater than equal to means
+you should not exceed the interpretation
+is slightly different that's all
+so rather than Sigma Max minus Sigma Min
+if you write it as Sigma 1 minus Sigma 3
+even when both the principal stresses
+are positive and both the principles are
+negative when Sigma 3 is 0 you will
+never make a mistake in the calculation
+and we have also seen one minuses yield
+criteria
+and that reduces to Sigma 1 minus Sigma
+2 whole Square
+plus Sigma 2 minus Sigma 3 whole square
+plus Sigma 3 minus Sigma 1 whole Square
+less than or equal to 2 Sigma y s Square
+and I have also said that one my SSD
+criteria
+comes basically from distortional energy
+Theory
+later you have this octahedral shear
+stress that was monitored by nadai and
+then he said whatever the results you
+get from
+octahedral shear reaching a maximum and
+distortional energy reaching a maximum
+the functional form of equation from the
+purpose of calculation reduces to the
+basic equation like this
+and it also a verification that the
+yield criteria has more justification
+because you have approached the problem
+from two different directions both of
+these give identical results
+and finally when you
+do the design
+nobody even goes anywhere near this
+yield strength
+you have what is known as factor of
+safety so you have a design strength so
+all of these equations will change Sigma
+1 should be less than equal to design
+strength Sig Bond minus Sigma 3 should
+be less than equal to design strength
+and sigma 1 minus Sigma 2 whole square
+that final expression is less than the
+two times design Strunk Square
+and one of the most challenging aspect
+in design is how to estimate this factor
+of safety there are multiple
+considerations that go into it we will
+discuss some of the aspects in the class
+today and some other aspects when you do
+machine elements course design of
+machine elements course you will have
+more comprehensive development on how to
+decide factor of safety
+and you should recognize that this was
+one of the earliest Criterion developed
+in 1864.
+and I have also been cautioning
+that when I have this can I call this as
+maximum shear stress
+you have to look at Sigma 1 minus Sigma
+3 only that gives a maximum shear stress
+this becomes particularly important when
+both the principal sources are positive
+or negative like what you have here
+you normally ignore zero don't ignore
+zero zero is very important and that is
+a contribution by Indian mathematicians
+and with all your environment now you
+won't have zero emissions
+okay so 0 is very very important
+and one better way of understanding and
+implementing trascar criteria is
+use data Sigma 1 minus Sigma 3. okay
+and we have also seen that you can have
+what is known as a pipe plane which is
+referred in the
+principle stress reference Sigma 1 Sigma
+2 and sigma 3
+that takes the form of a hexagon okay
+and
+you know if you want to draw this you
+can appreciate I do a simple tension
+test I can find out this point I can
+find out this because it goes to Sigma y
+s
+I can also say that I am keeping this
+one horizontal and apply it I can also
+get this point
+and I can also have a provision wherein
+I do a biaxial test you will see the
+biaxial specimen I can apply equal
+Wireless or Sigma 1 and sigma 2. even in
+that case because Sigma 3 is 0
+from the strength of this you will again
+say Sigma y s divided by 2 as the
+maximum shift so I can get this point
+so you can imagine how the first
+quadrant is obtained as a limit from our
+simple understanding of tension test
+and tension test also says something
+about the
+magnitude of the shear stress
+when Sigma wise reaches
+in the tension test
+from their most Circle you can find out
+what is the maximum shear stress
+and once you have a pure Shear sustained
+you can always look at it as combination
+of tension and compression
+that we have repeatedly seen we have
+used it for establishing
+interrelationship between inks modulus
+and Shear modulus
+and when we wanted to paste a strain
+gauge on a shaft to determine torsion we
+have utilized that knowledge because
+train gauge can measure only
+axial strain
+fine so the question is how do I find
+out the
+plot in the second and the fourth
+quadrant
+one way of doing this is you recognize
+the shear diagonal
+on a Shear diagonal you have this as
+Point Sigma by S that means I can have
+normal stress as one principle such as
+Sigma y s multiplied by 0.5 other one is
+minus 0.5 Sigma over yes that represents
+your
+pure shear stress State and all of this
+comes from your motorcycle the ones you
+look at the more Circle I have in the
+attention test it reaches the value
+Sigma over yes
+the maximum shear stress is limited by
+Sigma y s divided by two
+so if I imagine
+the principal stresses are not
+positive it can be positive or negative
+combination the positive negative
+combination the limiting value is only
+Sigma by S and minus
+0.5 Sigma over yes when both of them are
+of equal magnitude
+and simply they have joined it by a line
+and constructed this
+so in a sigma 1 Sigma to plane you see
+this as
+elongated hexagon
+when you have the sigma 1 Sigma 2 Sigma
+3 reference where I have this as
+hydrostatic axis which is equally
+inclined and we have also seen this as a
+pipeline
+the same elongated hexagon appears like
+a regular hexagon you see here see
+nature also loves
+need geometrical patterns
+fine
+we will go and see how do you get the
+one mices yield criteria in a similar
+three-dimensional fashion
+you know that is very interesting to see
+okay when you see that you will
+appreciate the nature is very
+interesting
+and the moment you get into one message
+there are multiple contributors it
+started at 1904 by Huber
+1913 by Von maises 1924 better
+explanation from henki and then 1937 you
+have all together a different approach
+by
+arpatnada who concentrated on what
+happens to the octahed Del shear stress
+okay
+so you have multiple contributors and if
+you go to historians
+see historians always
+go back and then see even a trace of
+that knowledge related to what is the
+modernity they want to give the credit
+to him also and you will be surprised
+Maxwell also have thought about a theory
+similar to this
+and Maxwell you understand mostly in
+electrical senses okay
+so in those days it's only physics all
+branches of physics
+come under one umbrella and you find
+this one minuses yield surface is a
+cylinder like this
+and then the curve is a circle
+okay in the sigma 1 Sigma 2 Sigma 3
+plane but if you put it in Sigma 1 Sigma
+to reference axis it gets elongated it
+takes the shape of an ellipse so if you
+plot this
+so if you are stress state is within
+this ellipse
+no yielding is possible if it is on the
+boundary or exceeds then yielding is
+definite in a given material
+see all of these people have conjectured
+based on a simple tension test you
+should never lose track office
+you can justify that these theories are
+useful only when you conduct complicated
+experiments
+plot the experimental data and verify
+whether it matches with that
+we will also see that
+now the next question is I have shown
+one mices independently
+I have also shown tuska independently
+you have seen the shapes
+it's a hexagonal cylinder in the case of
+tresca it's a circular cylinder in the
+case of
+one nices how do these two compare that
+is also very interesting to see
+and here also I have shown the shear
+diagonal and here what it says is the
+shear diagonal the value is higher than
+what is predicted by tresca it is says
+it can go up to 0.577 Sigma over yes so
+there is a difference
+you have multiple theories mainly
+because the material behavior is complex
+suppose I plot these two theories in one
+reference
+you have a very interesting
+geometrical appearance
+you have the one message cylinder just
+enclosed as the
+surface
+so it's very interesting so it's
+slightly different
+and from computational point of view
+tresca was very easy to do you should
+imagine if you have a slide rule how
+will you compute
+you can't compute Sigma 1 minus Sigma 2
+squared plus so on and so forth as in
+one mices you can definitely find out
+the difference
+okay
+so you should also give credit and it
+was one of the earliest theories
+so I have this as
+a circle
+enclosing the hexagon
+and when you see it in the
+Sigma 1 Sigma 2 reference
+when Sigma 3 is 0
+I have this elongated hexagon
+this is enclosed by the
+born myasis ellipse
+so the idea is in a real life situation
+when I have complicated loading acting
+on the system
+if you are in a position to find out the
+principal stresses
+the combination of principles such as
+lies within this elongated hexagon is
+predicted by trasca
+so that you will not reach yield
+one may say slightly relaxing this so it
+allows small increase and within that
+if your point lies you have not reached
+yield condition that means you are safe
+see this is we are looking at the
+extremum value when you go to design you
+never go near this unless you want to
+have a clash protection where you want
+the occupants in the car to be protected
+after the accident you want your crash
+bar to go to out of shape and you should
+be in good shape so it should absorb
+maximum amount of energy there you allow
+to fail by yielding
+in none of the Practical applications
+you never go anywhere near this
+now we will also see
+the shear diagonal
+in one diagram so you will see the
+one mices theories
+gives this value as 0.577 Sigma over yes
+whereas tuska gives this this point 5
+Sigma over yes so even if you do tresca
+analysis you are conservative your
+failure will not happen see these days
+of optimization where we are working on
+Space technology where weight reduction
+is very important people want to go and
+do the analysis to the extent
+they just have material to do the
+intended task that means your
+mathematical modeling should be very
+close to what is anticipated in the
+actual condition
+and you want to optimize
+you want to have your light helicopter
+isn't it initially they'll make a
+helicopter to fly then they will try to
+find out where they can reduce the
+weight same is the situation in the case
+of landing gears we have seen
+photolastic coating is employee to
+reduce the weight
+so when you are learning stress analysis
+it is not only the maximum stresses that
+are of concern
+even the minimum stresses you want to
+keep it at a reasonable level so that
+your weight of the structure
+comes down so it depends on the
+requirement
+so remember this failure theory is a
+substitute for good test data if I have
+good test data I would rely on that
+not only that you know in the early
+development of jet aircrafts
+I said that you had big windows
+and even Queen Elizabeth traveled in
+that and the dgca of U.S said that this
+big windows are dangerous
+and there have been explosive failure of
+comet aircraft it happened even from
+when it was taken when it was taking off
+from Calcutta okay when they analyze
+they found crack generated from the
+window and the plane has burst into
+burst like a bomb in my dad
+in order to understand that they had to
+develop a test rig
+where they had water to pressurize and
+also the wings to be oscillated like
+what you have in your air turbulence
+so people have to create
+expensive Test Facilities they are not
+cheap okay
+and all the failure theories are based
+on simple tension test you should never
+forget that
+test data is plotted to verify the
+proposed Theory and I have also slightly
+modified because the test data is
+reported like this they put it
+like Sigma 1 by Sigma y s but the shape
+remains same and you have Steel
+and I have still data like this so it is
+lying between tresca and one mices and
+I'd want to place it a slightly exceeded
+see you have sufficient background
+developed in the course
+to find out how to test my specimen so
+that I get these trust states can you
+guess see I can get what happens on this
+axis what happens on this axis from
+simple tension test
+what happens here is combination of your
+forces in more than two directions
+what is the specimen that you can think
+of
+we have discussed that because that is
+how you have to correlate only then the
+knowledge becomes complete
+think about it I will show some more
+material these other material that is
+very well tested is your copper because
+people want to have this
+Heat exchangers fine
+and once I say heat exchangers you
+should know what for copper is used and
+that also gives you the clue what should
+be the test
+okay and aluminum Alloys are the maximum
+tested material because that is used in
+space structures
+you also have aluminum
+and aluminum test data is scattered like
+this
+so the idea is you need to have
+complicated specimens to generate this
+test data
+so what you see here is
+those tests have reconfirmed
+utility of both tresca and one mices
+yield criteria that is the way how to
+look at it
+you have the greatest advantage that you
+have proposed these theories based on a
+simple tension test
+and is of verified okay
+none of you have told me if you apply
+internal pressure what happens
+it's a
+true biaxial trust State when the ends
+are closed
+when the ends are closed I have p r by T
+and P R by two t e suppose I in addition
+apply this axial tension I have control
+on modifying Sigma 1 and sigma 2. see
+when I want to perform the test
+I want to do it for a variety of
+combinations only when I do it for a
+variety of combinations I can Pat my
+back and said that I have exhaustively
+analyzed otherwise not
+you also have a tubeless specimen
+subjected to torsion and axial load
+and you also have a possibility of using
+a simple elliptical sheet subjected to
+internal pressure
+and the best way to do is a cruciform
+specimen I have complete control on what
+I want to do with Sigma 1 what I want to
+do Sigma 2. and your test section is the
+inner core of the specimen and the
+design of this fillet all these are
+design issues very very subtle point
+because the specimen should not fail
+either at the grips or at the fillets it
+should fail only in the interior so
+people have also designed new specimens
+so that you push it
+and find out whether these theories are
+valid the focus is that
+so you can feel safe you know scientists
+have not had a dream and then said you
+follow this Theory
+it's all tested verified reconfirmed
+by several bright Minds over the
+years
+so you have test data from this
+I just want to give you that if you want
+to get what happens in first quadrant as
+well as the
+fourth quadrant
+you will have to get some of this tests
+done very carefully done very expensive
+then you populate and then satisfy
+yourself
+that these theories are good enough
+approximation for you to carry on with
+protein design for any special purposes
+people do have final test risks very
+complicated whether it is an aircraft
+or a car or even your trained because
+now India is developing this
+one day Bharat it was known as train 18.
+they have to have test bricks to test
+the complete bogie for several
+field conditions
+see we have always been observing
+when you have a brittle material
+it can have
+a different compressive strength and a
+different tension strength the
+difference is very large
+so all the previous theories we have
+looked at the failure created and remind
+unaltered by a reversal of sign of
+stress
+because
+whether it is tension or compression the
+yield strength in tension and yield
+strength and compression for most other
+tail materials are very similar there is
+no major difference
+for brittle material the yield resources
+considerably different in tension and
+compression
+so the mohr's theory extends the maximum
+shear stress Theory to handle this
+scenario
+okay
+and if you look at it was developed by
+coulomb in 1773
+and it has been generalized by more in
+the 19th century
+so it is called more coulomb Theory as
+well you call it as Mouse Theory but if
+you dig the history
+people say more column Theory and if you
+look at after the development of
+fraction mechanics
+Griffith is a very famous name fracture
+mechanics he has also contributed to
+this theory of failure
+so that all these failure theories had
+an history it is not developed in one
+day
+it is proposed verified modified
+generalized by several scientists down
+the line
+and you know when we looked at the
+maximum principles of theory we said it
+is credited to ranking
+see ranking period is between 1820 to
+1872 whereas you have most theory of
+failure 1773 that means what coulomb
+said
+was not very clear it was generalized by
+more that is why you call it as Mouse
+theory that happened probably the period
+later than ranking otherwise logically
+you should have given credit for maximum
+principles as Theory as the theory for
+the brittle material
+people are not comfortable with this
+that thinking was there even before
+ranking that is what you learned from
+historical records
+and how do I plot I want to plot it I
+must bring in the difference in the
+magnitudes and what is recommended is
+you do a test in simple tension
+and then find out the more Circle
+you do the test on the battle material
+with pure Shear State find out the more
+Circle
+and you find out another test where you
+have the maximum
+compression you are one you only
+compress the material and draw the more
+Circle
+and the envelope of all this Mohr Circle
+tells you what is the failure that can
+happen in a brittle material
+for all the previous theories also you
+can draw the Mohr Circle and find out
+what this is envelope
+those envelopes are simple simple
+envelopes
+and if I want to plot it like what I
+have done in the case of
+tresca and one message in Sigma one
+Sigma to space
+you know I have to draw it in the screen
+so I have to
+modulate my sizes
+if I have a simple maximum normal stress
+Theory it would be like a square like
+this I have in the first quadrant you
+have this and the third quadrant which
+talks about compressive stress it will
+also you have the same size but your
+brittle material
+is not having
+same as tensile compressive tensile
+strength compression strength is very
+very high 13 times higher
+so if I extend this
+extend this I should have plotted like
+this but this was not the theory that is
+accepted by people see we have seen
+yield criteria
+following traska one of the modification
+was you simply join this in the second
+and fourth quadrant
+to the sigma
+UT here
+draw by a straight line some portion is
+cut off here some portion is cut off
+here
+and there have been modifications in
+that
+okay so what I'm going to show is I am
+not stopping at Sigma y u t here but I
+am stopping at the shear diagonal I have
+drawn the shear diagonal if I stop it at
+Shear diagonal and join this by a
+straight line This is called modify most
+Theory
+the original notes theory is
+take this point and join it to Sigma u t
+in the sigma 1 axis there is only a
+small difference so you instead of there
+you join it at Shear diagonal you call
+this as modified mode Theory
+and griffith has modified it further
+with the understanding of fracture
+mechanics
+what he said was you don't stop it at
+Sigma UT you stop it at three sigma u t
+and this becomes a curve it is not a
+straight line you should understand that
+this blue as well as this green area
+tells what is the Griffiths modification
+because you know I have put these colors
+with some transparency to see the layers
+so in the process what happens is when
+you put this blue it doesn't merge with
+this green but it also shows what is the
+modification by Griffith
+so as long as your stress state lies
+within this Zone a brittle material will
+be safe
+and brittle material people have worked
+at see people had to work with rock it
+is brittle material
+fine
+now let us go back to
+our learning of bending we have the
+famous flexure formula and if you take
+any of these points you can find out the
+stress tensor that's a training that you
+have had and you have also developed the
+sigma x equal to
+minus m is at y divided by i z z for
+point a I can write the stress tensor
+like this this embeds the sign so I am
+just writing this as Sigma x x
+the point B you can recognize that this
+is in pure bending
+Point D has no stress
+and point C
+again has this but this formula has this
+sign embedded so the sign will change
+depending on whether it is tension or
+compression
+and we have also seen
+stresses in torsion you have the shear
+stress varies
+and this is a tangential and there is as
+triangular I can write it in polar
+coordinates Tau Zeta Z Theta Tau Theta Z
+I can also write it in X Y coordinates x
+y z then I call the axis as G
+so I have this tausi Z Theta is
+resolved into Tau z y and Tau z x so in
+Cartesian coordinates I have the stress
+sensor like this
+and you know I have said even a simple
+autochecky problem let us see what are
+the forces that come on the shaft
+okay I have shown a generic shaft this
+is not the shaft used in attacheki
+because it is hollow and tapered and so
+on
+so when I have a belt drive you will
+recollect what you have learned in your
+rigid body mechanics course you have
+tension C1 and T2
+and this essentially introduces only a
+twisting moment
+so I have a twisting moment acting on
+the shaft
+when I have a belt drive
+suppose I have a spur gear mounted on
+the shaft
+I suppose you know when I have a spur
+gear you have a pressure angle and the
+load transferred is along the pressure
+angle so I will have a horizontal
+component twisting and a vertical
+component that will add up to bending of
+the shaft or if I look at in the auto
+Chiki that I have a
+bearing it will also give a
+reaction so the shaft will be subjected
+to
+bending loads
+torsion and bending loads are very
+common in a shaft but you have studied
+them separately that is how we can
+develop the subject
+suppose on the shaft I have instead of a
+spark gear I have a helical gear
+for some purpose I need a helical gear
+to take out the power and then operate
+something else
+this helical gear will also have axial
+component
+so I have torsion bending or tension and
+compression so in real life even a
+simple down to earth problem may have
+combination of these loads
+you never have one unique loading
+but while learning the subject you learn
+them independently and we have said we
+are working in linear elasticity so in a
+linearized elasticity I can have have
+principle of superposition individually
+compute the stresses and add them up we
+have actually solved one problem
+okay
+but there's also something very
+interesting and let me see how many of
+you have a look at it I have a shaft
+rotating I have just now said the shaft
+has
+twisting moment as well as sharing a
+bending load and what you have learned
+in your course
+you know we have solved one problem
+where we said that it is prudent to
+understand the axis as Z and then add
+this stresses comfortably for you to get
+the combined loading so stress in case
+of bending is in terms of your bending
+moment
+you have this as 32 MB by pi DQ
+stresses in case of torsion as Tau equal
+to 16 m t by pi DQ and we have combined
+them you remember we have solved the
+femur problem where I have said how do I
+superimpose
+I change my reference axis in a very
+convenient fashion so if I have a shaft
+transmitting bending and torsion
+any member transmitting bending and
+torsion I can get this stretch sensor in
+this form I can get the magnitudes from
+the bending moment and twisting moment
+from these expressions
+now I have auto check keyword this is
+also rotating
+do you see anything interesting in this
+situation
+when the shaft is rotating it is
+subjected to bending
+can you visualize something more
+interesting happening in a shaft
+subjected to bending
+long time back you know we have taken
+the example of a gem clip and then we
+said when I pull it out when I pull it
+out I cannot fail it
+what did I do
+okay then when I when I do this I get
+this Beautifully Broken
+I've given you a clue can you visualize
+what is happening because the shaft is
+rotating
+you see the animation you imagine that
+this is the point on the fiber which is
+moving
+when it is most do you see that the
+distance from the neutral axis changes
+and your bending stresses function of
+the distance of the neutral axis
+so what you find is because the shaft is
+rotating
+you are not gone and deliberately uh
+modified the bending moment like this
+it is only
+rotating but it is transmitting a
+bending load so your point on the beam
+gets rotated so it experiences different
+states which is equivalent to your
+cyclical loading
+but what happens
+you have said Sigma y s in your
+Sky yield criteria or your one message
+daily criteria I can never go near this
+because I have done repeated loading
+innocently
+if you don't recognize that shaft is
+rotating you would have missed this
+you will get the idea the bending
+Strokes on the shaft induces fatigue
+loading as the shaft rotates
+so what is the consequence of this it
+reduces the allowable stress so you have
+to bring in factor of safety which
+accommodates this
+see if you ask more questions you'll
+have to do more tests
+okay and once you go to the design
+course you know you will employ this
+combined loading in a particular fashion
+and we have already seen when I have a
+stress tensor like this your principles
+successor determined like this and Sigma
+Theta is zero
+so my principal stresses reduces to a
+simple fashion Sigma Z by two plus r
+minus root of Sigma Z by 2 whole square
+plus Tau Square Z Theta
+and we have seen all the failure
+theories
+use the principal stresses for all the
+further calculations
+now because I know expressions for this
+which we have developed in bending
+Theory and torsional
+Theory I can directly substitute so once
+you go to the emission element scores
+they will Design shaft based on this
+expression
+you don't have to remember this you can
+derive this the root is you are finding
+out the principle stresses you are doing
+a principle of superposition and your
+final expression reduces to Sigma 1 2
+1 comma two
+is 16 by pi DQ multiplied by m b plus r
+minus root of m b square plus MD Square
+so you don't
+recognize this
+in your design course unless you look at
+the link how we have got the
+superposition of stresses how we have
+looked at the principle success this is
+nothing but the principle success which
+we have developed from your
+understanding of stress analysis ok so
+but people in the field will use this
+they don't have to know the theory they
+have to know what formula to use but as
+Engineers you should know the background
+now let me go back to your female
+see femur is basically Hollow but I want
+to illustrate
+there is one other concept
+okay I want to ask a question
+suppose I have this as a solid one
+and then I find out my principles such
+as using this I have some numbers okay
+when I substitute this I get the sigma 1
+as 4.35 MPA I get Sigma to S minus 2.92
+into 10 minus so it's almost close to
+zero
+now let me ask
+I won't have look at the specimen which
+has outer diameter is 35 but Hollow
+what we have learned in the course
+we have launched the course if we make
+the shaft Hollow
+or beam Hollow
+you can increase the strength under what
+circumstances
+same material or same cross sectional
+area suppose I will ask a question when
+I have the outer diameter is 35 I want
+to have my Hollow
+specimen is also outer diameter is 35
+if I put the question differently
+I have seen Sigma 1 as 4.35 MPA if I
+calculate the stress as stresses will be
+more in a hollow Shaft or less than an
+Hollow shaft
+louder
+you have to recognize that so you
+understand the concept correctly
+see femur is Hollow
+fine
+and when I have the femur I can simply
+use this expression I have also
+um
+given that expression if I have the
+ratio of in the diameter to outer
+diameter put here the expression gets
+modified with a factor here 1 minus
+inner diameter divided by outer diameter
+hole per four
+I get the sigma on value as 9.45 MBA so
+understand the concept Hollow shafts are
+very strong
+but if you drastically reduce the area
+it cannot withstand
+fine so you should understand the
+concepts developed in the right
+perspective
+this is just an illustration the same
+idea you can extend this for all shaft
+design
+and you know if you ask a question if I
+have repeated loading
+the specimen fails
+fine and people have to design an
+aesthetic test apparatus keep changing
+the loads
+and there will be a counter that will
+say after so many cycles the specimen
+will break
+that's all you can get from a traffic
+test see it's much more complicated than
+a tension test I need to have hundreds
+of specimen tested with different
+surface quality and so on that's how
+people have tested
+and when I plot this
+you know I have this it's going it goes
+as a fatigue loading just the shaft
+rotates causes fatigloading understand
+this
+so now I plot this for a
+specimen I will generate so many points
+like this from my tests and this shows
+the least expected life when I
+apply the repeated loading and people
+also had if I exceed 10 power 6 Cycles
+they call this as infinite life and they
+have something known as endurance limit
+in later courses you will study this so
+if I have any repeated loading I have to
+determine my factor of safety
+much below the yield strength I'll have
+extra safety number at least two
+when I have to apply for fatigue loading
+it will be greater than 2 if I have to
+bring in other other aspects
+suppose I ask a question
+all the failures how it generates you
+have a crack and crack grows in surface
+and and fractures if you ask a question
+can I monitor how the crack grows you
+can't answer unless you develop another
+test where I have a specifically the
+crack I have ultrasonic probe to find
+out how the crack grows and then I plot
+crack growth curves from the crack
+growth curves I post process and then
+this these are known as crack growth
+curves and you have dabd and log d a by
+d n versus log Delta K that becomes a
+straight end this is known as a Paris
+law
+you know research Labs spends enormous
+amount of money testing the material and
+no country will give you this for
+defense applications you have to develop
+your own material you have to develop
+the testing in fact for your LCA
+development our na laboratory or testing
+such specimen round the clock for
+several years
+so if you ask more questions remember
+you have to spend more if the questions
+don't get answered simply from your
+distension test but people have solved
+this okay so you have a fatigue loading
+you have a crack growth people have
+solved and we have also seen I take it
+specimen with that whole we have just
+seen that the stress field the modifies
+you have a flowery pattern and we also
+learned that stress magnitudes are much
+higher than a simple tension test I have
+not said anything more earlier now let
+us look at what happens
+the solution what I am going to show is
+for a imaginary infinite plate with a
+small hole whereas this is a finite
+plate with a
+comparable hole okay it's just an
+illustration for a
+infinite plate with a small hole if you
+plot the Sigma Theta Theta on the outer
+boundary it has a very interesting shape
+like this I want you to write this Sigma
+Theta Theta equal to Sigma x x 1 minus 2
+cos two Theta
+there's a very very important
+information
+OK and what I get is I get this as where
+I have a density of fringes is very high
+I get this as three times the stress
+mind you it is for an infinite plate
+with a small hole for a finite plate it
+can be much higher than three
+it can even be nine times
+ok so
+you will always have to do a
+experimental analysis or a numerical
+analysis for you to get these trust
+concentration Factor
+for finite plate there is also something
+very interesting see I have shown a nice
+graph I have also shown the sign change
+I have shown something here
+how many of you
+taken by surprise
+don't you think that you should take by
+surprise because I take a specimen I
+only pull it
+as long as they don't have a hole
+everywhere I have only tension the
+moment I put a hole what happens
+stress magnitudes becomes larger
+stats field becomes complex in addition
+what is interesting happening
+I apply tension and what I have here
+what I have there
+compression it's very very surprising
+when you have compression what is the
+nuisance
+when you are going for optimization
+when I have compression
+when I go for optimization where I want
+to make the cross section thinner and
+thinner what what is that that you can
+anticipate
+buckling in fact infraction mechanics
+people Analyze This
+so don't think a stressorizer is a small
+innocent stress reason it does many
+complex things so if I have to
+accommodate a stressorizer and we have
+also seen when there is a step because
+when you have a shaft if you have to
+support I need to put a bearing
+okay I need to put a bearing I need to
+locate it so I am going to have a stress
+concentration
+and you know very well that if I
+analyze it away from the zone
+my bending theory is reasonably good
+but when you are learning it is fine but
+when you are designing and making a
+component I must accommodate this in my
+design if I don't do that
+you will be a failed engineer nobody
+will come back to you for consultation
+so your bookish knowledge is not going
+to help you so how do you accommodate
+this the only way you can do this is do
+a refined analysis or do a test or take
+an appropriate value of factor of safety
+okay
+so factor of safety has many many
+connotations
+so I have Sigma design as Sigma y s
+divided by factor of safety so it could
+come from
+you are modeling issues okay if I have
+modeled it instead of a fixed joint I
+have made it as a pin joint
+I can have issues based on estimation of
+the load
+and the type of analysis
+and the material differences suppose
+somebody is supplying your material
+because one of the consequences of kovit
+Boss supply chain was affected you are
+sourcing it from a particular Source
+then you change the source
+the material property will not be
+consistent see even in your hostel if
+they are serving you Vada you have this
+uru Dal he has the sources from the same
+source for you to give the same taste
+find some of the good food chains a very
+particular about what the ingredients
+from where they Source it same thing
+applies for your automobile design also
+if they are making components they will
+Source the material raw material from
+the same source and test it every day
+it is not like once in a blue moon they
+tested every raw material before it is
+converted into actual product they
+verify the properties of same only then
+they pay to the supplier
+so very very important ok
+and you know the modern days you have
+the issue of
+explosions okay
+and I said if you ask question more
+questions you have to do more tests
+there's no other go now you have a bogey
+bill Bridge which is in the
+brahmaputra which connects the Northeast
+4.94 kilometers
+and this is designed to withstand
+explosion and you also have this Chana
+Road railroad bridge which they have
+recently completed in Jammu Kashmir
+okay all this you have to design it to
+withstand earthquakes to withstand the
+Bomb Blast so you ask a question I have
+a high strain rate
+so you need to have a different test
+setup I have a split hopkinson's bar
+where I have a gas gun which puts this
+long bar and the specimen is very very
+small generates a very high
+rate of strain and you have a high speed
+camera which records this and you have a
+processing of this data 10 so the
+material properties
+change significantly at high strain
+rates
+and also extremum conditions if I want
+to work in cryogenics it is becoming
+very important in space technology
+and if you want to design ah gas turbine
+efficiency goes up if I work at high
+temperature
+so I said the tension test what you have
+done is at room temperature so you have
+to conduct tests at high temperature or
+roll low temperature
+generate test data and material
+scientists play a very important role so
+all that goes into your design
+this forms a basic fundamental and you
+have the basic mechanics but when you go
+to the field you have to take care of
+field requirements okay
+and we will also see two simple problems
+the first problem I'll uh it's very
+simple to remind you that if I have a
+simple
+tension member
+the geometry of the cross section has no
+role to play
+you have a allowable stress now I said
+we are not going to work at yield
+strength somebody has done the
+requirement analysis and said what
+should be the factor of safety so he has
+said for this material you use only 140
+MPA and then you are also given what
+should be the geometric shape of the
+rectangular cross section aspect ratio
+is given us 1.3 it's a very simple
+problem
+okay
+I have always said that once you have a
+problem
+learn how to write the stress tensor
+okay is this tension so I have the sigma
+y by
+value given is 140.
+and you have the simple criteria
+allowable is a force divided by area
+and you have a an expression okay a
+requirement and when you translate into
+a circle or a rectangle you are in a
+position to find out what should be the
+diameter of the
+Circle
+or the distance B for the rectangular
+process is a very simple problem the
+purpose is to illustrate when I have a
+axial tension or compression geometry
+does not play a role
+and you know many many practical
+problems or compressors
+okay you have your pressure cook River
+Indian cylinder your aircraft
+all of these are pressure vessels and
+pressure vessel is one problem where you
+have true biaxial state of stress
+and you have a thin cylinder
+approximation you have learned the
+um ideas when I have a thin cylinder how
+this gets stressed so here the idea is
+how do you write the stress tensor and
+then find out the limiting values so
+first check is you have to see whether
+the design is safe
+you are given a low carbon steel
+specifications are given is X modulus
+poisson ratio and yield strength all of
+these are given see when you go to any
+practical problems you may collect more
+data than what is required
+see in your school when somebody is
+given a question you will be when there
+is a clue that such data is given have
+you used the data
+that no longer works in engineering okay
+I have given more data here what are the
+data I have given I have given tensile
+strength I have also given ultimate
+tensile strength so it is for you to
+filter out what is applicable in the
+problem
+so the your earlier training you should
+use all the data no longer rests here
+some data may be missing also
+which you will have to make a
+intelligent assumption and then do it
+that is how engineering is
+so first is you have to check for a thin
+pressure vessel is obviously a thin
+pressure vessel so I have this greater
+than 10 it is about 62.5
+and you have a thin pressure vessel is
+applicable
+and you know the stresses in a thin
+pressure vessel I have a hoop stress
+see usually what they do is when they do
+the calculation they do the calculation
+for the
+median line okay so that is what is
+Illustrated in this PR by T is the basic
+expression in stuff in in the diameter
+you put this as r i plus T by two
+that is one convention that generally
+people use so I have this
+and I can find out the longitudinal
+stress even without the calculation you
+can say it is one half of this because
+it is PR by T and PR by 2T
+and we have labeled this as Sigma Theta
+and sigma Z
+and your radial stress is only the
+internal pressure we normally say that
+it is
+very very small compared to these
+numbers so we take that as zero
+and you'll learn how to write the stress
+tensor
+and when I have the stress sensor it is
+like this fortunately all of them are
+the diagonal
+now you know from the design perspective
+we want to look at as algebraically
+maximum algebraically the least so how
+do I write this response processes
+can I have this as radial hoop and long
+it is not the right
+this one but you have this as
+hoop stress is the maximum so this
+becomes your Sigma one this becomes a
+sigma 2 this becomes your Sigma 3 then
+you simply apply your failure theories
+okay so the computations are very simple
+so I have a one minuses criteria
+you write the one message criteria and
+the basic form substitute these numbers
+and you are in a position to
+calculate this and check whether you
+should use 250 or 400 in this case
+either way doesn't matter but
+number wise but concept wise you have to
+use the yield strength appropriately
+and you have the maximum shear stress
+Criterion
+and here you know you will have to
+recognize that if you look at only PR by
+T and P R by 2T you will get only this
+more Circle you will be tempted to use
+this as maximum shear stress please do
+not fall a trap to that you must
+recognize the existence of zero you must
+recognize that you should draw the
+larger Circle
+but you will never make a mistake if you
+say it is Sigma 1 minus Sigma 3.
+ok
+when I put this segment minus Sigma 3 I
+get the correct expressions
+and
+you can find out that this satisfies the
+the
+yield criteria
+so the material is safe see in the field
+what is it the person will
+immediately see
+he will only see geometrical changes so
+that is the spirit behind the next part
+what are the strains before yielding you
+know to make our life simple we simply
+take the yield criteria it's again an
+engineering decision my calculations are
+very simple
+and it is very close to one message
+criteria
+so I look at this so now I write the
+expression for strain
+so here write the strain expression
+completely don't simply say Sigma Z by E
+these are all common mistakes people do
+you should recognize I have Sigma Theta
+and sigma r
+you have the partition ratio coming into
+the picture so find out what is the
+strain in the
+Z Direction
+okay that you can easily compute
+and this is about 300 micro strain
+and you can also find out the
+circumferential change
+so you have the strain stress relations
+use the relations completely so in that
+sense you know every concept that we
+have developed or reviewed that is the
+idea behind this theories of failure
+okay you get to know how to use the
+concepts
+so I get this as 1087.5 micro strain
+so in this class we have looked at
+threadbare the nuances of theories of
+failure and we have also had a bird's
+eye view on what are the complications
+that you face in an actual design
+even a simple shaft which is rotating
+you have a surprise that this has a
+fatigue loading the moment you have
+fatigue loading
+the allowable strength
+drastically reduces at least by a factor
+two and when you have a stress
+concentration it increases the successes
+you can also have a very complex stress
+magnitude
+you can also have surprise compression
+so your factor of safety is not a simple
+idea it is a very very
+important idea that you have to
+understand how to choose appropriate
+factor of safety
+and we have also seen that when you have
+a high strain rate loading material
+properties change
+in extreme conditions material
+properties change
+for all of this you should do tests and
+any test is expensive thank you
+[Music]

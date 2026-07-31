@@ -1,0 +1,50 @@
+{
+  "total": 7,
+  "downloaded": 7,
+  "skipped_existing": 0,
+  "failed": 0,
+  "videos": [
+    {
+      "video_id": "BNC6slYCj50",
+      "status": "downloaded",
+      "path": "transcripts/BNC6slYCj50.txt",
+      "error": null
+    },
+    {
+      "video_id": "qikxEIxsXco",
+      "status": "downloaded",
+      "path": "transcripts/qikxEIxsXco.txt",
+      "error": null
+    },
+    {
+      "video_id": "t1nFAMws5FI",
+      "status": "downloaded",
+      "path": "transcripts/t1nFAMws5FI.txt",
+      "error": null
+    },
+    {
+      "video_id": "btj35dh3_U8",
+      "status": "downloaded",
+      "path": "transcripts/btj35dh3_U8.txt",
+      "error": null
+    },
+    {
+      "video_id": "8zKuNo4ay8E",
+      "status": "downloaded",
+      "path": "transcripts/8zKuNo4ay8E.txt",
+      "error": null
+    },
+    {
+      "video_id": "nqsPmuicJJc",
+      "status": "downloaded",
+      "path": "transcripts/nqsPmuicJJc.txt",
+      "error": null
+    },
+    {
+      "video_id": "HkWxvB1RJq0",
+      "status": "downloaded",
+      "path": "transcripts/HkWxvB1RJq0.txt",
+      "error": null
+    }
+  ]
+}

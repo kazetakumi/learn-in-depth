@@ -1,0 +1,142 @@
+{
+  "subject": "Introduction to Psychology (MIT 9.00SC, Fall 2011)",
+  "goal": "Deep, MIT-level foundation in psychology as a first rung toward eventually practicing it professionally.",
+  "learner_prior": "Everyday intuitive mind-reading — already predicts, explains, and is sometimes wrong about other people's behavior.",
+  "cruxes": [
+    {
+      "id": "01-science-of-behavior",
+      "title": "Psychology as a Science",
+      "hook": "You already predict people all day. Why does it go wrong — and what would it take to do it on purpose?",
+      "owns": "Everyday intuitive mind-reading (the learner's starting prior)",
+      "depends_on": [],
+      "lesson": "01-science-of-behavior.html",
+      "status": "current"
+    },
+    {
+      "id": "02-biological-machine",
+      "title": "The Biological Machine",
+      "hook": "If behavior needs a testable cause, what is doing the causing underneath?",
+      "owns": "Behavior needs a falsifiable, testable cause (from 01)",
+      "depends_on": ["01-science-of-behavior"],
+      "lesson": "02-biological-machine.html",
+      "status": "planned"
+    },
+    {
+      "id": "03-perception-is-construction",
+      "title": "Perception Is Construction, Not Recording",
+      "hook": "Your eyes send the brain a blurry, upside-down, twitchy signal. How do you ever see anything?",
+      "owns": "Neurons and brain organization as the physical substrate (from 02)",
+      "depends_on": ["02-biological-machine"],
+      "lesson": "03-perception-is-construction.html",
+      "status": "planned"
+    },
+    {
+      "id": "04-attention-and-consciousness",
+      "title": "Attention & Consciousness",
+      "hook": "If perception builds a whole world for you, why can you still miss a gorilla walking through it?",
+      "owns": "Perception as active construction (from 03)",
+      "depends_on": ["03-perception-is-construction"],
+      "lesson": "04-attention-and-consciousness.html",
+      "status": "planned"
+    },
+    {
+      "id": "05-learning",
+      "title": "Learning",
+      "hook": "A dog hears a bell and starts drooling. What did it actually learn?",
+      "owns": "Attention as the gate on what gets processed (from 04)",
+      "depends_on": ["04-attention-and-consciousness"],
+      "lesson": "05-learning.html",
+      "status": "planned"
+    },
+    {
+      "id": "06-memory",
+      "title": "Memory",
+      "hook": "If learning rewires you, where does the rewiring live — and why does memory lie to you?",
+      "owns": "Learning as durable change in the organism (from 05)",
+      "depends_on": ["05-learning"],
+      "lesson": "06-memory.html",
+      "status": "planned"
+    },
+    {
+      "id": "07-language-and-thought",
+      "title": "Language & Thought",
+      "hook": "Memory stores pieces. How do you assemble them into a sentence — or a decision?",
+      "owns": "Memory as reconstruction from stored pieces (from 06)",
+      "depends_on": ["06-memory"],
+      "lesson": "07-language-and-thought.html",
+      "status": "planned"
+    },
+    {
+      "id": "08-intelligence",
+      "title": "Intelligence",
+      "hook": "If thinking has machinery, can one number capture how good someone's machinery is?",
+      "owns": "Reasoning and its shortcuts (from 07)",
+      "depends_on": ["07-language-and-thought"],
+      "lesson": "08-intelligence.html",
+      "status": "planned"
+    },
+    {
+      "id": "09-emotion",
+      "title": "Emotion",
+      "hook": "Your heart races before you know you're afraid. So what is a feeling actually made of?",
+      "owns": "Reasoning/appraisal (from 08) meeting the body's alarm system (from 02)",
+      "depends_on": ["08-intelligence"],
+      "lesson": "09-emotion.html",
+      "status": "planned"
+    },
+    {
+      "id": "10-personality",
+      "title": "Personality",
+      "hook": "Why does the same situation make one friend furious and another amused?",
+      "owns": "Emotion as a personal response pattern (from 09)",
+      "depends_on": ["09-emotion"],
+      "lesson": "10-personality.html",
+      "status": "planned"
+    },
+    {
+      "id": "11-development-across-the-lifespan",
+      "title": "Development Across the Lifespan",
+      "hook": "None of this — memory, emotion, personality — showed up fully formed. How does it get built, and does it ever stop?",
+      "owns": "Personality as a stable individual pattern (from 10), now asking how stable patterns form",
+      "depends_on": ["10-personality"],
+      "lesson": "11-development-across-the-lifespan.html",
+      "status": "planned"
+    },
+    {
+      "id": "12-stress-and-health",
+      "title": "Stress & Health",
+      "hook": "You've grown a whole mind. Now watch what happens to it — and your body — under sustained threat.",
+      "owns": "A developed mind that can be pushed off balance (from 11)",
+      "depends_on": ["11-development-across-the-lifespan"],
+      "lesson": "12-stress-and-health.html",
+      "status": "planned"
+    },
+    {
+      "id": "13-psychopathology",
+      "title": "Psychopathology",
+      "hook": "Everyone gets stressed, sad, anxious. So where's the line — is there one — between that and a disorder?",
+      "owns": "The stress response pushed past what it can absorb (from 12)",
+      "depends_on": ["12-stress-and-health"],
+      "lesson": "13-psychopathology.html",
+      "status": "planned"
+    },
+    {
+      "id": "14-social-psychology",
+      "title": "Social Psychology",
+      "hook": "You've built an entire theory of one mind. Drop it in a room with other minds — does it still predict behavior?",
+      "owns": "Everything so far, now tested against situational forces (from 13)",
+      "depends_on": ["13-psychopathology"],
+      "lesson": "14-social-psychology.html",
+      "status": "planned"
+    },
+    {
+      "id": "15-synthesis",
+      "title": "Synthesis: What the Whole Course Was",
+      "hook": "Fourteen topics, one throughline. What is the whole course, shrunk back to what's irreducible?",
+      "owns": "All prior rungs, integrated back to behavior + empiricism (from 14)",
+      "depends_on": ["14-social-psychology"],
+      "lesson": "15-synthesis.html",
+      "status": "planned"
+    }
+  ]
+}

@@ -1,0 +1,1181 @@
+[Music]
+digital India educated India
+[Music]
+let us continue our discussion on
+bending of beams
+you know in the last class we have
+developed the
+variation of axial strain we found that
+the strain component is related to the
+distance y
+so it is linearly related
+and before we continue today we again
+review
+and emphasize some of the basic
+idealizations
+you should always keep track that we are
+looking at only a cell slender beam
+and the beam is subjected to Pure
+bending so every cross section transmits
+only the bending moment there is no
+other Force
+only for that we have a hypothesis on
+how the deformation is
+from the deformation picture we try to
+write the strained relations
+then we use trust strained relations to
+find out the stresses
+and so on
+and the cross section has a vertical
+pane of symmetry
+I have already said the plane of loading
+and plane of symmetry should be
+identical
+I could also do it in a horizontal plane
+the idea is
+we would confine our attention to
+sections that have a symmetry about this
+axis this also has a symmetry
+so in a sense it is much more relaxed
+than what we had looked at for the case
+of a torsion
+on the other hand when I apply the load
+along the centroidal axis to a section
+like this which has no symmetry
+you would find when I apply the vertical
+load it will bend as well as twist
+we will see that later
+so loading is in the same plane as the
+plane of symmetry
+and the very important idealization is
+material is isotropic
+and you know we have also looked at uh
+when you put the radial line like this
+they meet at a point
+and you know the same beam continues
+here in order I put certain lines here
+in order to make them clear I have
+removed the color do not think that beam
+has suddenly become a wireframe that is
+just to bring in Clarity on our subject
+development
+and we have defined what is a neutral
+axis
+even in the deformed configuration
+the length R1 S1 is same as r and s in
+the undeformed configuration
+so with that we are in a position to
+write the expression for strain
+as change in length divided by original
+length
+and you should understand that this is
+the undeformed configuration
+and this is the deformed configuration
+and you know we have a line PQ
+in the undeformed configuration it is at
+the distance y from the line RS
+even in the deformed configuration
+we still take the line at a height y
+from the neutral axis
+you will not appreciate it now because I
+am showing only
+reasonably small deformation only when
+we look at very large deformation you
+will find this
+distance need not remain same
+we have already said in this course
+we would solve everything in
+undeformed consecration
+that Advantage we take
+find these are all subtle Concepts
+that many people ignore after they got
+the flexure formula unless you remember
+some of these you will not know what are
+the limitations
+you get the expression but the
+Expressions also have some limitations
+and you have correctly pointed out in
+the last class what is the expression
+for the P1 q1
+and since we have said that we would
+work with
+neutral axis we were able to replace PQ
+as R1 and S1
+and it is easy to see that R1 S1 is rho
+into Delta Phi
+and P1 q1 is rho minus y Delta Phi
+and this gives me an expression for
+strain
+which is a function of Y
+and this is also related to the
+angle D Phi by d s multiplied by Y in
+fact d v c by d s we were related to
+the deflection will do a separate
+chapter on it
+okay
+so this is the starting point for
+today's discussion basically
+since I have this as a function of Y
+over the depth of the beam
+the variation of the axial strain is
+clearly linear
+so the reference is neutral axis I have
+the neutral axis from which I
+measure the distance y
+if the neutral axis is not coinciding
+with the centroidal plane I have to
+determine the neutral axis and then find
+out what is the distance y
+and this also in place if I have y
+farther away that is y Max your strain
+values also will
+become
+larger and larger the maximum is reached
+when you have the Y Max
+and you know we have taken a sign
+convention when you take anti-clockwise
+moment is positive
+that produces compression on the fibers
+above the neutral axis
+and produces tension below the neutral
+axis that is the reason why you have the
+minus sign
+if you look at some other books they may
+not have followed the same convention
+you will find that simply they will say
+epsilon x equal to Y by rho
+so you will have to be very careful
+about the sign convention
+and that is very important
+and from all the discretion we have done
+so far
+this equation applies only to the plane
+of symmetry we have never recognized
+whether the
+specimen has any thickness
+fine we have still not brought that
+aspect at all even though it is valid
+only for the pain of symmetry it is
+assumed that it is valid at all the
+points in the cross section of the beam
+so this is the
+happy approximation
+and you know we will also investigate
+other strain components
+what are the other strain component that
+can remain
+we have brought in
+symmetry
+we had a hypothesis
+straight lines rewind straight line
+after deformation so anything that
+distorts a straight line
+we will say that strain component is
+zero
+fine right at the moment it is difficult
+for you to see I will have to show you a
+animation which will discuss it
+once we look at the shear
+stresses
+but nevertheless for this discussion
+I will show you that so I have the same
+beam
+I am considering a small element I have
+taken a point of Interest here
+and I assume that it has the
+stress components indicated like this
+we'll have to find out which of the
+stress components are zero which we can
+assume them to be zero
+fine
+and you have
+important symmetry condition plane
+sections remain plane before and after
+loading
+that implies gamma x y and Gamma x z are
+zero which you can appreciate only when
+you see this animation
+suppose I have a shear stress
+when Shear is varying
+you will find the straight line get
+deformed this way
+and we have already noted
+when we take a beam and then
+apply only pure bending the straight
+line still remain straight
+so in this problem
+the experiment also shows straight line
+remains straight
+that is possible only when gamma X Y is
+zero
+the similar argument if I have gamma x z
+I will have warping in the horizontal
+Direction
+ok so based on that futuristic
+consideration
+you take this as 0. say this stress
+analysis subject matter itself is the
+concepts are interrelated
+you can't have top to bottom approach in
+a uniform fashion you may have to go to
+the bottom bring some of those ideas on
+the top so the sequence cannot be in One
+Direction you have to know certain facts
+from other experiments other
+understanding
+use that to say that this is
+zero okay
+and you have this
+plane section get deformed in the
+presence of shear stress but in the
+development of the beam Theory we are
+only looking at
+constant bending moment so when I have
+this Shear force is zero
+we will have gamma X Y is 0 suppose I
+have Shear force in the Z Direction
+I would have
+gamma x z because that Shear force is
+also zero gamma x z is also zero
+and
+till this discussion we were worried
+only about that the cross section has X
+Y as the plane of symmetry we are not
+demanded anything more it has to be
+symmetric about the X Y plane but still
+we have not used that symmetry in the
+mathematical sense we will see where it
+affects the mathematical sense
+so I have these quantities and you know
+we are dealing with isotropic materials
+where normal stress produces normal
+strain
+and you have Shear stresses producer
+Shear strain
+so I will have to have
+Tau XY and Tau X is Z should go to zero
+okay so that is what is reminded here
+when you apply a normal force it
+produces only normal strain
+when you apply a Shear force it produces
+a Shear strain
+you take that as an advantage
+and then you can comment about
+what happens to
+these Shear stresses Tau of x y and Tau
+x z
+and you will also have to look at
+what happens in the transverse Direction
+okay
+and you'll have to appreciate that the
+beam is Slender
+and we have also noted when I take the
+beam and then then apply the load
+from your concept of free surface the
+complete beam where I have not applied
+the load is free
+fine that means when you look at the
+traction the traction will be zero
+so from that argument I can say that
+because this is a free surface
+I don't have anything in the y direction
+so Sigma y should be zero
+and generally what they bring in is you
+know I have the beam is Slender
+and the
+depth is very very small depth is very
+small so if it is 0 on the top 0 on the
+bottom it should be 0 in between also
+that is one line of argument
+other line of argument is
+I have not applied anything other than
+the bending moment so there is no
+possibility for Sigma by to exist
+on the similar vein we can also say I
+have removed the sigma by here
+on the similar lines I can also say
+Sigma by cannot exist Sigma Z also
+cannot exist
+and Tau y z also cannot exist see all of
+them are 0 on the top surface
+so one argument is bring that as a
+slender beam
+so over the depth
+because the depth is very small top
+surface is zero bottom surface is zero
+everything in between also should be
+zero
+you know that same logic may not apply
+when I want to find out the variation of
+shear stress when I apply shear
+throw the depth you will find a Shear
+variation
+so a better way of looking at a is I
+have applied only the bending moment
+because I have applied the bending
+moment the forces required to cause any
+one of these stress components are not
+applied so they go to zero is another
+way of looking at it fine whichever is
+convenient to you have a look at it so I
+progressively remove this and finally
+end up that
+for any point inside the cross section I
+will have only the axial stress
+there is no other stress is existing
+partly by symmetry partly by you can
+also say assumption
+but all these are very fine with the
+exact solution from theory of elasticity
+see theory of elasticity is the basis
+whatever the assumption that I have made
+in the development if they agree if they
+do not violate what is done in theory of
+elasticity then our discussion is
+on the right track and we can proceed
+with it
+so this is the
+logic that we do these remain zero throw
+out the interior of the beam so here we
+bring in the thickness
+fine
+and you know
+you have
+taken a generic extra state
+at any any point inside now we have
+idealized how it should be
+we have removed all of these stress
+components
+we have said it as only the axial stress
+and we should look at that we have this
+as a
+isotropic material
+okay
+and you should tell me the complete
+expression for strain in terms of
+stresses
+when I write Epsilon X in terms of
+stresses what all I will have in the
+right hand side
+Epsilon X can be contributed by Sigma X
+Sigma by as well as Sigma Z never forget
+that
+when I write the generic expression for
+an isotropic material I can write
+Epsilon X only in terms of 1 by E times
+Sigma x minus Nu times Sigma y plus
+Sigma Z
+and in this
+simplified loading
+I have applied only bending moment
+and we are handling small deformation
+and we are also handling slender members
+Sigma Y and sigma Z go to zero and can
+you write anything about Epsilon y
+does that exist or not
+see you have studied strength of
+material so far
+when I apply
+bending moment we have seen that axial
+strain varies linearly
+so you can imagine that the loading has
+caused some kind of a strain in One
+Direction
+when there is strain in One Direction
+what happens to our two directions
+you will also have strain because of
+poisson ratio you cannot ignore that
+so I will have Epsilon y equal to Nu
+times minus Nu times Epsilon X so it
+indicates when there is an elongation
+there will be a contraction
+and vice versa when there is
+contraction it will bulge out
+I'll also have Epsilon y I will also
+have Epsilon Z
+that is equal to Nu times minus Nu times
+Epsilon X
+now let us understand
+you know I have drawn a sketch this is
+the beam which is reasonably slender
+and if you conserve only Epsilon X
+exists minus of Y by rho
+the beam has bent
+fine
+and this is what we have considered
+because you know till now we have not
+really recognized that the beam has a
+thickness
+when I recognize that the beam has a
+thickness
+I have to recognize I have Epsilon X
+I have Epsilon y
+as well as Epsilon Z
+and when you
+plot the lines in a diagrammatic sketch
+the beam would be
+bent like this
+what you see is you have a
+hump
+it has moved up
+and this has become like a cup
+so it has one curvature on this
+direction there is another curvature
+and in the mathematics they call this as
+anticlustic curvature because the
+curvatures are opposite in direction
+see this is only a diagram
+fine suppose I take the model and I bend
+it
+how it comes that will not look at
+and to appreciate what is anticlastic
+curvature you have synclastic curvature
+in which I have curvature on both the
+directions in the same way it is
+increasing and decreasing it is
+increasing and decreasing
+whereas this is
+cupping like this and the curvature is
+opposite in this fine so when they are
+opposite you call this as anti-classic
+curvature when they are identical you
+call this a simplistic curvature and in
+the case of beam bending you have this
+kind of phenomena
+and when I bend this beam
+I want you to look at very carefully you
+will see this hump
+fine you will also see this hump but you
+have to look at it very carefully
+and you will also see that this has
+bulged out very well
+and you will also be able to see the
+bottom curvature
+fine so have a close look at the beam
+fine and you will see you will see you
+will see now you will see when I rotate
+it you'll see do you see that there is a
+hump
+you are able to see this bottom
+curvature very well
+and you see the projection out
+but the hump is very difficult to see
+and I have done literally
+a very very large deformation
+fine
+so you know we can have an argument
+that yes I have all these
+happens
+and you have a finite thickness
+I do have anticlustic curvature
+but it happens at a very very large
+deformation
+so for the small deformation I do not
+have to worry about it in my calculation
+is the idea clear
+you have comfort from that
+for structural analysis
+I am going to show again the
+bendings you can see the hump okay
+and you can also see that is coming out
+because of compression it is bulging out
+because of tension it is compressed you
+can see the Bulge
+see I see only a small section of the
+beam
+is having this bulge whereas when I do
+the diagram I can draw it nicely
+these are all exaggeration see when you
+are developing a concept you should
+understand the thread bear you should
+ask a counter question and see what
+happens and if you say that it had
+definitely happens but it happens at a
+very large deformation
+then you have a comfort that I can
+comfortably use these equations for
+General stress analysis
+and I was also very surprised you know
+when I was looking at anticlustic
+curvature
+see the human body is very very complex
+I was very surprised the biomechanics
+people when they want to analyze the
+swallowing action
+they consider tongue as a beam under
+bending it is initially curved and it is
+so soft
+and they find that it also has
+anticlustic curvature
+you don't have any other structure as
+soft like your tongue so as long as you
+are not dealing with such soft material
+even though
+mathematically you can argue that there
+is a curvature like this
+these are all second order effects
+see in engineering you should appreciate
+how the equations are developed
+how to take a middle path
+you should appreciate second order
+effects but if they are second order
+effects you should also have the correct
+ignore it and carry on with your design
+bring in appropriate factor of safety
+this is how Engineers operate okay
+and what you have here is a rectangular
+cross section is shown when you have
+anticlastic curvature it has a hump and
+it also has a cup like thing at the
+bottom and your neutral surface also
+will have a curvature
+and now you can appreciate when I said
+while developing the
+strained relation that this is related
+to minus y by rho Y is in the undeformed
+configuration Y is the same height in
+the deformed configuration
+if I take this as the actual bent of the
+beam because of small deflection from
+the neutral axis the y n undeformed and
+deformed will be more or less identical
+suppose I look at very large reformation
+and I bring in this the height need not
+be same it has moved up
+so you should also understand where do I
+use
+the idealization small deformation and I
+live in the comfort of undeformed
+configuration this is very important
+these ideas are embedded in the books
+but they don't emphasize it when you
+start thinking on your own you get stuck
+or when you want to do research
+and you want to capture vital phenomena
+from your experiments you should have
+mental Clarity for that all this
+discussion will help
+and this anti-clastic or synchlastic is
+a name comes from your mathematics
+when you have curvature people have
+different types of curvature and they
+also have monoclastic curvature when
+they say that I have only the bent beam
+like this there is no another curvature
+in the second Direction so you call this
+as monoclastic
+you call this as synclastic you call
+this as anticlastic so it is very
+interesting your tongue has anticelastic
+curvature
+so it's very interesting
+and let us look at stress components and
+pure bending
+and you should appreciate that we are
+living in the comfort of isotropic
+materials
+and we have seen that Epsilon X is
+related to 1 by e
+multiplied by Sigma x minus Nu times
+Sigma of a plus Sigma C
+based on our assumption we have
+removed this Sigma Y and sigma Z
+you have to appreciate that slender beam
+transmitting constant bending moment
+when I say Slender beam transmitting
+constant bending Bond what do we do I
+apply bending moment somewhere here but
+I look at far away from the loading you
+all know
+same way none principle
+same one on principle is a very nice
+principle that we would invoke if I go
+close to the Loading conditions
+none of these simplification you can
+invoke it's very complicated
+and when you work very far away from the
+actual loading
+I can have the assumption Sigma y equal
+to Sigma Z equal to zero
+and sigma X can now be written as
+minus E times y by rho so like strain
+varies linearly over the depth of the
+beam
+stress also varies linearly over the
+depth of the beam
+like strain reaches maximum
+at y Max stress also reaches y Max
+imum at y Max
+and what you find is in one case it is
+compression in another case it is
+tension but algebraically you can say
+one is maximum another is minimum but if
+you look at only the magnitude magnitude
+wise for a symmetry cross section
+tensile stress and compressive stress
+will be identical because y Max will be
+same for compression as well as tension
+in a symmetric cross section if I don't
+have a symmetric cross section if
+whichever one where you have y Max is
+larger from the neutral axis whichever
+end you will also have problems suppose
+I have a t section
+I would have one side is closer to the
+neutral axis another side is far away so
+y Max decides the maximum
+values of the stress or strain
+so I have this Sigma x equal to minus E
+times D Phi by d s into y
+so it varies linearly like this make a
+sketch out of it
+it varies linearly
+and I have shown this as a
+three-dimensional picture isotopic
+picture
+when you look from the side view it
+varies linearly
+so magnitude wise when I have a
+symmetric cross section
+where the both the sides are at equal
+distance
+from the neutral surface
+the numerical value of compressive
+stress and numerical value of tensile
+stress would be identical
+one is
+having a positive sign another is having
+a negative sign
+and all shear stress components are zero
+in pure bending
+what we saw in the case of torsion
+formula
+when you have a torsion transmitted by a
+circular shaft all normal stresses are
+zero see we have carefully selected
+problems for discussion in this course
+we had only axial stress in the case of
+a simple tension member
+when I pull it
+we had only torsion in the case of a
+torsion and it generated only shear
+stress which varies linearly
+and when I do the bending
+I have only bending one transmitter and
+it has only normal stress so we have
+taken problem consciously so that we
+have very simplified results
+and what are the equilibrium
+requirements
+you have already said even before we
+started looking at it you have already
+said that normal force is zero
+we are going to write it in mathematics
+so here we are definitely going to look
+at the cross section we are going to
+recognize
+that it is not the discussion confined
+to the Symmetry plane we also recognize
+the
+complete cross section of the beam
+and then
+ensure that these are satisfied
+so we have applied only bending moment
+so the resultant should result only in
+the bending moment MB nothing else
+should remain
+we will see what are the kind of
+simplifications we have started with
+where do we use them
+so I take a small area
+I know what is the stress acting on this
+this is located at a distance Y and Z
+from the
+axis
+okay
+so when I have stress when I have the
+area I can find out the force
+and a is the total cross sectional area
+of this cross section
+so I have
+the first requirement
+summation of force in the X direction
+should go to zero
+this is to be integrated over the area a
+so Sigma x d a equal to 0. and you can
+go back and write what is the expression
+for Sigma X we have already determined
+that
+and
+the second condition is
+summation of m y that is I have this I
+take moment about y axis
+the distance is z z Sigma x d a should
+go to 0.
+and the third condition is
+I find out the moment about the Z axis
+so I Sigma m z equal to minus integral a
+y Sigma x d a
+should go to m b
+we will do that one by one
+we will substitute the expression for
+Sigma X
+and we will get a very important
+learning from this equation
+you know the development is also very
+important when you want to solve
+problems that are not discussed in the
+class
+fine
+because many modifications can be done
+in problem formulation
+so what does the normal force balance
+gives when I have the expression
+I replace Sigma X in terms of
+e y by rho I have an relationship here
+because we have said this is made of one
+material
+see the integral minus integral e into y
+by rho d a is a very important step
+suppose I have this made of multiple
+materials we have seen composite hoops
+I can also have composite beams
+then I cannot take a e out of the
+integral I have to accommodate that
+suppose I have a material which is
+non-linear
+when the material is linear I have only
+one E when material is non-linear e
+keeps changing
+so what is fundamental here is this
+equation is more fundamental
+for you to extend whatever the
+understanding that you have developed to
+other problems then isotropic material
+of constant material across the complete
+beam suppose I have a concrete if you go
+to concrete you have reinforced Birds
+which is still Rod is embedded in the
+concrete
+suppose I want to extend my knowledge of
+beam Theory to concrete then I have to
+hang on to this expression
+but the second expression when I take it
+out minus E by rho integral y d a equal
+to 0 is very familiar to you
+what is integral by d a
+first amount of area
+what is the definition of your
+centroidal axis
+you define centroidal axis based on that
+isn't it
+so that is the reason why we have said
+when the cross section is symmetric and
+is made of one material
+on the strength of this expression
+the neutral axis must pass through the
+centroid of the area of cross section
+this is a
+specific situation when I have a
+constant material
+and linear if the material is non-linear
+or if I have a concrete where I have
+steel rods embedded in
+concrete which is made of Aggregates and
+cement
+I have to go back to this and this is
+also a very important expression for you
+to find out where the neutral axis is
+located so you'll use this expression to
+find out the location of the neutral
+axis once you determine the neutral axis
+only from there you find out what is the
+distance by you don't do it from the
+centroidal axis
+there is a special case when I have
+be made of one material and it's a
+linear elastic
+so this is what it says that it
+coincides with the centroid
+that's a Simplicity that we have taken
+let us look at the moments
+see we have always been saying that
+cross section is symmetric about X Y
+plane have you ever used it till now
+I have expression Sigma m y equal to
+integral a
+Sigma x d a and substitute Sigma X I
+have this as minus E by rho again being
+a material of
+one material I take out e
+outside
+integral y z d a equal to zero is it
+satisfied or not
+it's satisfied on the strength of what
+idealization that we have started with
+when I say that this is the plane of
+symmetry because of that this quantity
+goes to zero
+so whatever the development of beam
+Theory we have developed it for a cross
+section which has a plane of symmetry
+that is very very important that's why
+this is identified
+and you have the other expressions
+Sigma m z equal to minus integral
+over the area
+y Sigma x d a
+I can substitute the expression for
+Sigma X
+and when you substitute this I get this
+as integral y Square D K this is also
+familiar to integral y square d a is
+called as what
+louder
+second amount of inertia
+and that is what you determine from
+about this axis so I can put this as i z
+z
+so I get a very famous expression e by
+rho equal to m b by i z z
+see now we have used all the
+idealizations
+we have recognized the
+beam has a finite thickness even though
+we discussed about influence operation
+ratio because our deformations are very
+small
+we can ignore that a second order effect
+we can still work on undeformed
+configuration to locate the points
+since we have taken that this has a
+plane of symmetry
+we are now able to get
+only m z exists m z is nothing but MB
+you don't have m y because of symmetry
+of cross section
+so I get e by rho equal to m b by i z z
+and if you recast this I can also recast
+e i z z have you seen something similar
+to this in torsion
+we have called it by a special name
+in torsion we have g into IP we call
+that as torsional rigidity
+that means to what extent the shaft can
+withstand the torsion
+on similar lines I can also coin the
+product e i z z as bending rigidity
+see people do not want to forget that
+they have graduated from rigid body
+mechanics to deformable solids so even
+the deformable solid whether it has
+resistance towards bending resistance
+towards torsion they qualify it by the
+respective rigidities if those
+rigidities are high it will not twist
+when I have high torsional rigidity if I
+have high bending rigidity it will not
+bend that easily that's what you want
+if you imagine that the roof beam
+sads like what I show in the class
+I will be the first one to go out
+whether you go out or not okay so we
+live in the comfort of very small
+deformation it is not an idealization it
+is reality
+okay
+not just an idealization and you also
+have the complete expression m b by e i
+z z equal to one by rho I can rewrite it
+in this fashion equal to d c by d s
+and we would exploit this when we want
+to determine the deflection
+one full chapter will devote on this
+so we have a summary of results here
+I assure a bent beam you see the
+deformation I have been saying
+repeatedly in this course the moment you
+see deformation it is large deformation
+but for the purpose of appreciation of
+relative movements we need to show large
+deformation but these deformations are
+very small
+so I have this Epsilon X is given as
+minus m b y by e i z z
+and sigma X is given as minus m b y by I
+is easy and I have always said these are
+all components of stress
+I would always appreciate that you
+visualize this as a stress tensor
+when you put it in the Matrix I have
+shown it as a three by three Matrix you
+can also have it as a two by two Matrix
+then you appreciate that this varies at
+every plane
+and you have to find out the principal
+stresses all the other aspects of it
+okay when you look at this this looks
+like a scalar so always visualize this
+as a tensorial quantity
+and this understanding is credited to
+cool
+and you know I also bring in consciously
+you have assignments principle
+that means away from the point of
+loading which affected this pure bending
+the solution is valid we know what is
+the strain and we know what is the
+stress which is varying linearly please
+make a neat sketch you should have the
+sketch
+and our expression
+also embeds the sign
+so fibers above the neutral axis when I
+apply a positive bending moment
+is subjected to compression
+below the neutral axis they are
+subjected to tension
+and from the equilibrium concentration
+we have also related
+the
+curvature to the bending moment so I can
+write the flexor formula MB by izz equal
+to minus Sigma X by y equal to e by rho
+you know you can complete your second
+course on machine design just with this
+formula because there you directly take
+it as
+slender members even if it is not
+cylinder you force it as Slender you get
+the first level of
+results and you may not also have
+multiple material and all that the
+entire course you can live with this
+do you have an equivalent in torsion
+you have a torsion formula
+that gives m t by i p equal to Tau Z
+Theta by r equal to G Phi by L
+fine
+so I have this
+flexure formula
+and only in our development you will
+find this as minus sign because we have
+followed systematically the sign
+convention
+and
+you have got this minus sign because it
+also tells you that when I have a
+positive bending moment I will have
+compressive stress developed
+you know when we started this course we
+started with photolastic finish patterns
+where I have this as
+constant color
+for a axial load for bending you have
+this as
+density packed lines
+and we found that the distance between
+the fringes remain constant for a
+particular load
+and now we also go back we have learned
+what is known as a neutral axis can you
+identify neutral axis in for elastic
+Fringe pattern
+what is the neutral axis
+neutral axis is the line which does not
+get deformed okay and from your stress
+variation stress is zero so what happens
+to Sigma 1 minus Sigma 2
+that is 0 when it is 0 we have in the
+color code that this is black so a black
+Fringe indicate that you have a neutral
+axis and in this case Sigma 1 equal to
+Sigma 2 they are both equal to 0 because
+it is a triangular variation
+so I have this as neutral axis
+fine
+and we have also looked at certain
+modifications in our earlier development
+I put a hole in the tension plate you
+have beautiful play of colors
+and we also said that this is stress
+concentration
+and the stressors go in a
+finite
+I mean when I have infinite plate with a
+very small hole it goes to three times
+but for a finite plane it goes higher
+than that which you can determine only
+from experiment or from a numerical
+study and we have also looked at a
+stepped beam
+see this is again subjected to Pure
+bending
+when it is subjected to Pure bending do
+I see black color here
+I see some disturbance here
+is the idea clear but we all clever we
+know signing on principle
+so when you exclude this Zone
+we have essentially captured in our
+strength or materials development what
+happens in a beam over the depth of the
+cross section
+that is a success
+this Zone requires special attention
+fine suppose we wanted
+to frame the problem how to analyze a
+beam like this and if you are
+concentrating on how to accommodate this
+in your development you would not have
+got any answer
+so the success is we have understood
+that there is linear variation of stress
+over the depth of the beam
+and you also have neutral axis scene
+fine
+and you know I find
+this knowledge whatever we have looked
+at is it used in general practice
+definitely because we know the core is
+not transmitting load we have a rail
+network instead of using a cross section
+like this which is filled with material
+we have removed material you have I
+cross section so significant weight
+reduction has been achieved
+so the idea what you'll have to look at
+is you have to extract the essence
+that is beautifully done by taking a
+very simple problem
+and you know I also want to complement
+that you have done a good job in your
+laboratory I have just given you a model
+like this and in your
+exposure to
+photolasticity lab people have provided
+this beautiful fringe pattern these are
+all recorded by you in the laboratory
+class I picked some of them
+so you have a grip you know I have
+tension applied
+and compare these two this is done
+better
+you find there is uniform color so now
+you agree when I apply an axial Force
+I get only uniform color when I show in
+the slide you see it's Greek and Latin
+but when you go to the lab and then pull
+your own specimen you find happens
+immediate
+actually it gives lot of confidence in
+taking a call on this fine
+and the model is same
+just a simple flexible member like this
+you have got the cantilever
+another cantilever this is also very
+nice so this is loaded in between you
+have taken it in a bright field that is
+why you see this as bright if you have
+taken a dark field this would be
+completely dark which we have seen in
+one of the problems
+and I was also happy that some of you
+have
+tried to flex it as a three point
+bending
+please note down this Fringe pattern
+it's very very important we are going to
+discuss it it's not trivial
+we will have to see what is the result
+that we have got and how our strength of
+materials Compares with theory of
+elasticity there are deviations you
+should also know the deviations
+is idea clear
+and you know by putting a hole you also
+found there is stress concentration
+and you also had the pleasure of
+tightening a bowl and so what happens in
+the spanner and some of you have also
+tried contact stress I am happy when
+models are given and you are given time
+to explore in the polariscope you are
+mind also becomes fresh and you want to
+experiment more and more aspect of it so
+this definitely says and brings out
+photolysis is useful to learn Center
+materials
+did we stop there
+it is also very useful to solve current
+problems see look at this is the picture
+I got very recently for 767 Boeing seven
+six seven nine landing gear this is the
+French patterns that people have got
+these are all photolastic coatings
+and you know some of these do not come
+out immediately in public domain because
+these are all confidential
+results and you have now 777 and then
+seven eight seven isn't it
+so it's being used currently and I also
+said that you have
+potholes in the roads recently you must
+have listened to that they transported
+the statue of netaji from Telangana to
+Delhi and they had to put several Wheels
+to the truck
+see there is a design strength you have
+to transmit only this much amount of
+load to the road
+so in order to support that load they
+need to put several axles
+if you overload your tracks because of
+contact set this is what is going to
+happen that is one of the problems the
+potholes is a very big nuisance
+then you know I said that we are going
+to deal with heterogeneous material
+and you have a beautiful
+[Music]
+rapid prototyping which you can make
+this kind of complicated material and
+analyze
+complicated heterogeneous material with
+pores and Aggregates and you also have a
+very interesting problem of a turbine
+blade root and you have a crack
+generating you have any interesting
+Fringe pattern these were developed in
+our Laboratory
+and I have also said there is also a
+current problem on interaction of cracks
+with macro porosity
+so what you'll have to look at is
+in strength of materials we have taken
+graded problems
+by analyzing a bean with pure bending
+we have been able to capture the essence
+of linear variation of stress and linear
+variation of strain when I have been
+made of one material
+we have captured the essence of it which
+is also used in many many engineering
+applications
+and in the laboratory you have been able
+to experiment with simple photolastic
+models which are very flexible you don't
+have to spend time on designing a
+loading The Jig or anything like that
+simple hand is sufficient to make this
+that has given you
+a comfort that what you are learning in
+the course is true in reality you have
+seen it with your own hands
+and photonasticity is shown to be useful
+for learning strength of materials
+not only that it is also useful for
+solving current as well as future
+problems thank you
+[Music]
+foreign

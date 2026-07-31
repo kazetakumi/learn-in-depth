@@ -1,0 +1,1321 @@
+[Music]
+digital India educated India
+[Music]
+since the last class we have learned
+what is train at a point
+when he says train at a point you
+recognize that
+you have to refer to state of strain at
+a point
+and when you look at in two Dimensions
+you have three components
+fine
+and we have also looked at when we talk
+about infinitesimal strain
+the quantity was very very small we are
+talking about in terms of micro strain
+and we said it is 10 power minus 6
+millimeter per millimeter it's a very
+small quantity so you should recognize
+when we want to make strain measurement
+you should be sensitive that we are
+going to measure very very small
+quantity
+and you know you have used a scale for
+the measuring length you have also used
+a Vernier caliper
+you have also used a screw gauge
+you must have done it
+and scale you know you can measure the
+0.5 millimeter reasonably well
+when you go to a
+Vernier caliper you can go down to point
+zero one millimeter when you go to screw
+gauge
+you can go down to point zero zero one
+millimeter
+but you also find the range with which
+these measurement methodologies can be
+used they also keep reducing
+so in many any measurement system you
+have a resolution
+if it is a very high resolution the
+range is also Limited
+is idea clear and you have to be
+sensitized that we are attempting to
+measure
+the quantity strain which is extremely
+small
+and you know in the guardian pin we have
+put the square grid and then we have
+been able to see after deformation
+beautifully the deformed lines
+and that comes under grid methods
+then you go to geometric my Ray what
+they have done is if I view the square
+grid with the master grading that's what
+you have here you have the master
+grading here
+I have this black and white fringe
+patterns are seen which is by mechanical
+interference
+which has the ability to magnify the
+deformation
+and the fineness of the technique
+depends on how many lines per millimeter
+that you draw
+so you have variation I have a geometric
+moire
+that is what is shown here
+and when you say geometric moire a
+this graph brings out
+on the x-axis the level of strain the
+idea is
+like in your measurement scenario when
+you use a scale when you use a Vernier
+caliper when you use a screw gauge your
+resolution keeps improving and the range
+also getting smaller so when we go for
+any experimental measurement
+they are applicable only for a
+particular range grid is a very crude
+way of finding out the strain
+when you have very large strain the grid
+is capable of showing good Distortion so
+you are in a position to
+have an idea of what they
+the body is trained okay
+the next step is you go to geometric
+moire
+I view the square grid with another
+Square grid which is called a master
+grating
+because of mechanical interference of
+these two grades
+you have improved accuracy that comes
+under the category of geometric moiety
+so this can operate somewhere around two
+percent strain to
+somewhere around
+13 or 14 strain
+and you have theoretically you can have
+up to 2000 lines per millimeter it's
+very very fine
+and that comes under the category of
+moire interferometry
+can start from something like 0.05
+percent strain
+and then it can go up to
+just before the yielding
+and you have a very new technique which
+is called Digital Image correlation
+which works from
+near yielding to
+near breakage of the specimen for a very
+large range
+and we have also looked at
+photolastic coatings
+and in the reflection scenario
+you have the coating bonded onto a
+specimen so the strain from the
+prototype or the specimen is transferred
+to the by the phranging coating
+so it is strain induced and you get
+beautiful fringe patterns
+so you have photolasticity which is in
+this range complete elastic range from
+almost close to zero strain to
+till yielding
+then you have brittle coating we have
+said that we will spray a brittle
+material
+and you know it's very interesting
+it's a brittle material so when the
+normal stress reaches a critical value
+you have cracks formed so in this
+technique cracks or information
+in normally you are worried about the
+crack developed in any structure here
+crack is used
+a measurement tool to find out what is
+the level of strain introduced
+and it is used in conjunction with
+strain gauges that's what we are going
+to discuss in detail so the idea is you
+can minimize the number of strain gauges
+if you know what is the direction of the
+principle strain at that point of
+Interest
+so the brittle coating requires
+some level of strain it cannot work
+below 500 micro strain
+from 500 micro strain little after
+yielding it can work
+see I have shown the stress strain curve
+for the mild steel just for illustration
+the focus here is
+when I go for measurement there are
+multiple measurement techniques
+many of these techniques operate in a
+particular range you should know what is
+the range of strain that you can use
+and the advantage of strain gauges it
+can work from almost
+close to zero strain to somewhere around
+12 to 13 percent of strain
+and you also have another very
+interesting technique called
+thermoelastic stress analysis
+which works from zero strain to
+about 20 to 20 percent it's a very very
+expensive technique
+the physical principle is when the
+material is stressed the temperature at
+the point changes so you need infrared
+cameras to find out the temperature it's
+a very expensive technique
+so this gives you an idea
+you have multiple techniques
+many of them directly measure
+displacement from the displacement you
+find the derivatives and find out the
+strain on the other hand the strain
+gauge has an advantage that you have a
+electrical system that directly gives
+you the strain quantity
+and many times you know people say
+strain gauge gives me strain which is a
+misnomer
+see what you will have to keep in mind
+is I have a strain gauge which is blown
+up here
+I have what is known as a gauge length I
+want you to draw a sketch of this
+and you have tabs where you connect it
+to lead wires these are connected to the
+equipment for measurement
+a strain gauge can give only a component
+of strain along the gauge length
+so that's what is summarized here the
+gauge measures
+the axial strain in the direction of the
+gauge length do not say strain gaze
+gives you strain it gives you only a
+component of strain and it can basically
+measure only an axial string
+okay
+it has a finite size it has a finite
+size and you have a grid
+and you have the end loops and solder
+Tabs are considered insensitive mainly
+because
+I make them big you know from your
+simple High School physics that when the
+area of cross section is larger and
+larger
+the resistivity is small okay so you
+have a strain gauge where this element
+we will also see in a short while how
+this is constructed
+and when you say strain at a point you
+may think that I want to measure at a
+point
+we have gauge length ranges from point
+two millimeter to 100 millimeter
+so you can't have a point the minimum
+least length is 0.2 millimeter but many
+of the common strain gauges readily
+available have a gauge length of three
+millimeters if I go for point two
+millimeter it's going to be very
+expensive
+and even the measurement technique has
+to be very sophisticated
+so the common strain gauge gauge lengths
+are in the range of three millimeters
+and you use 100 millimeter length on
+heterogeneous materials because you
+would like to have a average of the
+strain over a length
+so
+you have to select what is the gauge
+length that is appropriate for your
+given application
+and strain gauge selection is also a
+very important issue
+I want to caution strain gauges a widely
+used and abused technique people abuse
+it because they don't have a formal
+introduction to water strain gauges what
+are the sensibilities
+because the electrical principle is very
+simple and straightforward when you
+stretch a conductor
+whatever the stress introduced
+influences the change in the resistance
+but their resistance change also can
+occur because of change in temperature
+so in all strain gauge measurement you
+must account and segregate any effect
+due to temperature
+and when I say I have a strain gauge
+which has a finite length
+and if I paste it on an area
+where the strain varies in a fashion
+like this I have a peak strain here
+when because I have a gauge length it
+would only measure an average strain
+over this length the average strain
+would be like this
+so if my average strain is smaller than
+Peak strain then this is not good
+selection of the gauge length for the
+given application
+is ideally clear so you will
+underestimate the actual Strain coming
+on the
+prototype at that point see you have
+looked at photolasticity when I had a
+model made of photoelastic material I
+get information on all points in the
+structure
+such techniques are called whole field
+techniques see you need to know what
+happens in the neighborhood point
+so in one of the challenges in strain
+gauges though it directly gives you
+component of strain
+it is a point by Point technique you can
+get the information only where you have
+pasted The Strain gauge
+and when you paste The Strain gauge you
+should have selected the gauge length
+appropriate to the problem under
+consideration if the stress state is
+uniform
+no issue if I want to paste it on a
+cantilever where the stress is varying
+linearly as a function of distance
+average
+will equal to what is the strain at the
+point of Interest
+but when I have a plate with a hole
+that's what we are going to see the next
+slide
+so what is a thumb role in selection of
+gauge length
+suppose I want to put a strain gauge on
+the fillet that is what is shown here
+see I have a
+tensile root fillet where you have also
+got a crack developed in service
+and if you want to see in the
+compressive fill that
+I have a fillet radii and you will study
+in your machine elements course if you
+want to reduce the stress concentration
+one of the ways you try to reduce the
+concentration is providing a generous
+fillet
+wherever possible
+so the idea is you should have the gauge
+length not
+greater than 0.1 times a radius of a
+hole or the fillet
+these are all thumb rules you know you
+can only satisfy to the extent possible
+see other famous problem is you are
+played with a hole
+where you have
+stress concentration developed
+and if I want to find out these are all
+the places where you have maximum stress
+and if I want to do this I should have a
+selection of the gauge line depending on
+the size of the hole and ideally I
+should Bond it on the inner surface on
+the circumferential Direction
+then make a measurement only then that
+measurement will give you the peak
+stress or strain correctly so gauge
+length is a very important factor that
+you will have to select
+and you know if you look at the physics
+it's only High School physics there is
+nothing
+great in this
+and you all know the resistance of a
+conductor is r equal to rho l by a now I
+take simple wire I want to find out how
+it is sensitive to the strain
+fine
+now I differentiate this
+and then I have this as
+differentiate and also divide by R I get
+an expression d r by r equal to D rho by
+rho plus d l by L minus D A by A
+and you all know strain is nothing but
+changing length divided by the original
+length
+why do you have to study the strain
+sensitivity of a wire
+will not understand why do you make a
+strain gauge as a grid why you not have
+a simple Speck of material to give you
+strain that is one issue
+another issue is see when I want to
+paste a strain gauge in an object a pre
+area I do not know what is the level of
+strain is idea clear it can go from
+elastic region to plastic region
+when I want to interpret the data from
+The Strain gauge
+whatever the
+calibration constant that I use
+it should be same for elastic as well as
+plastic ranges
+otherwise I cannot make a measurement
+so when I take a conductor and look at
+as a function of the specific resistance
+as for the geometry I get a knowledge
+what should be my calibration constant
+to what way I should tweak it so that I
+don't have a difficulty to move from
+elastic to plastic strain
+fine
+now we will simplify it and we will also
+have to talk about
+what we have looked at in the simple
+rubber experiment you know we have
+looked at when I stretch the rubber
+there was a contraction on the lateral
+Direction
+this happens at a fixed ratio and that
+ratio is credited to pie shop we will
+use that
+okay
+so we have the cross section we have
+taken a
+circular cross section so the area is
+Pi by 4 D Squared so D A by A
+I can write it as 2 d d by D now I'll
+replace it in terms of the axial string
+which we have looked at in the simple
+experiment and this ratio is known as
+poissons ratio
+so I can replace what is D A by A in my
+expression in terms of
+this strain DL by L
+this on all the high school physics you
+have learned it you know all this
+differentiation I would like you to
+write down these Expressions these are
+very simple to use
+and there is also a limiting value of
+poissons ratio we will see that in the
+next class
+it will go to 0.5 and the material
+becomes plastic
+okay
+so when I substitute this
+in the expression
+I get this as the strain sensitivity SCA
+is defined as Dr by r divided by D L by
+L
+when I substitute for d r by R in terms
+of the specific resistance and the other
+quantities which we have evaluated
+I get strain sensitivity of the wire it
+is not the strain gauge
+strain gauge is made out of a grid
+strain sensitivity of a wire equal to D
+rho by rho divided by DL by L
+plus 1 plus 2 Nu
+so when the material becomes plastic
+then value of Nu goes to 0.5
+and the first term goes to 0
+so this goes very close to 2 so if I
+have my
+the calibration constant when I have to
+find out
+from the resistance change how to get
+the strain values if I have that closer
+to 2
+then I can comfortably go from elastic
+range to plastic range so that knowledge
+you get from this
+and people also have developed see I
+said it is very difficult to get a speck
+of material for me to make the strain
+measurement
+if I not get spec of material at least I
+should have the shortest length possible
+what is the way that you can have the
+shortest link to have a highest
+resistance
+one way is you develop Alloys which have
+high specific resistance don't use
+copper they use
+copper nickel Alloys which are called
+constant and Advance which have very
+high specific resistance that's one way
+of doing it
+what is the other way of doing it you
+know resistance is Loyal by a
+so the other way of doing it is reduce
+the cross section to the least possible
+with all those calculations people have
+found
+even if I want to have
+100 ohms as the base
+as a resistance
+I need about 100 millimeter length
+autobio to do it
+because if I have higher and higher
+resistances any small change I can make
+the measurements see one of the
+challenges when they did discovered
+strain gauge was
+how to measure microvolts
+because I am going to have Micro strain
+so the electrical change also will be in
+very small quantity so people needed
+amplification circuits for them to have
+measurement of this very small voltages
+you have to recognize that is 10 power
+minus 6. I do not know how many of you
+have gone with your mother to go and buy
+gold
+have anyone gone you have girls here at
+least boys have not gone at least girls
+should have gone
+have you noticed buying gold is one
+aspect have you noticed how he weighs it
+in the shop
+he has a balance he closes that balance
+he doesn't even want an air current
+and you are measuring gold in terms of
+grams is idea clear
+and here you are going to make a
+measurement which is 10 power minus six
+if you have not measured anything like
+that in our life earlier so you should
+be very sensitive to that okay how many
+of you are from North India here raise
+your hands
+you all use your heaters in your winter
+you have electrical coil
+am I right or not have you seen it at
+least you would have seen it and it
+generates lot of heat and provides you
+warmth
+now I have a very small tiny strain
+gauge
+I am going to pass current through this
+this also acts like a micro heater I
+squared or loss is there
+because I am going to measure 10 power
+minus 6.
+you can't feel the heat
+in a domestic heater it is thousand
+Watts this will be
+it's very small wattage okay point zero
+four point zero six or something like
+that
+but that heat generation also have
+activator
+electrical response so you have to be
+very sensitive that you are measuring
+extremely small quantity
+never forget that
+so what is a gauge construction so you
+have to make a strain measurement using
+a long wire
+and you have a photo grid which is made
+very large so they take panes to
+make the strain gauge grid like this
+and these are all done in metal foil
+and what you have is you have a straight
+line portion we have already said that
+you are going to measure strain along
+the gauge length fine so I ensure that
+my design is also such I have
+sensitivity High along the
+axial Direction and wherever I have
+loops I have made the loops very thick
+so that it has comparatively lower
+resistance
+and I have this for tabs
+and very carefully you make the strain
+gauge
+made of a very thin metal foil even
+though it is made of metal you cannot go
+and take it on your hand you have to
+take it through a tweezer I'll show the
+stain gauge towards the end of the class
+okay
+you have to otherwise it will become it
+will broken it will get broken and when
+you connect it it not show any reading
+okay
+and it is like a basic resistor
+how many of you have played with your
+electronic circuits have you constructed
+any electronic circuit in your school or
+your fun
+you go and buy resistance in your shop
+electronic shop you get resistance of
+all values
+strain gauge is also a resistor but it
+is not available in all values it is
+available only in specific values and I
+have said even making 120 ohms is very
+difficult
+now you have 350 ohms 500 ohms 1000 ohms
+and 3000 ohms please write down this
+number name numbers are very important
+see in engineering certain number
+certain appreciation when I say that
+calibration constant what I'm looking
+for should be close to two never forget
+that
+and when you go and look at a strain
+gauge the basic one we said that even if
+I want to have 100 ohms I need a long
+wire
+and the standard strain gate the least
+resistance that is available is 120
+volts
+and it is a technologically influenced
+technique as the technology has evolved
+and you have finer and finer
+measurements possible in strain gauge
+with the technology right now you can
+confidently measure one microstrain no
+other strain measurement can give you
+this accuracy
+but if you want to get this accuracy you
+have to select the strain gauge properly
+you should be sensitive to
+what the heat generation how the heat is
+dissipated now we are in the world where
+we are bombarded with Composites because
+we won't have weight reduction
+what is the difference between a
+composite and a metallic structure
+because I have been talking about heat
+can you tell me
+can you tell me it's made of plastic
+you have studied in your physics thermal
+conductivity am I right
+how do you expect a plastic to behave in
+compared to metal
+metal will dissipate heat fast
+plastic is not going to dissipate Heat
+so when I go on going to work with
+Composites please use a strain gauge
+which is of 1000 ohms
+why
+what is the loss when a current goes in
+a conductor I squared r
+if the voltage is 6 constant
+and if the resistance is very high
+you reduce the current flow so you
+reduce the heat generation
+you reduce the heat generation because
+you know you are going to work on a
+material which is not going to dissipate
+after the Heat
+as efficiently as like a metal
+so many times many Laboratories what
+they do is they make the strain
+measurement with the available strain
+gauge without paying attention to on
+which material they are working on
+so you have to select like I said that
+you have to select the gauge length you
+should also select the resistance of the
+strain gauge
+it's not trivial
+it's very very important
+having said this now I have a grid
+obviously since you have studied what is
+state of strain at a point and you have
+also looked at from a photelastic
+experiment how the strain field is in
+the form of fringes
+when I am going to have a finite grid
+like this
+it is going to be sensitive to the axial
+strain
+transfer strain as well as Shear strain
+at the point let us look at what way we
+have handled this
+okay
+so in this language it is put Epsilon a
+is axial strain that means strain along
+the gauge length Epsilon T is the strain
+perpendicular to this transverse to the
+gauge length and Gamma 80 is the shear
+strain in the plane of 80. so I can
+write this change in resistance by r
+with three factors see when I was
+talking about a conductor I put capital
+A when I am talking about a strain gauge
+the axial response I put it as a
+yes suffix small a so it is
+sensitive to Epsilon a it is sensitive
+to Epsilon t as well as sensitive to
+Shear strain
+but because the way I construct the
+gauge I can neglect the effect of Shear
+strain
+but I cannot neglect the effect of
+transverse strain in
+critical applications
+ok so what I have is this expression is
+simplified to d r by r equal to S A
+multiplied Epsilon a plus KT into
+Epsilon t
+and K T
+you call that as a transverse
+sensitivity Factor
+which is the ratio of s t by S A that is
+axial sensitivity of the strain gauge
+and transfer sensitivity of the strain
+gauge the ratio of the transverse
+sensitivity to axial sensitivity we saw
+what was there for a simple wire
+from The Wire you have graduated to a
+grid
+and we have seen grid is unavoidable
+and a common gauge length what you have
+is only three millimeters that is what
+is available cheap
+even the cheap sand gauge will cost you
+ten dollars so it's very very expensive
+it is ten dollars two thousand dollars
+or three thousand dollars one strain
+gauge
+it so it's a very expensive
+measurement technique but very accurate
+and what do the
+manufacturer gives you
+manufacturer generates strain gauges in
+a batch
+and selects few of them conducts a test
+and gives you what is known as gauge
+Factor SG
+which is defined as Dr by r
+equal to SG multiplied by the axial
+strain
+so from your electrical measurement
+you will be in a position to get Dr by r
+from the manufacturer supplied value you
+have the gauge Factor SG
+and in IIT in your strength materials
+lab you have an experiment using strain
+gauge to measure the strain in the case
+of a cantilever and also for a
+torque measurement in the case of a
+pisting of a shaft
+so if you recall you would have the
+gauge Factor around two I have already
+given a reason why it should be around
+two
+and it's so fortunate the manufacturer
+simplifies your exercise he has done a
+calibration such a manner
+by using this expression you directly
+get the axial strain
+and if you have to incorporate transfer
+sensitivity Factor you have
+methodologies developed
+people also use such sophisticated
+improvements on the basic measurement
+available as a software
+how do I measure the small quantity this
+is again you have done it in your the
+high school physics so draw the
+wheatstone bridge
+and we exploit the weavestone bridge to
+the Hilton strain measurement see we
+have already seen I want you to draw the
+sketch make the sketch
+we have to find out because we are going
+to get one very important expression
+that will help us to amplify my signal
+with minimal effort
+I have also said
+you have load cells
+you know even a vegetable vendor these
+days have an electronic balance am I
+right
+how do these electronic balances operate
+they all have a strain sensing element
+which is basically a transducer where
+you have strain gate pasted on
+appropriate spring element
+and when I use it as a transducer my
+focus is to
+measure the weight accurately so in
+order to get the signal properly I would
+like to amplify the signal there is a
+difference between strain measurement
+and a transducer application in a strain
+measurement scenario whether the strain
+is small my strain gas should be able to
+give me the value in a transducer
+application
+in order to improve the accuracy I would
+like to maximize a signal you will learn
+from the construction of the strain the
+wheatstone bridge okay
+so I can write v a b equal to r 1 by R1
+plus R2 V and vad as R4 by R3 plus R4
+into the
+and I get this
+voltage drop
+across the point DB as given as R1 R3
+minus R2 R4 divided by R1 plus R2
+and you also have in the denominator R3
+plus R4
+and the bridge is initially balanced I
+have R1 R3 equal to R2 R4 so one thumb
+rule is you make these resistances R1 R2
+R3 R4 equal to start with
+and you make the null balance
+measurement
+which is very very accurate
+and you have to keep in mind that we are
+measuring extremely small changes
+which we are not accustomed to it fine
+so you have to understand
+every aspect is important
+and when I
+write this final expression
+okay
+I have a very interesting relationship
+which tells me how I should use the arms
+of the bridge effectively
+the change in voltage is related to V
+multiplied by R1 R2 divided by R1 plus
+R2 squared this is more or less a
+constant for a configuration if I have
+selected the voltage
+I have labeled the stress in clockwise
+Direction R1 R2 R3 R4 even this is very
+important
+and when I look at this expression I get
+this as Delta R1 by R1 minus Delta R2 by
+R2 plus Delta R3 by R3 minus Delta R4 by
+R4
+so I would use this
+change in sign appropriately in my
+design of the spring element
+and the way to understand this when I
+have labeled this like this
+opposite arms
+add okay because I have Delta r 1 by R 1
+plus Delta r 3D R3
+adjacent terms R2 and R4 you have that
+subtraction so I have
+also connect two strain gauges and a
+wheat stone bridge and make the
+measurement
+this should have one sign of strength
+this should have opposite to that only
+then it will add if there are the same
+sign you will get only zero as the
+answer
+I can also have another configuration I
+can have all four arms connected as
+strain gauge
+either you can have a single strain
+gauge
+two strain gauges or only four you don't
+have anything with three you cannot make
+any measurement with three
+I have a very interesting application I
+have a cantilever beam I have a
+cantilever beam and then
+I apply the load here and then I put a
+strain gauge on the top I put the strain
+gauge at the bottom
+even though we have not formally studied
+what is a variation in a beam I have
+already shown it schematically do you
+recall what was the strain variation or
+stress variation
+it is maximum at the top fiber and
+meaning at least at the bottom fiber of
+opposite sign
+okay
+so I have pasted one strain gauge on top
+one strain gauge at the bottom when I
+connect them in the wheatstone bridge
+like this
+I amplify the measurement of whatever
+the signal I get I amplify so my
+measurement of force becomes
+more and more accurate if I suppress
+noise amplify signal my instrumentation
+system will give me reliable values of
+the force that is my interest
+suppose I have a system where I have a
+cantilever I have put two strain gauges
+and I have connected like this what do
+you anticipate
+tell me you have looked at just now
+looked at what way the Western Bridge
+behaves
+and you know I have put strain gauge one
+here and strain gauge to here both are
+in the top surface both are experiencing
+same signature you will be coming about
+coming and telling that this is a very
+strong beam nothing happens to the beam
+is what you will conclude
+whereas you have done the mistake in
+your measurement because any load I put
+I will get only zero is idea clear
+see in a sense you also learn
+application of your knowledge of stress
+and strain in this measurement also I
+have taken a shaft under torsion
+I have shown I have taken a shaft and I
+have tested it anti-clockwise can you
+sketch what is the state of suppose I
+take a point here
+okay
+you tell me what way it is
+what way it is Tristan you have in front
+of you I put a point in
+in front of me I put it anti-clockwise
+can you sketch the state of strain it's
+a pure Shear strain can you sketch the
+direction of strain and then check with
+my diagram first thing is you should
+know how to
+find out what is the load applied on the
+system so you take a square element
+draw the strain
+acting on that or stress acting on that
+whichever way you can do it
+make a mistake no problem
+and I have already told you a strain
+gauge can measure only axial string
+the question here is how do I use my
+strain gauge
+to measure what happens in torsion
+what way do I have to align my strain
+gauge
+when I want to make the measurement
+that's also very important in strain
+gauge instrumentation all these aspects
+are important what should be the size of
+the gauge length what should be the
+resistance
+and what way I should align my strain
+gauge
+have you figured out the
+stress what is happening on the element
+I have this as
+in the negative Direction because I am
+putting it anti-clockwise I am putting a
+point in front of me okay when I put a
+point in front of me it will appear in
+one way when I put one the other side
+will appear the other way this is what I
+am looking at
+okay which you can visualize
+once you have drawn this
+you have already studied more Circle
+and when you are dealing with an
+isotropic material
+in an isotropic material whether I have
+stress State and strength State they are
+identical your principle stress
+direction will coincide with principle
+strain Direction with that knowledge
+can you visualize this size combination
+of axial strain a pure shear stress
+state is introduced can you go to more
+Circle
+can you draw the more Circle for this
+draw the morsel curve for this and find
+out at what angle you have the principal
+stresses
+it is an application of what we have
+studied earlier it's nothing new
+please draw the more Circle
+I'll draw the most Circle for you now
+okay before the more Circle I have drawn
+this okay let us see the most Circle
+I have the more Circle drawn like this
+and I have
+these two are the points where you have
+the maximum
+normal stress they are the principles
+stress Direction they are also the
+principles strain Direction the case of
+isotropic material
+and this is located at 45 degrees
+so I have it in clockwise so when I
+rotate clockwise I have this as maximum
+stress which is tension which is also
+the value of Tau
+so I have tension
+so that is why your element is stretched
+like this and Compass the other way
+and if you look at from a diagram like
+this
+I can write an equivalence trust here in
+this fashion is the idea clear that is
+important for you to recognize how do I
+use my strain gauge to find out what
+happens when the
+object is undergoing a few shear stress
+state
+so it tells me that I have to align my
+strain gauge that's this way so when I
+see the side view I will put one strain
+gauge on the top I'll put the other
+strain gauge we have put this as one two
+three four okay
+this is experiencing
+I have this direction okay this is if I
+say if I say this as one I will say this
+as three
+whichever way okay
+so I put this on this surface I put this
+on the other side
+okay and this is oriented at 45 degrees
+so similarly I put two other strain
+gauges that measures the compression so
+I I can measure only axial strain
+fine
+so we don't give up and you know from
+stress analysis
+what is a stress State there
+from your most Circle you have an
+understanding it can be visualized as
+combination of tension and compression
+and then when you do this you also
+recognize Epsilon 1 and Epsilon 3 are
+positive Epsilon 2 and Epsilon 4 are
+negative and connect them appropriately
+in your wheatstone Bridge don't connect
+it wrongly I'll put this as one two
+three four so they all add up so when I
+do this
+I get 4 times the signal so if my
+interest is to find out talk
+I have a I said that you have to use a
+torque wrench when you want to tighten
+the bolt so when I want to have a torque
+wrench I should have a system to measure
+the torque and give you that as a
+reading
+so there are many instances where you
+have to find out the talk
+so it is a transducer application your
+intention is to find out the torque
+applied
+so you design a mechanical element
+spring element which in which you paste
+more than one strain gauge and connect
+them appropriately so that you amplify
+the signal so I can make a torque wrench
+using this as strain sensing element
+and I can amplify my signal
+and the moment I say from stress
+analysis point of view I want to find
+out strain at a point
+when you say strain at a point you are
+looking on as plane surface okay that is
+uh you have a free surface on which you
+want to measure you have three
+quantities Epsilon X Epsilon by n gamma
+x y
+so when I want to measure three
+quantities I need minimum of three
+strain gauges you get my point I have a
+strain gauge one at oriented at Theta a
+train gauge 2 oriented at Theta B strain
+gauge 3 oriented at 3 Dashi
+I told you
+transformation laws are very very
+important you cannot afford to forget it
+you should be able to write them very
+comfortably
+fine you find an application in the case
+of strain gauges
+so I can go and find out what happens
+and thankfully The Strain gauge
+manufacturers
+puts three strain gauges in a backing
+and supplies you and this is called as a
+rosette because aligning it on a field
+is extremely difficult you have
+pre-aligned the strain gauges
+so whenever somebody says train gauge
+gives you strain don't say that it gives
+you only component of strain a strained
+row set
+which has three elements in it can give
+you state of strain on a
+two-dimensional situation okay and you
+know the reason why I have put this is
+you know you should have written this
+transformation law this is nothing but X
+Prime X Prime okay Epsilon J what is
+indicated here is nothing but X Prime X
+Prime
+that is given as Epsilon X cos Square
+Theta Epsilon y by sine squared theta
+gamma X Y sine Theta cos Theta you have
+to use this and then extract the value
+of strain at the point of Interest so
+you have a physical difficulty
+I have to have three strain gauges and I
+have to find out what is staying at a
+point
+let us see how they have constructed the
+row sets
+you have a very famous row set called
+rectangular roset
+I have strain gauges mounted like this
+so you deliberately make an
+approximation as if these strain gauges
+give strain
+at the point oh
+so there are engineering approximations
+involved in strain measurement
+and you may make the strain gauge as
+small as possible you also have strain
+gauge where they are stacked one over
+the other so that the center of the
+strain gauge forms at this point but you
+amplify heat generation three times so
+you should have very positive way of
+taking away the Heat
+so your measurement should be sensitive
+to that you may not have the luxury so
+you have this and when I have a strain
+gauge like this this is called as a
+rectangular row set
+and you have this angle SAS fixed as 0
+45 and 90. you can apply the
+transformation law and tell me what is
+Epsilon a in terms of Epsilon X Epsilon
+by n gamma X Y so the idea is to find
+out Epsilon X Epsilon Y and Gamma X Y
+from the measurements of
+strain along Direction
+a when I put the strain gauge as a let I
+can also say that chain along Direction
+a strain along Direction b stand along
+direction see
+and when you simplify I get Epsilon
+excess identical the Epsilon a
+Epsilon Y is identical to Epsilon C
+because I have aligned it along the
+reference axis X and Y
+and Gamma X Y comes as 2 Epsilon B minus
+Epsilon a minus Epsilon C
+it is very simple and straightforward
+there is nothing new it's all high
+school physics
+but what you have to keep in mind is
+technologically strain gauge measurement
+is very very sensitive you need High
+Precision strain gauges
+and how do you Bond them
+how to bond a strain gauge on a given
+sub surface on a prototype itself
+is a very important training as a strain
+gauge measurement specialist you have to
+undergo
+and there are certificates given by
+British Society of strain measurement
+you have to renew that certificate every
+three years
+so it's not a simple job it's not that
+anybody can walk in and take a strain
+gauge available put it on any substrate
+and then make the measurement that is
+why this I say it is abused if you know
+the technique you should select the
+strain gauge follow appropriate
+procedures to bond and then make the
+measurement I also have another
+variation which I am not going to spend
+much time you have a variation like this
+you can work it out okay
+now you know if I go to strain gauge
+manufacturers they have an elaborate
+list of strain gauges available
+okay there is a designation system
+I want you to write one of this okay
+just write this because you should know
+all these parameters need to be selected
+for a given application
+I should know what should be the file
+alloy I should know what is there
+backing how on what substrate this
+strain gauge is put
+okay and there is also something called
+self temperature compensation number
+you know some allies are made if there
+are small changes in temperature
+this itself can
+annual that I can have just one strain
+gauge connected to this one bridge for a
+range of short range of temperatures it
+can cancel the temperature effects
+and what is a gauge length because the
+gauge length is very important you can't
+say I will always use point to
+millimeter it's so expensive and very
+difficult to do okay
+and what is the way I should have the
+grid because it should help me to
+provide the access
+and what is the resistance I said in a
+composite please use thousand volts at
+least 500 ohms never use 120 ohms
+and there are many many options
+available okay
+and these are the two people one is the
+Vishay micro measurements another is hbm
+they are the people who are dominating
+The Strain gauge and they have a
+different system
+okay so you should know if you are using
+there are thousands of configurations
+available
+so you have to select appropriately The
+Strain gauge suitable for your
+application and then use it
+and you know I would also like to show
+you know it's a very very precious I
+said it is not cheap it's available in a
+very nice packet like this you have a
+small sign sensing element I cannot go
+and take it with my fingers I have to
+use tweezers okay and then go and take
+it out I must handle it very delicately
+if I handle it roughly the signage is
+gone once I paste The Strain gate I
+cannot reuse it is the idea clear even
+though it is made of metal it's a very
+thin film to have very high resistance
+so I should handle it very very
+carefully
+it's very expensive
+ok then you then also from measurement
+perspective what all that you require
+whether I need a single element strain
+gauge whether I need a row set of two or
+three all that I have to look at whether
+I whether I am working in a biaxial
+stress field
+whether the principles resurrections are
+known so you know we have we have looked
+at what is brittle Coating in the
+brittle coating when I have a crack
+pattern I said tangential to the crack
+and perpendicular to the crack you know
+the principle strain Direction when a
+principles direction is known
+I can paste just one strain gauge for me
+to make the strain measurement or two
+sand gauges
+see at a point I need three strain
+gauges if I need three strain gauges I
+need three instruments to measure the
+strain is the idea clear three which one
+bridges are required
+if I reduce
+one component of strain not to be
+measured I can go to brittle coating and
+then align it along the principal
+directions it's enough I put only two
+strain gauges I can use a t row set
+so I reduce my measurement requirement
+and in a generic situation I should use
+a Delta rectangular row set because I
+need three components of string
+so whether I use a single element strain
+gauge two elements strain gauge or three
+element strain gauge also a decision you
+have to make because when you go to a
+point by Point technique
+how many points I make the measurement
+is going to decide my design of the
+component once I get the measurement I
+have a limitation in the capacity of how
+many points I can handle or how many
+channels I can handle
+if I have three strain gauges it
+occupies three channels
+if it is two strain gauges ought to
+occupies two channels on my measurement
+system so if I have a thousand Channel
+system if I want to increase my number
+of data points
+you should not say I will simply use I
+have enough money to spend I will simply
+use row set every every point then you
+can't make best out of your experimental
+measurement
+some places you may have you do use
+single Lord two elements so that I can
+make large number of measurements so
+this is a difference between a whole
+field technique and a point by Point
+technique and you know the render of a
+Concord aircraft
+I was failing very repeatedly they had
+done a finite element analysis they have
+also pasted a strain gauge still the
+design was not improved only when they
+pasted a photographic coating and made
+the measurement they found they pasted
+The Strain gaze slightly off from the
+peak strain what they had actually got
+in their structure so that failure was
+prevented only with the help of a whole
+field technique so with this you have a
+bird's eye view of water strain gauge
+technique is a strain gauge can give you
+state of strain at a point provided you
+use a row set
+and strain gauge has to be selected
+appropriately for a given application
+always keep in mind you have to look at
+the thermal effects you should know how
+to cancel it you can cancel it
+electrically
+by having two strain gauges on adjacent
+terms experiencing one experienced
+actual strain other experience in the
+ambient temperature
+or you use self temperature compensated
+gauges
+and select an appropriate gauge for a
+given material
+don't simply use what is the strain
+gauge available at the 11th Hour you
+plan and then try to make measurement
+and finally blame the technique that the
+strain gauge technique is not giving you
+correct results it's a very
+sophisticated technique you have to be
+sensitive from the first stage of the
+experiment and handle the technology
+listen to all the manufacturers
+recommendation paste The Strain gauge
+and make the measurement thank you
+[Music]

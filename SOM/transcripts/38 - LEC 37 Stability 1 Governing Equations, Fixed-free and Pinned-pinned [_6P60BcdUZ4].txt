@@ -1,0 +1,1071 @@
+[Music]
+digital India educated India
+[Music]
+let us move on to our next topic
+stability
+see in this uh
+short series of two lectures we will
+confine our attention to find out the
+stability of columns
+and we'll do the mathematical analysis
+wherever you come across
+compressive loads
+whether it is in bending or torsion or
+even in shear
+you'll have to keep at the back of your
+mind
+is the compressive stresses exceed a
+limit and your optimized structure has
+minimal thickness in those areas it can
+lead to buckling
+but mathematically for this purpose of
+this course you will confine our
+attention to columns
+and normally one of the
+um you know Fallout of this discussion
+is students tend to think only columns
+buckle
+I want to caution you
+we do a mathematical analysis for
+columns we don't have the mathematical
+background to analyze for other
+situations
+wherever you have compressive load you
+have the problem of instability
+and you know you have studied in a
+elementary manner even in your physics
+courses and also in your rigid body
+mechanics
+that you know we've investigated what is
+the potential energy
+and potential energy we had used a
+symbol capital V
+see mind you when we discuss
+Advanced mechanics there is paucity of
+symbols you can't have one simple
+reserved
+for the entire course
+in this course we have used capital V
+for Shear Force
+and while we develop rigid body
+mechanics we had used capital V for
+potential energy so understand the
+relevance of the symbol
+with respect to the
+concert that we are discussing
+okay
+so when you have a stable equilibrium if
+I disturb it
+you have a restoring force it brings it
+back to the position
+it's a simulation which is very closely
+representing it you know all these
+motions one has to do it with free hand
+there is no geometric curve I can fit in
+okay at least the PowerPoint people
+should learn from this lecture that they
+should have such facility Incorporated
+in the future versions it's all free
+drawn so it's difficult to do Beyond a
+point
+and I have a situation when I have
+a situation like this when I disturb
+it doesn't come back to its original
+position you have investigated what is
+the sign of the
+D Squared V by d x square then you say
+it is unstable equilibrium
+and you also have a situation
+when all these differentials are zero DB
+by DX D Squared V by d x squared DQ B by
+D X Cube and d n v by d x n when all of
+these go to zero
+when you disturb it goes to another
+equilibrium position see it's only an
+illustration the other equilibrium
+position can be of different shape
+that's what we are going to look at in
+stability of columns
+so you have an idea
+it does not become
+like what you have an unstable
+equilibrium
+it occupies another equilibrium position
+how the transition is here the
+transition is smooth then illustration
+What I have given is the transition is
+smooth
+which is not smooth in stability of
+columns okay
+and once you say column failures
+one of the things that you can think of
+is the material failure
+you have a compressive material failure
+when you have a column which has a big
+cross section when you see the next set
+of slides you will see that those
+columns are the thinner compared to this
+and when I have a short column
+you can have a compressive material
+failure
+so it hap usually happens for columns
+that are very short and thick it just
+crumbled
+fine
+you also have what is known as a
+buckling failure it is called lateral
+bending or bowing of the column shape
+and which is very beautifully
+Illustrated in this
+animation in this experiment
+and you should also recognize you know
+I am using discrete weights
+if I have to do instability analysis I
+should have a provision to increase the
+load gradually I don't have that
+provision in the experiment
+so in that sense this experiment is
+little crude
+nevertheless it illustrates a very
+important basic aspect of buckling
+beautifully
+and what you have here is you have the
+boundary conditions OK I have the
+suspend end and this also pendant
+and you can identify because you have
+already looked at bending deflection by
+looking at the deflected picture near
+the load application point near the
+support you can always figure out what
+is the boundary condition that is being
+simulated can you tell me what is the
+boundary condition simulated here
+close to fix them
+fine and this is also fixed end and this
+is also a fixed end
+so when you have columns that are long
+and slender
+you have the problem of buckling
+and one of the aspect is when we have a
+structure which is supported by columns
+you do not want buckling to happen
+okay so what people have done is they
+have done the mathematical analysis and
+also based on experience they find there
+is a load which is labeled as a critical
+load
+Beyond which if there is any lateral
+disturbance even a small disturbance it
+will go into buccal shape
+the load by itself does not introduce
+buckling if there is a disturbance
+okay
+now the question is
+from where the disturbance comes that's
+also had to be looked at
+say I have just now said that you have
+what is known as neutral equilibrium
+when I disturb it goes to another
+equilibrium condition
+I am not sure how many of you looked at
+this experiment closely please watch The
+Experiment closely
+you have the idea of
+this neutral equilibrium beautifully
+Illustrated in this
+see in the first case I have applied a
+load which is much beyond the basic
+critical load so let us assume this
+shape
+the second one you look at it
+can you can you see that it has started
+deflecting see what you will have to
+look at is when you increase the load it
+cannot remain straight
+you want the column to remain straight
+if it does not remain straight then it
+is a problem
+if you look at this this satisfies
+equilibrium
+and suppose I increase a lot further
+it goes to another equilibrium position
+you you get the idea
+it goes from one equilibrium position to
+another equilibrium position
+and look at the
+fixed fixed end you could see that
+beautifully
+I have this load I have the deflection
+so the system is in equilibrium
+not with the column being straight but
+in a deflected shape
+suppose I increase the load further
+you could see that it has taken another
+shape
+and I increase it further it takes
+another shape so it beautifully
+illustrates the buckling phenomena what
+you see is actually neutral equilibrium
+it cannot remain straight the moment it
+cannot remain straight our functionality
+of the column is lost
+and we do not want to reach that in our
+structures
+that's idea behind it
+and you will also see I have a concrete
+beam so you could see visibly the cross
+sectional dimensions are much smaller
+and C
+it has buckled
+fine it is beautifully buckled
+then in practice you know you could have
+a combination of both compressive and
+battling failures I don't have an image
+which illustrates that
+this happens when length and width of a
+column is in between a short thick and
+long slender column
+you know we have already looked at in
+this course we are going to work on
+Slender members
+fine
+all our discussions are confined to
+slender members at times we may borrow
+that and use it in a even in a spur gear
+teeth they analyze the geared teeth as
+being cantilever B you may make some
+corrections of it you know engineers
+try to solve a given complex problem
+as best as possible
+you should appreciate from that
+perspective okay
+and I want you to look at this animation
+very very carefully
+see this illustrates
+what is instability beautifully see when
+I have the load as blue
+it is going on increasing
+fine
+at some point
+without a warning see that is what you
+have to look at if there is a alert if
+there is a warning see if you have your
+gas cylinder at home
+if there is a leak you get a smell
+naturally the gas has no smell
+from safety consideration the
+manufacturers and the codes dictate that
+you should
+induce that smell so that you detect
+that there is a leak before a
+catastrophic blast takes place you have
+Avenues to avert it either you go and
+close the gas cylinder or at least open
+your windows or run out of the place
+any of those options which is possible
+within the time that you can take
+if there is a failure which happens
+without a warning
+you know nothing can be done
+in fact yesterday there was a two days
+back there was a bridge collapse 100
+years old bridge collapse in Gujarat
+it failed in seconds
+that's mainly because one of the
+possible reason from such analysis point
+of view is in a suspension bridge you
+are not supposed to make any periodic
+oscillations it seems that revelers did
+periodic oscillations that would have
+created a resonance that would also
+added apart from the weight apart from
+forward maintenance it would have also
+added from a structural point of view
+for a failure all of a sudden so if you
+look at here when the load becomes red
+it buckles we don't want that to happen
+okay I have taken a column that is
+circular
+fine
+I have shown buckling in one way
+was there any visible external
+interference to this
+I said when you apply the load if there
+is a perturbation from outside you can
+have buckling
+there is no restoring Force to bring it
+back to original shape so it buckles
+see in this course to make our life
+simple we have said we have an elastic
+continuum
+our mathematics we could develop it so
+beautifully when Delta X goes to zero
+that is was material available but real
+material how they are
+they all have defects
+so one of the perturbation that can
+precipitate buckling
+can come from inherent defects on that
+column
+see I have a circular cross section
+I have already told you
+how does a mathematics understand the
+cross section
+how does the mathematics understand the
+cross section
+you have the moment of inertia
+fine
+suppose I take any axis
+when the geometry is circular what is
+the moment of inertia
+on any of these diagonals
+the moment of inertia
+not polymer definition I'm talking about
+inertia about an axis
+because it is circular cross section
+the moment of inertia is same so the
+probability for buckling to happen
+can be any direction it can buckle like
+this
+it can buckle like this
+it can buckle like this it can buckle
+like this please understand that
+you know some of these Concepts do not
+come out very clearly when you read a
+book
+because the book publisher wants to
+minimize the pages so the author can
+show only buckling in One Direction if
+you have seen buckling to the right
+or left whichever way you look at it I
+see it as left you see it as right okay
+you will think always buckling happen in
+One Direction no
+it is dictated by the moment of inertia
+because I have taken a circle cross
+section the probability exists in all
+the 360 degrees it could be precipitated
+by inherent defects it could also be
+precipitated when I apply the load I may
+not apply it exactly along the axis as
+intended it to be there could be an
+eccentricity
+so there is a perturbation introduced in
+the process itself
+suppose I take a rectangular cross
+section
+here what happens you should be able to
+say I have a rectangular cross section
+which where it the probability of
+buckling can happen
+why it is so
+very good so what happens is you have
+the moment of rain it will Buckle in the
+direction where it has the least moment
+of inertia
+fine so I have also modulated the
+expression in that fashion so we will
+see
+so you have to appreciate
+what causes the column to be in a state
+of unstable equilibrium
+introduction of the slightest lateral
+force will cause
+that can be inherent in the material
+itself
+okay there could be material defects or
+there could be problem because of the
+loading
+and column buckling the credit goes to
+Euler
+and he was a great mathematician see if
+you look at history
+you know people have not had a very
+healthy life it seems Euler lost his one
+of his eyes in 1735
+and in those days catrat is also a big
+issue and he started losing his second
+day he was almost blind
+and the queen of Russia provided him all
+the support with all assistance
+and the buckling was determined in 1757
+he had assistance he would go and
+explain what he wants they will
+translate his work
+he was so prolific he was patronized by
+the king in Prussia later in the queen
+of Russia they provided him all the
+facilities so that he can peacefully
+work on
+scientific development he published his
+paper at the age of 20. at the age of 16
+he's completed his Masters
+and most of his prolific work
+he did when he was almost blind very sad
+to hear so you know with able-bodied
+people should at least read your subject
+properly
+okay and 1757 is the time he was almost
+blind at that time that's what the
+history says okay
+and buckling is one phenomena that is
+greatly influenced by the
+support conditions
+so that is very clearly sin see the
+critical load drastically changes from
+one stage to another stage
+so that's what you have looked at it
+here
+and you know if you ask a question
+is buckling is useful or not useful
+the question is very similar to whether
+friction is useful or not useful
+friction is useful for you to walk
+friction is not needed
+when you
+want to have your IC engines
+and what you have here is
+people have used this deflected shape
+it's called Snap buckling
+if you if I put a force here it will go
+to the other shape
+this is used in electrical appliances as
+a switch
+has found and I do not know when we were
+young kids we used to have a toy which
+is very very cheap you will have a
+simple plate you press it it will go to
+another Buckle shape in the process it
+will create a sound Tic Tac Tic Tac like
+that okay will be irritating but toy
+industry have utilized buckling for
+entertainment
+okay in fact I wanted to get the toy and
+show it to you I couldn't get it
+and in this chapter you know we also
+make a conscious decision
+to investigate stability even though the
+deformations are small the equilibrium
+requirements have to be applied in the
+deformed configuration this I alerted
+you even long time back in this course
+because the deformations are small
+we will work with undeformed
+configuration for our mathematics
+we make a departure
+when we want to investigate stability
+so I have shown the beam
+which is subjected to
+a transverse load w
+and I have this compressive load applied
+I have shown this as deflected
+you know we have also analyzed
+interrelationship between shear and
+bending moment where we have taken a
+load w
+there we would have taken this a string
+go back to your node sentencing so the
+difference what we make is we
+consciously make
+our goal is to investigate stability
+since I have to investigate stability
+I do this and I take a small element out
+of it so we consciously make a decision
+to analyze it and deformed configuration
+and I have the deformed shape taken
+you can put the shear Force you can put
+the bending moment all that follows the
+usual convention that we have followed
+what is extra here
+I have a compressive load
+because I have considered this as a
+deflected shape
+you must read this as small V which is
+showing the deflection okay so these
+loads P are separated by a distance
+Delta V
+that's the only difference between what
+we have done for ah
+finding interrelationship between Shear
+force and bending moment we had taken
+this B must rate
+here we have considered this as deform
+so that I can investigate and I get an
+extra term in this otherwise the
+mathematics is simple please write down
+the mathematics write down the
+mathematics I am going to write the
+equilibrium equations I am going to
+write the force equilibrium
+so that gives me V plus Delta V minus V
+plus W Delta x equal to 0 so Force
+equilibrium in the y direction
+and I can also write the moment
+equilibrium
+I have this as m b plus Delta m b
+minus m b plus v Delta X by 2
+plus V plus Delta V multiplied by Delta
+X by 2 plus P Delta V equal to 0. so at
+the additional term what you have is
+P Delta V and understand this V is the
+displacement V
+okay
+taking the limit Delta X goes to 0
+and discarding infinite decimal that's a
+usual approximation we do
+and we also know the interrelationship
+DV by d x equal to minus w
+and using all that
+we have d m b by D X Plus V plus P DV by
+DX equal to zero that's what I am
+got from the earlier expression
+and you will also have to appreciate
+this
+does not take account
+the shear deformation Even in our
+bending deflection
+the governing equation we never worried
+about Shear deformation we were worried
+only about the contribution from bending
+so the same limitation applies to this
+expression also
+neglecting the shear deformation the
+governing differential equation is
+obtained
+and you know we know from our
+earlier knowledge that bending moment is
+related to the curvature e a d squared V
+by d x squared equal to m b
+the very famous relation we use for
+deflection
+so this gives me
+D Squared by d x squared E I D Squared V
+by DX squared
+and bracket is close plus b by DX
+multiplied by P D B by DX equal to w
+and you know
+we have put this in a generic fashion
+and this is known as bending rigidity
+suppose I consider the cross section
+which is of constant cross section and
+the material is a same material then I
+can take E A also out
+okay
+I can take this out and get the final
+expression as e i d power 4 V divided by
+D X power 4
+plus P D Squared V by d x square equal
+to w
+so we have got the governing equation
+for
+buckling of columns
+when you get an expression and you do a
+systematic analysis you all feel that
+you have got the right expression and
+Mathematics you have done
+let me ask the question is it an exact
+expression or an approximate expression
+what weight is an approximate expression
+very good very good what they are saying
+is see moment curvature relation we have
+linearized it
+fine we are not taken that as non-linear
+in fact it is very surprising when
+LaGrange and Euler analyze they had
+taken non-linear expression and then did
+all the derivation
+fine they have also indicated that but
+here we have used only linearized moment
+curvature relation so in that sense it
+is an approximate expression where does
+this hit in our solution that also we
+will see
+so it is a general equation for a
+homogeneous and Prismatic section
+that means I have one material
+and then the cross section does not
+change
+and general solution for this
+is in this form V equal to the
+deflection V equal to c 1 plus C two x
+plus c 3 sine Lambda X plus C 4 cos
+Lambda X
+and you have multiple boundary
+conditions
+so when you supply the boundary
+condition you are in a position to
+evaluate the constant c 1 c 2 c 3 and C4
+and you are in a position to solve this
+as eigen value eigenvector problem ok
+and we also have simplified Lambda and
+Lambda is nothing but square root of P
+by e i
+so what we'll have to do is we'll have
+to go and analyze the fixed free that is
+a cantilever beam hinged hinge
+likewise we can analyze and we can
+evaluate the critical load
+I have a fixed free column
+so the column is deflected under the
+action of the load t
+and
+this is the length L and you measure X
+from this
+okay
+and you take a
+deflection as V
+and you know the boundary conditions say
+I have four constants I need to have
+four boundary conditions minimum for me
+to solve
+here you can write the boundary
+conditions very easily based on the
+deflection V
+what happens to
+V here V is 0 here
+and then your slope is also zero
+so you have at x equal to 0
+DV by d x equal to zero
+and your deflection is also zero
+so these go to the
+deformation picture
+we also have boundary conditions based
+on the equilibrium requirements okay
+that you can write in the NB can I have
+a Shear Force there
+at x equal to l
+can I have bending moment there bending
+moment is zero
+and your Shear force is also zero so
+please understand
+you know when you write make it a small
+B make it as Big B
+in while writing it in computer I can do
+this easily
+you must make the distinction
+and now you apply the boundary condition
+and solve for it I have the boundary
+conditions
+and I have
+you know m b equal to 0 that tells me e
+a d squared V by d x squared equal to
+zero I should construct that expression
+similarly I should construct V equal to
+D by d x e a d squared V by d x squared
+plus P DV by d x equal to zero
+these two are straight forward so I can
+write the expressions
+by substituting those values this is a
+governing solution okay so when I
+substitute DB by d x equal to 0
+I get 0 plus C2 plus c 3 square root of
+P by e i plus 0 equals 0.
+then I have V equal to 0
+so I have C1 plus 0 plus 0 plus C4 equal
+to 0.
+then I have MB is 0
+so when I do this I get this as 0 plus 0
+minus c 3 p by e i sine square root of P
+by E A multiplied by L minus C 4 P by e
+a COS square root of P by a
+L is outside okay it's not inside the
+square root equal to zero
+so the fourth condition is
+Shear force is 0 that gives me 0 plus C
+two P plus 0 Plus 0.
+and this I can put it in a matrix form
+in a convenient fashion
+and you have this
+equal to zero zero zero so this is
+nothing but an eigen value and
+eigen Vector type of problem
+and for non trivial solution this
+determinant should goes to zero because
+when the
+determinant is not zero the trivial
+solution is C1 C2 C3 C4 r0 that's a
+state column okay we want a non-trivial
+solution
+so the determinant should go to zero
+and you know we can evaluate this
+determinant
+in stages I think it is shown
+okay
+so
+you can expanding double three by three
+determinant
+I get this as 0 plus 0 minus P
+multiplied by P by e a whole power three
+by two cos square root of P by e i
+multiplied by L equal to zero
+so this is the final expression
+see p is the applied load
+and E A is the bending rigidity so P
+multiplied by P by
+e a whole power three by two cannot go
+cannot be zero because it is a non-zero
+quantity
+so this tells us that cos square root of
+P by e i l should go to zero so that
+helps us to construct the solution
+fine
+so you have this and this is again a
+multi-valued problem okay any inverse
+you will have a multiple values
+so this says square root of P by E I
+multiply by L
+can take the value n Pi by 2 N goes from
+1 3 5 and so on
+and you have p n is given as n Square pi
+squared e i by 4 L Square
+oh
+and you know in this what we have done
+is we have taken the solution for the
+hinged hinged connection as P star
+compared to P star
+all the values for fixed free
+fixed hinged fixed fixed values are
+indicated
+and you also have a rectangular cross
+section and your minimum amount of
+energy is I by so explicitly in the
+expression it is desirable to put I
+minimum
+if I have a circle cross section
+I minimum is same as I at any one of the
+diagonals
+but if you take a non circular cross
+section
+you will have to understand that
+buckling Or the critical load you should
+look at for the least value
+if you take another I you will get
+another value but that may be higher
+than the least value
+you don't want the column to
+deflect you do not want the column to
+Buckle in a given application
+so I minimum is a better representation
+only least values of importance
+so we will have n equal to 1
+that gives me critical load as P
+critical as pi squared EI by else 4 L
+Square
+see this is for the case of fixed free
+column
+and equation of the reflection curve
+when you go back and substitute these
+values
+I get an expression V equal to C1 1
+minus cos Lambda X and we know what is
+Lambda Lambda is square root of P by e
+how many of you are convinced with this
+solution
+there is one catch still there
+we have used four boundary conditions
+fine
+have you been able to find out what is
+the value of C1
+C1 is still indeterminate
+what has caused this
+see when I apply the boundary condition
+I should get one unique solution or not
+see if you we have done the
+linearization of the moment curvature
+relation
+if you do not make that as a
+linearized solution if you take that as
+non-linear then you will also be in a
+position to find out what is C1
+but nevertheless whatever the solution
+that we have got good enough for
+investigating instability
+fine but you should understand that c
+one we have not been able to catch
+OK see what you will not appreciate is
+experiment
+is truth
+moment the column has buckled
+it is large deformation
+we have said our hypothesis is small
+deformation and will investigate
+even though it is small deformation
+because we want to investigate stability
+we go for a deformed configuration to
+write the governing equation
+until it has buckled our analysis is all
+red once it is buckled
+you have to go for improved mathematics
+to analyze post buckling Behavior
+Support I apply a load higher than the P
+critical what happens
+you cannot do the analysis but
+experiments can reveal it experiment
+doesn't get limited by your poor ability
+to solve your differential equation
+fine
+that is what we had seen in the
+experiment we were able to see we have
+applied not beyond the critical load we
+sought deflector shapes
+they are all neutral equilibrium
+positions
+so don't mix up the experimental result
+whichever analytical analysis analytic
+analysis stops the moment you find the
+critical load
+Beyond critical load experiments gives
+you more information for you to ah
+ruminate over it okay
+see there is also another approach
+which is usually adopted by civil
+engineers they use a second order
+differential equation this discuss for a
+fixed free column you have enough
+background to do that
+and this is a statically determinate
+problem okay whereas if you have hinged
+hinged
+even hinge Rings is statically
+indeterminate
+hinged roller supported statically
+Terminator
+so all the other problems are statically
+indeterminate while we developed
+deflection equations we also developed a
+d power for V by D X power 4 we have
+developed that we said that equation is
+useful even for statically intervenate
+problems
+so that is why you find that equation is
+used for developing the critical node
+because except the fixed free all our
+situations are statically indeterminate
+but there is also school of thought that
+people directly use the
+second order differential equation
+approach so you have to write the
+equation
+when you have this deflected because of
+the deflection this compressive load
+causes a bending moment P Delta
+so if you take an arbitrary section at a
+distance X which is measured from the
+fixed end
+you have this as
+V and this as bending momentium
+and M naught is p Delta that is obtained
+from this
+so if you write for this free body
+diagram M minus M naught plus PV equal
+to 0
+so this reduces to m equal to plus P
+Delta minus PV
+and then you have D Squared V by d x
+squared equal to M by E A which we have
+learned in deflection
+so D Squared V by DX squared equal to
+plus P Delta minus PV divided by e i
+so I can get D Squared V by d x square
+plus PV
+divided by e a equal to P Delta by e a
+and
+you know Lambda Square equal to P by E A
+which we have already used
+you can also find rewrite this as D
+Squared V by d x square plus Lambda
+squared V equal to Lambda Square Delta
+it's a non-hop Engineers second order
+differential equation
+solution to the above equation is of the
+form
+a sine Lambda X plus b cos Lambda X Plus
+Delta
+and you have the boundary conditions
+at x equal to 0 B is 0
+and slope is 0 at x equal to l b is
+Delta
+so applying the boundary conditions in
+the above deflection equation we get V 0
+equal to 0
+because this is straight forward the
+mathematics now it's not difficult you
+have enough background you can in fact
+do it much faster than what I am showing
+B plus Delta equal to 0
+so this reduces to
+b equal to minus Delta
+and V Prime 0 equal to 0
+so this gives me a Lambda equal to 0
+so this gives me a equal to 0
+so when I substitute all of this VL
+equal to Delta
+I get Delta minus Delta cos Lambda L
+equal to Delta
+so this gives me again cos square root
+of P by e i l equal to 0 identical same
+solution like what we have got
+and you get the critical load as N
+squared pi squared EI by 4 L Square
+concerning the first and minimum
+satisfying value of n n equal to 1
+I get the critical lower as pi squared e
+i by 4 L Square
+the equation of the diffraction curve
+so V equal to Delta into 1 minus cos
+Lambda X
+so this is another form of
+analysis
+we can do the similar analysis for a pin
+depend column
+what is the difference the difference is
+only the boundary conditions ok
+you have the governing equation you have
+the basic solution
+and you have the
+Expressions so it is just substitution
+of
+the boundary condition and get this OK S
+V equal to c 1 plus C two X plus c 3
+sine Lambda x c 4 cos Lambda X
+and you have the boundary condition at x
+equal to zero V equal to 0
+and m b equal to Eid squared B by d x
+squared equal to zero
+at x equal to l V equal to 0
+and you have m b equal to Eid Square V
+by d x squared equal to zero
+so once you substitute this
+I get this
+set of equations okay it's very easy for
+you to do that please work it out in
+your rooms that is also a practice for
+you
+and I for non trivial solution I want
+the determinant to go to zero
+and that will give me the basic
+expression for me to find out and
+investigate what are the eigen values
+and eigen vectors
+for non trivial solution this
+determinant should go to zero
+okay
+and I have this
+this gives me finally
+I have an expression like this
+and this gives me
+sine root of P by L
+goes to zero
+and once you investigate this
+it will also be a all inverse functions
+are multi-valued
+so I have square root of P by e i
+multiplied by L equal to n pi
+so this goes to p n equal to N squared
+pi squared e a by L Square
+and this is a basic expression which is
+used for comparing what happens in fixed
+free
+that is like a cantilever beam so if you
+look at this shows what is the critical
+load for a cantilever it is one fourth
+of the critical load in pin pin
+condition
+when I have a fixed end pin it is twice
+the load
+if I have the fixed fixed is 4 times the
+load of the pin dip in the condition so
+that is how the graph is plotted
+and this
+simulation is also good it shows you the
+buccal shape alternately
+to remove the mental block that buckling
+happens only towards your left or right
+it is precipitated by
+inherent defects or even external
+recipients if there is a breeze going
+from one side to another side that can
+also precipitate buckling if the wind
+direction changes if the wind direction
+changes so the buckling is precipitated
+by the disturbance
+and also dictated by the eye minimum you
+should have both in your mind
+and you know when I have n is greater
+than 1 when n is 1 you have this simple
+Shea first mode of buckling I have this
+Pi square e by L Square
+and when I have
+n equal to 2 I get the second mode
+and P2 is 4 Pi square e a by L Square
+and when I have this n equal to 3
+I have the third mode
+since vibration problem all of these
+modes are important in the case of
+buckling
+higher modes are difficult to get unless
+you do prompting of the
+notes experimentally okay and my Tas
+have done a very good experiment I will
+show you that also
+and you have the P critical is Phi
+square e a by L Square
+I would urge you to write this as pi
+squared e i minimum by L Square
+okay that is what I have shown it in my
+animations here
+now let me look at this ah
+deflection curve deflection curve as C3
+sine Lambda X so you are not in a
+position to
+find out what is the magnitude of C3
+that's because you have linearized the
+moment curvature relation
+and you have multiple equilibrium
+positions possible
+and let us see the experiment
+okay you have to put your restraint at
+the
+node for the given load these are higher
+order positions are not realized in
+practice unless you prompt the structure
+to have that
+so this is a very nice experiment my Tas
+have done and it shows you you can have
+this shape
+you understand
+you can have this shape
+and so there were mathematical analysis
+not for fun
+what you see is too difficult to realize
+that you can have the column bent like
+this and long time back we had also seen
+torsional mode of vibration of the
+Tacoma Bridge
+you will not realize that concrete
+bridge can have such motions
+fine so experimentally it is possible
+provided the experiments are done
+carefully
+so in this class we have looked at uh
+stability
+and I said the stability is an issue
+wherever you have compressive load from
+a mathematical analysis point of view we
+will confine our discussion to column
+buckling
+and because we are investigating
+stability we have to
+write the governing equation only in a
+deformed configuration we do that to
+find out the critical load the moment I
+get the critical load and the column has
+buckled though I can see deformation
+very clearly in my experiment you don't
+have the mathematical analysis to get
+the
+deflected shape that requires
+higher order theories for you to do it
+thank you
+foreign
+[Music]
