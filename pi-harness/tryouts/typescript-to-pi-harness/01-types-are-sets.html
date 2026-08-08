@@ -461,15 +461,27 @@ type Color = "red" | "blue";
 const d: Dog = { name: "rex" };
 const c: Color = "red";</code></pre>
 
-<p>Here is the complete JavaScript that comes out the other side:</p>
+<p>
+  Here is the JavaScript that comes out the other side. I compiled it rather than
+  remembered it — <code>tsc --strict --target es2022</code>, and this is the file,
+  byte for byte:
+</p>
 
-<pre><code>const d = { name: "rex" };
+<pre><code>"use strict";
+const d = { name: "rex" };
 const c = "red";</code></pre>
 
 <div class="big">
   The types are gone. Not minified — <em>gone</em>. <code style="font-size:.85em">interface Dog</code>
   compiles to zero bytes.
 </div>
+
+<p>
+  Three lines in, three lines out, and the only thing added is a
+  <code>"use strict"</code> pragma — which is a JavaScript directive, not a type. Both
+  type declarations left <em>nothing at all</em> behind. Not a marker, not a comment, not
+  a registry entry. There is no residue to inspect.
+</p>
 
 <p>
   This is <strong>erasure</strong>, and it is the deepest difference between TypeScript's
@@ -604,7 +616,10 @@ export type StopReason =
   hard.
 </p>
 
-<p>Paste this in and replace each <code>___</code> with your prediction:</p>
+<p>
+  Paste this in. For each numbered item, <em>write your prediction down before you look
+  at what the playground says</em> — the whole value is in the gap between the two.
+</p>
 
 <pre><code>type A = { id: string };
 type B = { id: string; tag: "x" };
@@ -634,8 +649,8 @@ const u2: A = { id: "x", extra: 1 };</code></pre>
   <p>
     Design a type for an agent's tool result with this rule enforced <em>by the type
     system</em>: a result is either a success carrying <code>content: string</code>, or a
-    failure carrying <code>error: string</code>. It must be impossible to build one with
-    both, and impossible to build one with neither.
+    failure carrying <code>error: string</code>. It must be impossible to <em>write
+    down</em> one carrying both, and impossible to write one carrying neither.
   </p>
   <p>
     You have exactly the tools. If you find yourself writing
@@ -657,9 +672,23 @@ const u2: A = { id: "x", extra: 1 };</code></pre>
   | { ok: true;  content: string }
   | { ok: false; error: string };</code></pre>
   <p>
-    Two members. Neither has the other's field. <code>{ok: true, error: "x"}</code> is not
-    in the set and will not compile. The count went from four to two, and the two you
-    deleted were exactly the bugs.
+    Two members. Neither has the other's field. <code>{ok: true, error: "x"}</code> will
+    not compile. The count went from four to two, and the two you deleted were exactly
+    the bugs.
+  </p>
+  <p>
+    One honest caveat, because I'd rather you learn the edge than trust a slogan. That
+    rejection comes from the <em>freshness</em> rule in the aside above, not from the set
+    algebra. Launder the same object through a variable first and it slips into the
+    success member as a value with a harmless extra property:
+  </p>
+  <pre><code>const v = { ok: true as const, content: "hi", error: "boom" };
+const sneaky: ToolResult = v;   <span class="c">// compiles. structurally it IS a success.</span></code></pre>
+  <p>
+    I checked. So the union stops you <em>writing</em> the illegal state, which catches
+    it every time you'd actually make the mistake, but it isn't the impassable wall the
+    <code>Extract</code> trick was. Worth knowing the difference between a type that
+    forbids a value and a type that merely forbids a typo.
   </p>
   <p>
     That shared <code>ok</code> field is the <strong>discriminant</strong> — the tag that
