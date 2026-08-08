@@ -1,0 +1,770 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>00 · The machine underneath</title>
+<style>
+  :root {
+    --paper: #fbfaf6;
+    --ink: #2b2620;
+    --ink-soft: #6b6155;
+    --ink-faint: #9a9186;
+    --accent: #355070;
+    --rule: #e3ded1;
+    --code-bg: #f3f0e8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper); color: var(--ink);
+    font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    font-size: 19px; line-height: 1.7; margin: 0; padding: 4rem 1.5rem 10rem;
+  }
+  .col { max-width: 640px; margin: 0 auto; }
+  .crumb { font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 1.2rem; }
+  .crumb a { color: var(--accent); text-decoration: none; }
+  h1 { font-size: 2.15rem; line-height: 1.18; font-weight: 600; margin: 0 0 .7rem; letter-spacing: -.01em; }
+  .sub { color: var(--ink-soft); font-style: italic; margin: 0 0 3rem; font-size: 1.05rem; }
+  h2 {
+    font-size: 1.3rem; font-weight: 600; margin: 3.6rem 0 1.1rem; line-height: 1.3;
+  }
+  .label { font-size: .72rem; letter-spacing: .13em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin: 4rem 0 .8rem; }
+  p { margin: 0 0 1.3rem; }
+  em.key { font-style: normal; background: rgba(53,80,112,.1); padding: .05em .3em; border-radius: 2px; }
+  code { font-family: ui-monospace,'SF Mono',Menlo,monospace; font-size: .84em; background: var(--code-bg); padding: .1em .35em; border-radius: 3px; }
+  pre {
+    background: var(--code-bg); border: 1px solid var(--rule); border-radius: 5px;
+    padding: 1.1rem 1.2rem; overflow-x: auto; font-size: .82rem; line-height: 1.6;
+    font-family: ui-monospace,'SF Mono',Menlo,monospace; margin: 1.6rem 0;
+  }
+  pre code { background: none; padding: 0; font-size: 1em; }
+  pre .c { color: var(--ink-faint); font-style: italic; }
+  pre .hl { background: rgba(53,80,112,.13); border-radius: 2px; padding: .05em 0; }
+  aside {
+    margin: 2rem 0 2rem 1.4rem; padding-left: 1.3rem;
+    border-left: 2px solid var(--rule); color: var(--ink-soft); font-size: .93rem;
+  }
+  aside p:last-child { margin-bottom: 0; }
+  aside b { color: var(--ink); font-weight: 600; }
+  details {
+    margin: 1.6rem 0; padding: .9rem 1.2rem; background: rgba(227,222,209,.32);
+    border: 1px solid var(--rule); border-radius: 5px;
+  }
+  details[open] { padding-bottom: .3rem; }
+  summary {
+    cursor: pointer; font-weight: 600; color: var(--accent); font-size: .93rem;
+    letter-spacing: .01em; list-style: none;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: '▸ '; }
+  details[open] summary::before { content: '▾ '; }
+  details > *:not(summary) { margin-top: 1.1rem; }
+  .task {
+    border-left: 3px solid var(--accent); padding: .2rem 0 .2rem 1.3rem; margin: 2.2rem 0;
+  }
+  .task p:last-child { margin-bottom: 0; }
+  .task .q { font-weight: 600; }
+  table { border-collapse: collapse; width: 100%; font-size: .87rem; margin: 1.6rem 0; }
+  th, td { text-align: left; padding: .5rem .7rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-size: .7rem; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-faint); font-weight: 600; }
+  td code { font-size: .92em; }
+  hr.soft { border: 0; border-top: 1px solid var(--rule); margin: 4rem 0; }
+  .big {
+    font-size: 1.18rem; line-height: 1.5; margin: 2.5rem 0; padding: 1.4rem 0;
+    border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); font-weight: 600;
+  }
+  .next { font-size: .95rem; color: var(--ink-soft); }
+  .next a { color: var(--accent); }
+  figure { margin: 2.2rem 0; }
+  figcaption { font-size: .84rem; color: var(--ink-faint); text-align: center; margin-top: .7rem; font-style: italic; }
+</style>
+
+<div class="col">
+
+<p class="crumb"><a href="index.html">← the ladder</a> &nbsp;·&nbsp; rung 00 of 07</p>
+
+<h1>The machine underneath</h1>
+<p class="sub">One thread. It must never stop. Everything follows.</p>
+
+<p>
+  Here is a line from <code>pi/packages/agent/src/agent-loop.ts</code>, line 317. It is
+  the line the entire harness turns around:
+</p>
+
+<pre><code>for await (const event of response) {
+    switch (event.type) {
+        case "text_delta": ...</code></pre>
+
+<p>
+  By rung 7 you will have written your own version of it. There are two hard ideas
+  buried in there. <code>event.type</code> — how one variable can be twelve different
+  shapes and the compiler keeps them straight — that's rungs 1 through 4. Today we earn
+  the other one. Today we earn <code>await</code>.
+</p>
+
+<p>
+  And I want to earn it, not define it. If I just tell you "<code>await</code> pauses
+  until the promise resolves," you'll nod, you'll write working code, and then one day
+  you'll write something that deadlocks or silently runs three times slower than it
+  should, and you won't know why. That happens because the definition was borrowed. So
+  let's go get it.
+</p>
+
+<h2>Start where you're standing</h2>
+
+<p>
+  You think in Python. So write me an agent loop in Python. Not a real one — the shape
+  of one. Send a prompt, get a response, run any tools it asked for, go around again.
+</p>
+
+<p>You'd write this without thinking:</p>
+
+<pre><code><span class="c"># Python. Obvious. Correct.</span>
+def run_agent(prompt):
+    messages = [{"role": "user", "content": prompt}]
+    while True:
+        response = call_llm(messages)          <span class="c"># ← blocks ~4 seconds</span>
+        messages.append(response)
+        if not response.tool_calls:
+            return response
+        for call in response.tool_calls:
+            result = execute_tool(call)        <span class="c"># ← blocks too</span>
+            messages.append(result)</code></pre>
+
+<p>
+  Fourteen lines, and the whole idea is visible at a glance. Look at what makes it
+  readable: <code>response = call_llm(messages)</code>. The next line runs after the
+  response has arrived. Reading order <em class="key">is</em> execution order. Your eye
+  goes down the page and time goes forward with it.
+</p>
+
+<p>
+  That property — reading order equals execution order — is worth more than you think.
+  Hold onto it. In about four minutes we're going to lose it, and then fight to get it back.
+</p>
+
+<div class="task">
+  <p class="q">Before you scroll.</p>
+  <p>
+    You've never written JavaScript. Fine. Write that same loop in JavaScript anyway
+    — guess the syntax, I don't care about semicolons. Just write down what you
+    <em>expect</em> the shape to be.
+  </p>
+</div>
+
+<p>
+  You almost certainly wrote something like <code>const response = callLLM(messages)</code>
+  and moved on. Of course you did. That's the obvious translation and every programmer
+  alive writes it the first time.
+</p>
+
+<p>It cannot work. Not "it's bad style." It cannot be written.</p>
+
+<aside>
+  <p>
+    <b>The syntax you'll need, in ten seconds.</b> I'm not teaching JavaScript syntax as
+    a topic — you'll absorb it. Here's enough to read every code block on this page.
+  </p>
+  <table>
+    <tr><th>Python</th><th>JavaScript</th></tr>
+    <tr><td><code>def f(x):</code></td><td><code>function f(x) { }</code> or <code>const f = (x) => { }</code></td></tr>
+    <tr><td><code>{"a": 1}</code></td><td><code>{ a: 1 }</code> — keys unquoted, always strings underneath</td></tr>
+    <tr><td><code>[1, 2, 3]</code></td><td><code>[1, 2, 3]</code> — same</td></tr>
+    <tr><td><code>None</code></td><td><code>null</code> <em>and</em> <code>undefined</code>. Two of them. Sorry.</td></tr>
+    <tr><td><code>f"hi {name}"</code></td><td><code>`hi ${name}`</code> — backticks</td></tr>
+    <tr><td><code>x = 1</code></td><td><code>const x = 1</code> (never reassigned) / <code>let x = 1</code> (reassigned)</td></tr>
+    <tr><td><code>async def</code></td><td><code>async function</code></td></tr>
+    <tr><td><code>await</code></td><td><code>await</code> — identical, and that is not a coincidence</td></tr>
+  </table>
+</aside>
+
+<h2>The wall</h2>
+
+<p>
+  In Python, <code>requests.get(url)</code> blocks. The interpreter sits there, doing
+  nothing, until bytes come back. You've never once thought this was strange, because
+  it isn't. The OS suspends your thread; some other thread runs; eventually yours wakes
+  up. Costs you nothing.
+</p>
+
+<p>
+  <em class="key">JavaScript has no equivalent.</em> There is no function in the language,
+  and none in Node's standard library, that sends an HTTP request and returns the
+  response. Not a discouraged one. Not a deprecated one. It does not exist.
+</p>
+
+<p>Why not? Here's the fact the whole language is built on:</p>
+
+<div class="big">
+  A JavaScript program has exactly one thread, and that thread is also the thing
+  running everything else — every timer, every incoming connection, every keystroke.
+  If it stops, the whole program is deaf.
+</div>
+
+<p>
+  Think about what "blocking" means in a world with one thread. In Python, blocking
+  means "this thread naps, the others carry on." In JavaScript, there are no others.
+  Blocking means <em>the entire program is frozen</em>. Not slow — frozen. During those
+  four seconds waiting on the model, your agent cannot notice that you hit Ctrl-C. It
+  cannot draw a spinner. It cannot accept the message you're typing to steer it. It is
+  a brick.
+</p>
+
+<p>
+  So the language designers made a choice that sounds extreme and is actually the only
+  coherent one: <strong>don't offer the blocking version at all.</strong> Take it off
+  the table. If you can't block, you can't accidentally freeze everything.
+</p>
+
+<aside>
+  <p>
+    <b>Being precise, because I said blocking is impossible and it isn't quite.</b>
+    Node does ship <code>fs.readFileSync</code>, and it genuinely blocks. So the rule
+    isn't "blocking is impossible" — it's "blocking is catastrophic, and for the network
+    they simply didn't build the door."
+  </p>
+  <p>
+    <code>readFileSync</code> survives because a local disk read is under a millisecond,
+    and startup code runs before anything else needs the thread. Use it at startup and
+    nobody is harmed. Use it in your agent loop and you've frozen the program.
+  </p>
+  <p>
+    You can watch pi apply exactly that rule. Grep it yourself:
+    <code>packages/agent/src</code> — the loop — contains <em>not one</em>
+    <code>readFileSync</code>. Every sync read in the project sits in config, settings,
+    keybindings, auth storage: startup paths, all of them. That's not inconsistency.
+    That's the rule applied correctly in both directions.
+  </p>
+</aside>
+
+<h2>See the one thread with your own eyes</h2>
+
+<p>
+  I could keep asserting "one thread." Better if you catch it in the act. Here are four
+  lines. <code>setTimeout(fn, 0)</code> means "run <code>fn</code>, zero milliseconds
+  from now."
+</p>
+
+<pre><code>console.log("A");
+setTimeout(() =&gt; console.log("B"), 0);
+Promise.resolve().then(() =&gt; console.log("C"));
+console.log("D");</code></pre>
+
+<div class="task">
+  <p class="q">Write down the output order before you open this. All four letters.</p>
+</div>
+
+<details>
+  <summary>What actually prints</summary>
+  <pre><code>A
+D
+C
+B</code></pre>
+  <p>
+    If you guessed <code>A B C D</code> — reading order — that's the Python instinct and
+    it's the right instinct to have had. If you guessed <code>A D B C</code>, you already
+    knew callbacks get deferred, but not the last twist.
+  </p>
+  <p>Here's what the one thread is doing:</p>
+  <p>
+    <strong>A</strong> prints. Then <code>setTimeout</code> is <em>called</em> — it
+    doesn't run the function, it hands it to the runtime and returns instantly. Then
+    <code>.then(...)</code> likewise hands off a function and returns instantly. Then
+    <strong>D</strong> prints.
+  </p>
+  <p>
+    Now — and this is the part worth having — your code is <em>finished</em>. The thread
+    has reached the bottom of the file. Only <em>now</em>, with nothing left to run, does
+    it go looking for parked work. And "zero milliseconds" turns out to have meant
+    "after you're done," not "immediately."
+  </p>
+  <p>
+    <strong>C</strong> before <strong>B</strong> because there are two queues, and promise
+    callbacks sit in the higher-priority one. It's drained completely before a single
+    timer fires. You will not need that detail often, but the day two things happen in an
+    order you swear is impossible, it's this.
+  </p>
+</details>
+
+<p>
+  Sit with that for a second, because it's the whole model. The thread runs your code
+  <em>to completion</em>, without interruption. Then, and only then, it picks up parked
+  work. Then it runs <em>that</em> to completion. Round and round.
+</p>
+
+<p>
+  That's the event loop. Not a framework, not a library — the shape of the runtime.
+  And notice the deal it strikes: nothing ever interrupts you mid-function, so you
+  never need a mutex, and there are no data races. That's the payment you receive.
+  The price is that you may never, ever stop.
+</p>
+
+<h2>So what can <code>fetch</code> possibly return?</h2>
+
+<p>
+  Now we can derive the answer instead of being handed it. The constraint is fixed:
+  <code>fetch(url)</code> must return <em>immediately</em>, because the thread can't wait.
+  But the response won't exist for another four seconds.
+</p>
+
+<div class="task">
+  <p class="q">Reason it through before reading on. What are the candidates?</p>
+  <p>
+    It has to return <em>something</em> right now. What could that something be? Try to
+    list the options and kill them yourself. There are only about three.
+  </p>
+</div>
+
+<details>
+  <summary>The candidates, and why two of them die</summary>
+  <p>
+    <strong>Return the response.</strong> Dead on arrival. It doesn't exist yet. Nothing
+    to return.
+  </p>
+  <p>
+    <strong>Return nothing, and have the result appear somewhere later</strong> — a global,
+    a mailbox, an event you subscribe to. This is the one worth taking seriously, because
+    it does work, and it's how a lot of older code was written. It dies on
+    <em>correlation</em>: fire off three requests and three answers land in the mailbox,
+    and nothing connects an answer back to the question that caused it. You've severed
+    cause from effect. Now you're hand-rolling request IDs, which is the runtime's job.
+  </p>
+  <p>
+    <strong>Return a way to be told.</strong> Hand <code>fetch</code> a function, and let
+    it call that function when the bytes land. This one <em>survives</em> — cause and
+    effect stay stapled together. It's the callback, and it was the answer for about
+    fifteen years.
+  </p>
+</details>
+
+<p>So let's take the survivor seriously. Callbacks. Rewrite the agent loop:</p>
+
+<pre><code>function runAgent(prompt, done) {
+  const messages = [{ role: "user", content: prompt }];
+
+  callLLM(messages, (err, response) =&gt; {
+    if (err) return done(err);
+    messages.push(response);
+    if (!response.toolCalls) return done(null, response);
+
+    executeTool(response.toolCalls[0], (err, result) =&gt; {
+      if (err) return done(err);
+      messages.push(result);
+
+      callLLM(messages, (err, response2) =&gt; {
+        if (err) return done(err);
+        <span class="c">// ... and now go around again. How?</span>
+      });
+    });
+  });
+}</code></pre>
+
+<div class="task">
+  <p class="q">Two questions. Answer both before opening.</p>
+  <p>
+    <strong>1.</strong> The Python version looped with <code>while True</code>. Where did
+    the loop go? Can you put it back?
+  </p>
+  <p>
+    <strong>2.</strong> Count the error checks. What happens to that count as the agent
+    runs twenty turns instead of two?
+  </p>
+</div>
+
+<details>
+  <summary>Why this collapses</summary>
+  <p>
+    <strong>The loop is gone and you can't put it back.</strong> A <code>while</code> loop
+    needs the body to <em>finish</em> before the next iteration starts. But the body here
+    finishes instantly — it just schedules a callback. So the loop would spin thousands of
+    times, firing thousands of requests, before a single response arrived. To actually
+    iterate you have to make the function call itself from inside its own callback. Your
+    loop has become recursion turned inside out, and it no longer looks anything like
+    "keep going until the model stops asking for tools."
+  </p>
+  <p>
+    <strong>Errors don't propagate, they replicate.</strong> In Python one
+    <code>try/except</code> wraps the whole loop, because an exception rides the call
+    stack upward. But by the time a callback runs, the stack that created it is
+    <em>gone</em> — the thread returned to the event loop long ago. There is nothing above
+    you to throw to. So every single callback re-checks and re-forwards the error by
+    hand, and the one you forget is a bug that swallows a failure silently.
+  </p>
+  <p>
+    <strong>And reading order no longer equals execution order.</strong> The thing I told
+    you to hold onto. It's gone. Time now runs <em>rightward</em>, into the indentation.
+    Twenty turns of agent is twenty levels deep. This has a name, and people who lived
+    through it don't say it fondly.
+  </p>
+</details>
+
+<p>
+  So callbacks aren't wrong, exactly. They're <em>correct and unusable</em>, which is a
+  specific and interesting kind of failure. Something is structurally off. Let's find it.
+</p>
+
+<h2>The thing that was missing</h2>
+
+<p>Look hard at the callback signature:</p>
+
+<pre><code>callLLM(messages, (err, response) =&gt; { ... })</code></pre>
+
+<p>
+  <code>callLLM</code> returns nothing. The pending work — a real thing, running right
+  now, that will eventually produce a value or fail — <em>has no representation in your
+  program.</em> You can't name it. You can't hold it. You can't put it in a list, or
+  return it from a function, or pass it to something else.
+</p>
+
+<p>
+  That's the actual defect. Not the nesting; the nesting is a symptom. The defect is
+  that the most important thing in the program is invisible to the program.
+</p>
+
+<div class="task">
+  <p class="q">So fix that, and see what falls out.</p>
+  <p>
+    Suppose <code>callLLM(messages)</code> did return something. It can't be the response.
+    But what's the <em>next best thing</em> it could hand you — something that exists right
+    now, and that has a useful relationship to a value that doesn't exist yet?
+  </p>
+</div>
+
+<details>
+  <summary>The move</summary>
+  <p>
+    A <strong>box</strong>. An object that exists immediately, is empty, and is wired up so
+    that when the bytes arrive, they get put inside it.
+  </p>
+  <p>
+    It exists now, so you can name it, store it, return it, put it in an array. It's
+    empty now, so it isn't lying about having the answer. And it carries a promise about
+    the future: <em>something will land in here — a value, or an error — exactly once.</em>
+  </p>
+  <p>That box is the whole idea. In JavaScript it's called a <code>Promise</code>.</p>
+</details>
+
+<div class="big">
+  You cannot block. So a value that isn't here yet has to become a value that is here
+  now — a box that will contain it. The box is the Promise.
+</div>
+
+<p>
+  I want to be exact about what just happened, because it's the move worth stealing,
+  not the noun. We took something that lived only in the runtime's head — pending work —
+  and made it a first-class value in the language. Turning an implicit process into an
+  explicit value. Once you've done that, everything you can do to values, you can now do
+  to work-in-progress.
+</p>
+
+<p>Watch how much you get back for free:</p>
+
+<pre><code><span class="c">// It's a value, so you can name it.</span>
+const pending = callLLM(messages);
+
+<span class="c">// It's a value, so you can put it in an array.</span>
+const three = [callLLM(a), callLLM(b), callLLM(c)];
+
+<span class="c">// It's a value, so you can write functions that combine them.</span>
+const all  = await Promise.all(three);   <span class="c">// all three, concurrently</span>
+const first = await Promise.race(three); <span class="c">// whichever wins</span></code></pre>
+
+<p>
+  Compare that to threads. Concurrency in the callback world meant counters and shared
+  mutable state and getting it wrong. Here "run these three at once and wake me when
+  they're all done" is a <em>function that takes an array</em>, because the pending
+  operations are ordinary values in an ordinary array. That's not a library being clever.
+  That's what reification buys you.
+</p>
+
+<h2>Now <code>await</code> is obvious</h2>
+
+<p>
+  We have boxes. But if writing code with boxes still meant <code>.then(fn)</code> chains,
+  we'd have traded deep nesting for long chains and only half-won. We still haven't got
+  back the thing we lost: reading order equals execution order.
+</p>
+
+<p><code>await</code> is that, and it means exactly one thing:</p>
+
+<div class="big">
+  Give me the value in this box. Until it arrives, hand the thread back to the event
+  loop — let it run timers, other requests, keystrokes. When the box fills, resume me
+  right here.
+</div>
+
+<p>
+  Which lets us write the loop we actually wanted. Here is the Python from the top of
+  this page, and the JavaScript, side by side:
+</p>
+
+<pre><code><span class="c"># Python</span>                          <span class="c">// JavaScript</span>
+def run_agent(prompt):                async function runAgent(prompt) {
+  messages = [...]                      const messages = [...];
+  while True:                           while (true) {
+    r = call_llm(messages)                const r = <span class="hl">await</span> callLLM(messages);
+    messages.append(r)                    messages.push(r);
+    if not r.tool_calls:                  if (!r.toolCalls) return r;
+      return r                            for (const c of r.toolCalls) {
+    for c in r.tool_calls:                  const out = <span class="hl">await</span> execTool(c);
+      out = execute_tool(c)                 messages.push(out);
+      messages.append(out)                }
+                                        }
+                                      }</code></pre>
+
+<p>
+  The <code>while (true)</code> is back. The reading order is back. One
+  <code>try/catch</code> around the whole thing would work, because <code>await</code>
+  turns a rejected box into a thrown exception right at that line. The structure is the
+  Python structure. Six extra characters, twice.
+</p>
+
+<p>
+  But underneath, that function is <em>shredded</em> — chopped at every <code>await</code>
+  into pieces the event loop runs at different times, minutes apart, with thousands of
+  other things happening in between. The compiler is doing the callback rewrite for you,
+  and doing it perfectly.
+</p>
+
+<p>
+  <code>async</code> on the front is the honest half of the bargain. It declares: this
+  function contains suspension points, so it cannot hand you a real value — it hands you
+  a box. <em>Every</em> <code>async</code> function returns a Promise. Always, even if the
+  body just returns <code>3</code>. It has no choice; it returned to the caller long
+  before it finished.
+</p>
+
+<h2>The misconception that will bite you</h2>
+
+<p>
+  Everyone gets here and concludes: <em>async means parallel.</em> It does not. There is
+  still exactly one thread. Nothing in this lesson added a second one.
+</p>
+
+<p>
+  Concurrency is having many things <em>in flight</em>. Parallelism is having many things
+  <em>executing at the same instant</em>. JavaScript gives you the first and not the
+  second — and for an agent harness the first is all you ever wanted, because you're not
+  computing anything. You're waiting on a model in a datacenter. Waiting parallelises
+  beautifully on one thread; waiting is free.
+</p>
+
+<p>
+  The trap is that this distinction is invisible until it costs you 3× and you can't see
+  why. So let's make you feel it rather than believe it.
+</p>
+
+<div class="task">
+  <p class="q">Your turn — and this one you actually run.</p>
+  <p>
+    Put this in <code>t.js</code> and run <code>node t.js</code>. Node 18 or newer;
+    check with <code>node -v</code>.
+  </p>
+</div>
+
+<pre><code>const sleep = (ms) =&gt; new Promise((resolve) =&gt; setTimeout(resolve, ms));
+
+async function fakeLLM(prompt) {
+  await sleep(500);              <span class="c">// pretend: a model, thinking</span>
+  return `echo: ${prompt}`;
+}
+
+async function main() {
+  <span class="c">// --- version A: one after another</span>
+  let t = Date.now();
+  const a1 = await fakeLLM("one");
+  const a2 = await fakeLLM("two");
+  const a3 = await fakeLLM("three");
+  console.log("sequential:", Date.now() - t, "ms");
+
+  <span class="c">// --- version B: all in flight, then wait</span>
+  t = Date.now();
+  const boxes = [fakeLLM("one"), fakeLLM("two"), fakeLLM("three")];
+  const results = await Promise.all(boxes);
+  console.log("concurrent:", Date.now() - t, "ms");
+}
+
+main();</code></pre>
+
+<div class="task">
+  <p class="q">Predict both numbers before running. Then run it.</p>
+  <p>
+    Then the question that matters: <strong>one thread, no parallelism — so where did
+    the time go?</strong> Version B isn't doing more at once. Say precisely what's
+    different.
+  </p>
+</div>
+
+<details>
+  <summary>What you saw, and why</summary>
+  <p>Roughly <code>1500 ms</code> and <code>500 ms</code>.</p>
+  <p>
+    The difference is <em>when the work starts</em>, and it's decided by where you put
+    <code>await</code> — not by any parallelism.
+  </p>
+  <p>
+    In version A, <code>await</code> on line one means the thread doesn't reach line two
+    for half a second. The second call hasn't <em>started</em>. Three naps, back to back.
+  </p>
+  <p>
+    In version B, look at the array literal. <code>fakeLLM("one")</code>,
+    <code>fakeLLM("two")</code>, <code>fakeLLM("three")</code> — all three called, with no
+    <code>await</code> between them. Each runs until it hits its own internal
+    <code>await sleep</code>, parks itself, and hands back a box. All three timers are now
+    ticking down together. Three boxes in an array. <em>Then</em> you wait, once.
+  </p>
+  <p>
+    So the rule, and it's the one that separates people who use <code>await</code> from
+    people who understand it: <strong>calling an async function starts the work.
+    <code>await</code> only decides where you stop to collect it.</strong> An
+    <code>await</code> placed one line too early costs you all your concurrency, silently,
+    with no error and no warning. It just gets slower.
+  </p>
+  <p>
+    And note the thread was idle for essentially the entire 500 ms in both versions. It
+    wasn't working harder in B. It was <em>waiting smarter</em>.
+  </p>
+</details>
+
+<aside>
+  <p>
+    <b>You've met this before, and it's worth naming.</b> Python's <code>asyncio</code> is
+    the same design: one thread, an event loop, <code>await</code>, and
+    <code>asyncio.gather</code> where JavaScript writes <code>Promise.all</code>. If
+    you've written <code>async def</code>, you already owned this model — you just owned
+    it as one option among several.
+  </p>
+  <p>
+    That's the real difference, and it's cultural, not technical. In Python, async is a
+    dialect. Most libraries are blocking; you choose to opt in; <code>requests</code> and
+    <code>httpx</code> both exist. In JavaScript there was never a choice, so
+    <em>everything</em> is async — every file read, every socket, every library, all of
+    it, all the way down. Nothing to opt into, nothing to bridge, no colour problem to
+    manage. The constraint that looked like poverty turns out to have bought uniformity.
+  </p>
+</aside>
+
+<h2>Read the real thing</h2>
+
+<p>
+  Back to pi. This is <code>agent-loop.ts</code>, lightly trimmed. You should be able to
+  read every structural decision in it now — not the type annotations yet, that's rung 1,
+  but the shape.
+</p>
+
+<pre><code>const resolvedApiKey =
+  (config.getApiKey ? <span class="hl">await</span> config.getApiKey(config.model.provider) : undefined)
+  || config.apiKey;
+
+const response = <span class="hl">await</span> streamFunction(config.model, llmContext, {
+  ...config, apiKey: resolvedApiKey, signal,
+});
+
+<span class="hl">for await</span> (const event of response) {
+  switch (event.type) {
+    case "start": ...
+    case "text_delta": ...
+    case "toolcall_end": ...
+  }
+}</code></pre>
+
+<div class="task">
+  <p class="q">Three things to notice yourself before I point at them.</p>
+  <p>
+    <strong>1.</strong> Why is fetching the API key <code>await</code>ed? It's just a
+    string.
+  </p>
+  <p>
+    <strong>2.</strong> There's a <code>signal</code> being passed down. Given that this
+    thread must never block — what do you think it's for, and why can't you just kill the
+    request the way you'd kill a thread?
+  </p>
+  <p>
+    <strong>3.</strong> <code>for await</code>. You know <code>await</code> now — one box,
+    one value. What must <code>for await</code> be waiting on, over and over?
+  </p>
+</div>
+
+<details>
+  <summary>What each one is telling you</summary>
+  <p>
+    <strong>1. The key might not be a string yet.</strong> pi's own comment says it:
+    "important for expiring tokens." With OAuth providers the token can expire
+    <em>during</em> a long tool run, so fetching it may mean a network round-trip to
+    refresh. Might be instant, might take a second. Since it <em>can</em> be slow, it must
+    be a box — and once any layer of a stack is async, everything above it is too. This is
+    the uniformity from the aside, arriving as a real consequence.
+  </p>
+  <p>
+    <strong>2. <code>signal</code> is how you cancel without threads.</strong> You can't
+    kill this operation from outside — there's no other thread to kill it from, and
+    nothing interrupts running code. So cancellation has to be <em>cooperative</em>: you
+    hand the operation an object it can check, and when you flip it, the operation
+    notices at its next suspension point and tidies up. Every "stop" button in every agent
+    is this. When you hit Escape in pi mid-response, that's a signal being flipped — and
+    the reason the UI could hear your keypress at all is that the thread was never blocked.
+  </p>
+  <p>
+    <strong>3. <code>for await</code> is a sequence of boxes, not one box.</strong> The
+    model doesn't hand you a response; it dribbles it out over seconds — a token, a token,
+    a tool call. That's not one not-yet, it's hundreds, in order, ending eventually. One
+    Promise can't express that: a box fills exactly once. So there's a second construct
+    for many-not-yets-in-order, and that's rung 5. You've now met the exact problem it
+    exists to solve, which is the right way to arrive at it.
+  </p>
+</details>
+
+<hr class="soft">
+
+<p class="label">What you own now</p>
+
+<p>
+  One thread, which must never stop. Therefore no blocking. Therefore a value that isn't
+  here yet must be reified as a value that is here now — a Promise. Therefore
+  <code>await</code>, which suspends you and frees the thread. Therefore
+  <code>async</code>, which is the admission that this function returns a box.
+</p>
+
+<p>
+  That's one idea with four consequences, not five facts. If you can walk that chain
+  forward from "one thread" without looking, you have it. If you can only recite the
+  end of it, you don't yet.
+</p>
+
+<p class="label">Before you go — the honest part</p>
+
+<p>
+  This lesson read smoothly. That smoothness is not understanding, and I'd rather say so
+  than let you find out at rung 6. You watched me derive the Promise; you didn't derive
+  it. The feeling of "yes, obviously" while reading is the cheapest feeling in learning
+  and it evaporates in about a day.
+</p>
+
+<p>Two things will tell you whether it's actually yours:</p>
+
+<p>
+  <strong>Did you run the timing script?</strong> Not read the reveal — run it, see 1500
+  and 500 on your own terminal. Then break it: move the <code>await</code> in version B
+  onto the array literal line and watch the concurrency vanish. That five-second
+  experiment is worth more than this entire page.
+</p>
+
+<p>
+  <strong>Come back tomorrow and answer cold:</strong> why does JavaScript have no
+  blocking HTTP call? Start from one thread and walk it all the way to
+  <code>async</code>. If the chain holds without notes, rung 1 has solid ground to stand
+  on.
+</p>
+
+<hr class="soft">
+
+<p class="next">
+  <strong>Next — rung 01, <em>A type is a set of values</em>.</strong> We've been writing
+  plain JavaScript this whole page; not one type appeared. Now we add them, and I'll
+  claim something that sounds too simple to be useful: every type is a set, and
+  <code>extends</code> means ⊆. From those two sentences you'll rebuild structural
+  typing, <code>never</code>, <code>unknown</code>, and the reason your Python instinct
+  about inspecting types at runtime is about to fail badly.
+</p>
+
+<p class="crumb" style="margin-top:3rem"><a href="index.html">← back to the ladder</a></p>
+
+</div>

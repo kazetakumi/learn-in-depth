@@ -1,2 +1,5 @@
 .DS_Store
 .code-review-graph/
+
+# Vendored upstream source, read-only reference for the pi-harness lessons
+pi-harness/pi/

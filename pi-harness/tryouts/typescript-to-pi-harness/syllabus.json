@@ -1,0 +1,116 @@
+{
+  "subject": "TypeScript from first principles, to build an AI agent harness",
+  "learner": {
+    "background": "Programmer, thinks in Python. New to JavaScript.",
+    "owned_priors": [
+      "Python object model and duck typing",
+      "Python type hints: Optional, Union, TypeVar, Protocol",
+      "Pydantic (schema-derived models)",
+      "asyncio: async def, await, async for",
+      "Blocking I/O as the default mental model"
+    ],
+    "end_goal": "A working CLI agent: typed tool registry, streaming provider call, async-generator event loop, file and bash tools. pi's spine, written from scratch."
+  },
+  "resources": {
+    "transcripts": [
+      { "id": "K01hLNDdqg4", "note": "WebDev Simplified / Boot.dev. The superset. Deep on generics, infer, satisfies, conditional types." },
+      { "id": "30LWjhZzg50", "note": "Hitesh Chaudhary. Broad intro, heavy on classes and interfaces." },
+      { "id": "iJkaAJUzeWQ", "note": "Tech With Tim. Classes, abstract, type guards, overloads, utility types." },
+      { "id": "d56mG7DezGs", "note": "Mosh. Short overview, tsconfig and compiler basics." }
+    ],
+    "codebase": "pi/ — packages/agent (the spine), packages/ai (provider layer + event unions)",
+    "known_gaps": "All four transcripts have ZERO coverage of await/yield/generator/iterator. Rungs 0 and 5 are grounded in primary docs (MDN, TS handbook) and pi's own source instead."
+  },
+  "cruxes": [
+    {
+      "id": "00",
+      "title": "The machine underneath",
+      "hook": "JavaScript has one thread and it must never stop. So \"not yet\" has to become a value you can hold.",
+      "owns": "Python's blocking mental model, and asyncio as the exception that proves the rule",
+      "payoff": "The Promise, derived rather than defined. And the seed of the whole harness: an LLM response is the ultimate not-yet.",
+      "depends_on": [],
+      "lesson": "00-the-machine-underneath.html",
+      "status": "current"
+    },
+    {
+      "id": "01",
+      "title": "A type is a set of values",
+      "hook": "Everything TypeScript does is set membership. `extends` means ⊆. Once you read it that way, nothing in the language is magic again.",
+      "owns": "Python duck typing; the intuition that shape decides what works",
+      "payoff": "Structural typing, `never` as ∅, `unknown` as 𝕌, and erasure — why TS types cannot be inspected at runtime the way Python's can.",
+      "depends_on": ["00"],
+      "lesson": "01-types-are-sets.html",
+      "status": "planned"
+    },
+    {
+      "id": "02",
+      "title": "Narrowing is set arithmetic",
+      "hook": "A union is a set union. Narrowing shrinks it. Exhaustiveness works because what's left over is the empty set.",
+      "owns": "Crux 01",
+      "payoff": "Discriminated unions — how every message and every stream event in pi is modelled. `AssistantMessageEvent` has 12 members (types.ts:523-539) and the loop switches on all of them.",
+      "depends_on": ["01"],
+      "lesson": "02-narrowing-is-set-arithmetic.html",
+      "status": "planned"
+    },
+    {
+      "id": "03",
+      "title": "Generics: functions from types to types",
+      "hook": "You already write functions over values. These are functions over sets — and constraints are just ⊆ again.",
+      "owns": "Crux 01 (extends = ⊆), Python TypeVar",
+      "payoff": "`Tool<TSchema>` — a tool whose argument type is a parameter.",
+      "depends_on": ["01", "02"],
+      "lesson": "03-generics.html",
+      "status": "planned"
+    },
+    {
+      "id": "04",
+      "title": "Types that compute",
+      "hook": "Conditional types are pattern matching on sets. `infer` is destructuring. The type system is a language, and you can run it.",
+      "owns": "Crux 03",
+      "payoff": "`Static<T>` — deriving a tool's argument type from its JSON schema. Your Pydantic moment, except it costs nothing at runtime. Also `Extract<AssistantMessage[\"content\"][number], {type:\"toolCall\"}>` from pi's types.ts.",
+      "depends_on": ["03"],
+      "lesson": "04-types-that-compute.html",
+      "status": "planned"
+    },
+    {
+      "id": "05",
+      "title": "Async as a stream",
+      "hook": "A Promise is one not-yet. An async generator is a sequence of them. An LLM response is exactly that.",
+      "owns": "Crux 00, Python's async for",
+      "payoff": "`for await (const event of response)` — the line the entire harness is built around.",
+      "depends_on": ["00", "02"],
+      "lesson": "05-async-as-a-stream.html",
+      "status": "planned"
+    },
+    {
+      "id": "06",
+      "title": "BUILD: the harness spine",
+      "hook": "Every rung so far was load-bearing for one while-loop. Now write it.",
+      "owns": "Cruxes 01–05",
+      "payoff": "A typed tool registry, a streaming provider call, the agent loop, tool execution. ~300 lines you can defend line by line.",
+      "depends_on": ["04", "05"],
+      "lesson": "06-build-the-spine.html",
+      "status": "planned"
+    },
+    {
+      "id": "07",
+      "title": "BUILD: the CLI agent",
+      "hook": "Make it a thing you actually use.",
+      "owns": "Crux 06",
+      "payoff": "stdin/stdout, streaming render, read/write/bash tools. A working coding agent.",
+      "depends_on": ["06"],
+      "lesson": "07-build-the-cli.html",
+      "status": "planned"
+    }
+  ],
+  "cut": {
+    "decision": "Cruxes only. Learner chose depth over transcript coverage.",
+    "dropped": [
+      "enum — pi's AGENTS.md bans it outright (erasable-syntax-only rule)",
+      "decorators — unused in pi",
+      "deep class/OOP material — heavy in two transcripts, not load-bearing for the harness",
+      "React sections",
+      "utility-type catalogue — downstream of crux 04, not a lecture"
+    ]
+  }
+}
