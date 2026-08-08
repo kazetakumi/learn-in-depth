@@ -1,0 +1,729 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>01 · A type is a set of values</title>
+<style>
+  :root {
+    --paper: #fbfaf6;
+    --ink: #2b2620;
+    --ink-soft: #6b6155;
+    --ink-faint: #9a9186;
+    --accent: #355070;
+    --rule: #e3ded1;
+    --code-bg: #f3f0e8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper); color: var(--ink);
+    font-family: 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    font-size: 19px; line-height: 1.7; margin: 0; padding: 4rem 1.5rem 10rem;
+  }
+  .col { max-width: 640px; margin: 0 auto; }
+  .crumb { font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 1.2rem; }
+  .crumb a { color: var(--accent); text-decoration: none; }
+  h1 { font-size: 2.15rem; line-height: 1.18; font-weight: 600; margin: 0 0 .7rem; letter-spacing: -.01em; }
+  .sub { color: var(--ink-soft); font-style: italic; margin: 0 0 3rem; font-size: 1.05rem; }
+  h2 { font-size: 1.3rem; font-weight: 600; margin: 3.6rem 0 1.1rem; line-height: 1.3; }
+  .label { font-size: .72rem; letter-spacing: .13em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin: 4rem 0 .8rem; }
+  p { margin: 0 0 1.3rem; }
+  em.key { font-style: normal; background: rgba(53,80,112,.1); padding: .05em .3em; border-radius: 2px; }
+  code { font-family: ui-monospace,'SF Mono',Menlo,monospace; font-size: .84em; background: var(--code-bg); padding: .1em .35em; border-radius: 3px; }
+  pre {
+    background: var(--code-bg); border: 1px solid var(--rule); border-radius: 5px;
+    padding: 1.1rem 1.2rem; overflow-x: auto; font-size: .82rem; line-height: 1.6;
+    font-family: ui-monospace,'SF Mono',Menlo,monospace; margin: 1.6rem 0;
+  }
+  pre code { background: none; padding: 0; font-size: 1em; }
+  pre .c { color: var(--ink-faint); font-style: italic; }
+  pre .hl { background: rgba(53,80,112,.13); border-radius: 2px; padding: .05em 0; }
+  pre .bad { color: #9c3b28; }
+  aside {
+    margin: 2rem 0 2rem 1.4rem; padding-left: 1.3rem;
+    border-left: 2px solid var(--rule); color: var(--ink-soft); font-size: .93rem;
+  }
+  aside p:last-child { margin-bottom: 0; }
+  aside b { color: var(--ink); font-weight: 600; }
+  details {
+    margin: 1.6rem 0; padding: .9rem 1.2rem; background: rgba(227,222,209,.32);
+    border: 1px solid var(--rule); border-radius: 5px;
+  }
+  details[open] { padding-bottom: .3rem; }
+  summary { cursor: pointer; font-weight: 600; color: var(--accent); font-size: .93rem; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: '▸ '; }
+  details[open] summary::before { content: '▾ '; }
+  details > *:not(summary) { margin-top: 1.1rem; }
+  .task { border-left: 3px solid var(--accent); padding: .2rem 0 .2rem 1.3rem; margin: 2.2rem 0; }
+  .task p:last-child { margin-bottom: 0; }
+  .task .q { font-weight: 600; }
+  table { border-collapse: collapse; width: 100%; font-size: .87rem; margin: 1.6rem 0; }
+  th, td { text-align: left; padding: .5rem .7rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-size: .7rem; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-faint); font-weight: 600; }
+  td code { font-size: .92em; }
+  hr.soft { border: 0; border-top: 1px solid var(--rule); margin: 4rem 0; }
+  .big {
+    font-size: 1.18rem; line-height: 1.5; margin: 2.5rem 0; padding: 1.4rem 0;
+    border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); font-weight: 600;
+  }
+  .next { font-size: .95rem; color: var(--ink-soft); }
+  .next a { color: var(--accent); }
+  figure { margin: 2.4rem 0; }
+  figcaption { font-size: .84rem; color: var(--ink-faint); text-align: center; margin-top: .8rem; font-style: italic; line-height: 1.5; }
+  svg { display: block; width: 100%; height: auto; }
+</style>
+
+<div class="col">
+
+<p class="crumb"><a href="index.html">← the ladder</a> &nbsp;·&nbsp; rung 01 of 07</p>
+
+<h1>A type is a set of values</h1>
+<p class="sub">One sentence. Everything else in this language is a consequence of it.</p>
+
+<p>
+  Rung 0 was all JavaScript — not a single type appeared. Today we add them, and I'm
+  going to make a claim that sounds far too simple to be worth a lesson:
+</p>
+
+<div class="big">
+  Every type in TypeScript is a set of values.<br>
+  <code style="font-size:.85em">extends</code> means ⊆.
+</div>
+
+<p>
+  That's the whole rung. If you take those two lines seriously — and I mean
+  <em>compute</em> with them, not nod at them — then <code>never</code>,
+  <code>unknown</code>, structural typing, why intersections give you <em>more</em>
+  properties, and half the error messages that will otherwise baffle you all stop being
+  facts to memorise. They become things you can work out at the desk.
+</p>
+
+<p>
+  But I don't want to hand you that. Let's break your Python instinct first, because
+  it's about to be wrong in a specific and interesting way.
+</p>
+
+<h2>What you currently believe a type is</h2>
+
+<p>
+  In Python, a type is a <em>class</em>. It's a thing an object <strong>is</strong>. And
+  membership is <strong>declared</strong> — an object is a <code>Dog</code> because it
+  was built by <code>Dog</code>, and you can ask it at runtime:
+</p>
+
+<pre><code><span class="c"># Python. Membership is a fact about the object's ancestry.</span>
+class Dog:
+    def __init__(self, name): self.name = name
+
+d = Dog("rex")
+isinstance(d, Dog)   <span class="c"># True — and Python can answer this</span>
+type(d).__name__     <span class="c"># 'Dog'</span></code></pre>
+
+<p>Now here's TypeScript. Read it and tell me what happens.</p>
+
+<pre><code>interface Dog {
+  name: string;
+}
+
+const thing = { name: "rex", legs: 4 };
+
+const d: Dog = thing;   <span class="c">// ← ?</span></code></pre>
+
+<div class="task">
+  <p class="q">Before you scroll. Does that last line compile?</p>
+  <p>
+    <code>thing</code> was never declared to be a <code>Dog</code>. It doesn't inherit
+    from anything. It has an extra property nobody asked for. Your Python head says
+    this is obviously an error. Commit to an answer.
+  </p>
+</div>
+
+<details>
+  <summary>It compiles. No error, no warning, no cast.</summary>
+  <p>
+    I ran it — TypeScript 5.9.3 with every strict flag on. Clean.
+  </p>
+  <p>
+    So whatever a <code>Dog</code> is, it is <em>not</em> "a thing built by the Dog
+    constructor." <code>thing</code> never heard of <code>Dog</code>. The two were
+    written by people who never met. And it's still a <code>Dog</code>.
+  </p>
+  <p>
+    You've seen this idea before, though — you just saw it as the exotic option rather
+    than the default. This is <code>typing.Protocol</code>. It's duck typing, promoted
+    from a runtime accident to a compile-time rule. <em>If it has the shape, it qualifies.</em>
+  </p>
+</details>
+
+<p>
+  Good. So membership isn't declared, it's <em>earned by shape</em>. That's called
+  <strong>structural typing</strong>, and it's the default here, not an opt-in.
+</p>
+
+<p>Which suggests a better theory: <em>a type is a shape — a set of required properties.</em></p>
+
+<p>That theory is also wrong. Here's what kills it:</p>
+
+<pre><code>type Color = "red" | "blue";
+
+const c: Color = "red";     <span class="c">// fine</span>
+const d: Color = "green";   <span class="bad">// Type '"green"' is not assignable to type 'Color'</span></code></pre>
+
+<div class="task">
+  <p class="q">What shape does <code>"red"</code> have?</p>
+  <p>
+    It's a string. It has no properties you care about. And yet <code>"red"</code> is a
+    <em>type</em> here — a type with, apparently, exactly one thing in it. If a type were
+    a shape, this line couldn't exist. So what is it?
+  </p>
+</div>
+
+<h2>The reframe</h2>
+
+<p>Stop asking what a type <em>is</em>. Ask what values it <em>contains</em>.</p>
+
+<table>
+  <tr><th>Type</th><th>The set of values it contains</th></tr>
+  <tr><td><code>string</code></td><td>every string. Infinitely many.</td></tr>
+  <tr><td><code>"red"</code></td><td>exactly one value: the string <code>"red"</code>.</td></tr>
+  <tr><td><code>"red" | "blue"</code></td><td>two values. The <code>|</code> is set union.</td></tr>
+  <tr><td><code>boolean</code></td><td>two values: <code>true</code> and <code>false</code>.</td></tr>
+  <tr><td><code>{ name: string }</code></td><td>every value that has a string <code>name</code>. Infinitely many, and most of them have other stuff too.</td></tr>
+  <tr><td><code>unknown</code></td><td>every value there is.</td></tr>
+  <tr><td><code>never</code></td><td>no values at all. The empty set.</td></tr>
+</table>
+
+<p>
+  Every row works. The theory survives literal types, object types, unions, and the two
+  weird ones at the bottom that nobody ever explains properly.
+</p>
+
+<p>
+  And notice <code>boolean</code>. If types are sets, then <code>boolean</code> isn't a
+  primitive at all — it's just <code>true | false</code>, a two-element set. That sounds
+  like a cute reframing. It isn't; it's literally true, and you can make TypeScript
+  admit it:
+</p>
+
+<pre><code>type OnlyTrue = Exclude&lt;boolean, false&gt;;
+
+const t1: OnlyTrue = true;    <span class="c">// fine</span>
+const t2: OnlyTrue = false;   <span class="bad">// Type 'false' is not assignable to type 'true'</span></code></pre>
+
+<p>
+  You just did set subtraction on a primitive type and got a smaller set back. That
+  isn't a metaphor for what the compiler does. It's what the compiler does.
+</p>
+
+<figure>
+<svg viewBox="0 0 600 330" role="img" aria-label="Nested boxes showing types as sets: unknown contains string and number; string contains the union red-or-blue, which contains red.">
+  <rect x="8" y="8" width="584" height="314" rx="10" fill="none" stroke="#9a9186" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="24" y="34" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#6b6155">unknown</text>
+  <text x="100" y="34" font-family="Georgia,serif" font-size="12" fill="#9a9186" font-style="italic">every value there is</text>
+
+  <rect x="36" y="52" width="268" height="248" rx="8" fill="rgba(53,80,112,.06)" stroke="#355070" stroke-width="1.5"/>
+  <text x="52" y="78" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#355070">string</text>
+
+  <rect x="62" y="98" width="216" height="180" rx="8" fill="rgba(53,80,112,.09)" stroke="#355070" stroke-width="1.5"/>
+  <text x="78" y="124" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#355070">"red" | "blue"</text>
+
+  <rect x="88" y="144" width="164" height="112" rx="8" fill="rgba(53,80,112,.16)" stroke="#355070" stroke-width="1.5"/>
+  <text x="104" y="170" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#2b2620">"red"</text>
+  <text x="104" y="192" font-family="Georgia,serif" font-size="11" fill="#6b6155" font-style="italic">one value</text>
+
+  <rect x="336" y="52" width="228" height="120" rx="8" fill="rgba(53,80,112,.06)" stroke="#355070" stroke-width="1.5"/>
+  <text x="352" y="78" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#355070">number</text>
+  <rect x="362" y="94" width="176" height="60" rx="8" fill="rgba(53,80,112,.16)" stroke="#355070" stroke-width="1.5"/>
+  <text x="378" y="122" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#2b2620">42</text>
+
+  <rect x="336" y="196" width="228" height="104" rx="8" fill="rgba(53,80,112,.06)" stroke="#355070" stroke-width="1.5"/>
+  <text x="352" y="222" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#355070">boolean</text>
+  <rect x="362" y="238" width="80" height="46" rx="8" fill="rgba(53,80,112,.16)" stroke="#355070" stroke-width="1.5"/>
+  <text x="378" y="267" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#2b2620">true</text>
+  <rect x="454" y="238" width="84" height="46" rx="8" fill="rgba(53,80,112,.16)" stroke="#355070" stroke-width="1.5"/>
+  <text x="470" y="267" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#2b2620">false</text>
+</svg>
+<figcaption>
+  Inner box ⊆ outer box. That relation is the entire type checker.<br>
+  <code>never</code> isn't drawn because it's the empty set — it sits inside
+  <em>every</em> box at once, which is exactly why it's assignable to all of them.
+</figcaption>
+</figure>
+
+<h2>The rule that does all the work</h2>
+
+<p>
+  Now the payoff. What is the type checker actually <em>doing</em> when it checks
+  <code>const x: B = a</code>?
+</p>
+
+<p>
+  It's asking one question: <em>is every value that could be in A also in B?</em> Is
+  A ⊆ B? If yes, the assignment is safe — whatever <code>a</code> turns out to hold at
+  runtime, it's a legal <code>B</code>. If no, there's at least one value that would
+  break the promise, so it errors.
+</p>
+
+<div class="big">
+  Assignability is subset. <code style="font-size:.85em">A</code> is assignable to
+  <code style="font-size:.85em">B</code> exactly when A ⊆ B.
+</div>
+
+<p>Which brings us to the question most people get backwards. Take your time on this one.</p>
+
+<pre><code>type Person = { name: string };
+type Employee = { name: string; salary: number };</code></pre>
+
+<div class="task">
+  <p class="q">Which is the subset? Answer before opening.</p>
+  <p>
+    Is <code>Employee</code> ⊆ <code>Person</code>, or <code>Person</code> ⊆
+    <code>Employee</code>? <code>Employee</code> has <em>more</em> properties — so is it
+    the bigger set or the smaller one?
+  </p>
+  <p>Then: which direction of assignment compiles?</p>
+</div>
+
+<details>
+  <summary>Employee is the SMALLER set</summary>
+  <p>
+    Count values, not properties. <code>Person</code> is <em>every value with a string
+    <code>name</code></em>. That includes <code>{name:"a"}</code>,
+    <code>{name:"a", salary:5}</code>, <code>{name:"a", legs:4}</code>, a dog, a
+    spaceship — anything at all, so long as it has a <code>name</code>.
+  </p>
+  <p>
+    <code>Employee</code> demands a <code>name</code> <em>and</em> a <code>salary</code>.
+    Every value that qualifies as an Employee also qualifies as a Person. But not the
+    reverse. So <strong>Employee ⊆ Person</strong>.
+  </p>
+  <p><em>Each property you add is another filter. More requirements, fewer survivors.</em></p>
+  <p>And so, by the subset rule, assignment runs the way sets say it must:</p>
+  <pre><code>declare const e: Employee;
+const p: Person = e;      <span class="c">// fine — Employee ⊆ Person</span>
+
+declare const p2: Person;
+const e2: Employee = p2;  <span class="bad">// error — Person ⊄ Employee (no salary)</span></code></pre>
+  <p>
+    Verified, both lines. And notice you now have a one-word answer for a question that
+    trips people up forever: <em>why can I pass a bigger object where a smaller one is
+    wanted?</em> Because the bigger object is the <strong>smaller set</strong>.
+  </p>
+</details>
+
+<p>
+  Hold onto that inversion, because it makes the next one predictable instead of insane.
+</p>
+
+<div class="task">
+  <p class="q">Two quick ones. Answer both, then open.</p>
+  <p>
+    <strong>1.</strong> <code>{ name: string } &amp; { age: number }</code> — the
+    <em>intersection</em>. Does the resulting type have more properties, or fewer?
+  </p>
+  <p>
+    <strong>2.</strong> <code>"red" | "blue"</code> versus <code>"red"</code> — which is
+    assignable to which?
+  </p>
+</div>
+
+<details>
+  <summary>Both fall out of set arithmetic</summary>
+  <p>
+    <strong>1. More properties.</strong> The intersection is the values that are in
+    <em>both</em> sets — things that have a <code>name</code> AND an <code>age</code>.
+    That's a smaller set, and smaller sets of object values are described by
+    <em>longer</em> property lists.
+  </p>
+  <p>
+    So <code>&amp;</code>, which reads like "and", produces a type with more fields, while
+    <code>|</code>, which reads like "or", produces a type with <em>fewer usable</em>
+    fields. That looks backwards right up until you stop thinking about properties and
+    start counting values. Then it's forced.
+  </p>
+  <pre><code>type Both = { name: string } &amp; { age: number };
+const b1: Both = { name: "x", age: 1 };   <span class="c">// fine</span>
+const b2: Both = { name: "x" };           <span class="bad">// error — missing age</span></code></pre>
+  <p>
+    <strong>2. <code>"red"</code> is assignable to <code>"red" | "blue"</code>,</strong>
+    not the other way. One element is a subset of two. A union is <em>wider</em> — less
+    specific, less useful, safer to receive and harder to satisfy.
+  </p>
+</details>
+
+<h2>Now derive the two strange ones yourself</h2>
+
+<p>
+  <code>never</code> and <code>unknown</code> get taught as trivia. They aren't. They're
+  the two boundary cases of a set lattice, and if you hold the sets idea you can derive
+  every one of their behaviours without being told.
+</p>
+
+<div class="task">
+  <p class="q">Reason these out. All four.</p>
+  <p><code>never</code> is the empty set ∅. <code>unknown</code> is the universal set 𝕌.</p>
+  <p><strong>1.</strong> Can you assign a <code>never</code> to a <code>string</code>?</p>
+  <p><strong>2.</strong> Can you assign anything at all to an <code>unknown</code>?</p>
+  <p><strong>3.</strong> Can you assign an <code>unknown</code> to a <code>string</code>?</p>
+  <p><strong>4.</strong> What type is <code>string &amp; number</code>?</p>
+</div>
+
+<details>
+  <summary>All four, straight from ⊆</summary>
+  <p>
+    <strong>1. Yes.</strong> ∅ ⊆ string — vacuously, since there's no counterexample to
+    find. So <code>never</code> is assignable to <em>every</em> type. It feels like a
+    special case in the compiler; it's just the empty set behaving normally.
+  </p>
+  <p>
+    <strong>2. Yes.</strong> Every set ⊆ 𝕌. So anything can be assigned to
+    <code>unknown</code>.
+  </p>
+  <p>
+    <strong>3. No.</strong> 𝕌 ⊄ string. Which is exactly why <code>unknown</code> is the
+    <em>safe</em> version of <code>any</code>: it accepts anything, then refuses to let
+    you do anything with it until you've proved what it is. That proof is narrowing —
+    rung 2, and it's the whole lesson.
+  </p>
+  <p>
+    <strong>4. <code>never</code>.</strong> No value is simultaneously a string and a
+    number, so the intersection is empty, and the empty set is <code>never</code>.
+    TypeScript will print <code>never</code> at you. That's not an error message; it's an
+    answer.
+  </p>
+  <p>All four verified.</p>
+</details>
+
+<p>
+  Look at what just happened. You didn't learn four facts about <code>never</code> and
+  <code>unknown</code>. You applied one rule four times. That's the difference the sets
+  idea buys, and it's the reason this rung exists.
+</p>
+
+<h2>The one that isn't a set</h2>
+
+<p>Which leaves <code>any</code>. Try to place it in the lattice:</p>
+
+<pre><code>declare const a: any;
+const s: string = a;   <span class="c">// fine</span>
+const n: number = a;   <span class="c">// fine</span>
+const back: any = "x"; <span class="c">// also fine</span></code></pre>
+
+<p>
+  <code>any</code> is assignable <em>to</em> everything and everything is assignable
+  <em>to</em> it. For a real set that's impossible — it would have to be both ∅ and 𝕌 at
+  once. So <code>any</code> isn't a set at all. It's a hole in the floor. It means
+  <em>stop checking</em>.
+</p>
+
+<p>
+  And that's why pi's own <code>AGENTS.md</code> says, flatly:
+  <em>"No <code>any</code> unless absolutely necessary."</em> Not style policing. Every
+  <code>any</code> is a place where the algebra stops running and the compiler quietly
+  agrees to guess. <code>unknown</code> is what you almost always wanted: same openness
+  at the door, no surrender of the guarantee.
+</p>
+
+<aside>
+  <p>
+    <b>The exception you'd otherwise think was a bug.</b> I told you
+    <code>Employee</code> ⊆ <code>Person</code> means you can assign one to the other.
+    True — but watch:
+  </p>
+  <pre><code>const ok: Person = employeeValue;                  <span class="c">// fine</span>
+const no: Person = { name: "x", salary: 5 };      <span class="bad">// error!</span></code></pre>
+  <p>
+    Same set relationship, different answer. Because the second is a <em>fresh object
+    literal</em>, written right there at the assignment, and those get an extra check
+    called <b>excess property checking</b>. Set-wise it's perfectly legal; TypeScript
+    rejects it anyway.
+  </p>
+  <p>
+    It's a deliberate exception, and a good one — a literal with a property the target
+    doesn't want is almost always a typo or a misremembered field name, not a clever use
+    of subtyping. But it <em>is</em> a lint rule bolted on top of the algebra, and it's
+    the one place where "types are sets" will seem to lie to you. Assign through a
+    variable and the exception disappears. I checked both.
+  </p>
+</aside>
+
+<h2>The part that will actually bite you</h2>
+
+<p>
+  Everything so far said the sets are real. Here's the twist, and it's the one thing on
+  this page your Python background will fight hardest.
+</p>
+
+<p>Compile this file:</p>
+
+<pre><code>interface Dog { name: string }
+type Color = "red" | "blue";
+
+const d: Dog = { name: "rex" };
+const c: Color = "red";</code></pre>
+
+<p>Here is the complete JavaScript that comes out the other side:</p>
+
+<pre><code>const d = { name: "rex" };
+const c = "red";</code></pre>
+
+<div class="big">
+  The types are gone. Not minified — <em>gone</em>. <code style="font-size:.85em">interface Dog</code>
+  compiles to zero bytes.
+</div>
+
+<p>
+  This is <strong>erasure</strong>, and it is the deepest difference between TypeScript's
+  types and yours. In Python your annotations survive into the running program. You can
+  read them with <code>typing.get_type_hints()</code>. That's not a curiosity — it's the
+  entire mechanism Pydantic runs on: it reads your class at runtime, sees
+  <code>name: str</code>, and builds a validator out of it.
+</p>
+
+<p>None of that is possible here. There is nothing left to read.</p>
+
+<div class="task">
+  <p class="q">So think about what that costs you, concretely.</p>
+  <p>
+    Your agent receives a JSON blob over the network — a tool call from the model. You
+    have an <code>interface ToolCall</code> describing its shape. Can you check the blob
+    against that interface at runtime?
+  </p>
+  <p>And if not, what do you have to do instead?</p>
+</div>
+
+<details>
+  <summary>No. And this is why pi is built the way it is.</summary>
+  <p>
+    You cannot. <code>interface ToolCall</code> doesn't exist at runtime, so there's
+    nothing to validate against. Types check the code <em>you</em> wrote; they say nothing
+    about bytes arriving from outside. That data enters as <code>unknown</code> and stays
+    dangerous until you narrow it.
+  </p>
+  <p>So you need two artifacts:</p>
+  <p>
+    <strong>1.</strong> a runtime value that describes the shape, so you can actually
+    validate — a JSON schema;<br>
+    <strong>2.</strong> a compile-time type of the same shape, so your editor helps you.
+  </p>
+  <p>
+    Write both by hand and they drift apart within a week — someone edits the schema, the
+    type still claims the old shape, and the compiler cheerfully agrees with the lie. The
+    fix is to write <em>one</em> and derive the other. That's exactly what pi does. From
+    <code>packages/agent/src/types.ts</code>, the very first import:
+  </p>
+  <pre><code>import type { Static, TSchema } from "typebox";</code></pre>
+  <p>
+    You define a schema — a real object, present at runtime, usable for validation — and
+    <code>Static&lt;typeof schema&gt;</code> computes the TypeScript type <em>from</em> it.
+    One source of truth, both worlds, no drift.
+  </p>
+  <p>
+    That is your Pydantic instinct, inverted to survive erasure. And <code>Static</code>
+    is rung 4, where you'll write your own.
+  </p>
+</details>
+
+<h2>Read the real thing</h2>
+
+<p>Three lines from pi. You have everything you need for all of them.</p>
+
+<pre><code><span class="c">// packages/ai/src/types.ts:82</span>
+export type ThinkingLevel = "minimal" | "low" | "medium" | "high" | "xhigh" | "max";
+
+<span class="c">// packages/ai/src/types.ts:83</span>
+export type ModelThinkingLevel = "off" | ThinkingLevel;
+
+<span class="c">// packages/ai/src/types.ts:393</span>
+export type StopReason =
+  "pending" | "stop" | "length" | "toolUse" | "error" | "aborted" | "deferred";</code></pre>
+
+<p>
+  <code>ThinkingLevel</code> is a six-element set. <code>ModelThinkingLevel</code> is that
+  set plus one more element — a union used as literal set addition, in production, to say
+  "a model may also be configured off, but you can't <em>ask</em> for off as an effort
+  level." Two types, one relationship, no duplication.
+</p>
+
+<p>Now the good one. This is the streaming event union, trimmed to its last two members:</p>
+
+<pre><code><span class="c">// packages/ai/src/types.ts:534-539</span>
+| { type: "done";
+    reason: Extract&lt;StopReason, "stop" | "length" | "toolUse" | "deferred"&gt;;
+    message: AssistantMessage }
+| { type: "error";
+    reason: Extract&lt;StopReason, "aborted" | "error"&gt;;
+    error: AssistantMessage }</code></pre>
+
+<div class="task">
+  <p class="q">Work it out. <code>Extract&lt;A, B&gt;</code> is set intersection.</p>
+  <p>
+    <code>StopReason</code> has seven members. The <code>done</code> event takes some,
+    the <code>error</code> event takes others. <strong>Count them. Which member is left
+    over, and why did they leave it out?</strong>
+  </p>
+</div>
+
+<details>
+  <summary>They partitioned the set, and the leftover is the point</summary>
+  <p>
+    <code>done</code> takes four: <code>stop</code>, <code>length</code>,
+    <code>toolUse</code>, <code>deferred</code>. <code>error</code> takes two:
+    <code>aborted</code>, <code>error</code>. Four plus two is six, out of seven.
+  </p>
+  <p>
+    The leftover is <strong><code>"pending"</code></strong>. And it's excluded on
+    purpose: <code>pending</code> means <em>still streaming</em>. A terminal event, by
+    definition, cannot be pending. So the type makes that unrepresentable — you could not
+    construct a <code>done</code> event with <code>reason: "pending"</code> if you tried.
+  </p>
+  <p>
+    Sit with what that means. There's a category of bug — a finished event claiming to be
+    unfinished — that cannot occur in this codebase. Not "is tested for." Cannot occur.
+    That was bought with set intersection, in two lines, and it costs nothing at runtime
+    because by then it's all been erased.
+  </p>
+  <p>
+    <em>That</em> is what the sets idea is for. Not passing a quiz on <code>never</code> —
+    making illegal states unbuildable.
+  </p>
+</details>
+
+<h2>Your turn</h2>
+
+<p>
+  Go to <a href="https://www.typescriptlang.org/play">typescriptlang.org/play</a>. Nothing
+  to install, errors show up as you type. We'll set up a local toolchain at rung 6, when
+  there's something to build.
+</p>
+
+<p>
+  Here's the technique I used to check every claim on this page, and it's worth stealing.
+  <code>// @ts-expect-error</code> on the line before an error means "I predict this
+  fails." If it <em>doesn't</em> fail, the compiler errors at you. So it turns a
+  prediction into a test — you can assert that something is illegal, which is normally
+  hard.
+</p>
+
+<p>Paste this in and replace each <code>___</code> with your prediction:</p>
+
+<pre><code>type A = { id: string };
+type B = { id: string; tag: "x" };
+
+<span class="c">// 1. one of these is legal, one is not. Which way round?</span>
+declare const a: A; declare const b: B;
+const t1: A = b;
+const t2: B = a;
+
+<span class="c">// 2. what type is this? hover it.</span>
+type Q = A &amp; B;
+
+<span class="c">// 3. and this one?</span>
+type R = ("x" | "y") &amp; ("y" | "z");
+
+<span class="c">// 4. predict, then check by hovering</span>
+type S = Exclude&lt;StopLike, "pending"&gt;;
+type StopLike = "pending" | "stop" | "error";
+
+<span class="c">// 5. why does the SECOND line fail and the first not?</span>
+declare const wide: { id: string; extra: number };
+const u1: A = wide;
+const u2: A = { id: "x", extra: 1 };</code></pre>
+
+<div class="task">
+  <p class="q">Then the one that proves you own it.</p>
+  <p>
+    Design a type for an agent's tool result with this rule enforced <em>by the type
+    system</em>: a result is either a success carrying <code>content: string</code>, or a
+    failure carrying <code>error: string</code>. It must be impossible to build one with
+    both, and impossible to build one with neither.
+  </p>
+  <p>
+    You have exactly the tools. If you find yourself writing
+    <code>content?: string; error?: string</code>, that's the wrong answer — work out why
+    before you look.
+  </p>
+</div>
+
+<details>
+  <summary>Why optional fields fail, and what to write instead</summary>
+  <p>
+    <code>{ content?: string; error?: string }</code> is one set containing
+    <em>four</em> kinds of value: content-only, error-only, both, and neither. You wanted
+    two. The two illegal states are sitting right there in your set, and every function
+    that touches this type has to check for cases you swore couldn't happen.
+  </p>
+  <p>What you want is the union of exactly the two legal sets:</p>
+  <pre><code>type ToolResult =
+  | { ok: true;  content: string }
+  | { ok: false; error: string };</code></pre>
+  <p>
+    Two members. Neither has the other's field. <code>{ok: true, error: "x"}</code> is not
+    in the set and will not compile. The count went from four to two, and the two you
+    deleted were exactly the bugs.
+  </p>
+  <p>
+    That shared <code>ok</code> field is the <strong>discriminant</strong> — the tag that
+    lets you tell which member you're holding. You've just invented the discriminated
+    union, which is how every message and every event in pi is modelled, and it's rung 2.
+    Notice you didn't need to be taught it. It fell out of counting values.
+  </p>
+</details>
+
+<hr class="soft">
+
+<p class="label">What you own now</p>
+
+<p>
+  A type is a set of values. <code>extends</code> is ⊆, and assignability is ⊆. Structural
+  typing because membership is shape, not ancestry. More properties means a smaller set,
+  so <code>&amp;</code> grows the field list and <code>|</code> shrinks what you may
+  safely touch. <code>never</code> = ∅ and <code>unknown</code> = 𝕌, with every one of
+  their behaviours derivable. <code>any</code> = not a set, a hole. And all of it erased
+  before the program runs, which is why validation at the boundary needs a schema that
+  exists at runtime.
+</p>
+
+<p>
+  One idea. Everything else was consequence. If you ever meet a type error you can't
+  explain, translate both sides into sets and ask which subset claim failed — that
+  question has an answer every single time.
+</p>
+
+<p class="label">Before you go — the honest part</p>
+
+<p>
+  Same warning as last rung, and it applies harder here because this lesson felt
+  <em>tidy</em>. Set diagrams are satisfying to read. That satisfaction is not the same
+  as being able to use the idea when a real error message is shouting at you in a file
+  you didn't write.
+</p>
+
+<p>
+  The <code>ToolResult</code> exercise is the one that matters. If you reached for
+  optional fields first, that's your Python-shaped instinct — and noticing it is worth
+  more than getting it right immediately.
+</p>
+
+<p>
+  <strong>Cold check for tomorrow.</strong> Without notes: why is
+  <code>{name, age}</code> assignable to <code>{name}</code> but not the reverse? Answer
+  it in terms of how many <em>values</em> are in each set, not how many properties. If
+  you reach for properties, the idea hasn't landed yet — reread the Employee reveal and
+  nothing else.
+</p>
+
+<hr class="soft">
+
+<p class="next">
+  <strong>Next — rung 02, <em>Narrowing is set arithmetic</em>.</strong> You built a
+  two-member union at the end there and gave it a tag. Now: you're holding a
+  <code>ToolResult</code> and you need the <code>content</code>. TypeScript won't let you
+  touch it — half the values in that set have no such field. So how do you shrink the set
+  at runtime, and how does the compiler <em>follow along</em> while you do it? That's
+  narrowing, and it ends with the trick where the leftover set being empty is what proves
+  you handled all twelve stream events.
+</p>
+
+<p class="crumb" style="margin-top:3rem"><a href="index.html">← back to the ladder</a></p>
+
+</div>

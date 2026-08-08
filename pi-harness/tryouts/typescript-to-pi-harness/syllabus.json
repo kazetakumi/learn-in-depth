@@ -30,7 +30,7 @@
       "payoff": "The Promise, derived rather than defined. And the seed of the whole harness: an LLM response is the ultimate not-yet.",
       "depends_on": [],
       "lesson": "00-the-machine-underneath.html",
-      "status": "current"
+      "status": "done"
     },
     {
       "id": "01",
@@ -40,7 +40,8 @@
       "payoff": "Structural typing, `never` as ∅, `unknown` as 𝕌, and erasure — why TS types cannot be inspected at runtime the way Python's can.",
       "depends_on": ["00"],
       "lesson": "01-types-are-sets.html",
-      "status": "planned"
+      "status": "current",
+      "verified": "All 10 type-algebra claims in this lesson checked against tsc 5.9.3 --strict via @ts-expect-error harness. Includes the excess-property (freshness) exception."
     },
     {
       "id": "02",
