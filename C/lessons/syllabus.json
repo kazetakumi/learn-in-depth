@@ -12,7 +12,7 @@
       "payoff": "The four stages made visible - preprocess, compile, assemble, link - each one stopped and read. #include turns out to be a literal paste. The shell and the filesystem as the room the program lives in. Why C had to be invented.",
       "depends_on": [],
       "lesson": "00-nothing-is-running.html",
-      "status": "current"
+      "status": "done"
     },
     {
       "id": "01-bytes-and-lenses",
@@ -20,9 +20,11 @@
       "hook": "These four bytes are the number 1078530011. They are also 3.14159. Which one are they really?",
       "owns": "Rung 0: the machine holds nothing but bytes, and the compiler is only a translator.",
       "payoff": "Addresses, sizeof, the integer and character types, ASCII as plain numbers, hex and binary, endianness, signed vs unsigned, overflow, fixed-width types from <stdint.h>, casting and implicit promotion - and the debugger, learned here because from now on the subject is invisible.",
-      "depends_on": ["00-nothing-is-running"],
+      "depends_on": [
+        "00-nothing-is-running"
+      ],
       "lesson": "01-bytes-and-lenses.html",
-      "status": "planned"
+      "status": "current"
     },
     {
       "id": "02-floating-point",
@@ -30,7 +32,9 @@
       "hook": "0.1 + 0.2 == 0.3 is false. Not a bug, not a quirk to shrug at - a consequence of how you yourself would design fractions in binary.",
       "owns": "Rung 1: a type is an agreement about how to read bytes.",
       "payoff": "IEEE 754, sign/exponent/mantissa, why equality on floats is a bug, epsilon comparison, float vs double, NaN and infinity, catastrophic cancellation.",
-      "depends_on": ["01-bytes-and-lenses"],
+      "depends_on": [
+        "01-bytes-and-lenses"
+      ],
       "lesson": "02-floating-point.html",
       "status": "planned"
     },
@@ -40,7 +44,9 @@
       "hook": "What does i = i++ + 1; do? The honest answer is not 'it depends on your compiler'. It is stranger than that, and it is why C is fast.",
       "owns": "Rungs 1-2: types are agreements, and agreements can be silent about cases.",
       "payoff": "Undefined vs unspecified vs implementation-defined behaviour. Expressions have values, so = works inside if. Precedence, short-circuit, sequence points, integer division. All of control flow - if/else, switch and its fallthrough, the three loops, break, continue, goto, ternary - falls out as practice ground.",
-      "depends_on": ["02-floating-point"],
+      "depends_on": [
+        "02-floating-point"
+      ],
       "lesson": "03-the-contract.html",
       "status": "planned"
     },
@@ -50,7 +56,9 @@
       "hook": "Write a function that swaps two variables. Go on. You cannot - not with everything you know so far. Watch the failure force pointers into existence.",
       "owns": "Rung 1 (memory is numbered) and rung 3 (arguments are copies).",
       "payoff": "& and *, why pointers have types at all, NULL, passing by pointer, out-parameters, and finally why scanf needs that &.",
-      "depends_on": ["03-the-contract"],
+      "depends_on": [
+        "03-the-contract"
+      ],
       "lesson": "04-pointers.html",
       "status": "planned"
     },
@@ -60,7 +68,9 @@
       "hook": "a[i] is not a lookup. It is arithmetic. Proof: i[a] compiles, and works.",
       "owns": "Rung 4: an address is a value you can do arithmetic on.",
       "payoff": "Decay, pointer arithmetic scaled by the pointed-to type, why arrays start at zero, the sizeof trap inside a function, two-dimensional arrays and row-major order, arrays of pointers versus arrays of arrays, argv, and how to read a declaration like char *(*f[])().",
-      "depends_on": ["04-pointers"],
+      "depends_on": [
+        "04-pointers"
+      ],
       "lesson": "05-no-arrays.html",
       "status": "planned"
     },
@@ -70,7 +80,9 @@
       "hook": "char *s = \"hi\"; s[0] = 'H'; crashes. char s[] = \"hi\"; s[0] = 'H'; does not. The two lines look the same and live in different universes.",
       "owns": "Rung 5: an array is an address, and indexing is arithmetic.",
       "payoff": "The NUL terminator as the entire design, string literals in read-only memory, why strlen is O(n), how strcpy overflows, the lie in strncpy, sizing buffers, <string.h>, and the architect's critique - why C strings were a mistake and what length-prefixed designs do instead. Wide characters and Unicode as the coda.",
-      "depends_on": ["05-no-arrays"],
+      "depends_on": [
+        "05-no-arrays"
+      ],
       "lesson": "06-strings.html",
       "status": "planned"
     },
@@ -80,7 +92,9 @@
       "hook": "Return a pointer to a local variable. It compiles. It even works - sometimes. That word 'sometimes' is the whole lesson.",
       "owns": "Rungs 4-5: you can take the address of anything, including something about to disappear.",
       "payoff": "Frames, call and return read in the compiler's own assembly output, automatic storage duration, recursion, scope versus lifetime versus linkage, static, block structure, and what a stack overflow actually is.",
-      "depends_on": ["06-strings"],
+      "depends_on": [
+        "06-strings"
+      ],
       "lesson": "07-the-stack.html",
       "status": "planned"
     },
@@ -90,7 +104,9 @@
       "hook": "Run the same program twice at once. Both print the same address for the same variable. They are not fighting over it. Why not?",
       "owns": "Rung 7: every running function occupies real addresses.",
       "payoff": "The process address space - text, data, bss, heap, stack - virtual addresses mapped to physical ones, why a wild pointer segfaults instead of corrupting the program next door, and what a segmentation fault actually is.",
-      "depends_on": ["07-the-stack"],
+      "depends_on": [
+        "07-the-stack"
+      ],
       "lesson": "08-virtual-memory.html",
       "status": "planned"
     },
@@ -100,7 +116,9 @@
       "hook": "You need an array whose size you only learn while the program is running. The stack cannot help you.",
       "owns": "Rungs 7-8: the stack's discipline is automatic, and that is exactly its limitation.",
       "payoff": "malloc, calloc, realloc, free. Ownership as a contract you document because the compiler will not. Leaks, dangling pointers, double frees, use-after-free - and valgrind and AddressSanitizer as the instruments that find them. Growable arrays. Then you write your own allocator.",
-      "depends_on": ["08-virtual-memory"],
+      "depends_on": [
+        "08-virtual-memory"
+      ],
       "lesson": "09-the-heap.html",
       "status": "planned"
     },
@@ -110,7 +128,9 @@
       "hook": "struct { char c; int i; } is one byte plus four. Measure it: eight. Who put the other three there, and why?",
       "owns": "Rung 1 (bytes have layout) and rung 9 (you can allocate any shape).",
       "payoff": "Dot and arrow, arrays of structs, structs through functions, typedef, padding and alignment and how to control them, union, enum, bit-fields, a real TCP header laid out by hand, and flexible array members.",
-      "depends_on": ["09-the-heap"],
+      "depends_on": [
+        "09-the-heap"
+      ],
       "lesson": "10-structs.html",
       "status": "planned"
     },
@@ -120,7 +140,9 @@
       "hook": "A struct cannot contain itself. But it can point to itself. That single loophole is every data structure ever built.",
       "owns": "Rungs 9-10: shapes you allocate, and pointers between them.",
       "payoff": "Singly and doubly linked lists, binary search trees, hash tables - built and tested rather than described. Big-O met honestly, including where it lies.",
-      "depends_on": ["10-structs"],
+      "depends_on": [
+        "10-structs"
+      ],
       "lesson": "11-self-referential.html",
       "status": "planned"
     },
@@ -130,7 +152,9 @@
       "hook": "You wrote a list of int. Now you need a list of struct Employee. Copy the whole file? C has no templates. So what on earth is qsort?",
       "owns": "Rungs 10-11: you can build a container, but only for one type at a time.",
       "payoff": "void *, memcpy, carrying the element size, comparison functions passed as pointers, qsort and bsearch understood rather than invoked, a generic Vector built from scratch - and an honest account of the type safety you surrender.",
-      "depends_on": ["11-self-referential"],
+      "depends_on": [
+        "11-self-referential"
+      ],
       "lesson": "12-generics.html",
       "status": "planned"
     },
@@ -140,7 +164,9 @@
       "hook": "obj.method() - what if method is just a field, and the field happens to hold a function?",
       "owns": "Rung 12: functions are values you can store and pass.",
       "payoff": "Function pointers inside structs, the self pointer, encapsulation, vtables, inheritance and polymorphism assembled by hand, iterators - and the finale, Python's string, list and dictionary rebuilt in C.",
-      "depends_on": ["12-generics"],
+      "depends_on": [
+        "12-generics"
+      ],
       "lesson": "13-objects.html",
       "status": "planned"
     },
@@ -150,7 +176,9 @@
       "hook": "Two .c files, one program. The compiler never sees them together. So who joins them - and what does it actually know about your function?",
       "owns": "Rung 0 (the pipeline) and rung 7 (linkage).",
       "payoff": "Translation units, declaration versus definition, headers and include guards, extern and static as linkage, the preprocessor in full including its traps, object files, ar archives, static .a versus dynamic .so, dlopen, and make.",
-      "depends_on": ["13-objects"],
+      "depends_on": [
+        "13-objects"
+      ],
       "lesson": "14-the-linker.html",
       "status": "planned"
     },
@@ -160,7 +188,9 @@
       "hook": "FILE *fp = fopen(...). You have used FILE since your first program. Quick - name one of its fields. You cannot, and that is deliberate.",
       "owns": "Rungs 10 and 14: a struct is a shape, and a header is a promise.",
       "payoff": "struct Foo; declared with no body in the header, defined only in the .c. Modules, information hiding, abstract data types, const as a contract, and designing an interface you can change later without breaking a single caller. The architect's rung.",
-      "depends_on": ["14-the-linker"],
+      "depends_on": [
+        "14-the-linker"
+      ],
       "lesson": "15-opaque-pointer.html",
       "status": "planned"
     },
@@ -170,7 +200,9 @@
       "hook": "printf is not magic. It is a buffer, and eventually one system call.",
       "owns": "Rungs 6, 9 and 14: strings, buffers, and libraries.",
       "payoff": "Streams, stdin/stdout/stderr, fopen and friends, formatted I/O properly understood, varargs and writing your own printf, buffering and why output vanishes in a crash, file descriptors, open/read/write/lseek - then implementing fopen and getc yourself. The small-tools discipline: redirection and pipes as design. Plus the standard library worth knowing.",
-      "depends_on": ["15-opaque-pointer"],
+      "depends_on": [
+        "15-opaque-pointer"
+      ],
       "lesson": "16-everything-is-a-file.html",
       "status": "planned"
     },
@@ -180,7 +212,9 @@
       "hook": "malloc returns NULL. There is nothing to catch. Every C API you will ever design is shaped by that one fact.",
       "owns": "Rungs 9, 15 and 16: allocation fails, interfaces are promises, and I/O fails constantly.",
       "payoff": "Return codes versus sentinels versus out-parameters, errno, perror and strerror, assert, the goto cleanup idiom and why it is correct here, setjmp and longjmp, defensive programming, debug macros, and unit tests that prove the failure paths work.",
-      "depends_on": ["16-everything-is-a-file"],
+      "depends_on": [
+        "16-everything-is-a-file"
+      ],
       "lesson": "17-failure-is-data.html",
       "status": "planned"
     },
@@ -190,7 +224,9 @@
       "hook": "gets() sat in the standard library for twenty-five years. It has since been formally deleted - the only function ever removed from C. Here is what it let people do.",
       "owns": "Rungs 5, 6 and 7: arrays are unchecked arithmetic, and the stack holds the return address.",
       "payoff": "Stack layout and the return address, buffer overflow and stack smashing performed deliberately, format-string bugs, integer overflow, off-by-one, strcpy versus strncpy versus snprintf, stack canaries, ASLR, and writing code that is not vulnerable in the first place.",
-      "depends_on": ["17-failure-is-data"],
+      "depends_on": [
+        "17-failure-is-data"
+      ],
       "lesson": "18-security.html",
       "status": "planned"
     },
@@ -200,7 +236,9 @@
       "hook": "ls | grep c - two programs, one conversation. Who is holding the pipe?",
       "owns": "Rungs 8 and 16: each process has its own address space, and I/O goes through descriptors.",
       "payoff": "Processes, fork, exec, wait and exit status, pipes, dup2 and how redirection really works, signals and sigaction, the environment.",
-      "depends_on": ["18-security"],
+      "depends_on": [
+        "18-security"
+      ],
       "lesson": "19-processes.html",
       "status": "planned"
     },
@@ -210,7 +248,9 @@
       "hook": "A socket looks like a file. You read and write it like a file. So why can it fail in ways a file never does?",
       "owns": "Rungs 16 and 19: descriptors, and processes that outlive a single request.",
       "payoff": "Sockets, bind/listen/accept/connect, getaddrinfo, a working server and client, why the naive server serves one client at a time and the three ways out, partial reads and short writes, byte order on the wire.",
-      "depends_on": ["19-processes"],
+      "depends_on": [
+        "19-processes"
+      ],
       "lesson": "20-networking.html",
       "status": "planned"
     },
@@ -220,7 +260,9 @@
       "hook": "Two threads increment one counter a million times each. The answer is not two million. Where did the increments go?",
       "owns": "Rungs 8 and 19: processes are isolated - threads deliberately are not.",
       "payoff": "pthreads, race conditions seen rather than described, mutexes, condition variables, semaphores, deadlock, what thread-safety means as an API property, the narrow real meaning of volatile, and atomics.",
-      "depends_on": ["20-networking"],
+      "depends_on": [
+        "20-networking"
+      ],
       "lesson": "21-threads.html",
       "status": "planned"
     },
@@ -230,7 +272,9 @@
       "hook": "A linked list and an array both walk n elements. One of them is ten times slower. Big-O says they are the same. Big-O is not lying - it is answering a different question.",
       "owns": "Rungs 10-11 (layout) and 8 (memory is a hierarchy, not a flat street after all).",
       "payoff": "Cache lines and locality, the memory hierarchy, why array-of-structs and struct-of-arrays perform differently, measuring before optimising, profilers, and reading the assembly to see what the optimiser did.",
-      "depends_on": ["21-threads"],
+      "depends_on": [
+        "21-threads"
+      ],
       "lesson": "22-performance.html",
       "status": "planned"
     },
@@ -240,7 +284,9 @@
       "hook": "Redis needed strings. C already has strings. They wrote their own anyway - and put the length at the front. You now know enough to say whether they were right.",
       "owns": "Everything from rungs 0-22.",
       "payoff": "Reading production C as an architect reads it: sds in Redis, the virtual file system layer in SQLite, the object model in CPython. Finding the design decision behind each choice, naming the constraint that forced it, and arguing with it.",
-      "depends_on": ["22-performance"],
+      "depends_on": [
+        "22-performance"
+      ],
       "lesson": "23-reading-real-c.html",
       "status": "planned"
     },
@@ -250,7 +296,9 @@
       "hook": "Guido had linked lists available. He chose an array of pointers. Why?",
       "owns": "Rungs 11, 12, 22 and 23.",
       "payoff": "CPython's list as a dynamic array with amortised growth, its dict as open addressing with linear probing and a load factor, the compact ordered layout that arrived in 3.7 - and cache locality beating asymptotics one more time, now with the evidence.",
-      "depends_on": ["23-reading-real-c"],
+      "depends_on": [
+        "23-reading-real-c"
+      ],
       "lesson": "24-cpython-epilogue.html",
       "status": "planned"
     },
@@ -260,7 +308,9 @@
       "hook": "Everything above was practice. Now build one real thing, and defend every decision in it.",
       "owns": "The whole ladder.",
       "payoff": "One multi-file program of your choosing: layered modules behind opaque types, a Makefile, unit tests covering the failure paths, deliberate error handling, real file I/O, and not one byte leaked under valgrind.",
-      "depends_on": ["24-cpython-epilogue"],
+      "depends_on": [
+        "24-cpython-epilogue"
+      ],
       "lesson": "25-capstone.html",
       "status": "planned"
     }

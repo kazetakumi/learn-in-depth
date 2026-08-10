@@ -36,10 +36,10 @@
 <body><div class="wrap">
 <h1>C, from zero to architect</h1>
 <p class="sub">Design and build real multi-file C programs with the judgment of an architect: choose data layouts from cache behaviour, hide implementation behind opaque types, encode failure deliberately, manage every allocation&#x27;s lifetime, and defend the code against the attacks C&#x27;s missing bounds check invites.</p>
-<div class="status">You are here: <b>Rung 00 of 25 — Nothing is running your program</b> &nbsp;·&nbsp; 0 of 26 done</div>
+<div class="status">You are here: <b>Rung 01 of 25 — Memory is one long street; a type is a pair of glasses</b> &nbsp;·&nbsp; 1 of 26 done</div>
 <h2 class="part">Ground</h2>
-<article class="rung current"><div class="num">00<span class="mark">▶</span></div><div class="body"><h3><a href="00-nothing-is-running.html">Nothing is running your program</a></h3><p>You write printf(&quot;hi&quot;). In Python something is already there, waiting, ready to read your line. In C there is nothing at all. So what turns your text into a thing that runs?</p></div></article>
-<article class="rung planned"><div class="num">01<span class="mark"></span></div><div class="body"><h3><span>Memory is one long street; a type is a pair of glasses</span></h3><p>These four bytes are the number 1078530011. They are also 3.14159. Which one are they really?</p></div></article>
+<article class="rung done"><div class="num">00<span class="mark">✓</span></div><div class="body"><h3><a href="00-nothing-is-running.html">Nothing is running your program</a></h3><p>You write printf(&quot;hi&quot;). In Python something is already there, waiting, ready to read your line. In C there is nothing at all. So what turns your text into a thing that runs?</p></div></article>
+<article class="rung current"><div class="num">01<span class="mark">▶</span></div><div class="body"><h3><a href="01-bytes-and-lenses.html">Memory is one long street; a type is a pair of glasses</a></h3><p>These four bytes are the number 1078530011. They are also 3.14159. Which one are they really?</p></div></article>
 <article class="rung planned"><div class="num">02<span class="mark"></span></div><div class="body"><h3><span>Floating point is not the number line</span></h3><p>0.1 + 0.2 == 0.3 is false. Not a bug, not a quirk to shrug at - a consequence of how you yourself would design fractions in binary.</p></div></article>
 <article class="rung planned"><div class="num">03<span class="mark"></span></div><div class="body"><h3><span>The contract has holes</span></h3><p>What does i = i++ + 1; do? The honest answer is not &#x27;it depends on your compiler&#x27;. It is stranger than that, and it is why C is fast.</p></div></article>
 <h2 class="part">Indirection</h2>

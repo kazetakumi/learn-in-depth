@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rung 1 · Memory is one long street; a type is a pair of glasses</title>
+<style>
+  :root { --paper:#fbfaf6; --ink:#2b2620; --accent:#355070; --rule:#e2ddd0;
+          --mute:#7d746a; --code:#f3f0e8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+    font-family:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    font-size:19px; line-height:1.7; }
+  .wrap { max-width:640px; margin:0 auto; padding:4rem 1.5rem 9rem; }
+  .crumb { font-size:.8rem; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--accent); margin:0 0 1.6rem; }
+  .crumb a { color:var(--accent); text-decoration:none; border-bottom:1px solid #c3d0dd; }
+  h1 { font-size:2.15rem; line-height:1.18; font-weight:normal; margin:0 0 2.2rem;
+    letter-spacing:-.01em; }
+  h2 { font-size:1.28rem; font-weight:normal; margin:3.6rem 0 1.1rem; line-height:1.3; }
+  h2 .n { color:var(--accent); font-size:.78rem; letter-spacing:.14em;
+    text-transform:uppercase; display:block; margin-bottom:.5rem; }
+  p { margin:0 0 1.25rem; }
+  .lead { font-size:1.12rem; }
+  code { background:var(--code); padding:.12rem .34rem; border-radius:2px;
+    font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace; font-size:.82em; }
+  pre { background:var(--code); padding:1.05rem 1.2rem; border-radius:3px; overflow-x:auto;
+    font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace; font-size:.78rem;
+    line-height:1.55; margin:0 0 1.35rem; }
+  pre code { background:none; padding:0; font-size:1em; }
+  aside { margin:1.6rem 0 1.6rem 1.1rem; padding-left:1.3rem;
+    border-left:2px solid var(--rule); font-size:.94rem; color:#544d45; }
+  aside p { margin-bottom:.8rem; }
+  aside p:last-child { margin-bottom:0; }
+  aside .lab { display:block; font-size:.72rem; letter-spacing:.13em; text-transform:uppercase;
+    color:var(--mute); margin-bottom:.45rem; }
+  .ask { border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+    padding:1.4rem 0; margin:2.2rem 0; }
+  .ask p:last-child { margin-bottom:0; }
+  .ask .lab { display:block; font-size:.72rem; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--accent); margin-bottom:.7rem; }
+  details { margin:0 0 1.35rem; }
+  details summary { cursor:pointer; font-size:.87rem; color:var(--accent);
+    padding:.42rem 0; list-style:none; border-bottom:1px dashed #c3d0dd; display:inline-block; }
+  details summary::-webkit-details-marker { display:none; }
+  details summary::before { content:"▸ "; }
+  details[open] summary::before { content:"▾ "; }
+  details[open] summary { margin-bottom:1.1rem; }
+  figure { margin:2.4rem 0; }
+  figcaption { font-size:.85rem; color:var(--mute); margin-top:.7rem; text-align:center; }
+  .turn { margin-top:4.5rem; padding-top:2rem; border-top:2px solid var(--rule); }
+  .mutenote { font-size:.84rem; color:var(--mute); margin:-.9rem 0 1.35rem; }
+  .end { margin-top:4rem; padding-top:1.6rem; border-top:1px solid var(--rule);
+    font-size:.95rem; color:#544d45; }
+  b { font-weight:600; }
+  svg { max-width:100%; height:auto; display:block; margin:0 auto; }
+</style></head>
+<body><div class="wrap">
+
+<p class="crumb"><a href="index.html">C, from zero to architect</a> · Rung 1</p>
+
+<h1>Memory is one long street; a type is a pair of&nbsp;glasses</h1>
+
+<p class="lead">Here are four bytes. I got them out of my computer's memory a
+moment ago, and I've written each one in hexadecimal:</p>
+
+<pre><code>db  0f  49  40</code></pre>
+
+<p>My question is simple, and it has no trick in it. <b>What number is
+that?</b></p>
+
+<p>Take a moment with it, because the answer is going to reorganise how you
+think about every variable you will ever declare.</p>
+
+<h2><span class="n">Two answers</span>Both correct. Neither is more correct.</h2>
+
+<p>Here is a program that puts those four bytes into memory once, and then
+reads the same four bytes twice — first through an <code>int</code>, then
+through a <code>float</code>. Nothing is converted. Nothing is recomputed. The
+bytes are not touched between the two readings.</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+int main(void) {
+    int   i = 1078530011;
+    float f;
+    memcpy(&amp;f, &amp;i, 4);        /* copy the four bytes, unchanged */
+
+    printf("as int:   %d\n", i);
+    printf("as float: %f\n", f);
+    return 0;
+}</code></pre>
+
+<pre><code>$ cc -Wall reinterpret.c -o reinterpret &amp;&amp; ./reinterpret
+as int:   1078530011
+as float: 3.141593</code></pre>
+
+<p>One thousand and seventy-eight million. And also π. The same four bytes.</p>
+
+<p>So the honest answer to "what number is that?" is: <b>the bytes do not
+know.</b> They are not a number at all. They are a pattern of on and off, and a
+number is what you get when somebody decides how to read them.</p>
+
+<h2><span class="n">The question that follows</span>Then who remembers what type it was?</h2>
+
+<p>This is where the previous rung pays for itself, so let's use it.</p>
+
+<p>You established last time that once your program is running, <b>nothing is
+there</b>. The compiler translated your text into machine bytes and exited. No
+interpreter, no supervisor, no runtime is present while your program
+executes.</p>
+
+<div class="ask">
+<span class="lab">Reason it through before reading on</span>
+<p>Nothing is watching at runtime. Memory holds nothing but bytes. So when your
+program is halfway through running and there is a variable sitting in memory —
+<b>where is the information that it's an <code>int</code> rather than a
+<code>float</code>?</b></p>
+<p>Which part of the machine is holding onto that fact?</p>
+</div>
+
+<details><summary>The answer, and it is the crux of this rung</summary>
+<p><b>Nowhere. Nothing is holding onto it. The information is gone.</b></p>
+<p>The type existed in one place only: the compiler's notes, during
+translation. The compiler used it to decide how many bytes to set aside and
+which machine instructions to emit — integer addition or floating-point
+addition, a 4-byte load or an 8-byte load. Then it wrote those instructions
+down and exited, and the type went with it.</p>
+<p>What survives into the running program is bytes and instructions. Not one
+bit of memory anywhere records "these four bytes are an int."</p>
+</details>
+
+<p>So here is the sentence to carry out of this rung:</p>
+
+<p style="margin:2rem 0;padding-left:1.2rem;border-left:3px solid var(--accent);
+font-size:1.06rem;"><b>A type is not a property of the bytes. It is a lens —
+an instruction to the compiler about how many bytes to take and how to read
+them.</b></p>
+
+<p>Every confusing thing in this lesson, and a surprising number in the rest of
+the course, is a consequence of that one sentence. When two lenses disagree
+about the same bytes, C does not stop you. There is nobody there to stop
+you.</p>
+
+<h2><span class="n">Build the instrument</span>You cannot study what you cannot see</h2>
+
+<p>From here on, the subject of this course is invisible. Bytes in memory have
+no appearance. So before we go further, we build something to look at them —
+about eight lines, and you will use it for the rest of your life in C.</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+
+void dump(const char *label, const void *p, size_t n) {
+    const unsigned char *b = p;
+    printf("%-22s", label);
+    for (size_t i = 0; i &lt; n; i++)
+        printf("%02x ", b[i]);
+    printf("\n");
+}</code></pre>
+
+<p>Don't worry about <code>const void *</code> or the cast — that's rungs 4
+and 5, and the function will still work while you don't understand its
+signature. What it does is the point: <b>given the location of anything at all,
+print <code>n</code> bytes starting there, in hexadecimal.</b> It doesn't care
+what type you thought you had. It reads raw.</p>
+
+<p>Now put it to work.</p>
+
+<div class="ask">
+<span class="lab">Predict — and be specific</span>
+<p>We store the integer <code>1</code> in an <code>int</code>, which occupies
+four bytes, and dump all four.</p>
+<pre><code>int one = 1;
+dump("int 1:", &amp;one, 4);</code></pre>
+<p><b>Write down the four bytes you expect to see</b>, in order, before you
+run it.</p>
+</div>
+
+<details><summary>What actually comes out</summary>
+<pre><code>int 1:                01 00 00 00</code></pre>
+<p>If you predicted <code>00 00 00 01</code> — the way you'd write the number
+on paper, with the small end last — you predicted the same thing almost
+everyone does, and you were wrong in an interesting way.</p>
+</details>
+
+<h2><span class="n">The surprise</span>The small end comes first</h2>
+
+<p>Your machine stores the least significant byte at the lowest address. The
+number one is <code>01</code> followed by three zeros, not three zeros followed
+by <code>01</code>. This is called <b>little-endian</b> ordering, and it is
+what your Mac, and essentially every desktop and phone processor you will meet,
+does.</p>
+
+<p>It looks backwards, and it isn't arbitrary. Consider what it buys you.</p>
+
+<p>Suppose you have an 8-byte number sitting at some address, and you want to
+read just its bottom four bytes as a smaller integer. On a little-endian
+machine, the bottom four bytes are <em>the first four bytes</em> — you read
+from the same address, you just take fewer. Nothing moves. On a big-endian
+machine you'd have to start four bytes further along. Arithmetic likes it for
+the same reason: addition carries from the small end upward, so processing
+memory in increasing address order processes the number in the order the carry
+travels.</p>
+
+<aside>
+<span class="lab">Where this will bite you</span>
+<p>Little-endian is a choice your processor made, not a law. Network protocols
+settled on the opposite order — which is why it's called <em>network byte
+order</em> — so the moment you send a number over a socket or write it into a
+file that another machine will read, the two ends disagree about which byte
+comes first. That's rung 20, and this is why it exists.</p>
+<p>Look back at the four bytes at the top of this lesson: <code>db 0f 49
+40</code>. Written the way a human would, most-significant first, that's
+<code>0x40490fdb</code> — the number 1078530011. You were reading it
+backwards the whole time.</p>
+</aside>
+
+<h2><span class="n">How wide is each lens</span>sizeof</h2>
+
+<p>If a type says how many bytes to take, you should be able to ask how many.
+The operator is <code>sizeof</code>, and it answers in bytes. On your
+machine:</p>
+
+<pre><code>char         1   short        2
+int          4   long         8
+long long    8   float        4
+double       8   void *       8</code></pre>
+
+<p>Two things worth noticing.</p>
+
+<p>First, <code>sizeof</code> is not a function. It's resolved <em>during
+translation</em> — by the time your program runs, <code>sizeof(int)</code> has
+already been replaced by the constant 4. Which follows from the crux: the size
+is part of the lens, and lenses live at compile time.</p>
+
+<p>Second, and this is the one that matters for an architect: <b>these numbers
+are not guaranteed.</b> The standard promises almost nothing — that
+<code>char</code> is 1, and that the sequence <code>short</code> ≤
+<code>int</code> ≤ <code>long</code> ≤ <code>long long</code> never decreases.
+That's close to all. An <code>int</code> is 4 bytes here; it has been 2 on
+machines that shipped in enormous numbers, and <code>long</code> is 8 here but
+4 on Windows today.</p>
+
+<div class="ask">
+<span class="lab">Think like an architect for a moment</span>
+<p>You're writing a program that saves data to a file, and another program —
+possibly on a different kind of computer — will read that file back. You need a
+field that is exactly 32 bits wide, on every machine, forever.</p>
+<p><b>Can you write that with <code>int</code>?</b> If not, what would you
+want the language to give you?</p>
+</div>
+
+<details><summary>What you want, and it exists</summary>
+<p>You cannot use <code>int</code>, because <code>int</code> means "whatever
+this machine finds natural," and that is exactly the wrong promise. What you
+want is a type that names the width instead of the machine. Include
+<code>&lt;stdint.h&gt;</code> and you get precisely that:</p>
+<pre><code>#include &lt;stdint.h&gt;
+
+int32_t   count;     /* exactly 32 bits, signed */
+uint8_t   flags;     /* exactly 8 bits, unsigned */
+uint64_t  offset;    /* exactly 64 bits, unsigned */</code></pre>
+<p>The rule that follows: <b>use <code>int</code> when the number is just a
+number — a loop counter, a size you'll never store. Use the fixed-width types
+the moment the bytes leave your program</b> — a file, a network packet, a
+hardware register. Anywhere the layout is part of an agreement with someone
+else.</p>
+<p>These arrived in 1999, two decades after C was designed, which is why
+older code you read is full of <code>int</code> where it should not be. Now
+you'll notice.</p>
+</details>
+
+<h2><span class="n">A lens you didn't know was a lens</span>There is no character type</h2>
+
+<p>You've been writing <code>char</code> since your first program. Let's find
+out what it is.</p>
+
+<pre><code>char a = 'A';
+printf("'A' as a number: %d\n", a);
+printf("'A' + 1 as a character: %c\n", a + 1);
+printf("'z' - 'a' = %d\n", 'z' - 'a');</code></pre>
+
+<div class="ask">
+<span class="lab">Predict all three lines</span>
+<p>Does the first one even compile? Can you add 1 to a letter? Can you subtract
+one letter from another?</p>
+</div>
+
+<details><summary>All three run, and here is what they print</summary>
+<pre><code>'A' as a number: 65
+'A' + 1 as a character: B
+'z' - 'a' = 25</code></pre>
+<p><code>char</code> is a one-byte integer. That's all it has ever been.
+<code>'A'</code> is not a letter — it is a way of writing the number 65 that
+reads better than <code>65</code> does. The dump confirms it:</p>
+<pre><code>char 'A':             41</code></pre>
+<p><code>0x41</code> is 65.</p>
+<p>So <code>%d</code> and <code>%c</code> are not conversions. They are two
+lenses on the same byte: <em>show me this as a number</em>, or <em>show me the
+letter this number stands for</em>. The mapping from 65 to "A" is a convention
+called ASCII, agreed in the 1960s, and it lives in the printing code — not in
+the byte.</p>
+</details>
+
+<p>This explains a family of things at once. Why <code>'z' - 'a'</code> gives
+25: the letters were assigned consecutive numbers, so subtracting them gives a
+distance. Why <code>c - '0'</code> turns the character <code>'7'</code> into
+the number 7. Why sorting strings puts all capitals before all lowercase —
+capitals were given the smaller numbers. None of that is a rule to memorise. It
+all falls out of <em>letters are numbers, and the ordering was chosen
+sensibly.</em></p>
+
+<h2><span class="n">The street has walls</span>What happens at the end</h2>
+
+<p>A byte holds 256 patterns. An <code>unsigned char</code> reads those as 0 to
+255. So:</p>
+
+<div class="ask">
+<span class="lab">Predict</span>
+<pre><code>unsigned char u = 255;
+u = u + 1;
+printf("%u\n", u);</code></pre>
+<p><b>What prints?</b> There is no error handling here and no check. Given
+what you know about who is watching at runtime, what can this possibly do?</p>
+</div>
+
+<details><summary>What happens</summary>
+<pre><code>unsigned char 255 + 1 = 0</code></pre>
+<p>It wraps to zero, silently. Nothing is raised, nothing is logged, nothing
+notices.</p>
+<p>And you could have predicted it from rung 0. There is no runtime present to
+check the result, and adding a check to every arithmetic operation is exactly
+the cost C was invented to avoid. So the hardware does what hardware does — it
+computes 256, which needs nine bits, and only eight fit. The ninth is
+discarded. Zero remains.</p>
+<p>For <em>unsigned</em> types this wraparound is defined and guaranteed: it's
+arithmetic modulo 256. For <em>signed</em> types, overflow is something worse
+than wrong — and that is rung 3.</p>
+</details>
+
+<h2><span class="n">The trap</span>Where two lenses meet</h2>
+
+<p>One more, and it is the one that catches professionals. Read this
+carefully; there is nothing hidden.</p>
+
+<pre><code>int n = -1;
+
+if (n &lt; sizeof(int))
+    printf("true\n");
+else
+    printf("false\n");</code></pre>
+
+<div class="ask">
+<span class="lab">Commit to an answer</span>
+<p><code>n</code> is −1. <code>sizeof(int)</code> is 4. Is −1 less than 4?</p>
+<p><b>Does this print <code>true</code> or <code>false</code>?</b></p>
+</div>
+
+<details><summary>Run it</summary>
+<pre><code>-1 &lt; sizeof(int)  -> FALSE
+   because -1 converted to unsigned is 4294967295</code></pre>
+<p>Minus one is not less than four.</p>
+<p>Here is why. <code>sizeof</code> produces an <em>unsigned</em> value — it's
+a count of bytes and cannot be negative. When C compares a signed value with an
+unsigned one, it does not refuse, and it does not warn by default. It converts
+one to match the other, and the rule is that <b>the signed one becomes
+unsigned.</b></p>
+<p>So before comparing, −1 is reinterpreted through the unsigned lens. The bit
+pattern of −1 is all ones, and all ones read as unsigned is 4,294,967,295 — the
+largest 32-bit value there is. The comparison being made is not "is −1 less
+than 4". It is "is 4,294,967,295 less than 4".</p>
+<p>The bytes never changed. Only the lens did.</p>
+</details>
+
+<aside>
+<span class="lab">Two habits, starting now</span>
+<p><b>Compile with <code>-Wall -Wextra</code>.</b> The compiler can see this
+one coming and will tell you — but only if you ask. C's default posture is
+silence.</p>
+<p><b>Be suspicious whenever a signed and an unsigned value meet.</b> The
+classic form of this bug is a loop that counts down: <code>for (unsigned i =
+n; i &gt;= 0; i--)</code> never ends, because an unsigned value is always
+greater than or equal to zero. It wraps to four billion instead of going
+negative.</p>
+</aside>
+
+<figure>
+<svg viewBox="0 0 600 208" xmlns="http://www.w3.org/2000/svg" role="img"
+     aria-label="One row of bytes read through three different type lenses">
+  <defs>
+    <style>
+      .byte{fill:#f3f0e8;stroke:#d8d2c4;stroke-width:1}
+      .hex{font:600 12px ui-monospace,Menlo,monospace;fill:#2b2620}
+      .addr{font:9.5px ui-monospace,Menlo,monospace;fill:#7d746a}
+      .lens{font:italic 12px 'Iowan Old Style',Georgia,serif;fill:#355070}
+      .val{font:11px ui-monospace,Menlo,monospace;fill:#2b2620}
+      .br{stroke:#355070;stroke-width:1.2;fill:none}
+      .cap{font:11px 'Iowan Old Style',Georgia,serif;fill:#7d746a}
+    </style>
+  </defs>
+
+  <text class="cap" x="300" y="16" text-anchor="middle">the same four bytes in memory</text>
+
+  <rect class="byte" x="150" y="26" width="72" height="34"/>
+  <rect class="byte" x="222" y="26" width="72" height="34"/>
+  <rect class="byte" x="294" y="26" width="72" height="34"/>
+  <rect class="byte" x="366" y="26" width="72" height="34"/>
+  <text class="hex" x="186" y="48" text-anchor="middle">db</text>
+  <text class="hex" x="258" y="48" text-anchor="middle">0f</text>
+  <text class="hex" x="330" y="48" text-anchor="middle">49</text>
+  <text class="hex" x="402" y="48" text-anchor="middle">40</text>
+  <text class="addr" x="186" y="72" text-anchor="middle">1000</text>
+  <text class="addr" x="258" y="72" text-anchor="middle">1001</text>
+  <text class="addr" x="330" y="72" text-anchor="middle">1002</text>
+  <text class="addr" x="402" y="72" text-anchor="middle">1003</text>
+
+  <path class="br" d="M150,92 L150,100 L438,100 L438,92"/>
+  <text class="lens" x="140" y="122" text-anchor="end">read as int</text>
+  <text class="val"  x="150" y="122">1078530011</text>
+
+  <path class="br" d="M150,136 L150,144 L438,144 L438,136"/>
+  <text class="lens" x="140" y="166" text-anchor="end">read as float</text>
+  <text class="val"  x="150" y="166">3.141593</text>
+
+  <path class="br" d="M150,180 L150,186 L222,186 L222,180"/>
+  <text class="lens" x="140" y="202" text-anchor="end">read as char</text>
+  <text class="val"  x="150" y="202">219 — one byte only</text>
+</svg>
+<figcaption>The type chooses how many bytes to take, and how to read them.
+The bytes have no opinion.</figcaption>
+</figure>
+
+<div class="turn">
+<h2><span class="n">Your turn</span>Make the invisible visible</h2>
+
+<p>Build the <code>dump</code> function into a file of your own, and use it to
+answer these. Write your prediction down first, every time — the value is
+entirely in the gap between what you expect and what appears.</p>
+
+<p><b>1.</b> Dump a <code>double</code> holding <code>3.14159</code>, all
+8 bytes. Then dump a <code>float</code> holding the same value, all 4. Do the
+float's bytes appear anywhere inside the double's? Should they?</p>
+
+<p><b>2.</b> Dump the <code>int</code> value <code>1</code>, then
+<code>256</code>, then <code>65536</code>. Explain the pattern you see in one
+sentence, using the word <em>little-endian</em>.</p>
+
+<p><b>3.</b> Dump a <code>short</code> holding <code>-1</code>, then an
+<code>unsigned short</code> holding <code>65535</code>. Compare the bytes.
+What does this tell you about what "negative" means to the machine?</p>
+
+<p><b>4.</b> Predict, then check: what does <code>printf("%d\n", 'A' + 'B');</code>
+print, and why is that not a nonsense question?</p>
+
+<p><b>5.</b> This one is the architect's question. You're designing a file
+format. It needs a field for "number of records", and you're confident there
+will never be more than a few thousand. A colleague writes <code>int
+count;</code>. <b>Give two distinct reasons that is the wrong choice</b>, and
+write the line you'd use instead.</p>
+
+<details><summary>Check yourself — after all five are written down</summary>
+<p><b>1.</b> No.</p>
+<pre><code>double 3.14159 (8):     6e 86 1b f0 f9 21 09 40
+float  3.14159 (4):     d0 0f 49 40</code></pre>
+<p>A <code>double</code> is not a <code>float</code> with extra bytes bolted
+on — the two use different layouts, so the shorter pattern doesn't sit inside
+the longer one. Both encode roughly 3.14159, differently. That's rung 2.</p>
+<p>One thing worth catching if you noticed it: the float here is
+<code>d0 0f 49 40</code>, while the four bytes I opened the lesson with were
+<code>db 0f 49 40</code>. Nearly the same, not identical — and both print as
+<code>3.141593</code>. Two different byte patterns displaying as the same
+number is your first hint that a float does not hold the value you typed. It
+holds the nearest one it can. Also rung 2.</p>
+<p><b>2.</b> <code>01 00 00 00</code>, then <code>00 01 00 00</code>, then
+<code>00 00 01 00</code>. Multiplying by 256 shifts the <code>01</code> one
+byte to the right, because little-endian puts the least significant byte at the
+lowest address and each successive byte is worth 256 times the last.</p>
+<p><b>3.</b> Identical: <code>ff ff</code>. −1 and 65535 are the same bits.
+"Negative" is not a property of the bytes — it's the lens. The signed lens
+reads the top bit as a sign; the unsigned lens reads it as just another digit.
+Which is this rung's crux appearing again, in the place it does the most
+damage.</p>
+<p><b>4.</b> It prints <code>131</code>. Not nonsense at all: <code>'A'</code>
+is 65 and <code>'B'</code> is 66, both are integers, and 65 + 66 = 131. The
+oddity isn't that it works — it's that you ever thought of them as letters.</p>
+<p><b>5.</b> Two reasons. <em>Width:</em> <code>int</code> is whatever the
+compiler chooses — 4 bytes here, possibly 2 elsewhere — so a file written on
+one machine may be unreadable on another, and the format has no fixed
+definition. <em>Signedness:</em> a count cannot be negative, so a signed type
+throws away half its range and invites exactly the comparison trap you met
+above. Write <code>uint32_t count;</code> — and now the file format is
+specified by the declaration itself.</p>
+</details>
+</div>
+
+<aside style="margin-top:3rem;">
+<span class="lab">Optional — the power tool</span>
+<p>A debugger can show you memory without writing any program at all. On your
+Mac it's <code>lldb</code>, and it needs enabling once. Run this yourself in
+your terminal — it will ask for your password, which is why I can't run it for
+you:</p>
+<pre><code>$ sudo DevToolsSecurity --enable</code></pre>
+<p>Then, having compiled with <code>-g</code> to keep the debugging
+information:</p>
+<pre><code>$ cc -g -O0 peek.c -o peek
+$ lldb ./peek
+(lldb) b main
+(lldb) run
+(lldb) next
+(lldb) x/4xb &amp;n      # examine 4 bytes, in hex, at the address of n
+(lldb) p n           # print n through its own lens
+(lldb) p/x n         # print n in hexadecimal</code></pre>
+<p>Do this <em>after</em> the exercises, not instead of them. Writing
+<code>dump</code> yourself teaches you what the debugger is doing; starting
+with the debugger teaches you which keys to press.</p>
+</aside>
+
+<div class="end">
+<p><b>Before you move on.</b> Everything here came from one sentence: <em>a
+type is a lens, not a property of the bytes.</em> Check that you own it rather
+than remember it — tomorrow, cold, explain to yourself why <code>-1 &lt;
+sizeof(int)</code> is false, without using the word "unsigned" until you've
+first said what the bytes are doing. If you can't, reread the trap. That
+single example contains the whole rung.</p>
+<p>Next rung: <em>floating point is not the number line.</em> You've now seen
+that <code>3.14159</code> is a byte pattern like any other. Next we find out
+what that pattern actually means — and why <code>0.1 + 0.2</code> is not
+<code>0.3</code>.</p>
+</div>
+
+</div></body></html>
