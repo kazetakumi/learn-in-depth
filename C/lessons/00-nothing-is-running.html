@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rung 0 · Nothing is running your program</title>
+<style>
+  :root { --paper:#fbfaf6; --ink:#2b2620; --accent:#355070; --rule:#e2ddd0;
+          --mute:#7d746a; --code:#f3f0e8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+    font-family:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    font-size:19px; line-height:1.7; }
+  .wrap { max-width:640px; margin:0 auto; padding:4rem 1.5rem 9rem; }
+  .crumb { font-size:.8rem; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--accent); margin:0 0 1.6rem; }
+  .crumb a { color:var(--accent); text-decoration:none; border-bottom:1px solid #c3d0dd; }
+  h1 { font-size:2.15rem; line-height:1.18; font-weight:normal; margin:0 0 2.2rem;
+    letter-spacing:-.01em; }
+  h2 { font-size:1.28rem; font-weight:normal; margin:3.6rem 0 1.1rem; line-height:1.3; }
+  h2 .n { color:var(--accent); font-size:.78rem; letter-spacing:.14em;
+    text-transform:uppercase; display:block; margin-bottom:.5rem; }
+  p { margin:0 0 1.25rem; }
+  .lead { font-size:1.12rem; }
+  code { background:var(--code); padding:.12rem .34rem; border-radius:2px;
+    font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace; font-size:.82em; }
+  pre { background:var(--code); padding:1.05rem 1.2rem; border-radius:3px; overflow-x:auto;
+    font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace; font-size:.78rem;
+    line-height:1.55; margin:0 0 1.35rem; }
+  pre code { background:none; padding:0; font-size:1em; }
+  aside { margin:1.6rem 0 1.6rem 1.1rem; padding-left:1.3rem;
+    border-left:2px solid var(--rule); font-size:.94rem; color:#544d45; }
+  aside p { margin-bottom:.8rem; }
+  aside p:last-child { margin-bottom:0; }
+  aside .lab { display:block; font-size:.72rem; letter-spacing:.13em; text-transform:uppercase;
+    color:var(--mute); margin-bottom:.45rem; }
+  .ask { border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+    padding:1.4rem 0; margin:2.2rem 0; }
+  .ask p:last-child { margin-bottom:0; }
+  .ask .lab { display:block; font-size:.72rem; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--accent); margin-bottom:.7rem; }
+  details { margin:0 0 1.35rem; }
+  details summary { cursor:pointer; font-size:.87rem; color:var(--accent);
+    padding:.42rem 0; list-style:none; border-bottom:1px dashed #c3d0dd; display:inline-block; }
+  details summary::-webkit-details-marker { display:none; }
+  details summary::before { content:"▸ "; }
+  details[open] summary::before { content:"▾ "; }
+  details[open] summary { margin-bottom:1.1rem; }
+  figure { margin:2.4rem 0; }
+  figcaption { font-size:.85rem; color:var(--mute); margin-top:.7rem; text-align:center; }
+  .turn { margin-top:4.5rem; padding-top:2rem; border-top:2px solid var(--rule); }
+  .mutenote { font-size:.84rem; color:var(--mute); margin:-.9rem 0 1.35rem; }
+  .end { margin-top:4rem; padding-top:1.6rem; border-top:1px solid var(--rule);
+    font-size:.95rem; color:#544d45; }
+  b { font-weight:600; }
+  svg { max-width:100%; height:auto; display:block; margin:0 auto; }
+</style></head>
+<body><div class="wrap">
+
+<p class="crumb"><a href="index.html">C, from zero to architect</a> · Rung 0</p>
+
+<h1>Nothing is running your&nbsp;program</h1>
+
+<p class="lead">Here is a complete C program. Six lines. Put it in a file called <code>hello.c</code>.</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+
+int main(void) {
+    printf("hi\n");
+    return 0;
+}</code></pre>
+
+<p>Two commands and it runs:</p>
+
+<pre><code>$ cc hello.c -o hello
+$ ./hello
+hi</code></pre>
+
+<p>Good. Now I want to spoil it for you, because there is a question buried in
+those two commands that most people never ask, and everything else in this
+course depends on the answer.</p>
+
+<p>You wrote 73 bytes of text. The file <code>hello</code> that came out is
+<b>33,432 bytes</b>. Something added 33 kilobytes of material you did not
+write. And you called a function named <code>printf</code> — where did that
+come from? It isn't in your file. You never defined it. You never wrote a
+single instruction telling the machine how to put letters on a screen.</p>
+
+<p>So what exactly happened between those two commands?</p>
+
+<h2><span class="n">The model you already have</span>Source code goes in, a program comes out</h2>
+
+<p>If you've encountered any explanation of this before, it looked like this:</p>
+
+<pre><code>hello.c  ──[ compile ]──▶  hello</code></pre>
+
+<p>One arrow. You write source code, the compiler turns it into an executable,
+you run the executable. It isn't wrong, exactly. It's the picture you get from
+across the room. But it's one arrow where there are four, and every interesting
+thing that will ever go wrong for you lives in the joints between them.</p>
+
+<p>We're going to take the arrow apart. Not by me telling you the four stages —
+that would be a list, and lists evaporate. Instead we'll stop the machine at
+each stage and <em>read what it produced</em>. You'll predict first, then look.
+Predict badly; that's the point. The gap between what you expected and what
+you see is the only thing that actually installs a model.</p>
+
+<h2><span class="n">Stage one</span>The preprocessor: before C, there is text</h2>
+
+<p>The first stage is called the <b>preprocessor</b>, and you can stop the
+machine right after it with <code>cc -E</code>. It prints, instead of
+compiling.</p>
+
+<div class="ask">
+<span class="lab">Predict before you run it</span>
+<p>Your file is 6 lines long. <code>cc -E hello.c</code> prints the text
+after the first stage has finished with it. <b>How many lines come out?</b></p>
+<p>Commit to a number. Say it out loud. Then run it.</p>
+</div>
+
+<details><summary>What actually comes out</summary>
+<pre><code>$ cc -E hello.c | wc -l
+     572</code></pre>
+<p>Five hundred and seventy-two lines. And here are the last few:</p>
+<pre><code>$ cc -E hello.c | tail -6
+# 2 "hello.c" 2
+
+int main(void) {
+    printf("hi\n");
+    return 0;
+}</code></pre>
+<p>Your six lines are at the bottom, untouched. The other 566 are new. They
+all came from a single line of yours: <code>#include &lt;stdio.h&gt;</code>.</p>
+</details>
+
+<p>So <code>#include</code> brought 566 lines of something into your file. The
+obvious guess is that it <em>imported</em> the printing machinery — that
+<code>stdio.h</code> contains the code for <code>printf</code> and
+<code>#include</code> fetched it.</p>
+
+<p>That guess is wrong, and it's worth breaking properly, because
+<code>#include</code> is much dumber and much stranger than an import.</p>
+
+<div class="ask">
+<span class="lab">Try this one</span>
+<p>Make a file called <code>frag.h</code> containing exactly this — yes, an
+unfinished line, no closing brace, nothing valid:</p>
+<pre><code>int main(void) { return</code></pre>
+<p>And a file <code>weird.c</code> containing exactly this:</p>
+<pre><code>#include "frag.h"
+ 7; }</code></pre>
+<p>Neither file is a legal C program. Neither one contains a complete
+function. <b>What happens when you run <code>cc weird.c -o weird</code>?</b></p>
+</div>
+
+<details><summary>What happens</summary>
+<pre><code>$ cc weird.c -o weird
+$ ./weird
+$ echo $?
+7</code></pre>
+<p>It compiles. It runs. It exits with status 7.</p>
+<p><em>Status 7?</em> When a program finishes, it hands one small number back
+to whatever started it. That number is what your <code>main</code> returns —
+which is why every program so far has ended with <code>return 0</code>, zero
+meaning "nothing went wrong". The shell keeps the last one in
+<code>$?</code>, so <code>echo $?</code> asks it. Here <code>main</code>
+returned 7, so 7 came back. Worth noticing on this rung in particular: that
+return value is not caught by any runtime — it is handed to the operating
+system, which is the only thing still around once your program ends.</p>
+<p>Because <code>#include "frag.h"</code> does exactly one thing: it takes the
+text of <code>frag.h</code> and pastes it in, character for character, where
+the <code>#include</code> line was. After the paste, the compiler sees a single
+stream of text that happens to read:</p>
+<pre><code>int main(void) { return
+ 7; }</code></pre>
+<p>which is a perfectly ordinary C program that returns 7.</p>
+</details>
+
+<p>Sit with that for a second, because it's the whole lesson in miniature.
+<code>#include</code> is not an import. It does not understand modules,
+functions, or namespaces. <b>It is a copy-paste that happens before anyone
+checks whether your program is C.</b> That's why the stage is called the
+<em>pre</em>-processor: it runs first, and it does not speak the language.</p>
+
+<aside>
+<span class="lab">Where the name comes from</span>
+<p>Every line beginning with <code>#</code> is an instruction to this stage,
+not to the compiler — which is why they don't end in semicolons and don't
+follow C's grammar. They're a small, separate language for shuffling text
+around, bolted onto the front. In rung 14 you'll see how much of large-scale C
+architecture is built out of this one crude tool, and what it costs.</p>
+</aside>
+
+<h2><span class="n">Still stage one</span>So what <em>did</em> those 566 lines give you?</h2>
+
+<p>If <code>stdio.h</code> isn't the code for <code>printf</code>, what's in
+it? Let's look for the line that mentions <code>printf</code>:</p>
+
+<pre><code>$ cc -E hello.c | grep -n "int printf"
+316:int printf(const char * restrict, ...);</code></pre>
+<p class="mutenote">(That line carries a trailing compiler attribute in the
+real output; I've trimmed it here. Everything else is verbatim.)</p>
+
+<p>One line. Not a body, not a block of instructions — no <code>{</code>
+anywhere. Just a sentence that says: <em>there exists a thing called</em>
+<code>printf</code><em>, it takes a piece of text and then any number of other
+arguments, and it hands back an </em><code>int</code>.</p>
+
+<p>That is called a <b>declaration</b>. It describes a shape without providing
+the substance.</p>
+
+<div class="ask">
+<span class="lab">Think about this before reading on</span>
+<p>The compiler is about to translate <code>printf("hi\n")</code> into machine
+instructions. It has been given only that one-line description — the shape of
+<code>printf</code>, not its code. <b>Why is that enough?</b> What does a
+translator actually need to know in order to write down "call this function"?</p>
+</div>
+
+<details><summary>The answer, and it's the hinge of the whole lesson</summary>
+<p>To generate a call, the compiler needs to know where to put the arguments
+and where the answer will come back. That's it. It does not need to know what
+the function <em>does</em>.</p>
+<p>Which means the compiler can translate your call to <code>printf</code>
+while remaining completely ignorant of whether <code>printf</code> exists
+anywhere in the universe. It writes down the equivalent of <em>"put this
+address in the first argument slot, then jump to whatever</em>
+<code>printf</code><em> turns out to be"</em> — and moves on.</p>
+<p>Somebody, later, has to make that jump land somewhere real. Hold onto that
+thought. It's stage four.</p>
+</details>
+
+<h2><span class="n">Stage two</span>The compiler: C becomes instructions</h2>
+
+<p>Now the actual compiler runs. Its input is those 572 lines of pure C text;
+its output is <b>assembly</b> — the human-readable spelling of the machine's
+own instruction set. Stop the machine here with <code>cc -S</code>.</p>
+
+<aside>
+<span class="lab">Careful — this one is silent</span>
+<p>Unlike <code>-E</code>, the flag <code>-S</code> does not print. It writes a
+file called <code>hello.s</code> and says nothing at all, which looks exactly
+like failure. It isn't: in Unix, silence means success.</p>
+<p>So either look at the file it wrote, or ask for the terminal explicitly —
+<code>-o -</code> means "send the output to standard output":</p>
+<pre><code>$ cc -S -O0 hello.c        # writes hello.s, prints nothing
+$ cat hello.s              # ...so look at it
+
+$ cc -S -O0 hello.c -o -   # or print it straight to the screen</code></pre>
+<p>The <code>-O0</code> switches the optimiser off, so the assembly still
+corresponds to your source line by line. Turn it up later and watch how much
+of your code the compiler simply deletes.</p>
+</aside>
+
+<p>Your computer has an Apple M-series chip, so the instructions are ARM64.
+Here is the whole of <code>main</code>, with the ceremony trimmed:</p>
+
+<pre><code>_main:
+    sub     sp, sp, #32           ; take 32 bytes of scratch space
+    stp     x29, x30, [sp, #16]   ; save where to return to
+    add     x29, sp, #16
+    mov     w8, #0
+    str     w8, [sp, #8]
+    stur    wzr, [x29, #-4]
+    adrp    x0, l_.str@PAGE       ; put the address of our text
+    add     x0, x0, l_.str@PAGEOFF  ;   into argument slot 0
+    bl      _printf               ; branch-and-link to printf
+    ldr     w0, [sp, #8]          ; the value we return: 0
+    ldp     x29, x30, [sp, #16]   ; restore where to return to
+    add     sp, sp, #32           ; give back the scratch space
+    ret
+
+l_.str:
+    .asciz  "hi\n"                ; our string, now sitting in the file as data</code></pre>
+
+<p>You are not expected to read ARM64 assembly yet. Look at exactly two
+things.</p>
+
+<p>First, at the bottom: <code>l_.str: .asciz "hi\n"</code>. Your string has
+stopped being part of a statement and become <b>data</b> — a labelled run of
+bytes that will sit in the finished file. The two instructions
+<code>adrp</code>/<code>add</code> above it compute the address of those bytes
+and put it in <code>x0</code>, the first-argument slot.</p>
+
+<p>Second, and this is the one that matters: <code>bl _printf</code>.
+Branch-and-link — jump to <code>_printf</code>, remembering how to get back.
+<b>The compiler has written down a jump to a place it cannot name.</b> It has
+no idea where <code>printf</code> is. It has never seen a single instruction of
+it. It wrote the jump anyway, because the declaration told it the shape, and
+the shape was all it needed.</p>
+
+<p>That instruction is a promise, made on your behalf, that someone else will
+have to keep.</p>
+
+<h2><span class="n">Stage three</span>The assembler: text becomes bytes</h2>
+
+<p>Assembly is still text. The third stage, the <b>assembler</b>, turns each
+instruction into the actual numbers the processor executes. Stop here with
+<code>cc -c</code>, which produces an <em>object file</em>.</p>
+
+<pre><code>$ cc -c hello.c -o hello.o
+$ file hello.o
+hello.o: Mach-O 64-bit object arm64</code></pre>
+
+<p>Not text any more. If you open it in an editor you'll get garbage. But it
+is not shapeless garbage — it keeps a list of names, and you can read that
+list with <code>nm</code>:</p>
+
+<pre><code>$ nm hello.o
+0000000000000000 T _main
+                 U _printf</code></pre>
+
+<p>Two letters carry the entire meaning here.</p>
+
+<p><b>T</b> means <em>text</em> — this file <em>has</em> that thing. Here are
+the bytes of <code>_main</code>, at offset zero.</p>
+
+<p><b>U</b> means <em>undefined</em> — this file <em>needs</em> that thing and
+does not have it. Notice there's no address next to <code>_printf</code>. That
+column is blank because there is nothing to point at.</p>
+
+<p>That single <code>U</code> is the reason a fourth stage has to exist.</p>
+
+<h2><span class="n">The test</span>Does the compiler check whether anything exists?</h2>
+
+<p>Before we go on, let's test the claim I made earlier — that the compiler
+translates your calls while remaining ignorant of whether the functions are
+real.</p>
+
+<div class="ask">
+<span class="lab">Predict</span>
+<p>Here is <code>ghost.c</code>. It declares a function called
+<code>wibble</code> and calls it. <code>wibble</code> does not exist. Not in
+this file, not in any library, not anywhere on your machine — I invented the
+name.</p>
+<pre><code>int wibble(int);
+
+int main(void) {
+    return wibble(3);
+}</code></pre>
+<p><b>Does <code>cc -c ghost.c</code> succeed or fail?</b> Decide before
+you look.</p>
+</div>
+
+<details><summary>Run it and see</summary>
+<pre><code>$ cc -c ghost.c -o ghost.o
+$ echo $?
+0
+$ nm ghost.o
+0000000000000000 T _main
+                 U _wibble</code></pre>
+<p>Clean success. No error, no warning. The compiler produced a perfectly
+valid object file containing a jump to a function that has never existed.</p>
+<p>Now compile <em>and link</em>:</p>
+<pre><code>$ cc ghost.c -o ghost
+Undefined symbols for architecture arm64:
+  "_wibble", referenced from:
+      _main in ghost.o
+ld: symbol(s) not found for architecture arm64</code></pre>
+<p>The failure arrives one stage later, and from a different program —
+<code>ld</code>, not the compiler.</p>
+</details>
+
+<p>So the compiler never checks whether anything exists. It checks only that
+you <em>declared</em> a shape, and then trusts you completely. All it leaves
+behind is a <code>U</code> — a recorded debt: <em>this file needs a thing it does not have.</em></p>
+
+<aside>
+<span class="lab">Why this is worth remembering</span>
+<p>"Undefined symbol" is one of the two or three error messages you will see
+most often for the rest of your life in C, and it confuses people for years
+because it doesn't look like a normal compile error. Now you know exactly what
+it means: <em>somebody promised me this thing existed, and it does not.</em>
+Not a typo in your syntax — an unkept promise. It's the last stage complaining
+about something the first stage let through.</p>
+</aside>
+
+<h2><span class="n">Stage four</span>The linker: keeping the promises</h2>
+
+<p>The final stage is the <b>linker</b>. Its job is to take every
+<code>U</code> in every object file and find something to point it at.</p>
+
+<p>Let's watch it fail first, by calling the linker directly on our object
+file with nothing else:</p>
+
+<pre><code>$ ld hello.o -o broken
+Undefined symbols for architecture arm64:
+  "_printf", referenced from:
+      _main in hello.o</code></pre>
+
+<p>Confirmed: the code for <code>printf</code> was never in your file, and
+never in <code>stdio.h</code> either. All <code>stdio.h</code> gave you was the
+<em>promise</em>. The code lives somewhere else entirely — in a system library
+that was compiled long before you sat down, shipped with your operating system.
+When you run <code>cc hello.c -o hello</code>, the compiler driver quietly hands
+that library to the linker on your behalf, the <code>U</code> gets resolved, and
+the jump finally lands somewhere real.</p>
+
+<figure>
+<svg viewBox="0 0 620 232" xmlns="http://www.w3.org/2000/svg" role="img"
+     aria-label="Four stages: hello.c to preprocessed text to assembly to object file to executable">
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,1 L8,4.5 L0,8" fill="none" stroke="#355070" stroke-width="1.3"/>
+    </marker>
+    <style>
+      .bx{fill:#f3f0e8;stroke:#d8d2c4;stroke-width:1}
+      .lbl{font:600 11.5px ui-monospace,Menlo,monospace;fill:#2b2620}
+      .stg{font:italic 11px 'Iowan Old Style',Georgia,serif;fill:#355070}
+      .note{font:10.5px 'Iowan Old Style',Georgia,serif;fill:#7d746a}
+      .ln{stroke:#355070;stroke-width:1.3;fill:none}
+    </style>
+  </defs>
+
+  <rect class="bx" x="8"   y="52" width="104" height="38" rx="3"/>
+  <text class="lbl" x="60"  y="76" text-anchor="middle">hello.c</text>
+  <text class="note" x="60" y="106" text-anchor="middle">73 bytes</text>
+  <text class="note" x="60" y="120" text-anchor="middle">you wrote this</text>
+
+  <line class="ln" x1="116" y1="71" x2="146" y2="71" marker-end="url(#a)"/>
+  <text class="stg" x="131" y="42" text-anchor="middle">preprocess</text>
+  <text class="note" x="131" y="27" text-anchor="middle">-E</text>
+
+  <rect class="bx" x="150" y="52" width="104" height="38" rx="3"/>
+  <text class="lbl" x="202" y="76" text-anchor="middle">pure C text</text>
+  <text class="note" x="202" y="106" text-anchor="middle">572 lines</text>
+  <text class="note" x="202" y="120" text-anchor="middle">#include pasted in</text>
+
+  <line class="ln" x1="258" y1="71" x2="288" y2="71" marker-end="url(#a)"/>
+  <text class="stg" x="273" y="42" text-anchor="middle">compile</text>
+  <text class="note" x="273" y="27" text-anchor="middle">-S</text>
+
+  <rect class="bx" x="292" y="52" width="104" height="38" rx="3"/>
+  <text class="lbl" x="344" y="76" text-anchor="middle">assembly</text>
+  <text class="note" x="344" y="106" text-anchor="middle">ARM64 text</text>
+  <text class="note" x="344" y="120" text-anchor="middle">bl _printf</text>
+
+  <line class="ln" x1="400" y1="71" x2="430" y2="71" marker-end="url(#a)"/>
+  <text class="stg" x="415" y="42" text-anchor="middle">assemble</text>
+  <text class="note" x="415" y="27" text-anchor="middle">-c</text>
+
+  <rect class="bx" x="434" y="52" width="104" height="38" rx="3"/>
+  <text class="lbl" x="486" y="76" text-anchor="middle">hello.o</text>
+  <text class="note" x="486" y="106" text-anchor="middle">728 bytes</text>
+  <text class="note" x="486" y="120" text-anchor="middle">T _main · U _printf</text>
+
+  <path class="ln" d="M486,142 L486,166 L60,166 L60,182" marker-end="url(#a)"/>
+  <text class="stg" x="273" y="160" text-anchor="middle">link — resolve every U</text>
+  <text class="note" x="404" y="160" text-anchor="start">+ system library</text>
+
+  <rect class="bx" x="8" y="188" width="104" height="36" rx="3"/>
+  <text class="lbl" x="60" y="211" text-anchor="middle">hello</text>
+  <text class="note" x="126" y="205" text-anchor="start">33,432 bytes — no promises left,</text>
+  <text class="note" x="126" y="219" text-anchor="start">every jump lands somewhere real</text>
+</svg>
+<figcaption>Four stages, and the file sizes that give them away.</figcaption>
+</figure>
+
+<h2><span class="n">The point of all of it</span>Now: what is running your program?</h2>
+
+<p>Go back to the opening question. You type <code>./hello</code> and text
+appears. What is <em>interpreting</em> your program while it runs?</p>
+
+<p><b>Nothing. There is nothing there.</b></p>
+
+<p>The operating system opens that 33-kilobyte file, copies its bytes into
+memory, and jumps to the entry point recorded inside it. From
+that instant the CPU is executing your bytes directly. No supervisor, no
+translator, no runtime. The four stages were a <em>preparation</em> that
+finished before your program began, and once it began, everything that knew
+anything about C had already exited.</p>
+
+<p>Compare that with the other way of doing it. When you run <code>python
+hello.py</code>, the thing that starts is <code>python</code> — a large program
+(written in C, as it happens) that reads your text and acts on it, staying
+there the whole time your program runs, holding your variables, checking your
+types, catching your mistakes, cleaning up after you. Your Python program never
+touches the processor. It asks <code>python</code> to do things.</p>
+
+<p>C has no such attendant. And <b>this single fact generates almost everything
+else you will learn.</b> C is fast because there is no intermediary. C lets you
+index past the end of an array because there is no one there to object. Your
+program crashes with a segmentation fault rather than a helpful error message
+because a segmentation fault is the <em>hardware</em> complaining — the last
+line of defence, and the only one, since nothing softer is watching.</p>
+
+<p>Every rung above this one is a consequence of the room being empty.</p>
+
+<h2><span class="n">Why anyone wanted this</span>A language for moving an operating system</h2>
+
+<p>It's worth knowing why this design exists, because it wasn't an accident and
+it wasn't ideology.</p>
+
+<p>At the start of the 1970s, an operating system was written in the assembly
+language of one specific machine. That was simply what an operating system
+<em>was</em>. And it meant that when the machine was replaced — as it always
+was — the operating system did not move. You wrote it again. Years of work,
+thrown away, for the new instruction set.</p>
+
+<p>A small group at Bell Labs had built a system called Unix on a modest
+machine and wanted it on the next one without starting over. The way out was to
+invent a notation sitting just above assembly: close enough to the hardware
+that it translated into tight machine code with no support structure
+underneath, but abstract enough that it wasn't about <em>one</em> machine's
+instruction set. Then you write the operating system in the notation, and to
+move it you re-translate rather than rewrite.</p>
+
+<p>That notation is C, and it worked — Unix moved, and the descendants of that
+decision are running on your phone. But look at the constraint that produced
+it: <em>it must translate into fast machine code with nothing underneath.</em>
+No runtime, no bookkeeping, no invisible helper. When you meet something in C
+that looks hostile — that arrays don't know their own length, that strings are
+a convention rather than a type, that nobody stops you writing past the end of
+anything — the design is not being careless. It is refusing to put a runtime in
+the room, because the runtime was the thing it was invented to do without.</p>
+
+<div class="turn">
+<h2><span class="n">Your turn</span>Predict the whole pipeline, cold</h2>
+
+<p>Reading this felt like understanding. It isn't yet. Do this before you go
+on, and write your predictions down before running anything — a prediction you
+didn't commit to is a prediction you can't be wrong about, and being wrong is
+the part that teaches.</p>
+
+<p>Make two files.</p>
+
+<pre><code>/* greet.c */
+#include &lt;stdio.h&gt;
+
+void greet(const char *who) {
+    printf("hello, %s\n", who);
+}</code></pre>
+
+<pre><code>/* main.c */
+void greet(const char *who);
+
+int main(void) {
+    greet("world");
+    return 0;
+}</code></pre>
+
+<p>Notice that <code>main.c</code> does not <code>#include</code> anything. It
+declares <code>greet</code> by hand — the shape, nothing else.</p>
+
+<p><b>1.</b> Roughly how many lines will <code>cc -E main.c</code> produce, and
+why is that number so different from <code>cc -E greet.c</code>?</p>
+
+<p><b>2.</b> Will <code>cc -c main.c</code> succeed, given that the code for
+<code>greet</code> is in a different file it has never seen?</p>
+
+<p><b>3.</b> What will <code>nm main.o</code> show — which names are
+<code>T</code>, which are <code>U</code>? Now the same for
+<code>nm greet.o</code>.</p>
+
+<p><b>4.</b> What does <code>cc main.o -o app</code> do, with
+<code>greet.o</code> left out? Write the error you expect, in your own words,
+before you see the real one.</p>
+
+<p><b>5.</b> Now build it properly with <code>cc main.c greet.c -o app</code>.
+Which stage was it that finally connected the two files — and what would have
+happened if you had misspelled the declaration in <code>main.c</code> as
+<code>void greet(int);</code> instead?</p>
+
+<details><summary>Check yourself — but only after you've written all five down</summary>
+<p><b>1.</b> <code>main.c</code> gives <b>13 lines</b>; <code>greet.c</code>
+gives <b>571</b>. <code>main.c</code> has no <code>#include</code>, so the
+preprocessor has nothing to paste and the output is barely longer than the
+input. <code>greet.c</code> balloons because <code>stdio.h</code> drags in the
+declarations of the entire standard I/O interface — for the sake of the one
+line that describes <code>printf</code>.</p>
+<p><b>2.</b> Yes. Compiling never checks existence — only that a shape was
+declared. It emits a jump and records the debt as a <code>U</code>.</p>
+<p><b>3.</b> <code>main.o</code>: <code>T _main</code>, <code>U _greet</code>.
+<code>greet.o</code>: <code>T _greet</code>, <code>U _printf</code>. Each file
+has one thing and owes another. The linker's job is to notice that one file's
+<code>U</code> is another file's <code>T</code>.</p>
+<p><b>4.</b> Undefined symbol <code>_greet</code>, referenced from
+<code>_main</code>. Same failure as <code>wibble</code>, and for the same
+reason — the promise was never kept.</p>
+<p><b>5.</b> The linker, and only the linker. As for the mismatched
+declaration — try it, because the result is worth seeing:</p>
+<pre><code>$ cc bad.c greet.c -o badapp
+$ echo $?
+0                       ← compiled and linked, no complaint at all
+$ ./badapp
+$ echo $?
+139                     ← 128 + 11: killed by signal 11, segmentation fault</code></pre>
+<p>It builds perfectly, because the linker matches on the <em>name</em>
+<code>_greet</code> and nothing else. It never checks that the shape you
+promised matches the shape that exists. So your program hands the number 42 to
+a function expecting an address, <code>printf</code> goes looking for text at
+address 42, and the hardware kills the process.</p>
+<p>No one warned you at any stage. That is the empty room, and you just felt
+it for the first time. Closing this particular hole is what header files are
+for — rung 14.</p>
+</details>
+</div>
+
+<div class="end">
+<p><b>Before you move on.</b> This lesson read smoothly, and smooth reading
+produces a warm feeling that is easy to mistake for understanding. It isn't.
+The test is whether you can do this cold, tomorrow, without the page: draw the
+four stages, name what enters and leaves each one, and explain — without
+looking — why <code>ghost.c</code> compiles but doesn't link. If you can't, you
+haven't lost anything; you've just found out that reading and knowing are
+different, which is the most useful thing this rung can teach you.</p>
+<p>Next rung: <em>memory is one long street, and a type is a pair of glasses.</em>
+We start looking at the bytes themselves — and pick up a debugger, because from
+here on the subject is invisible.</p>
+</div>
+
+</div></body></html>

@@ -3,3 +3,20 @@
 
 # Vendored upstream source, read-only reference for the pi-harness lessons
 pi-harness/pi/
+
+# C: source material - re-fetchable, see C/SOURCES.md
+# commercial textbooks (not ours to redistribute) and bulky course archives
+C/books/
+C/courses/
+C/transcripts/*.mp3
+
+# C: build artifacts from practice
+*.o
+*.s
+a.out
+C/lap/hello
+C/lap/weird
+C/lap/ghost
+C/lap/app
+C/lap/three
+C/lap/badapp

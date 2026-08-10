@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>C, from zero to architect</title>
+<style>
+  :root { --paper:#fbfaf6; --ink:#2b2620; --accent:#355070; --rule:#e2ddd0; --mute:#7d746a; --code:#f3f0e8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+    font-family:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    font-size:19px; line-height:1.65; }
+  .wrap { max-width:640px; margin:0 auto; padding:5rem 1.5rem 8rem; }
+  h1 { font-size:2.1rem; line-height:1.2; font-weight:normal; margin:0 0 .6rem; letter-spacing:-.01em; }
+  .sub { color:var(--mute); font-size:1rem; font-style:italic; margin:0 0 2.5rem; }
+  .status { border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+    padding:1rem 0; margin:0 0 3.5rem; font-size:.95rem; color:var(--mute); }
+  .status b { color:var(--accent); font-weight:normal; font-style:normal; }
+  .part { font-size:.78rem; text-transform:uppercase; letter-spacing:.16em; font-weight:normal;
+    color:var(--accent); margin:3.5rem 0 1.5rem; padding-bottom:.4rem; border-bottom:1px solid var(--rule); }
+  .part:first-of-type { margin-top:0; }
+  .rung { display:flex; gap:1.1rem; margin:0 0 1.9rem; align-items:baseline; }
+  .num { flex:0 0 2.6rem; text-align:right; color:var(--mute); font-size:.9rem;
+    font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .mark { display:inline-block; width:1rem; text-align:center; }
+  .rung h3 { margin:0 0 .25rem; font-size:1.06rem; font-weight:normal; line-height:1.35; }
+  .rung h3 a { color:var(--accent); text-decoration:none; border-bottom:1px solid #c3d0dd; }
+  .rung h3 a:hover { border-bottom-color:var(--accent); }
+  .rung p { margin:0; font-size:.94rem; color:var(--mute); line-height:1.55; }
+  .rung.planned { opacity:.5; }
+  .rung.current .num, .rung.current h3 { color:var(--accent); }
+  .rung.current h3 { font-weight:600; }
+  .rung.done .num { color:var(--accent); }
+  footer { margin-top:5rem; padding-top:1.5rem; border-top:1px solid var(--rule);
+    font-size:.86rem; color:var(--mute); }
+  footer code { background:var(--code); padding:.1rem .3rem; border-radius:2px; font-size:.85em; }
+</style></head>
+<body><div class="wrap">
+<h1>C, from zero to architect</h1>
+<p class="sub">Design and build real multi-file C programs with the judgment of an architect: choose data layouts from cache behaviour, hide implementation behind opaque types, encode failure deliberately, manage every allocation&#x27;s lifetime, and defend the code against the attacks C&#x27;s missing bounds check invites.</p>
+<div class="status">You are here: <b>Rung 00 of 25 — Nothing is running your program</b> &nbsp;·&nbsp; 0 of 26 done</div>
+<h2 class="part">Ground</h2>
+<article class="rung current"><div class="num">00<span class="mark">▶</span></div><div class="body"><h3><a href="00-nothing-is-running.html">Nothing is running your program</a></h3><p>You write printf(&quot;hi&quot;). In Python something is already there, waiting, ready to read your line. In C there is nothing at all. So what turns your text into a thing that runs?</p></div></article>
+<article class="rung planned"><div class="num">01<span class="mark"></span></div><div class="body"><h3><span>Memory is one long street; a type is a pair of glasses</span></h3><p>These four bytes are the number 1078530011. They are also 3.14159. Which one are they really?</p></div></article>
+<article class="rung planned"><div class="num">02<span class="mark"></span></div><div class="body"><h3><span>Floating point is not the number line</span></h3><p>0.1 + 0.2 == 0.3 is false. Not a bug, not a quirk to shrug at - a consequence of how you yourself would design fractions in binary.</p></div></article>
+<article class="rung planned"><div class="num">03<span class="mark"></span></div><div class="body"><h3><span>The contract has holes</span></h3><p>What does i = i++ + 1; do? The honest answer is not &#x27;it depends on your compiler&#x27;. It is stranger than that, and it is why C is fast.</p></div></article>
+<h2 class="part">Indirection</h2>
+<article class="rung planned"><div class="num">04<span class="mark"></span></div><div class="body"><h3><span>A pointer: the address is a number you can hold</span></h3><p>Write a function that swaps two variables. Go on. You cannot - not with everything you know so far. Watch the failure force pointers into existence.</p></div></article>
+<article class="rung planned"><div class="num">05<span class="mark"></span></div><div class="body"><h3><span>There are no arrays</span></h3><p>a[i] is not a lookup. It is arithmetic. Proof: i[a] compiles, and works.</p></div></article>
+<article class="rung planned"><div class="num">06<span class="mark"></span></div><div class="body"><h3><span>A string is a convention, not a type</span></h3><p>char *s = &quot;hi&quot;; s[0] = &#x27;H&#x27;; crashes. char s[] = &quot;hi&quot;; s[0] = &#x27;H&#x27;; does not. The two lines look the same and live in different universes.</p></div></article>
+<article class="rung planned"><div class="num">07<span class="mark"></span></div><div class="body"><h3><span>The stack: memory that cleans itself, and the price</span></h3><p>Return a pointer to a local variable. It compiles. It even works - sometimes. That word &#x27;sometimes&#x27; is the whole lesson.</p></div></article>
+<article class="rung planned"><div class="num">08<span class="mark"></span></div><div class="body"><h3><span>Why your pointers are private</span></h3><p>Run the same program twice at once. Both print the same address for the same variable. They are not fighting over it. Why not?</p></div></article>
+<article class="rung planned"><div class="num">09<span class="mark"></span></div><div class="body"><h3><span>The heap: lifetime becomes your job</span></h3><p>You need an array whose size you only learn while the program is running. The stack cannot help you.</p></div></article>
+<h2 class="part">Structure</h2>
+<article class="rung planned"><div class="num">10<span class="mark"></span></div><div class="body"><h3><span>A struct is a named shape stamped on bytes</span></h3><p>struct { char c; int i; } is one byte plus four. Measure it: eight. Who put the other three there, and why?</p></div></article>
+<article class="rung planned"><div class="num">11<span class="mark"></span></div><div class="body"><h3><span>Data that outgrows the compiler</span></h3><p>A struct cannot contain itself. But it can point to itself. That single loophole is every data structure ever built.</p></div></article>
+<article class="rung planned"><div class="num">12<span class="mark"></span></div><div class="body"><h3><span>Generic code: void *, a size, and a function pointer</span></h3><p>You wrote a list of int. Now you need a list of struct Employee. Copy the whole file? C has no templates. So what on earth is qsort?</p></div></article>
+<article class="rung planned"><div class="num">13<span class="mark"></span></div><div class="body"><h3><span>An object is a struct that carries its own verbs</span></h3><p>obj.method() - what if method is just a field, and the field happens to hold a function?</p></div></article>
+<h2 class="part">Programs</h2>
+<article class="rung planned"><div class="num">14<span class="mark"></span></div><div class="body"><h3><span>The linker&#x27;s world: symbols, not files</span></h3><p>Two .c files, one program. The compiler never sees them together. So who joins them - and what does it actually know about your function?</p></div></article>
+<article class="rung planned"><div class="num">15<span class="mark"></span></div><div class="body"><h3><span>The opaque pointer: how C hides things</span></h3><p>FILE *fp = fopen(...). You have used FILE since your first program. Quick - name one of its fields. You cannot, and that is deliberate.</p></div></article>
+<article class="rung planned"><div class="num">16<span class="mark"></span></div><div class="body"><h3><span>Everything is a file</span></h3><p>printf is not magic. It is a buffer, and eventually one system call.</p></div></article>
+<article class="rung planned"><div class="num">17<span class="mark"></span></div><div class="body"><h3><span>No exceptions, so failure is data you carry</span></h3><p>malloc returns NULL. There is nothing to catch. Every C API you will ever design is shaped by that one fact.</p></div></article>
+<h2 class="part">The system</h2>
+<article class="rung planned"><div class="num">18<span class="mark"></span></div><div class="body"><h3><span>The missing bounds check is an attack surface</span></h3><p>gets() sat in the standard library for twenty-five years. It has since been formally deleted - the only function ever removed from C. Here is what it let people do.</p></div></article>
+<article class="rung planned"><div class="num">19<span class="mark"></span></div><div class="body"><h3><span>Your program is not alone</span></h3><p>ls | grep c - two programs, one conversation. Who is holding the pipe?</p></div></article>
+<article class="rung planned"><div class="num">20<span class="mark"></span></div><div class="body"><h3><span>Two machines, one stream</span></h3><p>A socket looks like a file. You read and write it like a file. So why can it fail in ways a file never does?</p></div></article>
+<article class="rung planned"><div class="num">21<span class="mark"></span></div><div class="body"><h3><span>Shared memory, shared trouble</span></h3><p>Two threads increment one counter a million times each. The answer is not two million. Where did the increments go?</p></div></article>
+<h2 class="part">Mastery</h2>
+<article class="rung planned"><div class="num">22<span class="mark"></span></div><div class="body"><h3><span>Why identical big-O runs ten times apart</span></h3><p>A linked list and an array both walk n elements. One of them is ten times slower. Big-O says they are the same. Big-O is not lying - it is answering a different question.</p></div></article>
+<article class="rung planned"><div class="num">23<span class="mark"></span></div><div class="body"><h3><span>Reading other people&#x27;s architecture</span></h3><p>Redis needed strings. C already has strings. They wrote their own anyway - and put the length at the front. You now know enough to say whether they were right.</p></div></article>
+<article class="rung planned"><div class="num">24<span class="mark"></span></div><div class="body"><h3><span>What Python is actually made of</span></h3><p>Guido had linked lists available. He chose an array of pointers. Why?</p></div></article>
+<article class="rung planned"><div class="num">25<span class="mark"></span></div><div class="body"><h3><span>Capstone</span></h3><p>Everything above was practice. Now build one real thing, and defend every decision in it.</p></div></article>
+<footer>Grounded in two video courses (28 hours), five books, and four university courses —
+full inventory in <code>SOURCES.md</code>. Progress lives in <code>syllabus.json</code>.</footer>
+</div></body></html>
