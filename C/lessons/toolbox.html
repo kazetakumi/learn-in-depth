@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Appendix · The toolbox</title>
+<style>
+  :root { --paper:#fbfaf6; --ink:#2b2620; --accent:#355070; --rule:#e2ddd0;
+          --mute:#7d746a; --code:#f3f0e8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+    font-family:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    font-size:19px; line-height:1.7; }
+  .wrap { max-width:640px; margin:0 auto; padding:4rem 1.5rem 9rem; }
+  .crumb { font-size:.8rem; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--accent); margin:0 0 1.6rem; }
+  .crumb a { color:var(--accent); text-decoration:none; border-bottom:1px solid #c3d0dd; }
+  h1 { font-size:2.15rem; line-height:1.18; font-weight:normal; margin:0 0 1rem;
+    letter-spacing:-.01em; }
+  .sub { color:var(--mute); font-style:italic; font-size:1rem; margin:0 0 2.6rem; }
+  h2 { font-size:.78rem; text-transform:uppercase; letter-spacing:.16em; font-weight:normal;
+    color:var(--accent); margin:3.6rem 0 1.6rem; padding-bottom:.4rem;
+    border-bottom:1px solid var(--rule); }
+  h3 { font-size:1.2rem; font-weight:normal; margin:2.6rem 0 .9rem; }
+  h3 code { font-size:.9em; background:none; padding:0; }
+  h3 .gloss { color:var(--mute); font-size:.72em; font-style:italic; margin-left:.5rem; }
+  p { margin:0 0 1.15rem; }
+  code { background:var(--code); padding:.12rem .34rem; border-radius:2px;
+    font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace; font-size:.82em; }
+  pre { background:var(--code); padding:1rem 1.15rem; border-radius:3px; overflow-x:auto;
+    font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace; font-size:.78rem;
+    line-height:1.55; margin:0 0 1.25rem; }
+  pre code { background:none; padding:0; font-size:1em; }
+  table { border-collapse:collapse; width:100%; margin:0 0 1.35rem; font-size:.92rem; }
+  td { padding:.42rem .7rem .42rem 0; vertical-align:top;
+    border-bottom:1px solid var(--rule); }
+  td:first-child { white-space:nowrap; width:1%; }
+  td code { font-size:.85em; }
+  aside { margin:1.5rem 0 1.5rem 1.1rem; padding-left:1.3rem;
+    border-left:2px solid var(--rule); font-size:.94rem; color:#544d45; }
+  aside p:last-child { margin-bottom:0; }
+  aside .lab { display:block; font-size:.72rem; letter-spacing:.13em; text-transform:uppercase;
+    color:var(--mute); margin-bottom:.45rem; }
+  .toc { margin:0 0 1rem; padding:1.2rem 0; border-top:1px solid var(--rule);
+    border-bottom:1px solid var(--rule); font-size:.92rem; }
+  .toc a { color:var(--accent); text-decoration:none; border-bottom:1px solid #d6dfe8; }
+  .toc a:hover { border-bottom-color:var(--accent); }
+  .toc span { color:var(--mute); }
+  b { font-weight:600; }
+  .end { margin-top:4rem; padding-top:1.6rem; border-top:1px solid var(--rule);
+    font-size:.92rem; color:var(--mute); }
+</style></head>
+<body><div class="wrap">
+
+<p class="crumb"><a href="index.html">C, from zero to architect</a> · Appendix</p>
+
+<h1>The toolbox</h1>
+<p class="sub">Commands, flags and words that came up along the way — asked
+in passing, answered here so they don't have to be asked twice.</p>
+
+<div class="toc">
+<b>The compiler</b> ·
+<a href="#cc">cc</a> <span>·</span>
+<a href="#flags">its flags</a><br>
+<b>The shell</b> ·
+<a href="#status">echo $?</a> <span>·</span>
+<a href="#pipe">the pipe</a> <span>·</span>
+<a href="#wc">wc</a> <span>·</span>
+<a href="#grep">grep</a><br>
+<b>Looking inside</b> ·
+<a href="#nm">nm</a> <span>·</span>
+<a href="#file">file</a><br>
+<b>Words</b> ·
+<a href="#words">jargon and idioms</a>
+</div>
+
+<h2>The compiler</h2>
+
+<h3 id="cc"><code>cc</code> <span class="gloss">C compiler</span></h3>
+
+<p>The traditional Unix name for "whichever C compiler this machine has". On
+your Mac it is Apple's clang; on a Linux box it would usually be gcc. The name
+is a stable label so that build instructions written in 1980 still work
+today.</p>
+
+<pre><code>$ cc --version
+Apple clang version 21.0.0
+Target: arm64-apple-darwin25.3.0</code></pre>
+
+<p><b>But <code>cc</code> is not the compiler.</b> It's a <em>driver</em> — a
+small program that runs the four stages in order and passes each one's output
+to the next. Watch it narrate with <code>cc -v</code>. It also quietly hands
+the system library to the linker on your behalf, which is why
+<code>cc hello.c -o hello</code> succeeds where calling <code>ld</code> alone
+fails.</p>
+
+<h3 id="flags">Its flags</h3>
+
+<p>The stage flags are all the same idea: <b>where to stop</b>.</p>
+
+<pre><code>   -E ──┐    -S ──┐    -c ──┐    (no flag) ──┐
+        ▼         ▼         ▼                ▼
+  preprocess → compile → assemble  →       link</code></pre>
+
+<table>
+<tr><td><code>-E</code></td><td>stop after preprocessing. <b>Prints</b> to the terminal</td></tr>
+<tr><td><code>-S</code></td><td>stop after compiling. <b>Writes <code>name.s</code></b> and prints nothing</td></tr>
+<tr><td><code>-c</code></td><td>stop after assembling. <b>Writes <code>name.o</code></b> and prints nothing</td></tr>
+<tr><td><code>-o F</code></td><td><b>o</b>utput to file <code>F</code>. <code>-o -</code> means "to the terminal"</td></tr>
+<tr><td><code>-O0</code></td><td><b>O</b>ptimisation level zero — off. Keeps assembly matching your source</td></tr>
+<tr><td><code>-g</code></td><td>keep debugging information, so a debugger can show your variable names</td></tr>
+<tr><td><code>-Wall -Wextra</code></td><td>turn on warnings. <b>Use these always</b></td></tr>
+</table>
+
+<p>Do these letters stand for words? Mostly <b>no</b>. The manual gives no
+expansions — they're conventional single letters inherited from 1970s Unix,
+chosen to be short to type. Only <code>-o</code> (output) and <code>-O</code>
+(optimisation) genuinely abbreviate anything. <em>Expand</em>, <em>Source to
+aSsembly</em> and <em>compile only</em> are memory aids, not etymology.</p>
+
+<aside>
+<span class="lab">Two that catch people</span>
+<p><code>-o</code> and <code>-O</code> differ only in capitalisation and do
+completely different jobs. Lowercase names the output file; uppercase sets
+optimisation.</p>
+<p><code>-S</code> is <b>silent</b>. It writes <code>hello.s</code> and says
+nothing, which looks like failure. Use <code>cat hello.s</code> to read it, or
+<code>cc -S -O0 hello.c -o -</code> to print it straight to the screen.</p>
+</aside>
+
+<h2>The shell</h2>
+
+<h3 id="status"><code>echo $?</code> <span class="gloss">print the last exit status</span></h3>
+
+<p>Two things joined. <code>echo</code> prints its arguments.
+<code>$?</code> is a variable the shell keeps holding <b>the exit status of the
+last command that finished</b>.</p>
+
+<p>Every program that ends hands back one small integer. <b>Zero means
+success</b>; anything else means some kind of failure. That's backwards from
+"zero is false", and it makes sense: there's one way to be fine and many ways
+to fail, so zero is reserved and the rest are free to distinguish problems.</p>
+
+<pre><code>$ ./three          # a program whose main does: return 3;
+$ echo $?
+3
+
+$ ls nosuchfile    # a command that failed
+$ echo $?
+1</code></pre>
+
+<p><b>That number is what your <code>main</code> returns.</b> It's why
+<code>main</code> is declared <code>int</code> and why every program ends with
+<code>return 0</code> — you've been reporting success to the operating system
+all along.</p>
+
+<p>One special range: values above 128 mean the program didn't exit at all, it
+was <em>killed</em>. Subtract 128 to get the signal number.</p>
+
+<table>
+<tr><td><code>139</code></td><td>128 + 11 — signal 11 is <code>SIGSEGV</code>, a segmentation fault</td></tr>
+<tr><td><code>134</code></td><td>128 + 6 — <code>SIGABRT</code>, usually a failed <code>assert</code></td></tr>
+<tr><td><code>130</code></td><td>128 + 2 — <code>SIGINT</code>, you pressed Ctrl-C</td></tr>
+</table>
+
+<h3 id="pipe">The pipe <code>|</code></h3>
+
+<p>Takes what the left-hand program writes out and feeds it directly into the
+right-hand program as input, with no file in between.</p>
+
+<pre><code>$ cc -E hello.c | wc -l
+572</code></pre>
+
+<p>Neither program knows about the other. That independence is the whole point
+of the design, and it's the subject of rung 19.</p>
+
+<h3 id="wc"><code>wc</code> <span class="gloss">word count</span></h3>
+
+<p>Counts things in text. With no flags it prints lines, words and bytes
+together.</p>
+
+<table>
+<tr><td><code>wc -l</code></td><td>lines</td></tr>
+<tr><td><code>wc -w</code></td><td>words</td></tr>
+<tr><td><code>wc -c</code></td><td>bytes</td></tr>
+</table>
+
+<h3 id="grep"><code>grep</code> <span class="gloss">globally search a regular expression and print</span></h3>
+
+<p>Prints the lines of its input that match a pattern. The peculiar name is
+from an old editor command, <code>g/re/p</code>. Nobody would choose it today;
+it stuck.</p>
+
+<table>
+<tr><td><code>-c</code></td><td>count matches instead of printing them</td></tr>
+<tr><td><code>-i</code></td><td>ignore case</td></tr>
+<tr><td><code>-w</code></td><td>whole word only — <code>pointer</code> won't match <code>pointers</code></td></tr>
+<tr><td><code>-n</code></td><td>show line numbers</td></tr>
+<tr><td><code>-r</code></td><td>search a whole directory tree</td></tr>
+<tr><td><code>-l</code></td><td>print only the filenames that matched</td></tr>
+<tr><td><code>-v</code></td><td>invert — print the lines that <em>don't</em> match</td></tr>
+<tr><td><code>-o</code></td><td>print only the matching part, not the whole line</td></tr>
+<tr><td><code>-A2</code> <code>-B2</code></td><td>also show 2 lines after / before each match</td></tr>
+</table>
+
+<p><code>-o</code> is the underused one — it turns grep into a counting
+instrument when chained with others:</p>
+
+<pre><code>$ grep -o "cc -[EScv]*" lesson.html | sort | uniq -c | sort -rn
+   7 cc -E
+   5 cc -c
+   1 cc -S</code></pre>
+
+<p><b>The pattern is a regular expression</b>, not just a word. Add
+<code>-E</code> for the fuller syntax and use it by default.</p>
+
+<table>
+<tr><td><code>^</code> <code>$</code></td><td>start of line, end of line</td></tr>
+<tr><td><code>.</code></td><td>any single character</td></tr>
+<tr><td><code>*</code> <code>+</code> <code>?</code></td><td>previous thing: zero-or-more, one-or-more, optional</td></tr>
+<tr><td><code>[abc]</code></td><td>any one of these</td></tr>
+<tr><td><code>[^abc]</code></td><td>any one <em>except</em> these</td></tr>
+<tr><td><code>|</code></td><td>or — <code>grep -E "malloc|free"</code></td></tr>
+<tr><td><code>\</code></td><td>take the next character literally</td></tr>
+</table>
+
+<pre><code>$ grep -E "^\[0:[0-5][0-9]:.*compil" transcript.txt
+    ^      start of line
+     \[    a literal [
+       0:  hour must be 0
+          [0-5][0-9]   minutes 00-59
+                    .* anything
+                      compil</code></pre>
+
+<p>This matters beyond convenience: it is <b>how you will read source code</b>.
+When you open a project with hundreds of thousands of lines you don't read it
+front to back, you ask it questions — <code>grep -rn "struct sds" .</code> for
+where something is defined, <code>grep -rn "sdsnew(" .</code> for who calls
+it.</p>
+
+<h2>Looking inside compiled files</h2>
+
+<h3 id="nm"><code>nm</code> <span class="gloss">names</span></h3>
+
+<p>Lists the <b>symbols</b> — the names — recorded inside a compiled file. You
+can't read an object file, but it isn't shapeless: alongside the machine bytes
+it keeps a table of names, and <code>nm</code> prints that table.</p>
+
+<pre><code>$ nm hello.o
+0000000000000000 T _main
+                 U _printf</code></pre>
+
+<table>
+<tr><td><code>T</code></td><td><em>text</em> — this file <b>has</b> it, at that offset</td></tr>
+<tr><td><code>U</code></td><td><em>undefined</em> — this file <b>needs</b> it and doesn't have it</td></tr>
+<tr><td><code>D</code> <code>B</code></td><td>initialised data / uninitialised data (rung 8)</td></tr>
+<tr><td>lowercase</td><td>local to this file; uppercase means visible to the linker</td></tr>
+<tr><td><code>nm -u</code></td><td>show only the undefined ones — usually the question you have</td></tr>
+</table>
+
+<p>Note the blank address column on the <code>U</code> line. There's nothing to
+point at; that blank is the recorded debt. Reading two object files together
+shows you the linker's entire job:</p>
+
+<pre><code>$ nm greet.o          $ nm main.o
+T _greet              U _greet
+U _printf             T _main</code></pre>
+
+<p><b>One file's <code>U</code> is the other file's <code>T</code>.</b>
+Matching those up is all linking is.</p>
+
+<p>The leading underscore on <code>_main</code> is a macOS convention — the
+toolchain prepends one to every C name. On Linux you'd see plain
+<code>main</code>. Nothing deep.</p>
+
+<p><b>The habit:</b> when a build fails with "undefined symbol", run
+<code>nm</code> on your object files. It turns "something is wrong somewhere"
+into "this file wants this exact name and nobody provides it".</p>
+
+<h3 id="file"><code>file</code></h3>
+
+<p>Tells you what kind of thing a file is, by inspecting its contents rather
+than trusting its name.</p>
+
+<pre><code>$ file hello.o
+hello.o: Mach-O 64-bit object arm64</code></pre>
+
+<h2 id="words">Words</h2>
+
+<p>Jargon and English idioms used in the lessons, in case any of them are new.</p>
+
+<table>
+<tr><td><b>symbol</b></td><td>a name recorded in a compiled file — a function or a global variable</td></tr>
+<tr><td><b>object file</b></td><td>the <code>.o</code> output of the assembler: machine code plus a symbol table, not yet a program</td></tr>
+<tr><td><b>driver</b></td><td>a program whose job is to run other programs in the right order. <code>cc</code> is one</td></tr>
+<tr><td><b>little-endian</b></td><td>storing the least significant byte at the lowest address, so <code>1</code> is <code>01 00 00 00</code></td></tr>
+<tr><td><b>segfault</b></td><td>short for segmentation fault — the hardware killing your program for touching memory it has no right to</td></tr>
+<tr><td><b>IOU</b></td><td>English idiom, said as "I owe you": a note acknowledging a debt to be settled later. Used for the <code>U</code> a compiler leaves behind. Since replaced in the lesson with plainer wording</td></tr>
+<tr><td><b>ceremony</b></td><td>informal: the boilerplate parts of code or output that carry no meaning for the point being made</td></tr>
+<tr><td><b>to bite you</b></td><td>English idiom: to cause a problem later, usually one you were warned about</td></tr>
+</table>
+
+<aside>
+<span class="lab">Silence is success</span>
+<p>A habit of mind worth forming early: <b>when a Unix command succeeds, it
+says nothing.</b> <code>cc hello.c -o hello</code> printing nothing means it
+worked perfectly. Tools only speak up when something is wrong — the same
+philosophy as exit status 0.</p>
+</aside>
+
+<div class="end">
+<p>This page grows. Whenever something comes up in passing — a command, a flag,
+a word — it gets written down here rather than answered once and lost.</p>
+</div>
+
+</div></body></html>

@@ -47,6 +47,22 @@ for name, _, _ in PARTS:
             f"</article>"
         )
 
+APPENDIX = [
+    ("toolbox.html", "The toolbox",
+     "Commands, flags and words that came up in passing — cc and its flags, "
+     "echo $?, pipes, wc, grep, nm, and the jargon."),
+]
+
+appendix = ""
+extras = [(f, t, d) for f, t, d in APPENDIX if os.path.exists(os.path.join(HERE, f))]
+if extras:
+    appendix = '<h2 class="part">Appendix</h2>' + "".join(
+        f'<article class="rung extra"><div class="num">·</div>'
+        f'<div class="body"><h3><a href="{f}">{html.escape(t)}</a></h3>'
+        f"<p>{html.escape(d)}</p></div></article>"
+        for f, t, d in extras
+    )
+
 done = sum(1 for c in S["cruxes"] if c["status"] == "done")
 cur = next((c for c in S["cruxes"] if c["status"] == "current"), None)
 total = len(S["cruxes"])
@@ -87,6 +103,7 @@ doc = f"""<!doctype html>
   .rung.current .num, .rung.current h3 {{ color:var(--accent); }}
   .rung.current h3 {{ font-weight:600; }}
   .rung.done .num {{ color:var(--accent); }}
+  .rung.extra .num {{ color:var(--rule); font-size:1.1rem; }}
   footer {{ margin-top:5rem; padding-top:1.5rem; border-top:1px solid var(--rule);
     font-size:.86rem; color:var(--mute); }}
   footer code {{ background:var(--code); padding:.1rem .3rem; border-radius:2px; font-size:.85em; }}
@@ -96,6 +113,7 @@ doc = f"""<!doctype html>
 <p class="sub">{html.escape(S['goal'])}</p>
 <div class="status">You are here: <b>{where}</b> &nbsp;·&nbsp; {done} of {total} done</div>
 {chr(10).join(rows)}
+{appendix}
 <footer>Grounded in two video courses (28 hours), five books, and four university courses —
 full inventory in <code>SOURCES.md</code>. Progress lives in <code>syllabus.json</code>.</footer>
 </div></body></html>
