@@ -24,7 +24,7 @@
         "00-nothing-is-running"
       ],
       "lesson": "01-bytes-and-lenses.html",
-      "status": "current"
+      "status": "done"
     },
     {
       "id": "02-floating-point",
@@ -36,7 +36,7 @@
         "01-bytes-and-lenses"
       ],
       "lesson": "02-floating-point.html",
-      "status": "planned"
+      "status": "current"
     },
     {
       "id": "03-the-contract",

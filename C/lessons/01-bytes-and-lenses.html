@@ -466,10 +466,11 @@ on — the two use different layouts, so the shorter pattern doesn't sit inside
 the longer one. Both encode roughly 3.14159, differently. That's rung 2.</p>
 <p>One thing worth catching if you noticed it: the float here is
 <code>d0 0f 49 40</code>, while the four bytes I opened the lesson with were
-<code>db 0f 49 40</code>. Nearly the same, not identical — and both print as
-<code>3.141593</code>. Two different byte patterns displaying as the same
-number is your first hint that a float does not hold the value you typed. It
-holds the nearest one it can. Also rung 2.</p>
+<code>db 0f 49 40</code>. Nearly the same, not identical — they print as
+<code>3.141590</code> and <code>3.141593</code>. So my opening four bytes were
+never the number I typed into this program at all. Two neighbouring patterns,
+two slightly different numbers, and the one you asked for is not necessarily
+either. That's rung 2.</p>
 <p><b>2.</b> <code>01 00 00 00</code>, then <code>00 01 00 00</code>, then
 <code>00 00 01 00</code>. Multiplying by 256 shifts the <code>01</code> one
 byte to the right, because little-endian puts the least significant byte at the

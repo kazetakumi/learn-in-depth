@@ -1,0 +1,788 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rung 2 · Floating point is not the number line</title>
+<style>
+  :root { --paper:#fbfaf6; --ink:#2b2620; --accent:#355070; --rule:#e2ddd0;
+          --mute:#7d746a; --code:#f3f0e8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+    font-family:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    font-size:19px; line-height:1.7; }
+  .wrap { max-width:640px; margin:0 auto; padding:4rem 1.5rem 9rem; }
+  .crumb { font-size:.8rem; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--accent); margin:0 0 1.6rem; }
+  .crumb a { color:var(--accent); text-decoration:none; border-bottom:1px solid #c3d0dd; }
+  h1 { font-size:2.15rem; line-height:1.18; font-weight:normal; margin:0 0 2.2rem;
+    letter-spacing:-.01em; }
+  h2 { font-size:1.28rem; font-weight:normal; margin:3.6rem 0 1.1rem; line-height:1.3; }
+  h2 .n { color:var(--accent); font-size:.78rem; letter-spacing:.14em;
+    text-transform:uppercase; display:block; margin-bottom:.5rem; }
+  p { margin:0 0 1.25rem; }
+  .lead { font-size:1.12rem; }
+  code { background:var(--code); padding:.12rem .34rem; border-radius:2px;
+    font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace; font-size:.82em; }
+  pre { background:var(--code); padding:1.05rem 1.2rem; border-radius:3px; overflow-x:auto;
+    font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace; font-size:.78rem;
+    line-height:1.55; margin:0 0 1.35rem; }
+  pre code { background:none; padding:0; font-size:1em; }
+  aside { margin:1.6rem 0 1.6rem 1.1rem; padding-left:1.3rem;
+    border-left:2px solid var(--rule); font-size:.94rem; color:#544d45; }
+  aside p { margin-bottom:.8rem; }
+  aside p:last-child { margin-bottom:0; }
+  aside .lab { display:block; font-size:.72rem; letter-spacing:.13em; text-transform:uppercase;
+    color:var(--mute); margin-bottom:.45rem; }
+  .ask { border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+    padding:1.4rem 0; margin:2.2rem 0; }
+  .ask p:last-child { margin-bottom:0; }
+  .ask .lab { display:block; font-size:.72rem; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--accent); margin-bottom:.7rem; }
+  details { margin:0 0 1.35rem; }
+  details summary { cursor:pointer; font-size:.87rem; color:var(--accent);
+    padding:.42rem 0; list-style:none; border-bottom:1px dashed #c3d0dd; display:inline-block; }
+  details summary::-webkit-details-marker { display:none; }
+  details summary::before { content:"▸ "; }
+  details[open] summary::before { content:"▾ "; }
+  details[open] summary { margin-bottom:1.1rem; }
+  figure { margin:2.4rem 0; }
+  figcaption { font-size:.85rem; color:var(--mute); margin-top:.7rem; text-align:center; }
+  .turn { margin-top:4.5rem; padding-top:2rem; border-top:2px solid var(--rule); }
+  .mutenote { font-size:.84rem; color:var(--mute); margin:-.9rem 0 1.35rem; }
+  .end { margin-top:4rem; padding-top:1.6rem; border-top:1px solid var(--rule);
+    font-size:.95rem; color:#544d45; }
+  .crux { margin:2.2rem 0; padding-left:1.2rem; border-left:3px solid var(--accent);
+    font-size:1.06rem; }
+  b { font-weight:600; }
+  svg { max-width:100%; height:auto; display:block; margin:0 auto; }
+</style></head>
+<body><div class="wrap">
+
+<p class="crumb"><a href="index.html">C, from zero to architect</a> · Rung 2</p>
+
+<h1>Floating point is not the number&nbsp;line</h1>
+
+<p class="lead">I left a thread hanging last time, and I want to pull it before
+anything else.</p>
+
+<p>I opened rung 1 with four bytes — <code>db 0f 49 40</code> — and told you
+they read as 3.141593 through a <code>float</code> lens. Then in the exercises
+you wrote <code>float f = 3.14159;</code> yourself and dumped it, and got
+something almost but not quite the same:</p>
+
+<pre><code>my four bytes:      db 0f 49 40
+your 3.14159:       d0 0f 49 40</code></pre>
+
+<p>Two patterns, one byte apart. Ask for more digits and they separate:</p>
+
+<pre><code>db 0f 49 40   ->  3.141592741
+d0 0f 49 40   ->  3.141590118</code></pre>
+
+<p>Now look hard at the second one. You typed <code>3.14159</code>. The machine
+is holding <code>3.141590118</code>. Nobody rounded your display; that
+<em>is</em> the number now sitting in those four bytes. The value you asked for
+is simply not in there.</p>
+
+<p>And here is the same fact with the polite disguise taken off. Type these two
+lines and run them:</p>
+
+<pre><code>printf("%.20f\n", 0.1 + 0.2);
+printf("%.20f\n", 0.3);</code></pre>
+
+<pre><code>0.30000000000000004441
+0.29999999999999998890</code></pre>
+
+<p>So <code>0.1 + 0.2 == 0.3</code> is <b>false</b>. On your machine, on mine,
+in C, in Python, in JavaScript, in every language you will ever use.</p>
+
+<p>People call this a quirk, a gotcha, a rounding error, a thing to shrug at.
+It is none of those. It is a consequence of a design decision that you are
+about to make yourself — because I'm not going to tell you how floating point
+works. I'm going to make you invent it, and then you'll find you can't have
+invented it any other way.</p>
+
+<h2><span class="n">Your turn to be the designer</span>Thirty-two bits, and fractions are your problem</h2>
+
+<p>Rung 1 gave you everything you need for this. A type is a lens: some number
+of bytes, plus an agreement about how to read them. Integers you can already
+read — each bit is worth twice the one to its right, and you stop at the ones
+place.</p>
+
+<p>Now the specification lands on your desk. <b>Thirty-two bits. They must
+represent fractional numbers. You choose the agreement.</b></p>
+
+<div class="ask">
+<span class="lab">Before reading on — genuinely try this</span>
+<p>You already know how to read 32 bits as a whole number. The bits to the left
+of the ones place are worth 1, 2, 4, 8, 16…</p>
+<p><b>What is the most obvious thing to do to get fractions?</b> You don't need
+a new idea. You need to keep going in a direction you're already going.</p>
+</div>
+
+<details><summary>The obvious answer — and it's a real design, still used today</summary>
+<p>Keep going <em>rightward</em>. If each step left doubles, each step right
+halves. Put an imaginary point in the middle of your 32 bits: sixteen bits
+above it worth 1, 2, 4, 8…, sixteen bits below it worth ½, ¼, ⅛, 1/16…</p>
+<pre><code>  bit 31 ............ bit 16 . bit 15 ............ bit 0
+  16384  ...  4  2  1     .    1/2  1/4  ...  1/32768  1/65536</code></pre>
+<p>This is called <b>fixed point</b>, and it is a perfectly good design. It's
+not a toy — it ran the graphics in every game console before hardware floats
+were cheap, and it still runs audio processing and embedded control loops
+today. Adding two of them is just integer addition; the point is imaginary, so
+the hardware doesn't even need to know it's there.</p>
+</details>
+
+<p>Good. You have a working number format. Let's find out where it dies.</p>
+
+<div class="ask">
+<span class="lab">Push on it</span>
+<p>Your 16.16 fixed-point format can count up to <b>32767.99998</b> and its
+smallest step is <b>0.0000152588</b>.</p>
+<p>Now go and use it for real work. Try to store the charge of an electron,
+<code>0.00000000000000000016</code>. Try to store the distance to the sun in
+metres, <code>1.5e11</code>.</p>
+<p><b>What exactly goes wrong — and is it one problem or two?</b></p>
+</div>
+
+<details><summary>It's one problem wearing two coats</summary>
+<p>The electron's charge lands on zero. Your smallest step is about one
+sixty-five-thousandth, and the number you want is a hundred million million
+times smaller than that. It isn't approximated badly — it isn't there at all.</p>
+<p>The distance to the sun doesn't fit either: your ceiling is thirty-two
+thousand and change.</p>
+<p>But notice they're the same complaint. <b>You nailed the point down in one
+place, and one place is never right.</b> When your numbers are around 30000,
+you're spending sixteen bits on resolution finer than a thousandth — resolution
+nobody asked for and that the top of your range can't use anyway. When your
+numbers are around a billionth, all sixteen of those bits are still in the
+wrong neighbourhood.</p>
+<p>Precision has to <em>go somewhere</em>, and you've stapled it to a fixed
+absolute position on the number line rather than to the numbers you actually
+have.</p>
+</details>
+
+<h2><span class="n">The fix</span>Stop nailing the point down</h2>
+
+<p>Say the complaint out loud and the fix says itself: <em>the point is in the
+wrong place — so store where the point goes.</em></p>
+
+<p>You have done this since school, in the other base. Nobody writes Avogadro's
+number as 602214076000000000000000. You write:</p>
+
+<pre><code>6.02214076 × 10<sup>23</sup></code></pre>
+
+<p>Two pieces. The <b>digits</b> that carry the accuracy, and an
+<b>exponent</b> that says how far to slide the point. Change the exponent and
+the same nine digits describe the mass of a galaxy or the mass of an
+electron. The precision travels with the number instead of sitting at a fixed
+address.</p>
+
+<p>Do it in binary and you've invented floating point — the point <em>floats</em>,
+it isn't fixed:</p>
+
+<p class="crux">value = ± <b>1.fraction</b> × 2<sup><b>exponent</b></sup></p>
+
+<p>Which tells you exactly what has to be in those 32 bits. One bit for the
+sign. Some bits for the exponent. The rest for the fraction. Nothing else is
+needed, and nothing there can be dropped.</p>
+
+<div class="ask">
+<span class="lab">Spend the budget</span>
+<p>Thirty-two bits. One goes to the sign. You have 31 left to divide between
+<b>exponent</b> and <b>fraction</b>.</p>
+<p>Before you pick numbers: <b>what does each side buy you, and what does
+taking a bit from one to give to the other cost?</b> Answer that first — then
+pick a split.</p>
+</div>
+
+<details><summary>What you're trading, and where the real design landed</summary>
+<p>Exponent bits buy <b>range</b> — how far from 1 you can get in either
+direction. Each extra exponent bit <em>squares</em> your reach, because the
+exponent itself is a power of two.</p>
+<p>Fraction bits buy <b>precision</b> — how many significant digits you carry.
+Each extra fraction bit halves your error.</p>
+<p>They come out of the same 31 bits, so every bit of reach costs you a bit of
+accuracy. There is no clever escape from this; it's a conservation law.</p>
+<p>The split the world settled on in 1985, in the IEEE 754 standard, is
+<b>8 and 23</b>:</p>
+<pre><code>float (32 bits):    1 sign   8 exponent   23 fraction
+double (64 bits):   1 sign  11 exponent   52 fraction</code></pre>
+<p>Eight exponent bits reach roughly 2<sup>±127</sup>, which is about
+10<sup>±38</sup> — and sure enough, your machine reports
+<code>FLT_MAX = 3.40282e+38</code>. Twenty-three fraction bits give roughly
+seven significant decimal digits, which is exactly the "about seven digits"
+that older books quote at you as a fact to memorise. It isn't a fact. It's
+23 bits, and log<sub>10</sub>(2<sup>24</sup>) ≈ 7.2.</p>
+</details>
+
+<h2><span class="n">Two tricks you should try to catch</span>The designers got greedy</h2>
+
+<p>Let's look at real bits. Here's a small program that prints a float's 32
+bits split into the three fields — build it, you'll want it for the rest of
+this lesson:</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+#include &lt;stdint.h&gt;
+
+void bits(const char *label, float f) {
+    uint32_t u;
+    memcpy(&amp;u, &amp;f, 4);                 /* the same trick as rung 1 */
+    printf("%-8s", label);
+    for (int i = 31; i &gt;= 0; i--) {
+        putchar((u &gt;&gt; i) &amp; 1 ? '1' : '0');
+        if (i == 31 || i == 23) putchar(' ');   /* split the fields */
+    }
+    printf("\n");
+}</code></pre>
+
+<pre><code>bits("1.0f",  1.0f);
+bits("2.0f",  2.0f);
+bits("3.0f",  3.0f);
+bits("0.5f",  0.5f);
+bits("-1.0f", -1.0f);</code></pre>
+
+<pre><code>1.0f    0 01111111 00000000000000000000000
+2.0f    0 10000000 00000000000000000000000
+3.0f    0 10000000 10000000000000000000000
+0.5f    0 01111110 00000000000000000000000
+-1.0f   1 01111111 00000000000000000000000</code></pre>
+
+<div class="ask">
+<span class="lab">Two things here are not what you'd have built</span>
+<p><b>First:</b> 1.0 has a fraction field of all zeros. So where did the
+<code>1</code> in "1.0" go? It isn't stored anywhere.</p>
+<p><b>Second:</b> 1.0 is 1.0 × 2<sup>0</sup>, so its exponent is
+<em>zero</em> — but the exponent field reads <code>01111111</code>, which is
+127. And 0.5 is 1.0 × 2<sup>−1</sup>, whose field reads 126.</p>
+<p>Work out both before you open this. The first one has a reason you can
+derive; the second is a choice, and asking <em>why would anyone do that</em> is
+the right instinct.</p>
+</div>
+
+<details><summary>Trick one: the bit you get for free</summary>
+<p>Write any nonzero number as <code>1.something × 2<sup>k</sup></code> — you
+always can, because you just slide the point until exactly one digit sits to
+the left of it. And in binary, the only nonzero digit is <code>1</code>. So
+that leading digit is <b>always 1</b>, in every number, forever.</p>
+<p>A bit that is always the same value carries no information. So don't store
+it — agree that it's there and spend the bit on something useful. This is
+called a <b>normalised</b> representation, and it's why 23 stored fraction bits
+give you 24 bits of actual precision. One free bit, extracted from a
+tautology.</p>
+<p>Check it against 3.0 above: fraction <code>1000…</code> means the value is
+<code>1.1</code> in binary — that's 1 + ½ = 1.5 — times 2<sup>1</sup> = 3. ✓</p>
+</details>
+
+<details><summary>Trick two: why the exponent is offset by 127</summary>
+<p>The exponent has to go negative — that's the entire point of the format. The
+obvious way is to make the exponent field a signed number. Instead they store
+<b>exponent + 127</b>, so an 8-bit field running 0…255 covers exponents
+−127…128. Field 127 means 2<sup>0</sup>. This offset is called the <b>bias</b>.</p>
+<p>What it buys: with the bias, a bigger exponent is always a bigger bit
+pattern, read as a plain unsigned integer. So two positive floats can be
+compared by comparing their raw 32 bits as integers, and you get the right
+answer — no floating-point hardware needed. Sorting hardware, comparison
+instructions, and the total ordering of the format all get simpler. Check
+it in the numbers straight off your machine:</p>
+<pre><code>0.1f  ->  1036831949        (rising left to right)
+0.5f  ->  1056964608
+1.0f  ->  1065353216
+1.5f  ->  1069547520
+2.0f  ->  1073741824</code></pre>
+<p>It also makes 0.0 come out as all-zero bits, which is quietly convenient
+everywhere — a zeroed block of memory is a block of zero floats. (The trick
+only works for positives; the sign bit is a separate flag, not a
+two's-complement sign, so negative floats sort backwards. That's a real wart
+and nobody pretends otherwise.)</p>
+</details>
+
+<h2><span class="n">Read one yourself</span>The format is now fully specified</h2>
+
+<p>You have everything: sign, exponent minus 127, and a fraction that means
+<code>1.</code> followed by those bits. So decode this by hand — no program.</p>
+
+<div class="ask">
+<span class="lab">Do this with a pen</span>
+<pre><code>0 10000010 01000000000000000000000</code></pre>
+<p>Sign, exponent, fraction. <b>What number is it?</b></p>
+</div>
+
+<details><summary>Walk it</summary>
+<p>Sign 0 → positive.</p>
+<p>Exponent field <code>10000010</code> = 130. Minus the bias 127 = <b>3</b>.</p>
+<p>Fraction <code>0100…</code> → the value is <code>1.01</code> in binary. The
+first place after the point is worth ½, the second ¼. So <code>1.01</code> =
+1 + 0 + ¼ = <b>1.25</b>.</p>
+<p>1.25 × 2<sup>3</sup> = 1.25 × 8 = <b>10.0</b></p>
+<p>Confirm it: those bits are <code>0x41200000</code>, and
+<code>memcpy</code> them into a float and print — you get <code>10</code>.</p>
+</details>
+
+<aside>
+<span class="lab">A shortcut worth knowing now</span>
+<p><code>printf</code> can print a float in exactly this form, and it saves you
+the bit-fiddling. <code>%a</code> prints hexadecimal floating point:</p>
+<pre><code>printf("%a\n", 0.5);   ->  0x1p-1
+printf("%a\n", 3.0);   ->  0x1.8p+1
+printf("%a\n", 0.1);   ->  0x1.999999999999ap-4</code></pre>
+<p>Read it as <em>1.8 in hex, times 2 to the +1</em>. It shows you the
+significand and the exponent directly, with no rounding and no decimal lies.
+When a float confuses you, <code>%a</code> is the honest answer.</p>
+</aside>
+
+<h2><span class="n">The consequence</span>Now everything follows from one picture</h2>
+
+<p>Here is the part that matters. Everything else in this lesson — every bug,
+every rule, every piece of advice you've ever been given about floats — is a
+consequence of what I'm about to draw. So don't skim it.</p>
+
+<p>Between 1.0 and 2.0, the exponent is fixed at 0 and only the 23 fraction
+bits vary. So there are exactly 2<sup>23</sup> = 8,388,608 floats in that
+interval, evenly spread.</p>
+
+<div class="ask">
+<span class="lab">Predict, and be precise</span>
+<p>Now go up one interval, from 2.0 to 4.0. The exponent is 1 and the same 23
+fraction bits vary.</p>
+<p><b>How many floats are in that interval, and how far apart are they?</b></p>
+<p>Then answer the same for 1000 to 2000, and for ten million to twenty
+million.</p>
+</div>
+
+<details><summary>The answer, and it is the crux of this rung</summary>
+<p>The same 8,388,608 values — spread over twice the distance. So the gap
+between neighbouring floats <b>doubles</b>. And it doubles again at 4, and
+again at 8, forever.</p>
+<p>Measured on your machine, with <code>nextafterf</code>, which hands you the
+very next representable float:</p>
+<pre><code>gap just above 1.0        0.000000119
+gap just above 1000.0     0.000061035
+gap just above 10000000   1.0</code></pre>
+<p>Up at ten million, consecutive floats are <b>one apart</b>. There are no
+floats between 10000000 and 10000001. None. The number line, as far as a
+<code>float</code> is concerned, has holes in it a full unit wide.</p>
+</details>
+
+<figure>
+<svg viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg" role="img"
+     aria-label="Representable floats crowd near zero and thin out as numbers grow">
+  <defs><style>
+    .ax{stroke:#2b2620;stroke-width:1}
+    .tk{stroke:#355070;stroke-width:1}
+    .lb{font:11px ui-monospace,Menlo,monospace;fill:#2b2620}
+    .cp{font:italic 11px 'Iowan Old Style',Georgia,serif;fill:#7d746a}
+  </style></defs>
+  <line class="ax" x1="40" y1="70" x2="560" y2="70"/>
+  <g class="tk">
+    <line x1="40" y1="62" x2="40" y2="78"/>
+    <line x1="105" y1="62" x2="105" y2="78"/>
+    <line x1="170" y1="62" x2="170" y2="78"/>
+    <line x1="300" y1="62" x2="300" y2="78"/>
+    <line x1="560" y1="62" x2="560" y2="78"/>
+  </g>
+  <g class="tk" opacity="0.85">
+    <line x1="56" y1="65" x2="56" y2="75"/><line x1="72" y1="65" x2="72" y2="75"/>
+    <line x1="88" y1="65" x2="88" y2="75"/>
+    <line x1="121" y1="65" x2="121" y2="75"/><line x1="137" y1="65" x2="137" y2="75"/>
+    <line x1="153" y1="65" x2="153" y2="75"/>
+    <line x1="202" y1="65" x2="202" y2="75"/><line x1="235" y1="65" x2="235" y2="75"/>
+    <line x1="267" y1="65" x2="267" y2="75"/>
+    <line x1="365" y1="65" x2="365" y2="75"/><line x1="430" y1="65" x2="430" y2="75"/>
+    <line x1="495" y1="65" x2="495" y2="75"/>
+  </g>
+  <text class="lb" x="40"  y="96" text-anchor="middle">0.5</text>
+  <text class="lb" x="105" y="96" text-anchor="middle">1</text>
+  <text class="lb" x="170" y="96" text-anchor="middle">2</text>
+  <text class="lb" x="300" y="96" text-anchor="middle">4</text>
+  <text class="lb" x="560" y="96" text-anchor="middle">8</text>
+  <text class="cp" x="300" y="30" text-anchor="middle">every tick is 2²³ floats wide — the count never changes</text>
+  <text class="cp" x="300" y="130" text-anchor="middle">each doubling of the value doubles the gap between neighbours</text>
+</svg>
+<figcaption>Floats are not spread evenly along the number line. They are spread
+evenly <em>between each power of two</em> — so they thin out as you climb.</figcaption>
+</figure>
+
+<p>Say it as one sentence and carry it out of this rung:</p>
+
+<p class="crux"><b>A float's precision is relative, not absolute. It holds
+about seven significant digits everywhere — which means it holds no fixed
+number of decimal places anywhere.</b></p>
+
+<p>That is the whole rung. Everything from here is you noticing where it
+bites.</p>
+
+<div class="ask">
+<span class="lab">Use it immediately</span>
+<p>Given that the gap up at ten million is 1.0, predict both of these:</p>
+<pre><code>float x = 10000000.0f;
+printf("%s\n", (x + 0.4f == x) ? "unchanged" : "changed");
+
+float y = 16777216.0f;      /* this is 2 to the 24 */
+printf("%.1f\n", y + 1.0f);</code></pre>
+</div>
+
+<details><summary>Both, with the reason</summary>
+<pre><code>unchanged
+16777216.0</code></pre>
+<p>Adding 0.4 to ten million produces a true answer of 10000000.4, and there is
+no float there. The nearest float is 10000000. So the result of the addition is
+the number you started with — <b>the addition happened and changed nothing.</b></p>
+<p>The second is the same thing at the exact boundary. Below 2<sup>24</sup> the
+gap is 1, so every whole number is representable. At 2<sup>24</sup> = 16777216
+the gap becomes 2, and the odd numbers vanish. A <code>float</code> can count
+integers exactly up to sixteen million and then it starts skipping.</p>
+<p>Which is a rule you can now derive instead of memorise: <b>a float holds
+integers exactly up to 2<sup>24</sup>; a double up to 2<sup>53</sup></b> —
+about 9 quadrillion. It's just the significand width, appearing in a costume.</p>
+</details>
+
+<h2><span class="n">Back to the crime scene</span>Why 0.1 was doomed before any addition happened</h2>
+
+<p>Now we can answer the opening properly, and the answer has nothing to do
+with addition. <code>0.1</code> was already wrong on its own.</p>
+
+<p>Start somewhere you're sure of: write ⅓ in decimal. 0.3333… forever. It
+never terminates, so if I give you eight boxes to write digits in, you must
+stop and hand back something that isn't ⅓.</p>
+
+<div class="ask">
+<span class="lab">Why does that happen — and to which fractions?</span>
+<p>⅓ doesn't terminate in decimal but ¼ does (0.25), and ⅕ does (0.2).
+<b>What decides it?</b></p>
+<p>Then, having answered that: <b>which fractions terminate in binary?</b> And
+is 1/10 one of them?</p>
+</div>
+
+<details><summary>The rule, and the verdict on 0.1</summary>
+<p>A fraction terminates in a base exactly when its denominator is built only
+from that base's prime factors. Ten is 2 × 5, so in decimal, denominators made
+of 2s and 5s terminate: ½, ¼, ⅕, 1/20 all fine. Anything with a 3 in the
+denominator repeats forever.</p>
+<p>Two has only one prime factor: <b>2</b>. So in binary, only denominators
+that are powers of two terminate. ½, ¼, ⅛, 3/16 — exact. And one tenth is
+1/(2×5), and that 5 is fatal.</p>
+<p><b>0.1 is a repeating fraction in binary.</b> It is not merely hard to
+store — it does not terminate, so no finite number of bits can hold it, in the
+same way and for the same reason that no finite number of decimal digits holds
+one third.</p>
+</details>
+
+<p>Do it by hand, because you should see it repeat with your own eyes. To write
+a fraction in binary you repeatedly double it: if you pass 1, the digit is 1
+and you drop the 1; otherwise the digit is 0.</p>
+
+<pre><code>0.1 × 2 = 0.2   ->  0
+0.2 × 2 = 0.4   ->  0
+0.4 × 2 = 0.8   ->  0
+0.8 × 2 = 1.6   ->  1   (keep 0.6)
+0.6 × 2 = 1.2   ->  1   (keep 0.2)
+0.2 × 2 = 0.4   ->  0        &lt;-- we have been here before
+0.4 × 2 = 0.8   ->  0
+0.8 × 2 = 1.6   ->  1
+...
+
+0.1  =  0.0 0011 0011 0011 0011 ...   forever</code></pre>
+
+<p>And now dump the real thing. Here is <code>0.1f</code> out of your
+machine:</p>
+
+<pre><code>0.1f    0 01111011 10011001100110011001101
+                   ^^^^ ^^^^ ^^^^ ^^^^ ^^^^</code></pre>
+
+<p>Exponent 123 − 127 = −4, so the value is <code>1.1001100110011…</code> ×
+2<sup>−4</sup>, which slides the point four places left and gives you
+<code>0.00011001100110011…</code> — the repeating <code>0011</code> you just
+derived, character for character. The bits are the arithmetic you did on
+paper.</p>
+
+<p>Look at the last four though: <code>1101</code>, where the pattern says
+<code>1100</code>. The machine ran out of room and <b>rounded up</b> rather
+than chopping. So <code>0.1f</code> is not 0.1, and it is not slightly less
+than 0.1 either — it is slightly <em>more</em>:</p>
+
+<pre><code>printf("%.30f\n", (double)0.1f);
+0.100000001490116119384765625000</code></pre>
+
+<div class="ask">
+<span class="lab">One question about that number, and it's the one people get wrong</span>
+<p>That decimal expansion stops. It doesn't trail off, it doesn't repeat — it
+ends, exactly, at <code>…625</code>. <b>Why is it exact?</b></p>
+</div>
+
+<details><summary>Because floats are not fuzzy — and this is the misconception to kill</summary>
+<p>Every float is some whole number divided by a power of two. Powers of two
+have only 2s in the denominator, and 10 = 2 × 5 contains a 2 — so every float
+terminates in decimal, exactly. Always.</p>
+<p>Which means <code>0.1f</code> is not "approximately 0.1", in the way a
+measurement is approximate. It is precisely and exactly
+0.100000001490116119384765625, a specific rational number, the same one on
+every machine, with no uncertainty anywhere.</p>
+<p>So burn this sentence in: <b>floats are not imprecise. They are exact
+numbers — just not the ones you asked for.</b> Nothing about them is random or
+fuzzy or hardware-dependent. Every operation is defined to compute the true
+answer and then round it to the nearest representable float, deterministically.
+The error is not noise. It is a lookup: you asked for a point, and you got the
+nearest hole in the sieve.</p>
+</details>
+
+<p>So the opening mystery dissolves. <code>0.1</code> becomes the nearest
+double above it. <code>0.2</code> becomes the nearest double to <em>it</em>.
+Their exact sum is a number that isn't representable either, so it rounds
+again — and it lands one step away from the nearest double to <code>0.3</code>.
+Three roundings, three different sieves, and the last one misses by a single
+step at the bottom of the mantissa:</p>
+
+<pre><code>0.1 + 0.2  =  0.30000000000000004441
+0.3        =  0.29999999999999998890</code></pre>
+
+<p>Nothing went wrong. Everything did exactly what it promised.</p>
+
+<h2><span class="n">What falls out</span>Four rules you can now derive, not memorise</h2>
+
+<p>Each of these is the crux wearing a different hat. Try to see which hat
+before you read the explanation.</p>
+
+<p><b>1. Never compare floats with <code>==</code>.</b> You already know why:
+the value you typed and the value stored differ, so equality asks a question
+about the sieve rather than about the number. Instead ask <em>are these close
+enough</em> — but do it carefully:</p>
+
+<div class="ask">
+<span class="lab">Spot the bug in the standard advice</span>
+<p>The usual fix you'll be given is: <code>if (fabs(a - b) &lt; 1e-9)</code>.
+<b>Given what you now know about gaps, when does that fail?</b></p>
+</div>
+
+<details><summary>It fails wherever the gap is bigger than your epsilon</summary>
+<pre><code>at 0.3:   |(0.1+0.2) - 0.3|  = 5.55e-17    &lt; 1e-9  ->  passes
+at 1e9:   |(1e9+0.1+0.2) - (1e9+0.3)| = 1.19e-07  &lt; 1e-9  ->  FAILS</code></pre>
+<p>Same computation, shifted up the number line. A fixed absolute epsilon is a
+fixed-point idea, and you already killed fixed point at the top of this lesson.
+Up at a billion, consecutive doubles are further apart than 1e-9, so two
+"equal" numbers can never be within it — and far below 1, an epsilon of 1e-9 is
+so coarse it calls genuinely different numbers equal.</p>
+<p>Precision is relative, so the tolerance must be relative too:</p>
+<pre><code>if (fabs(a - b) &lt;= 1e-9 * fmax(fabs(a), fabs(b)))   /* passes at both scales */</code></pre>
+<p>And when a and b can be near zero, you need an absolute floor as well,
+because relative tolerance collapses there. There's no one-liner that's right
+everywhere — which is itself the lesson. The comparison depends on the
+magnitudes you actually have, and only you know those.</p>
+</details>
+
+<p><b>2. Never accumulate.</b> Every addition rounds. Do it ten times and the
+roundings compound:</p>
+
+<pre><code>float s = 0;
+for (int i = 0; i &lt; 10; i++) s += 0.1f;
+printf("%.10f  %s\n", s, (s == 1.0f) ? "== 1" : "!= 1");
+
+1.0000001192  != 1</code></pre>
+
+<p>So <code>for (float x = 0; x != 1.0f; x += 0.1f)</code> is an infinite loop.
+It steps straight over 1.0 and keeps going forever. <b>Loop with an integer
+counter and multiply</b> — <code>x = i * 0.1f</code> — one rounding instead of
+ten.</p>
+
+<p><b>3. Never store money in a float.</b> Cents are hundredths; a hundred is
+2 × 2 × 5 × 5; the 5s mean nearly every price you can write is unrepresentable.
+Add up a million transactions and the drift is real money that a real auditor
+will ask you about. Store money as an integer count of cents, or a decimal
+type. This is not superstition — it is the terminating-fraction rule from ten
+minutes ago.</p>
+
+<p><b>4. Subtracting near-equal numbers destroys your accuracy.</b> This one is
+worth its own moment, because it's the one that ruins scientific code
+silently.</p>
+
+<div class="ask">
+<span class="lab">Predict</span>
+<pre><code>float big = 1.0e8f;
+printf("%g\n", (big + 1.0f) - big);</code></pre>
+<p>Algebra says the answer is 1. <b>What does the machine say, and why?</b></p>
+</div>
+
+<details><summary>Zero — and here's the shape of the damage</summary>
+<p>Up at 10<sup>8</sup> the gap between floats is about 8, so
+<code>big + 1</code> can't move — it rounds straight back to
+<code>big</code>. Subtract <code>big</code> and you get <b>0</b>. The
+information about the 1 was destroyed at the moment of the addition, and the
+subtraction just revealed the crater.</p>
+<p>The general form is nastier because it looks fine. Take two doubles that
+agree to twelve digits and subtract them:</p>
+<pre><code>x = 1234567.891234
+y = 1234567.891233
+x - y  =  1.0000076e-06        (the true answer is 1.0e-06)</code></pre>
+<p>Each input carried a relative error around 10<sup>−16</sup> — beautiful.
+But the leading digits cancelled, and the answer is a thousand times smaller
+than the inputs, so <em>the same absolute error is now enormous relative to the
+result</em>. You've lost six digits of accuracy in a single subtraction. This
+is called <b>catastrophic cancellation</b>, and the defence is to rearrange the
+algebra so the near-equal subtraction never happens.</p>
+</details>
+
+<h2><span class="n">The last two bit patterns</span>What to do with the reserved exponents</h2>
+
+<p>One loose end, and you can predict the design. The exponent field is 8 bits,
+so it runs 0 to 255 — but two of those patterns, all-zeros and all-ones, were
+held back and given special meaning.</p>
+
+<div class="ask">
+<span class="lab">You're the designer again</span>
+<p>Your format has to answer <code>1.0/0.0</code>, and it has to answer
+<code>0.0/0.0</code>, and it must never trap or crash — remember rung 0, there
+is nothing there at runtime to catch anything.</p>
+<p><b>What do you do with those two spare exponent patterns?</b></p>
+</div>
+
+<details><summary>Infinity, and the value that isn't a number</summary>
+<p>All-ones exponent with a zero fraction means <b>infinity</b>, signed.
+All-ones with a nonzero fraction means <b>NaN</b> — Not a Number — the result
+of a question with no answer: 0/0, ∞ − ∞, the square root of a negative.</p>
+<pre><code>double inf = 1.0 / 0.0;      ->  inf
+double bad = inf - inf;      ->  nan</code></pre>
+<p>Both are ordinary values. They flow through arithmetic, they get returned
+from functions, they propagate: anything touching a NaN becomes a NaN, so one
+bad input at the start quietly poisons a whole computation to the end. Nothing
+stops. Nothing warns.</p>
+<p>And NaN gets one deliberately strange property:</p>
+<pre><code>nan == nan   ->   false</code></pre>
+<p>It is the only value in C that is not equal to itself. Which sounds like
+sabotage until you see what it buys — it makes the NaN test free, in a language
+that has no exceptions to throw:</p>
+<pre><code>if (x != x) { /* x is NaN */ }</code></pre>
+<p>(All-zeros exponent is the other reserved pattern: it gives you exact zero,
+and the very tiny numbers just below the normal range.)</p>
+</details>
+
+<aside>
+<span class="lab">float or double — the practical answer</span>
+<p><code>float</code> gives you 24 significand bits, about 7 decimal digits.
+<code>double</code> gives you 53, about 16. Your machine's own report:
+<code>FLT_DIG 6, DBL_DIG 15</code> — the digits it will guarantee to round-trip.</p>
+<p><b>Use <code>double</code> unless you have a reason not to.</b> C already
+agrees with you: an unsuffixed constant like <code>3.14</code> is a double, and
+<code>double</code> is what the maths library speaks. Reach for
+<code>float</code> when you have millions of values and memory bandwidth is the
+bottleneck — graphics, audio buffers, neural network weights — which is a
+decision about cache, not about numbers. That's rung 22.</p>
+</aside>
+
+<div class="turn">
+<h2><span class="n">Your turn</span>Six holes to find</h2>
+
+<p>Write your prediction before running each one. The prediction is the
+exercise; the program is only the marking.</p>
+
+<p><b>1.</b> Decode these four bytes by hand — sign, exponent minus 127,
+fraction — then check with <code>memcpy</code> into a float. Remember rung 1:
+they're in memory order.</p>
+<pre><code>00 00 c0 3f</code></pre>
+
+<p><b>2.</b> Use <code>bits()</code> on <code>0.1f</code>, <code>0.2f</code> and
+<code>0.4f</code>. The fraction fields should be nearly identical. Explain in
+one sentence why they are, and what differs.</p>
+
+<p><b>3.</b> Find, with a loop and no arithmetic cleverness, the smallest
+<code>float</code> value of <code>x</code> for which <code>x + 1.0f == x</code>.
+Start at 1 and double. Then explain the number you get without using the
+word "float".</p>
+
+<p><b>4.</b> This one has been shipped to production more than once. What does
+this print, and how would you write it so it terminates?</p>
+<pre><code>for (float x = 0.0f; x != 1.0f; x += 0.1f)
+    printf("%f\n", x);</code></pre>
+<p class="mutenote">Don't run it without a way to stop it — Ctrl-C.</p>
+
+<p><b>5.</b> A shop's till adds up 100 items priced at <code>0.10</code> each,
+as a <code>double</code>, and compares the total to <code>10.00</code> with
+<code>==</code>. Predict whether it matches. Then predict what happens for
+<code>0.25</code> each, and say <em>why the two cases differ</em> before you
+run them.</p>
+
+<p><b>6.</b> The architect's question. You're storing GPS coordinates —
+latitude and longitude in degrees — and you need about one metre of resolution.
+One degree of latitude is roughly 111 km. A colleague writes
+<code>float lat;</code>. <b>Is that enough?</b> Compute the gap between floats
+near 45.0 and turn it into metres before you answer. Then say what you'd
+use.</p>
+
+<details><summary>Check yourself — after all six are written down</summary>
+<p><b>1.</b> In memory order <code>00 00 c0 3f</code> is little-endian, so the
+number is <code>0x3fc00000</code>: sign 0, exponent field <code>01111111</code>
+= 127 → 2<sup>0</sup>, fraction <code>100…</code> → <code>1.1</code> binary =
+1.5. Answer: <b>1.5</b>.</p>
+
+<p><b>2.</b> Identical fraction fields, exponents one apart:</p>
+<pre><code>0.1f   0 01111011 10011001100110011001101
+0.2f   0 01111100 10011001100110011001101
+0.4f   0 01111101 10011001100110011001101</code></pre>
+<p>Doubling a number in binary changes only where the point sits, not the
+digits — exactly as doubling in decimal would if the base were 2. So the
+significand is untouched and only the exponent moves. Which also tells you
+<code>0.2f == 2 * 0.1f</code> is <em>true</em>: multiplying by two is exact, it
+just increments the exponent.</p>
+
+<p><b>3.</b> <code>16777216</code>. Without the word float: it's 2<sup>24</sup>,
+the point where you have used up all 24 bits of your significand on the whole
+part, so the next value you can name is two away, and one is no longer a
+distance the format can express.</p>
+
+<p><b>4.</b> It never stops. <code>0.1f</code> is slightly above one tenth, so
+the drift is upward and the tenth step overshoots — watch the last two values
+printed:</p>
+<pre><code>0.0000000 0.1000000 ... 0.7000000 0.8000001 0.9000001 1.0000001</code></pre>
+<p><code>x</code> steps from 0.9000001 straight to 1.0000001 and never touches
+1.0, so <code>x != 1.0f</code> stays true and the loop runs off toward infinity
+printing forever. Fix it by counting in integers:</p>
+<pre><code>for (int i = 0; i &lt; 10; i++) {
+    float x = i * 0.1f;
+    printf("%f\n", x);
+}</code></pre>
+<p>Note the second virtue of this version, beyond terminating: each
+<code>x</code> is one rounding away from the truth instead of <code>i</code>
+roundings deep.</p>
+
+<p><b>5.</b> The 0.10 case fails; the 0.25 case matches exactly. 0.25 is ¼ — a
+power of two in the denominator, so it is stored exactly, and sums of it are
+exact until you exceed 2<sup>53</sup>. 0.10 has a 5 in its denominator, so it
+is stored as a near neighbour and a hundred additions accumulate a hundred
+roundings. Both results are perfectly predictable; neither is a bug in the
+machine.</p>
+
+<p><b>6.</b> Not enough, and it's the kind of thing that ships. Near 45.0 the
+exponent is 5 (32 ≤ 45 &lt; 64), so the gap is 2<sup>5</sup> × 2<sup>−23</sup>
+= 2<sup>−18</sup> ≈ 0.0000038 degrees. Times 111 km per degree is about
+<b>0.42 metres</b>. So a single stored coordinate is borderline — it happens to
+squeak under a metre — but you have no headroom at all, and the moment you do
+arithmetic on it (differences between points, a running sum, a projection) the
+roundings compound past a metre immediately. And the same float at longitude
+120 has twice the gap. Use <code>double</code>: near 45 its gap is about
+7 × 10<sup>−15</sup> degrees, under a nanometre, and the question never comes
+up again. <em>The general habit: don't ask "is float precise enough for this
+number?" — compute the gap at the magnitudes you'll actually hold, and compare
+it to the resolution you need.</em></p>
+</details>
+</div>
+
+<div class="end">
+<p><b>Before you move on.</b> This lesson will have felt clear, which is
+exactly the danger — reading a derivation feels like owning it, and it isn't
+the same thing. So test it cold, tomorrow, with nothing open: <em>explain why
+0.1 + 0.2 ≠ 0.3 without saying "rounding error"</em>. If your explanation
+doesn't pass through <em>which fractions terminate in base two</em> and
+<em>a fixed number of bits means finitely many values</em>, you have the slogan
+and not the model. Go back to the doubling table and derive 0.1's bits again by
+hand.</p>
+<p>And keep the one sentence: <b>precision is relative, not absolute.</b> Every
+rule in the second half of this lesson is that sentence in disguise, and you
+should be able to unmask any of them.</p>
+<p>Next rung: <em>the contract has holes.</em> You've now met two kinds of
+arithmetic that surprised you — unsigned wraparound in rung 1, which the
+standard <em>defines</em> and guarantees, and float rounding here, which IEEE
+754 defines to the last bit. Next we go looking at the cases C refuses to
+define at all — where the standard says not "here is the answer" but "there is
+no answer, and your program may do anything whatsoever." That turns out to be
+why C is fast.</p>
+</div>
+
+</div></body></html>
